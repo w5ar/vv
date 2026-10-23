@@ -3668,6 +3668,166 @@
   {
     "code": "mapping.role-mismatch",
     "severity": "info",
+    "message": "Korak navalna-razdjelnica: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-14.exercise.json"
+    },
+    "subjectId": "navalna-razdjelnica"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak prvi-mlaz-zapovijed: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-14.exercise.json"
+    },
+    "subjectId": "prvi-mlaz-zapovijed"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak prvi-mlaz: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-14.exercise.json"
+    },
+    "subjectId": "prvi-mlaz"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak prvi-mlaz-mm: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne, role.clan-vodne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-14.exercise.json"
+    },
+    "subjectId": "prvi-mlaz-mm"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak prvi-mlaz-v1: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-14.exercise.json"
+    },
+    "subjectId": "prvi-mlaz-v1"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak prvi-mlaz-predaja: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-14.exercise.json"
+    },
+    "subjectId": "prvi-mlaz-predaja"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak vodna-mjesta: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-14.exercise.json"
+    },
+    "subjectId": "vodna-mjesta"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak pjenu-daj: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-14.exercise.json"
+    },
+    "subjectId": "pjenu-daj"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak vodom-stoj: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-14.exercise.json"
+    },
+    "subjectId": "vodom-stoj"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak pjenom-stoj: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-14.exercise.json"
+    },
+    "subjectId": "pjenom-stoj"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak zatvaranje-prvog: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-14.exercise.json"
+    },
+    "subjectId": "zatvaranje-prvog"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak posprema-n1: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-14.exercise.json"
+    },
+    "subjectId": "posprema-n1"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak zbor: zapovijed „Odjeljenje – zbor!” (act.zbor) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-14.exercise.json"
+    },
+    "subjectId": "zbor"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak drugi-mlaz-zapovijed: zapovijed „Za drugi mlaz s dvije „C” cijevi pravac …. naprijed!” (act.drugi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-14.exercise.json"
+    },
+    "subjectId": "drugi-mlaz-zapovijed"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak drugi-stoj: zapovijed „Drugi mlaz – vodom stoj!” (act.vodom-stoj-drugi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-14.exercise.json"
+    },
+    "subjectId": "drugi-stoj"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak zatvaranje-drugog: zapovijed „Vodom stoj!” (act.z-vodom-stoj) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-14.exercise.json"
+    },
+    "subjectId": "zatvaranje-drugog"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
     "message": "Korak b-vod: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka.",
     "stage": "F",
     "source": {

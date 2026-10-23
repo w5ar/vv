@@ -19930,8 +19930,10 @@
         "diagramRefs": [
           "09-Vjezba-9.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-14-pjena-izolacijski-aparati/zbor"
+        ],
+        "status": "mapped"
       },
       {
         "id": "14-vjezba-14#2-7-6-vjezba-14-vjezba-s-1-mlazom-pjene-1-mlazom-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-i-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4",
@@ -19954,8 +19956,10 @@
         "diagramRefs": [
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-14-pjena-izolacijski-aparati/istupanje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "14-vjezba-14#2-7-6-vjezba-14-vjezba-s-1-mlazom-pjene-1-mlazom-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-i-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5",
@@ -19972,8 +19976,10 @@
         "roleMentions": [],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-14-pjena-izolacijski-aparati/zapovijed-za-navalu"
+        ],
+        "status": "mapped"
       },
       {
         "id": "14-vjezba-14#2-7-6-vjezba-14-vjezba-s-1-mlazom-pjene-1-mlazom-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-i-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p6",
@@ -20012,8 +20018,15 @@
           "01-Vjezba-1.md",
           "13-Vjezba-13.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-14-pjena-izolacijski-aparati/vodna-oprema",
+          "vjezba-14-pjena-izolacijski-aparati/strojar-kod-pumpe",
+          "vjezba-14-pjena-izolacijski-aparati/polaganje-b-prva",
+          "vjezba-14-pjena-izolacijski-aparati/polaganje-b-druga",
+          "vjezba-14-pjena-izolacijski-aparati/vodna-oprema-prvi",
+          "vjezba-14-pjena-izolacijski-aparati/vodna-do-kraja-b"
+        ],
+        "status": "mapped"
       },
       {
         "id": "14-vjezba-14#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p2",
@@ -20037,8 +20050,12 @@
         "diagramRefs": [
           "11-Vjezba-11.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-14-pjena-izolacijski-aparati/opremanje-ia",
+          "vjezba-14-pjena-izolacijski-aparati/navalna-razdjelnica",
+          "vjezba-14-pjena-izolacijski-aparati/zapovjednik-pjenilo"
+        ],
+        "status": "mapped"
       },
       {
         "id": "14-vjezba-14#polaganje-prvog-mlaza-pjene-u-navalnom-sektoru/p1",
@@ -20063,8 +20080,10 @@
           "src.zapovjednik"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-14-pjena-izolacijski-aparati/prvi-mlaz-zapovijed"
+        ],
+        "status": "mapped"
       },
       {
         "id": "14-vjezba-14#polaganje-prvog-mlaza-pjene-u-navalnom-sektoru/p2",
@@ -20086,8 +20105,10 @@
           "src.zapovjednik"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-14-pjena-izolacijski-aparati/prvi-mlaz"
+        ],
+        "status": "mapped"
       },
       {
         "id": "14-vjezba-14#polaganje-prvog-mlaza-pjene-u-navalnom-sektoru/p3",
@@ -20114,8 +20135,11 @@
         "diagramRefs": [
           "13-Vjezba-13.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-14-pjena-izolacijski-aparati/prvi-mlaz-mm",
+          "vjezba-14-pjena-izolacijski-aparati/prvi-mlaz-v1"
+        ],
+        "status": "mapped"
       },
       {
         "id": "14-vjezba-14#polaganje-prvog-mlaza-pjene-u-navalnom-sektoru/p4",
@@ -20140,8 +20164,13 @@
           "src.v2"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-14-pjena-izolacijski-aparati/prvi-mlaz-predaja",
+          "vjezba-14-pjena-izolacijski-aparati/vodna-mjesta",
+          "vjezba-14-pjena-izolacijski-aparati/pjenu-daj",
+          "vjezba-14-pjena-izolacijski-aparati/posluzivanje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "14-vjezba-14#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1",
@@ -20165,8 +20194,12 @@
         "diagramRefs": [
           "10-Vjezba-10.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-14-pjena-izolacijski-aparati/voda-do-razdjelnice",
+          "vjezba-14-pjena-izolacijski-aparati/strojar-nastavak",
+          "vjezba-14-pjena-izolacijski-aparati/strojar-b-hidrant"
+        ],
+        "status": "mapped"
       },
       {
         "id": "14-vjezba-14#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
@@ -20186,8 +20219,17 @@
         "diagramRefs": [
           "13-Vjezba-13.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-14-pjena-izolacijski-aparati/drugi-mlaz-zapovijed",
+          "vjezba-14-pjena-izolacijski-aparati/drugi-mlaz-predaja",
+          "vjezba-14-pjena-izolacijski-aparati/drugi-mlaz-oprema",
+          "vjezba-14-pjena-izolacijski-aparati/drugi-mlaz-v2",
+          "vjezba-14-pjena-izolacijski-aparati/drugi-mlaz-v1-mlaznica",
+          "vjezba-14-pjena-izolacijski-aparati/drugi-mlaz-v2-luk",
+          "vjezba-14-pjena-izolacijski-aparati/drugi-mlaz-vodu-daj",
+          "vjezba-14-pjena-izolacijski-aparati/drugi-mlaz-potvrda"
+        ],
+        "status": "mapped"
       },
       {
         "id": "14-vjezba-14#pospremanje-opreme/p1",
@@ -20212,8 +20254,12 @@
         "diagramRefs": [
           "13-Vjezba-13.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-14-pjena-izolacijski-aparati/vodom-stoj",
+          "vjezba-14-pjena-izolacijski-aparati/pjenom-stoj",
+          "vjezba-14-pjena-izolacijski-aparati/zatvaranje-prvog"
+        ],
+        "status": "mapped"
       },
       {
         "id": "14-vjezba-14#pospremanje-opreme/p2",
@@ -20235,8 +20281,10 @@
           "src.v1"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-14-pjena-izolacijski-aparati/drugi-stoj"
+        ],
+        "status": "mapped"
       },
       {
         "id": "14-vjezba-14#pospremanje-opreme/p3",
@@ -20261,8 +20309,15 @@
           "01-Vjezba-1.md",
           "13-Vjezba-13.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-14-pjena-izolacijski-aparati/zatvaranje-drugog",
+          "vjezba-14-pjena-izolacijski-aparati/posprema",
+          "vjezba-14-pjena-izolacijski-aparati/posprema-n1",
+          "vjezba-14-pjena-izolacijski-aparati/posprema-zapovjednik",
+          "vjezba-14-pjena-izolacijski-aparati/posprema-pjenilo",
+          "vjezba-14-pjena-izolacijski-aparati/skidanje-ia"
+        ],
+        "status": "mapped"
       },
       {
         "id": "14-vjezba-14#pospremanje-opreme/p4",
@@ -20282,8 +20337,16 @@
         "diagramRefs": [
           "11-Vjezba-11.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-14-pjena-izolacijski-aparati/posprema-drugi",
+          "vjezba-14-pjena-izolacijski-aparati/posprema-drugi-motanje",
+          "vjezba-14-pjena-izolacijski-aparati/posprema-drugi-odnosenje",
+          "vjezba-14-pjena-izolacijski-aparati/posprema-prvi-motanje",
+          "vjezba-14-pjena-izolacijski-aparati/posprema-prvi-odnosenje",
+          "vjezba-14-pjena-izolacijski-aparati/posprema-b",
+          "vjezba-14-pjena-izolacijski-aparati/posprema-b-motanje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "14-vjezba-14#pospremanje-opreme/p5",
@@ -20307,8 +20370,10 @@
         "diagramRefs": [
           "08-Vjezba-8.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-14-pjena-izolacijski-aparati/posprema-strojar"
+        ],
+        "status": "mapped"
       },
       {
         "id": "14-vjezba-14#pospremanje-opreme/p6",
@@ -20328,8 +20393,15 @@
         "diagramRefs": [
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-14-pjena-izolacijski-aparati/navalna-u-stroj",
+          "vjezba-14-pjena-izolacijski-aparati/strojar-u-stroj",
+          "vjezba-14-pjena-izolacijski-aparati/pregled-opreme",
+          "vjezba-14-pjena-izolacijski-aparati/prijavak",
+          "vjezba-14-pjena-izolacijski-aparati/na-svoje-mjesto",
+          "vjezba-14-pjena-izolacijski-aparati/zavrsetak"
+        ],
+        "status": "mapped"
       }
     ],
     "roleMentions": [

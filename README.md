@@ -31,7 +31,8 @@ screen) button that shows the scene with its panels over the whole screen.
 | **Vježba 11 – Vježba s 2 „C” mlaza vode, navalna grupa oprema se izolacijskim aparatima, opskrba vodom iz hidrantske mreže (6 vatrogasaca)** | `content/source/11-Vjezba-11.md`, sketches 62–64 | 6 stages, 50 steps; the vodna grupa lays the „B” line and the first jet and hands the nozzle to the navalna grupa, which wears breathing apparatus |
 | **Vježba 12 – Vježba s 1 „B” i 1 „C” mlazom vode, opskrba vodom iz hidrantske mreže (6 vatrogasaca)** | `content/source/12-Vjezba-12.md`, sketches 65–67 | 6 stages, 45 steps; as Vježba 10, but the first jet is a „B” jet from the middle outlet of the distributor |
 | **Vježba 13 – Vježba s 1 mlazom pjene i 1 „C” mlazom vode, opskrba vodom iz hidrantske mreže (6 vatrogasaca)** | `content/source/13-Vjezba-13.md`, sketches 68–70 | 6 stages, 52 steps; foam jet from the middle outlet (B/C adapter, inductor after the first „C” hose, foam container); the vodna grupa serves distributor and inductor, then lays the second jet |
-| Vježbe 14–15 | `content/source/14-Vjezba-14.md`, `15-Vjezba-15.md`, sketches 71–77 | vendored and analysed (Pregled uvoza); not yet converted |
+| **Vježba 14 – Vježba s 1 mlazom pjene, 1 mlazom vode, navalna grupa oprema se izolacijskim aparatima i opskrba vodom iz hidrantske mreže (6 vatrogasaca)** | `content/source/14-Vjezba-14.md`, sketches 71–73 | 6 stages, 55 steps; Vježbe 11 and 13 combined: the vodna grupa lays the foam jet, the zapovjednik brings inductor and foam container, the navalna grupa with breathing apparatus takes over the nozzle |
+| Vježba 15 | `content/source/15-Vjezba-15.md`, sketches 74–77 | vendored and analysed (Pregled uvoza); not yet converted |
 | Sintetička vježba 01 | `content/synthetic/` | **synthetic** test fixture, not firefighting practice |
 
 The source materials are a copy of the repository `w5ar/VatrogasneVjezbe` (*Vatrogasni vježbovnik*:

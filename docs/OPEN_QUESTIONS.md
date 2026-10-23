@@ -301,6 +301,21 @@ give the scene a real scale.
 95. **Inductor and container** go into the vehicle with the bag and the keys, carried by the zapovjednik
     (Vj13 78); slike 43–45 (photographs) show the same moments as skice 68–70 and are not compared.
 
+## Vježba 14 — mlaz pjene, izolacijski aparati (Vj14 = `content/source/14-Vjezba-14.md`)
+
+96. **Equipment**: as in Vježba 13 („uzimaju istu opremu kao navalna grupa u vježbi 13”, Vj14 26), plus the two
+    breathing apparatus (marked `derived`).
+97. **Foam order**: Vj14 does not give N₁'s order after taking over the nozzle; *„Za prvi mlaz – pjenu daj!”*
+    of Vježba 13 is used, and V₁ (on the distributor) confirms and opens the middle valve as in Vježba 13.
+98. **„N₁ obavlja radnje kao u vježbi 13”** (Vj14 74): in Vježba 13 the zapovjednik takes the foam suction tube
+    out of the container and closes the first jet after N₁'s *„Prvi mlaz – pjenom stoj!”*; the simulator shows
+    it so. Does the sentence mean that N₁ does it here?
+99. **Navalna grupa in the pospremanje** is not described in Vj14; it acts as in Vježba 11 (N₁ takes nozzle and
+    holder, both go to the vehicle and take off the apparatus with the zapovjednik's help once the zapovjednik has put
+    away inductor, container, bag and keys).
+100. **Skica 73** is captioned *„…nakon izdane zapovijedi za prvi mlaz”* but shows the second jet (as slika 48,
+    *„…za drugi mlaz”*); the simulator compares it at the end of the second-jet stage.
+
 ## Demonstration sound
 
 26. **Resolved orders**: Vj1 111 quotes *„Prvi, odnosno drugi mlaz – vodom stoj!”* for both leaders;

@@ -43,6 +43,12 @@
       "synthetic": false
     },
     {
+      "id": "vjezba-14-pjena-izolacijski-aparati",
+      "file": "content/exercises/vjezba-14-pjena-izolacijski-aparati.json",
+      "catalogId": "katalog-vjezbovnik",
+      "synthetic": false
+    },
+    {
       "id": "vjezba-2-jedan-c-mlaz",
       "file": "content/exercises/vjezba-2-jedan-c-mlaz.json",
       "catalogId": "katalog-vjezbovnik",
