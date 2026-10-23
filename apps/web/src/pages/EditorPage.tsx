@@ -5,6 +5,7 @@ import type { Vec2 } from '@fds/geometry';
 import { SceneCanvas, SymbolRegistryProvider, SymbolView, type ObjectHighlight, type SceneView } from '@fds/reactflow-renderer';
 import { checkExercise, connectionWorld, createExerciseContext, createInitialState, objectName } from '@fds/simulation-engine';
 import { Badge, ErrorView, IssueList, Loading, Panel, SyntheticBanner } from '../components/common';
+import { FullscreenButton, fullscreenClass, useFullscreen } from '../components/fullscreen';
 import { edits, useEditor } from '../editor/editor-store';
 import { href } from '../router';
 import { connectionTargetHighlights, roleLabelFor } from '../scene-helpers';
@@ -54,6 +55,7 @@ function Palette({ catalog, onAddEquipment, onAddPersonnel }: { catalog: Catalog
 function EditorWorkspace({ catalog, exerciseId }: { catalog: Catalog; exerciseId: string }) {
   const { draft, past, future, dirty, apply, undo, redo, markSaved, discard } = useEditor();
   const [unlocked, setUnlocked] = useState(false);
+  const fs = useFullscreen<HTMLDivElement>();
   const [selectedId, setSelectedId] = useState<Id | null>(null);
   const [selectedConnectionId, setSelectedConnectionId] = useState<Id | null>(null);
   const [connectingFrom, setConnectingFrom] = useState<PortRef | null>(null);
@@ -231,7 +233,7 @@ function EditorWorkspace({ catalog, exerciseId }: { catalog: Catalog; exerciseId
           </button>
         </div>
       </div>
-      <div className="workspace__body">
+      <div ref={fs.ref} className={`workspace__body ${fullscreenClass(fs)}`}>
         <aside className="sidebar sidebar--left">
           <Panel title="Paleta">{unlocked ? <Palette catalog={catalog} onAddEquipment={(typeId) => edit('add', (e) => edits.addEquipment(e, typeId, addAt()))} onAddPersonnel={(roleId, symbolId) => edit('add', (e) => edits.addPersonnel(e, symbolId, roleId, addAt()))} /> : <p className="muted">Omogućite uređivanje za dodavanje objekata.</p>}</Panel>
           <Panel title="Prikaz">
@@ -250,10 +252,11 @@ function EditorWorkspace({ catalog, exerciseId }: { catalog: Catalog; exerciseId
           </Panel>
         </aside>
         <div className="canvas-wrap" data-testid="scene">
+          <FullscreenButton active={fs.active} onToggle={fs.toggle} />
           <SceneCanvas
             view={view}
             fitBounds={draft.initialScene.viewport}
-            fitKey={fitKey}
+            fitKey={`${fitKey}-${fs.active ? 1 : 0}`}
             connectionRadius={ctx.exercise.settings.snapDistance}
             showMiniMap
             onSelectionChange={(s) => {

@@ -5,6 +5,7 @@ import { distance, normalizeAngle, type Vec2 } from '@fds/geometry';
 import { SceneCanvas, SymbolRegistryProvider, type ObjectHighlight, type SceneView } from '@fds/reactflow-renderer';
 import { connectionWorld, evaluateAttempt, type ExerciseContext } from '@fds/simulation-engine';
 import { Badge, ErrorView, IssueList, Loading, Panel, SyntheticBanner } from '../components/common';
+import { FullscreenButton, fullscreenClass, useFullscreen } from '../components/fullscreen';
 import { EventLog, ProgressBar, StepList } from '../components/procedure';
 import { describeEvent } from '../labels';
 import { href } from '../router';
@@ -35,6 +36,7 @@ function FeedbackView({ ctx, state, feedback }: { ctx: ExerciseContext; state: S
 function TrainingWorkspace({ ctx, mode, exerciseId }: { ctx: ExerciseContext; mode: 'training' | 'assessment'; exerciseId: string }) {
   const t = useTrainingSession(ctx);
   const { state } = t;
+  const fs = useFullscreen<HTMLDivElement>();
   const exercise = ctx.exercise;
   const [selectedId, setSelectedId] = useState<Id | null>(null);
   const [selectedConnectionId, setSelectedConnectionId] = useState<Id | null>(null);
@@ -228,11 +230,13 @@ function TrainingWorkspace({ ctx, mode, exerciseId }: { ctx: ExerciseContext; mo
           </a>
         </div>
       </div>
-      <div className="workspace__body">
+      <div ref={fs.ref} className={`workspace__body ${fullscreenClass(fs)}`}>
         <div className={`canvas-wrap ${placingId || layingId ? 'is-placing' : ''}`} data-testid="scene">
+          <FullscreenButton active={fs.active} onToggle={fs.toggle} />
           <SceneCanvas
             view={view}
             fitBounds={exercise.initialScene.viewport}
+            fitKey={fs.active ? 1 : 0}
             connectionRadius={exercise.settings.snapDistance}
             onSelectionChange={(sel) => {
               setSelectedId(sel.objectId);

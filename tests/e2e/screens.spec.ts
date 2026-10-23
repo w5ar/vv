@@ -82,3 +82,23 @@ test('assessment hides the step list, records incorrect operations and reports e
   await expect(result).toContainText('Neispravne radnje');
   await expect(result).toContainText('nisu kompatibilni');
 });
+
+test('on a phone the scene stays visible above the panels and can be shown full screen', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('#/demonstracija/vjezba-1-dva-c-mlaza');
+  const canvas = page.locator('.canvas-wrap .react-flow');
+  await expect(page.getByTestId('object-n1')).toBeVisible();
+  const box = (await canvas.boundingBox())!;
+  expect(box.height).toBeGreaterThan(250);
+  expect(box.width).toBeGreaterThan(340);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);
+
+  const toggle = page.getByTestId('fullscreen-toggle');
+  await toggle.click();
+  await expect(page.locator('.workspace__body')).toHaveClass(/is-fullscreen/);
+  await expect(toggle).toHaveAttribute('aria-pressed', 'true');
+  // The playback controls stay reachable in full screen.
+  await expect(page.getByTestId('play-toggle')).toBeVisible();
+  await toggle.click();
+  await expect(page.locator('.workspace__body')).not.toHaveClass(/is-fullscreen/);
+});

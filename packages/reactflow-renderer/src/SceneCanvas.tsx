@@ -132,12 +132,13 @@ function CanvasInner(props: SceneCanvasProps) {
     else void flow.fitView({ padding: 0.1, duration: 0 });
   }, [flow, props.fitBounds]);
 
-  // Fit once the container has been measured, and again whenever fitKey changes.
+  // Fit once the container has been measured, and again whenever fitKey changes (the container may
+  // still be resizing then, e.g. when entering full screen, so fit again once it has settled).
   const measured = useStore((s) => s.width > 0 && s.height > 0);
   useEffect(() => {
     if (!measured) return;
-    const t = setTimeout(fit, 0);
-    return () => clearTimeout(t);
+    const timers = [0, 200, 500].map((ms) => setTimeout(fit, ms));
+    return () => timers.forEach(clearTimeout);
   }, [fit, measured, props.fitKey]);
 
   return (

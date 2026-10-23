@@ -3,6 +3,7 @@ import type { AudioMode } from '@fds/domain';
 import { SceneCanvas, SymbolRegistryProvider, type ObjectHighlight } from '@fds/reactflow-renderer';
 import { compileTimeline, frameAt, objectName, type ExerciseContext, type Timeline } from '@fds/simulation-engine';
 import { ErrorView, IssueList, Loading, Panel, SyntheticBanner } from '../components/common';
+import { FullscreenButton, fullscreenClass, useFullscreen } from '../components/fullscreen';
 import { ProgressBar, StepList } from '../components/procedure';
 import { describeEvent } from '../labels';
 import { useCuePlayer, useDemoAudio, type DemoAudio } from '../player/useDemoAudio';
@@ -75,6 +76,7 @@ export function PlayerPage({ exerciseId }: { exerciseId: string }) {
   const bundle = useExerciseBundle(exerciseId);
   const ready = bundle.status === 'ready' ? bundle : null;
   const audio = useDemoAudio(ready?.exercise ?? null);
+  const fs = useFullscreen<HTMLDivElement>();
   const [mode, setMode] = useState<AudioMode>('none');
   const timeline = useMemo(() => {
     if (!ready) return null;
@@ -182,9 +184,10 @@ export function PlayerPage({ exerciseId }: { exerciseId: string }) {
             <IssueList items={timeline.problems.flatMap((p) => p.issues)} />
           </div>
         ) : null}
-        <div className="workspace__body">
+        <div ref={fs.ref} className={`workspace__body ${fullscreenClass(fs)}`}>
           <div className="canvas-wrap" data-testid="scene">
-            <SceneCanvas view={view} fitBounds={exercise.initialScene.viewport} />
+            <SceneCanvas view={view} fitBounds={exercise.initialScene.viewport} fitKey={fs.active ? 1 : 0} />
+            <FullscreenButton active={fs.active} onToggle={fs.toggle} />
             <div className="caption-overlay" aria-live="polite" data-testid="captions">
               {captions.map((c, i) => (
                 <div key={i}>{c}</div>

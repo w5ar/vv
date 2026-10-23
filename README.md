@@ -10,7 +10,9 @@ One exercise definition drives three modes:
 | Assessment | *Provjera znanja* | Same rules, no hints; records actions, order, incorrect operations and time, then evaluates exercise-defined criteria. |
 
 Plus an **exercise library**, **symbol catalog**, **scene editor** (undo/redo) and **import review** screen.
-The UI is in Croatian; code, identifiers and technical documentation are in English.
+The UI is in Croatian; code, identifiers and technical documentation are in English. The layout adapts
+to tablets and phones (the scene above its panels), and every scene has a **Cijeli zaslon** (full
+screen) button that shows the scene with its panels over the whole screen.
 
 ## Exercises
 

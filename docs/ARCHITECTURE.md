@@ -215,6 +215,11 @@ the world position of the symbol pivot (default: symbol centre).
 ## Web application
 
 - Hash router, Zustand stores, Croatian labels in `apps/web/src/labels.ts`.
+- Responsive layout: below 1100 px the panels stack under the scene, which then has an explicit
+  height; below 720 px the header, headings and tables are compacted (wide tables scroll sideways).
+  `useFullscreen` (`components/fullscreen.tsx`) shows the workspace body full screen with the
+  Fullscreen API, or as a fixed overlay where the browser does not support it for elements
+  (Safari on iPhone); the scene is fitted again when it changes.
 - `BundledContentRepository` implements the domain `ContentRepository` with Vite lazy imports of
   `content/exercises/**` and SVG assets; all JSON is validated with Zod at load time and invalid
   files show diagnostics instead of crashing.
