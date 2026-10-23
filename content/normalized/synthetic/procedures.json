@@ -1,0 +1,585 @@
+[
+  {
+    "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+    "title": "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+    "synthetic": true,
+    "sections": [
+      {
+        "id": "uvod",
+        "heading": "",
+        "level": 0,
+        "line": 1,
+        "path": [],
+        "paragraphs": [],
+        "listItems": []
+      },
+      {
+        "id": "sinteticka-vjezba-01-postavljanje-sintetickog-voda-s-dvije-mlaznice",
+        "heading": "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+        "level": 1,
+        "line": 1,
+        "path": [
+          "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice"
+        ],
+        "paragraphs": [
+          {
+            "text": "> **SINTETIČKI PRIMJER.** Ovaj dokument izrađen je isključivo za testiranje simulatora.\n> Ne opisuje stvarni vatrogasni postupak, doktrinu ni sigurnosna pravila i ne smije se koristiti u obuci.",
+            "line": 3
+          }
+        ],
+        "listItems": []
+      },
+      {
+        "id": "svrha",
+        "heading": "Svrha",
+        "level": 2,
+        "line": 6,
+        "path": [
+          "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+          "Svrha"
+        ],
+        "paragraphs": [
+          {
+            "text": "Provjera rada simulatora: kretanje osoblja, nošenje i odlaganje opreme, spajanje priključaka,\nproceduralne radnje i redoslijed koraka u dvije faze.",
+            "line": 8
+          }
+        ],
+        "listItems": []
+      },
+      {
+        "id": "sudionici-i-uloge",
+        "heading": "Sudionici i uloge",
+        "level": 2,
+        "line": 11,
+        "path": [
+          "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+          "Sudionici i uloge"
+        ],
+        "paragraphs": [],
+        "listItems": [
+          {
+            "text": "**Voditelj** – daje znak za početak i znak za otvaranje mlaznica.",
+            "line": 13,
+            "ordered": false
+          },
+          {
+            "text": "**Član 1** – postavlja razdjelnik i prvu granu s mlaznicom.",
+            "line": 14,
+            "ordered": false
+          },
+          {
+            "text": "**Član 2** – polaže veliku cijev i postavlja drugu granu s mlaznicom.",
+            "line": 15,
+            "ordered": false
+          }
+        ]
+      },
+      {
+        "id": "oprema",
+        "heading": "Oprema",
+        "level": 2,
+        "line": 17,
+        "path": [
+          "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+          "Oprema"
+        ],
+        "paragraphs": [],
+        "listItems": [
+          {
+            "text": "Vozilo (sintetičko) s dva izlazna priključka",
+            "line": 19,
+            "ordered": false
+          },
+          {
+            "text": "Cijev s velikim spojem (1 kom)",
+            "line": 20,
+            "ordered": false
+          },
+          {
+            "text": "Razdjelnik (1 kom)",
+            "line": 21,
+            "ordered": false
+          },
+          {
+            "text": "Cijev s malim spojem (2 kom)",
+            "line": 22,
+            "ordered": false
+          },
+          {
+            "text": "Mlaznica (2 kom)",
+            "line": 23,
+            "ordered": false
+          },
+          {
+            "text": "Oznaka cilja",
+            "line": 24,
+            "ordered": false
+          }
+        ]
+      },
+      {
+        "id": "tijek-vjezbe",
+        "heading": "Tijek vježbe",
+        "level": 2,
+        "line": 26,
+        "path": [
+          "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+          "Tijek vježbe"
+        ],
+        "paragraphs": [
+          {
+            "text": "Raspored po fazama prikazan je na crtežu:",
+            "line": 28
+          },
+          {
+            "text": "![Faze sintetičke vježbe](../diagrams/sinteticka-vjezba-01-faze.svg)",
+            "line": 30
+          }
+        ],
+        "listItems": []
+      },
+      {
+        "id": "faza-1-postavljanje-razdjelnika-i-velike-cijevi",
+        "heading": "Faza 1 – Postavljanje razdjelnika i velike cijevi",
+        "level": 3,
+        "line": 32,
+        "path": [
+          "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+          "Tijek vježbe",
+          "Faza 1 – Postavljanje razdjelnika i velike cijevi"
+        ],
+        "paragraphs": [],
+        "listItems": [
+          {
+            "text": "Voditelj daje znak za početak vježbe.",
+            "line": 34,
+            "ordered": true
+          },
+          {
+            "text": "Član 1 uzima razdjelnik i postavlja ga na označeno mjesto razdjelnika.",
+            "line": 35,
+            "ordered": true
+          },
+          {
+            "text": "Član 2 uzima cijev s velikim spojem, polaže je i spaja na prvi izlaz vozila.",
+            "line": 36,
+            "ordered": true
+          },
+          {
+            "text": "Član 2 spaja slobodni kraj velike cijevi na ulaz razdjelnika.",
+            "line": 37,
+            "ordered": true
+          }
+        ]
+      },
+      {
+        "id": "faza-2-postavljanje-mlaznica",
+        "heading": "Faza 2 – Postavljanje mlaznica",
+        "level": 3,
+        "line": 39,
+        "path": [
+          "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+          "Tijek vježbe",
+          "Faza 2 – Postavljanje mlaznica"
+        ],
+        "paragraphs": [
+          {
+            "text": "Koraci 5. i 6. mogu se izvoditi istodobno ili bilo kojim redoslijedom.",
+            "line": 46
+          }
+        ],
+        "listItems": [
+          {
+            "text": "Član 1 uzima cijev s malim spojem i mlaznicu, spaja cijev na razdjelnik i postavlja mlaznicu u ciljno područje.",
+            "line": 41,
+            "ordered": true
+          },
+          {
+            "text": "Član 2 uzima drugu cijev s malim spojem i mlaznicu, spaja cijev na razdjelnik i postavlja mlaznicu u ciljno područje.",
+            "line": 42,
+            "ordered": true
+          },
+          {
+            "text": "Član 1 ili Član 2 javlja spremnost voditelju.",
+            "line": 43,
+            "ordered": true
+          },
+          {
+            "text": "Voditelj daje znak za otvaranje, a članovi otvaraju mlaznice.",
+            "line": 44,
+            "ordered": true
+          }
+        ]
+      },
+      {
+        "id": "napomene",
+        "heading": "Napomene",
+        "level": 2,
+        "line": 48,
+        "path": [
+          "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+          "Napomene"
+        ],
+        "paragraphs": [],
+        "listItems": [
+          {
+            "text": "Mjesto razdjelnika i ciljno područje označeni su na crtežu faza.",
+            "line": 50,
+            "ordered": false
+          },
+          {
+            "text": "Sve vrijednosti udaljenosti u simulatoru tehničke su pretpostavke, a ne propisi.",
+            "line": 51,
+            "ordered": false
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "id": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/1",
+        "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+        "sectionId": "faza-1-postavljanje-razdjelnika-i-velike-cijevi",
+        "sectionPath": [
+          "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+          "Tijek vježbe",
+          "Faza 1 – Postavljanje razdjelnika i velike cijevi"
+        ],
+        "number": 1,
+        "text": "Voditelj daje znak za početak vježbe.",
+        "line": 34,
+        "lineEnd": 34,
+        "roleMentions": [
+          "role.voditelj"
+        ],
+        "equipmentMentions": [],
+        "diagramRefs": [],
+        "mappedTo": [
+          "sinteticka-vjezba-01/korak-1"
+        ],
+        "status": "mapped"
+      },
+      {
+        "id": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/2",
+        "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+        "sectionId": "faza-1-postavljanje-razdjelnika-i-velike-cijevi",
+        "sectionPath": [
+          "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+          "Tijek vježbe",
+          "Faza 1 – Postavljanje razdjelnika i velike cijevi"
+        ],
+        "number": 2,
+        "text": "Član 1 uzima razdjelnik i postavlja ga na označeno mjesto razdjelnika.",
+        "line": 35,
+        "lineEnd": 35,
+        "roleMentions": [
+          "role.clan-1"
+        ],
+        "equipmentMentions": [
+          "syn.razdjelnik"
+        ],
+        "diagramRefs": [],
+        "mappedTo": [
+          "sinteticka-vjezba-01/korak-2"
+        ],
+        "status": "mapped"
+      },
+      {
+        "id": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/3",
+        "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+        "sectionId": "faza-1-postavljanje-razdjelnika-i-velike-cijevi",
+        "sectionPath": [
+          "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+          "Tijek vježbe",
+          "Faza 1 – Postavljanje razdjelnika i velike cijevi"
+        ],
+        "number": 3,
+        "text": "Član 2 uzima cijev s velikim spojem, polaže je i spaja na prvi izlaz vozila.",
+        "line": 36,
+        "lineEnd": 36,
+        "roleMentions": [
+          "role.clan-2"
+        ],
+        "equipmentMentions": [
+          "syn.vozilo",
+          "syn.cijev-velika"
+        ],
+        "diagramRefs": [],
+        "mappedTo": [
+          "sinteticka-vjezba-01/korak-3"
+        ],
+        "status": "mapped"
+      },
+      {
+        "id": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/4",
+        "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+        "sectionId": "faza-1-postavljanje-razdjelnika-i-velike-cijevi",
+        "sectionPath": [
+          "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+          "Tijek vježbe",
+          "Faza 1 – Postavljanje razdjelnika i velike cijevi"
+        ],
+        "number": 4,
+        "text": "Član 2 spaja slobodni kraj velike cijevi na ulaz razdjelnika.",
+        "line": 37,
+        "lineEnd": 37,
+        "roleMentions": [
+          "role.clan-2"
+        ],
+        "equipmentMentions": [
+          "syn.cijev-velika",
+          "syn.razdjelnik"
+        ],
+        "diagramRefs": [],
+        "mappedTo": [
+          "sinteticka-vjezba-01/korak-4"
+        ],
+        "status": "mapped"
+      },
+      {
+        "id": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/5",
+        "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+        "sectionId": "faza-2-postavljanje-mlaznica",
+        "sectionPath": [
+          "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+          "Tijek vježbe",
+          "Faza 2 – Postavljanje mlaznica"
+        ],
+        "number": 5,
+        "text": "Član 1 uzima cijev s malim spojem i mlaznicu, spaja cijev na razdjelnik i postavlja mlaznicu u ciljno područje.",
+        "line": 41,
+        "lineEnd": 41,
+        "roleMentions": [
+          "role.clan-1"
+        ],
+        "equipmentMentions": [
+          "syn.cijev-mala",
+          "syn.razdjelnik",
+          "syn.mlaznica"
+        ],
+        "diagramRefs": [],
+        "mappedTo": [
+          "sinteticka-vjezba-01/korak-5"
+        ],
+        "status": "mapped"
+      },
+      {
+        "id": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/6",
+        "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+        "sectionId": "faza-2-postavljanje-mlaznica",
+        "sectionPath": [
+          "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+          "Tijek vježbe",
+          "Faza 2 – Postavljanje mlaznica"
+        ],
+        "number": 6,
+        "text": "Član 2 uzima drugu cijev s malim spojem i mlaznicu, spaja cijev na razdjelnik i postavlja mlaznicu u ciljno područje.",
+        "line": 42,
+        "lineEnd": 42,
+        "roleMentions": [
+          "role.clan-2"
+        ],
+        "equipmentMentions": [
+          "syn.cijev-mala",
+          "syn.razdjelnik",
+          "syn.mlaznica"
+        ],
+        "diagramRefs": [],
+        "mappedTo": [
+          "sinteticka-vjezba-01/korak-6"
+        ],
+        "status": "mapped"
+      },
+      {
+        "id": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/7",
+        "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+        "sectionId": "faza-2-postavljanje-mlaznica",
+        "sectionPath": [
+          "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+          "Tijek vježbe",
+          "Faza 2 – Postavljanje mlaznica"
+        ],
+        "number": 7,
+        "text": "Član 1 ili Član 2 javlja spremnost voditelju.",
+        "line": 43,
+        "lineEnd": 43,
+        "roleMentions": [
+          "role.voditelj",
+          "role.clan-1",
+          "role.clan-2"
+        ],
+        "equipmentMentions": [],
+        "diagramRefs": [],
+        "mappedTo": [
+          "sinteticka-vjezba-01/korak-7"
+        ],
+        "status": "mapped"
+      },
+      {
+        "id": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/8",
+        "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+        "sectionId": "faza-2-postavljanje-mlaznica",
+        "sectionPath": [
+          "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+          "Tijek vježbe",
+          "Faza 2 – Postavljanje mlaznica"
+        ],
+        "number": 8,
+        "text": "Voditelj daje znak za otvaranje, a članovi otvaraju mlaznice.",
+        "line": 44,
+        "lineEnd": 44,
+        "roleMentions": [
+          "role.voditelj"
+        ],
+        "equipmentMentions": [
+          "syn.mlaznica"
+        ],
+        "diagramRefs": [],
+        "mappedTo": [
+          "sinteticka-vjezba-01/korak-8"
+        ],
+        "status": "mapped"
+      }
+    ],
+    "roleMentions": [
+      {
+        "roleId": "role.voditelj",
+        "term": "voditelj",
+        "lines": [
+          13,
+          34,
+          44
+        ]
+      },
+      {
+        "roleId": "role.voditelj",
+        "term": "voditelju",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "roleId": "role.clan-1",
+        "term": "član 1",
+        "lines": [
+          14,
+          35,
+          41,
+          43
+        ]
+      },
+      {
+        "roleId": "role.clan-2",
+        "term": "član 2",
+        "lines": [
+          15,
+          36,
+          37,
+          42,
+          43
+        ]
+      }
+    ],
+    "equipmentMentions": [
+      {
+        "symbolId": "syn.vozilo",
+        "term": "vozilo",
+        "lines": [
+          19
+        ]
+      },
+      {
+        "symbolId": "syn.vozilo",
+        "term": "vozila",
+        "lines": [
+          36
+        ]
+      },
+      {
+        "symbolId": "syn.cijev-velika",
+        "term": "cijev s velikim spojem",
+        "lines": [
+          20,
+          36
+        ]
+      },
+      {
+        "symbolId": "syn.cijev-velika",
+        "term": "velike cijevi",
+        "lines": [
+          32,
+          37
+        ]
+      },
+      {
+        "symbolId": "syn.cijev-mala",
+        "term": "cijev s malim spojem",
+        "lines": [
+          22,
+          41,
+          42
+        ]
+      },
+      {
+        "symbolId": "syn.razdjelnik",
+        "term": "razdjelnik",
+        "lines": [
+          14,
+          21,
+          35,
+          41,
+          42
+        ]
+      },
+      {
+        "symbolId": "syn.razdjelnik",
+        "term": "razdjelnika",
+        "lines": [
+          32,
+          35,
+          37,
+          50
+        ]
+      },
+      {
+        "symbolId": "syn.mlaznica",
+        "term": "mlaznica",
+        "lines": [
+          13,
+          23,
+          39
+        ]
+      },
+      {
+        "symbolId": "syn.mlaznica",
+        "term": "mlaznicu",
+        "lines": [
+          41,
+          42
+        ]
+      },
+      {
+        "symbolId": "syn.mlaznica",
+        "term": "mlaznice",
+        "lines": [
+          1,
+          44
+        ]
+      },
+      {
+        "symbolId": "syn.oznaka-cilja",
+        "term": "oznaka cilja",
+        "lines": [
+          24
+        ]
+      }
+    ],
+    "diagramRefs": [
+      {
+        "target": "../diagrams/sinteticka-vjezba-01-faze.svg",
+        "line": 30,
+        "resolvedFile": "content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg"
+      }
+    ]
+  }
+]

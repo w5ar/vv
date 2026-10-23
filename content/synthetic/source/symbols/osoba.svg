@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" data-synthetic="true">
+  <title>Osoba (sintetička)</title>
+  <desc>SINTETIČKI SIMBOL osobe. Strelica označava smjer gledanja. Nije standardizirani simbol.</desc>
+  <g id="osoba">
+    <circle id="tijelo" cx="16" cy="16" r="12" fill="#1565c0" stroke="#0d1b2a" stroke-width="2"/>
+    <circle id="glava" cx="16" cy="16" r="5" fill="#e3f2fd" stroke="#0d1b2a" stroke-width="1"/>
+    <path id="smjer" d="M26 11 L31 16 L26 21 Z" fill="#0d1b2a"/>
+  </g>
+</svg>

@@ -1,0 +1,92 @@
+[
+  {
+    "proposedId": "syn.vozilo",
+    "file": "content/synthetic/source/symbols/vozilo.svg",
+    "name": "Vozilo (sintetičko)",
+    "nameSource": "review",
+    "category": "vozila",
+    "reviewStatus": "requires-review",
+    "reviewed": true,
+    "portCount": 2,
+    "notes": []
+  },
+  {
+    "proposedId": "syn.osoba",
+    "file": "content/synthetic/source/symbols/osoba.svg",
+    "name": "Osoba (sintetička)",
+    "nameSource": "review",
+    "category": "osoblje",
+    "reviewStatus": "requires-review",
+    "reviewed": true,
+    "portCount": 0,
+    "notes": []
+  },
+  {
+    "proposedId": "syn.cijev-velika",
+    "file": "content/synthetic/source/symbols/cijev.svg",
+    "name": "Cijev s velikim spojem (sintetička)",
+    "nameSource": "review",
+    "category": "oprema",
+    "reviewStatus": "requires-review",
+    "reviewed": true,
+    "portCount": 2,
+    "notes": []
+  },
+  {
+    "proposedId": "syn.cijev-mala",
+    "file": "content/synthetic/source/symbols/cijev.svg",
+    "name": "Cijev s malim spojem (sintetička)",
+    "nameSource": "review",
+    "category": "oprema",
+    "reviewStatus": "requires-review",
+    "reviewed": true,
+    "portCount": 2,
+    "notes": []
+  },
+  {
+    "proposedId": "syn.razdjelnik",
+    "file": "content/synthetic/source/symbols/razdjelnik.svg",
+    "name": "Razdjelnik (sintetički)",
+    "nameSource": "review",
+    "category": "oprema",
+    "reviewStatus": "requires-review",
+    "reviewed": true,
+    "portCount": 3,
+    "notes": []
+  },
+  {
+    "proposedId": "syn.mlaznica",
+    "file": "content/synthetic/source/symbols/mlaznica.svg",
+    "name": "Mlaznica (sintetička)",
+    "nameSource": "review",
+    "category": "oprema",
+    "reviewStatus": "requires-review",
+    "reviewed": true,
+    "portCount": 1,
+    "notes": []
+  },
+  {
+    "proposedId": "syn.oznaka-cilja",
+    "file": "content/synthetic/source/symbols/oznake-list.svg",
+    "elementId": "oznaka-cilja",
+    "name": "Oznaka cilja (sintetička)",
+    "nameSource": "review",
+    "category": "oznake",
+    "reviewStatus": "requires-review",
+    "reviewed": true,
+    "portCount": 0,
+    "notes": []
+  },
+  {
+    "proposedId": "syn.oznaka-polazista",
+    "file": "content/synthetic/source/symbols/oznake-list.svg",
+    "elementId": "oznaka-polazista",
+    "name": "Oznaka polazišta (sintetička)",
+    "nameSource": "review",
+    "category": "oznake",
+    "reviewStatus": "requires-review",
+    "reviewed": true,
+    "portCount": 0,
+    "notes": []
+  }
+]

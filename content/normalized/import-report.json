@@ -1,0 +1,1988 @@
+{
+  "schemaVersion": 1,
+  "datasets": [
+    {
+      "id": "source",
+      "name": "Izvorni materijali",
+      "synthetic": false,
+      "sourceRoot": "content/source",
+      "inventory": [],
+      "symbols": [],
+      "diagrams": [],
+      "procedures": [],
+      "mapping": [],
+      "compiled": [],
+      "diagnostics": [
+        {
+          "code": "source.empty",
+          "severity": "warning",
+          "message": "U direktoriju content/source nema izvornih materijala (SVG simbola, crteža ni Markdown postupaka).",
+          "stage": "A"
+        }
+      ]
+    },
+    {
+      "id": "synthetic",
+      "name": "Sintetički testni skup (nije izvorni materijal)",
+      "synthetic": true,
+      "sourceRoot": "content/synthetic/source",
+      "inventory": [
+        {
+          "file": "content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg",
+          "assetType": "diagram-svg",
+          "sizeBytes": 7690,
+          "sha256": "795b550c5cfecb2ae61d8c66c71dd933f18b94286e0d9ee14c0c8c60c4892955",
+          "svg": {
+            "width": "1100",
+            "height": "600",
+            "viewBox": [
+              0,
+              0,
+              1100,
+              600
+            ],
+            "title": "Sintetička vježba 01 – faze (sintetički crtež)",
+            "description": "SINTETIČKI CRTEŽ za testiranje faze C uvoza. Raspored je izmišljen i ne prikazuje stvarnu vatrogasnu vježbu.",
+            "elementCounts": {
+              "svg": 1,
+              "title": 1,
+              "desc": 1,
+              "rect": 17,
+              "g": 26,
+              "text": 10,
+              "circle": 6,
+              "line": 6,
+              "path": 2
+            },
+            "groups": [
+              {
+                "elementId": "faza-1",
+                "label": "Faza 1 – početni raspored",
+                "depth": 1,
+                "childCount": 12,
+                "isLayer": true,
+                "dataAttributes": {
+                  "data-stage": "faza-1"
+                }
+              },
+              {
+                "elementId": "f1-vozilo",
+                "depth": 2,
+                "childCount": 2,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.vozilo",
+                  "data-instance": "vozilo"
+                }
+              },
+              {
+                "elementId": "f1-voditelj",
+                "depth": 2,
+                "childCount": 2,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.osoba",
+                  "data-instance": "voditelj"
+                }
+              },
+              {
+                "elementId": "f1-clan-1",
+                "depth": 2,
+                "childCount": 2,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.osoba",
+                  "data-instance": "clan-1"
+                }
+              },
+              {
+                "elementId": "f1-clan-2",
+                "depth": 2,
+                "childCount": 2,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.osoba",
+                  "data-instance": "clan-2"
+                }
+              },
+              {
+                "elementId": "f1-cijev-velika",
+                "depth": 2,
+                "childCount": 1,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.cijev-velika",
+                  "data-instance": "cijev-velika"
+                }
+              },
+              {
+                "elementId": "f1-razdjelnik",
+                "depth": 2,
+                "childCount": 1,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.razdjelnik",
+                  "data-instance": "razdjelnik"
+                }
+              },
+              {
+                "elementId": "f1-cijev-mala-1",
+                "depth": 2,
+                "childCount": 1,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.cijev-mala",
+                  "data-instance": "cijev-mala-1"
+                }
+              },
+              {
+                "elementId": "f1-cijev-mala-2",
+                "depth": 2,
+                "childCount": 1,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.cijev-mala",
+                  "data-instance": "cijev-mala-2"
+                }
+              },
+              {
+                "elementId": "f1-mlaznica-1",
+                "depth": 2,
+                "childCount": 1,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.mlaznica",
+                  "data-instance": "mlaznica-1"
+                }
+              },
+              {
+                "elementId": "f1-mlaznica-2",
+                "depth": 2,
+                "childCount": 1,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.mlaznica",
+                  "data-instance": "mlaznica-2"
+                }
+              },
+              {
+                "elementId": "f1-oznaka-cilja",
+                "depth": 2,
+                "childCount": 1,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.oznaka-cilja",
+                  "data-instance": "oznaka-cilja"
+                }
+              },
+              {
+                "elementId": "faza-2",
+                "label": "Faza 2 – završni raspored",
+                "depth": 1,
+                "childCount": 20,
+                "isLayer": true,
+                "dataAttributes": {
+                  "data-stage": "faza-2"
+                }
+              },
+              {
+                "elementId": "f2-vozilo",
+                "depth": 2,
+                "childCount": 2,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.vozilo",
+                  "data-instance": "vozilo"
+                }
+              },
+              {
+                "elementId": "f2-voditelj",
+                "depth": 2,
+                "childCount": 2,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.osoba",
+                  "data-instance": "voditelj"
+                }
+              },
+              {
+                "elementId": "f2-clan-1",
+                "depth": 2,
+                "childCount": 2,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.osoba",
+                  "data-instance": "clan-1"
+                }
+              },
+              {
+                "elementId": "f2-clan-2",
+                "depth": 2,
+                "childCount": 2,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.osoba",
+                  "data-instance": "clan-2"
+                }
+              },
+              {
+                "elementId": "f2-cijev-velika",
+                "depth": 2,
+                "childCount": 1,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.cijev-velika",
+                  "data-instance": "cijev-velika"
+                }
+              },
+              {
+                "elementId": "f2-razdjelnik",
+                "depth": 2,
+                "childCount": 1,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.razdjelnik",
+                  "data-instance": "razdjelnik"
+                }
+              },
+              {
+                "elementId": "f2-cijev-mala-1",
+                "depth": 2,
+                "childCount": 1,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.cijev-mala",
+                  "data-instance": "cijev-mala-1"
+                }
+              },
+              {
+                "elementId": "f2-cijev-mala-2",
+                "depth": 2,
+                "childCount": 1,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.cijev-mala",
+                  "data-instance": "cijev-mala-2"
+                }
+              },
+              {
+                "elementId": "f2-mlaznica-1",
+                "depth": 2,
+                "childCount": 1,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.mlaznica",
+                  "data-instance": "mlaznica-1"
+                }
+              },
+              {
+                "elementId": "f2-mlaznica-2",
+                "depth": 2,
+                "childCount": 1,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.mlaznica",
+                  "data-instance": "mlaznica-2"
+                }
+              },
+              {
+                "elementId": "f2-oznaka-cilja",
+                "depth": 2,
+                "childCount": 1,
+                "isLayer": false,
+                "dataAttributes": {
+                  "data-symbol": "syn.oznaka-cilja",
+                  "data-instance": "oznaka-cilja"
+                }
+              },
+              {
+                "elementId": "f2-oznaka",
+                "label": "Oznaka polazišta",
+                "depth": 2,
+                "childCount": 1,
+                "isLayer": false,
+                "dataAttributes": {}
+              },
+              {
+                "elementId": "f2-nepoznato",
+                "depth": 2,
+                "childCount": 1,
+                "isLayer": false,
+                "dataAttributes": {}
+              }
+            ],
+            "ids": [
+              "pozadina",
+              "faza-1",
+              "f1-vozilo",
+              "f1-voditelj",
+              "f1-clan-1",
+              "f1-clan-2",
+              "f1-cijev-velika",
+              "f1-razdjelnik",
+              "f1-cijev-mala-1",
+              "f1-cijev-mala-2",
+              "f1-mlaznica-1",
+              "f1-mlaznica-2",
+              "f1-oznaka-cilja",
+              "f1-naslov",
+              "faza-2",
+              "f2-spoj-1",
+              "f2-spoj-2",
+              "f2-spoj-3",
+              "f2-spoj-4",
+              "f2-spoj-5",
+              "f2-spoj-6",
+              "f2-vozilo",
+              "f2-voditelj",
+              "f2-clan-1",
+              "f2-clan-2",
+              "f2-cijev-velika",
+              "f2-razdjelnik",
+              "f2-cijev-mala-1",
+              "f2-cijev-mala-2",
+              "f2-mlaznica-1",
+              "f2-mlaznica-2",
+              "f2-oznaka-cilja",
+              "f2-oznaka",
+              "f2-nepoznato",
+              "f2-naslov"
+            ],
+            "referencedAssets": [],
+            "texts": [
+              "Vozilo",
+              "V",
+              "Č1",
+              "Č2",
+              "Faza 1 – početni raspored (sintetički)",
+              "Vozilo",
+              "V",
+              "Č1",
+              "Č2",
+              "Faza 2 – završni raspored (sintetički)"
+            ],
+            "removedBySanitizer": [],
+            "synthetic": true
+          },
+          "duplicateOf": [],
+          "possibleSymbolIds": [
+            "sinteticka-vjezba-01-faze",
+            "sinteticka-vjezba-01-faze-sinteticki-crtez"
+          ]
+        },
+        {
+          "file": "content/synthetic/source/diagrams/sinteticki-ravni-crtez.svg",
+          "assetType": "diagram-svg",
+          "sizeBytes": 608,
+          "sha256": "adab2d0485a68e433c11d1c3ba844c1076703459bc6abc00e372b5ca1698e1fd",
+          "svg": {
+            "width": "400",
+            "height": "200",
+            "viewBox": [
+              0,
+              0,
+              400,
+              200
+            ],
+            "title": "Sintetički \"ravni\" crtež",
+            "description": "SINTETIČKI CRTEŽ bez metapodataka (samo putanje), služi za provjeru označavanja nepouzdanog prepoznavanja.",
+            "elementCounts": {
+              "svg": 1,
+              "title": 1,
+              "desc": 1,
+              "path": 4
+            },
+            "groups": [],
+            "ids": [],
+            "referencedAssets": [],
+            "texts": [],
+            "removedBySanitizer": [],
+            "synthetic": true
+          },
+          "duplicateOf": [],
+          "possibleSymbolIds": [
+            "sinteticki-ravni-crtez"
+          ]
+        },
+        {
+          "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+          "assetType": "procedure-md",
+          "sizeBytes": 1946,
+          "sha256": "675965ffd02abf89a5286743746904ad84262b97347313269143ee82eeab98eb",
+          "markdown": {
+            "title": "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+            "headings": 8,
+            "numberedItems": 8,
+            "links": [],
+            "images": [
+              "../diagrams/sinteticka-vjezba-01-faze.svg"
+            ],
+            "synthetic": true
+          },
+          "duplicateOf": [],
+          "possibleSymbolIds": []
+        },
+        {
+          "file": "content/synthetic/source/symbols/cijev.svg",
+          "assetType": "symbol-svg",
+          "sizeBytes": 831,
+          "sha256": "954289ef65e206aeb02980a55f1555c91e4986a55feb83bebd35c5dd7519c1b2",
+          "svg": {
+            "width": "80",
+            "height": "12",
+            "viewBox": [
+              0,
+              0,
+              80,
+              12
+            ],
+            "title": "Cijev (sintetička)",
+            "description": "SINTETIČKI SIMBOL odsječka cijevi s dvije spojnice. Isti crtež koriste dvije definicije simbola različitih priključaka.",
+            "elementCounts": {
+              "svg": 1,
+              "title": 1,
+              "desc": 1,
+              "g": 1,
+              "line": 2,
+              "rect": 2
+            },
+            "groups": [
+              {
+                "elementId": "cijev",
+                "depth": 1,
+                "childCount": 4,
+                "isLayer": false,
+                "dataAttributes": {}
+              }
+            ],
+            "ids": [
+              "cijev",
+              "plast",
+              "spojnica-a",
+              "spojnica-b"
+            ],
+            "referencedAssets": [],
+            "texts": [],
+            "removedBySanitizer": [],
+            "synthetic": true
+          },
+          "duplicateOf": [],
+          "possibleSymbolIds": [
+            "cijev",
+            "cijev-sinteticka"
+          ]
+        },
+        {
+          "file": "content/synthetic/source/symbols/mlaznica.svg",
+          "assetType": "symbol-svg",
+          "sizeBytes": 792,
+          "sha256": "50e69a9ed5ab2b2122fb343c39a4e48e2ecd88c60b1fe9313605d6404e5acf20",
+          "svg": {
+            "width": "36",
+            "height": "16",
+            "viewBox": [
+              0,
+              0,
+              36,
+              16
+            ],
+            "title": "Mlaznica (sintetička)",
+            "description": "SINTETIČKI SIMBOL mlaznice s dva vizualna stanja (zatvorena / otvorena). Nije standardizirani simbol.",
+            "elementCounts": {
+              "svg": 1,
+              "title": 1,
+              "desc": 1,
+              "g": 2,
+              "rect": 1,
+              "path": 1,
+              "line": 3
+            },
+            "groups": [
+              {
+                "elementId": "mlaznica",
+                "depth": 1,
+                "childCount": 3,
+                "isLayer": false,
+                "dataAttributes": {}
+              },
+              {
+                "elementId": "mlaz",
+                "depth": 2,
+                "childCount": 3,
+                "isLayer": false,
+                "dataAttributes": {}
+              }
+            ],
+            "ids": [
+              "mlaznica",
+              "spojnica",
+              "tijelo",
+              "mlaz"
+            ],
+            "referencedAssets": [],
+            "texts": [],
+            "removedBySanitizer": [],
+            "synthetic": true
+          },
+          "duplicateOf": [],
+          "possibleSymbolIds": [
+            "mlaznica",
+            "mlaznica-sinteticka"
+          ]
+        },
+        {
+          "file": "content/synthetic/source/symbols/osoba.svg",
+          "assetType": "symbol-svg",
+          "sizeBytes": 577,
+          "sha256": "39d6d74354846bfedd4ef74fc5e346d6bfbb68fbd6bfe2226a3e9a184ed0dc6d",
+          "svg": {
+            "width": "32",
+            "height": "32",
+            "viewBox": [
+              0,
+              0,
+              32,
+              32
+            ],
+            "title": "Osoba (sintetička)",
+            "description": "SINTETIČKI SIMBOL osobe. Strelica označava smjer gledanja. Nije standardizirani simbol.",
+            "elementCounts": {
+              "svg": 1,
+              "title": 1,
+              "desc": 1,
+              "g": 1,
+              "circle": 2,
+              "path": 1
+            },
+            "groups": [
+              {
+                "elementId": "osoba",
+                "depth": 1,
+                "childCount": 3,
+                "isLayer": false,
+                "dataAttributes": {}
+              }
+            ],
+            "ids": [
+              "osoba",
+              "tijelo",
+              "glava",
+              "smjer"
+            ],
+            "referencedAssets": [],
+            "texts": [],
+            "removedBySanitizer": [],
+            "synthetic": true
+          },
+          "duplicateOf": [],
+          "possibleSymbolIds": [
+            "osoba",
+            "osoba-sinteticka"
+          ]
+        },
+        {
+          "file": "content/synthetic/source/symbols/oznake-list.svg",
+          "assetType": "symbol-svg",
+          "sizeBytes": 1004,
+          "sha256": "4de44616472d2b48ab4c927ec6ebccca61ee2b9ed1d56c932eb368ad2246e759",
+          "svg": {
+            "width": "100",
+            "height": "50",
+            "viewBox": [
+              0,
+              0,
+              100,
+              50
+            ],
+            "title": "List oznaka (sintetički)",
+            "description": "SINTETIČKI LIST s više simbola u jednoj datoteci; svaki simbol izdvaja se prema id-u grupe.",
+            "elementCounts": {
+              "svg": 1,
+              "title": 1,
+              "desc": 1,
+              "defs": 1,
+              "radialGradient": 1,
+              "stop": 2,
+              "g": 3,
+              "circle": 3,
+              "line": 1,
+              "path": 1
+            },
+            "groups": [
+              {
+                "elementId": "oznaka-cilja",
+                "depth": 1,
+                "childCount": 3,
+                "isLayer": false,
+                "dataAttributes": {}
+              },
+              {
+                "depth": 1,
+                "childCount": 1,
+                "isLayer": false,
+                "dataAttributes": {}
+              },
+              {
+                "elementId": "oznaka-polazista",
+                "depth": 2,
+                "childCount": 2,
+                "isLayer": false,
+                "dataAttributes": {}
+              }
+            ],
+            "ids": [
+              "sjaj",
+              "oznaka-cilja",
+              "oznaka-polazista"
+            ],
+            "referencedAssets": [],
+            "texts": [],
+            "removedBySanitizer": [],
+            "synthetic": true
+          },
+          "duplicateOf": [],
+          "possibleSymbolIds": [
+            "oznake-list",
+            "list-oznaka-sinteticki",
+            "oznaka-cilja"
+          ]
+        },
+        {
+          "file": "content/synthetic/source/symbols/razdjelnik.svg",
+          "assetType": "symbol-svg",
+          "sizeBytes": 895,
+          "sha256": "1cce3c6304e6fd1a0695307568a024745ddab8b193aaae98077f1cb38677defa",
+          "svg": {
+            "width": "40",
+            "height": "48",
+            "viewBox": [
+              0,
+              0,
+              40,
+              48
+            ],
+            "title": "Razdjelnik (sintetički)",
+            "description": "SINTETIČKI SIMBOL razdjelnika s jednim ulazom i dva izlaza. Nije standardizirani simbol.",
+            "elementCounts": {
+              "svg": 1,
+              "title": 1,
+              "desc": 1,
+              "g": 1,
+              "rect": 4,
+              "path": 1
+            },
+            "groups": [
+              {
+                "elementId": "razdjelnik",
+                "depth": 1,
+                "childCount": 5,
+                "isLayer": false,
+                "dataAttributes": {}
+              }
+            ],
+            "ids": [
+              "razdjelnik",
+              "ulaz",
+              "izlaz-1",
+              "izlaz-2"
+            ],
+            "referencedAssets": [],
+            "texts": [],
+            "removedBySanitizer": [],
+            "synthetic": true
+          },
+          "duplicateOf": [],
+          "possibleSymbolIds": [
+            "razdjelnik",
+            "razdjelnik-sinteticki"
+          ]
+        },
+        {
+          "file": "content/synthetic/source/symbols/vozilo.svg",
+          "assetType": "symbol-svg",
+          "sizeBytes": 1028,
+          "sha256": "5369079b2d168b0a3cff39218e83aa6700cd697bd81b2a5f8b8f15102d695576",
+          "svg": {
+            "width": "120",
+            "height": "60",
+            "viewBox": [
+              0,
+              0,
+              120,
+              60
+            ],
+            "title": "Vozilo (sintetičko)",
+            "description": "SINTETIČKI SIMBOL izrađen samo za testiranje simulatora. Nije standardizirani vatrogasni simbol i ne smije se koristiti u obuci.",
+            "elementCounts": {
+              "svg": 1,
+              "title": 1,
+              "desc": 1,
+              "g": 2,
+              "rect": 5,
+              "line": 1
+            },
+            "groups": [
+              {
+                "elementId": "tijelo",
+                "depth": 1,
+                "childCount": 4,
+                "isLayer": false,
+                "dataAttributes": {}
+              },
+              {
+                "elementId": "prikljucci",
+                "depth": 1,
+                "childCount": 2,
+                "isLayer": false,
+                "dataAttributes": {}
+              }
+            ],
+            "ids": [
+              "tijelo",
+              "kabina",
+              "nadogradnja",
+              "prikljucci",
+              "izlaz-1",
+              "izlaz-2"
+            ],
+            "referencedAssets": [],
+            "texts": [],
+            "removedBySanitizer": [],
+            "synthetic": true
+          },
+          "duplicateOf": [],
+          "possibleSymbolIds": [
+            "vozilo",
+            "vozilo-sinteticko",
+            "tijelo",
+            "prikljucci"
+          ]
+        }
+      ],
+      "symbols": [
+        {
+          "proposedId": "syn.vozilo",
+          "file": "content/synthetic/source/symbols/vozilo.svg",
+          "name": "Vozilo (sintetičko)",
+          "nameSource": "review",
+          "category": "vozila",
+          "reviewStatus": "requires-review",
+          "reviewed": true,
+          "portCount": 2,
+          "notes": []
+        },
+        {
+          "proposedId": "syn.osoba",
+          "file": "content/synthetic/source/symbols/osoba.svg",
+          "name": "Osoba (sintetička)",
+          "nameSource": "review",
+          "category": "osoblje",
+          "reviewStatus": "requires-review",
+          "reviewed": true,
+          "portCount": 0,
+          "notes": []
+        },
+        {
+          "proposedId": "syn.cijev-velika",
+          "file": "content/synthetic/source/symbols/cijev.svg",
+          "name": "Cijev s velikim spojem (sintetička)",
+          "nameSource": "review",
+          "category": "oprema",
+          "reviewStatus": "requires-review",
+          "reviewed": true,
+          "portCount": 2,
+          "notes": []
+        },
+        {
+          "proposedId": "syn.cijev-mala",
+          "file": "content/synthetic/source/symbols/cijev.svg",
+          "name": "Cijev s malim spojem (sintetička)",
+          "nameSource": "review",
+          "category": "oprema",
+          "reviewStatus": "requires-review",
+          "reviewed": true,
+          "portCount": 2,
+          "notes": []
+        },
+        {
+          "proposedId": "syn.razdjelnik",
+          "file": "content/synthetic/source/symbols/razdjelnik.svg",
+          "name": "Razdjelnik (sintetički)",
+          "nameSource": "review",
+          "category": "oprema",
+          "reviewStatus": "requires-review",
+          "reviewed": true,
+          "portCount": 3,
+          "notes": []
+        },
+        {
+          "proposedId": "syn.mlaznica",
+          "file": "content/synthetic/source/symbols/mlaznica.svg",
+          "name": "Mlaznica (sintetička)",
+          "nameSource": "review",
+          "category": "oprema",
+          "reviewStatus": "requires-review",
+          "reviewed": true,
+          "portCount": 1,
+          "notes": []
+        },
+        {
+          "proposedId": "syn.oznaka-cilja",
+          "file": "content/synthetic/source/symbols/oznake-list.svg",
+          "elementId": "oznaka-cilja",
+          "name": "Oznaka cilja (sintetička)",
+          "nameSource": "review",
+          "category": "oznake",
+          "reviewStatus": "requires-review",
+          "reviewed": true,
+          "portCount": 0,
+          "notes": []
+        },
+        {
+          "proposedId": "syn.oznaka-polazista",
+          "file": "content/synthetic/source/symbols/oznake-list.svg",
+          "elementId": "oznaka-polazista",
+          "name": "Oznaka polazišta (sintetička)",
+          "nameSource": "review",
+          "category": "oznake",
+          "reviewStatus": "requires-review",
+          "reviewed": true,
+          "portCount": 0,
+          "notes": []
+        }
+      ],
+      "diagrams": [
+        {
+          "file": "content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg",
+          "title": "Sintetička vježba 01 – faze (sintetički crtež)",
+          "viewBox": [
+            0,
+            0,
+            1100,
+            600
+          ],
+          "stages": [
+            {
+              "stageId": "faza-1",
+              "label": "Faza 1 – početni raspored",
+              "elementId": "faza-1"
+            },
+            {
+              "stageId": "faza-2",
+              "label": "Faza 2 – završni raspored",
+              "elementId": "faza-2"
+            }
+          ],
+          "instances": [
+            {
+              "elementId": "f1-vozilo",
+              "instanceId": "vozilo",
+              "rawRef": "syn.vozilo",
+              "symbolId": "syn.vozilo",
+              "position": {
+                "x": 150,
+                "y": 300
+              },
+              "rotation": 0,
+              "stageId": "faza-1",
+              "label": "Vozilo",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f1-voditelj",
+              "instanceId": "voditelj",
+              "rawRef": "syn.osoba",
+              "symbolId": "syn.osoba",
+              "position": {
+                "x": 150,
+                "y": 230
+              },
+              "rotation": 0,
+              "stageId": "faza-1",
+              "label": "V",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f1-clan-1",
+              "instanceId": "clan-1",
+              "rawRef": "syn.osoba",
+              "symbolId": "syn.osoba",
+              "position": {
+                "x": 250,
+                "y": 230
+              },
+              "rotation": 0,
+              "stageId": "faza-1",
+              "label": "Č1",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f1-clan-2",
+              "instanceId": "clan-2",
+              "rawRef": "syn.osoba",
+              "symbolId": "syn.osoba",
+              "position": {
+                "x": 250,
+                "y": 370
+              },
+              "rotation": 0,
+              "stageId": "faza-1",
+              "label": "Č2",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f1-cijev-velika",
+              "instanceId": "cijev-velika",
+              "rawRef": "syn.cijev-velika",
+              "symbolId": "syn.cijev-velika",
+              "position": {
+                "x": 260,
+                "y": 380
+              },
+              "rotation": 0,
+              "stageId": "faza-1",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f1-razdjelnik",
+              "instanceId": "razdjelnik",
+              "rawRef": "syn.razdjelnik",
+              "symbolId": "syn.razdjelnik",
+              "position": {
+                "x": 290,
+                "y": 230
+              },
+              "rotation": 0,
+              "stageId": "faza-1",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f1-cijev-mala-1",
+              "instanceId": "cijev-mala-1",
+              "rawRef": "syn.cijev-mala",
+              "symbolId": "syn.cijev-mala",
+              "position": {
+                "x": 260,
+                "y": 180
+              },
+              "rotation": 0,
+              "stageId": "faza-1",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f1-cijev-mala-2",
+              "instanceId": "cijev-mala-2",
+              "rawRef": "syn.cijev-mala",
+              "symbolId": "syn.cijev-mala",
+              "position": {
+                "x": 260,
+                "y": 420
+              },
+              "rotation": 0,
+              "stageId": "faza-1",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f1-mlaznica-1",
+              "instanceId": "mlaznica-1",
+              "rawRef": "syn.mlaznica",
+              "symbolId": "syn.mlaznica",
+              "position": {
+                "x": 310,
+                "y": 180
+              },
+              "rotation": 0,
+              "stageId": "faza-1",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f1-mlaznica-2",
+              "instanceId": "mlaznica-2",
+              "rawRef": "syn.mlaznica",
+              "symbolId": "syn.mlaznica",
+              "position": {
+                "x": 310,
+                "y": 420
+              },
+              "rotation": 0,
+              "stageId": "faza-1",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f1-oznaka-cilja",
+              "instanceId": "oznaka-cilja",
+              "rawRef": "syn.oznaka-cilja",
+              "symbolId": "syn.oznaka-cilja",
+              "position": {
+                "x": 1040,
+                "y": 300
+              },
+              "rotation": 0,
+              "stageId": "faza-1",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f2-vozilo",
+              "instanceId": "vozilo",
+              "rawRef": "syn.vozilo",
+              "symbolId": "syn.vozilo",
+              "position": {
+                "x": 150,
+                "y": 300
+              },
+              "rotation": 0,
+              "stageId": "faza-2",
+              "label": "Vozilo",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f2-voditelj",
+              "instanceId": "voditelj",
+              "rawRef": "syn.osoba",
+              "symbolId": "syn.osoba",
+              "position": {
+                "x": 150,
+                "y": 230
+              },
+              "rotation": 0,
+              "stageId": "faza-2",
+              "label": "V",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f2-clan-1",
+              "instanceId": "clan-1",
+              "rawRef": "syn.osoba",
+              "symbolId": "syn.osoba",
+              "position": {
+                "x": 780,
+                "y": 230
+              },
+              "rotation": 0,
+              "stageId": "faza-2",
+              "label": "Č1",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f2-clan-2",
+              "instanceId": "clan-2",
+              "rawRef": "syn.osoba",
+              "symbolId": "syn.osoba",
+              "position": {
+                "x": 780,
+                "y": 370
+              },
+              "rotation": 0,
+              "stageId": "faza-2",
+              "label": "Č2",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f2-cijev-velika",
+              "instanceId": "cijev-velika",
+              "rawRef": "syn.cijev-velika",
+              "symbolId": "syn.cijev-velika",
+              "position": {
+                "x": 375,
+                "y": 295
+              },
+              "rotation": 0,
+              "stageId": "faza-2",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f2-razdjelnik",
+              "instanceId": "razdjelnik",
+              "rawRef": "syn.razdjelnik",
+              "symbolId": "syn.razdjelnik",
+              "position": {
+                "x": 560,
+                "y": 300
+              },
+              "rotation": 0,
+              "stageId": "faza-2",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f2-cijev-mala-1",
+              "instanceId": "cijev-mala-1",
+              "rawRef": "syn.cijev-mala",
+              "symbolId": "syn.cijev-mala",
+              "position": {
+                "x": 700,
+                "y": 260
+              },
+              "rotation": 0,
+              "stageId": "faza-2",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f2-cijev-mala-2",
+              "instanceId": "cijev-mala-2",
+              "rawRef": "syn.cijev-mala",
+              "symbolId": "syn.cijev-mala",
+              "position": {
+                "x": 700,
+                "y": 340
+              },
+              "rotation": 0,
+              "stageId": "faza-2",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f2-mlaznica-1",
+              "instanceId": "mlaznica-1",
+              "rawRef": "syn.mlaznica",
+              "symbolId": "syn.mlaznica",
+              "position": {
+                "x": 850,
+                "y": 250
+              },
+              "rotation": 0,
+              "stageId": "faza-2",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f2-mlaznica-2",
+              "instanceId": "mlaznica-2",
+              "rawRef": "syn.mlaznica",
+              "symbolId": "syn.mlaznica",
+              "position": {
+                "x": 850,
+                "y": 350
+              },
+              "rotation": 0,
+              "stageId": "faza-2",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f2-oznaka-cilja",
+              "instanceId": "oznaka-cilja",
+              "rawRef": "syn.oznaka-cilja",
+              "symbolId": "syn.oznaka-cilja",
+              "position": {
+                "x": 1040,
+                "y": 300
+              },
+              "rotation": 0,
+              "stageId": "faza-2",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f2-oznaka",
+              "symbolId": "syn.oznaka-polazista",
+              "position": {
+                "x": 60,
+                "y": 520
+              },
+              "rotation": 0,
+              "stageId": "faza-2",
+              "label": "Oznaka polazišta",
+              "confidence": "heuristic"
+            },
+            {
+              "elementId": "f2-nepoznato",
+              "symbolId": null,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "rotation": 0,
+              "stageId": "faza-2",
+              "confidence": "unresolved"
+            }
+          ],
+          "labels": [
+            {
+              "text": "Faza 1 – početni raspored (sintetički)",
+              "position": {
+                "x": 20,
+                "y": 30
+              },
+              "elementId": "f1-naslov",
+              "stageId": "faza-1"
+            },
+            {
+              "text": "Faza 2 – završni raspored (sintetički)",
+              "position": {
+                "x": 20,
+                "y": 30
+              },
+              "elementId": "f2-naslov",
+              "stageId": "faza-2"
+            }
+          ],
+          "connections": [
+            {
+              "elementId": "f2-spoj-1",
+              "from": "vozilo#izlaz-1",
+              "to": "cijev-velika#kraj-a",
+              "stageId": "faza-2",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f2-spoj-2",
+              "from": "cijev-velika#kraj-b",
+              "to": "razdjelnik#ulaz",
+              "stageId": "faza-2",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f2-spoj-3",
+              "from": "razdjelnik#izlaz-1",
+              "to": "cijev-mala-1#kraj-a",
+              "stageId": "faza-2",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f2-spoj-4",
+              "from": "cijev-mala-1#kraj-b",
+              "to": "mlaznica-1#ulaz",
+              "stageId": "faza-2",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f2-spoj-5",
+              "from": "razdjelnik#izlaz-2",
+              "to": "cijev-mala-2#kraj-a",
+              "stageId": "faza-2",
+              "confidence": "metadata"
+            },
+            {
+              "elementId": "f2-spoj-6",
+              "from": "cijev-mala-2#kraj-b",
+              "to": "mlaznica-2#ulaz",
+              "stageId": "faza-2",
+              "confidence": "metadata"
+            }
+          ],
+          "flattened": false,
+          "notes": []
+        },
+        {
+          "file": "content/synthetic/source/diagrams/sinteticki-ravni-crtez.svg",
+          "title": "Sintetički \"ravni\" crtež",
+          "viewBox": [
+            0,
+            0,
+            400,
+            200
+          ],
+          "stages": [],
+          "instances": [],
+          "labels": [],
+          "connections": [],
+          "flattened": true,
+          "notes": [
+            "Crtež ne sadrži prepoznatljive instance simbola (samo putanje); izvorni crtež je zadržan za ručni pregled."
+          ]
+        }
+      ],
+      "procedures": [
+        {
+          "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+          "title": "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+          "synthetic": true,
+          "sections": [
+            {
+              "id": "uvod",
+              "heading": "",
+              "level": 0,
+              "line": 1,
+              "path": [],
+              "paragraphs": [],
+              "listItems": []
+            },
+            {
+              "id": "sinteticka-vjezba-01-postavljanje-sintetickog-voda-s-dvije-mlaznice",
+              "heading": "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+              "level": 1,
+              "line": 1,
+              "path": [
+                "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice"
+              ],
+              "paragraphs": [
+                {
+                  "text": "> **SINTETIČKI PRIMJER.** Ovaj dokument izrađen je isključivo za testiranje simulatora.\n> Ne opisuje stvarni vatrogasni postupak, doktrinu ni sigurnosna pravila i ne smije se koristiti u obuci.",
+                  "line": 3
+                }
+              ],
+              "listItems": []
+            },
+            {
+              "id": "svrha",
+              "heading": "Svrha",
+              "level": 2,
+              "line": 6,
+              "path": [
+                "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+                "Svrha"
+              ],
+              "paragraphs": [
+                {
+                  "text": "Provjera rada simulatora: kretanje osoblja, nošenje i odlaganje opreme, spajanje priključaka,\nproceduralne radnje i redoslijed koraka u dvije faze.",
+                  "line": 8
+                }
+              ],
+              "listItems": []
+            },
+            {
+              "id": "sudionici-i-uloge",
+              "heading": "Sudionici i uloge",
+              "level": 2,
+              "line": 11,
+              "path": [
+                "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+                "Sudionici i uloge"
+              ],
+              "paragraphs": [],
+              "listItems": [
+                {
+                  "text": "**Voditelj** – daje znak za početak i znak za otvaranje mlaznica.",
+                  "line": 13,
+                  "ordered": false
+                },
+                {
+                  "text": "**Član 1** – postavlja razdjelnik i prvu granu s mlaznicom.",
+                  "line": 14,
+                  "ordered": false
+                },
+                {
+                  "text": "**Član 2** – polaže veliku cijev i postavlja drugu granu s mlaznicom.",
+                  "line": 15,
+                  "ordered": false
+                }
+              ]
+            },
+            {
+              "id": "oprema",
+              "heading": "Oprema",
+              "level": 2,
+              "line": 17,
+              "path": [
+                "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+                "Oprema"
+              ],
+              "paragraphs": [],
+              "listItems": [
+                {
+                  "text": "Vozilo (sintetičko) s dva izlazna priključka",
+                  "line": 19,
+                  "ordered": false
+                },
+                {
+                  "text": "Cijev s velikim spojem (1 kom)",
+                  "line": 20,
+                  "ordered": false
+                },
+                {
+                  "text": "Razdjelnik (1 kom)",
+                  "line": 21,
+                  "ordered": false
+                },
+                {
+                  "text": "Cijev s malim spojem (2 kom)",
+                  "line": 22,
+                  "ordered": false
+                },
+                {
+                  "text": "Mlaznica (2 kom)",
+                  "line": 23,
+                  "ordered": false
+                },
+                {
+                  "text": "Oznaka cilja",
+                  "line": 24,
+                  "ordered": false
+                }
+              ]
+            },
+            {
+              "id": "tijek-vjezbe",
+              "heading": "Tijek vježbe",
+              "level": 2,
+              "line": 26,
+              "path": [
+                "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+                "Tijek vježbe"
+              ],
+              "paragraphs": [
+                {
+                  "text": "Raspored po fazama prikazan je na crtežu:",
+                  "line": 28
+                },
+                {
+                  "text": "![Faze sintetičke vježbe](../diagrams/sinteticka-vjezba-01-faze.svg)",
+                  "line": 30
+                }
+              ],
+              "listItems": []
+            },
+            {
+              "id": "faza-1-postavljanje-razdjelnika-i-velike-cijevi",
+              "heading": "Faza 1 – Postavljanje razdjelnika i velike cijevi",
+              "level": 3,
+              "line": 32,
+              "path": [
+                "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+                "Tijek vježbe",
+                "Faza 1 – Postavljanje razdjelnika i velike cijevi"
+              ],
+              "paragraphs": [],
+              "listItems": [
+                {
+                  "text": "Voditelj daje znak za početak vježbe.",
+                  "line": 34,
+                  "ordered": true
+                },
+                {
+                  "text": "Član 1 uzima razdjelnik i postavlja ga na označeno mjesto razdjelnika.",
+                  "line": 35,
+                  "ordered": true
+                },
+                {
+                  "text": "Član 2 uzima cijev s velikim spojem, polaže je i spaja na prvi izlaz vozila.",
+                  "line": 36,
+                  "ordered": true
+                },
+                {
+                  "text": "Član 2 spaja slobodni kraj velike cijevi na ulaz razdjelnika.",
+                  "line": 37,
+                  "ordered": true
+                }
+              ]
+            },
+            {
+              "id": "faza-2-postavljanje-mlaznica",
+              "heading": "Faza 2 – Postavljanje mlaznica",
+              "level": 3,
+              "line": 39,
+              "path": [
+                "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+                "Tijek vježbe",
+                "Faza 2 – Postavljanje mlaznica"
+              ],
+              "paragraphs": [
+                {
+                  "text": "Koraci 5. i 6. mogu se izvoditi istodobno ili bilo kojim redoslijedom.",
+                  "line": 46
+                }
+              ],
+              "listItems": [
+                {
+                  "text": "Član 1 uzima cijev s malim spojem i mlaznicu, spaja cijev na razdjelnik i postavlja mlaznicu u ciljno područje.",
+                  "line": 41,
+                  "ordered": true
+                },
+                {
+                  "text": "Član 2 uzima drugu cijev s malim spojem i mlaznicu, spaja cijev na razdjelnik i postavlja mlaznicu u ciljno područje.",
+                  "line": 42,
+                  "ordered": true
+                },
+                {
+                  "text": "Član 1 ili Član 2 javlja spremnost voditelju.",
+                  "line": 43,
+                  "ordered": true
+                },
+                {
+                  "text": "Voditelj daje znak za otvaranje, a članovi otvaraju mlaznice.",
+                  "line": 44,
+                  "ordered": true
+                }
+              ]
+            },
+            {
+              "id": "napomene",
+              "heading": "Napomene",
+              "level": 2,
+              "line": 48,
+              "path": [
+                "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+                "Napomene"
+              ],
+              "paragraphs": [],
+              "listItems": [
+                {
+                  "text": "Mjesto razdjelnika i ciljno područje označeni su na crtežu faza.",
+                  "line": 50,
+                  "ordered": false
+                },
+                {
+                  "text": "Sve vrijednosti udaljenosti u simulatoru tehničke su pretpostavke, a ne propisi.",
+                  "line": 51,
+                  "ordered": false
+                }
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "id": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/1",
+              "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+              "sectionId": "faza-1-postavljanje-razdjelnika-i-velike-cijevi",
+              "sectionPath": [
+                "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+                "Tijek vježbe",
+                "Faza 1 – Postavljanje razdjelnika i velike cijevi"
+              ],
+              "number": 1,
+              "text": "Voditelj daje znak za početak vježbe.",
+              "line": 34,
+              "lineEnd": 34,
+              "roleMentions": [
+                "role.voditelj"
+              ],
+              "equipmentMentions": [],
+              "diagramRefs": [],
+              "mappedTo": [
+                "sinteticka-vjezba-01/korak-1"
+              ],
+              "status": "mapped"
+            },
+            {
+              "id": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/2",
+              "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+              "sectionId": "faza-1-postavljanje-razdjelnika-i-velike-cijevi",
+              "sectionPath": [
+                "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+                "Tijek vježbe",
+                "Faza 1 – Postavljanje razdjelnika i velike cijevi"
+              ],
+              "number": 2,
+              "text": "Član 1 uzima razdjelnik i postavlja ga na označeno mjesto razdjelnika.",
+              "line": 35,
+              "lineEnd": 35,
+              "roleMentions": [
+                "role.clan-1"
+              ],
+              "equipmentMentions": [
+                "syn.razdjelnik"
+              ],
+              "diagramRefs": [],
+              "mappedTo": [
+                "sinteticka-vjezba-01/korak-2"
+              ],
+              "status": "mapped"
+            },
+            {
+              "id": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/3",
+              "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+              "sectionId": "faza-1-postavljanje-razdjelnika-i-velike-cijevi",
+              "sectionPath": [
+                "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+                "Tijek vježbe",
+                "Faza 1 – Postavljanje razdjelnika i velike cijevi"
+              ],
+              "number": 3,
+              "text": "Član 2 uzima cijev s velikim spojem, polaže je i spaja na prvi izlaz vozila.",
+              "line": 36,
+              "lineEnd": 36,
+              "roleMentions": [
+                "role.clan-2"
+              ],
+              "equipmentMentions": [
+                "syn.vozilo",
+                "syn.cijev-velika"
+              ],
+              "diagramRefs": [],
+              "mappedTo": [
+                "sinteticka-vjezba-01/korak-3"
+              ],
+              "status": "mapped"
+            },
+            {
+              "id": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/4",
+              "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+              "sectionId": "faza-1-postavljanje-razdjelnika-i-velike-cijevi",
+              "sectionPath": [
+                "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+                "Tijek vježbe",
+                "Faza 1 – Postavljanje razdjelnika i velike cijevi"
+              ],
+              "number": 4,
+              "text": "Član 2 spaja slobodni kraj velike cijevi na ulaz razdjelnika.",
+              "line": 37,
+              "lineEnd": 37,
+              "roleMentions": [
+                "role.clan-2"
+              ],
+              "equipmentMentions": [
+                "syn.cijev-velika",
+                "syn.razdjelnik"
+              ],
+              "diagramRefs": [],
+              "mappedTo": [
+                "sinteticka-vjezba-01/korak-4"
+              ],
+              "status": "mapped"
+            },
+            {
+              "id": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/5",
+              "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+              "sectionId": "faza-2-postavljanje-mlaznica",
+              "sectionPath": [
+                "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+                "Tijek vježbe",
+                "Faza 2 – Postavljanje mlaznica"
+              ],
+              "number": 5,
+              "text": "Član 1 uzima cijev s malim spojem i mlaznicu, spaja cijev na razdjelnik i postavlja mlaznicu u ciljno područje.",
+              "line": 41,
+              "lineEnd": 41,
+              "roleMentions": [
+                "role.clan-1"
+              ],
+              "equipmentMentions": [
+                "syn.cijev-mala",
+                "syn.razdjelnik",
+                "syn.mlaznica"
+              ],
+              "diagramRefs": [],
+              "mappedTo": [
+                "sinteticka-vjezba-01/korak-5"
+              ],
+              "status": "mapped"
+            },
+            {
+              "id": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/6",
+              "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+              "sectionId": "faza-2-postavljanje-mlaznica",
+              "sectionPath": [
+                "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+                "Tijek vježbe",
+                "Faza 2 – Postavljanje mlaznica"
+              ],
+              "number": 6,
+              "text": "Član 2 uzima drugu cijev s malim spojem i mlaznicu, spaja cijev na razdjelnik i postavlja mlaznicu u ciljno područje.",
+              "line": 42,
+              "lineEnd": 42,
+              "roleMentions": [
+                "role.clan-2"
+              ],
+              "equipmentMentions": [
+                "syn.cijev-mala",
+                "syn.razdjelnik",
+                "syn.mlaznica"
+              ],
+              "diagramRefs": [],
+              "mappedTo": [
+                "sinteticka-vjezba-01/korak-6"
+              ],
+              "status": "mapped"
+            },
+            {
+              "id": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/7",
+              "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+              "sectionId": "faza-2-postavljanje-mlaznica",
+              "sectionPath": [
+                "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+                "Tijek vježbe",
+                "Faza 2 – Postavljanje mlaznica"
+              ],
+              "number": 7,
+              "text": "Član 1 ili Član 2 javlja spremnost voditelju.",
+              "line": 43,
+              "lineEnd": 43,
+              "roleMentions": [
+                "role.voditelj",
+                "role.clan-1",
+                "role.clan-2"
+              ],
+              "equipmentMentions": [],
+              "diagramRefs": [],
+              "mappedTo": [
+                "sinteticka-vjezba-01/korak-7"
+              ],
+              "status": "mapped"
+            },
+            {
+              "id": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/8",
+              "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+              "sectionId": "faza-2-postavljanje-mlaznica",
+              "sectionPath": [
+                "Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlaznice",
+                "Tijek vježbe",
+                "Faza 2 – Postavljanje mlaznica"
+              ],
+              "number": 8,
+              "text": "Voditelj daje znak za otvaranje, a članovi otvaraju mlaznice.",
+              "line": 44,
+              "lineEnd": 44,
+              "roleMentions": [
+                "role.voditelj"
+              ],
+              "equipmentMentions": [
+                "syn.mlaznica"
+              ],
+              "diagramRefs": [],
+              "mappedTo": [
+                "sinteticka-vjezba-01/korak-8"
+              ],
+              "status": "mapped"
+            }
+          ],
+          "roleMentions": [
+            {
+              "roleId": "role.voditelj",
+              "term": "voditelj",
+              "lines": [
+                13,
+                34,
+                44
+              ]
+            },
+            {
+              "roleId": "role.voditelj",
+              "term": "voditelju",
+              "lines": [
+                43
+              ]
+            },
+            {
+              "roleId": "role.clan-1",
+              "term": "član 1",
+              "lines": [
+                14,
+                35,
+                41,
+                43
+              ]
+            },
+            {
+              "roleId": "role.clan-2",
+              "term": "član 2",
+              "lines": [
+                15,
+                36,
+                37,
+                42,
+                43
+              ]
+            }
+          ],
+          "equipmentMentions": [
+            {
+              "symbolId": "syn.vozilo",
+              "term": "vozilo",
+              "lines": [
+                19
+              ]
+            },
+            {
+              "symbolId": "syn.vozilo",
+              "term": "vozila",
+              "lines": [
+                36
+              ]
+            },
+            {
+              "symbolId": "syn.cijev-velika",
+              "term": "cijev s velikim spojem",
+              "lines": [
+                20,
+                36
+              ]
+            },
+            {
+              "symbolId": "syn.cijev-velika",
+              "term": "velike cijevi",
+              "lines": [
+                32,
+                37
+              ]
+            },
+            {
+              "symbolId": "syn.cijev-mala",
+              "term": "cijev s malim spojem",
+              "lines": [
+                22,
+                41,
+                42
+              ]
+            },
+            {
+              "symbolId": "syn.razdjelnik",
+              "term": "razdjelnik",
+              "lines": [
+                14,
+                21,
+                35,
+                41,
+                42
+              ]
+            },
+            {
+              "symbolId": "syn.razdjelnik",
+              "term": "razdjelnika",
+              "lines": [
+                32,
+                35,
+                37,
+                50
+              ]
+            },
+            {
+              "symbolId": "syn.mlaznica",
+              "term": "mlaznica",
+              "lines": [
+                13,
+                23,
+                39
+              ]
+            },
+            {
+              "symbolId": "syn.mlaznica",
+              "term": "mlaznicu",
+              "lines": [
+                41,
+                42
+              ]
+            },
+            {
+              "symbolId": "syn.mlaznica",
+              "term": "mlaznice",
+              "lines": [
+                1,
+                44
+              ]
+            },
+            {
+              "symbolId": "syn.oznaka-cilja",
+              "term": "oznaka cilja",
+              "lines": [
+                24
+              ]
+            }
+          ],
+          "diagramRefs": [
+            {
+              "target": "../diagrams/sinteticka-vjezba-01-faze.svg",
+              "line": 30,
+              "resolvedFile": "content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg"
+            }
+          ]
+        }
+      ],
+      "mapping": [
+        {
+          "candidateId": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/1",
+          "exerciseId": "sinteticka-vjezba-01",
+          "stepIds": [
+            "korak-1"
+          ],
+          "status": "mapped"
+        },
+        {
+          "candidateId": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/2",
+          "exerciseId": "sinteticka-vjezba-01",
+          "stepIds": [
+            "korak-2"
+          ],
+          "status": "mapped"
+        },
+        {
+          "candidateId": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/3",
+          "exerciseId": "sinteticka-vjezba-01",
+          "stepIds": [
+            "korak-3"
+          ],
+          "status": "mapped"
+        },
+        {
+          "candidateId": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/4",
+          "exerciseId": "sinteticka-vjezba-01",
+          "stepIds": [
+            "korak-4"
+          ],
+          "status": "mapped"
+        },
+        {
+          "candidateId": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/5",
+          "exerciseId": "sinteticka-vjezba-01",
+          "stepIds": [
+            "korak-5"
+          ],
+          "status": "mapped"
+        },
+        {
+          "candidateId": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/6",
+          "exerciseId": "sinteticka-vjezba-01",
+          "stepIds": [
+            "korak-6"
+          ],
+          "status": "mapped"
+        },
+        {
+          "candidateId": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/7",
+          "exerciseId": "sinteticka-vjezba-01",
+          "stepIds": [
+            "korak-7"
+          ],
+          "status": "mapped"
+        },
+        {
+          "candidateId": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/8",
+          "exerciseId": "sinteticka-vjezba-01",
+          "stepIds": [
+            "korak-8"
+          ],
+          "status": "mapped"
+        }
+      ],
+      "compiled": [
+        {
+          "exerciseId": "sinteticka-vjezba-01",
+          "authoringFile": "content/authoring/synthetic/sinteticka-vjezba-01.exercise.json",
+          "outputFile": "content/exercises/sinteticka-vjezba-01.json",
+          "ok": true,
+          "errorCount": 0,
+          "warningCount": 0,
+          "stepCount": 8,
+          "tracedStepCount": 8,
+          "demoReachesCompletion": true
+        }
+      ],
+      "diagnostics": [
+        {
+          "code": "diagram.heuristic-instance",
+          "severity": "info",
+          "message": "content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg: grupa f2-oznaka („Oznaka polazišta”) prepoznata je po nazivu kao syn.oznaka-polazista; potrebna je provjera.",
+          "stage": "C",
+          "source": {
+            "file": "content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg",
+            "anchor": "f2-oznaka"
+          }
+        },
+        {
+          "code": "diagram.unresolved-instance",
+          "severity": "warning",
+          "message": "content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg: grupa f2-nepoznato nije prepoznata kao simbol; potrebna je ručna obrada.",
+          "stage": "C",
+          "source": {
+            "file": "content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg",
+            "anchor": "f2-nepoznato"
+          }
+        },
+        {
+          "code": "diagram.flattened",
+          "severity": "warning",
+          "message": "content/synthetic/source/diagrams/sinteticki-ravni-crtez.svg: crtež je „ravan” (bez metapodataka o simbolima); prepoznavanje nije moguće bez ručnog označavanja.",
+          "stage": "C",
+          "source": {
+            "file": "content/synthetic/source/diagrams/sinteticki-ravni-crtez.svg"
+          }
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak korak-7: izvorni tekst spominje uloge role.voditelj koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/synthetic/sinteticka-vjezba-01.exercise.json"
+          },
+          "subjectId": "korak-7"
+        }
+      ]
+    }
+  ]
+}

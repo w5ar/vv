@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200" data-synthetic="true">
+  <title>Sintetički "ravni" crtež</title>
+  <desc>SINTETIČKI CRTEŽ bez metapodataka (samo putanje), služi za provjeru označavanja nepouzdanog prepoznavanja.</desc>
+  <path d="M20 80 h80 v40 h-80 z" fill="#c62828" stroke="#000"/>
+  <path d="M100 100 C 160 100, 200 60, 260 60" fill="none" stroke="#333" stroke-width="3"/>
+  <path d="M260 50 l20 10 l-20 10 z" fill="#333"/>
+  <path d="M300 40 a20 20 0 1 0 40 0 a20 20 0 1 0 -40 0" fill="#ff9800"/>
+</svg>

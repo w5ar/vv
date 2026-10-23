@@ -1,0 +1,4 @@
+{
+  "$comment": "Pregled povezivanja kandidata koraka (numerirane stavke Markdowna) s koracima vježbe. Kandidati koji namjerno nisu koraci vježbe navode se u 'ignored' uz razlog.",
+  "ignored": []
+}

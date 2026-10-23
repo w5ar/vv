@@ -1,0 +1,41 @@
+[
+  {
+    "code": "diagram.heuristic-instance",
+    "severity": "info",
+    "stage": "C",
+    "message": "content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg: grupa f2-oznaka („Oznaka polazišta”) prepoznata je po nazivu kao syn.oznaka-polazista; potrebna je provjera.",
+    "source": {
+      "file": "content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg",
+      "anchor": "f2-oznaka"
+    }
+  },
+  {
+    "code": "diagram.unresolved-instance",
+    "severity": "warning",
+    "stage": "C",
+    "message": "content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg: grupa f2-nepoznato nije prepoznata kao simbol; potrebna je ručna obrada.",
+    "source": {
+      "file": "content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg",
+      "anchor": "f2-nepoznato"
+    }
+  },
+  {
+    "code": "diagram.flattened",
+    "severity": "warning",
+    "stage": "C",
+    "message": "content/synthetic/source/diagrams/sinteticki-ravni-crtez.svg: crtež je „ravan” (bez metapodataka o simbolima); prepoznavanje nije moguće bez ručnog označavanja.",
+    "source": {
+      "file": "content/synthetic/source/diagrams/sinteticki-ravni-crtez.svg"
+    }
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak korak-7: izvorni tekst spominje uloge role.voditelj koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/synthetic/sinteticka-vjezba-01.exercise.json"
+    },
+    "subjectId": "korak-7"
+  }
+]

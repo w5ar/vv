@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60" width="120" height="60" data-synthetic="true">
+  <title>Vozilo (sintetičko)</title>
+  <desc>SINTETIČKI SIMBOL izrađen samo za testiranje simulatora. Nije standardizirani vatrogasni simbol i ne smije se koristiti u obuci.</desc>
+  <g id="tijelo">
+    <rect id="kabina" x="2" y="10" width="24" height="40" rx="5" fill="#ef5350" stroke="#1f2937" stroke-width="2"/>
+    <rect id="nadogradnja" x="26" y="4" width="86" height="52" rx="4" fill="#c62828" stroke="#1f2937" stroke-width="2"/>
+    <line x1="34" y1="30" x2="104" y2="30" stroke="#ffffff" stroke-width="2" stroke-dasharray="6 4"/>
+    <rect x="6" y="16" width="14" height="10" rx="2" fill="#bbdefb" stroke="#1f2937" stroke-width="1"/>
+  </g>
+  <g id="prikljucci" fill="#90a4ae" stroke="#1f2937" stroke-width="1.5">
+    <rect id="izlaz-1" x="112" y="13" width="8" height="10" rx="1.5"/>
+    <rect id="izlaz-2" x="112" y="37" width="8" height="10" rx="1.5"/>
+  </g>
+</svg>

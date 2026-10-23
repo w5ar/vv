@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 1100 600" width="1100" height="600" data-synthetic="true">
+  <title>Sintetička vježba 01 – faze (sintetički crtež)</title>
+  <desc>SINTETIČKI CRTEŽ za testiranje faze C uvoza. Raspored je izmišljen i ne prikazuje stvarnu vatrogasnu vježbu.</desc>
+  <rect id="pozadina" x="0" y="0" width="1100" height="600" fill="#f5f5f0"/>
+  <g id="faza-1" inkscape:groupmode="layer" inkscape:label="Faza 1 – početni raspored" data-stage="faza-1">
+    <g id="f1-vozilo" data-symbol="syn.vozilo" data-instance="vozilo" transform="translate(150 300)"><rect x="-60" y="-30" width="120" height="60" rx="3" fill="#c62828" stroke="#1f2937" stroke-width="1.5"/><text y="4" text-anchor="middle" font-size="11" font-family="sans-serif" fill="#ffffff">Vozilo</text></g>
+    <g id="f1-voditelj" data-symbol="syn.osoba" data-instance="voditelj" transform="translate(150 230)"><circle r="12" fill="#1565c0" stroke="#0d1b2a" stroke-width="2"/><text y="30" text-anchor="middle" font-size="11" font-family="sans-serif" fill="#0d1b2a">V</text></g>
+    <g id="f1-clan-1" data-symbol="syn.osoba" data-instance="clan-1" transform="translate(250 230)"><circle r="12" fill="#1565c0" stroke="#0d1b2a" stroke-width="2"/><text y="30" text-anchor="middle" font-size="11" font-family="sans-serif" fill="#0d1b2a">Č1</text></g>
+    <g id="f1-clan-2" data-symbol="syn.osoba" data-instance="clan-2" transform="translate(250 370)"><circle r="12" fill="#1565c0" stroke="#0d1b2a" stroke-width="2"/><text y="30" text-anchor="middle" font-size="11" font-family="sans-serif" fill="#0d1b2a">Č2</text></g>
+    <g id="f1-cijev-velika" data-symbol="syn.cijev-velika" data-instance="cijev-velika" transform="translate(260 380)"><rect x="-40" y="-6" width="80" height="12" rx="3" fill="#455a64" stroke="#1f2937" stroke-width="1.5"/></g>
+    <g id="f1-razdjelnik" data-symbol="syn.razdjelnik" data-instance="razdjelnik" transform="translate(290 230)"><rect x="-20" y="-24" width="40" height="48" rx="3" fill="#fbc02d" stroke="#1f2937" stroke-width="1.5"/></g>
+    <g id="f1-cijev-mala-1" data-symbol="syn.cijev-mala" data-instance="cijev-mala-1" transform="translate(260 180)"><rect x="-35" y="-5" width="70" height="10" rx="3" fill="#607d8b" stroke="#1f2937" stroke-width="1.5"/></g>
+    <g id="f1-cijev-mala-2" data-symbol="syn.cijev-mala" data-instance="cijev-mala-2" transform="translate(260 420)"><rect x="-35" y="-5" width="70" height="10" rx="3" fill="#607d8b" stroke="#1f2937" stroke-width="1.5"/></g>
+    <g id="f1-mlaznica-1" data-symbol="syn.mlaznica" data-instance="mlaznica-1" transform="translate(310 180)"><rect x="-18" y="-8" width="36" height="16" rx="3" fill="#37474f" stroke="#1f2937" stroke-width="1.5"/></g>
+    <g id="f1-mlaznica-2" data-symbol="syn.mlaznica" data-instance="mlaznica-2" transform="translate(310 420)"><rect x="-18" y="-8" width="36" height="16" rx="3" fill="#37474f" stroke="#1f2937" stroke-width="1.5"/></g>
+    <g id="f1-oznaka-cilja" data-symbol="syn.oznaka-cilja" data-instance="oznaka-cilja" transform="translate(1040 300)"><rect x="-20" y="-20" width="40" height="40" rx="3" fill="#e65100" stroke="#1f2937" stroke-width="1.5"/></g>
+    <text id="f1-naslov" x="20" y="30" font-size="16" font-family="sans-serif">Faza 1 – početni raspored (sintetički)</text>
+  </g>
+  <g id="faza-2" inkscape:groupmode="layer" inkscape:label="Faza 2 – završni raspored" data-stage="faza-2" display="none">
+    <line id="f2-spoj-1" data-connect-from="vozilo#izlaz-1" data-connect-to="cijev-velika#kraj-a" x1="210" y1="288" x2="335" y2="295" stroke="#263238" stroke-width="2.5"/>
+    <line id="f2-spoj-2" data-connect-from="cijev-velika#kraj-b" data-connect-to="razdjelnik#ulaz" x1="415" y1="295" x2="540" y2="300" stroke="#263238" stroke-width="2.5"/>
+    <line id="f2-spoj-3" data-connect-from="razdjelnik#izlaz-1" data-connect-to="cijev-mala-1#kraj-a" x1="580" y1="286" x2="665" y2="260" stroke="#263238" stroke-width="2.5"/>
+    <line id="f2-spoj-4" data-connect-from="cijev-mala-1#kraj-b" data-connect-to="mlaznica-1#ulaz" x1="735" y1="260" x2="832" y2="250" stroke="#263238" stroke-width="2.5"/>
+    <line id="f2-spoj-5" data-connect-from="razdjelnik#izlaz-2" data-connect-to="cijev-mala-2#kraj-a" x1="580" y1="314" x2="665" y2="340" stroke="#263238" stroke-width="2.5"/>
+    <line id="f2-spoj-6" data-connect-from="cijev-mala-2#kraj-b" data-connect-to="mlaznica-2#ulaz" x1="735" y1="340" x2="832" y2="350" stroke="#263238" stroke-width="2.5"/>
+    <g id="f2-vozilo" data-symbol="syn.vozilo" data-instance="vozilo" transform="translate(150 300)"><rect x="-60" y="-30" width="120" height="60" rx="3" fill="#c62828" stroke="#1f2937" stroke-width="1.5"/><text y="4" text-anchor="middle" font-size="11" font-family="sans-serif" fill="#ffffff">Vozilo</text></g>
+    <g id="f2-voditelj" data-symbol="syn.osoba" data-instance="voditelj" transform="translate(150 230)"><circle r="12" fill="#1565c0" stroke="#0d1b2a" stroke-width="2"/><text y="30" text-anchor="middle" font-size="11" font-family="sans-serif" fill="#0d1b2a">V</text></g>
+    <g id="f2-clan-1" data-symbol="syn.osoba" data-instance="clan-1" transform="translate(780 230)"><circle r="12" fill="#1565c0" stroke="#0d1b2a" stroke-width="2"/><text y="30" text-anchor="middle" font-size="11" font-family="sans-serif" fill="#0d1b2a">Č1</text></g>
+    <g id="f2-clan-2" data-symbol="syn.osoba" data-instance="clan-2" transform="translate(780 370)"><circle r="12" fill="#1565c0" stroke="#0d1b2a" stroke-width="2"/><text y="30" text-anchor="middle" font-size="11" font-family="sans-serif" fill="#0d1b2a">Č2</text></g>
+    <g id="f2-cijev-velika" data-symbol="syn.cijev-velika" data-instance="cijev-velika" transform="translate(375 295)"><rect x="-40" y="-6" width="80" height="12" rx="3" fill="#455a64" stroke="#1f2937" stroke-width="1.5"/></g>
+    <g id="f2-razdjelnik" data-symbol="syn.razdjelnik" data-instance="razdjelnik" transform="translate(560 300)"><rect x="-20" y="-24" width="40" height="48" rx="3" fill="#fbc02d" stroke="#1f2937" stroke-width="1.5"/></g>
+    <g id="f2-cijev-mala-1" data-symbol="syn.cijev-mala" data-instance="cijev-mala-1" transform="translate(700 260)"><rect x="-35" y="-5" width="70" height="10" rx="3" fill="#607d8b" stroke="#1f2937" stroke-width="1.5"/></g>
+    <g id="f2-cijev-mala-2" data-symbol="syn.cijev-mala" data-instance="cijev-mala-2" transform="translate(700 340)"><rect x="-35" y="-5" width="70" height="10" rx="3" fill="#607d8b" stroke="#1f2937" stroke-width="1.5"/></g>
+    <g id="f2-mlaznica-1" data-symbol="syn.mlaznica" data-instance="mlaznica-1" transform="translate(850 250)"><rect x="-18" y="-8" width="36" height="16" rx="3" fill="#37474f" stroke="#1f2937" stroke-width="1.5"/></g>
+    <g id="f2-mlaznica-2" data-symbol="syn.mlaznica" data-instance="mlaznica-2" transform="translate(850 350)"><rect x="-18" y="-8" width="36" height="16" rx="3" fill="#37474f" stroke="#1f2937" stroke-width="1.5"/></g>
+    <g id="f2-oznaka-cilja" data-symbol="syn.oznaka-cilja" data-instance="oznaka-cilja" transform="translate(1040 300)"><rect x="-20" y="-20" width="40" height="40" rx="3" fill="#e65100" stroke="#1f2937" stroke-width="1.5"/></g>
+    <g id="f2-oznaka" inkscape:label="Oznaka polazišta" transform="translate(60 520)"><path d="M0 -20 L0 20 M0 -20 L24 -12 L0 -4 Z" stroke="#1f2937" fill="#2e7d32"/></g>
+    <g id="f2-nepoznato"><path d="M960 520 l20 -30 l20 30 z" fill="#9e9e9e" stroke="#424242"/></g>
+    <text id="f2-naslov" x="20" y="30" font-size="16" font-family="sans-serif">Faza 2 – završni raspored (sintetički)</text>
+  </g>
+</svg>

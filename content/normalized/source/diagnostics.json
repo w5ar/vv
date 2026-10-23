@@ -1,0 +1,8 @@
+[
+  {
+    "code": "source.empty",
+    "severity": "warning",
+    "stage": "A",
+    "message": "U direktoriju content/source nema izvornih materijala (SVG simbola, crteža ni Markdown postupaka)."
+  }
+]

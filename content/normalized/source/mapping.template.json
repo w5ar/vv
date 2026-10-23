@@ -1,0 +1,4 @@
+{
+  "$comment": "Predložak za ručnu obradu. Svaki unos je NEPROVJEREN prijedlog: completedWhen, dependsOn i script moraju se popuniti prema izvornom postupku.",
+  "steps": []
+}

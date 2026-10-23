@@ -1,0 +1,30 @@
+{
+  "name": "@fds/reactflow-renderer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@fds/connection-engine": "workspace:*",
+    "@fds/domain": "workspace:*",
+    "@fds/geometry": "workspace:*",
+    "@fds/svg-registry": "workspace:*",
+    "@xyflow/react": "^12.8.0"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}

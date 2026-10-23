@@ -1,0 +1,624 @@
+{
+  "schemaVersion": 1,
+  "id": "katalog-sinteticki",
+  "name": "Sintetički katalog (testni)",
+  "description": "Testni katalog izrađen bez izvornih materijala. Nije standardizirani vatrogasni katalog.",
+  "synthetic": true,
+  "categories": [
+    {
+      "id": "vozila",
+      "name": "Vozila (sintetička kategorija)"
+    },
+    {
+      "id": "osoblje",
+      "name": "Osoblje (sintetička kategorija)"
+    },
+    {
+      "id": "oprema",
+      "name": "Oprema (sintetička kategorija)"
+    },
+    {
+      "id": "oznake",
+      "name": "Oznake (sintetička kategorija)"
+    },
+    {
+      "id": "nerazvrstano",
+      "name": "Nerazvrstano (čeka pregled)"
+    }
+  ],
+  "portTypes": [
+    {
+      "id": "pt.syn-veliki",
+      "name": "Veliki spoj (sintetički)",
+      "description": "Izmišljena vrsta priključka za testiranje pravila spajanja.",
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": []
+    },
+    {
+      "id": "pt.syn-mali",
+      "name": "Mali spoj (sintetički)",
+      "description": "Izmišljena vrsta priključka za testiranje pravila spajanja.",
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": []
+    }
+  ],
+  "connectionRules": [
+    {
+      "id": "pravilo.veliki-veliki",
+      "portTypes": [
+        "pt.syn-veliki",
+        "pt.syn-veliki"
+      ],
+      "effect": "allow",
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review",
+        "notes": "Sintetičko pravilo: spajaju se samo istovrsni priključci."
+      },
+      "sources": []
+    },
+    {
+      "id": "pravilo.mali-mali",
+      "portTypes": [
+        "pt.syn-mali",
+        "pt.syn-mali"
+      ],
+      "effect": "allow",
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": []
+    }
+  ],
+  "symbols": [
+    {
+      "id": "syn.vozilo",
+      "name": "Vozilo (sintetičko)",
+      "category": "vozila",
+      "asset": {
+        "path": "content/synthetic/source/symbols/vozilo.svg"
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "anchors": [],
+      "ports": [
+        {
+          "id": "izlaz-1",
+          "type": "pt.syn-veliki",
+          "position": {
+            "x": 120,
+            "y": 18
+          },
+          "direction": 0,
+          "maxConnections": 1,
+          "flow": "out",
+          "label": "Izlaz 1"
+        },
+        {
+          "id": "izlaz-2",
+          "type": "pt.syn-veliki",
+          "position": {
+            "x": 120,
+            "y": 42
+          },
+          "direction": 0,
+          "maxConnections": 1,
+          "flow": "out",
+          "label": "Izlaz 2"
+        }
+      ],
+      "rotation": {
+        "mode": "step",
+        "stepDegrees": 90
+      },
+      "semantics": {},
+      "visualStates": [],
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/synthetic/source/symbols/vozilo.svg"
+        }
+      ]
+    },
+    {
+      "id": "syn.osoba",
+      "name": "Osoba (sintetička)",
+      "category": "osoblje",
+      "asset": {
+        "path": "content/synthetic/source/symbols/osoba.svg"
+      },
+      "size": {
+        "width": 32,
+        "height": 32
+      },
+      "anchors": [
+        {
+          "id": "ruka",
+          "position": {
+            "x": 26,
+            "y": 16
+          },
+          "label": "Ruka"
+        }
+      ],
+      "ports": [],
+      "rotation": {
+        "mode": "step",
+        "stepDegrees": 45
+      },
+      "semantics": {},
+      "visualStates": [],
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/synthetic/source/symbols/osoba.svg"
+        }
+      ]
+    },
+    {
+      "id": "syn.cijev-velika",
+      "name": "Cijev s velikim spojem (sintetička)",
+      "category": "oprema",
+      "asset": {
+        "path": "content/synthetic/source/symbols/cijev.svg"
+      },
+      "size": {
+        "width": 80,
+        "height": 12
+      },
+      "anchors": [],
+      "ports": [
+        {
+          "id": "kraj-a",
+          "type": "pt.syn-veliki",
+          "position": {
+            "x": 0,
+            "y": 6
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Kraj A"
+        },
+        {
+          "id": "kraj-b",
+          "type": "pt.syn-veliki",
+          "position": {
+            "x": 80,
+            "y": 6
+          },
+          "direction": 0,
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Kraj B"
+        }
+      ],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/synthetic/source/symbols/cijev.svg"
+        }
+      ]
+    },
+    {
+      "id": "syn.cijev-mala",
+      "name": "Cijev s malim spojem (sintetička)",
+      "category": "oprema",
+      "asset": {
+        "path": "content/synthetic/source/symbols/cijev.svg"
+      },
+      "size": {
+        "width": 70,
+        "height": 10
+      },
+      "anchors": [],
+      "ports": [
+        {
+          "id": "kraj-a",
+          "type": "pt.syn-mali",
+          "position": {
+            "x": 0,
+            "y": 5
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Kraj A"
+        },
+        {
+          "id": "kraj-b",
+          "type": "pt.syn-mali",
+          "position": {
+            "x": 70,
+            "y": 5
+          },
+          "direction": 0,
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Kraj B"
+        }
+      ],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review",
+        "notes": "Isti SVG kao velika cijev; razlikuje se samo vrsta priključka."
+      },
+      "sources": [
+        {
+          "file": "content/synthetic/source/symbols/cijev.svg"
+        }
+      ]
+    },
+    {
+      "id": "syn.razdjelnik",
+      "name": "Razdjelnik (sintetički)",
+      "category": "oprema",
+      "asset": {
+        "path": "content/synthetic/source/symbols/razdjelnik.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 48
+      },
+      "anchors": [],
+      "ports": [
+        {
+          "id": "ulaz",
+          "type": "pt.syn-veliki",
+          "position": {
+            "x": 0,
+            "y": 24
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "in",
+          "label": "Ulaz"
+        },
+        {
+          "id": "izlaz-1",
+          "type": "pt.syn-mali",
+          "position": {
+            "x": 40,
+            "y": 10
+          },
+          "direction": 0,
+          "maxConnections": 1,
+          "flow": "out",
+          "label": "Izlaz 1"
+        },
+        {
+          "id": "izlaz-2",
+          "type": "pt.syn-mali",
+          "position": {
+            "x": 40,
+            "y": 38
+          },
+          "direction": 0,
+          "maxConnections": 1,
+          "flow": "out",
+          "label": "Izlaz 2"
+        }
+      ],
+      "rotation": {
+        "mode": "step",
+        "stepDegrees": 90
+      },
+      "semantics": {},
+      "visualStates": [],
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/synthetic/source/symbols/razdjelnik.svg"
+        }
+      ]
+    },
+    {
+      "id": "syn.mlaznica",
+      "name": "Mlaznica (sintetička)",
+      "category": "oprema",
+      "asset": {
+        "path": "content/synthetic/source/symbols/mlaznica.svg"
+      },
+      "size": {
+        "width": 36,
+        "height": 16
+      },
+      "anchors": [],
+      "ports": [
+        {
+          "id": "ulaz",
+          "type": "pt.syn-mali",
+          "position": {
+            "x": 0,
+            "y": 8
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "in",
+          "label": "Ulaz"
+        }
+      ],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [
+        {
+          "id": "zatvorena",
+          "name": "Zatvorena",
+          "show": [],
+          "hide": [
+            "mlaz"
+          ]
+        },
+        {
+          "id": "otvorena",
+          "name": "Otvorena",
+          "show": [
+            "mlaz"
+          ],
+          "hide": []
+        }
+      ],
+      "defaultState": "zatvorena",
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/synthetic/source/symbols/mlaznica.svg"
+        }
+      ]
+    },
+    {
+      "id": "syn.oznaka-cilja",
+      "name": "Oznaka cilja (sintetička)",
+      "category": "oznake",
+      "asset": {
+        "path": "content/synthetic/source/symbols/oznake-list.svg",
+        "elementId": "oznaka-cilja",
+        "viewBox": [
+          0,
+          0,
+          50,
+          50
+        ]
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "none"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/synthetic/source/symbols/oznake-list.svg",
+          "anchor": "oznaka-cilja"
+        }
+      ]
+    },
+    {
+      "id": "syn.oznaka-polazista",
+      "name": "Oznaka polazišta (sintetička)",
+      "category": "oznake",
+      "asset": {
+        "path": "content/synthetic/source/symbols/oznake-list.svg",
+        "elementId": "oznaka-polazista",
+        "viewBox": [
+          50,
+          0,
+          50,
+          50
+        ]
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "none"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/synthetic/source/symbols/oznake-list.svg",
+          "anchor": "oznaka-polazista"
+        }
+      ]
+    }
+  ],
+  "equipmentTypes": [
+    {
+      "id": "et.vozilo",
+      "name": "Vozilo (sintetičko)",
+      "symbolId": "syn.vozilo",
+      "portable": false,
+      "properties": {},
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": []
+    },
+    {
+      "id": "et.cijev-velika",
+      "name": "Cijev s velikim spojem (sintetička)",
+      "symbolId": "syn.cijev-velika",
+      "portable": true,
+      "properties": {},
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": []
+    },
+    {
+      "id": "et.cijev-mala",
+      "name": "Cijev s malim spojem (sintetička)",
+      "symbolId": "syn.cijev-mala",
+      "portable": true,
+      "properties": {},
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": []
+    },
+    {
+      "id": "et.razdjelnik",
+      "name": "Razdjelnik (sintetički)",
+      "symbolId": "syn.razdjelnik",
+      "portable": true,
+      "properties": {},
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": []
+    },
+    {
+      "id": "et.mlaznica",
+      "name": "Mlaznica (sintetička)",
+      "symbolId": "syn.mlaznica",
+      "portable": true,
+      "properties": {},
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": []
+    },
+    {
+      "id": "et.oznaka-cilja",
+      "name": "Oznaka cilja (sintetička)",
+      "symbolId": "syn.oznaka-cilja",
+      "portable": false,
+      "properties": {},
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": []
+    },
+    {
+      "id": "et.oznaka-polazista",
+      "name": "Oznaka polazišta (sintetička)",
+      "symbolId": "syn.oznaka-polazista",
+      "portable": false,
+      "properties": {},
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": []
+    }
+  ],
+  "roles": [
+    {
+      "id": "role.voditelj",
+      "name": "Voditelj (sintetička uloga)",
+      "abbreviation": "V",
+      "responsibilities": [
+        "Daje znak za početak.",
+        "Daje znak za otvaranje mlaznica."
+      ],
+      "symbolId": "syn.osoba",
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+          "anchor": "sudionici-i-uloge"
+        }
+      ]
+    },
+    {
+      "id": "role.clan-1",
+      "name": "Član 1 (sintetička uloga)",
+      "abbreviation": "Č1",
+      "responsibilities": [
+        "Postavlja razdjelnik i prvu granu s mlaznicom."
+      ],
+      "symbolId": "syn.osoba",
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+          "anchor": "sudionici-i-uloge"
+        }
+      ]
+    },
+    {
+      "id": "role.clan-2",
+      "name": "Član 2 (sintetička uloga)",
+      "abbreviation": "Č2",
+      "responsibilities": [
+        "Polaže veliku cijev i postavlja drugu granu s mlaznicom."
+      ],
+      "symbolId": "syn.osoba",
+      "provenance": "synthetic",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
+          "anchor": "sudionici-i-uloge"
+        }
+      ]
+    }
+  ]
+}

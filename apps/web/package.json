@@ -1,0 +1,31 @@
+{
+  "name": "@fds/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@fds/connection-engine": "workspace:*",
+    "@fds/domain": "workspace:*",
+    "@fds/geometry": "workspace:*",
+    "@fds/reactflow-renderer": "workspace:*",
+    "@fds/simulation-engine": "workspace:*",
+    "@fds/svg-registry": "workspace:*",
+    "@xyflow/react": "^12.8.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.1.0"
+  }
+}

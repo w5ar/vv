@@ -1,0 +1,22 @@
+{
+  "datasets": [
+    {
+      "id": "source",
+      "name": "Izvorni materijali",
+      "synthetic": false,
+      "sourceRoot": "content/source",
+      "reviewDir": "content/review/source",
+      "authoringDir": "content/authoring/source"
+    },
+    {
+      "id": "synthetic",
+      "name": "Sintetički testni skup (nije izvorni materijal)",
+      "synthetic": true,
+      "sourceRoot": "content/synthetic/source",
+      "reviewDir": "content/review/synthetic",
+      "authoringDir": "content/authoring/synthetic"
+    }
+  ],
+  "normalizedDir": "content/normalized",
+  "exercisesDir": "content/exercises"
+}

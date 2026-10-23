@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 12" width="80" height="12" preserveAspectRatio="none" data-synthetic="true">
+  <title>Cijev (sintetička)</title>
+  <desc>SINTETIČKI SIMBOL odsječka cijevi s dvije spojnice. Isti crtež koriste dvije definicije simbola različitih priključaka.</desc>
+  <g id="cijev">
+    <line id="plast" x1="6" y1="6" x2="74" y2="6" stroke="#455a64" stroke-width="5" stroke-linecap="round"/>
+    <line x1="10" y1="6" x2="70" y2="6" stroke="#cfd8dc" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <rect id="spojnica-a" x="0" y="1" width="7" height="10" rx="1.5" fill="#b0bec5" stroke="#1f2937" stroke-width="1"/>
+    <rect id="spojnica-b" x="73" y="1" width="7" height="10" rx="1.5" fill="#b0bec5" stroke="#1f2937" stroke-width="1"/>
+  </g>
+</svg>

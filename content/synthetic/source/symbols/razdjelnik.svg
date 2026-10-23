@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 48" width="40" height="48" data-synthetic="true">
+  <title>Razdjelnik (sintetički)</title>
+  <desc>SINTETIČKI SIMBOL razdjelnika s jednim ulazom i dva izlaza. Nije standardizirani simbol.</desc>
+  <style>
+    .kuciste { fill: #fbc02d; stroke: #1f2937; stroke-width: 2; }
+    .spoj { fill: #90a4ae; stroke: #1f2937; stroke-width: 1.2; }
+  </style>
+  <g id="razdjelnik">
+    <rect class="kuciste" x="6" y="4" width="28" height="40" rx="4"/>
+    <rect id="ulaz" class="spoj" x="0" y="19" width="7" height="10" rx="1.5"/>
+    <rect id="izlaz-1" class="spoj" x="33" y="5" width="7" height="10" rx="1.5"/>
+    <rect id="izlaz-2" class="spoj" x="33" y="33" width="7" height="10" rx="1.5"/>
+    <path d="M10 24 H22 M22 24 L28 12 M22 24 L28 36" stroke="#1f2937" stroke-width="2" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "catalogs": [
+    {
+      "id": "katalog-sinteticki",
+      "file": "content/exercises/catalogs/katalog-sinteticki.json",
+      "synthetic": true
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sinteticka-vjezba-01",
+      "file": "content/exercises/sinteticka-vjezba-01.json",
+      "catalogId": "katalog-sinteticki",
+      "synthetic": true
+    }
+  ]
+}

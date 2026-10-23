@@ -1,0 +1,28 @@
+{
+  "name": "@fds/exercise-importer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@fds/domain": "workspace:*",
+    "@fds/simulation-engine": "workspace:*",
+    "@fds/svg-registry": "workspace:*",
+    "mdast-util-from-markdown": "^2.0.2",
+    "zod": "^4.1.0",
+    "@fds/connection-engine": "workspace:*",
+    "@fds/geometry": "workspace:*"
+  },
+  "bin": {
+    "fds-import": "./src/cli.ts"
+  },
+  "devDependencies": {
+    "@types/mdast": "^4.0.4"
+  }
+}

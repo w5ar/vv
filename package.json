@@ -1,0 +1,37 @@
+{
+  "name": "fire-drill-simulator",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Interactive 2D firefighting exercise simulator (schematic, browser-only MVP).",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @fds/web dev",
+    "build": "pnpm --filter @fds/web build",
+    "preview": "pnpm --filter @fds/web preview",
+    "typecheck": "pnpm -r --workspace-concurrency=1 typecheck",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "import": "tsx packages/exercise-importer/src/cli.ts",
+    "import:all": "tsx packages/exercise-importer/src/cli.ts all",
+    "import:check": "tsx packages/exercise-importer/src/cli.ts all --check",
+    "check": "pnpm typecheck && pnpm test && pnpm import:check && pnpm build"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "@types/node": "^22.20.0",
+    "tsx": "^4.20.0",
+    "typescript": "~5.9.3",
+    "vitest": "^3.2.4"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}

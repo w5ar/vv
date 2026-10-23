@@ -1,0 +1,66 @@
+[
+  {
+    "candidateId": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/1",
+    "exerciseId": "sinteticka-vjezba-01",
+    "stepIds": [
+      "korak-1"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/2",
+    "exerciseId": "sinteticka-vjezba-01",
+    "stepIds": [
+      "korak-2"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/3",
+    "exerciseId": "sinteticka-vjezba-01",
+    "stepIds": [
+      "korak-3"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/4",
+    "exerciseId": "sinteticka-vjezba-01",
+    "stepIds": [
+      "korak-4"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/5",
+    "exerciseId": "sinteticka-vjezba-01",
+    "stepIds": [
+      "korak-5"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/6",
+    "exerciseId": "sinteticka-vjezba-01",
+    "stepIds": [
+      "korak-6"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/7",
+    "exerciseId": "sinteticka-vjezba-01",
+    "stepIds": [
+      "korak-7"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/8",
+    "exerciseId": "sinteticka-vjezba-01",
+    "stepIds": [
+      "korak-8"
+    ],
+    "status": "mapped"
+  }
+]
