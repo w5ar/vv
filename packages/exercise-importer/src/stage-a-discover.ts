@@ -24,21 +24,30 @@ export interface DiscoveryResult {
   readonly inventory: InventoryItem[];
   readonly svgs: Map<string, DiscoveredSvg>;
   readonly markdown: Map<string, string>;
+  /** Text of every readable source file (Markdown, SVG, scripts), for excerpt verification. */
+  readonly texts: Map<string, string>;
   readonly diagnostics: Diagnostic[];
 }
 
 /** Files that document a folder rather than being source material. */
 const IGNORED_NAMES = new Set(['readme.md', '.gitkeep']);
 
-function classify(rel: string, sourceRoot: string, svgText?: string): AssetType {
+function under(inner: string, dirs: readonly string[]): boolean {
+  return dirs.some((d) => {
+    const dir = d.replace(/^\.\/?|\/$/g, '');
+    return dir === '' ? !inner.includes('/') : inner === dir || inner.startsWith(`${dir}/`);
+  });
+}
+
+function classify(rel: string, dataset: DatasetConfig, svgText?: string): AssetType {
   const ext = path.extname(rel).toLowerCase();
-  const inner = rel.slice(sourceRoot.length + 1);
-  const folder = inner.split('/')[0]?.toLowerCase() ?? '';
+  const inner = rel.slice(dataset.sourceRoot.length + 1);
   if (ext === '.svg') {
-    if (folder === 'symbols') return 'symbol-svg';
-    if (folder === 'diagrams') return 'diagram-svg';
-    // Outside the conventional folders: diagrams typically contain layers or symbol instances.
-    return svgText && /data-symbol=|inkscape:groupmode="layer"/.test(svgText) ? 'diagram-svg' : 'symbol-svg';
+    const layout = dataset.layout;
+    if (under(inner, layout.diagrams) || under(inner, layout.renderCopies.map((c) => c.dir))) return 'diagram-svg';
+    if (under(inner, layout.symbols)) return 'symbol-svg';
+    // Outside the configured folders: diagrams typically contain layers or symbol instances.
+    return svgText && /data-symbol=|inkscape:groupmode="layer"|<image\b|<use\b/.test(svgText) ? 'diagram-svg' : 'symbol-svg';
   }
   if (ext === '.md' || ext === '.markdown') return 'procedure-md';
   if (['.png', '.jpg', '.jpeg', '.gif', '.webp', '.bmp', '.tif', '.tiff'].includes(ext)) return 'raster-image';
@@ -79,15 +88,24 @@ export async function discover(repoRoot: string, dataset: DatasetConfig): Promis
   const inventory: InventoryItem[] = [];
   const svgs = new Map<string, DiscoveredSvg>();
   const markdown = new Map<string, string>();
+  const texts = new Map<string, string>();
 
   for (const file of files) {
     const sizeBytes = await fileSize(repoRoot, file);
     const ext = path.extname(file).toLowerCase();
-    const isText = ['.svg', '.md', '.markdown', '.txt', '.json'].includes(ext);
+    const isText = ['.svg', '.md', '.markdown', '.txt', '.json', '.py'].includes(ext);
     const text = isText ? await readText(repoRoot, file) : undefined;
     const hash = sha256(text ?? (await readFile(path.join(repoRoot, file))));
-    const assetType = classify(file, dataset.sourceRoot, text);
+    if (text !== undefined) texts.set(file, text);
+    const assetType = classify(file, dataset, text);
     const item: InventoryItem = { file, assetType, sizeBytes, sha256: hash, duplicateOf: [], possibleSymbolIds: [] };
+    const inner = file.slice(dataset.sourceRoot.length + 1);
+    for (const copy of dataset.layout.renderCopies) {
+      const dir = copy.dir.replace(/\/$/, '');
+      if (inner.startsWith(`${dir}/`)) {
+        item.renderCopyOf = `${dataset.sourceRoot}/${copy.of.replace(/\/$/, '')}/${inner.slice(dir.length + 1)}`;
+      }
+    }
 
     if (ext === '.svg' && text !== undefined) {
       const r = sanitizeSvg(text);
@@ -145,6 +163,15 @@ export async function discover(repoRoot: string, dataset: DatasetConfig): Promis
   const byHash = new Map<string, string[]>();
   for (const item of inventory) byHash.set(item.sha256, [...(byHash.get(item.sha256) ?? []), item.file]);
   for (const item of inventory) {
+    if (item.renderCopyOf && !inventory.some((i) => i.file === item.renderCopyOf)) {
+      diagnostics.push({
+        code: 'asset.render-copy-orphan',
+        severity: 'warning',
+        stage: 'A',
+        message: `${item.file}: generirana kopija nema izvornu datoteku ${item.renderCopyOf}.`,
+        source: { file: item.file },
+      });
+    }
     item.duplicateOf = (byHash.get(item.sha256) ?? []).filter((f) => f !== item.file);
     if (item.duplicateOf.length > 0) {
       diagnostics.push({
@@ -165,5 +192,5 @@ export async function discover(repoRoot: string, dataset: DatasetConfig): Promis
       message: `U direktoriju ${dataset.sourceRoot} nema izvornih materijala (SVG simbola, crteža ni Markdown postupaka).`,
     });
   }
-  return { inventory, svgs, markdown, diagnostics };
+  return { inventory, svgs, markdown, texts, diagnostics };
 }

@@ -1,0 +1,55 @@
+{
+  "$comment": "Pregled povezivanja kandidata koraka iz izvornih Markdown datoteka s koracima vježbi. Kandidati i datoteke koji namjerno nisu koraci vježbe navode se uz razlog.",
+  "ignoredFiles": [
+    {
+      "file": "00-1-Uvod.md",
+      "reason": "Uvod u vježbovnik (ciljevi i sadržaj); ne opisuje radnje vježbe."
+    },
+    {
+      "file": "00-2-Legenda.md",
+      "reason": "Legenda simbola; koristi se u fazi B za nazive simbola, ne sadrži korake vježbe."
+    },
+    {
+      "file": "00-3-Postrojavanje.md",
+      "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
+    }
+  ],
+  "ignored": [
+    {
+      "candidateId": "01-vjezba-1#2-3-1-vjezba-1-vjezba-s-dva-c-mlaza-vode-sest-vatrogasaca/p1",
+      "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
+    },
+    {
+      "candidateId": "01-vjezba-1#2-3-1-vjezba-1-vjezba-s-dva-c-mlaza-vode-sest-vatrogasaca/p2",
+      "reason": "Uvod u popis opreme; oprema je u početnoj sceni, a količine se provjeravaju u fazi F."
+    },
+    {
+      "candidateId": "01-vjezba-1#2-3-1-vjezba-1-vjezba-s-dva-c-mlaza-vode-sest-vatrogasaca/p5",
+      "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
+    },
+    {
+      "candidateId": "01-vjezba-1#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-rada/p2",
+      "reason": "Sažetak; radnje polaganja „B” voda opisane su u sljedeća dva odlomka (koraci polaganje-b-prva i polaganje-b-druga)."
+    },
+    {
+      "candidateId": "01-vjezba-1#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-rada/p5",
+      "reason": "Sažetak; opremanje navalne grupe opisano je u sljedeća dva odlomka (koraci navalna-oprema-n1 i navalna-oprema-n2)."
+    },
+    {
+      "candidateId": "01-vjezba-1#pospremanje-opreme/p16",
+      "reason": "Pravilo rasporeda pri kretanju (članovi lijevo od vođa); primijenjeno u položajima demonstracije koraka opremu-uzmi, simulator ga ne provjerava."
+    },
+    {
+      "candidateId": "02-vjezba-2#2-3-2-vjezba-2-vjezba-s-jednim-c-mlazom-vode-tri-vatrogasca/p1",
+      "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
+    },
+    {
+      "candidateId": "02-vjezba-2#2-3-2-vjezba-2-vjezba-s-jednim-c-mlazom-vode-tri-vatrogasca/p2",
+      "reason": "Uvod u popis opreme; oprema je u početnoj sceni, a količine se provjeravaju u fazi F."
+    },
+    {
+      "candidateId": "02-vjezba-2#2-3-2-vjezba-2-vjezba-s-jednim-c-mlazom-vode-tri-vatrogasca/p5",
+      "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
+    }
+  ]
+}

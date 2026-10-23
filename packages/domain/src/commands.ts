@@ -49,11 +49,42 @@ export const ConnectPortsSchema = z.strictObject({
   b: PortRefSchema,
   /** Optional explicit id; otherwise the engine derives a deterministic one. */
   connectionId: IdSchema.optional(),
+  /** Person performing the connection (recorded, used for highlighting and role rules). */
+  actorId: IdSchema.optional(),
 });
 
 export const DisconnectPortsSchema = z.strictObject({
   type: z.literal('DisconnectPorts'),
   connectionId: IdSchema,
+  actorId: IdSchema.optional(),
+});
+
+/** Lays (unrolls) a hose from end A (`from`) to end B (`to`). */
+export const LayHoseSchema = z.strictObject({
+  type: z.literal('LayHose'),
+  equipmentId: IdSchema,
+  /** Person laying (pulling) the hose. */
+  personnelId: IdSchema.optional(),
+  /** Defaults to the port connected to end A, else the carrier's or the coil's position. */
+  from: Vec2Schema.optional(),
+  to: Vec2Schema,
+});
+
+/** Rolls a laid, fully disconnected hose back into a coil. */
+export const RollUpHoseSchema = z.strictObject({
+  type: z.literal('RollUpHose'),
+  equipmentId: IdSchema,
+  personnelId: IdSchema.optional(),
+  /** Where the coil ends up; defaults to end A. */
+  at: Vec2Schema.optional(),
+});
+
+/** Hands carried equipment to another person. */
+export const HandOverEquipmentSchema = z.strictObject({
+  type: z.literal('HandOverEquipment'),
+  fromId: IdSchema,
+  toId: IdSchema,
+  equipmentId: IdSchema,
 });
 
 export const AssignRoleSchema = z.strictObject({
@@ -77,6 +108,7 @@ export const SetObjectStateSchema = z.strictObject({
   type: z.literal('SetObjectState'),
   objectId: IdSchema,
   state: IdSchema,
+  actorId: IdSchema.optional(),
 });
 
 export const CommandSchema = z.discriminatedUnion('type', [
@@ -87,6 +119,9 @@ export const CommandSchema = z.discriminatedUnion('type', [
   PlaceEquipmentSchema,
   ConnectPortsSchema,
   DisconnectPortsSchema,
+  LayHoseSchema,
+  RollUpHoseSchema,
+  HandOverEquipmentSchema,
   AssignRoleSchema,
   BeginActionSchema,
   CompleteActionSchema,
@@ -109,15 +144,21 @@ export function commandObjectIds(command: Command): Id[] {
     case 'MoveEquipment':
       return [command.equipmentId];
     case 'RotateObject':
-    case 'SetObjectState':
       return [command.objectId];
+    case 'SetObjectState':
+      return command.actorId ? [command.objectId, command.actorId] : [command.objectId];
     case 'PickUpEquipment':
     case 'PlaceEquipment':
       return [command.personnelId, command.equipmentId];
     case 'ConnectPorts':
-      return [command.a.objectId, command.b.objectId];
+      return [command.a.objectId, command.b.objectId, ...(command.actorId ? [command.actorId] : [])];
     case 'DisconnectPorts':
-      return [];
+      return command.actorId ? [command.actorId] : [];
+    case 'LayHose':
+    case 'RollUpHose':
+      return command.personnelId ? [command.equipmentId, command.personnelId] : [command.equipmentId];
+    case 'HandOverEquipment':
+      return [command.fromId, command.toId, command.equipmentId];
     case 'AssignRole':
       return [command.personnelId];
     case 'BeginAction':

@@ -1,1 +1,5727 @@
-[]
+[
+  {
+    "file": "content/source/skice/00-3-skica-01.svg",
+    "title": "Skica 1 – Postrojavanje odjeljenja od 9 vatrogasaca u dvovrsnom stroju",
+    "viewBox": [
+      0,
+      0,
+      420,
+      200
+    ],
+    "stages": [
+      {
+        "stageId": "00-3-skica-01"
+      }
+    ],
+    "instances": [
+      {
+        "stageId": "00-3-skica-01",
+        "key": "strojar@170,120",
+        "rawRef": "content/source/simboli/strojar.svg",
+        "symbolId": "src.strojar",
+        "position": {
+          "x": 170,
+          "y": 120
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-01",
+        "key": "n1@220,120",
+        "rawRef": "content/source/simboli/n1.svg",
+        "symbolId": "src.n1",
+        "position": {
+          "x": 220,
+          "y": 120
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-01",
+        "key": "v1@270,120",
+        "rawRef": "content/source/simboli/v1.svg",
+        "symbolId": "src.v1",
+        "position": {
+          "x": 270,
+          "y": 120
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-01",
+        "key": "c1@320,120",
+        "rawRef": "content/source/simboli/c1.svg",
+        "symbolId": "src.c1",
+        "position": {
+          "x": 320,
+          "y": 120
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-01",
+        "key": "teklic@170,40",
+        "rawRef": "content/source/simboli/teklic.svg",
+        "symbolId": "src.teklic",
+        "position": {
+          "x": 170,
+          "y": 40
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-01",
+        "key": "n2@220,40",
+        "rawRef": "content/source/simboli/n2.svg",
+        "symbolId": "src.n2",
+        "position": {
+          "x": 220,
+          "y": 40
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-01",
+        "key": "v2@270,40",
+        "rawRef": "content/source/simboli/v2.svg",
+        "symbolId": "src.v2",
+        "position": {
+          "x": 270,
+          "y": 40
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-01",
+        "key": "c2@320,40",
+        "rawRef": "content/source/simboli/c2.svg",
+        "symbolId": "src.c2",
+        "position": {
+          "x": 320,
+          "y": 40
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-01",
+        "key": "smjer@80,145",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 80,
+          "y": 145
+        },
+        "rotation": 90,
+        "confidence": "metadata",
+        "attachedTo": "zapovjednik@80,120"
+      },
+      {
+        "stageId": "00-3-skica-01",
+        "key": "zapovjednik@80,120",
+        "rawRef": "content/source/simboli/zapovjednik.svg",
+        "symbolId": "src.zapovjednik",
+        "position": {
+          "x": 80,
+          "y": 120
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 90
+      },
+      {
+        "stageId": "00-3-skica-01",
+        "key": "strelica-kote@365,65",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 365,
+          "y": 65
+        },
+        "rotation": 270,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-01",
+        "key": "strelica-kote@365,95",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 365,
+          "y": 95
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-01",
+        "key": "strelica-kote@145,170",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 145,
+          "y": 170
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-01",
+        "key": "strelica-kote@105,170",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 105,
+          "y": 170
+        },
+        "rotation": 180,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-01",
+        "key": "strelica-kote@195,170",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 195,
+          "y": 170
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-01",
+        "key": "strelica-kote@195,170#2",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 195,
+          "y": 170
+        },
+        "rotation": 180,
+        "confidence": "metadata"
+      }
+    ],
+    "labels": [
+      {
+        "text": "1,10m",
+        "position": {
+          "x": 371,
+          "y": 84
+        },
+        "stageId": "00-3-skica-01"
+      },
+      {
+        "text": "1,10m",
+        "position": {
+          "x": 125,
+          "y": 184
+        },
+        "stageId": "00-3-skica-01"
+      },
+      {
+        "text": "0,10m",
+        "position": {
+          "x": 195,
+          "y": 184
+        },
+        "stageId": "00-3-skica-01"
+      }
+    ],
+    "connections": [],
+    "lines": [
+      {
+        "index": 0,
+        "from": {
+          "x": 340,
+          "y": 100
+        },
+        "to": {
+          "x": 369,
+          "y": 100
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-01"
+      },
+      {
+        "index": 1,
+        "from": {
+          "x": 340,
+          "y": 60
+        },
+        "to": {
+          "x": 369,
+          "y": 60
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-01"
+      },
+      {
+        "index": 2,
+        "from": {
+          "x": 365,
+          "y": 100
+        },
+        "to": {
+          "x": 365,
+          "y": 60
+        },
+        "strokeWidth": 0.8,
+        "stageId": "00-3-skica-01"
+      },
+      {
+        "index": 3,
+        "from": {
+          "x": 100,
+          "y": 120
+        },
+        "to": {
+          "x": 100,
+          "y": 174
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-01"
+      },
+      {
+        "index": 4,
+        "from": {
+          "x": 150,
+          "y": 120
+        },
+        "to": {
+          "x": 150,
+          "y": 174
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-01"
+      },
+      {
+        "index": 5,
+        "from": {
+          "x": 100,
+          "y": 170
+        },
+        "to": {
+          "x": 150,
+          "y": 170
+        },
+        "strokeWidth": 0.8,
+        "stageId": "00-3-skica-01"
+      },
+      {
+        "index": 6,
+        "from": {
+          "x": 190,
+          "y": 120
+        },
+        "to": {
+          "x": 190,
+          "y": 174
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-01"
+      },
+      {
+        "index": 7,
+        "from": {
+          "x": 200,
+          "y": 120
+        },
+        "to": {
+          "x": 200,
+          "y": 174
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-01"
+      },
+      {
+        "index": 8,
+        "from": {
+          "x": 190,
+          "y": 170
+        },
+        "to": {
+          "x": 200,
+          "y": 170
+        },
+        "strokeWidth": 0.8,
+        "stageId": "00-3-skica-01"
+      }
+    ],
+    "renderCopies": [
+      "content/source/skice/ugradjeno/00-3-skica-01.svg"
+    ],
+    "flattened": false,
+    "notes": [
+      "9 linija/putanja (0 prepoznato prema stilu linije)."
+    ]
+  },
+  {
+    "file": "content/source/skice/00-3-skica-02.svg",
+    "title": "Skica 2 – Postrojavanje odjeljenja od 6 vatrogasaca u dvovrsnom stroju",
+    "viewBox": [
+      0,
+      0,
+      370,
+      200
+    ],
+    "stages": [
+      {
+        "stageId": "00-3-skica-02"
+      }
+    ],
+    "instances": [
+      {
+        "stageId": "00-3-skica-02",
+        "key": "strojar@170,120",
+        "rawRef": "content/source/simboli/strojar.svg",
+        "symbolId": "src.strojar",
+        "position": {
+          "x": 170,
+          "y": 120
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-02",
+        "key": "n1@220,120",
+        "rawRef": "content/source/simboli/n1.svg",
+        "symbolId": "src.n1",
+        "position": {
+          "x": 220,
+          "y": 120
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-02",
+        "key": "v1@270,120",
+        "rawRef": "content/source/simboli/v1.svg",
+        "symbolId": "src.v1",
+        "position": {
+          "x": 270,
+          "y": 120
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-02",
+        "key": "n2@220,40",
+        "rawRef": "content/source/simboli/n2.svg",
+        "symbolId": "src.n2",
+        "position": {
+          "x": 220,
+          "y": 40
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-02",
+        "key": "v2@270,40",
+        "rawRef": "content/source/simboli/v2.svg",
+        "symbolId": "src.v2",
+        "position": {
+          "x": 270,
+          "y": 40
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-02",
+        "key": "smjer@80,145",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 80,
+          "y": 145
+        },
+        "rotation": 90,
+        "confidence": "metadata",
+        "attachedTo": "zapovjednik@80,120"
+      },
+      {
+        "stageId": "00-3-skica-02",
+        "key": "zapovjednik@80,120",
+        "rawRef": "content/source/simboli/zapovjednik.svg",
+        "symbolId": "src.zapovjednik",
+        "position": {
+          "x": 80,
+          "y": 120
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 90
+      },
+      {
+        "stageId": "00-3-skica-02",
+        "key": "strelica-kote@315,65",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 315,
+          "y": 65
+        },
+        "rotation": 270,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-02",
+        "key": "strelica-kote@315,95",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 315,
+          "y": 95
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-02",
+        "key": "strelica-kote@145,170",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 145,
+          "y": 170
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-02",
+        "key": "strelica-kote@105,170",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 105,
+          "y": 170
+        },
+        "rotation": 180,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-02",
+        "key": "strelica-kote@195,170",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 195,
+          "y": 170
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-02",
+        "key": "strelica-kote@195,170#2",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 195,
+          "y": 170
+        },
+        "rotation": 180,
+        "confidence": "metadata"
+      }
+    ],
+    "labels": [
+      {
+        "text": "1,10m",
+        "position": {
+          "x": 321,
+          "y": 84
+        },
+        "stageId": "00-3-skica-02"
+      },
+      {
+        "text": "1,10m",
+        "position": {
+          "x": 125,
+          "y": 184
+        },
+        "stageId": "00-3-skica-02"
+      },
+      {
+        "text": "0,10m",
+        "position": {
+          "x": 195,
+          "y": 184
+        },
+        "stageId": "00-3-skica-02"
+      }
+    ],
+    "connections": [],
+    "lines": [
+      {
+        "index": 0,
+        "from": {
+          "x": 290,
+          "y": 100
+        },
+        "to": {
+          "x": 319,
+          "y": 100
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-02"
+      },
+      {
+        "index": 1,
+        "from": {
+          "x": 290,
+          "y": 60
+        },
+        "to": {
+          "x": 319,
+          "y": 60
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-02"
+      },
+      {
+        "index": 2,
+        "from": {
+          "x": 315,
+          "y": 100
+        },
+        "to": {
+          "x": 315,
+          "y": 60
+        },
+        "strokeWidth": 0.8,
+        "stageId": "00-3-skica-02"
+      },
+      {
+        "index": 3,
+        "from": {
+          "x": 100,
+          "y": 120
+        },
+        "to": {
+          "x": 100,
+          "y": 174
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-02"
+      },
+      {
+        "index": 4,
+        "from": {
+          "x": 150,
+          "y": 120
+        },
+        "to": {
+          "x": 150,
+          "y": 174
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-02"
+      },
+      {
+        "index": 5,
+        "from": {
+          "x": 100,
+          "y": 170
+        },
+        "to": {
+          "x": 150,
+          "y": 170
+        },
+        "strokeWidth": 0.8,
+        "stageId": "00-3-skica-02"
+      },
+      {
+        "index": 6,
+        "from": {
+          "x": 190,
+          "y": 120
+        },
+        "to": {
+          "x": 190,
+          "y": 174
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-02"
+      },
+      {
+        "index": 7,
+        "from": {
+          "x": 200,
+          "y": 120
+        },
+        "to": {
+          "x": 200,
+          "y": 174
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-02"
+      },
+      {
+        "index": 8,
+        "from": {
+          "x": 190,
+          "y": 170
+        },
+        "to": {
+          "x": 200,
+          "y": 170
+        },
+        "strokeWidth": 0.8,
+        "stageId": "00-3-skica-02"
+      }
+    ],
+    "renderCopies": [
+      "content/source/skice/ugradjeno/00-3-skica-02.svg"
+    ],
+    "flattened": false,
+    "notes": [
+      "9 linija/putanja (0 prepoznato prema stilu linije)."
+    ]
+  },
+  {
+    "file": "content/source/skice/00-3-skica-03.svg",
+    "title": "Skica 3 – Postrojavanje odjeljenja od 3 vatrogasca u dvovrsnom stroju",
+    "viewBox": [
+      0,
+      0,
+      260,
+      200
+    ],
+    "stages": [
+      {
+        "stageId": "00-3-skica-03"
+      }
+    ],
+    "instances": [
+      {
+        "stageId": "00-3-skica-03",
+        "key": "strojar@150,120",
+        "rawRef": "content/source/simboli/strojar.svg",
+        "symbolId": "src.strojar",
+        "position": {
+          "x": 150,
+          "y": 120
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-03",
+        "key": "n2@150,40",
+        "rawRef": "content/source/simboli/n2.svg",
+        "symbolId": "src.n2",
+        "position": {
+          "x": 150,
+          "y": 40
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-03",
+        "key": "smjer@60,145",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 60,
+          "y": 145
+        },
+        "rotation": 90,
+        "confidence": "metadata",
+        "attachedTo": "n1@60,120"
+      },
+      {
+        "stageId": "00-3-skica-03",
+        "key": "n1@60,120",
+        "rawRef": "content/source/simboli/n1.svg",
+        "symbolId": "src.n1",
+        "position": {
+          "x": 60,
+          "y": 120
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 90
+      },
+      {
+        "stageId": "00-3-skica-03",
+        "key": "strelica-kote@195,65",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 195,
+          "y": 65
+        },
+        "rotation": 270,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-03",
+        "key": "strelica-kote@195,95",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 195,
+          "y": 95
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-03",
+        "key": "strelica-kote@125,170",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 125,
+          "y": 170
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-03",
+        "key": "strelica-kote@85,170",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 85,
+          "y": 170
+        },
+        "rotation": 180,
+        "confidence": "metadata"
+      }
+    ],
+    "labels": [
+      {
+        "text": "1,10m",
+        "position": {
+          "x": 201,
+          "y": 84
+        },
+        "stageId": "00-3-skica-03"
+      },
+      {
+        "text": "1,10m",
+        "position": {
+          "x": 105,
+          "y": 184
+        },
+        "stageId": "00-3-skica-03"
+      }
+    ],
+    "connections": [],
+    "lines": [
+      {
+        "index": 0,
+        "from": {
+          "x": 170,
+          "y": 100
+        },
+        "to": {
+          "x": 199,
+          "y": 100
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-03"
+      },
+      {
+        "index": 1,
+        "from": {
+          "x": 170,
+          "y": 60
+        },
+        "to": {
+          "x": 199,
+          "y": 60
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-03"
+      },
+      {
+        "index": 2,
+        "from": {
+          "x": 195,
+          "y": 100
+        },
+        "to": {
+          "x": 195,
+          "y": 60
+        },
+        "strokeWidth": 0.8,
+        "stageId": "00-3-skica-03"
+      },
+      {
+        "index": 3,
+        "from": {
+          "x": 80,
+          "y": 120
+        },
+        "to": {
+          "x": 80,
+          "y": 174
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-03"
+      },
+      {
+        "index": 4,
+        "from": {
+          "x": 130,
+          "y": 120
+        },
+        "to": {
+          "x": 130,
+          "y": 174
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-03"
+      },
+      {
+        "index": 5,
+        "from": {
+          "x": 80,
+          "y": 170
+        },
+        "to": {
+          "x": 130,
+          "y": 170
+        },
+        "strokeWidth": 0.8,
+        "stageId": "00-3-skica-03"
+      }
+    ],
+    "renderCopies": [
+      "content/source/skice/ugradjeno/00-3-skica-03.svg"
+    ],
+    "flattened": false,
+    "notes": [
+      "6 linija/putanja (0 prepoznato prema stilu linije)."
+    ]
+  },
+  {
+    "file": "content/source/skice/00-3-skica-04.svg",
+    "title": "Skica 4 – Pozicije članova odjeljenja od 9 vatrogasaca pri izdavanju zapovijedi",
+    "viewBox": [
+      0,
+      0,
+      330,
+      330
+    ],
+    "stages": [
+      {
+        "stageId": "00-3-skica-04"
+      }
+    ],
+    "instances": [
+      {
+        "stageId": "00-3-skica-04",
+        "key": "strojar@70,150",
+        "rawRef": "content/source/simboli/strojar.svg",
+        "symbolId": "src.strojar",
+        "position": {
+          "x": 70,
+          "y": 150
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-04",
+        "key": "n1@120,150",
+        "rawRef": "content/source/simboli/n1.svg",
+        "symbolId": "src.n1",
+        "position": {
+          "x": 120,
+          "y": 150
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-04",
+        "key": "v1@170,150",
+        "rawRef": "content/source/simboli/v1.svg",
+        "symbolId": "src.v1",
+        "position": {
+          "x": 170,
+          "y": 150
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-04",
+        "key": "c1@220,150",
+        "rawRef": "content/source/simboli/c1.svg",
+        "symbolId": "src.c1",
+        "position": {
+          "x": 220,
+          "y": 150
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-04",
+        "key": "teklic@70,70",
+        "rawRef": "content/source/simboli/teklic.svg",
+        "symbolId": "src.teklic",
+        "position": {
+          "x": 70,
+          "y": 70
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-04",
+        "key": "n2@120,70",
+        "rawRef": "content/source/simboli/n2.svg",
+        "symbolId": "src.n2",
+        "position": {
+          "x": 120,
+          "y": 70
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-04",
+        "key": "v2@170,70",
+        "rawRef": "content/source/simboli/v2.svg",
+        "symbolId": "src.v2",
+        "position": {
+          "x": 170,
+          "y": 70
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-04",
+        "key": "c2@220,70",
+        "rawRef": "content/source/simboli/c2.svg",
+        "symbolId": "src.c2",
+        "position": {
+          "x": 220,
+          "y": 70
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-04",
+        "key": "strelica-kote@265,95",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 265,
+          "y": 95
+        },
+        "rotation": 270,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-04",
+        "key": "strelica-kote@265,125",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 265,
+          "y": 125
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-04",
+        "key": "strelica-kote@95,38",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 95,
+          "y": 38
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-04",
+        "key": "strelica-kote@95,38#2",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 95,
+          "y": 38
+        },
+        "rotation": 180,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-04",
+        "key": "smjer@120,265",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 120,
+          "y": 265
+        },
+        "rotation": 270,
+        "confidence": "metadata",
+        "attachedTo": "zapovjednik@120,290"
+      },
+      {
+        "stageId": "00-3-skica-04",
+        "key": "zapovjednik@120,290",
+        "rawRef": "content/source/simboli/zapovjednik.svg",
+        "symbolId": "src.zapovjednik",
+        "position": {
+          "x": 120,
+          "y": 290
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 270
+      },
+      {
+        "stageId": "00-3-skica-04",
+        "key": "strelica-kote@150,251",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 150,
+          "y": 251
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-04",
+        "key": "strelica-kote@150,175",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 150,
+          "y": 175
+        },
+        "rotation": 270,
+        "confidence": "metadata"
+      }
+    ],
+    "labels": [
+      {
+        "text": "1,10m",
+        "position": {
+          "x": 271,
+          "y": 114
+        },
+        "stageId": "00-3-skica-04"
+      },
+      {
+        "text": "0,10m",
+        "position": {
+          "x": 95,
+          "y": 33
+        },
+        "stageId": "00-3-skica-04"
+      },
+      {
+        "text": "5k",
+        "position": {
+          "x": 156,
+          "y": 217
+        },
+        "stageId": "00-3-skica-04"
+      }
+    ],
+    "connections": [],
+    "lines": [
+      {
+        "index": 0,
+        "from": {
+          "x": 240,
+          "y": 130
+        },
+        "to": {
+          "x": 269,
+          "y": 130
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-04"
+      },
+      {
+        "index": 1,
+        "from": {
+          "x": 240,
+          "y": 90
+        },
+        "to": {
+          "x": 269,
+          "y": 90
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-04"
+      },
+      {
+        "index": 2,
+        "from": {
+          "x": 265,
+          "y": 130
+        },
+        "to": {
+          "x": 265,
+          "y": 90
+        },
+        "strokeWidth": 0.8,
+        "stageId": "00-3-skica-04"
+      },
+      {
+        "index": 3,
+        "from": {
+          "x": 90,
+          "y": 70
+        },
+        "to": {
+          "x": 90,
+          "y": 42
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-04"
+      },
+      {
+        "index": 4,
+        "from": {
+          "x": 100,
+          "y": 70
+        },
+        "to": {
+          "x": 100,
+          "y": 42
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-04"
+      },
+      {
+        "index": 5,
+        "from": {
+          "x": 90,
+          "y": 38
+        },
+        "to": {
+          "x": 100,
+          "y": 38
+        },
+        "strokeWidth": 0.8,
+        "stageId": "00-3-skica-04"
+      },
+      {
+        "index": 6,
+        "from": {
+          "x": 120,
+          "y": 170
+        },
+        "to": {
+          "x": 154,
+          "y": 170
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-04"
+      },
+      {
+        "index": 7,
+        "from": {
+          "x": 120,
+          "y": 256
+        },
+        "to": {
+          "x": 154,
+          "y": 256
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-04"
+      },
+      {
+        "index": 8,
+        "from": {
+          "x": 150,
+          "y": 170
+        },
+        "to": {
+          "x": 150,
+          "y": 256
+        },
+        "strokeWidth": 0.8,
+        "stageId": "00-3-skica-04"
+      }
+    ],
+    "renderCopies": [
+      "content/source/skice/ugradjeno/00-3-skica-04.svg"
+    ],
+    "flattened": false,
+    "notes": [
+      "9 linija/putanja (0 prepoznato prema stilu linije)."
+    ]
+  },
+  {
+    "file": "content/source/skice/00-3-skica-05.svg",
+    "title": "Skica 5 – Pozicije članova odjeljenja od 6 vatrogasaca pri izdavanju zapovijedi",
+    "viewBox": [
+      0,
+      0,
+      220,
+      280
+    ],
+    "stages": [
+      {
+        "stageId": "00-3-skica-05"
+      }
+    ],
+    "instances": [
+      {
+        "stageId": "00-3-skica-05",
+        "key": "strojar@60,110",
+        "rawRef": "content/source/simboli/strojar.svg",
+        "symbolId": "src.strojar",
+        "position": {
+          "x": 60,
+          "y": 110
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-05",
+        "key": "n1@110,110",
+        "rawRef": "content/source/simboli/n1.svg",
+        "symbolId": "src.n1",
+        "position": {
+          "x": 110,
+          "y": 110
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-05",
+        "key": "v1@160,110",
+        "rawRef": "content/source/simboli/v1.svg",
+        "symbolId": "src.v1",
+        "position": {
+          "x": 160,
+          "y": 110
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-05",
+        "key": "n2@110,30",
+        "rawRef": "content/source/simboli/n2.svg",
+        "symbolId": "src.n2",
+        "position": {
+          "x": 110,
+          "y": 30
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-05",
+        "key": "v2@160,30",
+        "rawRef": "content/source/simboli/v2.svg",
+        "symbolId": "src.v2",
+        "position": {
+          "x": 160,
+          "y": 30
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-05",
+        "key": "smjer@110,225",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 110,
+          "y": 225
+        },
+        "rotation": 270,
+        "confidence": "metadata",
+        "attachedTo": "zapovjednik@110,250"
+      },
+      {
+        "stageId": "00-3-skica-05",
+        "key": "zapovjednik@110,250",
+        "rawRef": "content/source/simboli/zapovjednik.svg",
+        "symbolId": "src.zapovjednik",
+        "position": {
+          "x": 110,
+          "y": 250
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 270
+      }
+    ],
+    "labels": [],
+    "connections": [],
+    "lines": [],
+    "renderCopies": [
+      "content/source/skice/ugradjeno/00-3-skica-05.svg"
+    ],
+    "flattened": false,
+    "notes": []
+  },
+  {
+    "file": "content/source/skice/00-3-skica-06.svg",
+    "title": "Skica 6 – Pozicije članova odjeljenja od 3 vatrogasca pri izdavanju zapovijedi",
+    "viewBox": [
+      0,
+      0,
+      120,
+      280
+    ],
+    "stages": [
+      {
+        "stageId": "00-3-skica-06"
+      }
+    ],
+    "instances": [
+      {
+        "stageId": "00-3-skica-06",
+        "key": "strojar@60,110",
+        "rawRef": "content/source/simboli/strojar.svg",
+        "symbolId": "src.strojar",
+        "position": {
+          "x": 60,
+          "y": 110
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-06",
+        "key": "n2@60,30",
+        "rawRef": "content/source/simboli/n2.svg",
+        "symbolId": "src.n2",
+        "position": {
+          "x": 60,
+          "y": 30
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-06",
+        "key": "smjer@60,225",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 60,
+          "y": 225
+        },
+        "rotation": 270,
+        "confidence": "metadata",
+        "attachedTo": "n1@60,250"
+      },
+      {
+        "stageId": "00-3-skica-06",
+        "key": "n1@60,250",
+        "rawRef": "content/source/simboli/n1.svg",
+        "symbolId": "src.n1",
+        "position": {
+          "x": 60,
+          "y": 250
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 270
+      }
+    ],
+    "labels": [],
+    "connections": [],
+    "lines": [],
+    "renderCopies": [
+      "content/source/skice/ugradjeno/00-3-skica-06.svg"
+    ],
+    "flattened": false,
+    "notes": []
+  },
+  {
+    "file": "content/source/skice/00-3-skica-07.svg",
+    "title": "Skica 7 – Postrojavanje odjeljenja u jednovrsnom stroju",
+    "viewBox": [
+      0,
+      0,
+      460,
+      230
+    ],
+    "stages": [
+      {
+        "stageId": "00-3-skica-07"
+      }
+    ],
+    "instances": [
+      {
+        "stageId": "00-3-skica-07",
+        "key": "strojar@55,70",
+        "rawRef": "content/source/simboli/strojar.svg",
+        "symbolId": "src.strojar",
+        "position": {
+          "x": 55,
+          "y": 70
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-07",
+        "key": "teklic@105,70",
+        "rawRef": "content/source/simboli/teklic.svg",
+        "symbolId": "src.teklic",
+        "position": {
+          "x": 105,
+          "y": 70
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-07",
+        "key": "n1@155,70",
+        "rawRef": "content/source/simboli/n1.svg",
+        "symbolId": "src.n1",
+        "position": {
+          "x": 155,
+          "y": 70
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-07",
+        "key": "n2@205,70",
+        "rawRef": "content/source/simboli/n2.svg",
+        "symbolId": "src.n2",
+        "position": {
+          "x": 205,
+          "y": 70
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-07",
+        "key": "v1@255,70",
+        "rawRef": "content/source/simboli/v1.svg",
+        "symbolId": "src.v1",
+        "position": {
+          "x": 255,
+          "y": 70
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-07",
+        "key": "v2@305,70",
+        "rawRef": "content/source/simboli/v2.svg",
+        "symbolId": "src.v2",
+        "position": {
+          "x": 305,
+          "y": 70
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-07",
+        "key": "c1@355,70",
+        "rawRef": "content/source/simboli/c1.svg",
+        "symbolId": "src.c1",
+        "position": {
+          "x": 355,
+          "y": 70
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-07",
+        "key": "c2@405,70",
+        "rawRef": "content/source/simboli/c2.svg",
+        "symbolId": "src.c2",
+        "position": {
+          "x": 405,
+          "y": 70
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-07",
+        "key": "smjer@230,185",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 230,
+          "y": 185
+        },
+        "rotation": 270,
+        "confidence": "metadata",
+        "attachedTo": "zapovjednik@230,210"
+      },
+      {
+        "stageId": "00-3-skica-07",
+        "key": "zapovjednik@230,210",
+        "rawRef": "content/source/simboli/zapovjednik.svg",
+        "symbolId": "src.zapovjednik",
+        "position": {
+          "x": 230,
+          "y": 210
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 270
+      },
+      {
+        "stageId": "00-3-skica-07",
+        "key": "strelica-kote@258,171",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 258,
+          "y": 171
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-07",
+        "key": "strelica-kote@258,95",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 258,
+          "y": 95
+        },
+        "rotation": 270,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-07",
+        "key": "strelica-kote@330,32",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 330,
+          "y": 32
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-07",
+        "key": "strelica-kote@330,32#2",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 330,
+          "y": 32
+        },
+        "rotation": 180,
+        "confidence": "metadata"
+      }
+    ],
+    "labels": [
+      {
+        "text": "5k",
+        "position": {
+          "x": 264,
+          "y": 137
+        },
+        "stageId": "00-3-skica-07"
+      },
+      {
+        "text": "0,10m",
+        "position": {
+          "x": 330,
+          "y": 27
+        },
+        "stageId": "00-3-skica-07"
+      }
+    ],
+    "connections": [],
+    "lines": [
+      {
+        "index": 0,
+        "from": {
+          "x": 230,
+          "y": 90
+        },
+        "to": {
+          "x": 262,
+          "y": 90
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-07"
+      },
+      {
+        "index": 1,
+        "from": {
+          "x": 230,
+          "y": 176
+        },
+        "to": {
+          "x": 262,
+          "y": 176
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-07"
+      },
+      {
+        "index": 2,
+        "from": {
+          "x": 258,
+          "y": 90
+        },
+        "to": {
+          "x": 258,
+          "y": 176
+        },
+        "strokeWidth": 0.8,
+        "stageId": "00-3-skica-07"
+      },
+      {
+        "index": 3,
+        "from": {
+          "x": 325,
+          "y": 70
+        },
+        "to": {
+          "x": 325,
+          "y": 36
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-07"
+      },
+      {
+        "index": 4,
+        "from": {
+          "x": 335,
+          "y": 70
+        },
+        "to": {
+          "x": 335,
+          "y": 36
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-07"
+      },
+      {
+        "index": 5,
+        "from": {
+          "x": 325,
+          "y": 32
+        },
+        "to": {
+          "x": 335,
+          "y": 32
+        },
+        "strokeWidth": 0.8,
+        "stageId": "00-3-skica-07"
+      }
+    ],
+    "renderCopies": [
+      "content/source/skice/ugradjeno/00-3-skica-07.svg"
+    ],
+    "flattened": false,
+    "notes": [
+      "6 linija/putanja (0 prepoznato prema stilu linije)."
+    ]
+  },
+  {
+    "file": "content/source/skice/00-3-skica-08.svg",
+    "title": "Skica 8 – Postrojavanje odjeljenja u kolonu po jedan",
+    "viewBox": [
+      0,
+      0,
+      760,
+      220
+    ],
+    "stages": [
+      {
+        "stageId": "00-3-skica-08"
+      }
+    ],
+    "instances": [
+      {
+        "stageId": "00-3-skica-08",
+        "key": "c2@40,160",
+        "rawRef": "content/source/simboli/c2.svg",
+        "symbolId": "src.c2",
+        "position": {
+          "x": 40,
+          "y": 160
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-08",
+        "key": "c1@120,160",
+        "rawRef": "content/source/simboli/c1.svg",
+        "symbolId": "src.c1",
+        "position": {
+          "x": 120,
+          "y": 160
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-08",
+        "key": "v2@200,160",
+        "rawRef": "content/source/simboli/v2.svg",
+        "symbolId": "src.v2",
+        "position": {
+          "x": 200,
+          "y": 160
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-08",
+        "key": "v1@280,160",
+        "rawRef": "content/source/simboli/v1.svg",
+        "symbolId": "src.v1",
+        "position": {
+          "x": 280,
+          "y": 160
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-08",
+        "key": "n2@360,160",
+        "rawRef": "content/source/simboli/n2.svg",
+        "symbolId": "src.n2",
+        "position": {
+          "x": 360,
+          "y": 160
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-08",
+        "key": "n1@440,160",
+        "rawRef": "content/source/simboli/n1.svg",
+        "symbolId": "src.n1",
+        "position": {
+          "x": 440,
+          "y": 160
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-08",
+        "key": "teklic@520,160",
+        "rawRef": "content/source/simboli/teklic.svg",
+        "symbolId": "src.teklic",
+        "position": {
+          "x": 520,
+          "y": 160
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-08",
+        "key": "strojar@600,160",
+        "rawRef": "content/source/simboli/strojar.svg",
+        "symbolId": "src.strojar",
+        "position": {
+          "x": 600,
+          "y": 160
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-08",
+        "key": "smjer@705,160",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 705,
+          "y": 160
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "attachedTo": "zapovjednik@680,160"
+      },
+      {
+        "stageId": "00-3-skica-08",
+        "key": "zapovjednik@680,160",
+        "rawRef": "content/source/simboli/zapovjednik.svg",
+        "symbolId": "src.zapovjednik",
+        "position": {
+          "x": 680,
+          "y": 160
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 0
+      },
+      {
+        "stageId": "00-3-skica-08",
+        "key": "smjer@345,40",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 345,
+          "y": 40
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-08",
+        "key": "zapovjednik-polozaj@320,40",
+        "rawRef": "content/source/simboli/zapovjednik-polozaj.svg",
+        "symbolId": "src.zapovjednik-polozaj",
+        "position": {
+          "x": 320,
+          "y": 40
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-08",
+        "key": "strelica-kote@320,65",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 320,
+          "y": 65
+        },
+        "rotation": 270,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-08",
+        "key": "strelica-kote@320,133",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 320,
+          "y": 133
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-08",
+        "key": "strelica-kote@95,118",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 95,
+          "y": 118
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-08",
+        "key": "strelica-kote@65,118",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 65,
+          "y": 118
+        },
+        "rotation": 180,
+        "confidence": "metadata"
+      }
+    ],
+    "labels": [
+      {
+        "text": "3k",
+        "position": {
+          "x": 326,
+          "y": 103
+        },
+        "stageId": "00-3-skica-08"
+      },
+      {
+        "text": "1,10m",
+        "position": {
+          "x": 80,
+          "y": 113
+        },
+        "stageId": "00-3-skica-08"
+      }
+    ],
+    "connections": [],
+    "lines": [
+      {
+        "index": 0,
+        "from": {
+          "x": 320,
+          "y": 138
+        },
+        "to": {
+          "x": 320,
+          "y": 60
+        },
+        "strokeWidth": 0.8,
+        "stageId": "00-3-skica-08"
+      },
+      {
+        "index": 1,
+        "from": {
+          "x": 60,
+          "y": 160
+        },
+        "to": {
+          "x": 60,
+          "y": 122
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-08"
+      },
+      {
+        "index": 2,
+        "from": {
+          "x": 100,
+          "y": 160
+        },
+        "to": {
+          "x": 100,
+          "y": 122
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-08"
+      },
+      {
+        "index": 3,
+        "from": {
+          "x": 60,
+          "y": 118
+        },
+        "to": {
+          "x": 100,
+          "y": 118
+        },
+        "strokeWidth": 0.8,
+        "stageId": "00-3-skica-08"
+      }
+    ],
+    "renderCopies": [
+      "content/source/skice/ugradjeno/00-3-skica-08.svg"
+    ],
+    "flattened": false,
+    "notes": [
+      "4 linija/putanja (0 prepoznato prema stilu linije)."
+    ]
+  },
+  {
+    "file": "content/source/skice/00-3-skica-09.svg",
+    "title": "Skica 9 – Postrojavanje odjeljenja u kolonu po dva",
+    "viewBox": [
+      0,
+      0,
+      560,
+      210
+    ],
+    "stages": [
+      {
+        "stageId": "00-3-skica-09"
+      }
+    ],
+    "instances": [
+      {
+        "stageId": "00-3-skica-09",
+        "key": "c1@110,50",
+        "rawRef": "content/source/simboli/c1.svg",
+        "symbolId": "src.c1",
+        "position": {
+          "x": 110,
+          "y": 50
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-09",
+        "key": "c2@110,100",
+        "rawRef": "content/source/simboli/c2.svg",
+        "symbolId": "src.c2",
+        "position": {
+          "x": 110,
+          "y": 100
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-09",
+        "key": "v1@190,50",
+        "rawRef": "content/source/simboli/v1.svg",
+        "symbolId": "src.v1",
+        "position": {
+          "x": 190,
+          "y": 50
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-09",
+        "key": "v2@190,100",
+        "rawRef": "content/source/simboli/v2.svg",
+        "symbolId": "src.v2",
+        "position": {
+          "x": 190,
+          "y": 100
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-09",
+        "key": "n1@270,50",
+        "rawRef": "content/source/simboli/n1.svg",
+        "symbolId": "src.n1",
+        "position": {
+          "x": 270,
+          "y": 50
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-09",
+        "key": "n2@270,100",
+        "rawRef": "content/source/simboli/n2.svg",
+        "symbolId": "src.n2",
+        "position": {
+          "x": 270,
+          "y": 100
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-09",
+        "key": "strojar@350,50",
+        "rawRef": "content/source/simboli/strojar.svg",
+        "symbolId": "src.strojar",
+        "position": {
+          "x": 350,
+          "y": 50
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-09",
+        "key": "teklic@350,100",
+        "rawRef": "content/source/simboli/teklic.svg",
+        "symbolId": "src.teklic",
+        "position": {
+          "x": 350,
+          "y": 100
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-09",
+        "key": "smjer@475,75",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 475,
+          "y": 75
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "attachedTo": "zapovjednik@450,75"
+      },
+      {
+        "stageId": "00-3-skica-09",
+        "key": "zapovjednik@450,75",
+        "rawRef": "content/source/simboli/zapovjednik.svg",
+        "symbolId": "src.zapovjednik",
+        "position": {
+          "x": 450,
+          "y": 75
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 0
+      },
+      {
+        "stageId": "00-3-skica-09",
+        "key": "strelica-kote@70,75",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 70,
+          "y": 75
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-09",
+        "key": "strelica-kote@70,75#2",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 70,
+          "y": 75
+        },
+        "rotation": 270,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-09",
+        "key": "strelica-kote@165,155",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 165,
+          "y": 155
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-09",
+        "key": "strelica-kote@135,155",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 135,
+          "y": 155
+        },
+        "rotation": 180,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-09",
+        "key": "strelica-kote@425,155",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 425,
+          "y": 155
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "00-3-skica-09",
+        "key": "strelica-kote@375,155",
+        "rawRef": "content/source/simboli/strelica-kote.svg",
+        "symbolId": "src.strelica-kote",
+        "position": {
+          "x": 375,
+          "y": 155
+        },
+        "rotation": 180,
+        "confidence": "metadata"
+      }
+    ],
+    "labels": [
+      {
+        "text": "0,10m",
+        "position": {
+          "x": 64,
+          "y": 79
+        },
+        "stageId": "00-3-skica-09"
+      },
+      {
+        "text": "1,10m",
+        "position": {
+          "x": 150,
+          "y": 169
+        },
+        "stageId": "00-3-skica-09"
+      },
+      {
+        "text": "1,10m",
+        "position": {
+          "x": 400,
+          "y": 169
+        },
+        "stageId": "00-3-skica-09"
+      }
+    ],
+    "connections": [],
+    "lines": [
+      {
+        "index": 0,
+        "from": {
+          "x": 110,
+          "y": 70
+        },
+        "to": {
+          "x": 74,
+          "y": 70
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-09"
+      },
+      {
+        "index": 1,
+        "from": {
+          "x": 110,
+          "y": 80
+        },
+        "to": {
+          "x": 74,
+          "y": 80
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-09"
+      },
+      {
+        "index": 2,
+        "from": {
+          "x": 70,
+          "y": 70
+        },
+        "to": {
+          "x": 70,
+          "y": 80
+        },
+        "strokeWidth": 0.8,
+        "stageId": "00-3-skica-09"
+      },
+      {
+        "index": 3,
+        "from": {
+          "x": 130,
+          "y": 100
+        },
+        "to": {
+          "x": 130,
+          "y": 159
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-09"
+      },
+      {
+        "index": 4,
+        "from": {
+          "x": 170,
+          "y": 100
+        },
+        "to": {
+          "x": 170,
+          "y": 159
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-09"
+      },
+      {
+        "index": 5,
+        "from": {
+          "x": 130,
+          "y": 155
+        },
+        "to": {
+          "x": 170,
+          "y": 155
+        },
+        "strokeWidth": 0.8,
+        "stageId": "00-3-skica-09"
+      },
+      {
+        "index": 6,
+        "from": {
+          "x": 370,
+          "y": 100
+        },
+        "to": {
+          "x": 370,
+          "y": 159
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-09"
+      },
+      {
+        "index": 7,
+        "from": {
+          "x": 430,
+          "y": 100
+        },
+        "to": {
+          "x": 430,
+          "y": 159
+        },
+        "strokeWidth": 0.6,
+        "stageId": "00-3-skica-09"
+      },
+      {
+        "index": 8,
+        "from": {
+          "x": 370,
+          "y": 155
+        },
+        "to": {
+          "x": 430,
+          "y": 155
+        },
+        "strokeWidth": 0.8,
+        "stageId": "00-3-skica-09"
+      }
+    ],
+    "renderCopies": [
+      "content/source/skice/ugradjeno/00-3-skica-09.svg"
+    ],
+    "flattened": false,
+    "notes": [
+      "9 linija/putanja (0 prepoznato prema stilu linije)."
+    ]
+  },
+  {
+    "file": "content/source/skice/01-skica-11.svg",
+    "title": "Skica 11 – Postavljanje sprava, opreme i postrojavanje odjeljenja za vježbu",
+    "viewBox": [
+      0,
+      0,
+      720,
+      520
+    ],
+    "stages": [
+      {
+        "stageId": "01-skica-11"
+      }
+    ],
+    "instances": [
+      {
+        "stageId": "01-skica-11",
+        "key": "smjer@70,405",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 70,
+          "y": 405
+        },
+        "rotation": 270,
+        "confidence": "metadata",
+        "attachedTo": "v1@70,430"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "v1@70,430",
+        "rawRef": "content/source/simboli/v1.svg",
+        "symbolId": "src.v1",
+        "position": {
+          "x": 70,
+          "y": 430
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 270
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "smjer@120,405",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 120,
+          "y": 405
+        },
+        "rotation": 270,
+        "confidence": "metadata",
+        "attachedTo": "n1@120,430"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "n1@120,430",
+        "rawRef": "content/source/simboli/n1.svg",
+        "symbolId": "src.n1",
+        "position": {
+          "x": 120,
+          "y": 430
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 270
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "smjer@170,405",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 170,
+          "y": 405
+        },
+        "rotation": 270,
+        "confidence": "metadata",
+        "attachedTo": "strojar@170,430"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "strojar@170,430",
+        "rawRef": "content/source/simboli/strojar.svg",
+        "symbolId": "src.strojar",
+        "position": {
+          "x": 170,
+          "y": 430
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 270
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "smjer@250,405",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 250,
+          "y": 405
+        },
+        "rotation": 270,
+        "confidence": "metadata",
+        "attachedTo": "zapovjednik@250,430"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "zapovjednik@250,430",
+        "rawRef": "content/source/simboli/zapovjednik.svg",
+        "symbolId": "src.zapovjednik",
+        "position": {
+          "x": 250,
+          "y": 430
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 270
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "smjer@70,475",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 70,
+          "y": 475
+        },
+        "rotation": 270,
+        "confidence": "metadata",
+        "attachedTo": "v2@70,500"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "v2@70,500",
+        "rawRef": "content/source/simboli/v2.svg",
+        "symbolId": "src.v2",
+        "position": {
+          "x": 70,
+          "y": 500
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 270
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "smjer@120,475",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 120,
+          "y": 475
+        },
+        "rotation": 270,
+        "confidence": "metadata",
+        "attachedTo": "n2@120,500"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "n2@120,500",
+        "rawRef": "content/source/simboli/n2.svg",
+        "symbolId": "src.n2",
+        "position": {
+          "x": 120,
+          "y": 500
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 270
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "podzemni-hidrant@330,430",
+        "rawRef": "content/source/simboli/podzemni-hidrant.svg",
+        "symbolId": "src.podzemni-hidrant",
+        "position": {
+          "x": 330,
+          "y": 430
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "kljuc-podzemni-hidrant@330,355",
+        "rawRef": "content/source/simboli/kljuc-podzemni-hidrant.svg",
+        "symbolId": "src.kljuc-podzemni-hidrant",
+        "position": {
+          "x": 330,
+          "y": 355
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "dvodijelni-hidrantski-nastavak@330,285",
+        "rawRef": "content/source/simboli/dvodijelni-hidrantski-nastavak.svg",
+        "symbolId": "src.dvodijelni-hidrantski-nastavak",
+        "position": {
+          "x": 330,
+          "y": 285
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "tlacna-b-cijev-kolut@440,370",
+        "rawRef": "content/source/simboli/tlacna-b-cijev-kolut.svg",
+        "symbolId": "src.tlacna-b-cijev-kolut",
+        "position": {
+          "x": 440,
+          "y": 370
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "tlacna-b-cijev-kolut@440,400",
+        "rawRef": "content/source/simboli/tlacna-b-cijev-kolut.svg",
+        "symbolId": "src.tlacna-b-cijev-kolut",
+        "position": {
+          "x": 440,
+          "y": 400
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "tlacna-b-cijev-kolut@440,430",
+        "rawRef": "content/source/simboli/tlacna-b-cijev-kolut.svg",
+        "symbolId": "src.tlacna-b-cijev-kolut",
+        "position": {
+          "x": 440,
+          "y": 430
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "kljuc-za-spojnice@427,300",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 427,
+          "y": 300
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "kljuc-za-spojnice@453,300",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 453,
+          "y": 300
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "kljuc-za-spojnice@440,250",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 440,
+          "y": 250
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "torbica-s-povezicama@440,190",
+        "rawRef": "content/source/simboli/torbica-s-povezicama.svg",
+        "symbolId": "src.torbica-s-povezicama",
+        "position": {
+          "x": 440,
+          "y": 190
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "prijelazna-spojnica-bc@440,125",
+        "rawRef": "content/source/simboli/prijelazna-spojnica-bc.svg",
+        "symbolId": "src.prijelazna-spojnica-bc",
+        "position": {
+          "x": 440,
+          "y": 125
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "tlacna-c-cijev-kolut@570,320",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 570,
+          "y": 320
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "tlacna-c-cijev-kolut@570,342",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 570,
+          "y": 342
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "tlacna-c-cijev-kolut@570,364",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 570,
+          "y": 364
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "tlacna-c-cijev-kolut@570,386",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 570,
+          "y": 386
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "tlacna-c-cijev-kolut@570,408",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 570,
+          "y": 408
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "tlacna-c-cijev-kolut@570,430",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 570,
+          "y": 430
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "obicna-c-mlaznica@570,290",
+        "rawRef": "content/source/simboli/obicna-c-mlaznica.svg",
+        "symbolId": "src.obicna-c-mlaznica",
+        "position": {
+          "x": 570,
+          "y": 290
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "obicna-c-mlaznica@570,270",
+        "rawRef": "content/source/simboli/obicna-c-mlaznica.svg",
+        "symbolId": "src.obicna-c-mlaznica",
+        "position": {
+          "x": 570,
+          "y": 270
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "cijevni-drzac@560,230",
+        "rawRef": "content/source/simboli/cijevni-drzac.svg",
+        "symbolId": "src.cijevni-drzac",
+        "position": {
+          "x": 560,
+          "y": 230
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "cijevni-drzac@560,180",
+        "rawRef": "content/source/simboli/cijevni-drzac.svg",
+        "symbolId": "src.cijevni-drzac",
+        "position": {
+          "x": 560,
+          "y": 180
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-11",
+        "key": "trodijelna-razdjelnica@670,375",
+        "rawRef": "content/source/simboli/trodijelna-razdjelnica.svg",
+        "symbolId": "src.trodijelna-razdjelnica",
+        "position": {
+          "x": 670,
+          "y": 375
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      }
+    ],
+    "labels": [],
+    "connections": [],
+    "lines": [],
+    "renderCopies": [
+      "content/source/skice/ugradjeno/01-skica-11.svg"
+    ],
+    "flattened": false,
+    "notes": []
+  },
+  {
+    "file": "content/source/skice/01-skica-12.svg",
+    "title": "Skica 12 – Položaj odjeljenja, sprava i opreme nakon izdane zapovijedi „…za navalu pripremi!”",
+    "viewBox": [
+      0,
+      0,
+      980,
+      420
+    ],
+    "stages": [
+      {
+        "stageId": "01-skica-12"
+      }
+    ],
+    "instances": [
+      {
+        "stageId": "01-skica-12",
+        "key": "smjer@65,220",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 65,
+          "y": 220
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "attachedTo": "strojar@40,220"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "strojar@40,220",
+        "rawRef": "content/source/simboli/strojar.svg",
+        "symbolId": "src.strojar",
+        "position": {
+          "x": 40,
+          "y": 220
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 0
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "podzemni-hidrant@150,220",
+        "rawRef": "content/source/simboli/podzemni-hidrant.svg",
+        "symbolId": "src.podzemni-hidrant",
+        "position": {
+          "x": 150,
+          "y": 220
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "dvodijelni-hidrantski-nastavak@129,220",
+        "rawRef": "content/source/simboli/dvodijelni-hidrantski-nastavak.svg",
+        "symbolId": "src.dvodijelni-hidrantski-nastavak",
+        "position": {
+          "x": 129,
+          "y": 220
+        },
+        "rotation": 270,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "kljuc-podzemni-hidrant@156,197",
+        "rawRef": "content/source/simboli/kljuc-podzemni-hidrant.svg",
+        "symbolId": "src.kljuc-podzemni-hidrant",
+        "position": {
+          "x": 156,
+          "y": 197
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "smjer@135,70",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 135,
+          "y": 70
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "attachedTo": "v1@110,70"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "v1@110,70",
+        "rawRef": "content/source/simboli/v1.svg",
+        "symbolId": "src.v1",
+        "position": {
+          "x": 110,
+          "y": 70
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 0
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "smjer@135,120",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 135,
+          "y": 120
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "attachedTo": "v2@110,120"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "v2@110,120",
+        "rawRef": "content/source/simboli/v2.svg",
+        "symbolId": "src.v2",
+        "position": {
+          "x": 110,
+          "y": 120
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 0
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "prijelazna-spojnica-bc@240,110",
+        "rawRef": "content/source/simboli/prijelazna-spojnica-bc.svg",
+        "symbolId": "src.prijelazna-spojnica-bc",
+        "position": {
+          "x": 240,
+          "y": 110
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "kljuc-za-spojnice@240,155",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 240,
+          "y": 155
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "tlacna-b-cijev-kolut@250,230",
+        "rawRef": "content/source/simboli/tlacna-b-cijev-kolut.svg",
+        "symbolId": "src.tlacna-b-cijev-kolut",
+        "position": {
+          "x": 250,
+          "y": 230
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "cijevni-drzac@350,70",
+        "rawRef": "content/source/simboli/cijevni-drzac.svg",
+        "symbolId": "src.cijevni-drzac",
+        "position": {
+          "x": 350,
+          "y": 70
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "obicna-c-mlaznica@360,120",
+        "rawRef": "content/source/simboli/obicna-c-mlaznica.svg",
+        "symbolId": "src.obicna-c-mlaznica",
+        "position": {
+          "x": 360,
+          "y": 120
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "tlacna-c-cijev-kolut@360,190",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 360,
+          "y": 190
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "tlacna-c-cijev-kolut@360,212",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 360,
+          "y": 212
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "tlacna-c-cijev-kolut@360,234",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 360,
+          "y": 234
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "spojnica-b@476.9,310",
+        "rawRef": "content/source/simboli/spojnica-b.svg",
+        "symbolId": "src.spojnica-b",
+        "position": {
+          "x": 476.866,
+          "y": 310
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "trodijelna-razdjelnica@896,310",
+        "rawRef": "content/source/simboli/trodijelna-razdjelnica.svg",
+        "symbolId": "src.trodijelna-razdjelnica",
+        "position": {
+          "x": 896,
+          "y": 310
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "smjer@896,355",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 896,
+          "y": 355
+        },
+        "rotation": 270,
+        "confidence": "metadata",
+        "attachedTo": "zapovjednik@896,380"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "zapovjednik@896,380",
+        "rawRef": "content/source/simboli/zapovjednik.svg",
+        "symbolId": "src.zapovjednik",
+        "position": {
+          "x": 896,
+          "y": 380
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 270
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "tlacna-c-cijev-kolut@886,50",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 886,
+          "y": 50
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "smjer@911,88",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 911,
+          "y": 88
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "attachedTo": "n1@886,88"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "n1@886,88",
+        "rawRef": "content/source/simboli/n1.svg",
+        "symbolId": "src.n1",
+        "position": {
+          "x": 886,
+          "y": 88
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 0
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "obicna-c-mlaznica@886,125",
+        "rawRef": "content/source/simboli/obicna-c-mlaznica.svg",
+        "symbolId": "src.obicna-c-mlaznica",
+        "position": {
+          "x": 886,
+          "y": 125
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "tlacna-c-cijev-kolut@886,155",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 886,
+          "y": 155
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "smjer@911,193",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 911,
+          "y": 193
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "attachedTo": "n2@886,193"
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "n2@886,193",
+        "rawRef": "content/source/simboli/n2.svg",
+        "symbolId": "src.n2",
+        "position": {
+          "x": 886,
+          "y": 193
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 0
+      },
+      {
+        "stageId": "01-skica-12",
+        "key": "tlacna-c-cijev-kolut@886,232",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 886,
+          "y": 232
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      }
+    ],
+    "labels": [],
+    "connections": [],
+    "lines": [
+      {
+        "index": 0,
+        "from": {
+          "x": 120,
+          "y": 242
+        },
+        "to": {
+          "x": 860,
+          "y": 310
+        },
+        "strokeWidth": 2.6,
+        "equipmentTypeId": "et.tlacna-b-cijev",
+        "stageId": "01-skica-12"
+      }
+    ],
+    "renderCopies": [
+      "content/source/skice/ugradjeno/01-skica-12.svg"
+    ],
+    "flattened": false,
+    "notes": [
+      "1 linija/putanja (1 prepoznato prema stilu linije)."
+    ]
+  },
+  {
+    "file": "content/source/skice/01-skica-13.svg",
+    "title": "Skica 13 – Položaj odjeljenja, sprava i opreme nakon izdane zapovijedi za prvi mlaz",
+    "viewBox": [
+      0,
+      0,
+      960,
+      460
+    ],
+    "stages": [
+      {
+        "stageId": "01-skica-13"
+      }
+    ],
+    "instances": [
+      {
+        "stageId": "01-skica-13",
+        "key": "smjer@65,260",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 65,
+          "y": 260
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "attachedTo": "strojar@40,260"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "strojar@40,260",
+        "rawRef": "content/source/simboli/strojar.svg",
+        "symbolId": "src.strojar",
+        "position": {
+          "x": 40,
+          "y": 260
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 0
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "podzemni-hidrant@150,260",
+        "rawRef": "content/source/simboli/podzemni-hidrant.svg",
+        "symbolId": "src.podzemni-hidrant",
+        "position": {
+          "x": 150,
+          "y": 260
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "dvodijelni-hidrantski-nastavak@129,260",
+        "rawRef": "content/source/simboli/dvodijelni-hidrantski-nastavak.svg",
+        "symbolId": "src.dvodijelni-hidrantski-nastavak",
+        "position": {
+          "x": 129,
+          "y": 260
+        },
+        "rotation": 270,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "kljuc-podzemni-hidrant@156,237",
+        "rawRef": "content/source/simboli/kljuc-podzemni-hidrant.svg",
+        "symbolId": "src.kljuc-podzemni-hidrant",
+        "position": {
+          "x": 156,
+          "y": 237
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "smjer@135,110",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 135,
+          "y": 110
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "attachedTo": "v1@110,110"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "v1@110,110",
+        "rawRef": "content/source/simboli/v1.svg",
+        "symbolId": "src.v1",
+        "position": {
+          "x": 110,
+          "y": 110
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 0
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "smjer@135,160",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 135,
+          "y": 160
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "attachedTo": "v2@110,160"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "v2@110,160",
+        "rawRef": "content/source/simboli/v2.svg",
+        "symbolId": "src.v2",
+        "position": {
+          "x": 110,
+          "y": 160
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 0
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "prijelazna-spojnica-bc@240,150",
+        "rawRef": "content/source/simboli/prijelazna-spojnica-bc.svg",
+        "symbolId": "src.prijelazna-spojnica-bc",
+        "position": {
+          "x": 240,
+          "y": 150
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "kljuc-za-spojnice@240,195",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 240,
+          "y": 195
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "tlacna-b-cijev-kolut@250,270",
+        "rawRef": "content/source/simboli/tlacna-b-cijev-kolut.svg",
+        "symbolId": "src.tlacna-b-cijev-kolut",
+        "position": {
+          "x": 250,
+          "y": 270
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "cijevni-drzac@350,110",
+        "rawRef": "content/source/simboli/cijevni-drzac.svg",
+        "symbolId": "src.cijevni-drzac",
+        "position": {
+          "x": 350,
+          "y": 110
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "obicna-c-mlaznica@360,160",
+        "rawRef": "content/source/simboli/obicna-c-mlaznica.svg",
+        "symbolId": "src.obicna-c-mlaznica",
+        "position": {
+          "x": 360,
+          "y": 160
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "tlacna-c-cijev-kolut@360,230",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 360,
+          "y": 230
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "tlacna-c-cijev-kolut@360,252",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 360,
+          "y": 252
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "tlacna-c-cijev-kolut@360,274",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 360,
+          "y": 274
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "spojnica-b@346.9,350",
+        "rawRef": "content/source/simboli/spojnica-b.svg",
+        "symbolId": "src.spojnica-b",
+        "position": {
+          "x": 346.866,
+          "y": 350
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "spojnica-b@600,350",
+        "rawRef": "content/source/simboli/spojnica-b.svg",
+        "symbolId": "src.spojnica-b",
+        "position": {
+          "x": 600,
+          "y": 350
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "zapovjednik@578,350",
+        "rawRef": "content/source/simboli/zapovjednik.svg",
+        "symbolId": "src.zapovjednik",
+        "position": {
+          "x": 578,
+          "y": 350
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "trodijelna-razdjelnica@636,350",
+        "rawRef": "content/source/simboli/trodijelna-razdjelnica.svg",
+        "symbolId": "src.trodijelna-razdjelnica",
+        "position": {
+          "x": 636,
+          "y": 350
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "vrh-mlaznice-c@906.7,135.4",
+        "rawRef": "content/source/simboli/vrh-mlaznice-c.svg",
+        "symbolId": "src.vrh-mlaznice-c",
+        "position": {
+          "x": 906.708,
+          "y": 135.379
+        },
+        "rotation": 320,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "spojnica-c@784.9,237.6",
+        "rawRef": "content/source/simboli/spojnica-c.svg",
+        "symbolId": "src.spojnica-c",
+        "position": {
+          "x": 784.907,
+          "y": 237.582
+        },
+        "rotation": 320,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "spojnica-c@880.7,157.2",
+        "rawRef": "content/source/simboli/spojnica-c.svg",
+        "symbolId": "src.spojnica-c",
+        "position": {
+          "x": 880.662,
+          "y": 157.233
+        },
+        "rotation": 320,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "smjer@896.3,99.7",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 896.344,
+          "y": 99.691
+        },
+        "rotation": 320,
+        "confidence": "metadata",
+        "attachedTo": "n1@877.2,115.8"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "n1@877.2,115.8",
+        "rawRef": "content/source/simboli/n1.svg",
+        "symbolId": "src.n1",
+        "position": {
+          "x": 877.193,
+          "y": 115.761
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 320
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "smjer@921.7,175",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 921.695,
+          "y": 175.019
+        },
+        "rotation": 320,
+        "confidence": "metadata",
+        "attachedTo": "n2@902.5,191.1"
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "n2@902.5,191.1",
+        "rawRef": "content/source/simboli/n2.svg",
+        "symbolId": "src.n2",
+        "position": {
+          "x": 902.544,
+          "y": 191.089
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 320
+      },
+      {
+        "stageId": "01-skica-13",
+        "key": "tlacna-c-cijev-kolut@636,400",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 636,
+          "y": 400
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      }
+    ],
+    "labels": [],
+    "connections": [],
+    "lines": [
+      {
+        "index": 0,
+        "from": {
+          "x": 120,
+          "y": 282
+        },
+        "to": {
+          "x": 600,
+          "y": 350
+        },
+        "strokeWidth": 2.6,
+        "equipmentTypeId": "et.tlacna-b-cijev",
+        "stageId": "01-skica-13"
+      },
+      {
+        "index": 1,
+        "from": {
+          "x": 670,
+          "y": 334
+        },
+        "to": {
+          "x": 911.3,
+          "y": 131.5
+        },
+        "strokeWidth": 1.3,
+        "equipmentTypeId": "et.tlacna-c-cijev",
+        "stageId": "01-skica-13"
+      }
+    ],
+    "renderCopies": [
+      "content/source/skice/ugradjeno/01-skica-13.svg"
+    ],
+    "flattened": false,
+    "notes": [
+      "2 linija/putanja (2 prepoznato prema stilu linije)."
+    ]
+  },
+  {
+    "file": "content/source/skice/01-skica-14.svg",
+    "title": "Skica 14 – Položaj odjeljenja, sprava i opreme nakon izdane zapovijedi za drugi mlaz",
+    "viewBox": [
+      0,
+      0,
+      960,
+      640
+    ],
+    "stages": [
+      {
+        "stageId": "01-skica-14"
+      }
+    ],
+    "instances": [
+      {
+        "stageId": "01-skica-14",
+        "key": "smjer@65,260",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 65,
+          "y": 260
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "attachedTo": "strojar@40,260"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "strojar@40,260",
+        "rawRef": "content/source/simboli/strojar.svg",
+        "symbolId": "src.strojar",
+        "position": {
+          "x": 40,
+          "y": 260
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 0
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "podzemni-hidrant@150,260",
+        "rawRef": "content/source/simboli/podzemni-hidrant.svg",
+        "symbolId": "src.podzemni-hidrant",
+        "position": {
+          "x": 150,
+          "y": 260
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "dvodijelni-hidrantski-nastavak@129,260",
+        "rawRef": "content/source/simboli/dvodijelni-hidrantski-nastavak.svg",
+        "symbolId": "src.dvodijelni-hidrantski-nastavak",
+        "position": {
+          "x": 129,
+          "y": 260
+        },
+        "rotation": 270,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "kljuc-podzemni-hidrant@156,237",
+        "rawRef": "content/source/simboli/kljuc-podzemni-hidrant.svg",
+        "symbolId": "src.kljuc-podzemni-hidrant",
+        "position": {
+          "x": 156,
+          "y": 237
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "prijelazna-spojnica-bc@240,150",
+        "rawRef": "content/source/simboli/prijelazna-spojnica-bc.svg",
+        "symbolId": "src.prijelazna-spojnica-bc",
+        "position": {
+          "x": 240,
+          "y": 150
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "kljuc-za-spojnice@240,195",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 240,
+          "y": 195
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "tlacna-b-cijev-kolut@250,270",
+        "rawRef": "content/source/simboli/tlacna-b-cijev-kolut.svg",
+        "symbolId": "src.tlacna-b-cijev-kolut",
+        "position": {
+          "x": 250,
+          "y": 270
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "spojnica-b@346.9,350",
+        "rawRef": "content/source/simboli/spojnica-b.svg",
+        "symbolId": "src.spojnica-b",
+        "position": {
+          "x": 346.866,
+          "y": 350
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "spojnica-b@600,350",
+        "rawRef": "content/source/simboli/spojnica-b.svg",
+        "symbolId": "src.spojnica-b",
+        "position": {
+          "x": 600,
+          "y": 350
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "zapovjednik@578,350",
+        "rawRef": "content/source/simboli/zapovjednik.svg",
+        "symbolId": "src.zapovjednik",
+        "position": {
+          "x": 578,
+          "y": 350
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "trodijelna-razdjelnica@636,350",
+        "rawRef": "content/source/simboli/trodijelna-razdjelnica.svg",
+        "symbolId": "src.trodijelna-razdjelnica",
+        "position": {
+          "x": 636,
+          "y": 350
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "vrh-mlaznice-c@906.7,135.4",
+        "rawRef": "content/source/simboli/vrh-mlaznice-c.svg",
+        "symbolId": "src.vrh-mlaznice-c",
+        "position": {
+          "x": 906.708,
+          "y": 135.379
+        },
+        "rotation": 320,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "spojnica-c@784.9,237.6",
+        "rawRef": "content/source/simboli/spojnica-c.svg",
+        "symbolId": "src.spojnica-c",
+        "position": {
+          "x": 784.907,
+          "y": 237.582
+        },
+        "rotation": 320,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "spojnica-c@880.7,157.2",
+        "rawRef": "content/source/simboli/spojnica-c.svg",
+        "symbolId": "src.spojnica-c",
+        "position": {
+          "x": 880.662,
+          "y": 157.233
+        },
+        "rotation": 320,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "smjer@896.3,99.7",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 896.344,
+          "y": 99.691
+        },
+        "rotation": 320,
+        "confidence": "metadata",
+        "attachedTo": "n1@877.2,115.8"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "n1@877.2,115.8",
+        "rawRef": "content/source/simboli/n1.svg",
+        "symbolId": "src.n1",
+        "position": {
+          "x": 877.193,
+          "y": 115.761
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 320
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "smjer@921.7,175",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 921.695,
+          "y": 175.019
+        },
+        "rotation": 320,
+        "confidence": "metadata",
+        "attachedTo": "n2@902.5,191.1"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "n2@902.5,191.1",
+        "rawRef": "content/source/simboli/n2.svg",
+        "symbolId": "src.n2",
+        "position": {
+          "x": 902.544,
+          "y": 191.089
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 320
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "vrh-mlaznice-c@906.7,564.6",
+        "rawRef": "content/source/simboli/vrh-mlaznice-c.svg",
+        "symbolId": "src.vrh-mlaznice-c",
+        "position": {
+          "x": 906.708,
+          "y": 564.621
+        },
+        "rotation": 40,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "spojnica-c@784.9,462.4",
+        "rawRef": "content/source/simboli/spojnica-c.svg",
+        "symbolId": "src.spojnica-c",
+        "position": {
+          "x": 784.907,
+          "y": 462.418
+        },
+        "rotation": 40,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "spojnica-c@880.7,542.8",
+        "rawRef": "content/source/simboli/spojnica-c.svg",
+        "symbolId": "src.spojnica-c",
+        "position": {
+          "x": 880.662,
+          "y": 542.767
+        },
+        "rotation": 40,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "smjer@940.1,548.2",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 940.053,
+          "y": 548.218
+        },
+        "rotation": 40,
+        "confidence": "metadata",
+        "attachedTo": "v1@920.9,532.1"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "v1@920.9,532.1",
+        "rawRef": "content/source/simboli/v1.svg",
+        "symbolId": "src.v1",
+        "position": {
+          "x": 920.902,
+          "y": 532.148
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 40
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "smjer@870.3,586.3",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 870.272,
+          "y": 586.264
+        },
+        "rotation": 40,
+        "confidence": "metadata",
+        "attachedTo": "v2@851.1,570.2"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "v2@851.1,570.2",
+        "rawRef": "content/source/simboli/v2.svg",
+        "symbolId": "src.v2",
+        "position": {
+          "x": 851.12,
+          "y": 570.194
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 40
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "tlacna-c-cijev-kolut@586,395",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 586,
+          "y": 395
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-14",
+        "key": "tlacna-c-cijev-kolut@586,413",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 586,
+          "y": 413
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      }
+    ],
+    "labels": [],
+    "connections": [],
+    "lines": [
+      {
+        "index": 0,
+        "from": {
+          "x": 120,
+          "y": 282
+        },
+        "to": {
+          "x": 600,
+          "y": 350
+        },
+        "strokeWidth": 2.6,
+        "equipmentTypeId": "et.tlacna-b-cijev",
+        "stageId": "01-skica-14"
+      },
+      {
+        "index": 1,
+        "from": {
+          "x": 670,
+          "y": 334
+        },
+        "to": {
+          "x": 911.3,
+          "y": 131.5
+        },
+        "strokeWidth": 1.3,
+        "equipmentTypeId": "et.tlacna-c-cijev",
+        "stageId": "01-skica-14"
+      },
+      {
+        "index": 2,
+        "from": {
+          "x": 670,
+          "y": 366
+        },
+        "to": {
+          "x": 911.3,
+          "y": 568.5
+        },
+        "strokeWidth": 1.3,
+        "equipmentTypeId": "et.tlacna-c-cijev",
+        "stageId": "01-skica-14"
+      }
+    ],
+    "renderCopies": [
+      "content/source/skice/ugradjeno/01-skica-14.svg"
+    ],
+    "flattened": false,
+    "notes": [
+      "3 linija/putanja (3 prepoznato prema stilu linije)."
+    ]
+  },
+  {
+    "file": "content/source/skice/01-skica-15.svg",
+    "title": "Skica 15 – Položaj odjeljenja, sprava i opreme nakon izdane zapovijedi „Posprema!”",
+    "viewBox": [
+      0,
+      0,
+      940,
+      520
+    ],
+    "stages": [
+      {
+        "stageId": "01-skica-15"
+      }
+    ],
+    "instances": [
+      {
+        "stageId": "01-skica-15",
+        "key": "smjer@70,355",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 70,
+          "y": 355
+        },
+        "rotation": 270,
+        "confidence": "metadata",
+        "attachedTo": "strojar@70,380"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "strojar@70,380",
+        "rawRef": "content/source/simboli/strojar.svg",
+        "symbolId": "src.strojar",
+        "position": {
+          "x": 70,
+          "y": 380
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 270
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "smjer@150,355",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 150,
+          "y": 355
+        },
+        "rotation": 270,
+        "confidence": "metadata",
+        "attachedTo": "zapovjednik@150,380"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "zapovjednik@150,380",
+        "rawRef": "content/source/simboli/zapovjednik.svg",
+        "symbolId": "src.zapovjednik",
+        "position": {
+          "x": 150,
+          "y": 380
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 270
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "podzemni-hidrant@250,380",
+        "rawRef": "content/source/simboli/podzemni-hidrant.svg",
+        "symbolId": "src.podzemni-hidrant",
+        "position": {
+          "x": 250,
+          "y": 380
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "kljuc-podzemni-hidrant@250,305",
+        "rawRef": "content/source/simboli/kljuc-podzemni-hidrant.svg",
+        "symbolId": "src.kljuc-podzemni-hidrant",
+        "position": {
+          "x": 250,
+          "y": 305
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "dvodijelni-hidrantski-nastavak@250,235",
+        "rawRef": "content/source/simboli/dvodijelni-hidrantski-nastavak.svg",
+        "symbolId": "src.dvodijelni-hidrantski-nastavak",
+        "position": {
+          "x": 250,
+          "y": 235
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "tlacna-b-cijev-kolut@370,380",
+        "rawRef": "content/source/simboli/tlacna-b-cijev-kolut.svg",
+        "symbolId": "src.tlacna-b-cijev-kolut",
+        "position": {
+          "x": 370,
+          "y": 380
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "kljuc-za-spojnice@357,310",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 357,
+          "y": 310
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "kljuc-za-spojnice@383,310",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 383,
+          "y": 310
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "kljuc-za-spojnice@370,260",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 370,
+          "y": 260
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "torbica-s-povezicama@370,200",
+        "rawRef": "content/source/simboli/torbica-s-povezicama.svg",
+        "symbolId": "src.torbica-s-povezicama",
+        "position": {
+          "x": 370,
+          "y": 200
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "prijelazna-spojnica-bc@370,135",
+        "rawRef": "content/source/simboli/prijelazna-spojnica-bc.svg",
+        "symbolId": "src.prijelazna-spojnica-bc",
+        "position": {
+          "x": 370,
+          "y": 135
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "spojnica-b@220,450",
+        "rawRef": "content/source/simboli/spojnica-b.svg",
+        "symbolId": "src.spojnica-b",
+        "position": {
+          "x": 220,
+          "y": 450
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "spojnica-b@540,450",
+        "rawRef": "content/source/simboli/spojnica-b.svg",
+        "symbolId": "src.spojnica-b",
+        "position": {
+          "x": 540,
+          "y": 450
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "spojnica-b@565,450",
+        "rawRef": "content/source/simboli/spojnica-b.svg",
+        "symbolId": "src.spojnica-b",
+        "position": {
+          "x": 565,
+          "y": 450
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "spojnica-b@840,450",
+        "rawRef": "content/source/simboli/spojnica-b.svg",
+        "symbolId": "src.spojnica-b",
+        "position": {
+          "x": 840,
+          "y": 450
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "trodijelna-razdjelnica@880,50",
+        "rawRef": "content/source/simboli/trodijelna-razdjelnica.svg",
+        "symbolId": "src.trodijelna-razdjelnica",
+        "position": {
+          "x": 880,
+          "y": 50
+        },
+        "rotation": 180,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "smjer@855,90",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 855,
+          "y": 90
+        },
+        "rotation": 180,
+        "confidence": "metadata",
+        "attachedTo": "n1@880,90"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "n1@880,90",
+        "rawRef": "content/source/simboli/n1.svg",
+        "symbolId": "src.n1",
+        "position": {
+          "x": 880,
+          "y": 90
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 180
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "tlacna-c-cijev-kolut@880,123",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 880,
+          "y": 123
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "smjer@855,159",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 855,
+          "y": 159
+        },
+        "rotation": 180,
+        "confidence": "metadata",
+        "attachedTo": "n2@880,159"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "n2@880,159",
+        "rawRef": "content/source/simboli/n2.svg",
+        "symbolId": "src.n2",
+        "position": {
+          "x": 880,
+          "y": 159
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 180
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "tlacna-c-cijev-kolut@880,192",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 880,
+          "y": 192
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "tlacna-c-cijev-kolut@880,210",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 880,
+          "y": 210
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "smjer@855,246",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 855,
+          "y": 246
+        },
+        "rotation": 180,
+        "confidence": "metadata",
+        "attachedTo": "v1@880,246"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "v1@880,246",
+        "rawRef": "content/source/simboli/v1.svg",
+        "symbolId": "src.v1",
+        "position": {
+          "x": 880,
+          "y": 246
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 180
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "tlacna-c-cijev-kolut@880,279",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 880,
+          "y": 279
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "smjer@855,315",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 855,
+          "y": 315
+        },
+        "rotation": 180,
+        "confidence": "metadata",
+        "attachedTo": "v2@880,315"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "v2@880,315",
+        "rawRef": "content/source/simboli/v2.svg",
+        "symbolId": "src.v2",
+        "position": {
+          "x": 880,
+          "y": 315
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 180
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "tlacna-c-cijev-kolut@880,348",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 880,
+          "y": 348
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "01-skica-15",
+        "key": "tlacna-c-cijev-kolut@880,366",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 880,
+          "y": 366
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      }
+    ],
+    "labels": [],
+    "connections": [],
+    "lines": [
+      {
+        "index": 0,
+        "from": {
+          "x": 220,
+          "y": 450
+        },
+        "to": {
+          "x": 540,
+          "y": 450
+        },
+        "strokeWidth": 2.6,
+        "equipmentTypeId": "et.tlacna-b-cijev",
+        "stageId": "01-skica-15"
+      },
+      {
+        "index": 1,
+        "from": {
+          "x": 565,
+          "y": 450
+        },
+        "to": {
+          "x": 840,
+          "y": 450
+        },
+        "strokeWidth": 2.6,
+        "equipmentTypeId": "et.tlacna-b-cijev",
+        "stageId": "01-skica-15"
+      }
+    ],
+    "renderCopies": [
+      "content/source/skice/ugradjeno/01-skica-15.svg"
+    ],
+    "flattened": false,
+    "notes": [
+      "2 linija/putanja (2 prepoznato prema stilu linije)."
+    ]
+  },
+  {
+    "file": "content/source/skice/02-skica-16.svg",
+    "title": "Skica 16 – Postavljanje sprava, opreme i postrojavanje odjeljenja za vježbu",
+    "viewBox": [
+      0,
+      0,
+      680,
+      520
+    ],
+    "stages": [
+      {
+        "stageId": "02-skica-16"
+      }
+    ],
+    "instances": [
+      {
+        "stageId": "02-skica-16",
+        "key": "smjer@130,405",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 130,
+          "y": 405
+        },
+        "rotation": 270,
+        "confidence": "metadata",
+        "attachedTo": "strojar@130,430"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "strojar@130,430",
+        "rawRef": "content/source/simboli/strojar.svg",
+        "symbolId": "src.strojar",
+        "position": {
+          "x": 130,
+          "y": 430
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 270
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "smjer@200,405",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 200,
+          "y": 405
+        },
+        "rotation": 270,
+        "confidence": "metadata",
+        "attachedTo": "n1@200,430"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "n1@200,430",
+        "rawRef": "content/source/simboli/n1.svg",
+        "symbolId": "src.n1",
+        "position": {
+          "x": 200,
+          "y": 430
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 270
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "smjer@130,475",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 130,
+          "y": 475
+        },
+        "rotation": 270,
+        "confidence": "metadata",
+        "attachedTo": "n2@130,500"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "n2@130,500",
+        "rawRef": "content/source/simboli/n2.svg",
+        "symbolId": "src.n2",
+        "position": {
+          "x": 130,
+          "y": 500
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 270
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "podzemni-hidrant@290,430",
+        "rawRef": "content/source/simboli/podzemni-hidrant.svg",
+        "symbolId": "src.podzemni-hidrant",
+        "position": {
+          "x": 290,
+          "y": 430
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "kljuc-podzemni-hidrant@290,355",
+        "rawRef": "content/source/simboli/kljuc-podzemni-hidrant.svg",
+        "symbolId": "src.kljuc-podzemni-hidrant",
+        "position": {
+          "x": 290,
+          "y": 355
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "dvodijelni-hidrantski-nastavak@290,285",
+        "rawRef": "content/source/simboli/dvodijelni-hidrantski-nastavak.svg",
+        "symbolId": "src.dvodijelni-hidrantski-nastavak",
+        "position": {
+          "x": 290,
+          "y": 285
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "tlacna-b-cijev-kolut@400,370",
+        "rawRef": "content/source/simboli/tlacna-b-cijev-kolut.svg",
+        "symbolId": "src.tlacna-b-cijev-kolut",
+        "position": {
+          "x": 400,
+          "y": 370
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "tlacna-b-cijev-kolut@400,400",
+        "rawRef": "content/source/simboli/tlacna-b-cijev-kolut.svg",
+        "symbolId": "src.tlacna-b-cijev-kolut",
+        "position": {
+          "x": 400,
+          "y": 400
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "tlacna-b-cijev-kolut@400,430",
+        "rawRef": "content/source/simboli/tlacna-b-cijev-kolut.svg",
+        "symbolId": "src.tlacna-b-cijev-kolut",
+        "position": {
+          "x": 400,
+          "y": 430
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "kljuc-za-spojnice@387,300",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 387,
+          "y": 300
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "kljuc-za-spojnice@413,300",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 413,
+          "y": 300
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "kljuc-za-spojnice@400,250",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 400,
+          "y": 250
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "torbica-s-povezicama@400,190",
+        "rawRef": "content/source/simboli/torbica-s-povezicama.svg",
+        "symbolId": "src.torbica-s-povezicama",
+        "position": {
+          "x": 400,
+          "y": 190
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "prijelazna-spojnica-bc@400,125",
+        "rawRef": "content/source/simboli/prijelazna-spojnica-bc.svg",
+        "symbolId": "src.prijelazna-spojnica-bc",
+        "position": {
+          "x": 400,
+          "y": 125
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "tlacna-c-cijev-kolut@525,386",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 525,
+          "y": 386
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "tlacna-c-cijev-kolut@525,408",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 525,
+          "y": 408
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "tlacna-c-cijev-kolut@525,430",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 525,
+          "y": 430
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "obicna-c-mlaznica@525,355",
+        "rawRef": "content/source/simboli/obicna-c-mlaznica.svg",
+        "symbolId": "src.obicna-c-mlaznica",
+        "position": {
+          "x": 525,
+          "y": 355
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "cijevni-drzac@515,310",
+        "rawRef": "content/source/simboli/cijevni-drzac.svg",
+        "symbolId": "src.cijevni-drzac",
+        "position": {
+          "x": 515,
+          "y": 310
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-16",
+        "key": "trodijelna-razdjelnica@610,400",
+        "rawRef": "content/source/simboli/trodijelna-razdjelnica.svg",
+        "symbolId": "src.trodijelna-razdjelnica",
+        "position": {
+          "x": 610,
+          "y": 400
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      }
+    ],
+    "labels": [],
+    "connections": [],
+    "lines": [],
+    "renderCopies": [
+      "content/source/skice/ugradjeno/02-skica-16.svg"
+    ],
+    "flattened": false,
+    "notes": []
+  },
+  {
+    "file": "content/source/skice/02-skica-17.svg",
+    "title": "Skica 17 – Položaj odjeljenja, sprava i opreme nakon izdane zapovijedi „…za navalu pripremi!”",
+    "viewBox": [
+      0,
+      0,
+      980,
+      420
+    ],
+    "stages": [
+      {
+        "stageId": "02-skica-17"
+      }
+    ],
+    "instances": [
+      {
+        "stageId": "02-skica-17",
+        "key": "smjer@65,200",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 65,
+          "y": 200
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "attachedTo": "strojar@40,200"
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "strojar@40,200",
+        "rawRef": "content/source/simboli/strojar.svg",
+        "symbolId": "src.strojar",
+        "position": {
+          "x": 40,
+          "y": 200
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 0
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "podzemni-hidrant@150,200",
+        "rawRef": "content/source/simboli/podzemni-hidrant.svg",
+        "symbolId": "src.podzemni-hidrant",
+        "position": {
+          "x": 150,
+          "y": 200
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "dvodijelni-hidrantski-nastavak@129,200",
+        "rawRef": "content/source/simboli/dvodijelni-hidrantski-nastavak.svg",
+        "symbolId": "src.dvodijelni-hidrantski-nastavak",
+        "position": {
+          "x": 129,
+          "y": 200
+        },
+        "rotation": 270,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "kljuc-podzemni-hidrant@156,177",
+        "rawRef": "content/source/simboli/kljuc-podzemni-hidrant.svg",
+        "symbolId": "src.kljuc-podzemni-hidrant",
+        "position": {
+          "x": 156,
+          "y": 177
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "prijelazna-spojnica-bc@240,90",
+        "rawRef": "content/source/simboli/prijelazna-spojnica-bc.svg",
+        "symbolId": "src.prijelazna-spojnica-bc",
+        "position": {
+          "x": 240,
+          "y": 90
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "kljuc-za-spojnice@240,135",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 240,
+          "y": 135
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "tlacna-b-cijev-kolut@250,210",
+        "rawRef": "content/source/simboli/tlacna-b-cijev-kolut.svg",
+        "symbolId": "src.tlacna-b-cijev-kolut",
+        "position": {
+          "x": 250,
+          "y": 210
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "spojnica-b@476.9,290",
+        "rawRef": "content/source/simboli/spojnica-b.svg",
+        "symbolId": "src.spojnica-b",
+        "position": {
+          "x": 476.866,
+          "y": 290
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "trodijelna-razdjelnica@896,290",
+        "rawRef": "content/source/simboli/trodijelna-razdjelnica.svg",
+        "symbolId": "src.trodijelna-razdjelnica",
+        "position": {
+          "x": 896,
+          "y": 290
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "kljuc-za-spojnice@896,335",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 896,
+          "y": 335
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "kljuc-za-spojnice@896,350",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 896,
+          "y": 350
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "tlacna-c-cijev-kolut@886,40",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 886,
+          "y": 40
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "smjer@911,78",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 911,
+          "y": 78
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "attachedTo": "n1@886,78"
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "n1@886,78",
+        "rawRef": "content/source/simboli/n1.svg",
+        "symbolId": "src.n1",
+        "position": {
+          "x": 886,
+          "y": 78
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 0
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "obicna-c-mlaznica@886,115",
+        "rawRef": "content/source/simboli/obicna-c-mlaznica.svg",
+        "symbolId": "src.obicna-c-mlaznica",
+        "position": {
+          "x": 886,
+          "y": 115
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "tlacna-c-cijev-kolut@886,145",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 886,
+          "y": 145
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "smjer@911,183",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 911,
+          "y": 183
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "attachedTo": "n2@886,183"
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "n2@886,183",
+        "rawRef": "content/source/simboli/n2.svg",
+        "symbolId": "src.n2",
+        "position": {
+          "x": 886,
+          "y": 183
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 0
+      },
+      {
+        "stageId": "02-skica-17",
+        "key": "tlacna-c-cijev-kolut@886,222",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 886,
+          "y": 222
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      }
+    ],
+    "labels": [],
+    "connections": [],
+    "lines": [
+      {
+        "index": 0,
+        "from": {
+          "x": 120,
+          "y": 222
+        },
+        "to": {
+          "x": 860,
+          "y": 290
+        },
+        "strokeWidth": 2.6,
+        "equipmentTypeId": "et.tlacna-b-cijev",
+        "stageId": "02-skica-17"
+      }
+    ],
+    "renderCopies": [
+      "content/source/skice/ugradjeno/02-skica-17.svg"
+    ],
+    "flattened": false,
+    "notes": [
+      "1 linija/putanja (1 prepoznato prema stilu linije)."
+    ]
+  },
+  {
+    "file": "content/source/skice/02-skica-18.svg",
+    "title": "Skica 18 – Položaj odjeljenja, sprava i opreme nakon izdane zapovijedi za prvi mlaz",
+    "viewBox": [
+      0,
+      0,
+      960,
+      460
+    ],
+    "stages": [
+      {
+        "stageId": "02-skica-18"
+      }
+    ],
+    "instances": [
+      {
+        "stageId": "02-skica-18",
+        "key": "smjer@65,260",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 65,
+          "y": 260
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "attachedTo": "strojar@40,260"
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "strojar@40,260",
+        "rawRef": "content/source/simboli/strojar.svg",
+        "symbolId": "src.strojar",
+        "position": {
+          "x": 40,
+          "y": 260
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 0
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "podzemni-hidrant@150,260",
+        "rawRef": "content/source/simboli/podzemni-hidrant.svg",
+        "symbolId": "src.podzemni-hidrant",
+        "position": {
+          "x": 150,
+          "y": 260
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "dvodijelni-hidrantski-nastavak@129,260",
+        "rawRef": "content/source/simboli/dvodijelni-hidrantski-nastavak.svg",
+        "symbolId": "src.dvodijelni-hidrantski-nastavak",
+        "position": {
+          "x": 129,
+          "y": 260
+        },
+        "rotation": 270,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "kljuc-podzemni-hidrant@156,237",
+        "rawRef": "content/source/simboli/kljuc-podzemni-hidrant.svg",
+        "symbolId": "src.kljuc-podzemni-hidrant",
+        "position": {
+          "x": 156,
+          "y": 237
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "prijelazna-spojnica-bc@240,150",
+        "rawRef": "content/source/simboli/prijelazna-spojnica-bc.svg",
+        "symbolId": "src.prijelazna-spojnica-bc",
+        "position": {
+          "x": 240,
+          "y": 150
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "kljuc-za-spojnice@240,195",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 240,
+          "y": 195
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "tlacna-b-cijev-kolut@250,270",
+        "rawRef": "content/source/simboli/tlacna-b-cijev-kolut.svg",
+        "symbolId": "src.tlacna-b-cijev-kolut",
+        "position": {
+          "x": 250,
+          "y": 270
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "spojnica-b@346.9,350",
+        "rawRef": "content/source/simboli/spojnica-b.svg",
+        "symbolId": "src.spojnica-b",
+        "position": {
+          "x": 346.866,
+          "y": 350
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "spojnica-b@600,350",
+        "rawRef": "content/source/simboli/spojnica-b.svg",
+        "symbolId": "src.spojnica-b",
+        "position": {
+          "x": 600,
+          "y": 350
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "trodijelna-razdjelnica@636,350",
+        "rawRef": "content/source/simboli/trodijelna-razdjelnica.svg",
+        "symbolId": "src.trodijelna-razdjelnica",
+        "position": {
+          "x": 636,
+          "y": 350
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "vrh-mlaznice-c@906.7,135.4",
+        "rawRef": "content/source/simboli/vrh-mlaznice-c.svg",
+        "symbolId": "src.vrh-mlaznice-c",
+        "position": {
+          "x": 906.708,
+          "y": 135.379
+        },
+        "rotation": 320,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "spojnica-c@784.9,237.6",
+        "rawRef": "content/source/simboli/spojnica-c.svg",
+        "symbolId": "src.spojnica-c",
+        "position": {
+          "x": 784.907,
+          "y": 237.582
+        },
+        "rotation": 320,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "spojnica-c@880.7,157.2",
+        "rawRef": "content/source/simboli/spojnica-c.svg",
+        "symbolId": "src.spojnica-c",
+        "position": {
+          "x": 880.662,
+          "y": 157.233
+        },
+        "rotation": 320,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "smjer@896.3,99.7",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 896.344,
+          "y": 99.691
+        },
+        "rotation": 320,
+        "confidence": "metadata",
+        "attachedTo": "n1@877.2,115.8"
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "n1@877.2,115.8",
+        "rawRef": "content/source/simboli/n1.svg",
+        "symbolId": "src.n1",
+        "position": {
+          "x": 877.193,
+          "y": 115.761
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 320
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "smjer@921.7,175",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 921.695,
+          "y": 175.019
+        },
+        "rotation": 320,
+        "confidence": "metadata",
+        "attachedTo": "n2@902.5,191.1"
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "n2@902.5,191.1",
+        "rawRef": "content/source/simboli/n2.svg",
+        "symbolId": "src.n2",
+        "position": {
+          "x": 902.544,
+          "y": 191.089
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 320
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "kljuc-za-spojnice@626,390",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 626,
+          "y": 390
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "kljuc-za-spojnice@626,405",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 626,
+          "y": 405
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-18",
+        "key": "tlacna-c-cijev-kolut@626,425",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 626,
+          "y": 425
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      }
+    ],
+    "labels": [],
+    "connections": [],
+    "lines": [
+      {
+        "index": 0,
+        "from": {
+          "x": 120,
+          "y": 282
+        },
+        "to": {
+          "x": 600,
+          "y": 350
+        },
+        "strokeWidth": 2.6,
+        "equipmentTypeId": "et.tlacna-b-cijev",
+        "stageId": "02-skica-18"
+      },
+      {
+        "index": 1,
+        "from": {
+          "x": 670,
+          "y": 334
+        },
+        "to": {
+          "x": 911.3,
+          "y": 131.5
+        },
+        "strokeWidth": 1.3,
+        "equipmentTypeId": "et.tlacna-c-cijev",
+        "stageId": "02-skica-18"
+      }
+    ],
+    "renderCopies": [
+      "content/source/skice/ugradjeno/02-skica-18.svg"
+    ],
+    "flattened": false,
+    "notes": [
+      "2 linija/putanja (2 prepoznato prema stilu linije)."
+    ]
+  },
+  {
+    "file": "content/source/skice/02-skica-19.svg",
+    "title": "Skica 19 – Položaj odjeljenja, sprava i opreme nakon izdane zapovijedi „Posprema!”",
+    "viewBox": [
+      0,
+      0,
+      940,
+      400
+    ],
+    "stages": [
+      {
+        "stageId": "02-skica-19"
+      }
+    ],
+    "instances": [
+      {
+        "stageId": "02-skica-19",
+        "key": "smjer@60,265",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 60,
+          "y": 265
+        },
+        "rotation": 270,
+        "confidence": "metadata",
+        "attachedTo": "strojar@60,290"
+      },
+      {
+        "stageId": "02-skica-19",
+        "key": "strojar@60,290",
+        "rawRef": "content/source/simboli/strojar.svg",
+        "symbolId": "src.strojar",
+        "position": {
+          "x": 60,
+          "y": 290
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 270
+      },
+      {
+        "stageId": "02-skica-19",
+        "key": "podzemni-hidrant@160,290",
+        "rawRef": "content/source/simboli/podzemni-hidrant.svg",
+        "symbolId": "src.podzemni-hidrant",
+        "position": {
+          "x": 160,
+          "y": 290
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-19",
+        "key": "kljuc-podzemni-hidrant@160,215",
+        "rawRef": "content/source/simboli/kljuc-podzemni-hidrant.svg",
+        "symbolId": "src.kljuc-podzemni-hidrant",
+        "position": {
+          "x": 160,
+          "y": 215
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-19",
+        "key": "dvodijelni-hidrantski-nastavak@160,145",
+        "rawRef": "content/source/simboli/dvodijelni-hidrantski-nastavak.svg",
+        "symbolId": "src.dvodijelni-hidrantski-nastavak",
+        "position": {
+          "x": 160,
+          "y": 145
+        },
+        "rotation": 90,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-19",
+        "key": "prijelazna-spojnica-bc@250,145",
+        "rawRef": "content/source/simboli/prijelazna-spojnica-bc.svg",
+        "symbolId": "src.prijelazna-spojnica-bc",
+        "position": {
+          "x": 250,
+          "y": 145
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-19",
+        "key": "kljuc-za-spojnice@250,215",
+        "rawRef": "content/source/simboli/kljuc-za-spojnice.svg",
+        "symbolId": "src.kljuc-za-spojnice",
+        "position": {
+          "x": 250,
+          "y": 215
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-19",
+        "key": "tlacna-b-cijev-kolut@260,295",
+        "rawRef": "content/source/simboli/tlacna-b-cijev-kolut.svg",
+        "symbolId": "src.tlacna-b-cijev-kolut",
+        "position": {
+          "x": 260,
+          "y": 295
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-19",
+        "key": "spojnica-b@490,360",
+        "rawRef": "content/source/simboli/spojnica-b.svg",
+        "symbolId": "src.spojnica-b",
+        "position": {
+          "x": 490,
+          "y": 360
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-19",
+        "key": "spojnica-b@140,360",
+        "rawRef": "content/source/simboli/spojnica-b.svg",
+        "symbolId": "src.spojnica-b",
+        "position": {
+          "x": 140,
+          "y": 360
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-19",
+        "key": "spojnica-b@840,360",
+        "rawRef": "content/source/simboli/spojnica-b.svg",
+        "symbolId": "src.spojnica-b",
+        "position": {
+          "x": 840,
+          "y": 360
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-19",
+        "key": "trodijelna-razdjelnica@880,60",
+        "rawRef": "content/source/simboli/trodijelna-razdjelnica.svg",
+        "symbolId": "src.trodijelna-razdjelnica",
+        "position": {
+          "x": 880,
+          "y": 60
+        },
+        "rotation": 180,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-19",
+        "key": "smjer@855,105",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 855,
+          "y": 105
+        },
+        "rotation": 180,
+        "confidence": "metadata",
+        "attachedTo": "n1@880,105"
+      },
+      {
+        "stageId": "02-skica-19",
+        "key": "n1@880,105",
+        "rawRef": "content/source/simboli/n1.svg",
+        "symbolId": "src.n1",
+        "position": {
+          "x": 880,
+          "y": 105
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 180
+      },
+      {
+        "stageId": "02-skica-19",
+        "key": "tlacna-c-cijev-kolut@880,138",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 880,
+          "y": 138
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-19",
+        "key": "tlacna-c-cijev-kolut@880,156",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 880,
+          "y": 156
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      },
+      {
+        "stageId": "02-skica-19",
+        "key": "smjer@855,194",
+        "rawRef": "content/source/simboli/smjer.svg",
+        "symbolId": "src.smjer",
+        "position": {
+          "x": 855,
+          "y": 194
+        },
+        "rotation": 180,
+        "confidence": "metadata",
+        "attachedTo": "n2@880,194"
+      },
+      {
+        "stageId": "02-skica-19",
+        "key": "n2@880,194",
+        "rawRef": "content/source/simboli/n2.svg",
+        "symbolId": "src.n2",
+        "position": {
+          "x": 880,
+          "y": 194
+        },
+        "rotation": 0,
+        "confidence": "metadata",
+        "facing": 180
+      },
+      {
+        "stageId": "02-skica-19",
+        "key": "tlacna-c-cijev-kolut@880,227",
+        "rawRef": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+        "symbolId": "src.tlacna-c-cijev-kolut",
+        "position": {
+          "x": 880,
+          "y": 227
+        },
+        "rotation": 0,
+        "confidence": "metadata"
+      }
+    ],
+    "labels": [],
+    "connections": [],
+    "lines": [
+      {
+        "index": 0,
+        "from": {
+          "x": 140,
+          "y": 360
+        },
+        "to": {
+          "x": 840,
+          "y": 360
+        },
+        "strokeWidth": 2.6,
+        "equipmentTypeId": "et.tlacna-b-cijev",
+        "stageId": "02-skica-19"
+      }
+    ],
+    "renderCopies": [
+      "content/source/skice/ugradjeno/02-skica-19.svg"
+    ],
+    "flattened": false,
+    "notes": [
+      "1 linija/putanja (1 prepoznato prema stilu linije)."
+    ]
+  }
+]

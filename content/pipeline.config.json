@@ -2,11 +2,25 @@
   "datasets": [
     {
       "id": "source",
-      "name": "Izvorni materijali",
+      "name": "Vatrogasni vježbovnik (izvorni materijali)",
       "synthetic": false,
       "sourceRoot": "content/source",
       "reviewDir": "content/review/source",
-      "authoringDir": "content/authoring/source"
+      "authoringDir": "content/authoring/source",
+      "layout": {
+        "symbols": [
+          "simboli"
+        ],
+        "diagrams": [
+          "skice"
+        ],
+        "renderCopies": [
+          {
+            "dir": "skice/ugradjeno",
+            "of": "skice"
+          }
+        ]
+      }
     },
     {
       "id": "synthetic",

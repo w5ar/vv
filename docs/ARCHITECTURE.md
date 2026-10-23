@@ -56,9 +56,10 @@ executeCommand(ctx, state, command, time) → { accepted, state, events, issues 
 
 Pipeline per command (`packages/simulation-engine/src/engine.ts`):
 
-1. **Intrinsic validation** — existence and kind of objects, carrying rules, proximity
+1. **Intrinsic validation** — existence and kind of objects, carrying and hand-over rules, proximity
    (`pickUpDistance`, `placeDistance`), rotation policy of the symbol, port compatibility and
-   constraints (via the connection engine), action roles/preconditions, visual states.
+   constraints (via the connection engine), hose state (a laid hose cannot be carried, moved or
+   rotated; it can be rolled up only when disconnected), action roles/preconditions, visual states.
 2. **Command-precondition rules** from the exercise (`rules[type=commandPrecondition]`), evaluated on
    the state *before* the command.
 3. **Tentative application** (immutable update).
@@ -111,8 +112,9 @@ when not given.
   periodic snapshots. It does not matter whether the playhead got there by playing, seeking,
   stepping backward or skipping.
 - `frameAt(ctx, timeline, t)` produces a **display-only** frame: interpolated positions/rotations of
-  objects animated by in-progress commands, carried items following their carrier, connections
-  being drawn (progress) or removed (fade), actors highlighted. Frames never mutate state.
+  objects animated by in-progress commands, hoses growing while being laid and shrinking while rolled
+  up (`layout` override), carried items following their carrier, connections being drawn (progress)
+  or removed (fade), actors highlighted. Frames never mutate state.
 
 The web player maps `requestAnimationFrame` wall-clock deltas × speed to logical time. Pausing or
 skipping an animation cannot make the exercise state inconsistent because the state is never
@@ -133,6 +135,8 @@ animate the same object). They are used by the importer (stage F) and live in th
 
 - Ports are defined on symbols in symbol-local coordinates with optional direction.
   `portWorld` applies the instance pivot, position and rotation; directions rotate with the object.
+  For a **laid hose** the end ports (`hoseEnds`) sit exactly at the ends of its layout, so the next
+  hose, the distributor or the nozzle connects where the line ends.
 - Compatibility is **declared**: an unordered pair of port types is compatible only if an `allow`
   rule exists and no `deny` rule matches; rules with review status `rejected` are ignored.
 - Constraints: same object, duplicate connection, `maxConnections` per port, optional
@@ -180,6 +184,15 @@ the world position of the symbol pivot (default: symbol centre).
   ports always receive pointer events.
 - Dragging produces a display-only override; the domain command is dispatched on drop
   (training: `MovePersonnel` / `PlaceEquipment` / `MoveEquipment`; editor: scene edit).
+- **Laid hoses** are drawn as a line of the type's `laidLineStrokeWidth` with the coupling symbol at
+  both ends; the node is the line's bounding box but only the line receives pointer events.
+- **Personnel with a `directionMarker`** keep the symbol upright and draw the facing mark at the
+  declared distance, as the source sketches do.
+- **Carried items** are drawn at half size, unrotated, in a column beside the carrier; their port
+  handles and connection edges use the same compact geometry (display only — the domain keeps the
+  logical carry position).
+- Read-only views (demonstration) hide port handles; zones and notes let clicks pass through to the
+  canvas (placing and laying by clicking).
 
 ## Web application
 

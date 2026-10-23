@@ -71,6 +71,11 @@ export const StageSchema = z.strictObject({
   diagram: SourceRefSchema.optional(),
   /** Whether the diagram shows the situation at the start or at the end of the stage. */
   diagramMoment: z.enum(['start', 'end']).default('end'),
+  /**
+   * `exact`: diagram coordinates are the exercise world frame (positions are compared).
+   * `schematic`: the diagram is not to scale; only which symbols are shown (counts) is compared.
+   */
+  diagramScale: z.enum(['exact', 'schematic']).default('exact'),
   ...traceShape,
 });
 export type Stage = z.infer<typeof StageSchema>;
@@ -163,6 +168,9 @@ export const AnimationDefaultsSchema = z.strictObject({
   connectMs: z.number().nonnegative().default(800),
   disconnectMs: z.number().nonnegative().default(500),
   assignRoleMs: z.number().nonnegative().default(300),
+  handOverMs: z.number().nonnegative().default(600),
+  /** Logical units per second for laying and rolling up hoses. */
+  hoseSpeed: z.number().positive().default(220),
   setStateMs: z.number().nonnegative().default(400),
   beginActionMs: z.number().nonnegative().default(200),
   actionMs: z.number().nonnegative().default(1500),

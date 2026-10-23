@@ -132,7 +132,7 @@ export function PlayerPage({ exerciseId }: { exerciseId: string }) {
         ) : null}
         <div className="workspace__body">
           <div className="canvas-wrap" data-testid="scene">
-            <SceneCanvas view={view} fitBounds={exercise.initialScene.viewport} showMiniMap />
+            <SceneCanvas view={view} fitBounds={exercise.initialScene.viewport} />
             <div className="caption-overlay" aria-live="polite" data-testid="captions">
               {captions.map((c, i) => (
                 <div key={i}>{c}</div>

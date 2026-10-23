@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { findSnap } from '@fds/connection-engine';
+import { findSnap, objectPorts } from '@fds/connection-engine';
 import type { Command, ExerciseResult, Id, PortRef, SimulationState } from '@fds/domain';
-import { normalizeAngle, type Vec2 } from '@fds/geometry';
+import { distance, normalizeAngle, type Vec2 } from '@fds/geometry';
 import { SceneCanvas, SymbolRegistryProvider, type ObjectHighlight, type SceneView } from '@fds/reactflow-renderer';
 import { connectionWorld, evaluateAttempt, type ExerciseContext } from '@fds/simulation-engine';
 import { Badge, ErrorView, IssueList, Loading, Panel, SyntheticBanner } from '../components/common';
@@ -40,6 +40,7 @@ function TrainingWorkspace({ ctx, mode, exerciseId }: { ctx: ExerciseContext; mo
   const [selectedConnectionId, setSelectedConnectionId] = useState<Id | null>(null);
   const [connectingFrom, setConnectingFrom] = useState<PortRef | null>(null);
   const [placingId, setPlacingId] = useState<Id | null>(null);
+  const [layingId, setLayingId] = useState<Id | null>(null);
   const [hints, setHints] = useState(mode === 'training');
   const [flash, setFlash] = useState<Id[]>([]);
   const [result, setResult] = useState<ExerciseResult | null>(null);
@@ -95,7 +96,10 @@ function TrainingWorkspace({ ctx, mode, exerciseId }: { ctx: ExerciseContext; mo
       else if ((e.key === 'Delete' || e.key === 'Backspace') && selectedConnectionId) {
         run([{ type: 'DisconnectPorts', connectionId: selectedConnectionId }]);
         setSelectedConnectionId(null);
-      } else if (e.key === 'Escape') setPlacingId(null);
+      } else if (e.key === 'Escape') {
+        setPlacingId(null);
+        setLayingId(null);
+      }
       else if (mode === 'training' && (e.ctrlKey || e.metaKey) && e.key === 'z') {
         e.preventDefault();
         t.undo();
@@ -114,6 +118,30 @@ function TrainingWorkspace({ ctx, mode, exerciseId }: { ctx: ExerciseContext; mo
       const snap = findSnap(ctx.catalog, ground, equipmentId, at, exercise.settings.snapDistance);
       run([{ type: 'PlaceEquipment', personnelId: eq.carriedBy, equipmentId, at: snap?.position ?? at }]);
       setPlacingId(null);
+    },
+    [state, ctx, exercise.settings.snapDistance, run],
+  );
+
+  const layTo = useCallback(
+    (hoseId: Id, at: Vec2) => {
+      const hose = state.objects[hoseId];
+      if (!hose) return;
+      // The far end snaps onto the nearest port of another object within the snap distance.
+      let to = at;
+      let best = exercise.settings.snapDistance;
+      for (const id of state.objectOrder) {
+        const o = state.objects[id];
+        if (!o || id === hoseId || o.carriedBy === hoseId) continue;
+        for (const p of objectPorts(ctx.catalog, o)) {
+          const d = distance(p.position, at);
+          if (d <= best) {
+            best = d;
+            to = p.position;
+          }
+        }
+      }
+      run([{ type: 'LayHose', equipmentId: hoseId, to, ...(hose.carriedBy ? { personnelId: hose.carriedBy } : {}) }]);
+      setLayingId(null);
     },
     [state, ctx, exercise.settings.snapDistance, run],
   );
@@ -165,6 +193,9 @@ function TrainingWorkspace({ ctx, mode, exerciseId }: { ctx: ExerciseContext; mo
           {placingId ? (
             <div className="banner banner--info">Kliknite na scenu gdje treba odložiti opremu (Esc za odustajanje).</div>
           ) : null}
+          {layingId ? (
+            <div className="banner banner--info">Kliknite na scenu gdje završava položena cijev (Esc za odustajanje).</div>
+          ) : null}
         </div>
         <div className="workspace__links">
           {mode === 'training' ? (
@@ -198,7 +229,7 @@ function TrainingWorkspace({ ctx, mode, exerciseId }: { ctx: ExerciseContext; mo
         </div>
       </div>
       <div className="workspace__body">
-        <div className={`canvas-wrap ${placingId ? 'is-placing' : ''}`} data-testid="scene">
+        <div className={`canvas-wrap ${placingId || layingId ? 'is-placing' : ''}`} data-testid="scene">
           <SceneCanvas
             view={view}
             fitBounds={exercise.initialScene.viewport}
@@ -212,6 +243,7 @@ function TrainingWorkspace({ ctx, mode, exerciseId }: { ctx: ExerciseContext; mo
             onConnectGesture={setConnectingFrom}
             onPaneClick={(world) => {
               if (placingId) placeAt(placingId, world);
+              else if (layingId) layTo(layingId, world);
             }}
           />
           {state.completed ? (
@@ -236,8 +268,16 @@ function TrainingWorkspace({ ctx, mode, exerciseId }: { ctx: ExerciseContext; mo
               selectedId={selectedId}
               selectedConnectionId={selectedConnectionId}
               placingId={placingId}
+              layingId={layingId}
               onCommand={run}
-              onStartPlacing={setPlacingId}
+              onStartPlacing={(id) => {
+                setLayingId(null);
+                setPlacingId(id);
+              }}
+              onStartLaying={(id) => {
+                setPlacingId(null);
+                setLayingId(id);
+              }}
             />
           </Panel>
           <Panel title="Napredak" actions={mode === 'assessment' ? <Badge tone="info">Provjera</Badge> : null}>

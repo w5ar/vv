@@ -46,6 +46,9 @@ export const COMMAND: Record<CommandType, string> = {
   PlaceEquipment: 'Odlaganje opreme',
   ConnectPorts: 'Spajanje',
   DisconnectPorts: 'Odspajanje',
+  LayHose: 'Polaganje cijevi',
+  RollUpHose: 'Namatanje cijevi',
+  HandOverEquipment: 'Predaja opreme',
   AssignRole: 'Dodjela uloge',
   BeginAction: 'Početak radnje',
   CompleteAction: 'Završetak radnje',
@@ -88,6 +91,12 @@ export function describeEvent(ctx: ExerciseContext, e: SimEvent, state?: Simulat
       return `Spojeno: ${name(e.connection.a.objectId)} (${e.connection.a.portId}) – ${name(e.connection.b.objectId)} (${e.connection.b.portId}).`;
     case 'PortsDisconnected':
       return `Odspojeno: ${name(e.connection.a.objectId)} – ${name(e.connection.b.objectId)}.`;
+    case 'HoseLaid':
+      return `${e.personnelId ? `${name(e.personnelId)} polaže` : 'Položena'}: ${name(e.equipmentId)}.`;
+    case 'HoseRolledUp':
+      return `${e.personnelId ? `${name(e.personnelId)} namata` : 'Namotana'}: ${name(e.equipmentId)}.`;
+    case 'EquipmentHandedOver':
+      return `${name(e.fromId)} predaje ${name(e.equipmentId)} – ${name(e.toId)}.`;
     case 'RoleAssigned':
       return `${name(e.personnelId)}: uloga ${e.roleId ? (ctx.catalog.roles.get(e.roleId)?.name ?? e.roleId) : 'uklonjena'}.`;
     case 'ActionBegan':

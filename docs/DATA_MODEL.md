@@ -5,8 +5,9 @@ inferred from them (`z.infer`). Every external JSON file (catalogs, exercises, i
 results) is validated with these schemas at load time. Objects are strict: unknown keys are errors,
 which catches typos in authored files.
 
-Examples below come from the **synthetic** dataset (`content/synthetic/…`) because no real source
-materials were available. They illustrate the format, not firefighting practice.
+Examples come from the source exercises (`content/authoring/source/…`, Vježba 1) or from the
+**synthetic** dataset (`content/synthetic/…`), which illustrates format features the source
+materials do not use; synthetic examples are not firefighting practice.
 
 ## Conventions
 
@@ -57,6 +58,8 @@ materials were available. They illustrate the format, not firefighting practice.
 | `semantics` | free key/value properties (string/number/boolean) — only from reviewed sources |
 | `visualStates[]` | `{ id, name, show[], hide[], opacity? }` — show/hide SVG elements by **original** id |
 | `defaultState?` | id of a visual state |
+| `directionMarker?` | `{ symbolId, distance }` — facing is shown by this marker symbol at `distance` from the centre instead of rotating the symbol (personnel in the source sketches); stage C reads facing from it |
+| `annotation` | `true` for drawing elements that are not objects (coupling ticks, nozzle tips, facing marks); skipped when comparing stage diagrams |
 
 ### PortDefinition
 
@@ -69,6 +72,24 @@ materials were available. They illustrate the format, not firefighting practice.
 | `maxConnections` | default 1 |
 | `flow` | `in` · `out` · `bidirectional` — descriptive only, no hydraulics |
 | `label?` | Croatian label |
+
+### EquipmentType
+
+| Field | Description |
+| --- | --- |
+| `id`, `name`, `symbolId`, `description?` | identity; `symbolId` is the symbol shown on the ground or carried |
+| `portable` | whether personnel can pick it up |
+| `form` | `rigid` (default) or `hose` — a flexible item shown as a coil until laid |
+| `hoseEnds?` | hose only: `[endA, endB]` port ids; `LayHose` lays from end A to end B |
+| `laidSymbolId?` | hose only: symbol stretched along the laid hose when no line style is given |
+| `depiction?` | `{ laidLineStrokeWidth?, couplingSymbolId?, attachedSymbolId? }` — how diagrams draw the type: line width of a laid hose (stage C classifies lines by it; the renderer draws it), coupling tick at both ends, symbol drawn while attached (informational) |
+
+```jsonc
+{ "id": "et.tlacna-b-cijev", "name": "Tlačna „B” cijev", "symbolId": "src.tlacna-b-cijev-kolut", "portable": true,
+  "form": "hose", "hoseEnds": ["donja", "gornja"], "laidSymbolId": "src.tlacna-b-cijev",
+  "depiction": { "laidLineStrokeWidth": 2.6, "couplingSymbolId": "src.spojnica-b" },
+  "provenance": "derived", "sources": [{ "file": "content/source/alati/vatrogasni_simboli.py", "line": 319, "excerpt": "sw = 2.6 if tip == \"B\" else 1.3" }, …] }
+```
 
 ### ConnectionRule
 
@@ -107,7 +128,11 @@ without an `allow` rule the pair is incompatible.
 | `maxCarriedPerPerson` | `null` | carrying capacity |
 | `orderPolicy` | `warn` | `warn` · `reject` · `ignore` actions that complete a locked step |
 | `equipmentMovePolicy` | `non-portable-only` | portable equipment changes place only by being carried |
-| `carryOffset` | `{x: 22, y: -18}` | display offset of carried items |
+| `carryOffset` | `{x: 22, y: -18}` | logical offset of carried items (the renderer draws them compactly beside the carrier) |
+
+Animation defaults (`animation`) include `moveSpeed`, `hoseSpeed` (laying/rolling, units/s),
+per-command durations (`pickUpMs`, `placeMs`, `connectMs`, `handOverMs`, …), `actionMs` and
+`stepGapMs`; they affect only the demonstration.
 
 ### Scene instances (`scene.ts`)
 
@@ -118,6 +143,8 @@ without an `allow` rule the pair is incompatible.
   "sources": [{ "file": "content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg", "anchor": "f1-clan-1" }] }
 // EquipmentInstance
 { "id": "mlaznica-1", "typeId": "et.mlaznica", "position": {…}, "rotation": 0, "state": "zatvorena", "carriedBy": null }
+// EquipmentInstance of a hose that is already laid at the start (layout only for form "hose")
+{ "id": "b1", "typeId": "et.tlacna-b-cijev", "position": {…}, "layout": { "a": { "x": 120, "y": 282 }, "b": { "x": 346.9, "y": 350 } } }
 // Connection (logical, stored in domain state)
 { "id": "spoj-1", "a": { "objectId": "vozilo", "portId": "izlaz-1" }, "b": { "objectId": "cijev-velika", "portId": "kraj-a" } }
 // Zone
@@ -126,9 +153,11 @@ without an `allow` rule the pair is incompatible.
 
 ### Stage
 
-`{ id, name, description?, diagram?: SourceRef, diagramMoment: "start" | "end" }` — the diagram
-(file + layer anchor) depicts the situation at the start or end of the stage; the compiler compares
-it with the demonstration state at that moment.
+`{ id, name, description?, diagram?: SourceRef, diagramMoment: "start" | "end", diagramScale: "exact" | "schematic" }`
+— the diagram (file + optional layer anchor) depicts the situation at the start or end of the
+stage; the compiler compares it with the demonstration state at that moment: positions
+(`exact`) or only which symbols and laid lines are shown (`schematic`, for sketches that are not
+to scale).
 
 ### Step
 
@@ -189,13 +218,14 @@ No criteria ⇒ the result is a report only (`passed: null`). There are no impli
 | `all` / `any` / `not` | boolean composition |
 | `stepCompleted` `{stepId}` | step status is completed |
 | `actionCompleted` / `actionActive` `{actionId}` | procedural action state |
-| `connected` `{a, b}` | a direct connection exists; each side is `{objectId, portId?}` (omitted port = any port) |
+| `connected` `{a, b}` | a direct connection exists; each side is `{objectId?, typeId?, portId?}` — a specific object or **any equipment of a type** (interchangeable items such as hoses), omitted port = any port |
 | `linked` `{a, b}` | objects reachable through a chain of connections (graph reachability only) |
 | `portFree` `{port}` | port has no connection |
 | `inZone` `{objectId, zoneId}` | object position inside zone |
 | `near` `{objectId, targetId, maxDistance}` | distance to the target's rotated rectangle |
-| `carrying` `{personnelId, equipmentId?}` | person carries (that) equipment |
+| `carrying` `{personnelId, equipmentId?, typeId?, count?}` | person carries at least `count` (default 1) items: that item, items of that type, or anything |
 | `placed` `{equipmentId}` | equipment is not carried |
+| `laid` `{equipmentId?, typeId?, count?}` | that hose is laid, or at least `count` hoses of the type are laid |
 | `hasRole` `{personnelId, roleId}` | role assignment |
 | `objectState` `{objectId, state}` | visual/semantic state |
 | `rotation` `{objectId, angle, tolerance}` | orientation |
@@ -209,18 +239,24 @@ No criteria ⇒ the result is a report only (`passed: null`). There are no impli
 | `RotateObject {objectId, rotation}` | symbol rotation policy (none/step/free) | `ObjectRotated` |
 | `PickUpEquipment {personnelId, equipmentId}` | portable, not carried, within `pickUpDistance`, capacity | `EquipmentPickedUp` |
 | `PlaceEquipment {personnelId, equipmentId, at, rotation?}` | carried by that person, `at` within `placeDistance` | `EquipmentPlaced` |
-| `ConnectPorts {a, b, connectionId?}` | connection engine (existence, same object, duplicate, compatibility, capacity, distance) | `PortsConnected` |
-| `DisconnectPorts {connectionId}` | connection exists | `PortsDisconnected` |
+| `ConnectPorts {a, b, connectionId?, actorId?}` | connection engine (existence, same object, duplicate, compatibility, capacity, distance); actor exists | `PortsConnected` |
+| `DisconnectPorts {connectionId, actorId?}` | connection exists | `PortsDisconnected` |
+| `LayHose {equipmentId, personnelId?, from?, to}` | hose type, not yet laid | lays the hose from `from` (default: the port connected to end A, else the carrier, else the coil) to `to`; releases it from the carrier; its end ports move to the line's ends · `HoseLaid` |
+| `RollUpHose {equipmentId, personnelId?, at?}` | laid, **no connections** | back to a coil at `at` (default end A) · `HoseRolledUp` |
+| `HandOverEquipment {fromId, toId, equipmentId}` | giver carries it, both within `pickUpDistance`, receiver capacity | `EquipmentHandedOver` |
 | `AssignRole {personnelId, roleId \| null}` | role exists | `RoleAssigned` |
 | `BeginAction {actionId, actorIds}` | defined, not active/completed, actors' roles, `minActors`, `requires` | `ActionBegan` |
 | `CompleteAction {actionId}` | action active | `ActionCompleted` |
-| `SetObjectState {objectId, state}` | state defined on the symbol | `ObjectStateChanged` |
+| `SetObjectState {objectId, state, actorId?}` | state defined on the symbol | `ObjectStateChanged` |
+
+A laid hose cannot be picked up, moved or rotated (`hose.laid`).
 
 Plus exercise rules and the order policy (see ARCHITECTURE.md). Procedural events:
 `StepAvailable`, `StepCompleted {outOfOrder}`, `StageCompleted`, `ExerciseCompleted`,
 `OrderDeviation {missingStepIds}`, `RuleWarning`.
 
-This vocabulary is generic; it was **not** derived from real procedures (none were available).
+The vocabulary is generic. The hose, hand-over and actor additions were introduced for the source
+exercises (laying „B”/„C” lines, *predaje gornju spojnicu*), but contain no exercise-specific logic.
 
 ## Simulation state (`state.ts`)
 
@@ -229,7 +265,7 @@ Plain JSON, never mutated:
 ```ts
 { seq, time,                         // accepted command count, logical ms
   objects: Record<Id, ObjectState>,  // kind, symbolId, position, rotation, roleId, typeId,
-  objectOrder: Id[],                 //   carriedBy, carrying[], visualState
+  objectOrder: Id[],                 //   carriedBy, carrying[], visualState, layout ({a, b} | null)
   connections: Record<Id, Connection>, connectionOrder: Id[],
   actions: Record<Id, { status: 'active' | 'completed', actorIds, startedAt, completedAt? }>,
   steps: Record<Id, { status: 'locked' | 'available' | 'completed', completedAt?, completedSeq?, outOfOrder? }>,

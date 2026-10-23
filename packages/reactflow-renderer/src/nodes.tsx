@@ -10,10 +10,13 @@ export const SymbolNode = memo(function SymbolNode({ data, selected }: NodeProps
     selected ? 'is-selected' : '',
     data.carried ? 'is-carried' : '',
     data.highlight ? `is-${data.highlight}` : '',
+    data.connectable || data.showPortLabels ? '' : 'is-static',
   ]
     .filter(Boolean)
     .join(' ');
-  const caption = data.kind === 'personnel' ? (data.label ?? data.name) : data.label;
+  // Personnel drawn with their own role symbol need no caption; generic symbols are captioned.
+  const caption = data.kind === 'personnel' ? (data.label ?? (data.roleLabel ? data.name : undefined)) : data.label;
+  const { hose, marker } = data;
   return (
     <div
       className={classes}
@@ -21,9 +24,40 @@ export const SymbolNode = memo(function SymbolNode({ data, selected }: NodeProps
       data-testid={`object-${data.objectId}`}
       title={[data.label ?? data.name, data.roleLabel ? `Uloga: ${data.roleLabel}` : '', data.carried ? 'Nosi se' : ''].filter(Boolean).join('\n')}
     >
-      <div className="fds-node__body" style={{ transform: data.rotation ? `rotate(${data.rotation}deg)` : undefined }}>
-        <SymbolView symbolId={data.symbolId} width={data.width} height={data.height} visualState={data.visualState} />
-      </div>
+      {hose ? (
+        <svg className="fds-hose" width={data.width} height={data.height} aria-label={data.name} role="img">
+          <line x1={hose.a.x} y1={hose.a.y} x2={hose.b.x} y2={hose.b.y} className="fds-hose__hit" />
+          <line x1={hose.a.x} y1={hose.a.y} x2={hose.b.x} y2={hose.b.y} className="fds-hose__line" strokeWidth={hose.strokeWidth} />
+        </svg>
+      ) : (
+        <div className="fds-node__body" style={{ transform: data.rotation && !data.fixedBody ? `rotate(${data.rotation}deg)` : undefined }}>
+          <SymbolView symbolId={data.symbolId} width={data.width} height={data.height} visualState={data.visualState} />
+        </div>
+      )}
+      {hose?.couplingSymbolId && hose.couplingSize
+        ? [hose.a, hose.b].map((p, i) => (
+            <div
+              key={i}
+              className="fds-node__overlay"
+              style={{
+                left: p.x - hose.couplingSize!.width / 2,
+                top: p.y - hose.couplingSize!.height / 2,
+                transform: `rotate(${hose.angle}deg)`,
+              }}
+            >
+              <SymbolView symbolId={hose.couplingSymbolId!} width={hose.couplingSize!.width} height={hose.couplingSize!.height} />
+            </div>
+          ))
+        : null}
+      {marker ? (
+        <div
+          className="fds-node__overlay"
+          style={{ left: marker.x - marker.width / 2, top: marker.y - marker.height / 2, transform: `rotate(${marker.rotation}deg)` }}
+          data-testid={`facing-${data.objectId}`}
+        >
+          <SymbolView symbolId={marker.symbolId} width={marker.width} height={marker.height} />
+        </div>
+      ) : null}
       {data.ports.map((p) => (
         <Handle
           key={p.id}

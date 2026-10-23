@@ -12,14 +12,23 @@ One exercise definition drives three modes:
 Plus an **exercise library**, **symbol catalog**, **scene editor** (undo/redo) and **import review** screen.
 The UI is in Croatian; code, identifiers and technical documentation are in English.
 
+## Exercises
+
+| Exercise | Source | Status |
+| --- | --- | --- |
+| **Vježba 1 – Vježba s dva „C” mlaza vode (šest vatrogasaca)** | `content/source/01-Vjezba-1.md`, sketches 11–15 | 6 stages, 47 steps; demonstration, training and assessment |
+| **Vježba 2 – Vježba s jednim „C” mlazom vode (tri vatrogasca)** | `content/source/02-Vjezba-2.md`, sketches 16–19 | 5 stages, 15 steps; applies Vježba 1 where the text says *„kao u vježbi 1”* |
+| Sintetička vježba 01 | `content/synthetic/` | **synthetic** test fixture, not firefighting practice |
+
+The source materials are a copy of the repository `w5ar/VatrogasneVjezbe` (*Vatrogasni vježbovnik*:
+introduction, legend, formation, exercises 1 and 2, SVG symbols and stage sketches) in
+`content/source/`. Step texts and orders are quoted verbatim; positions come from the sketches.
+
 > [!IMPORTANT]
-> **No source materials were present in this repository** when the MVP was built
-> (only `LICENSE`). There were no SVG symbols, exercise diagrams or Markdown
-> procedures to analyse. Therefore **no real exercise could be imported**. All
-> content shipped here is a clearly labelled **synthetic** dataset
-> (`content/synthetic/`) whose only purpose is to exercise every subsystem.
-> It is *not* firefighting doctrine. See [`docs/SOURCE_ANALYSIS.md`](docs/SOURCE_ANALYSIS.md)
-> and [`docs/OPEN_QUESTIONS.md`](docs/OPEN_QUESTIONS.md).
+> The linking of text, sketches and simulation commands was done by the development team and
+> **awaits review by a firefighting expert** (`review.status: requires-review`). Interpretations
+> the text does not state explicitly are listed in [`docs/OPEN_QUESTIONS.md`](docs/OPEN_QUESTIONS.md);
+> findings about the materials are in [`docs/SOURCE_ANALYSIS.md`](docs/SOURCE_ANALYSIS.md).
 
 ## Quick start
 
@@ -63,7 +72,8 @@ packages/
   reactflow-renderer/        React Flow nodes/edges derived from domain state, SVG rendering
   exercise-importer/         Node CLI: import pipeline stages A–F
 content/
-  source/{symbols,diagrams,procedures}/   authoritative source materials (EMPTY — add yours here)
+  source/                                 authoritative source materials (copy of w5ar/VatrogasneVjezbe):
+                                          *.md, simboli/, skice/ (+ ugradjeno/), slike/, alati/
   synthetic/source/…                      SYNTHETIC test dataset (not authoritative)
   review/<dataset>/                       human review files (catalog curation, mapping)
   authoring/<dataset>/                    exercise authoring files (*.exercise.json)
@@ -86,15 +96,16 @@ tests/e2e/                   Playwright tests
 | `#/provjera/<id>` | Assessment |
 | `#/uvoz` | Pregled uvoza — import review |
 
-## Adding the real source materials
+## Updating the source materials and adding exercises
 
-1. Copy SVG symbols to `content/source/symbols/`, exercise diagrams to `content/source/diagrams/`
-   and Markdown procedures to `content/source/procedures/`.
-2. Run `pnpm import:all` and open **Pregled uvoza**: you get an inventory, symbol proposals
-   (without assigned meaning), diagram recognition results and step candidates with verbatim text.
-3. Curate `content/review/source/catalog.review.json` (names, categories, ports, compatibility
-   rules, roles — all with source references) and write an exercise in
-   `content/authoring/source/<id>.exercise.json`.
+1. Update `content/source/` from the source repository (never edit the files by hand; record the
+   commit in `content/source/README.md`). Directories are configured in `content/pipeline.config.json`.
+2. Run `pnpm import:all` and open **Pregled uvoza**: inventory, symbols (names from the legend),
+   sketch analysis (instances, facing, laid lines), step candidates with verbatim text and the
+   mapping status of every candidate.
+3. Curate `content/review/source/catalog.review.json` (ports, compatibility rules, equipment types,
+   roles — all with source references) and write `content/authoring/source/<id>.exercise.json`;
+   ignore non-step paragraphs with a reason in `content/review/source/mapping.review.json`.
 4. Run `pnpm import:all` again until diagnostics are clean; the exercise appears in the library.
 
 Details: [`docs/IMPORT_PIPELINE.md`](docs/IMPORT_PIPELINE.md) and [`docs/EXERCISE_AUTHORING.md`](docs/EXERCISE_AUTHORING.md).

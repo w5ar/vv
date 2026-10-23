@@ -25,6 +25,13 @@ export interface ObjectState {
   /** Personnel only: carried equipment ids, in pick-up order. */
   readonly carrying: readonly Id[];
   readonly visualState: Id | null;
+  /** Hoses only: world positions of end A and end B while laid; null when rolled or rigid. */
+  readonly layout: HoseLayout | null;
+}
+
+export interface HoseLayout {
+  readonly a: Vec2;
+  readonly b: Vec2;
 }
 
 export type StepStatus = 'locked' | 'available' | 'completed';

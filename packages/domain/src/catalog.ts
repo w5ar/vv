@@ -94,6 +94,13 @@ export const SymbolDefinitionSchema = z.strictObject({
   semantics: SemanticPropertiesSchema.default({}),
   visualStates: z.array(VisualStateSchema).default([]),
   defaultState: IdSchema.optional(),
+  /**
+   * Personnel symbols: a separate marker symbol drawn at `distance` from the centre in the
+   * facing direction (e.g. the "smjer" tick next to the circle).
+   */
+  directionMarker: z.strictObject({ symbolId: IdSchema, distance: z.number().positive() }).optional(),
+  /** Drawing element used only to annotate diagrams (direction tick, coupling tick, dimension arrow); never a scene object. */
+  annotation: z.boolean().default(false),
   ...traceShape,
 });
 export type SymbolDefinition = z.infer<typeof SymbolDefinitionSchema>;
@@ -128,6 +135,26 @@ export const EquipmentTypeSchema = z.strictObject({
   description: z.string().optional(),
   /** Whether personnel can pick it up and carry it. */
   portable: z.boolean().default(false),
+  /**
+   * `hose`: a flexible item shown with `symbolId` when rolled (coil) and as a line between its two
+   * end ports when laid (LayHose / RollUpHose). `rigid`: a normal symbol.
+   */
+  form: z.enum(['rigid', 'hose']).default('rigid'),
+  /** Hose only: port ids at end A (laid from) and end B (laid to). */
+  hoseEnds: z.tuple([IdSchema, IdSchema]).optional(),
+  /** Hose only: symbol stretched along the laid hose. */
+  laidSymbolId: IdSchema.optional(),
+  /** How diagrams depict this type (used to recognise and compare stage diagrams). */
+  depiction: z
+    .strictObject({
+      /** Stroke width of a laid line of this type in diagrams. */
+      laidLineStrokeWidth: z.number().positive().optional(),
+      /** Symbol drawn instead of `symbolId` while the item is connected (e.g. a nozzle tip on a laid line). */
+      attachedSymbolId: IdSchema.optional(),
+      /** Symbol drawn across each end of a laid line (coupling tick), oriented along the line. */
+      couplingSymbolId: IdSchema.optional(),
+    })
+    .optional(),
   properties: SemanticPropertiesSchema.default({}),
   ...traceShape,
 });

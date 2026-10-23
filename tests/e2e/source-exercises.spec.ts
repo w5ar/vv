@@ -1,0 +1,113 @@
+import { expect, test, type Locator, type Page } from '@playwright/test';
+
+/** Exercises compiled from the source materials (content/source): Vježba 1 and Vježba 2. */
+
+async function center(locator: Locator) {
+  const box = (await locator.boundingBox())!;
+  return { x: box.x + box.width / 2, y: box.y + box.height / 2 };
+}
+
+async function drag(page: Page, from: { x: number; y: number }, to: { x: number; y: number }) {
+  await page.mouse.move(from.x, from.y);
+  await page.mouse.down();
+  // The canvas starts a drag on the first move after mouse-down; keep that move small.
+  await page.mouse.move(from.x + 1, from.y + 1);
+  await page.mouse.move(to.x, to.y, { steps: 12 });
+  await page.mouse.up();
+}
+
+test('library lists both source exercises as awaiting expert review, next to the synthetic one', async ({ page }) => {
+  await page.goto('#/');
+  await expect(page.getByTestId('no-sources-banner')).toHaveCount(0);
+  await expect(page.getByTestId('review-banner')).toContainText('čeka stručnu provjeru');
+  const v1 = page.getByTestId('exercise-vjezba-1-dva-c-mlaza');
+  await expect(v1).toContainText('Vježba 1 – Vježba s dva „C” mlaza vode (šest vatrogasaca)');
+  await expect(v1).toContainText('Čeka stručnu provjeru');
+  await expect(v1).not.toContainText('SINTETIČKI');
+  await expect(page.getByTestId('exercise-vjezba-2-jedan-c-mlaz')).toContainText('tri vatrogasca');
+  await expect(page.getByTestId('exercise-sinteticka-vjezba-01')).toContainText('SINTETIČKI');
+});
+
+test('source catalog renders the source symbols as vector SVG', async ({ page }) => {
+  await page.goto('#/katalog/katalog-vjezbovnik');
+  const grid = page.getByTestId('symbol-grid');
+  await expect(grid.locator('button')).toHaveCount(52);
+  expect(await grid.locator('img').count()).toBe(0);
+  await page.getByTestId('symbol-src.trodijelna-razdjelnica').click();
+  const detail = page.getByTestId('symbol-detail');
+  await expect(detail).toContainText('Trodijelna razdjelnica');
+  await expect(detail).toContainText('lijevi');
+  await expect(detail.locator('svg').first()).toBeVisible();
+});
+
+test('Vježba 1 demonstration lays the hose lines of sketch 13 and reaches completion', async ({ page }) => {
+  const errors: string[] = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  await page.goto('#/demonstracija/vjezba-1-dva-c-mlaza');
+  await expect(page.getByTestId('object-n1')).toBeVisible();
+  await expect(page.getByTestId('facing-n1')).toBeVisible();
+  const range = page.getByTestId('timeline-range');
+  // End of stage "Prvi mlaz" (sketch 13): two laid „B” hoses and two laid „C” hoses.
+  await range.fill('61975');
+  await expect(page.getByTestId('player-time')).toContainText('1:02.0');
+  for (const id of ['b1', 'b2', 'c5', 'c6']) await expect(page.getByTestId(`object-${id}`).locator('.fds-hose__line')).toHaveCount(1);
+  await expect(page.getByTestId('object-c1').locator('.fds-hose__line')).toHaveCount(0);
+  await range.fill((await range.getAttribute('max')) ?? '0');
+  await expect(page.getByTestId('demo-complete')).toBeVisible();
+  await expect(page.getByTestId('progress-label')).toContainText('47 / 47');
+  await expect(page.locator('.fds-hose__line')).toHaveCount(0);
+  expect(errors).toEqual([]);
+});
+
+test('Vježba 2 demonstration reaches completion', async ({ page }) => {
+  await page.goto('#/demonstracija/vjezba-2-jedan-c-mlaz');
+  const range = page.getByTestId('timeline-range');
+  await range.fill((await range.getAttribute('max')) ?? '0');
+  await expect(page.getByTestId('demo-complete')).toBeVisible();
+  await expect(page.getByTestId('progress-label')).toContainText('15 / 15');
+});
+
+test('training: commander orders, then a hose is picked up, handed over, laid and rolled up', async ({ page }) => {
+  const errors: string[] = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  await page.goto('#/vjezbanje/vjezba-1-dva-c-mlaza');
+  await expect(page.getByTestId('object-z')).toBeVisible();
+  const feedback = page.getByTestId('feedback');
+
+  // Step 1: the commander's order (procedural action).
+  await page.getByTestId('object-z').click();
+  await page.getByTestId('action-act.zbor').click();
+  await expect(page.getByTestId('step-zbor')).toHaveAttribute('data-status', 'completed');
+
+  // V₁ walks to the „B” coils and takes one.
+  const coil = await center(page.getByTestId('object-b1'));
+  await drag(page, await center(page.getByTestId('object-v1')), { x: coil.x, y: coil.y - 30 });
+  await expect(feedback).toContainText('premješta');
+  await page.getByTestId('object-v1').click();
+  await page.getByTestId('pickup-b1').click();
+  await expect(feedback).toContainText('uzima');
+
+  // V₂ comes next to V₁; V₁ hands the hose over.
+  const v1 = await center(page.getByTestId('object-v1'));
+  await drag(page, await center(page.getByTestId('object-v2')), { x: v1.x - 45, y: v1.y });
+  await page.getByTestId('object-v1').click();
+  await page.getByTestId('handover-b1').selectOption('v2');
+  await expect(feedback).toContainText('predaje');
+
+  // V₂ lays the hose towards an empty spot of the scene.
+  await page.getByTestId('object-v2').click();
+  await page.getByTestId('lay-b1').click();
+  const v2 = await center(page.getByTestId('object-v2'));
+  await page.mouse.click(v2.x - 60, v2.y + 220);
+  await expect(feedback).toHaveAttribute('data-accepted', 'true');
+  await expect(feedback).toContainText('polaže');
+  await expect(page.getByTestId('object-b1').locator('.fds-hose__line')).toHaveCount(1);
+
+  // A laid hose cannot be picked up; it is rolled up again from its context panel.
+  const hose = await center(page.getByTestId('object-b1'));
+  await page.mouse.click(hose.x, hose.y);
+  await page.getByTestId('rollup-b1').click();
+  await expect(feedback).toContainText('Namotana');
+  await expect(page.getByTestId('object-b1').locator('.fds-hose__line')).toHaveCount(0);
+  expect(errors).toEqual([]);
+});

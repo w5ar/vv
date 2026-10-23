@@ -29,6 +29,15 @@
     }
   },
   {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/synthetic/source/procedures/sinteticka-vjezba-01.md: kandidati koraka su numerirane stavke (8).",
+    "source": {
+      "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md"
+    }
+  },
+  {
     "code": "mapping.role-mismatch",
     "severity": "info",
     "message": "Korak korak-7: izvorni tekst spominje uloge role.voditelj koje nisu među izvršiteljima koraka.",

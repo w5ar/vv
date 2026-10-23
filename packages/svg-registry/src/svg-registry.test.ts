@@ -39,6 +39,9 @@ describe('sanitizeSvg', () => {
     expect(out).not.toMatch(/script|foreignObject|onload|onclick|javascript|animate|evil|http:/i);
     expect(r.report.removed).toEqual(expect.arrayContaining(['script', 'foreignObject', 'svg@onload', 'g@onclick', 'animate']));
     expect(r.report.externalRefs).toEqual(expect.arrayContaining(['other.svg#sym', 'https://example.com/a.png']));
+    // Relative references survive only as inert metadata; absolute URLs are dropped entirely.
+    expect(out).toContain('data-external-href="other.svg#sym"');
+    expect(out).not.toContain('example.com');
     // <a> is unwrapped, its child kept; inkscape label/groupmode preserved as data attributes
     expect(findById(r.root, 'c')).not.toBeNull();
     const layer = findById(r.root, 'layer1')?.node;

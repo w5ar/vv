@@ -1,0 +1,2842 @@
+{
+  "schemaVersion": 1,
+  "id": "katalog-vjezbovnik",
+  "name": "Katalog Vatrogasnog vježbovnika",
+  "description": "Simboli, taktičke oznake i oprema iz izvornih materijala (00-2-Legenda.md, simboli/).",
+  "synthetic": false,
+  "categories": [
+    {
+      "id": "takticke-oznake",
+      "name": "Taktičke oznake",
+      "description": "00-2-Legenda.md, 1.1 Taktičke oznake u vježbovniku"
+    },
+    {
+      "id": "osoblje",
+      "name": "Osoblje (simboli u skicama)",
+      "description": "00-2-Legenda.md, 1.1 – stupac „Simbol u skicama”"
+    },
+    {
+      "id": "oprema",
+      "name": "Sprave i oprema",
+      "description": "00-2-Legenda.md, 1.2 Simboli korišteni u skicama"
+    },
+    {
+      "id": "elementi-skice",
+      "name": "Elementi skica",
+      "description": "00-2-Legenda.md, Dodatni simboli (iz skica u poglavlju 1.3)"
+    },
+    {
+      "id": "nerazvrstano",
+      "name": "Nerazvrstano (čeka pregled)"
+    }
+  ],
+  "portTypes": [
+    {
+      "id": "pt.spojnica-b",
+      "name": "Spojnica „B”",
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 49,
+          "excerpt": "donju spojnicu priključuje na izlazni otvor hidrantskog nastavka"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 51,
+          "excerpt": "spaja donju spojnicu na spojnicu već razvučene cijevi"
+        }
+      ]
+    },
+    {
+      "id": "pt.spojnica-c",
+      "name": "Spojnica „C”",
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 75,
+          "excerpt": "spaja donju spojnicu na lijevi otvor razdjelnice"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 81,
+          "excerpt": "skida nosač svoje „C” cijevi i spaja obje cijevi"
+        }
+      ]
+    },
+    {
+      "id": "pt.hidrant",
+      "name": "Priključak podzemnog hidranta",
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 41,
+          "excerpt": "priključuje hidrantski nastavak na hidrant"
+        }
+      ]
+    },
+    {
+      "id": "pt.nastavak-ulaz",
+      "name": "Priključak hidrantskog nastavka na hidrant",
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 41,
+          "excerpt": "priključuje hidrantski nastavak na hidrant"
+        }
+      ]
+    },
+    {
+      "id": "pt.neutvrdjen",
+      "name": "Otvor neutvrđene vrste",
+      "provenance": "assumption",
+      "review": {
+        "status": "requires-review",
+        "notes": "Vrsta srednjeg otvora trodijelne razdjelnice nije navedena u izvorima; bez pravila spajanja."
+      },
+      "sources": []
+    }
+  ],
+  "connectionRules": [
+    {
+      "id": "pravilo.b-b",
+      "portTypes": [
+        "pt.spojnica-b",
+        "pt.spojnica-b"
+      ],
+      "effect": "allow",
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 49,
+          "excerpt": "donju spojnicu priključuje na izlazni otvor hidrantskog nastavka"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 51,
+          "excerpt": "spaja donju spojnicu na spojnicu već razvučene cijevi"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 59,
+          "excerpt": "priključuje „B” cijevni vod s razdjelnicom"
+        }
+      ]
+    },
+    {
+      "id": "pravilo.c-c",
+      "portTypes": [
+        "pt.spojnica-c",
+        "pt.spojnica-c"
+      ],
+      "effect": "allow",
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 75,
+          "excerpt": "spaja donju spojnicu na lijevi otvor razdjelnice"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 81,
+          "excerpt": "skida nosač svoje „C” cijevi i spaja obje cijevi"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 81,
+          "excerpt": "spaja je na spojnicu „C” cijevi"
+        }
+      ]
+    },
+    {
+      "id": "pravilo.hidrant-nastavak",
+      "portTypes": [
+        "pt.hidrant",
+        "pt.nastavak-ulaz"
+      ],
+      "effect": "allow",
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 41,
+          "excerpt": "priključuje hidrantski nastavak na hidrant"
+        }
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "id": "src.c1",
+      "name": "Vođa cijevne grupe",
+      "category": "osoblje",
+      "asset": {
+        "path": "content/source/simboli/c1.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "directionMarker": {
+        "symbolId": "src.smjer",
+        "distance": 25
+      },
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review",
+        "notes": "Crtica smjera (src.smjer) crta se 25 jedinica od središta (r + 7 u alati/vatrogasni_simboli.py)."
+      },
+      "sources": [
+        {
+          "file": "simboli/c1.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 14,
+          "excerpt": "Vođa cijevne grupe"
+        },
+        {
+          "file": "alati/vatrogasni_simboli.py",
+          "line": 298,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+        }
+      ]
+    },
+    {
+      "id": "src.c2",
+      "name": "Član cijevne grupe",
+      "category": "osoblje",
+      "asset": {
+        "path": "content/source/simboli/c2.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "directionMarker": {
+        "symbolId": "src.smjer",
+        "distance": 25
+      },
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review",
+        "notes": "Crtica smjera (src.smjer) crta se 25 jedinica od središta (r + 7 u alati/vatrogasni_simboli.py)."
+      },
+      "sources": [
+        {
+          "file": "simboli/c2.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 15,
+          "excerpt": "Član cijevne grupe"
+        },
+        {
+          "file": "alati/vatrogasni_simboli.py",
+          "line": 298,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+        }
+      ]
+    },
+    {
+      "id": "src.cijevni-drzac",
+      "name": "Cijevni držač",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/cijevni-drzac.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 46
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/cijevni-drzac.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 41,
+          "excerpt": "Cijevni držač"
+        }
+      ]
+    },
+    {
+      "id": "src.dvodijelna-razdjelnica",
+      "name": "Dvodijelna razdjelnica",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/dvodijelna-razdjelnica.svg"
+      },
+      "size": {
+        "width": 76,
+        "height": 40
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/dvodijelna-razdjelnica.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 29,
+          "excerpt": "Dvodijelna razdjelnica"
+        }
+      ]
+    },
+    {
+      "id": "src.dvodijelni-hidrantski-nastavak",
+      "name": "Dvodijelni hidrantski nastavak",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/dvodijelni-hidrantski-nastavak.svg"
+      },
+      "size": {
+        "width": 52,
+        "height": 48
+      },
+      "anchors": [],
+      "ports": [
+        {
+          "id": "ulaz",
+          "type": "pt.nastavak-ulaz",
+          "position": {
+            "x": 26,
+            "y": 45
+          },
+          "direction": 90,
+          "maxConnections": 1,
+          "flow": "in",
+          "label": "Priključak na hidrant"
+        },
+        {
+          "id": "izlaz-1",
+          "type": "pt.spojnica-b",
+          "position": {
+            "x": 4,
+            "y": 15
+          },
+          "maxConnections": 1,
+          "flow": "out",
+          "label": "Izlazni otvor 1"
+        },
+        {
+          "id": "izlaz-2",
+          "type": "pt.spojnica-b",
+          "position": {
+            "x": 48,
+            "y": 15
+          },
+          "maxConnections": 1,
+          "flow": "out",
+          "label": "Izlazni otvor 2"
+        }
+      ],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Dva izlazna otvora izvedena su iz crteža simbola (dva kraka s crticama spojnica); tekst spominje „izlazni otvor”. Vrsta izlaza („B”) izvedena je iz priključivanja „B” cijevi."
+      },
+      "sources": [
+        {
+          "file": "simboli/dvodijelni-hidrantski-nastavak.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 40,
+          "excerpt": "Dvodijelni hidrantski nastavak"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 41,
+          "excerpt": "priključuje hidrantski nastavak na hidrant"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 49,
+          "excerpt": "donju spojnicu priključuje na izlazni otvor hidrantskog nastavka"
+        }
+      ]
+    },
+    {
+      "id": "src.izolacijski-aparat",
+      "name": "Izolacijski aparat",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/izolacijski-aparat.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 66
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/izolacijski-aparat.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 43,
+          "excerpt": "Izolacijski aparat"
+        }
+      ]
+    },
+    {
+      "id": "src.kljuc-podzemni-hidrant",
+      "name": "Ključ za podzemni hidrant",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/kljuc-podzemni-hidrant.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 50
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/kljuc-podzemni-hidrant.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 42,
+          "excerpt": "Ključ za podzemni hidrant"
+        }
+      ]
+    },
+    {
+      "id": "src.kljuc-za-spojnice",
+      "name": "Ključ za spojnice",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/kljuc-za-spojnice.svg"
+      },
+      "size": {
+        "width": 60,
+        "height": 14
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/kljuc-za-spojnice.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 36,
+          "excerpt": "Ključ za spojnice"
+        }
+      ]
+    },
+    {
+      "id": "src.medumjesalica",
+      "name": "Međumješalica",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/medumjesalica.svg"
+      },
+      "size": {
+        "width": 80,
+        "height": 30
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/medumjesalica.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 33,
+          "excerpt": "Međumješalica"
+        }
+      ]
+    },
+    {
+      "id": "src.mlaznica-za-pjenu",
+      "name": "Mlaznica za pjenu",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/mlaznica-za-pjenu.svg"
+      },
+      "size": {
+        "width": 76,
+        "height": 32
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/mlaznica-za-pjenu.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 32,
+          "excerpt": "Mlaznica za pjenu"
+        }
+      ]
+    },
+    {
+      "id": "src.n1-ia",
+      "name": "N1 s IA",
+      "category": "osoblje",
+      "asset": {
+        "path": "content/source/simboli/n1-ia.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 66
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "directionMarker": {
+        "symbolId": "src.smjer",
+        "distance": 25
+      },
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review",
+        "notes": "Crtica smjera (src.smjer) crta se 25 jedinica od središta (r + 7 u alati/vatrogasni_simboli.py)."
+      },
+      "sources": [
+        {
+          "file": "simboli/n1-ia.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 48,
+          "excerpt": "N1 s IA"
+        },
+        {
+          "file": "alati/vatrogasni_simboli.py",
+          "line": 298,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+        }
+      ]
+    },
+    {
+      "id": "src.n1",
+      "name": "Vođa navalne grupe",
+      "category": "osoblje",
+      "asset": {
+        "path": "content/source/simboli/n1.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "directionMarker": {
+        "symbolId": "src.smjer",
+        "distance": 25
+      },
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review",
+        "notes": "Crtica smjera (src.smjer) crta se 25 jedinica od središta (r + 7 u alati/vatrogasni_simboli.py)."
+      },
+      "sources": [
+        {
+          "file": "simboli/n1.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 10,
+          "excerpt": "Vođa navalne grupe"
+        },
+        {
+          "file": "alati/vatrogasni_simboli.py",
+          "line": 298,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+        }
+      ]
+    },
+    {
+      "id": "src.n2-ia",
+      "name": "N2 s IA",
+      "category": "osoblje",
+      "asset": {
+        "path": "content/source/simboli/n2-ia.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 66
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "directionMarker": {
+        "symbolId": "src.smjer",
+        "distance": 25
+      },
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review",
+        "notes": "Crtica smjera (src.smjer) crta se 25 jedinica od središta (r + 7 u alati/vatrogasni_simboli.py)."
+      },
+      "sources": [
+        {
+          "file": "simboli/n2-ia.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 48,
+          "excerpt": "N2 s IA"
+        },
+        {
+          "file": "alati/vatrogasni_simboli.py",
+          "line": 298,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+        }
+      ]
+    },
+    {
+      "id": "src.n2",
+      "name": "Član navalne grupe",
+      "category": "osoblje",
+      "asset": {
+        "path": "content/source/simboli/n2.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "directionMarker": {
+        "symbolId": "src.smjer",
+        "distance": 25
+      },
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review",
+        "notes": "Crtica smjera (src.smjer) crta se 25 jedinica od središta (r + 7 u alati/vatrogasni_simboli.py)."
+      },
+      "sources": [
+        {
+          "file": "simboli/n2.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 11,
+          "excerpt": "Član navalne grupe"
+        },
+        {
+          "file": "alati/vatrogasni_simboli.py",
+          "line": 298,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+        }
+      ]
+    },
+    {
+      "id": "src.navalno-vozilo",
+      "name": "Navalno vozilo (NV)",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/navalno-vozilo.svg"
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/navalno-vozilo.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 46,
+          "excerpt": "Navalno vozilo (NV)"
+        }
+      ]
+    },
+    {
+      "id": "src.obicna-b-mlaznica",
+      "name": "Obična „B” mlaznica",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/obicna-b-mlaznica.svg"
+      },
+      "size": {
+        "width": 76,
+        "height": 12
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/obicna-b-mlaznica.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 30,
+          "excerpt": "Obična „B” mlaznica"
+        }
+      ]
+    },
+    {
+      "id": "src.obicna-c-mlaznica",
+      "name": "Obična „C” mlaznica",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/obicna-c-mlaznica.svg"
+      },
+      "size": {
+        "width": 76,
+        "height": 12
+      },
+      "anchors": [],
+      "ports": [
+        {
+          "id": "ulaz",
+          "type": "pt.spojnica-c",
+          "position": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "in",
+          "label": "Spojnica mlaznice"
+        }
+      ],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Spojnica mlaznice na lijevom kraju simbola (crtica), izvedeno iz crteža."
+      },
+      "sources": [
+        {
+          "file": "simboli/obicna-c-mlaznica.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 31,
+          "excerpt": "Obična „C” mlaznica"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 81,
+          "excerpt": "lijevom rukom uzima mlaznicu iz opasača i spaja je na spojnicu „C” cijevi"
+        }
+      ]
+    },
+    {
+      "id": "src.oznaka-c1",
+      "name": "Vođa cijevne grupe – oznaka",
+      "category": "takticke-oznake",
+      "asset": {
+        "path": "content/source/simboli/oznaka-c1.svg"
+      },
+      "size": {
+        "width": 50,
+        "height": 50
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/oznaka-c1.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 14,
+          "excerpt": "Vođa cijevne grupe – oznaka"
+        }
+      ]
+    },
+    {
+      "id": "src.oznaka-c2",
+      "name": "Član cijevne grupe – oznaka",
+      "category": "takticke-oznake",
+      "asset": {
+        "path": "content/source/simboli/oznaka-c2.svg"
+      },
+      "size": {
+        "width": 50,
+        "height": 50
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/oznaka-c2.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 15,
+          "excerpt": "Član cijevne grupe – oznaka"
+        }
+      ]
+    },
+    {
+      "id": "src.oznaka-n1",
+      "name": "Vođa navalne grupe – oznaka",
+      "category": "takticke-oznake",
+      "asset": {
+        "path": "content/source/simboli/oznaka-n1.svg"
+      },
+      "size": {
+        "width": 50,
+        "height": 50
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/oznaka-n1.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 10,
+          "excerpt": "Vođa navalne grupe – oznaka"
+        }
+      ]
+    },
+    {
+      "id": "src.oznaka-n2",
+      "name": "Član navalne grupe – oznaka",
+      "category": "takticke-oznake",
+      "asset": {
+        "path": "content/source/simboli/oznaka-n2.svg"
+      },
+      "size": {
+        "width": 50,
+        "height": 50
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/oznaka-n2.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 11,
+          "excerpt": "Član navalne grupe – oznaka"
+        }
+      ]
+    },
+    {
+      "id": "src.oznaka-strojar",
+      "name": "Strojar – oznaka",
+      "category": "takticke-oznake",
+      "asset": {
+        "path": "content/source/simboli/oznaka-strojar.svg"
+      },
+      "size": {
+        "width": 50,
+        "height": 50
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/oznaka-strojar.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 9,
+          "excerpt": "Strojar – oznaka"
+        }
+      ]
+    },
+    {
+      "id": "src.oznaka-teklic",
+      "name": "Teklić – oznaka",
+      "category": "takticke-oznake",
+      "asset": {
+        "path": "content/source/simboli/oznaka-teklic.svg"
+      },
+      "size": {
+        "width": 50,
+        "height": 50
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/oznaka-teklic.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 8,
+          "excerpt": "Teklić – oznaka"
+        }
+      ]
+    },
+    {
+      "id": "src.oznaka-v1",
+      "name": "Vođa vodne grupe – oznaka",
+      "category": "takticke-oznake",
+      "asset": {
+        "path": "content/source/simboli/oznaka-v1.svg"
+      },
+      "size": {
+        "width": 50,
+        "height": 50
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/oznaka-v1.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 12,
+          "excerpt": "Vođa vodne grupe – oznaka"
+        }
+      ]
+    },
+    {
+      "id": "src.oznaka-v2",
+      "name": "Član vodne grupe – oznaka",
+      "category": "takticke-oznake",
+      "asset": {
+        "path": "content/source/simboli/oznaka-v2.svg"
+      },
+      "size": {
+        "width": 50,
+        "height": 50
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/oznaka-v2.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 13,
+          "excerpt": "Član vodne grupe – oznaka"
+        }
+      ]
+    },
+    {
+      "id": "src.oznaka-zapovjednik",
+      "name": "Zapovjednik – oznaka",
+      "category": "takticke-oznake",
+      "asset": {
+        "path": "content/source/simboli/oznaka-zapovjednik.svg"
+      },
+      "size": {
+        "width": 50,
+        "height": 50
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/oznaka-zapovjednik.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 7,
+          "excerpt": "Zapovjednik – oznaka"
+        }
+      ]
+    },
+    {
+      "id": "src.podzemni-hidrant",
+      "name": "Podzemni hidrant",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/podzemni-hidrant.svg"
+      },
+      "size": {
+        "width": 44,
+        "height": 44
+      },
+      "anchors": [],
+      "ports": [
+        {
+          "id": "prikljucak",
+          "type": "pt.hidrant",
+          "position": {
+            "x": 22,
+            "y": 22
+          },
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Priključak hidranta"
+        }
+      ],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Položaj priključka (središte simbola) izveden je iz alati/vatrogasni_simboli.py (hidrant_s_nastavkom)."
+      },
+      "sources": [
+        {
+          "file": "simboli/podzemni-hidrant.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 45,
+          "excerpt": "Podzemni hidrant"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 41,
+          "excerpt": "priključuje hidrantski nastavak na hidrant"
+        }
+      ]
+    },
+    {
+      "id": "src.posuda-za-pjenilo",
+      "name": "Posuda za pjenilo",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/posuda-za-pjenilo.svg"
+      },
+      "size": {
+        "width": 30,
+        "height": 44
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/posuda-za-pjenilo.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 34,
+          "excerpt": "Posuda za pjenilo"
+        }
+      ]
+    },
+    {
+      "id": "src.prijelazna-spojnica-bc",
+      "name": "Prijelazna spojnica B/C",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/prijelazna-spojnica-bc.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/prijelazna-spojnica-bc.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 39,
+          "excerpt": "Prijelazna spojnica B/C"
+        }
+      ]
+    },
+    {
+      "id": "src.prijenosna-pumpa",
+      "name": "Prijenosna vatrogasna pumpa (MP)",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/prijenosna-pumpa.svg"
+      },
+      "size": {
+        "width": 112,
+        "height": 50
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/prijenosna-pumpa.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 38,
+          "excerpt": "Prijenosna vatrogasna pumpa (MP)"
+        }
+      ]
+    },
+    {
+      "id": "src.sabirnica",
+      "name": "Sabirnica",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/sabirnica.svg"
+      },
+      "size": {
+        "width": 50,
+        "height": 40
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/sabirnica.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 35,
+          "excerpt": "Sabirnica"
+        }
+      ]
+    },
+    {
+      "id": "src.smjer",
+      "name": "Smjer",
+      "category": "elementi-skice",
+      "asset": {
+        "path": "content/source/simboli/smjer.svg"
+      },
+      "size": {
+        "width": 14,
+        "height": 4
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": true,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/smjer.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 55,
+          "excerpt": "Smjer"
+        }
+      ]
+    },
+    {
+      "id": "src.spojnica-b",
+      "name": "Spojnica B",
+      "category": "elementi-skice",
+      "asset": {
+        "path": "content/source/simboli/spojnica-b.svg"
+      },
+      "size": {
+        "width": 4,
+        "height": 14
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": true,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/spojnica-b.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 56,
+          "excerpt": "Spojnica B"
+        }
+      ]
+    },
+    {
+      "id": "src.spojnica-c",
+      "name": "Spojnica C",
+      "category": "elementi-skice",
+      "asset": {
+        "path": "content/source/simboli/spojnica-c.svg"
+      },
+      "size": {
+        "width": 4,
+        "height": 12
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": true,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/spojnica-c.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 56,
+          "excerpt": "Spojnica C"
+        }
+      ]
+    },
+    {
+      "id": "src.strelica-kote",
+      "name": "Strelica kote",
+      "category": "elementi-skice",
+      "asset": {
+        "path": "content/source/simboli/strelica-kote.svg"
+      },
+      "size": {
+        "width": 10,
+        "height": 7
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": true,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/strelica-kote.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 58,
+          "excerpt": "Strelica kote"
+        }
+      ]
+    },
+    {
+      "id": "src.strojar",
+      "name": "Strojar",
+      "category": "osoblje",
+      "asset": {
+        "path": "content/source/simboli/strojar.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "directionMarker": {
+        "symbolId": "src.smjer",
+        "distance": 25
+      },
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review",
+        "notes": "Crtica smjera (src.smjer) crta se 25 jedinica od središta (r + 7 u alati/vatrogasni_simboli.py)."
+      },
+      "sources": [
+        {
+          "file": "simboli/strojar.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 9,
+          "excerpt": "Strojar"
+        },
+        {
+          "file": "alati/vatrogasni_simboli.py",
+          "line": 298,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+        }
+      ]
+    },
+    {
+      "id": "src.teklic",
+      "name": "Teklić",
+      "category": "osoblje",
+      "asset": {
+        "path": "content/source/simboli/teklic.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "directionMarker": {
+        "symbolId": "src.smjer",
+        "distance": 25
+      },
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review",
+        "notes": "Crtica smjera (src.smjer) crta se 25 jedinica od središta (r + 7 u alati/vatrogasni_simboli.py)."
+      },
+      "sources": [
+        {
+          "file": "simboli/teklic.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 8,
+          "excerpt": "Teklić"
+        },
+        {
+          "file": "alati/vatrogasni_simboli.py",
+          "line": 298,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+        }
+      ]
+    },
+    {
+      "id": "src.tlacna-b-cijev-kolut",
+      "name": "Tlačna „B” cijev u kolutu",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/tlacna-b-cijev-kolut.svg"
+      },
+      "size": {
+        "width": 72,
+        "height": 10
+      },
+      "anchors": [],
+      "ports": [
+        {
+          "id": "donja",
+          "type": "pt.spojnica-b",
+          "position": {
+            "x": 1,
+            "y": 5
+          },
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Donja spojnica"
+        },
+        {
+          "id": "gornja",
+          "type": "pt.spojnica-b",
+          "position": {
+            "x": 71,
+            "y": 5
+          },
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Gornja spojnica"
+        }
+      ],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Položaj spojnica na kolutu nije nacrtan u izvoru; postavljene su na krajeve simbola (tehnička pretpostavka)."
+      },
+      "sources": [
+        {
+          "file": "simboli/tlacna-b-cijev-kolut.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 26,
+          "excerpt": "Tlačna „B” cijev u kolutu"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 49,
+          "excerpt": "donju spojnicu priključuje na izlazni otvor hidrantskog nastavka, a gornju spojnicu predaje vođi vodne grupe"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 51,
+          "excerpt": "spaja donju spojnicu na spojnicu već razvučene cijevi"
+        }
+      ]
+    },
+    {
+      "id": "src.tlacna-b-cijev",
+      "name": "Tlačna „B” cijev",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/tlacna-b-cijev.svg"
+      },
+      "size": {
+        "width": 120,
+        "height": 12
+      },
+      "anchors": [],
+      "ports": [
+        {
+          "id": "donja",
+          "type": "pt.spojnica-b",
+          "position": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Donja spojnica"
+        },
+        {
+          "id": "gornja",
+          "type": "pt.spojnica-b",
+          "position": {
+            "x": 118,
+            "y": 6
+          },
+          "direction": 0,
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Gornja spojnica"
+        }
+      ],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/tlacna-b-cijev.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 24,
+          "excerpt": "Tlačna „B” cijev"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 51,
+          "excerpt": "spaja donju spojnicu na spojnicu već razvučene cijevi"
+        }
+      ]
+    },
+    {
+      "id": "src.tlacna-c-cijev-kolut",
+      "name": "Tlačna „C” cijev u kolutu",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/tlacna-c-cijev-kolut.svg"
+      },
+      "size": {
+        "width": 72,
+        "height": 10
+      },
+      "anchors": [],
+      "ports": [
+        {
+          "id": "donja",
+          "type": "pt.spojnica-c",
+          "position": {
+            "x": 1,
+            "y": 5
+          },
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Donja spojnica"
+        },
+        {
+          "id": "gornja",
+          "type": "pt.spojnica-c",
+          "position": {
+            "x": 71,
+            "y": 5
+          },
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Gornja spojnica"
+        }
+      ],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Položaj spojnica na kolutu nije nacrtan u izvoru; postavljene su na krajeve simbola (tehnička pretpostavka)."
+      },
+      "sources": [
+        {
+          "file": "simboli/tlacna-c-cijev-kolut.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 27,
+          "excerpt": "Tlačna „C” cijev u kolutu"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 75,
+          "excerpt": "lijevom rukom predaje gornju spojnicu vođi navalne grupe (N₁), lijevom nogom staje na cijev i spaja donju spojnicu na lijevi otvor razdjelnice"
+        }
+      ]
+    },
+    {
+      "id": "src.tlacna-c-cijev",
+      "name": "Tlačna „C” cijev",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/tlacna-c-cijev.svg"
+      },
+      "size": {
+        "width": 120,
+        "height": 12
+      },
+      "anchors": [],
+      "ports": [
+        {
+          "id": "donja",
+          "type": "pt.spojnica-c",
+          "position": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Donja spojnica"
+        },
+        {
+          "id": "gornja",
+          "type": "pt.spojnica-c",
+          "position": {
+            "x": 118,
+            "y": 6
+          },
+          "direction": 0,
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Gornja spojnica"
+        }
+      ],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/tlacna-c-cijev.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 25,
+          "excerpt": "Tlačna „C” cijev"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 81,
+          "excerpt": "skida nosač svoje „C” cijevi i spaja obje cijevi"
+        }
+      ]
+    },
+    {
+      "id": "src.torbica-s-povezicama",
+      "name": "Torbica s povezicama za cijevi",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/torbica-s-povezicama.svg"
+      },
+      "size": {
+        "width": 70,
+        "height": 34
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/torbica-s-povezicama.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 47,
+          "excerpt": "Torbica s povezicama za cijevi"
+        }
+      ]
+    },
+    {
+      "id": "src.trodijelna-razdjelnica",
+      "name": "Trodijelna razdjelnica",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/trodijelna-razdjelnica.svg"
+      },
+      "size": {
+        "width": 76,
+        "height": 40
+      },
+      "anchors": [],
+      "ports": [
+        {
+          "id": "ulaz",
+          "type": "pt.spojnica-b",
+          "position": {
+            "x": 2,
+            "y": 20
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "in",
+          "label": "Ulaz"
+        },
+        {
+          "id": "lijevi",
+          "type": "pt.spojnica-c",
+          "position": {
+            "x": 72,
+            "y": 4
+          },
+          "direction": 0,
+          "maxConnections": 1,
+          "flow": "out",
+          "label": "Lijevi otvor"
+        },
+        {
+          "id": "srednji",
+          "type": "pt.neutvrdjen",
+          "position": {
+            "x": 72,
+            "y": 20
+          },
+          "direction": 0,
+          "maxConnections": 1,
+          "flow": "out",
+          "label": "Srednji otvor"
+        },
+        {
+          "id": "desni",
+          "type": "pt.spojnica-c",
+          "position": {
+            "x": 72,
+            "y": 36
+          },
+          "direction": 0,
+          "maxConnections": 1,
+          "flow": "out",
+          "label": "Desni otvor"
+        }
+      ],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Lijevi i desni otvor („C”) i ulaz („B”) izvedeni su iz teksta; vrsta srednjeg otvora nije navedena (vidi OPEN_QUESTIONS)."
+      },
+      "sources": [
+        {
+          "file": "simboli/trodijelna-razdjelnica.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 28,
+          "excerpt": "Trodijelna razdjelnica"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 59,
+          "excerpt": "priključuje „B” cijevni vod s razdjelnicom"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 75,
+          "excerpt": "spaja donju spojnicu na lijevi otvor razdjelnice"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 93,
+          "excerpt": "spaja donju spojnicu na desni otvor razdjelnice"
+        },
+        {
+          "file": "alati/skice_vjezbe_01_02.py",
+          "line": 14,
+          "excerpt": "RAZ_LIJEVI, RAZ_SREDNJI, RAZ_DESNI = (34, -16), (34, 0), (34, 16)"
+        }
+      ]
+    },
+    {
+      "id": "src.usisna-cijev",
+      "name": "Usisna cijev",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/usisna-cijev.svg"
+      },
+      "size": {
+        "width": 120,
+        "height": 22
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/usisna-cijev.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 23,
+          "excerpt": "Usisna cijev"
+        }
+      ]
+    },
+    {
+      "id": "src.usisna-sitka",
+      "name": "Usisna sitka",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/usisna-sitka.svg"
+      },
+      "size": {
+        "width": 52,
+        "height": 66
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/usisna-sitka.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 37,
+          "excerpt": "Usisna sitka"
+        }
+      ]
+    },
+    {
+      "id": "src.uze-s-torbicom",
+      "name": "Uže s torbicom za usisnu sitku",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/uze-s-torbicom.svg"
+      },
+      "size": {
+        "width": 30,
+        "height": 50
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/uze-s-torbicom.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 44,
+          "excerpt": "Uže s torbicom za usisnu sitku"
+        }
+      ]
+    },
+    {
+      "id": "src.v1",
+      "name": "Vođa vodne grupe",
+      "category": "osoblje",
+      "asset": {
+        "path": "content/source/simboli/v1.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "directionMarker": {
+        "symbolId": "src.smjer",
+        "distance": 25
+      },
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review",
+        "notes": "Crtica smjera (src.smjer) crta se 25 jedinica od središta (r + 7 u alati/vatrogasni_simboli.py)."
+      },
+      "sources": [
+        {
+          "file": "simboli/v1.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 12,
+          "excerpt": "Vođa vodne grupe"
+        },
+        {
+          "file": "alati/vatrogasni_simboli.py",
+          "line": 298,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+        }
+      ]
+    },
+    {
+      "id": "src.v2",
+      "name": "Član vodne grupe",
+      "category": "osoblje",
+      "asset": {
+        "path": "content/source/simboli/v2.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "directionMarker": {
+        "symbolId": "src.smjer",
+        "distance": 25
+      },
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review",
+        "notes": "Crtica smjera (src.smjer) crta se 25 jedinica od središta (r + 7 u alati/vatrogasni_simboli.py)."
+      },
+      "sources": [
+        {
+          "file": "simboli/v2.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 13,
+          "excerpt": "Član vodne grupe"
+        },
+        {
+          "file": "alati/vatrogasni_simboli.py",
+          "line": 298,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+        }
+      ]
+    },
+    {
+      "id": "src.vrh-mlaznice-b",
+      "name": "Vrh B mlaznice",
+      "category": "elementi-skice",
+      "asset": {
+        "path": "content/source/simboli/vrh-mlaznice-b.svg"
+      },
+      "size": {
+        "width": 13,
+        "height": 12
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": true,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/vrh-mlaznice-b.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 57,
+          "excerpt": "Vrh B mlaznice"
+        }
+      ]
+    },
+    {
+      "id": "src.vrh-mlaznice-c",
+      "name": "Vrh C mlaznice",
+      "category": "elementi-skice",
+      "asset": {
+        "path": "content/source/simboli/vrh-mlaznice-c.svg"
+      },
+      "size": {
+        "width": 13,
+        "height": 12
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": true,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/vrh-mlaznice-c.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 57,
+          "excerpt": "Vrh C mlaznice"
+        }
+      ]
+    },
+    {
+      "id": "src.zapovjednik-polozaj",
+      "name": "Položaj zapovjednika",
+      "category": "elementi-skice",
+      "asset": {
+        "path": "content/source/simboli/zapovjednik-polozaj.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": true,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/zapovjednik-polozaj.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 54,
+          "excerpt": "Položaj zapovjednika"
+        }
+      ]
+    },
+    {
+      "id": "src.zapovjednik",
+      "name": "Zapovjednik",
+      "category": "osoblje",
+      "asset": {
+        "path": "content/source/simboli/zapovjednik.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "directionMarker": {
+        "symbolId": "src.smjer",
+        "distance": 25
+      },
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review",
+        "notes": "Crtica smjera (src.smjer) crta se 25 jedinica od središta (r + 7 u alati/vatrogasni_simboli.py)."
+      },
+      "sources": [
+        {
+          "file": "simboli/zapovjednik.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 7,
+          "excerpt": "Zapovjednik"
+        },
+        {
+          "file": "alati/vatrogasni_simboli.py",
+          "line": 298,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+        }
+      ]
+    }
+  ],
+  "equipmentTypes": [
+    {
+      "id": "et.podzemni-hidrant",
+      "name": "Podzemni hidrant",
+      "symbolId": "src.podzemni-hidrant",
+      "portable": false,
+      "form": "rigid",
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 29,
+          "excerpt": "zapovjednik stane na dva koraka iza hidranta"
+        }
+      ]
+    },
+    {
+      "id": "et.hidrantski-nastavak",
+      "name": "Hidrantski nastavak",
+      "symbolId": "src.dvodijelni-hidrantski-nastavak",
+      "portable": true,
+      "form": "rigid",
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Tekst navodi „hidrantski nastavak”; skice koriste simbol „Dvodijelni hidrantski nastavak”."
+      },
+      "sources": [
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 18,
+          "excerpt": "1 hidrantski nastavak"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 41,
+          "excerpt": "strojar uzima u desnu ruku hidrantski nastavak"
+        }
+      ]
+    },
+    {
+      "id": "et.kljuc-za-hidrant",
+      "name": "Ključ za hidrant",
+      "symbolId": "src.kljuc-podzemni-hidrant",
+      "portable": true,
+      "form": "rigid",
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 19,
+          "excerpt": "1 ključ za hidrant"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 41,
+          "excerpt": "a u lijevu ključ za hidrant"
+        }
+      ]
+    },
+    {
+      "id": "et.tlacna-b-cijev",
+      "name": "Tlačna „B” cijev",
+      "symbolId": "src.tlacna-b-cijev-kolut",
+      "portable": true,
+      "form": "hose",
+      "hoseEnds": [
+        "donja",
+        "gornja"
+      ],
+      "laidSymbolId": "src.tlacna-b-cijev",
+      "depiction": {
+        "laidLineStrokeWidth": 2.6,
+        "couplingSymbolId": "src.spojnica-b"
+      },
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 20,
+          "excerpt": "3 „B” tlačne cijevi"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 45,
+          "excerpt": "uzima u lijevu ruku kolut „B” cijevi"
+        },
+        {
+          "file": "content/source/alati/vatrogasni_simboli.py",
+          "line": 319,
+          "excerpt": "sw = 2.6 if tip == \"B\" else 1.3"
+        },
+        {
+          "file": "content/source/alati/vatrogasni_simboli.py",
+          "line": 389,
+          "excerpt": "self._postavi(\"spojnica-b\" if tip == \"B\" else \"spojnica-c\", x, y, ux, uy)"
+        }
+      ]
+    },
+    {
+      "id": "et.tlacna-c-cijev",
+      "name": "Tlačna „C” cijev",
+      "symbolId": "src.tlacna-c-cijev-kolut",
+      "portable": true,
+      "form": "hose",
+      "hoseEnds": [
+        "donja",
+        "gornja"
+      ],
+      "laidSymbolId": "src.tlacna-c-cijev",
+      "depiction": {
+        "laidLineStrokeWidth": 1.3,
+        "couplingSymbolId": "src.spojnica-c"
+      },
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 21,
+          "excerpt": "6 „C” tlačnih cijevi"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 55,
+          "excerpt": "u lijevu jedan kolut „C” tlačnih cijevi"
+        },
+        {
+          "file": "content/source/alati/vatrogasni_simboli.py",
+          "line": 319,
+          "excerpt": "sw = 2.6 if tip == \"B\" else 1.3"
+        },
+        {
+          "file": "content/source/alati/vatrogasni_simboli.py",
+          "line": 389,
+          "excerpt": "self._postavi(\"spojnica-b\" if tip == \"B\" else \"spojnica-c\", x, y, ux, uy)"
+        }
+      ]
+    },
+    {
+      "id": "et.c-mlaznica",
+      "name": "„C” mlaznica",
+      "symbolId": "src.obicna-c-mlaznica",
+      "portable": true,
+      "form": "rigid",
+      "depiction": {
+        "attachedSymbolId": "src.vrh-mlaznice-c"
+      },
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 22,
+          "excerpt": "2 „C” mlaznice"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 55,
+          "excerpt": "uzima mlaznicu i držač koje stavlja za opasač"
+        }
+      ]
+    },
+    {
+      "id": "et.trodijelna-razdjelnica",
+      "name": "Trodijelna razdjelnica",
+      "symbolId": "src.trodijelna-razdjelnica",
+      "portable": true,
+      "form": "rigid",
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 23,
+          "excerpt": "1 trodijelna razdjelnica"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 55,
+          "excerpt": "u desnu ruku uzima razdjelnicu"
+        }
+      ]
+    },
+    {
+      "id": "et.prijelaznica-bc",
+      "name": "Prijelaznica B/C",
+      "symbolId": "src.prijelazna-spojnica-bc",
+      "portable": false,
+      "form": "rigid",
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "U vježbama 1 i 2 prijelaznica se ne koristi niti premješta; prenosivost i priključci nisu opisani."
+      },
+      "sources": [
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 24,
+          "excerpt": "1 prijelaznica B/C"
+        }
+      ]
+    },
+    {
+      "id": "et.torbica-s-povezicama",
+      "name": "Torbica s povezicama za cijevi",
+      "symbolId": "src.torbica-s-povezicama",
+      "portable": true,
+      "form": "rigid",
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 25,
+          "excerpt": "1 torbica s povezicama za cijevi"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 45,
+          "excerpt": "uzima torbicu s povezicama, stavlja je preko lijevog ramena"
+        }
+      ]
+    },
+    {
+      "id": "et.drzac-cijevi",
+      "name": "Držač za cijevi",
+      "symbolId": "src.cijevni-drzac",
+      "portable": true,
+      "form": "rigid",
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 26,
+          "excerpt": "2 držača za cijevi"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 55,
+          "excerpt": "uzima mlaznicu i držač koje stavlja za opasač"
+        }
+      ]
+    },
+    {
+      "id": "et.kljuc-za-spojnice",
+      "name": "Univerzalni ključ za spojnice",
+      "symbolId": "src.kljuc-za-spojnice",
+      "portable": true,
+      "form": "rigid",
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 27,
+          "excerpt": "3 univerzalna ključa za spojnice"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 45,
+          "excerpt": "uzima jedan ključ za spojnice i stavlja ga za opasač"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "role.zapovjednik",
+      "name": "Zapovjednik",
+      "abbreviation": "Z",
+      "responsibilities": [],
+      "symbolId": "src.zapovjednik",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/00-2-Legenda.md",
+          "line": 7,
+          "excerpt": "Zapovjednik"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 9,
+          "excerpt": "zapovjednik (Z),"
+        }
+      ]
+    },
+    {
+      "id": "role.strojar",
+      "name": "Strojar",
+      "abbreviation": "S",
+      "responsibilities": [],
+      "symbolId": "src.strojar",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/00-2-Legenda.md",
+          "line": 9,
+          "excerpt": "Strojar"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 10,
+          "excerpt": "strojar (S),"
+        }
+      ]
+    },
+    {
+      "id": "role.vodja-navalne",
+      "name": "Vođa navalne grupe",
+      "abbreviation": "N₁",
+      "responsibilities": [],
+      "symbolId": "src.n1",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/00-2-Legenda.md",
+          "line": 10,
+          "excerpt": "Vođa navalne grupe"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 11,
+          "excerpt": "vođa navalne grupe (N₁),"
+        }
+      ]
+    },
+    {
+      "id": "role.clan-navalne",
+      "name": "Član navalne grupe",
+      "abbreviation": "N₂",
+      "responsibilities": [],
+      "symbolId": "src.n2",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/00-2-Legenda.md",
+          "line": 11,
+          "excerpt": "Član navalne grupe"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 12,
+          "excerpt": "član navalne grupe (N₂),"
+        }
+      ]
+    },
+    {
+      "id": "role.vodja-vodne",
+      "name": "Vođa vodne grupe",
+      "abbreviation": "V₁",
+      "responsibilities": [],
+      "symbolId": "src.v1",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/00-2-Legenda.md",
+          "line": 12,
+          "excerpt": "Vođa vodne grupe"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 13,
+          "excerpt": "vođa vodne grupe (V₁),"
+        }
+      ]
+    },
+    {
+      "id": "role.clan-vodne",
+      "name": "Član vodne grupe",
+      "abbreviation": "V₂",
+      "responsibilities": [],
+      "symbolId": "src.v2",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/00-2-Legenda.md",
+          "line": 13,
+          "excerpt": "Član vodne grupe"
+        },
+        {
+          "file": "content/source/01-Vjezba-1.md",
+          "line": 14,
+          "excerpt": "član vodne grupe (V₂)."
+        }
+      ]
+    },
+    {
+      "id": "role.teklic",
+      "name": "Teklić",
+      "responsibilities": [],
+      "symbolId": "src.teklic",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/00-2-Legenda.md",
+          "line": 8,
+          "excerpt": "Teklić"
+        }
+      ]
+    },
+    {
+      "id": "role.vodja-cijevne",
+      "name": "Vođa cijevne grupe",
+      "abbreviation": "C₁",
+      "responsibilities": [],
+      "symbolId": "src.c1",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/00-2-Legenda.md",
+          "line": 14,
+          "excerpt": "Vođa cijevne grupe"
+        }
+      ]
+    },
+    {
+      "id": "role.clan-cijevne",
+      "name": "Član cijevne grupe",
+      "abbreviation": "C₂",
+      "responsibilities": [],
+      "symbolId": "src.c2",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/00-2-Legenda.md",
+          "line": 15,
+          "excerpt": "Član cijevne grupe"
+        }
+      ]
+    }
+  ]
+}

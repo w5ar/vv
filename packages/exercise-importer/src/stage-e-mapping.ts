@@ -25,6 +25,7 @@ export function buildMapping(input: MappingInput): MappingResult {
   const diagnostics: Diagnostic[] = [];
   const entries: MappingEntry[] = [];
   const ignored = new Map(input.review.ignored.map((i) => [i.candidateId, i.reason]));
+  const ignoredFiles = new Map(input.review.ignoredFiles.map((f) => [f.file, f.reason]));
   const allCandidates = input.procedures.flatMap((p) => p.steps);
   const known = new Set(allCandidates.map((c) => c.id));
 
@@ -34,9 +35,9 @@ export function buildMapping(input: MappingInput): MappingResult {
       candidate.status = 'mapped';
       candidate.mappedTo = uses.map((u) => `${u.exerciseId}/${u.stepId}`);
       entries.push({ candidateId: candidate.id, exerciseId: uses[0]?.exerciseId, stepIds: uses.map((u) => u.stepId), status: 'mapped' });
-    } else if (ignored.has(candidate.id)) {
+    } else if (ignored.has(candidate.id) || ignoredFiles.has(candidate.file)) {
       candidate.status = 'ignored';
-      entries.push({ candidateId: candidate.id, stepIds: [], status: 'ignored', reason: ignored.get(candidate.id) });
+      entries.push({ candidateId: candidate.id, stepIds: [], status: 'ignored', reason: ignored.get(candidate.id) ?? ignoredFiles.get(candidate.file) });
     } else {
       entries.push({ candidateId: candidate.id, stepIds: [], status: 'unmapped' });
       diagnostics.push({
@@ -47,6 +48,10 @@ export function buildMapping(input: MappingInput): MappingResult {
         source: { file: candidate.file, line: candidate.line, anchor: candidate.id, excerpt: candidate.text },
       });
     }
+  }
+  const procedureFiles = new Set(input.procedures.map((p) => p.file));
+  for (const f of ignoredFiles.keys()) {
+    if (!procedureFiles.has(f)) diagnostics.push({ code: 'mapping.unknown-ignored-file', severity: 'warning', stage: 'E', message: `Zanemarena datoteka ${f} nije među postupcima.` });
   }
   for (const id of ignored.keys()) {
     if (!known.has(id)) {

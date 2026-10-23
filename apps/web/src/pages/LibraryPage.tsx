@@ -26,6 +26,12 @@ export function LibraryPage() {
           <a href={href({ name: 'import' })}>Pregled uvoza</a> i <code>docs/OPEN_QUESTIONS.md</code>.
         </div>
       ) : null}
+      {summaries.some((s) => !s.synthetic && s.reviewStatus !== 'verified') ? (
+        <div className="banner banner--info" role="note" data-testid="review-banner">
+          Vježbe iz izvornih materijala (<code>content/source</code>) povezuju tekst postupka, skice i simulacijske naredbe. Povezivanje je izradio razvojni
+          tim i <strong>čeka stručnu provjeru</strong>; otvorena pitanja navedena su u <code>docs/OPEN_QUESTIONS.md</code>.
+        </div>
+      ) : null}
       {summaries.length === 0 ? <p className="muted">Nema kompiliranih vježbi. Pokrenite „pnpm import:all”.</p> : null}
       <div className="cards">
         {summaries.map((s) => (

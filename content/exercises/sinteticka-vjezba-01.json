@@ -49,6 +49,8 @@
     "connectMs": 800,
     "disconnectMs": 500,
     "assignRoleMs": 300,
+    "handOverMs": 600,
+    "hoseSpeed": 220,
     "setStateMs": 400,
     "beginActionMs": 200,
     "actionMs": 1500,
@@ -422,6 +424,7 @@
         "anchor": "faza-1"
       },
       "diagramMoment": "start",
+      "diagramScale": "exact",
       "provenance": "synthetic",
       "review": {
         "status": "requires-review"
@@ -441,6 +444,7 @@
         "anchor": "faza-2"
       },
       "diagramMoment": "end",
+      "diagramScale": "exact",
       "provenance": "synthetic",
       "review": {
         "status": "requires-review"

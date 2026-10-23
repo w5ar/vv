@@ -1,12 +1,29 @@
 {
   "catalogs": [
     {
+      "id": "katalog-vjezbovnik",
+      "file": "content/exercises/catalogs/katalog-vjezbovnik.json",
+      "synthetic": false
+    },
+    {
       "id": "katalog-sinteticki",
       "file": "content/exercises/catalogs/katalog-sinteticki.json",
       "synthetic": true
     }
   ],
   "exercises": [
+    {
+      "id": "vjezba-1-dva-c-mlaza",
+      "file": "content/exercises/vjezba-1-dva-c-mlaza.json",
+      "catalogId": "katalog-vjezbovnik",
+      "synthetic": false
+    },
+    {
+      "id": "vjezba-2-jedan-c-mlaz",
+      "file": "content/exercises/vjezba-2-jedan-c-mlaz.json",
+      "catalogId": "katalog-vjezbovnik",
+      "synthetic": false
+    },
     {
       "id": "sinteticka-vjezba-01",
       "file": "content/exercises/sinteticka-vjezba-01.json",

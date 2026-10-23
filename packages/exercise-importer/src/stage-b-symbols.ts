@@ -1,4 +1,4 @@
-import type { CatalogInput, Diagnostic, InventoryItem, SymbolDefinitionInput, SymbolProposal } from '@fds/domain';
+import type { CatalogInput, Diagnostic, InventoryItem, ProcedureAnalysis, SymbolDefinitionInput, SymbolProposal } from '@fds/domain';
 import path from 'node:path';
 import type { DatasetConfig } from './config';
 import { UNCLASSIFIED_CATEGORY, type CatalogReview } from './review-files';
@@ -23,8 +23,10 @@ export function normalizeSymbols(
   dataset: DatasetConfig,
   inventory: readonly InventoryItem[],
   review: CatalogReview | null,
+  legend: readonly (ProcedureAnalysis['legend'][number] & { source: string })[] = [],
 ): SymbolStageResult {
   const diagnostics: Diagnostic[] = [];
+  const ignoredAssets = new Map((review?.ignoredAssets ?? []).map((a) => [joinRel(dataset.sourceRoot, a.file), a.reason]));
   const proposals: SymbolProposal[] = [];
   const symbolFiles = inventory.filter((i) => i.assetType === 'symbol-svg');
   const reviewed = review?.symbols ?? [];
@@ -72,6 +74,8 @@ export function normalizeSymbols(
       semantics: r.semantics,
       visualStates: r.visualStates,
       defaultState: r.defaultState,
+      directionMarker: r.directionMarker,
+      annotation: r.annotation,
       provenance: r.provenance,
       review: r.review,
       sources: r.sources.length > 0 ? r.sources : [{ file, ...(r.elementId ? { anchor: r.elementId } : {}) }],
@@ -92,9 +96,15 @@ export function normalizeSymbols(
 
   for (const item of symbolFiles) {
     if (reviewed.some((r) => joinRel(dataset.sourceRoot, r.file) === item.file)) continue;
+    const ignoredReason = ignoredAssets.get(item.file);
+    if (ignoredReason) {
+      diagnostics.push({ code: 'symbol.ignored', severity: 'info', stage: 'B', message: `${item.file}: zanemareno pri pregledu – ${ignoredReason}`, source: { file: item.file } });
+      continue;
+    }
     const base = path.basename(item.file, '.svg');
     const title = item.svg?.title;
     const id = `${prefix}.${slugify(base) || 'simbol'}`;
+    const legendEntry = legend.find((l) => l.file === item.file);
     const vb = item.svg?.viewBox;
     const notes = ['Značenje, kategorija i priključci nisu provjereni (prijedlog bez semantike).'];
     if (!vb) notes.push('SVG nema viewBox; pretpostavljena veličina 64×64.');
@@ -102,8 +112,9 @@ export function normalizeSymbols(
     proposals.push({
       proposedId: id,
       file: item.file,
-      name: title || base,
-      nameSource: title ? 'title' : 'filename',
+      name: legendEntry?.name || title || base,
+      nameSource: legendEntry ? 'legend' : title ? 'title' : 'filename',
+      ...(legendEntry ? { nameRef: { file: legendEntry.source, line: legendEntry.line, excerpt: legendEntry.name } } : {}),
       category: UNCLASSIFIED_CATEGORY,
       reviewStatus: 'requires-review',
       reviewed: false,
@@ -121,14 +132,19 @@ export function normalizeSymbols(
     if (!item.svg?.parseError) {
       symbols.push({
         id,
-        name: title || base,
+        name: legendEntry?.name || title || base,
         category: UNCLASSIFIED_CATEGORY,
         asset: { path: item.file },
         size: vb ? { width: vb[2] ?? 64, height: vb[3] ?? 64 } : { width: 64, height: 64 },
         provenance: 'derived',
         review: { status: 'requires-review', notes: 'Automatski prijedlog iz faze B.' },
-        sources: [{ file: item.file }],
+        sources: [{ file: item.file }, ...(legendEntry ? [{ file: legendEntry.source, line: legendEntry.line, excerpt: legendEntry.name }] : [])],
       });
+    }
+  }
+  for (const [file] of ignoredAssets) {
+    if (!inventory.some((i) => i.file === file)) {
+      diagnostics.push({ code: 'review.unknown-ignored-asset', severity: 'warning', stage: 'B', message: `Zanemarena datoteka ${file} ne postoji.` });
     }
   }
 

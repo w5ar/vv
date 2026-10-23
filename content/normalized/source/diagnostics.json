@@ -1,8 +1,1034 @@
 [
   {
-    "code": "source.empty",
+    "code": "asset.unknown-type",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/alati/skice_vjezbe_01_02.py: nepoznata vrsta datoteke.",
+    "source": {
+      "file": "content/source/alati/skice_vjezbe_01_02.py"
+    }
+  },
+  {
+    "code": "asset.unknown-type",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/alati/vatrogasni_simboli.py: nepoznata vrsta datoteke.",
+    "source": {
+      "file": "content/source/alati/vatrogasni_simboli.py"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/c1.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/c1.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/c2.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/c2.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/cijevni-drzac.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/cijevni-drzac.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/dvodijelna-razdjelnica.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/dvodijelna-razdjelnica.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/dvodijelni-hidrantski-nastavak.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/dvodijelni-hidrantski-nastavak.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/izolacijski-aparat.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/izolacijski-aparat.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/kljuc-podzemni-hidrant.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/kljuc-podzemni-hidrant.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/kljuc-za-spojnice.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/kljuc-za-spojnice.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/medumjesalica.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/medumjesalica.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/mlaznica-za-pjenu.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/mlaznica-za-pjenu.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/n1-ia.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/n1-ia.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/n1.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/n1.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/n2-ia.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/n2-ia.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/n2.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/n2.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/navalno-vozilo.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/navalno-vozilo.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/obicna-b-mlaznica.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/obicna-b-mlaznica.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/obicna-c-mlaznica.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/obicna-c-mlaznica.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/oznaka-c1.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/oznaka-c1.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/oznaka-c2.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/oznaka-c2.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/oznaka-n1.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/oznaka-n1.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/oznaka-n2.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/oznaka-n2.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/oznaka-strojar.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/oznaka-strojar.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/oznaka-teklic.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/oznaka-teklic.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/oznaka-v1.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/oznaka-v1.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/oznaka-v2.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/oznaka-v2.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/oznaka-zapovjednik.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/oznaka-zapovjednik.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/podzemni-hidrant.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/podzemni-hidrant.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/posuda-za-pjenilo.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/posuda-za-pjenilo.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/prijelazna-spojnica-bc.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/prijelazna-spojnica-bc.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/prijenosna-pumpa.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/prijenosna-pumpa.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/sabirnica.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/sabirnica.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/simboli.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/simboli.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/smjer.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/smjer.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/spojnica-b.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/spojnica-b.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/spojnica-c.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/spojnica-c.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/strelica-kote.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/strelica-kote.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/strojar.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/strojar.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/teklic.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/teklic.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/tlacna-b-cijev-kolut.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/tlacna-b-cijev-kolut.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/tlacna-b-cijev.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/tlacna-b-cijev.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/tlacna-c-cijev-kolut.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/tlacna-c-cijev-kolut.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/tlacna-c-cijev.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/tlacna-c-cijev.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/torbica-s-povezicama.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/torbica-s-povezicama.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/trodijelna-razdjelnica.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/trodijelna-razdjelnica.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/usisna-cijev.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/usisna-cijev.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/usisna-sitka.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/usisna-sitka.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/uze-s-torbicom.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/uze-s-torbicom.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/v1.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/v1.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/v2.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/v2.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/vrh-mlaznice-b.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/vrh-mlaznice-b.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/vrh-mlaznice-c.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/vrh-mlaznice-c.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/zapovjednik-polozaj.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/zapovjednik-polozaj.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/zapovjednik.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/zapovjednik.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/00-3-skica-01.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/00-3-skica-01.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/00-3-skica-02.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/00-3-skica-02.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/00-3-skica-03.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/00-3-skica-03.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/00-3-skica-04.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/00-3-skica-04.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/00-3-skica-05.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/00-3-skica-05.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/00-3-skica-06.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/00-3-skica-06.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/00-3-skica-07.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/00-3-skica-07.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/00-3-skica-08.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/00-3-skica-08.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/00-3-skica-09.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/00-3-skica-09.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/01-skica-11.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/01-skica-11.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/01-skica-12.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/01-skica-12.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/01-skica-13.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/01-skica-13.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/01-skica-14.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/01-skica-14.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/01-skica-15.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/01-skica-15.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/02-skica-16.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/02-skica-16.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/02-skica-17.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/02-skica-17.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/02-skica-18.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/02-skica-18.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/02-skica-19.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/02-skica-19.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/00-3-skica-01.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/00-3-skica-01.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/00-3-skica-02.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/00-3-skica-02.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/00-3-skica-03.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/00-3-skica-03.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/00-3-skica-04.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/00-3-skica-04.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/00-3-skica-05.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/00-3-skica-05.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/00-3-skica-06.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/00-3-skica-06.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/00-3-skica-07.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/00-3-skica-07.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/00-3-skica-08.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/00-3-skica-08.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/00-3-skica-09.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/00-3-skica-09.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/01-skica-11.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/01-skica-11.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/01-skica-12.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/01-skica-12.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/01-skica-13.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/01-skica-13.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/01-skica-14.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/01-skica-14.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/01-skica-15.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/01-skica-15.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/02-skica-16.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/02-skica-16.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/02-skica-17.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/02-skica-17.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/02-skica-18.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/02-skica-18.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/02-skica-19.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/02-skica-19.svg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
     "severity": "warning",
     "stage": "A",
-    "message": "U direktoriju content/source nema izvornih materijala (SVG simbola, crteža ni Markdown postupaka)."
+    "message": "content/source/slike/01-slika-17.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/01-slika-17.jpg"
+    }
+  },
+  {
+    "code": "symbol.ignored",
+    "severity": "info",
+    "stage": "B",
+    "message": "content/source/simboli/simboli.svg: zanemareno pri pregledu – Sprite sa svim simbolima kao <symbol> elementima; isti simboli postoje kao zasebne datoteke (00-2-Legenda.md, „Korištenje simbola”).",
+    "source": {
+      "file": "content/source/simboli/simboli.svg"
+    }
+  },
+  {
+    "code": "diagram.unattached-marker",
+    "severity": "info",
+    "stage": "C",
+    "message": "content/source/skice/00-3-skica-08.svg: oznaka smjera smjer@345,40 nije pridružena nijednoj osobi.",
+    "source": {
+      "file": "content/source/skice/00-3-skica-08.svg",
+      "anchor": "smjer@345,40"
+    }
+  },
+  {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/source/00-1-Uvod.md: kandidati koraka su numerirane stavke (6).",
+    "source": {
+      "file": "content/source/00-1-Uvod.md"
+    }
+  },
+  {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/source/00-2-Legenda.md: kandidati koraka su odlomci i stavke popisa (10).",
+    "source": {
+      "file": "content/source/00-2-Legenda.md"
+    }
+  },
+  {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/source/00-3-Postrojavanje.md: kandidati koraka su odlomci i stavke popisa (12).",
+    "source": {
+      "file": "content/source/00-3-Postrojavanje.md"
+    }
+  },
+  {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/source/01-Vjezba-1.md: kandidati koraka su odlomci i stavke popisa (53).",
+    "source": {
+      "file": "content/source/01-Vjezba-1.md"
+    }
+  },
+  {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/source/02-Vjezba-2.md: kandidati koraka su odlomci i stavke popisa (14).",
+    "source": {
+      "file": "content/source/02-Vjezba-2.md"
+    }
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak navalna-oprema-n2: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-1.exercise.json"
+    },
+    "subjectId": "navalna-oprema-n2"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak voda-do-razdjelnice: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-1.exercise.json"
+    },
+    "subjectId": "voda-do-razdjelnice"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak vodna-iza-opreme: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-1.exercise.json"
+    },
+    "subjectId": "vodna-iza-opreme"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak drugi-mlaz-zapovijed: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-1.exercise.json"
+    },
+    "subjectId": "drugi-mlaz-zapovijed"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak drugi-mlaz-v2-luk: izvorni tekst spominje uloge role.vodja-vodne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-1.exercise.json"
+    },
+    "subjectId": "drugi-mlaz-v2-luk"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak drugi-mlaz-vodu-daj: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-1.exercise.json"
+    },
+    "subjectId": "drugi-mlaz-vodu-daj"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak pregled-opreme: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-1.exercise.json"
+    },
+    "subjectId": "pregled-opreme"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak prijavak: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-1.exercise.json"
+    },
+    "subjectId": "prijavak"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak b-vod: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-2.exercise.json"
+    },
+    "subjectId": "b-vod"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak vodu-daj: izvorni tekst spominje uloge role.strojar, role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-2.exercise.json"
+    },
+    "subjectId": "vodu-daj"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak posprema-strojar: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-2.exercise.json"
+    },
+    "subjectId": "posprema-strojar"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak posprema-mlaz: izvorni tekst spominje uloge role.strojar, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-2.exercise.json"
+    },
+    "subjectId": "posprema-mlaz"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak opremu-vratiti: izvorni tekst spominje uloge role.strojar, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-2.exercise.json"
+    },
+    "subjectId": "opremu-vratiti"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak posprema-b: izvorni tekst spominje uloge role.strojar, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-2.exercise.json"
+    },
+    "subjectId": "posprema-b"
   }
 ]

@@ -2,77 +2,111 @@
 
 ## Summary
 
-**No source materials were available.** The repository `w5ar/vv` contained a single file,
-`LICENSE` (GNU AGPL-3.0), at the initial commit `0a9cd94`. There were no SVG symbols, no exercise
-diagrams and no Markdown procedures. Consequently:
+The authoritative materials are the GitHub repository **`w5ar/VatrogasneVjezbe`** at commit
+`bf43bf5c2933d67a1333d698347fc81f77485051` (*„Vatrogasni vježbovnik: uvod, legenda, postrojavanje,
+vježbe 1 i 2”*). A byte-identical copy is vendored in `content/source/` (provenance in
+`content/source/README.md`). They contain:
 
-- no symbols could be inventoried or given meanings;
-- no exercise diagrams or stages could be analysed;
-- no procedures, roles, equipment, actions, dependencies or connection rules could be extracted;
-- **no real exercise could be converted**, so the MVP's single exercise is a labelled synthetic
-  fixture.
-
-Nothing in this repository should be read as a description of real firefighting practice.
-
-## What was inspected
-
-| Location | Result |
-| --- | --- |
-| Repository working tree and all branches (`main`, `claude/festive-faraday-ngdnyf`) | only `LICENSE` |
-| Git history | one commit (`Initial commit`) |
-| Container file system (uploads, home directories, temp) | no SVG or Markdown source files |
-| Other repositories visible to the session (`slara`, `medrad`, `simplycompliant`) | not opened: names indicate unrelated projects and they are outside the task scope |
-
-The import pipeline confirms this on every run: dataset `source` (`content/source`) has 0 files
-and reports `source.empty` (see `content/normalized/source/REPORT.md`).
-
-## Consequences and how the MVP handles them
-
-1. **Pipeline built against conventions, verified with a synthetic dataset.** Stages A–F are
-   generic: they inventory any SVG/Markdown files, propose symbols without meaning, extract diagram
-   instances from explicit metadata (and flag heuristic/unresolved/flattened cases), and turn
-   numbered Markdown items into step candidates with verbatim text and line numbers.
-2. **Synthetic dataset** (`content/synthetic/`), marked as synthetic in file metadata
-   (`data-synthetic="true"`, "SINTETIČKI" in titles/descriptions), in catalog/exercise JSON
-   (`synthetic: true`, `provenance: "synthetic"`) and in the UI (banners and badges).
-3. **No domain rules in code.** Compatibility rules, distances, criteria and step logic exist only as
-   data with provenance; the synthetic values are explicitly test values.
-
-## Synthetic inventory (for reference only — NOT source material)
-
-| File | Type | Notes |
+| Material | Files | Use in the simulator |
 | --- | --- | --- |
-| `symbols/vozilo.svg` | symbol | 120×60, two outlet groups (`izlaz-1`, `izlaz-2`) |
-| `symbols/osoba.svg` | symbol | 32×32, direction arrow |
-| `symbols/cijev.svg` | symbol | 80×12, `preserveAspectRatio="none"`; backs **two** symbol definitions (large/small coupling) |
-| `symbols/razdjelnik.svg` | symbol | 40×48, uses a `<style>` sheet (tests CSS inlining) |
-| `symbols/mlaznica.svg` | symbol | 36×16, group `mlaz` toggled by visual states |
-| `symbols/oznake-list.svg` | symbol sheet | two symbols extracted by element id, shared `<defs>` gradient, nested transform |
-| `diagrams/sinteticka-vjezba-01-faze.svg` | diagram | 2 Inkscape layers (stages), 22 metadata instances, 6 annotated connections, 1 heuristic and 1 unresolved group |
-| `diagrams/sinteticki-ravni-crtez.svg` | diagram | paths only → flagged as flattened |
-| `procedures/sinteticka-vjezba-01.md` | procedure | roles, equipment, 2 stage sections, 8 numbered steps, diagram image link |
+| Introduction (`00-1-Uvod.md`) | 1 | not an exercise — ignored with a reason |
+| Legend of tactical marks and symbols (`00-2-Legenda.md`) | 1 | names of the 52 symbols (stage B) |
+| Formation drills (`00-3-Postrojavanje.md`, sketches 1–9) | 1 + 9 | analysed; not modelled as an exercise in this milestone |
+| **Vježba 1** – two „C” jets, six firefighters (`01-Vjezba-1.md`, sketches 11–15) | 1 + 5 | **fully converted** |
+| **Vježba 2** – one „C” jet, three firefighters (`02-Vjezba-2.md`, sketches 16–19) | 1 + 4 | **converted**; its text refers to Vježba 1 for most details |
+| Symbols (`simboli/*.svg`) + sprite (`simboli/simboli.svg`) | 52 + 1 | catalog `katalog-vjezbovnik` (sprite ignored: duplicates the single files) |
+| Stage sketches (`skice/*.svg`) and self-contained render copies (`skice/ugradjeno/*.svg`) | 18 + 18 | analysed (stage C); every render copy was verified to show the same symbols at the same positions |
+| Photo (`slike/01-slika-17.jpg`) | 1 | raster, kept as a reference only |
+| Generator scripts (`alati/*.py`) | 2 | read as text; quoted as the source of drawing conventions (line widths, couplings, facing marks) |
 
-Pipeline result on this dataset: 0 errors; warnings only for the intentionally unresolved group and
-the flattened diagram; one informational `mapping.role-mismatch` (step 7's text mentions
-*voditelju* as the recipient of the report — correctly flagged for human review).
+Pipeline result (`content/normalized/source/REPORT.md`): 97 files, 52 symbols, 18 diagrams,
+5 procedures, 2 exercises — **0 errors**, 1 warning (the raster photo). All 108 step candidates are
+either mapped to exercise steps (58) or explicitly ignored with a reason (50). Both demonstrations run
+without rejected commands, reach completion and agree with every stage sketch.
 
-## Patterns the pipeline expects from real materials
+Both exercises have `review.status: requires-review`: the linking of text, sketches and simulation
+commands was done by the development team and must be checked by a firefighting expert. The
+questions this raised are listed in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md).
 
-These are assumptions to be confirmed once materials exist (see OPEN_QUESTIONS.md):
+## Findings about the materials
 
-- **Symbols**: one SVG per symbol, or symbol sheets with one identifiable group per symbol.
-  A `<title>` with the Croatian name helps proposals.
-- **Diagrams**: vector SVG where stages are layers and symbol instances are groups carrying
-  `data-symbol` / `data-instance`. If real diagrams are exported as flat paths (common for
-  CAD/Illustrator exports), they will be flagged `flattened` and need annotation (e.g. in Inkscape:
-  group each symbol and set attributes via the XML editor) — automatic visual recognition was
-  deliberately not attempted.
-- **Procedures**: Markdown with headings per stage and numbered lists for steps, roles listed in a
-  section titled *Sudionici/Uloge*, diagram links as images.
+### Procedures (Markdown)
 
-## What is needed to import a real exercise
+- Procedures are **prose**: paragraphs under `####` headings (*Postavljanje hidrantskog nastavka*,
+  *Polaganje „B” cijevnog voda…*, *Polaganje prvog mlaza…*, *Pospremanje opreme*). There are no
+  numbered steps. The pipeline therefore uses each paragraph and list item as a step candidate
+  (documents with numbered items keep using only those).
+- Spoken orders are bold quotations, e.g. `**„Odjeljenje zbor!”**`; 21 orders were extracted from
+  Vježba 1 and 5 from Vježba 2, each linked to the paragraph it appears in.
+- Participants are list items `vođa navalne grupe (N₁),` and equipment lists start with a quantity
+  (`3 „B” tlačne cijevi,`). Both are parsed and checked against the initial scene (stage F).
+- Vježba 2 mostly says *„kao u vježbi 1”* (as in Vježba 1) and only states the differences
+  (e.g. the navalna grupa lays the „B” line as the vodna grupa does in Vježba 1; N₂ opens the
+  distributor valve; the strojar reports to N₁).
+- Sketch references are Markdown images pointing at `skice/ugradjeno/…` (render copies); the
+  pipeline maps them to the canonical sketch in `skice/`.
 
-1. The SVG symbol set (ideally the standard used by the training organisation) with names.
-2. At least one complete exercise: its Markdown procedure and the diagrams of its stages.
-3. Expert answers to the questions in OPEN_QUESTIONS.md (especially roles, coupling/port types and
-   compatibility, and which orderings are mandatory).
+### Symbols (SVG)
+
+- One SVG per symbol with `<title>` = Croatian name; `00-2-Legenda.md` gives the authoritative name
+  for every file (used as the symbol name with a line reference).
+- Every SVG (53 symbol files, 36 sketches and render copies) carries a C2PA manifest whose
+  description reads *“Claude provided this file at the request of a user and may have created or
+  modified the file contents.”* The symbols and sketches are generated by the scripts in `alati/`.
+  They are **re-drawings**, not scans of the printed manual: their geometry is schematic and should
+  be compared with the printed figures (OPEN_QUESTIONS Q1). The Markdown texts carry no such
+  marker. The sanitizer does not render `<metadata>`; the original files are kept unchanged.
+- Personnel symbols are circles with the role letters; the facing direction is a separate short
+  tick (`smjer.svg`) drawn 25 units from the centre (`vatrogasni_simboli.py`, `osoba()`), not a
+  rotation of the circle.
+- Laid hoses are not symbols but paths: stroke width 2.6 = „B”, 1.3 = „C” (`vod()`), with coupling
+  ticks (`spojnica-b/c.svg`) and a nozzle tip (`vrh-mlaznice-c.svg`) at the end. The coil symbols
+  (`tlacna-b/c-cijev-kolut.svg`) show hoses that are not laid.
+- No symbol declares connection points. Ports in the catalog are **derived** from the symbol
+  geometry and the text (e.g. the distributor's inlet on the left and three outlets on the right,
+  *lijevi*/*desni otvor* in the text) and marked `requires-review`.
+
+### Stage sketches
+
+- Each sketch places symbols with `<g transform="translate(x,y) rotate(r)"><image href="../simboli/…">`;
+  the render copies use `<use href="#…">` instead. Instances get a deterministic key
+  `<symbol-file>@<x>,<y>` because the sketches have no instance ids.
+- **Sketches are schematic and not to scale, and each has its own frame.** The same distributor is
+  at x = 896 in sketch 12 and x = 636 in sketch 13; equipment left at the staging area is drawn at
+  different places in sketches 11, 12 and 15. The exercises therefore use one exercise frame
+  (Vježba 1: sketches 13/14; Vježba 2: sketch 18) and map points from other sketches with explicit
+  offsets; stage diagrams are compared by *which* symbols and laid lines they show, not by positions.
+- Sketches show carried items inconsistently (a nozzle carried by N₁ is drawn next to him in
+  sketch 12; keys and the bag carried in the belt are not drawn). The comparison accepts carried
+  items being drawn or not.
+- The arc of the second „C” hose (*luk*) is drawn as a loop in sketches 13/14; the simulator draws
+  laid hoses as straight lines.
+
+## How the materials were converted
+
+| Element | Where | Provenance |
+| --- | --- | --- |
+| 52 symbols, 4 categories (taktičke oznake, osoblje, oprema, elementi skice) | `content/review/source/catalog.review.json` | names from the legend (`source`) |
+| Personnel facing marks, annotation symbols (couplings, nozzle tips, arrows) | same | `derived` from `alati/vatrogasni_simboli.py` |
+| Ports on 8 symbols, 5 port types, 3 connection rules (B–B, C–C, hydrant–hydrant nastavak) | same | `derived` from the text (lines 41–93 of Vježba 1), `requires-review`; the distributor's middle outlet has an undetermined type |
+| 11 equipment types incl. two hose types (coil ↔ laid line, line widths 2.6/1.3) | same | `derived` |
+| 9 roles (Z, S, N₁, N₂, V₁, V₂, teklić, C₁, C₂) | same | names from the legend and participant lists (`source`) |
+| Vježba 1: 6 stages, 47 steps, 39 procedural actions, 3 zones | `content/authoring/source/vjezba-1.exercise.json` | step texts verbatim (`source`); conditions and scripts `derived` |
+| Vježba 2: 5 stages, 15 steps, 26 actions, 3 zones | `content/authoring/source/vjezba-2.exercise.json` | Vj2 text verbatim plus the Vj1 lines it refers to as additional sources |
+| Ignored candidates and files, with reasons | `content/review/source/mapping.review.json` | — |
+
+New engine capabilities were needed for these exercises and are generic (DATA_MODEL.md): flexible
+hoses (`LayHose` / `RollUpHose`, hose end ports at the laid line's ends), handing equipment to
+another person (`HandOverEquipment`), optional actors on connections, conditions that select
+interchangeable equipment by type (any „B” hose), and personnel facing marks.
+
+What is deliberately **not** represented: hand and foot positions, hand signals as gestures
+(they are procedural actions with the verbatim wording), the shape of hose arcs, water flow and
+pressure (opening valves is a procedural action), and walking paths (moves are straight lines).
+
+## The synthetic dataset
+
+`content/synthetic/` remains as a labelled test fixture (`synthetic: true`, „SINTETIČKI” banners).
+It exercises features the source materials do not use (visual states, multi-symbol sheets, CSS in
+SVG, Inkscape layers with `data-*` metadata, flattened diagrams, exact position comparison). It is
+not firefighting practice.

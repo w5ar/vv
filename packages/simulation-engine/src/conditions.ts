@@ -4,8 +4,11 @@ import { angleDelta, distance, distanceToPlacement, rectContains, type Vec2 } fr
 import type { ExerciseContext } from './context';
 import { connectionList, placementOfObject } from './world';
 
-function selectorMatches(sel: PortSelector, objectId: string, portId: string): boolean {
-  return sel.objectId === objectId && (sel.portId === undefined || sel.portId === portId);
+function selectorMatches(state: SimulationState, sel: PortSelector, objectId: string, portId: string): boolean {
+  if (!sel.objectId && !sel.typeId) return false;
+  if (sel.objectId && sel.objectId !== objectId) return false;
+  if (sel.typeId && state.objects[objectId]?.typeId !== sel.typeId) return false;
+  return sel.portId === undefined || sel.portId === portId;
 }
 
 export function pointInZone(zone: Zone, p: Vec2): boolean {
@@ -33,8 +36,8 @@ export function evaluateCondition(ctx: ExerciseContext, state: SimulationState, 
       const { a, b } = condition;
       return connectionList(state).some(
         (c) =>
-          (selectorMatches(a, c.a.objectId, c.a.portId) && selectorMatches(b, c.b.objectId, c.b.portId)) ||
-          (selectorMatches(a, c.b.objectId, c.b.portId) && selectorMatches(b, c.a.objectId, c.a.portId)),
+          (selectorMatches(state, a, c.a.objectId, c.a.portId) && selectorMatches(state, b, c.b.objectId, c.b.portId)) ||
+          (selectorMatches(state, a, c.b.objectId, c.b.portId) && selectorMatches(state, b, c.a.objectId, c.a.portId)),
       );
     }
     case 'linked':
@@ -58,11 +61,20 @@ export function evaluateCondition(ctx: ExerciseContext, state: SimulationState, 
     case 'carrying': {
       const p = state.objects[condition.personnelId];
       if (!p) return false;
-      return condition.equipmentId === undefined ? p.carrying.length > 0 : p.carrying.includes(condition.equipmentId);
+      const items = p.carrying.filter(
+        (id) => (condition.equipmentId === undefined || id === condition.equipmentId) && (condition.typeId === undefined || state.objects[id]?.typeId === condition.typeId),
+      );
+      return items.length >= (condition.count ?? 1);
     }
     case 'placed': {
       const e = state.objects[condition.equipmentId];
       return !!e && e.kind === 'equipment' && e.carriedBy === null;
+    }
+    case 'laid': {
+      if (condition.equipmentId) return state.objects[condition.equipmentId]?.layout != null;
+      if (!condition.typeId) return false;
+      const laid = state.objectOrder.filter((id) => state.objects[id]?.typeId === condition.typeId && state.objects[id]?.layout != null);
+      return laid.length >= (condition.count ?? 1);
     }
     case 'hasRole':
       return state.objects[condition.personnelId]?.roleId === condition.roleId;

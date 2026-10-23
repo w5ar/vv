@@ -9,8 +9,23 @@ export interface ContextPanelProps {
   readonly selectedId: Id | null;
   readonly selectedConnectionId: Id | null;
   readonly placingId: Id | null;
+  /** Hose waiting for the click that sets its far end. */
+  readonly layingId: Id | null;
   readonly onCommand: (commands: Command[]) => void;
   readonly onStartPlacing: (equipmentId: Id | null) => void;
+  readonly onStartLaying: (equipmentId: Id | null) => void;
+}
+
+export function isHose(ctx: ExerciseContext, obj: ObjectState | undefined): boolean {
+  return !!obj?.typeId && ctx.catalog.equipmentTypes.get(obj.typeId)?.form === 'hose';
+}
+
+function LayButton({ id, layingId, onStartLaying }: { id: Id; layingId: Id | null; onStartLaying: (id: Id | null) => void }) {
+  return (
+    <button className={`btn btn--small ${layingId === id ? 'is-active' : ''}`} onClick={() => onStartLaying(layingId === id ? null : id)} data-testid={`lay-${id}`}>
+      {layingId === id ? 'Kliknite kraj voda…' : 'Položi…'}
+    </button>
+  );
 }
 
 export function rotationStep(symbol: SymbolDefinition | undefined): number | null {
@@ -37,9 +52,12 @@ function RotateButtons({ ctx, obj, onCommand }: { ctx: ExerciseContext; obj: Obj
   );
 }
 
-function PersonnelContext({ ctx, state, obj, placingId, onCommand, onStartPlacing }: ContextPanelProps & { obj: ObjectState }) {
+function PersonnelContext({ ctx, state, obj, placingId, layingId, onCommand, onStartPlacing, onStartLaying }: ContextPanelProps & { obj: ObjectState }) {
   const roles = [...ctx.catalog.roles.values()];
   const settings = ctx.exercise.settings;
+  const receivers = state.objectOrder
+    .map((id) => state.objects[id])
+    .filter((o): o is ObjectState => !!o && o.kind === 'personnel' && o.id !== obj.id && distance(o.position, obj.position) <= settings.pickUpDistance);
   const portable = state.objectOrder
     .map((id) => state.objects[id])
     .filter((o): o is ObjectState => !!o && o.kind === 'equipment' && !o.carriedBy && !!o.typeId && ctx.catalog.equipmentTypes.get(o.typeId)?.portable === true)
@@ -84,6 +102,23 @@ function PersonnelContext({ ctx, state, obj, placingId, onCommand, onStartPlacin
               <button className={`btn btn--small ${placingId === id ? 'is-active' : ''}`} onClick={() => onStartPlacing(placingId === id ? null : id)} data-testid={`place-${id}`}>
                 {placingId === id ? 'Kliknite na scenu…' : 'Odloži…'}
               </button>
+              {isHose(ctx, state.objects[id]) ? <LayButton id={id} layingId={layingId} onStartLaying={onStartLaying} /> : null}
+              {receivers.length > 0 ? (
+                <select
+                  className="select--small"
+                  value=""
+                  onChange={(e) => e.target.value && onCommand([{ type: 'HandOverEquipment', fromId: obj.id, toId: e.target.value, equipmentId: id }])}
+                  data-testid={`handover-${id}`}
+                  title="Predaj osobi u blizini"
+                >
+                  <option value="">Predaj…</option>
+                  {receivers.map((r) => (
+                    <option key={r.id} value={r.id}>
+                      {objectName(ctx, r)}
+                    </option>
+                  ))}
+                </select>
+              ) : null}
             </li>
           ))}
         </ul>
@@ -159,10 +194,11 @@ function PersonnelContext({ ctx, state, obj, placingId, onCommand, onStartPlacin
   );
 }
 
-function EquipmentContext({ ctx, state, obj, onCommand }: ContextPanelProps & { obj: ObjectState }) {
+function EquipmentContext({ ctx, state, obj, layingId, onCommand, onStartLaying }: ContextPanelProps & { obj: ObjectState }) {
   const symbol = ctx.catalog.symbols.get(obj.symbolId);
   const type = obj.typeId ? ctx.catalog.equipmentTypes.get(obj.typeId) : undefined;
   const conns = connectionList(state);
+  const hoseConnected = conns.some((c) => c.a.objectId === obj.id || c.b.objectId === obj.id);
   return (
     <div className="context" data-testid="context-equipment">
       <h3>{objectName(ctx, obj)}</h3>
@@ -170,7 +206,28 @@ function EquipmentContext({ ctx, state, obj, onCommand }: ContextPanelProps & { 
         {type?.name}
         {type?.portable ? ' · prijenosno' : ''}
         {obj.carriedBy ? ` · nosi: ${objectName(ctx, state.objects[obj.carriedBy], obj.carriedBy)}` : ''}
+        {obj.layout ? ` · položena (${Math.round(distance(obj.layout.a, obj.layout.b))})` : ''}
       </p>
+      {type?.form === 'hose' ? (
+        <>
+          <h4>Cijev</h4>
+          <div className="btn-row">
+            {obj.layout ? (
+              <button
+                className="btn btn--small"
+                disabled={hoseConnected}
+                title={hoseConnected ? 'Najprije odspojite cijev' : undefined}
+                onClick={() => onCommand([{ type: 'RollUpHose', equipmentId: obj.id }])}
+                data-testid={`rollup-${obj.id}`}
+              >
+                Namotaj
+              </button>
+            ) : (
+              <LayButton id={obj.id} layingId={layingId} onStartLaying={onStartLaying} />
+            )}
+          </div>
+        </>
+      ) : null}
       {symbol && symbol.visualStates.length > 0 ? (
         <>
           <h4>Stanje</h4>
@@ -188,7 +245,7 @@ function EquipmentContext({ ctx, state, obj, onCommand }: ContextPanelProps & { 
           </div>
         </>
       ) : null}
-      {!obj.carriedBy ? (
+      {!obj.carriedBy && !obj.layout ? (
         <>
           <h4>Smjer</h4>
           <RotateButtons ctx={ctx} obj={obj} onCommand={onCommand} />
@@ -252,6 +309,7 @@ export function ContextPanel(props: ContextPanelProps) {
           <li>Povucite osobu za premještanje; opremu koju osoba nosi povucite na mjesto odlaganja.</li>
           <li>Spajanje: povucite od priključka do priključka ili kliknite jedan pa drugi priključak.</li>
           <li>Tipka R / Shift+R rotira odabrani objekt.</li>
+          <li>Cijev: „Položi…” pa klik na mjesto kraja voda; početak je priključak na koji je spojen prvi kraj cijevi ili osoba koja je nosi.</li>
         </ul>
       </div>
     );

@@ -40,6 +40,9 @@ const UNWRAP_ELEMENTS = new Set(['a', 'switch']);
 /** Elements whose text content is meaningful. */
 const TEXT_ELEMENTS = new Set(['text', 'tspan', 'textPath', 'title', 'desc']);
 
+/** Attribute that records a removed relative `href` (e.g. `../simboli/n1.svg`) without loading it. */
+export const EXTERNAL_HREF_ATTR = 'data-external-href';
+
 const SAFE_DATA_IMAGE = /^data:image\/(png|jpe?g|gif|webp);base64,[A-Za-z0-9+/=\s]+$/i;
 const DANGEROUS_VALUE = /(javascript:|vbscript:|data:text\/html)/i;
 
@@ -116,6 +119,10 @@ function cleanAttributes(tag: string, node: XmlNode, report: SanitizeReport): Re
       else {
         report.removed.push(`${tag}@href`);
         report.externalRefs.push(value);
+        // Keep relative file references as inert metadata (never loaded) for diagram analysis.
+        if ((tag === 'image' || tag === 'use') && !/^[a-z][a-z0-9+.-]*:/i.test(value) && !value.startsWith('//')) {
+          attrs[EXTERNAL_HREF_ATTR] = value;
+        }
       }
       continue;
     }

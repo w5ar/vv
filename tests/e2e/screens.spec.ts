@@ -1,15 +1,14 @@
 import { expect, test } from '@playwright/test';
 
-test('library lists the synthetic exercise and states that source materials are missing', async ({ page }) => {
+test('library marks the synthetic exercise as synthetic', async ({ page }) => {
   await page.goto('#/');
-  await expect(page.getByTestId('no-sources-banner')).toBeVisible();
   const card = page.getByTestId('exercise-sinteticka-vjezba-01');
   await expect(card).toContainText('SINTETIČKI');
   await expect(card).toContainText('Demonstracija');
 });
 
 test('symbol catalog renders vector SVG symbols (no raster images)', async ({ page }) => {
-  await page.goto('#/katalog');
+  await page.goto('#/katalog/katalog-sinteticki');
   const grid = page.getByTestId('symbol-grid');
   await expect(grid.locator('button')).toHaveCount(8);
   expect(await grid.locator('svg').count()).toBeGreaterThanOrEqual(8);
@@ -52,9 +51,15 @@ test('editor rotates a selected object and supports undo/redo', async ({ page })
   await expect(rotation).toHaveValue('90');
 });
 
-test('import review shows the empty source dataset and synthetic pipeline results', async ({ page }) => {
+test('import review shows the source dataset and synthetic pipeline results', async ({ page }) => {
   await page.goto('#/uvoz');
-  await expect(page.getByTestId('dataset-source')).toContainText('nema izvornih materijala');
+  const source = page.getByTestId('dataset-source');
+  await expect(source).toContainText('52 simbola');
+  await expect(source).toContainText('2 vježbi · 0 grešaka');
+  await source.getByRole('tab', { name: /Crteži/ }).click();
+  await expect(source).toContainText('Skica 13');
+  await source.getByRole('tab', { name: /Povezivanje/ }).click();
+  await expect(source.getByText('Zanemareno').first()).toBeVisible();
   await page.getByRole('button', { name: /Sintetički testni skup/ }).click();
   const ds = page.getByTestId('dataset-synthetic');
   await ds.getByRole('tab', { name: /Crteži/ }).click();

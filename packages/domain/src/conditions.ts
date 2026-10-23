@@ -7,9 +7,14 @@ import { FiniteNumber, IdSchema, PortRefSchema, type Id, type PortRef } from './
  * completion, preconditions, command rules and exercise completion.
  */
 
-/** Selects one port (`portId` given) or any port of an object (`portId` omitted). */
+/**
+ * Selects one port (`portId` given) or any port of an object (`portId` omitted).
+ * The object is a specific instance (`objectId`) or any equipment of a type (`typeId`),
+ * for interchangeable items such as hoses of the same kind. One of the two is required.
+ */
 export interface PortSelector {
-  objectId: Id;
+  objectId?: Id | undefined;
+  typeId?: Id | undefined;
   portId?: Id | undefined;
 }
 
@@ -27,17 +32,23 @@ export type Condition =
   | { type: 'portFree'; port: PortRef }
   | { type: 'inZone'; objectId: Id; zoneId: Id }
   | { type: 'near'; objectId: Id; targetId: Id; maxDistance: number }
-  /** `equipmentId` omitted: carrying anything. */
-  | { type: 'carrying'; personnelId: Id; equipmentId?: Id | undefined }
+  /**
+   * Carrying at least `count` (default 1) items: a specific item (`equipmentId`),
+   * items of a type (`typeId`) or anything (both omitted).
+   */
+  | { type: 'carrying'; personnelId: Id; equipmentId?: Id | undefined; typeId?: Id | undefined; count?: number | undefined }
   /** Equipment is on the ground (not carried). */
   | { type: 'placed'; equipmentId: Id }
+  /** A specific hose is laid, or at least `count` (default 1) hoses of `typeId` are laid. */
+  | { type: 'laid'; equipmentId?: Id | undefined; typeId?: Id | undefined; count?: number | undefined }
   | { type: 'hasRole'; personnelId: Id; roleId: Id }
   | { type: 'objectState'; objectId: Id; state: Id }
   | { type: 'rotation'; objectId: Id; angle: number; tolerance: number };
 
 export type ConditionType = Condition['type'];
 
-const PortSelectorSchema = z.strictObject({ objectId: IdSchema, portId: IdSchema.optional() });
+const PortSelectorSchema = z.strictObject({ objectId: IdSchema.optional(), typeId: IdSchema.optional(), portId: IdSchema.optional() });
+const CountSchema = z.number().int().positive().optional();
 
 export const ConditionSchema: z.ZodType<Condition> = z.lazy(() =>
   z.discriminatedUnion('type', [
@@ -57,8 +68,15 @@ export const ConditionSchema: z.ZodType<Condition> = z.lazy(() =>
       targetId: IdSchema,
       maxDistance: z.number().positive(),
     }),
-    z.strictObject({ type: z.literal('carrying'), personnelId: IdSchema, equipmentId: IdSchema.optional() }),
+    z.strictObject({
+      type: z.literal('carrying'),
+      personnelId: IdSchema,
+      equipmentId: IdSchema.optional(),
+      typeId: IdSchema.optional(),
+      count: CountSchema,
+    }),
     z.strictObject({ type: z.literal('placed'), equipmentId: IdSchema }),
+    z.strictObject({ type: z.literal('laid'), equipmentId: IdSchema.optional(), typeId: IdSchema.optional(), count: CountSchema }),
     z.strictObject({ type: z.literal('hasRole'), personnelId: IdSchema, roleId: IdSchema }),
     z.strictObject({ type: z.literal('objectState'), objectId: IdSchema, state: IdSchema }),
     z.strictObject({
@@ -92,8 +110,8 @@ export function conditionObjectIds(condition: Condition): Id[] {
   walkCondition(condition, (c) => {
     switch (c.type) {
       case 'connected':
-        ids.add(c.a.objectId);
-        ids.add(c.b.objectId);
+        if (c.a.objectId) ids.add(c.a.objectId);
+        if (c.b.objectId) ids.add(c.b.objectId);
         break;
       case 'linked':
         ids.add(c.a);
@@ -117,6 +135,9 @@ export function conditionObjectIds(condition: Condition): Id[] {
         break;
       case 'placed':
         ids.add(c.equipmentId);
+        break;
+      case 'laid':
+        if (c.equipmentId) ids.add(c.equipmentId);
         break;
       case 'hasRole':
         ids.add(c.personnelId);

@@ -28,6 +28,7 @@ export function createInitialState(ctx: ExerciseContext): SimulationState {
       carriedBy: null,
       carrying: [],
       visualState: null,
+      layout: null,
     };
     objectOrder.push(p.id);
   }
@@ -47,6 +48,7 @@ export function createInitialState(ctx: ExerciseContext): SimulationState {
       carriedBy: null,
       carrying: [],
       visualState: e.state ?? symbol?.defaultState ?? null,
+      layout: type?.form === 'hose' && e.layout ? e.layout : null,
     };
     objectOrder.push(e.id);
   }

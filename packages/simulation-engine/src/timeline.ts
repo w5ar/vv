@@ -1,6 +1,7 @@
-import type { Command, Connection, Id, Issue, SimEvent, SimulationState } from '@fds/domain';
+import type { Command, Connection, HoseLayout, Id, Issue, SimEvent, SimulationState } from '@fds/domain';
 import { distance, lerpAngle, lerpVec, type Vec2 } from '@fds/geometry';
 import type { ExerciseContext } from './context';
+import { resolveLayFrom } from './commands';
 import { executeCommand } from './engine';
 import { createInitialState } from './initial-state';
 import { replay } from './session';
@@ -74,6 +75,11 @@ function animatedObjects(state: SimulationState, command: Command): Id[] {
       return [command.personnelId];
     case 'SetObjectState':
       return [command.objectId];
+    case 'LayHose':
+    case 'RollUpHose':
+      return command.personnelId ? [command.equipmentId, command.personnelId] : [command.equipmentId];
+    case 'HandOverEquipment':
+      return [command.fromId, command.toId, command.equipmentId];
     case 'ConnectPorts':
     case 'DisconnectPorts':
     case 'CompleteAction':
@@ -106,6 +112,14 @@ function defaultDuration(ctx: ExerciseContext, state: SimulationState, command: 
       return a.setStateMs;
     case 'BeginAction':
       return a.beginActionMs;
+    case 'LayHose':
+      return Math.max(a.minMoveMs, (distance(resolveLayFrom(ctx, state, command), command.to) / a.hoseSpeed) * 1000);
+    case 'RollUpHose': {
+      const layout = state.objects[command.equipmentId]?.layout;
+      return Math.max(a.minMoveMs, layout ? (distance(layout.a, layout.b) / a.hoseSpeed) * 1000 : 0);
+    }
+    case 'HandOverEquipment':
+      return a.handOverMs;
     case 'CompleteAction': {
       const action = ctx.actions.get(command.actionId);
       return action?.durationMs ?? a.actionMs;
@@ -265,6 +279,8 @@ export function easeInOut(t: number): number {
 export interface VisualOverride {
   readonly position?: Vec2;
   readonly rotation?: number;
+  /** Hose being laid or rolled up: displayed extent. */
+  readonly layout?: HoseLayout;
 }
 
 export interface ActiveEntry {
@@ -360,9 +376,11 @@ export function frameAt(ctx: ExerciseContext, timeline: Timeline, t: number): Vi
           connection: { id: cmd.connectionId ?? `pending:${entry.index}`, a: cmd.a, b: cmd.b },
           progress: p,
         });
+        if (cmd.actorId) acting.add(cmd.actorId);
         break;
       case 'DisconnectPorts':
         fadingConnections[cmd.connectionId] = 1 - p;
+        if (cmd.actorId) acting.add(cmd.actorId);
         break;
       case 'BeginAction':
         for (const id of cmd.actorIds) acting.add(id);
@@ -375,7 +393,31 @@ export function frameAt(ctx: ExerciseContext, timeline: Timeline, t: number): Vi
         break;
       case 'SetObjectState':
         acting.add(cmd.objectId);
+        if (cmd.actorId) acting.add(cmd.actorId);
         break;
+      case 'LayHose': {
+        const from = resolveLayFrom(ctx, state, cmd);
+        overrides[cmd.equipmentId] = { ...overrides[cmd.equipmentId], layout: { a: from, b: lerpVec(from, cmd.to, p) } };
+        if (cmd.personnelId) acting.add(cmd.personnelId);
+        break;
+      }
+      case 'RollUpHose': {
+        const layout = state.objects[cmd.equipmentId]?.layout;
+        if (layout) overrides[cmd.equipmentId] = { ...overrides[cmd.equipmentId], layout: { a: layout.a, b: lerpVec(layout.b, layout.a, p) } };
+        if (cmd.personnelId) acting.add(cmd.personnelId);
+        break;
+      }
+      case 'HandOverEquipment': {
+        const to = state.objects[cmd.toId];
+        const eq = state.objects[cmd.equipmentId];
+        if (to && eq) {
+          const target = carriedPosition(ctx, to.position, to.carrying.length);
+          overrides[eq.id] = { ...overrides[eq.id], position: lerpVec(eq.position, target, p) };
+        }
+        acting.add(cmd.fromId);
+        acting.add(cmd.toId);
+        break;
+      }
     }
   }
 

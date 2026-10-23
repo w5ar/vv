@@ -1,1 +1,692 @@
-[]
+[
+  {
+    "candidateId": "00-1-uvod#uvod/1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Uvod u vježbovnik (ciljevi i sadržaj); ne opisuje radnje vježbe."
+  },
+  {
+    "candidateId": "00-1-uvod#uvod/2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Uvod u vježbovnik (ciljevi i sadržaj); ne opisuje radnje vježbe."
+  },
+  {
+    "candidateId": "00-1-uvod#uvod/3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Uvod u vježbovnik (ciljevi i sadržaj); ne opisuje radnje vježbe."
+  },
+  {
+    "candidateId": "00-1-uvod#uvod/4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Uvod u vježbovnik (ciljevi i sadržaj); ne opisuje radnje vježbe."
+  },
+  {
+    "candidateId": "00-1-uvod#uvod/5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Uvod u vježbovnik (ciljevi i sadržaj); ne opisuje radnje vježbe."
+  },
+  {
+    "candidateId": "00-1-uvod#uvod/6",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Uvod u vježbovnik (ciljevi i sadržaj); ne opisuje radnje vježbe."
+  },
+  {
+    "candidateId": "00-2-legenda#1-1-takticke-oznake-u-vjezbovniku/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Legenda simbola; koristi se u fazi B za nazive simbola, ne sadrži korake vježbe."
+  },
+  {
+    "candidateId": "00-2-legenda#koristenje-simbola-u-drugim-dijelovima-prirucnika/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Legenda simbola; koristi se u fazi B za nazive simbola, ne sadrži korake vježbe."
+  },
+  {
+    "candidateId": "00-2-legenda#koristenje-simbola-u-drugim-dijelovima-prirucnika/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Legenda simbola; koristi se u fazi B za nazive simbola, ne sadrži korake vježbe."
+  },
+  {
+    "candidateId": "00-2-legenda#koristenje-simbola-u-drugim-dijelovima-prirucnika/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Legenda simbola; koristi se u fazi B za nazive simbola, ne sadrži korake vježbe."
+  },
+  {
+    "candidateId": "00-2-legenda#koristenje-simbola-u-drugim-dijelovima-prirucnika/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Legenda simbola; koristi se u fazi B za nazive simbola, ne sadrži korake vježbe."
+  },
+  {
+    "candidateId": "00-2-legenda#koristenje-simbola-u-drugim-dijelovima-prirucnika/l1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Legenda simbola; koristi se u fazi B za nazive simbola, ne sadrži korake vježbe."
+  },
+  {
+    "candidateId": "00-2-legenda#koristenje-simbola-u-drugim-dijelovima-prirucnika/l2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Legenda simbola; koristi se u fazi B za nazive simbola, ne sadrži korake vježbe."
+  },
+  {
+    "candidateId": "00-2-legenda#koristenje-simbola-u-drugim-dijelovima-prirucnika/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Legenda simbola; koristi se u fazi B za nazive simbola, ne sadrži korake vježbe."
+  },
+  {
+    "candidateId": "00-2-legenda#koristenje-simbola-u-drugim-dijelovima-prirucnika/p6",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Legenda simbola; koristi se u fazi B za nazive simbola, ne sadrži korake vježbe."
+  },
+  {
+    "candidateId": "00-2-legenda#koristenje-simbola-u-drugim-dijelovima-prirucnika/p7",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Legenda simbola; koristi se u fazi B za nazive simbola, ne sadrži korake vježbe."
+  },
+  {
+    "candidateId": "00-3-postrojavanje#1-3-1-postrojavanje-vatrogasnog-odjeljenja/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
+  },
+  {
+    "candidateId": "00-3-postrojavanje#1-3-1-postrojavanje-vatrogasnog-odjeljenja/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
+  },
+  {
+    "candidateId": "00-3-postrojavanje#1-3-1-postrojavanje-vatrogasnog-odjeljenja/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
+  },
+  {
+    "candidateId": "00-3-postrojavanje#1-3-1-postrojavanje-vatrogasnog-odjeljenja/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
+  },
+  {
+    "candidateId": "00-3-postrojavanje#1-3-1-postrojavanje-vatrogasnog-odjeljenja/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
+  },
+  {
+    "candidateId": "00-3-postrojavanje#1-3-1-postrojavanje-vatrogasnog-odjeljenja/p6",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
+  },
+  {
+    "candidateId": "00-3-postrojavanje#1-3-1-postrojavanje-vatrogasnog-odjeljenja/p7",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
+  },
+  {
+    "candidateId": "00-3-postrojavanje#1-3-1-postrojavanje-vatrogasnog-odjeljenja/p8",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
+  },
+  {
+    "candidateId": "00-3-postrojavanje#1-3-1-postrojavanje-vatrogasnog-odjeljenja/p9",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
+  },
+  {
+    "candidateId": "00-3-postrojavanje#1-3-1-postrojavanje-vatrogasnog-odjeljenja/p10",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
+  },
+  {
+    "candidateId": "00-3-postrojavanje#1-3-1-postrojavanje-vatrogasnog-odjeljenja/p11",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
+  },
+  {
+    "candidateId": "00-3-postrojavanje#1-3-1-postrojavanje-vatrogasnog-odjeljenja/p12",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
+  },
+  {
+    "candidateId": "01-vjezba-1#2-3-1-vjezba-1-vjezba-s-dva-c-mlaza-vode-sest-vatrogasaca/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
+  },
+  {
+    "candidateId": "01-vjezba-1#2-3-1-vjezba-1-vjezba-s-dva-c-mlaza-vode-sest-vatrogasaca/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Uvod u popis opreme; oprema je u početnoj sceni, a količine se provjeravaju u fazi F."
+  },
+  {
+    "candidateId": "01-vjezba-1#2-3-1-vjezba-1-vjezba-s-dva-c-mlaza-vode-sest-vatrogasaca/p3",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "zbor"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#2-3-1-vjezba-1-vjezba-s-dva-c-mlaza-vode-sest-vatrogasaca/p4",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "zapovijed-za-navalu"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#2-3-1-vjezba-1-vjezba-s-dva-c-mlaza-vode-sest-vatrogasaca/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
+  },
+  {
+    "candidateId": "01-vjezba-1#postavljanje-hidrantskog-nastavka/p1",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "nastavak"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-rada/p1",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "vodna-oprema"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-rada/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Sažetak; radnje polaganja „B” voda opisane su u sljedeća dva odlomka (koraci polaganje-b-prva i polaganje-b-druga)."
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-rada/p3",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "polaganje-b-prva"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-rada/p4",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "polaganje-b-druga"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-rada/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Sažetak; opremanje navalne grupe opisano je u sljedeća dva odlomka (koraci navalna-oprema-n1 i navalna-oprema-n2)."
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-rada/p6",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "navalna-oprema-n1"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-rada/p7",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "navalna-oprema-n2"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-rada/p8",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "navalna-do-kraja-b"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-rada/p9",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "voda-do-razdjelnice"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-rada/p10",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "zapovjednik-razdjelnica"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-rada/p11",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "vodna-povratak"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-rada/p12",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "vodna-iza-opreme"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "prvi-mlaz"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-prvog-mlaza-u-navalnom-sektoru/p2",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "prvi-mlaz-n1"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "drugi-mlaz-zapovijed"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-drugog-mlaza-u-navalnom-sektoru/p2",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "drugi-mlaz-v1-oprema"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-drugog-mlaza-u-navalnom-sektoru/p3",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "drugi-mlaz-v2"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-drugog-mlaza-u-navalnom-sektoru/p4",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "drugi-mlaz-v1-mlaznica"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-drugog-mlaza-u-navalnom-sektoru/p5",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "drugi-mlaz-v2-luk"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-drugog-mlaza-u-navalnom-sektoru/p6",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "drugi-mlaz-vodu-daj"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#polaganje-drugog-mlaza-u-navalnom-sektoru/p7",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "drugi-mlaz-potvrda"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p1",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "vodom-stoj"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p2",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "vodom-stoj-vode"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p3",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "zatvaranje-vode"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p4",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "posprema"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p5",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "posprema-strojar"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p6",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "posprema-mlaznice"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p7",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "posprema-zapovjednik"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p8",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "posprema-savijanje"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p9",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "posprema-motanje"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p10",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "posprema-nosaci"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/l1",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "uzimanje-n1"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/l2",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "uzimanje-n2"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/l3",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "uzimanje-v1"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/l4",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "uzimanje-v2"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p11",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "posprema-polozaj"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p12",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "opremu-uzmi"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p13",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "stoj-celom-nazad"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p14",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "opremu-odlozi"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p15",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "odlaganje-opreme"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p16",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Pravilo rasporeda pri kretanju (članovi lijevo od vođa); primijenjeno u položajima demonstracije koraka opremu-uzmi, simulator ga ne provjerava."
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p17",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "posprema-b"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p18",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "posprema-b-motanje"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p19",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "pregled-opreme"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p20",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "prijavak"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p21",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "na-svoje-mjesto"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "01-vjezba-1#pospremanje-opreme/p22",
+    "exerciseId": "vjezba-1-dva-c-mlaza",
+    "stepIds": [
+      "zavrsetak"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "02-vjezba-2#2-3-2-vjezba-2-vjezba-s-jednim-c-mlazom-vode-tri-vatrogasca/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
+  },
+  {
+    "candidateId": "02-vjezba-2#2-3-2-vjezba-2-vjezba-s-jednim-c-mlazom-vode-tri-vatrogasca/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Uvod u popis opreme; oprema je u početnoj sceni, a količine se provjeravaju u fazi F."
+  },
+  {
+    "candidateId": "02-vjezba-2#2-3-2-vjezba-2-vjezba-s-jednim-c-mlazom-vode-tri-vatrogasca/p3",
+    "exerciseId": "vjezba-2-jedan-c-mlaz",
+    "stepIds": [
+      "postrojavanje"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "02-vjezba-2#2-3-2-vjezba-2-vjezba-s-jednim-c-mlazom-vode-tri-vatrogasca/p4",
+    "exerciseId": "vjezba-2-jedan-c-mlaz",
+    "stepIds": [
+      "zapovijed-za-navalu"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "02-vjezba-2#2-3-2-vjezba-2-vjezba-s-jednim-c-mlazom-vode-tri-vatrogasca/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
+  },
+  {
+    "candidateId": "02-vjezba-2#postavljanje-hidrantskog-nastavka/p1",
+    "exerciseId": "vjezba-2-jedan-c-mlaz",
+    "stepIds": [
+      "nastavak"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "02-vjezba-2#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-rada/p1",
+    "exerciseId": "vjezba-2-jedan-c-mlaz",
+    "stepIds": [
+      "b-vod"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "02-vjezba-2#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
+    "exerciseId": "vjezba-2-jedan-c-mlaz",
+    "stepIds": [
+      "povratak-po-opremu",
+      "prvi-mlaz"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "02-vjezba-2#polaganje-prvog-mlaza-u-navalnom-sektoru/p2",
+    "exerciseId": "vjezba-2-jedan-c-mlaz",
+    "stepIds": [
+      "vodu-daj"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "02-vjezba-2#polaganje-prvog-mlaza-u-navalnom-sektoru/p3",
+    "exerciseId": "vjezba-2-jedan-c-mlaz",
+    "stepIds": [
+      "strojar-voda"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "02-vjezba-2#pospremanje-opreme/p1",
+    "exerciseId": "vjezba-2-jedan-c-mlaz",
+    "stepIds": [
+      "vodom-stoj"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "02-vjezba-2#pospremanje-opreme/p2",
+    "exerciseId": "vjezba-2-jedan-c-mlaz",
+    "stepIds": [
+      "zatvaranje-posprema"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "02-vjezba-2#pospremanje-opreme/p3",
+    "exerciseId": "vjezba-2-jedan-c-mlaz",
+    "stepIds": [
+      "posprema-strojar",
+      "posprema-mlaz",
+      "opremu-vratiti",
+      "posprema-b"
+    ],
+    "status": "mapped"
+  },
+  {
+    "candidateId": "02-vjezba-2#pospremanje-opreme/p4",
+    "exerciseId": "vjezba-2-jedan-c-mlaz",
+    "stepIds": [
+      "stroj-prijavak"
+    ],
+    "status": "mapped"
+  }
+]

@@ -122,6 +122,7 @@
       },
       "semantics": {},
       "visualStates": [],
+      "annotation": false,
       "provenance": "synthetic",
       "review": {
         "status": "requires-review"
@@ -160,6 +161,7 @@
       },
       "semantics": {},
       "visualStates": [],
+      "annotation": false,
       "provenance": "synthetic",
       "review": {
         "status": "requires-review"
@@ -213,6 +215,7 @@
       },
       "semantics": {},
       "visualStates": [],
+      "annotation": false,
       "provenance": "synthetic",
       "review": {
         "status": "requires-review"
@@ -266,6 +269,7 @@
       },
       "semantics": {},
       "visualStates": [],
+      "annotation": false,
       "provenance": "synthetic",
       "review": {
         "status": "requires-review",
@@ -333,6 +337,7 @@
       },
       "semantics": {},
       "visualStates": [],
+      "annotation": false,
       "provenance": "synthetic",
       "review": {
         "status": "requires-review"
@@ -392,6 +397,7 @@
         }
       ],
       "defaultState": "zatvorena",
+      "annotation": false,
       "provenance": "synthetic",
       "review": {
         "status": "requires-review"
@@ -427,6 +433,7 @@
       },
       "semantics": {},
       "visualStates": [],
+      "annotation": false,
       "provenance": "synthetic",
       "review": {
         "status": "requires-review"
@@ -463,6 +470,7 @@
       },
       "semantics": {},
       "visualStates": [],
+      "annotation": false,
       "provenance": "synthetic",
       "review": {
         "status": "requires-review"
@@ -481,6 +489,7 @@
       "name": "Vozilo (sintetičko)",
       "symbolId": "syn.vozilo",
       "portable": false,
+      "form": "rigid",
       "properties": {},
       "provenance": "synthetic",
       "review": {
@@ -493,6 +502,7 @@
       "name": "Cijev s velikim spojem (sintetička)",
       "symbolId": "syn.cijev-velika",
       "portable": true,
+      "form": "rigid",
       "properties": {},
       "provenance": "synthetic",
       "review": {
@@ -505,6 +515,7 @@
       "name": "Cijev s malim spojem (sintetička)",
       "symbolId": "syn.cijev-mala",
       "portable": true,
+      "form": "rigid",
       "properties": {},
       "provenance": "synthetic",
       "review": {
@@ -517,6 +528,7 @@
       "name": "Razdjelnik (sintetički)",
       "symbolId": "syn.razdjelnik",
       "portable": true,
+      "form": "rigid",
       "properties": {},
       "provenance": "synthetic",
       "review": {
@@ -529,6 +541,7 @@
       "name": "Mlaznica (sintetička)",
       "symbolId": "syn.mlaznica",
       "portable": true,
+      "form": "rigid",
       "properties": {},
       "provenance": "synthetic",
       "review": {
@@ -541,6 +554,7 @@
       "name": "Oznaka cilja (sintetička)",
       "symbolId": "syn.oznaka-cilja",
       "portable": false,
+      "form": "rigid",
       "properties": {},
       "provenance": "synthetic",
       "review": {
@@ -553,6 +567,7 @@
       "name": "Oznaka polazišta (sintetička)",
       "symbolId": "syn.oznaka-polazista",
       "portable": false,
+      "form": "rigid",
       "properties": {},
       "provenance": "synthetic",
       "review": {

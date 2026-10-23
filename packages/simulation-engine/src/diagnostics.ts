@@ -13,7 +13,7 @@ import {
 import { evaluateCondition } from './conditions';
 import { createExerciseContext, type ExerciseContext } from './context';
 import { createInitialState } from './initial-state';
-import { compileTimeline, type Timeline } from './timeline';
+import { compileTimeline, stateAt, type Timeline } from './timeline';
 import { connectionWorld } from './world';
 
 /**
@@ -74,8 +74,24 @@ export function checkCatalog(catalog: Catalog): Diagnostic[] {
     }
   });
   catalog.equipmentTypes.forEach((e, i) => {
+    const path = `equipmentTypes[${i}]`;
     if (!symbols.has(e.symbolId)) {
-      out.push(d('ref.unknown-symbol', 'error', `Vrsta opreme ${e.id}: nepoznat simbol „${e.symbolId}”.`, { path: `equipmentTypes[${i}]`, subjectId: e.id }));
+      out.push(d('ref.unknown-symbol', 'error', `Vrsta opreme ${e.id}: nepoznat simbol „${e.symbolId}”.`, { path, subjectId: e.id }));
+    }
+    for (const ref of [e.laidSymbolId, e.depiction?.attachedSymbolId]) {
+      if (ref && !symbols.has(ref)) out.push(d('ref.unknown-symbol', 'error', `Vrsta opreme ${e.id}: nepoznat simbol „${ref}”.`, { path, subjectId: e.id }));
+    }
+    if (e.form === 'hose') {
+      const symbol = catalog.symbols.find((s) => s.id === e.symbolId);
+      if (!e.hoseEnds) {
+        out.push(d('catalog.hose-ends-missing', 'error', `Cijev ${e.id}: nisu navedeni krajevi (hoseEnds).`, { path, subjectId: e.id }));
+      } else if (symbol) {
+        for (const end of e.hoseEnds) {
+          if (!symbol.ports.some((p) => p.id === end)) {
+            out.push(d('ref.unknown-port', 'error', `Cijev ${e.id}: simbol nema priključak „${end}”.`, { path, subjectId: e.id }));
+          }
+        }
+      }
     }
   });
   catalog.roles.forEach((r, i) => {
@@ -97,11 +113,24 @@ function conditionRefs(ctx: ExerciseContext, state: SimulationState, cond: Condi
   const obj = (id: Id) => {
     if (!state.objects[id]) out.push(d('ref.unknown-object', 'error', `${path}: nepoznat objekt „${id}”.`, { path, subjectId: id }));
   };
-  const port = (objectId: Id, portId: Id | undefined) => {
-    const o = state.objects[objectId];
-    if (!o) return obj(objectId);
-    if (portId && !ctx.catalog.getPort(o.symbolId, portId)) {
-      out.push(d('ref.unknown-port', 'error', `${path}: objekt „${objectId}” nema priključak „${portId}”.`, { path, subjectId: objectId }));
+  const type = (typeId: Id) => {
+    if (!ctx.catalog.equipmentTypes.has(typeId)) out.push(d('ref.unknown-equipment-type', 'error', `${path}: nepoznata vrsta opreme „${typeId}”.`, { path }));
+  };
+  const port = (sel: { objectId?: Id | undefined; typeId?: Id | undefined; portId?: Id | undefined }) => {
+    if (!sel.objectId && !sel.typeId) {
+      out.push(d('condition.selector-empty', 'error', `${path}: odabir priključka mora navesti objekt ili vrstu opreme.`, { path }));
+      return;
+    }
+    if (sel.typeId) type(sel.typeId);
+    const symbolId = sel.objectId
+      ? state.objects[sel.objectId]?.symbolId
+      : sel.typeId
+        ? ctx.catalog.equipmentTypes.get(sel.typeId)?.symbolId
+        : undefined;
+    if (sel.objectId && !state.objects[sel.objectId]) return obj(sel.objectId);
+    if (sel.portId && symbolId && !ctx.catalog.getPort(symbolId, sel.portId)) {
+      const subject = sel.objectId ?? sel.typeId ?? '';
+      out.push(d('ref.unknown-port', 'error', `${path}: „${subject}” nema priključak „${sel.portId}”.`, { path, subjectId: subject }));
     }
   };
   walkCondition(cond, (c) => {
@@ -114,11 +143,11 @@ function conditionRefs(ctx: ExerciseContext, state: SimulationState, cond: Condi
         if (!ctx.actions.has(c.actionId)) out.push(d('ref.unknown-action', 'error', `${path}: nepoznata radnja „${c.actionId}”.`, { path }));
         break;
       case 'connected':
-        port(c.a.objectId, c.a.portId);
-        port(c.b.objectId, c.b.portId);
+        port(c.a);
+        port(c.b);
         break;
       case 'portFree':
-        port(c.port.objectId, c.port.portId);
+        port(c.port);
         break;
       case 'linked':
         obj(c.a);
@@ -135,10 +164,24 @@ function conditionRefs(ctx: ExerciseContext, state: SimulationState, cond: Condi
       case 'carrying':
         obj(c.personnelId);
         if (c.equipmentId) obj(c.equipmentId);
+        if (c.typeId) type(c.typeId);
         break;
       case 'placed':
         obj(c.equipmentId);
         break;
+      case 'laid': {
+        if (!c.equipmentId && !c.typeId) {
+          out.push(d('condition.selector-empty', 'error', `${path}: uvjet „laid” mora navesti cijev ili vrstu cijevi.`, { path }));
+          break;
+        }
+        if (c.equipmentId) obj(c.equipmentId);
+        if (c.typeId) type(c.typeId);
+        const o = c.equipmentId ? state.objects[c.equipmentId] : undefined;
+        const typeId = c.typeId ?? o?.typeId;
+        const et = typeId ? ctx.catalog.equipmentTypes.get(typeId) : undefined;
+        if (et && et.form !== 'hose') out.push(d('ref.not-hose', 'error', `${path}: „${c.equipmentId ?? c.typeId}” nije cijev.`, { path }));
+        break;
+      }
       case 'hasRole':
         obj(c.personnelId);
         if (!ctx.catalog.roles.has(c.roleId)) out.push(d('ref.unresolved-role', 'error', `${path}: nepoznata uloga „${c.roleId}”.`, { path }));
@@ -201,6 +244,12 @@ export function checkExercise(exercise: Exercise, catalog: Catalog): ExerciseChe
     if (e.carriedBy && !scene.personnel.some((p) => p.id === e.carriedBy)) {
       out.push(d('ref.unknown-object', 'error', `Oprema ${e.id}: nositelj „${e.carriedBy}” ne postoji.`, { path, subjectId: e.id }));
     }
+    if (e.layout && type && type.form !== 'hose') {
+      out.push(d('scene.layout-not-hose', 'error', `Oprema ${e.id}: raspored (layout) dopušten je samo za cijevi.`, { path, subjectId: e.id }));
+    }
+    if (e.layout && e.carriedBy) {
+      out.push(d('scene.layout-carried', 'error', `Oprema ${e.id}: položena cijev ne može se istodobno nositi.`, { path, subjectId: e.id }));
+    }
   });
 
   // Initial connections are validated incrementally with the connection engine.
@@ -243,7 +292,8 @@ export function checkExercise(exercise: Exercise, catalog: Catalog): ExerciseChe
     if (step.sources.length === 0) {
       out.push(d('trace.missing-source', 'warning', `Korak ${step.id} nema poveznicu na izvornu dokumentaciju.`, { path, subjectId: step.id }));
     }
-    if (evaluateCondition(ctx, initial, step.completedWhen)) {
+    // Steps with dependencies are checked against the demonstration state when they unlock (below).
+    if (step.dependsOn.length === 0 && evaluateCondition(ctx, initial, step.completedWhen)) {
       out.push(d('step.trivially-complete', 'warning', `Uvjet koraka ${step.id} ispunjen je već u početnom stanju.`, { path, subjectId: step.id }));
     }
   });
@@ -299,6 +349,15 @@ export function checkExercise(exercise: Exercise, catalog: Catalog): ExerciseChe
         out.push(d('demo.step-not-completed', 'error', `Demonstracija ne dovršava korak ${id}.`, { subjectId: id }));
       }
     }
+    // A step whose condition already holds when it becomes available completes without any action.
+    for (const step of exercise.steps) {
+      const w = timeline.stepWindows[step.id];
+      if (step.dependsOn.length === 0 || !w) continue;
+      const before = stateAt(ctx, timeline, w.startMs);
+      if (before.steps[step.id]?.status === 'completed') {
+        out.push(d('step.complete-on-unlock', 'warning', `Uvjet koraka ${step.id} ispunjen je već prije njegove demonstracijske skripte.`, { subjectId: step.id }));
+      }
+    }
     demoReachesCompletion = final.completed;
     if (!final.completed) {
       out.push(d('completion.unreachable', 'error', 'Demonstracija ne dostiže uvjet završetka vježbe.'));
@@ -309,7 +368,8 @@ export function checkExercise(exercise: Exercise, catalog: Catalog): ExerciseChe
       for (let j = i + 1; j < entries.length; j++) {
         const a = entries[i];
         const b = entries[j];
-        if (!a || !b || b.startMs >= a.endMs || a.startMs >= b.endMs) continue;
+        // Parallel commands inside one step (`withPrevious`) are authored deliberately.
+        if (!a || !b || a.stepId === b.stepId || b.startMs >= a.endMs || a.startMs >= b.endMs) continue;
         const shared = a.animates.filter((id) => b.animates.includes(id));
         if (shared.length > 0) {
           out.push(

@@ -13,15 +13,16 @@ import { prepareSymbolSvg } from '@fds/svg-registry';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { CONFIG_FILE, PipelineConfigSchema, type DatasetConfig, type PipelineConfig } from './config';
+import { collectSourceRefs, verifyExcerpts } from './excerpts';
 import { renderDatasetReport } from './report';
 import { CatalogReviewSchema, MappingReviewSchema, stripComments, type CatalogReview, type MappingReview } from './review-files';
 import { discover } from './stage-a-discover';
 import { normalizeSymbols } from './stage-b-symbols';
 import { analyzeDiagrams } from './stage-c-diagrams';
-import { analyzeProcedure, buildLexicon } from './stage-d-procedures';
+import { analyzeProcedure, buildLexicon, extractLegend } from './stage-d-procedures';
 import { buildMapping } from './stage-e-mapping';
 import { compileExercise } from './stage-f-compile';
-import { listFiles, readText, sha256, stableJson } from './util';
+import { joinRel, listFiles, readText, sha256, stableJson } from './util';
 
 export interface PipelineResult {
   readonly report: ImportReport;
@@ -89,10 +90,14 @@ async function runDataset(
   const mappingReview: MappingReview =
     (await readJson(repoRoot, `${dataset.reviewDir}/mapping.review.json`, (v) => MappingReviewSchema.safeParse(v), diagnostics, 'E')) ?? {
       ignored: [],
+      ignoredFiles: [],
     };
 
+  // Legend tables in Markdown name the symbols (used by B as a traceable naming source).
+  const legend = [...discovered.markdown].flatMap(([file, text]) => extractLegend(file, text).map((l) => ({ ...l, source: file })));
+
   // B
-  const symbols = normalizeSymbols(dataset, discovered.inventory, review);
+  const symbols = normalizeSymbols(dataset, discovered.inventory, review, legend);
   diagnostics.push(...symbols.diagnostics);
   let catalog: Catalog | null = null;
   if (symbols.catalog) {
@@ -110,6 +115,7 @@ async function runDataset(
           for (const w of prepared.symbol.warnings) diagnostics.push({ code: 'symbol.prepare-warning', severity: 'warning', stage: 'B', message: w, subjectId: s.id });
         }
       }
+      diagnostics.push(...verifyExcerpts(collectSourceRefs(catalog), discovered.texts, `Katalog ${catalog.id}`, 'B'));
       const file = `${config.exercisesDir}/catalogs/${catalog.id}.json`;
       outputs.set(file, stableJson(catalog));
       index.catalogs.push({ id: catalog.id, file, synthetic: catalog.synthetic });
@@ -124,7 +130,7 @@ async function runDataset(
 
   // D
   const lexicon = buildLexicon(catalog, review);
-  const knownFiles = new Set(discovered.inventory.map((i) => i.file));
+  const knownFiles = new Map(discovered.inventory.map((i) => [i.file, i]));
   const procedures = [...discovered.markdown].map(([file, text]) => {
     const r = analyzeProcedure(file, text, lexicon, knownFiles);
     diagnostics.push(...r.diagnostics);
@@ -156,6 +162,7 @@ async function runDataset(
       authoringSha256: sha256(authoringText),
     });
     diagnostics.push(...result.diagnostics);
+    if (result.exercise) diagnostics.push(...verifyExcerpts(collectSourceRefs(result.exercise), discovered.texts, `Vježba ${result.exercise.id}`, 'F'));
     for (const u of result.usedCandidates) {
       usage.set(u.candidateId, [...(usage.get(u.candidateId) ?? []), { exerciseId: result.exerciseId, stepId: u.stepId }]);
     }
@@ -180,7 +187,12 @@ async function runDataset(
   }
 
   // E
-  const mapping = buildMapping({ procedures, diagrams: diagrams.diagrams, usage, review: mappingReview });
+  const mapping = buildMapping({
+    procedures,
+    diagrams: diagrams.diagrams,
+    usage,
+    review: { ...mappingReview, ignoredFiles: mappingReview.ignoredFiles.map((f) => ({ ...f, file: joinRel(dataset.sourceRoot, f.file) })) },
+  });
   diagnostics.push(...mapping.diagnostics);
   if (authoringFiles.length === 0 && procedures.length > 0) {
     diagnostics.push({

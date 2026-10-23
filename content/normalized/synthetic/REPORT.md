@@ -6,7 +6,7 @@
 
 - Izvorni direktorij: `content/synthetic/source`
 - Datoteka: 9
-- Dijagnostika: 0 grešaka, 2 upozorenja, 2 informacija
+- Dijagnostika: 0 grešaka, 2 upozorenja, 3 informacija
 
 ## A – Popis materijala
 
@@ -83,7 +83,7 @@ Faze: faza-1 („Faza 1 – početni raspored”), faza-2 („Faza 2 – završn
 
 Naslov: Sintetički "ravni" crtež
 
-Faze: —
+Faze: sinteticki-ravni-crtez
 
 **Ravni crtež** – nema prepoznatljivih instanci simbola.
 
@@ -132,4 +132,5 @@ Naslov: Sintetička vježba 01 – Postavljanje sintetičkog voda s dvije mlazni
 | info | C | diagram.heuristic-instance | content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg: grupa f2-oznaka („Oznaka polazišta”) prepoznata je po nazivu kao syn.oznaka-polazista; potrebna je provjera. | content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg#f2-oznaka |
 | warning | C | diagram.unresolved-instance | content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg: grupa f2-nepoznato nije prepoznata kao simbol; potrebna je ručna obrada. | content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg#f2-nepoznato |
 | warning | C | diagram.flattened | content/synthetic/source/diagrams/sinteticki-ravni-crtez.svg: crtež je „ravan” (bez metapodataka o simbolima); prepoznavanje nije moguće bez ručnog označavanja. | content/synthetic/source/diagrams/sinteticki-ravni-crtez.svg |
+| info | D | procedure.candidate-mode | content/synthetic/source/procedures/sinteticka-vjezba-01.md: kandidati koraka su numerirane stavke (8). | content/synthetic/source/procedures/sinteticka-vjezba-01.md |
 | info | F | mapping.role-mismatch | Korak korak-7: izvorni tekst spominje uloge role.voditelj koje nisu među izvršiteljima koraka. | content/authoring/synthetic/sinteticka-vjezba-01.exercise.json |

@@ -25,13 +25,14 @@
         "elementId": "f1-vozilo",
         "instanceId": "vozilo",
         "stageId": "faza-1",
+        "key": "vozilo",
+        "rawRef": "syn.vozilo",
+        "symbolId": "syn.vozilo",
         "position": {
           "x": 150,
           "y": 300
         },
         "rotation": 0,
-        "rawRef": "syn.vozilo",
-        "symbolId": "syn.vozilo",
         "label": "Vozilo",
         "confidence": "metadata"
       },
@@ -39,13 +40,14 @@
         "elementId": "f1-voditelj",
         "instanceId": "voditelj",
         "stageId": "faza-1",
+        "key": "voditelj",
+        "rawRef": "syn.osoba",
+        "symbolId": "syn.osoba",
         "position": {
           "x": 150,
           "y": 230
         },
         "rotation": 0,
-        "rawRef": "syn.osoba",
-        "symbolId": "syn.osoba",
         "label": "V",
         "confidence": "metadata"
       },
@@ -53,13 +55,14 @@
         "elementId": "f1-clan-1",
         "instanceId": "clan-1",
         "stageId": "faza-1",
+        "key": "clan-1",
+        "rawRef": "syn.osoba",
+        "symbolId": "syn.osoba",
         "position": {
           "x": 250,
           "y": 230
         },
         "rotation": 0,
-        "rawRef": "syn.osoba",
-        "symbolId": "syn.osoba",
         "label": "Č1",
         "confidence": "metadata"
       },
@@ -67,13 +70,14 @@
         "elementId": "f1-clan-2",
         "instanceId": "clan-2",
         "stageId": "faza-1",
+        "key": "clan-2",
+        "rawRef": "syn.osoba",
+        "symbolId": "syn.osoba",
         "position": {
           "x": 250,
           "y": 370
         },
         "rotation": 0,
-        "rawRef": "syn.osoba",
-        "symbolId": "syn.osoba",
         "label": "Č2",
         "confidence": "metadata"
       },
@@ -81,104 +85,112 @@
         "elementId": "f1-cijev-velika",
         "instanceId": "cijev-velika",
         "stageId": "faza-1",
+        "key": "cijev-velika",
+        "rawRef": "syn.cijev-velika",
+        "symbolId": "syn.cijev-velika",
         "position": {
           "x": 260,
           "y": 380
         },
         "rotation": 0,
-        "rawRef": "syn.cijev-velika",
-        "symbolId": "syn.cijev-velika",
         "confidence": "metadata"
       },
       {
         "elementId": "f1-razdjelnik",
         "instanceId": "razdjelnik",
         "stageId": "faza-1",
+        "key": "razdjelnik",
+        "rawRef": "syn.razdjelnik",
+        "symbolId": "syn.razdjelnik",
         "position": {
           "x": 290,
           "y": 230
         },
         "rotation": 0,
-        "rawRef": "syn.razdjelnik",
-        "symbolId": "syn.razdjelnik",
         "confidence": "metadata"
       },
       {
         "elementId": "f1-cijev-mala-1",
         "instanceId": "cijev-mala-1",
         "stageId": "faza-1",
+        "key": "cijev-mala-1",
+        "rawRef": "syn.cijev-mala",
+        "symbolId": "syn.cijev-mala",
         "position": {
           "x": 260,
           "y": 180
         },
         "rotation": 0,
-        "rawRef": "syn.cijev-mala",
-        "symbolId": "syn.cijev-mala",
         "confidence": "metadata"
       },
       {
         "elementId": "f1-cijev-mala-2",
         "instanceId": "cijev-mala-2",
         "stageId": "faza-1",
+        "key": "cijev-mala-2",
+        "rawRef": "syn.cijev-mala",
+        "symbolId": "syn.cijev-mala",
         "position": {
           "x": 260,
           "y": 420
         },
         "rotation": 0,
-        "rawRef": "syn.cijev-mala",
-        "symbolId": "syn.cijev-mala",
         "confidence": "metadata"
       },
       {
         "elementId": "f1-mlaznica-1",
         "instanceId": "mlaznica-1",
         "stageId": "faza-1",
+        "key": "mlaznica-1",
+        "rawRef": "syn.mlaznica",
+        "symbolId": "syn.mlaznica",
         "position": {
           "x": 310,
           "y": 180
         },
         "rotation": 0,
-        "rawRef": "syn.mlaznica",
-        "symbolId": "syn.mlaznica",
         "confidence": "metadata"
       },
       {
         "elementId": "f1-mlaznica-2",
         "instanceId": "mlaznica-2",
         "stageId": "faza-1",
+        "key": "mlaznica-2",
+        "rawRef": "syn.mlaznica",
+        "symbolId": "syn.mlaznica",
         "position": {
           "x": 310,
           "y": 420
         },
         "rotation": 0,
-        "rawRef": "syn.mlaznica",
-        "symbolId": "syn.mlaznica",
         "confidence": "metadata"
       },
       {
         "elementId": "f1-oznaka-cilja",
         "instanceId": "oznaka-cilja",
         "stageId": "faza-1",
+        "key": "oznaka-cilja",
+        "rawRef": "syn.oznaka-cilja",
+        "symbolId": "syn.oznaka-cilja",
         "position": {
           "x": 1040,
           "y": 300
         },
         "rotation": 0,
-        "rawRef": "syn.oznaka-cilja",
-        "symbolId": "syn.oznaka-cilja",
         "confidence": "metadata"
       },
       {
         "elementId": "f2-vozilo",
         "instanceId": "vozilo",
         "stageId": "faza-2",
+        "key": "vozilo#2",
+        "rawRef": "syn.vozilo",
+        "symbolId": "syn.vozilo",
         "position": {
           "x": 150,
           "y": 300
         },
         "rotation": 0,
-        "rawRef": "syn.vozilo",
-        "symbolId": "syn.vozilo",
         "label": "Vozilo",
         "confidence": "metadata"
       },
@@ -186,13 +198,14 @@
         "elementId": "f2-voditelj",
         "instanceId": "voditelj",
         "stageId": "faza-2",
+        "key": "voditelj#2",
+        "rawRef": "syn.osoba",
+        "symbolId": "syn.osoba",
         "position": {
           "x": 150,
           "y": 230
         },
         "rotation": 0,
-        "rawRef": "syn.osoba",
-        "symbolId": "syn.osoba",
         "label": "V",
         "confidence": "metadata"
       },
@@ -200,13 +213,14 @@
         "elementId": "f2-clan-1",
         "instanceId": "clan-1",
         "stageId": "faza-2",
+        "key": "clan-1#2",
+        "rawRef": "syn.osoba",
+        "symbolId": "syn.osoba",
         "position": {
           "x": 780,
           "y": 230
         },
         "rotation": 0,
-        "rawRef": "syn.osoba",
-        "symbolId": "syn.osoba",
         "label": "Č1",
         "confidence": "metadata"
       },
@@ -214,13 +228,14 @@
         "elementId": "f2-clan-2",
         "instanceId": "clan-2",
         "stageId": "faza-2",
+        "key": "clan-2#2",
+        "rawRef": "syn.osoba",
+        "symbolId": "syn.osoba",
         "position": {
           "x": 780,
           "y": 370
         },
         "rotation": 0,
-        "rawRef": "syn.osoba",
-        "symbolId": "syn.osoba",
         "label": "Č2",
         "confidence": "metadata"
       },
@@ -228,114 +243,123 @@
         "elementId": "f2-cijev-velika",
         "instanceId": "cijev-velika",
         "stageId": "faza-2",
+        "key": "cijev-velika#2",
+        "rawRef": "syn.cijev-velika",
+        "symbolId": "syn.cijev-velika",
         "position": {
           "x": 375,
           "y": 295
         },
         "rotation": 0,
-        "rawRef": "syn.cijev-velika",
-        "symbolId": "syn.cijev-velika",
         "confidence": "metadata"
       },
       {
         "elementId": "f2-razdjelnik",
         "instanceId": "razdjelnik",
         "stageId": "faza-2",
+        "key": "razdjelnik#2",
+        "rawRef": "syn.razdjelnik",
+        "symbolId": "syn.razdjelnik",
         "position": {
           "x": 560,
           "y": 300
         },
         "rotation": 0,
-        "rawRef": "syn.razdjelnik",
-        "symbolId": "syn.razdjelnik",
         "confidence": "metadata"
       },
       {
         "elementId": "f2-cijev-mala-1",
         "instanceId": "cijev-mala-1",
         "stageId": "faza-2",
+        "key": "cijev-mala-1#2",
+        "rawRef": "syn.cijev-mala",
+        "symbolId": "syn.cijev-mala",
         "position": {
           "x": 700,
           "y": 260
         },
         "rotation": 0,
-        "rawRef": "syn.cijev-mala",
-        "symbolId": "syn.cijev-mala",
         "confidence": "metadata"
       },
       {
         "elementId": "f2-cijev-mala-2",
         "instanceId": "cijev-mala-2",
         "stageId": "faza-2",
+        "key": "cijev-mala-2#2",
+        "rawRef": "syn.cijev-mala",
+        "symbolId": "syn.cijev-mala",
         "position": {
           "x": 700,
           "y": 340
         },
         "rotation": 0,
-        "rawRef": "syn.cijev-mala",
-        "symbolId": "syn.cijev-mala",
         "confidence": "metadata"
       },
       {
         "elementId": "f2-mlaznica-1",
         "instanceId": "mlaznica-1",
         "stageId": "faza-2",
+        "key": "mlaznica-1#2",
+        "rawRef": "syn.mlaznica",
+        "symbolId": "syn.mlaznica",
         "position": {
           "x": 850,
           "y": 250
         },
         "rotation": 0,
-        "rawRef": "syn.mlaznica",
-        "symbolId": "syn.mlaznica",
         "confidence": "metadata"
       },
       {
         "elementId": "f2-mlaznica-2",
         "instanceId": "mlaznica-2",
         "stageId": "faza-2",
+        "key": "mlaznica-2#2",
+        "rawRef": "syn.mlaznica",
+        "symbolId": "syn.mlaznica",
         "position": {
           "x": 850,
           "y": 350
         },
         "rotation": 0,
-        "rawRef": "syn.mlaznica",
-        "symbolId": "syn.mlaznica",
         "confidence": "metadata"
       },
       {
         "elementId": "f2-oznaka-cilja",
         "instanceId": "oznaka-cilja",
         "stageId": "faza-2",
+        "key": "oznaka-cilja#2",
+        "rawRef": "syn.oznaka-cilja",
+        "symbolId": "syn.oznaka-cilja",
         "position": {
           "x": 1040,
           "y": 300
         },
         "rotation": 0,
-        "rawRef": "syn.oznaka-cilja",
-        "symbolId": "syn.oznaka-cilja",
         "confidence": "metadata"
       },
       {
         "elementId": "f2-oznaka",
         "stageId": "faza-2",
+        "key": "f2-oznaka",
+        "symbolId": "syn.oznaka-polazista",
         "position": {
           "x": 60,
           "y": 520
         },
         "rotation": 0,
-        "symbolId": "syn.oznaka-polazista",
         "label": "Oznaka polazišta",
         "confidence": "heuristic"
       },
       {
         "elementId": "f2-nepoznato",
         "stageId": "faza-2",
+        "key": "f2-nepoznato",
+        "symbolId": null,
         "position": {
           "x": 0,
           "y": 0
         },
         "rotation": 0,
-        "symbolId": null,
         "confidence": "unresolved"
       }
     ],
@@ -403,6 +427,8 @@
         "confidence": "metadata"
       }
     ],
+    "lines": [],
+    "renderCopies": [],
     "flattened": false,
     "notes": []
   },
@@ -415,12 +441,33 @@
       400,
       200
     ],
-    "stages": [],
+    "stages": [
+      {
+        "stageId": "sinteticki-ravni-crtez"
+      }
+    ],
     "instances": [],
     "labels": [],
     "connections": [],
+    "lines": [
+      {
+        "index": 1,
+        "from": {
+          "x": 100,
+          "y": 100
+        },
+        "to": {
+          "x": 260,
+          "y": 60
+        },
+        "strokeWidth": 3,
+        "stageId": "sinteticki-ravni-crtez"
+      }
+    ],
+    "renderCopies": [],
     "flattened": true,
     "notes": [
+      "1 linija/putanja (0 prepoznato prema stilu linije).",
       "Crtež ne sadrži prepoznatljive instance simbola (samo putanje); izvorni crtež je zadržan za ručni pregled."
     ]
   }

@@ -238,6 +238,7 @@
     "steps": [
       {
         "id": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/1",
+        "kind": "numbered",
         "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
         "sectionId": "faza-1-postavljanje-razdjelnika-i-velike-cijevi",
         "sectionPath": [
@@ -261,6 +262,7 @@
       },
       {
         "id": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/2",
+        "kind": "numbered",
         "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
         "sectionId": "faza-1-postavljanje-razdjelnika-i-velike-cijevi",
         "sectionPath": [
@@ -286,6 +288,7 @@
       },
       {
         "id": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/3",
+        "kind": "numbered",
         "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
         "sectionId": "faza-1-postavljanje-razdjelnika-i-velike-cijevi",
         "sectionPath": [
@@ -312,6 +315,7 @@
       },
       {
         "id": "sinteticka-vjezba-01#faza-1-postavljanje-razdjelnika-i-velike-cijevi/4",
+        "kind": "numbered",
         "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
         "sectionId": "faza-1-postavljanje-razdjelnika-i-velike-cijevi",
         "sectionPath": [
@@ -338,6 +342,7 @@
       },
       {
         "id": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/5",
+        "kind": "numbered",
         "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
         "sectionId": "faza-2-postavljanje-mlaznica",
         "sectionPath": [
@@ -365,6 +370,7 @@
       },
       {
         "id": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/6",
+        "kind": "numbered",
         "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
         "sectionId": "faza-2-postavljanje-mlaznica",
         "sectionPath": [
@@ -392,6 +398,7 @@
       },
       {
         "id": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/7",
+        "kind": "numbered",
         "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
         "sectionId": "faza-2-postavljanje-mlaznica",
         "sectionPath": [
@@ -417,6 +424,7 @@
       },
       {
         "id": "sinteticka-vjezba-01#faza-2-postavljanje-mlaznica/8",
+        "kind": "numbered",
         "file": "content/synthetic/source/procedures/sinteticka-vjezba-01.md",
         "sectionId": "faza-2-postavljanje-mlaznica",
         "sectionPath": [
@@ -574,11 +582,16 @@
         ]
       }
     ],
+    "orders": [],
+    "participants": [],
+    "equipmentList": [],
+    "legend": [],
     "diagramRefs": [
       {
         "target": "../diagrams/sinteticka-vjezba-01-faze.svg",
         "line": 30,
-        "resolvedFile": "content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg"
+        "resolvedFile": "content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg",
+        "canonicalFile": null
       }
     ]
   }

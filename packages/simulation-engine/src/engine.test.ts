@@ -1,14 +1,17 @@
 import { describe, expect, it } from 'vitest';
-import { ExerciseSchema, type Command, type Exercise } from '@fds/domain';
-import { makeTestCatalog, makeTestExercise, testExerciseInput } from '@fds/domain/testing';
+import { CatalogSchema, ExerciseSchema, type Command, type Exercise } from '@fds/domain';
+import { makeTestCatalog, makeTestExercise, testCatalogInput, testExerciseInput } from '@fds/domain/testing';
+import { portWorld } from '@fds/connection-engine';
 import {
   SimulationSession,
   appliedCountAt,
+  checkCatalog,
   checkExercise,
   compileTimeline,
   createExerciseContext,
   createInitialState,
   evaluateAttempt,
+  evaluateCondition,
   executeCommand,
   frameAt,
   nextBoundary,
@@ -394,5 +397,112 @@ describe('exercise diagnostics', () => {
     input.steps![3]!.script!.splice(0, 1); // remove pick-up of nozzle
     const codes = checkExercise(ExerciseSchema.parse(input), catalog).diagnostics.map((d) => d.code);
     expect(codes).toContain('demo.command-rejected');
+  });
+});
+
+describe('flexible hoses, hand-over and actors', () => {
+  const hoseCatalog = CatalogSchema.parse({
+    ...testCatalogInput,
+    equipmentTypes: testCatalogInput.equipmentTypes?.map((e) =>
+      e.id === 'et.hose' ? { ...e, form: 'hose', hoseEnds: ['end-a', 'end-b'] } : e,
+    ),
+  });
+  const ctx = createExerciseContext(makeTestExercise(), hoseCatalog);
+  const s0 = createInitialState(ctx);
+  const connectA: Command = {
+    type: 'ConnectPorts',
+    a: { objectId: 'source', portId: 'out-1' },
+    b: { objectId: 'hose1', portId: 'end-a' },
+    connectionId: 'c1',
+    actorId: 'p1',
+  };
+
+  it('lays a hose from the port connected to end A and puts its end ports on the layout', () => {
+    const s1 = executeCommand(ctx, s0, connectA);
+    expect(s1.accepted).toBe(true);
+    expect(s1.events[0]).toMatchObject({ type: 'PortsConnected', actorId: 'p1' });
+    const lay = executeCommand(ctx, s1.state, { type: 'LayHose', equipmentId: 'hose1', personnelId: 'p1', to: { x: 400, y: 90 } });
+    expect(lay.accepted).toBe(true);
+    const hose = lay.state.objects.hose1!;
+    const sourceOut = portWorld(ctx.catalog, lay.state.objects.source!, 'out-1')!.position;
+    expect(hose.layout).toEqual({ a: sourceOut, b: { x: 400, y: 90 } });
+    expect(portWorld(ctx.catalog, hose, 'end-a')!.position).toEqual(sourceOut);
+    expect(portWorld(ctx.catalog, hose, 'end-b')!.position).toEqual({ x: 400, y: 90 });
+    expect(evaluateCondition(ctx, lay.state, { type: 'laid', equipmentId: 'hose1' })).toBe(true);
+
+    // A laid hose cannot be picked up, moved or rotated, and cannot be rolled up while connected.
+    for (const cmd of [
+      { type: 'PickUpEquipment', personnelId: 'p1', equipmentId: 'hose1' },
+      { type: 'RotateObject', objectId: 'hose1', rotation: 90 },
+    ] satisfies Command[]) {
+      expect(executeCommand(ctx, lay.state, cmd).issues.map((i) => i.code)).toContain('hose.laid');
+    }
+    expect(executeCommand(ctx, lay.state, { type: 'RollUpHose', equipmentId: 'hose1' }).issues[0]?.code).toBe('hose.connected');
+    expect(executeCommand(ctx, lay.state, { type: 'LayHose', equipmentId: 'hose1', to: { x: 0, y: 0 } }).issues[0]?.code).toBe('hose.already-laid');
+
+    const off = executeCommand(ctx, lay.state, { type: 'DisconnectPorts', connectionId: 'c1' });
+    const rolled = executeCommand(ctx, off.state, { type: 'RollUpHose', equipmentId: 'hose1', at: { x: 300, y: 200 } });
+    expect(rolled.accepted).toBe(true);
+    expect(rolled.state.objects.hose1).toMatchObject({ layout: null, position: { x: 300, y: 200 } });
+  });
+
+  it('releases a carried hose when it is laid', () => {
+    const near = executeCommand(ctx, s0, { type: 'MovePersonnel', personnelId: 'p2', to: { x: 240, y: 130 } }).state;
+    const carried = executeCommand(ctx, near, { type: 'PickUpEquipment', personnelId: 'p2', equipmentId: 'hose1' }).state;
+    const lay = executeCommand(ctx, carried, { type: 'LayHose', equipmentId: 'hose1', personnelId: 'p2', to: { x: 500, y: 130 } });
+    expect(lay.accepted).toBe(true);
+    expect(lay.state.objects.p2?.carrying).toEqual([]);
+    expect(lay.state.objects.hose1).toMatchObject({ carriedBy: null, layout: { a: { x: 240, y: 130 }, b: { x: 500, y: 130 } } });
+  });
+
+  it('rejects laying rigid equipment', () => {
+    const r = executeCommand(ctx, s0, { type: 'LayHose', equipmentId: 'splitter', to: { x: 0, y: 0 } });
+    expect(r.issues[0]?.code).toBe('hose.not-hose');
+  });
+
+  it('hands equipment over between nearby personnel', () => {
+    const carried = executeCommand(ctx, s0, { type: 'PickUpEquipment', personnelId: 'p1', equipmentId: 'splitter' }).state;
+    const r = executeCommand(ctx, carried, { type: 'HandOverEquipment', fromId: 'p1', toId: 'p2', equipmentId: 'splitter' });
+    expect(r.accepted).toBe(true);
+    expect(r.state.objects.p1?.carrying).toEqual([]);
+    expect(r.state.objects.p2?.carrying).toEqual(['splitter']);
+    expect(r.state.objects.splitter?.carriedBy).toBe('p2');
+    expect(executeCommand(ctx, s0, { type: 'HandOverEquipment', fromId: 'p1', toId: 'p2', equipmentId: 'splitter' }).issues[0]?.code).toBe(
+      'handover.not-carrying',
+    );
+    const far = executeCommand(ctx, carried, { type: 'MovePersonnel', personnelId: 'p2', to: { x: 600, y: 300 } }).state;
+    expect(executeCommand(ctx, far, { type: 'HandOverEquipment', fromId: 'p1', toId: 'p2', equipmentId: 'splitter' }).issues[0]?.code).toBe(
+      'handover.too-far',
+    );
+  });
+
+  it('rejects unknown actors', () => {
+    const r = executeCommand(ctx, s0, { ...connectA, actorId: 'ghost' } as Command);
+    expect(r.issues[0]?.code).toBe('command.unknown-object');
+  });
+
+  it('animates laying as a growing layout in the demonstration', () => {
+    const input = structuredClone(testExerciseInput);
+    input.steps![1]!.script!.push({ command: { type: 'LayHose', equipmentId: 'hose1', to: { x: 440, y: 160 } } });
+    input.steps![2]!.completedWhen = { type: 'laid', equipmentId: 'hose1' };
+    input.steps![2]!.script = [];
+    const hctx = createExerciseContext(ExerciseSchema.parse({ ...input, steps: input.steps!.slice(0, 3), assessment: undefined }), hoseCatalog);
+    const timeline = compileTimeline(hctx);
+    expect(timeline.problems).toEqual([]);
+    const lay = timeline.entries.find((e) => e.command.type === 'LayHose')!;
+    const mid = frameAt(hctx, timeline, (lay.startMs + lay.endMs) / 2);
+    const layout = mid.overrides.hose1?.layout;
+    expect(layout).toBeDefined();
+    expect(layout!.b.x).toBeGreaterThan(layout!.a.x);
+    expect(layout!.b.x).toBeLessThan(440);
+    expect(stateAt(hctx, timeline, lay.endMs).objects.hose1?.layout?.b).toEqual({ x: 440, y: 160 });
+  });
+
+  it('reports hose types without valid ends', () => {
+    const bad = CatalogSchema.parse({
+      ...testCatalogInput,
+      equipmentTypes: testCatalogInput.equipmentTypes?.map((e) => (e.id === 'et.hose' ? { ...e, form: 'hose', hoseEnds: ['end-a', 'nope'] } : e)),
+    });
+    expect(checkCatalog(bad).map((d) => d.code)).toContain('ref.unknown-port');
   });
 });

@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { Vec2Schema } from './common';
+import { SourceRefSchema, Vec2Schema } from './common';
 import { DiagnosticSchema } from './issues';
 
 /**
@@ -63,6 +63,8 @@ export const InventoryItemSchema = z.strictObject({
   svg: SvgInventorySchema.optional(),
   markdown: MarkdownInventorySchema.optional(),
   duplicateOf: z.array(z.string()).default([]),
+  /** Set for generated render copies (e.g. diagrams with embedded symbols): the original file. */
+  renderCopyOf: z.string().optional(),
   possibleSymbolIds: z.array(z.string()).default([]),
 });
 export type InventoryItem = z.infer<typeof InventoryItemSchema>;
@@ -72,7 +74,9 @@ export const SymbolProposalSchema = z.strictObject({
   file: z.string(),
   elementId: z.string().optional(),
   name: z.string(),
-  nameSource: z.enum(['review', 'title', 'label', 'filename']),
+  nameSource: z.enum(['review', 'legend', 'title', 'label', 'filename']),
+  /** Where the proposed name comes from (legend table row, SVG title). */
+  nameRef: SourceRefSchema.optional(),
   category: z.string(),
   reviewStatus: z.enum(['verified', 'requires-review', 'rejected']),
   reviewed: z.boolean(),
@@ -85,6 +89,8 @@ export const ConfidenceSchema = z.enum(['metadata', 'heuristic', 'unresolved']);
 export type Confidence = z.infer<typeof ConfidenceSchema>;
 
 export const DiagramInstanceSchema = z.strictObject({
+  /** Deterministic key within the diagram: `data-instance` if present, else `<symbol-file-stem>@<x>,<y>`. */
+  key: z.string(),
   elementId: z.string().optional(),
   instanceId: z.string().optional(),
   rawRef: z.string().optional(),
@@ -93,6 +99,12 @@ export const DiagramInstanceSchema = z.strictObject({
   rotation: z.number().optional(),
   stageId: z.string().optional(),
   label: z.string().optional(),
+  /** Uniform scale of the instance relative to the symbol's logical size (1 = unscaled). */
+  scale: z.number().optional(),
+  /** Facing direction (degrees) taken from an attached direction marker, for personnel. */
+  facing: z.number().optional(),
+  /** Key of the instance this marker is attached to (direction markers). */
+  attachedTo: z.string().optional(),
   confidence: ConfidenceSchema,
 });
 export type DiagramInstance = z.infer<typeof DiagramInstanceSchema>;
@@ -121,6 +133,22 @@ export const DiagramAnalysisSchema = z.strictObject({
     }),
   ),
   connections: z.array(DiagramConnectionSchema),
+  /** Free lines/paths (e.g. laid hose lines), with endpoints and stroke width. */
+  lines: z
+    .array(
+      z.strictObject({
+        index: z.number().int(),
+        from: Vec2Schema,
+        to: Vec2Schema,
+        strokeWidth: z.number().optional(),
+        /** Equipment type the line style denotes, from the reviewed line-style table. */
+        equipmentTypeId: z.string().optional(),
+        stageId: z.string().optional(),
+      }),
+    )
+    .default([]),
+  /** Render copy verified against this original (or mismatch noted). */
+  renderCopies: z.array(z.string()).default([]),
   /** True when the diagram has drawing primitives but no recognisable symbol instances. */
   flattened: z.boolean(),
   notes: z.array(z.string()).default([]),
@@ -128,8 +156,9 @@ export const DiagramAnalysisSchema = z.strictObject({
 export type DiagramAnalysis = z.infer<typeof DiagramAnalysisSchema>;
 
 export const StepCandidateSchema = z.strictObject({
-  /** Stable id: `<file-slug>#<section-slug>/<n>`. */
+  /** Stable id: `<file-slug>#<section-slug>/<n>` (numbered), `/p<i>` (paragraph) or `/l<i>` (list item). */
   id: z.string(),
+  kind: z.enum(['numbered', 'paragraph', 'list-item']).default('numbered'),
   file: z.string(),
   sectionId: z.string(),
   sectionPath: z.array(z.string()),
@@ -164,8 +193,28 @@ export const ProcedureAnalysisSchema = z.strictObject({
   sections: z.array(ProcedureSectionSchema),
   steps: z.array(StepCandidateSchema),
   roleMentions: z.array(z.strictObject({ roleId: z.string(), term: z.string(), lines: z.array(z.number().int()) })),
+  /** Verbatim orders („…!”) found in bold text, with the candidate that contains them. */
+  orders: z.array(z.strictObject({ text: z.string(), line: z.number().int(), candidateId: z.string().nullable() })).default([]),
+  /** Participant lists (e.g. "zapovjednik (Z),"). */
+  participants: z
+    .array(z.strictObject({ text: z.string(), abbreviation: z.string().optional(), line: z.number().int(), sectionId: z.string(), roleIds: z.array(z.string()) }))
+    .default([]),
+  /** Equipment lists with quantities (e.g. "3 „B” tlačne cijevi,"). */
+  equipmentList: z
+    .array(z.strictObject({ text: z.string(), quantity: z.number().int(), line: z.number().int(), sectionId: z.string(), equipmentTypeIds: z.array(z.string()) }))
+    .default([]),
+  /** Legend table entries: image reference + displayed name. */
+  legend: z.array(z.strictObject({ file: z.string(), name: z.string(), line: z.number().int(), cells: z.array(z.string()) })).default([]),
   equipmentMentions: z.array(z.strictObject({ symbolId: z.string(), term: z.string(), lines: z.array(z.number().int()) })),
-  diagramRefs: z.array(z.strictObject({ target: z.string(), line: z.number().int(), resolvedFile: z.string().nullable() })),
+  diagramRefs: z.array(
+    z.strictObject({
+      target: z.string(),
+      line: z.number().int(),
+      resolvedFile: z.string().nullable(),
+      /** Original diagram when the reference points to a render copy. */
+      canonicalFile: z.string().nullable().default(null),
+    }),
+  ),
 });
 export type ProcedureAnalysis = z.infer<typeof ProcedureAnalysisSchema>;
 
