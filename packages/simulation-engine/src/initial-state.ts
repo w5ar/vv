@@ -2,7 +2,7 @@ import type { Connection, Id, ObjectState, SimulationState, StepRuntime } from '
 import { normalizeAngle } from '@fds/geometry';
 import type { ExerciseContext } from './context';
 import { advanceProcedure } from './procedure';
-import { carriedPosition } from './world';
+import { carriedPosition, isHeld } from './world';
 
 /**
  * Builds the initial simulation state from the exercise's initial scene.
@@ -47,13 +47,19 @@ export function createInitialState(ctx: ExerciseContext): SimulationState {
       typeId: e.typeId,
       carriedBy: null,
       carrying: [],
+      storedIn: null,
       visualState: e.state ?? symbol?.defaultState ?? null,
       layout: type?.form === 'hose' && e.layout ? e.layout : null,
     };
     objectOrder.push(e.id);
   }
 
-  // Resolve initial carrying relations after all objects exist.
+  // Resolve initial storage and carrying relations after all objects exist.
+  for (const e of scene.equipment) {
+    const container = e.storedIn ? objects[e.storedIn] : undefined;
+    const item = objects[e.id];
+    if (container && container.kind === 'equipment' && item) objects[e.id] = { ...item, storedIn: container.id, position: container.position };
+  }
   for (const e of scene.equipment) {
     if (!e.carriedBy) continue;
     const carrier = objects[e.carriedBy];
@@ -63,7 +69,8 @@ export function createInitialState(ctx: ExerciseContext): SimulationState {
     objects[e.id] = {
       ...item,
       carriedBy: carrier.id,
-      position: carriedPosition(ctx, carrier.position, carrier.carrying.length),
+      storedIn: null,
+      position: isHeld(ctx, item) ? item.position : carriedPosition(ctx, carrier.position, carrier.carrying.length),
     };
   }
 

@@ -31,7 +31,7 @@ test('library lists both source exercises as awaiting expert review, next to the
 test('source catalog renders the source symbols as vector SVG', async ({ page }) => {
   await page.goto('#/katalog/katalog-vjezbovnik');
   const grid = page.getByTestId('symbol-grid');
-  await expect(grid.locator('button')).toHaveCount(52);
+  await expect(grid.locator('button')).toHaveCount(56);
   expect(await grid.locator('img').count()).toBe(0);
   await page.getByTestId('symbol-src.trodijelna-razdjelnica').click();
   const detail = page.getByTestId('symbol-detail');

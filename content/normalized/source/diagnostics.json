@@ -12,9 +12,63 @@
     "code": "asset.unknown-type",
     "severity": "info",
     "stage": "A",
+    "message": "content/source/alati/skice_vjezbe_03.py: nepoznata vrsta datoteke.",
+    "source": {
+      "file": "content/source/alati/skice_vjezbe_03.py"
+    }
+  },
+  {
+    "code": "asset.unknown-type",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/alati/skice_vjezbe_04.py: nepoznata vrsta datoteke.",
+    "source": {
+      "file": "content/source/alati/skice_vjezbe_04.py"
+    }
+  },
+  {
+    "code": "asset.unknown-type",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/alati/skice_vjezbe_05_08.py: nepoznata vrsta datoteke.",
+    "source": {
+      "file": "content/source/alati/skice_vjezbe_05_08.py"
+    }
+  },
+  {
+    "code": "asset.unknown-type",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/alati/skice_vjezbe_09_12.py: nepoznata vrsta datoteke.",
+    "source": {
+      "file": "content/source/alati/skice_vjezbe_09_12.py"
+    }
+  },
+  {
+    "code": "asset.unknown-type",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/alati/skice_vjezbe_13_15.py: nepoznata vrsta datoteke.",
+    "source": {
+      "file": "content/source/alati/skice_vjezbe_13_15.py"
+    }
+  },
+  {
+    "code": "asset.unknown-type",
+    "severity": "info",
+    "stage": "A",
     "message": "content/source/alati/vatrogasni_simboli.py: nepoznata vrsta datoteke.",
     "source": {
       "file": "content/source/alati/vatrogasni_simboli.py"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/autocisterna.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/autocisterna.svg"
     }
   },
   {
@@ -60,6 +114,15 @@
     "message": "content/source/simboli/dvodijelni-hidrantski-nastavak.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
     "source": {
       "file": "content/source/simboli/dvodijelni-hidrantski-nastavak.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/ia-ljestve.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/ia-ljestve.svg"
     }
   },
   {
@@ -291,6 +354,15 @@
     "code": "svg.sanitized",
     "severity": "info",
     "stage": "A",
+    "message": "content/source/simboli/prikljucak-pumpe.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/prikljucak-pumpe.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
     "message": "content/source/simboli/sabirnica.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
     "source": {
       "file": "content/source/simboli/sabirnica.svg"
@@ -330,6 +402,15 @@
     "message": "content/source/simboli/spojnica-c.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
     "source": {
       "file": "content/source/simboli/spojnica-c.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/simboli/spojnica-usisna.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/simboli/spojnica-usisna.svg"
     }
   },
   {
@@ -660,6 +741,528 @@
     "code": "svg.sanitized",
     "severity": "info",
     "stage": "A",
+    "message": "content/source/skice/03-skica-20.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/03-skica-20.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/03-skica-21.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/03-skica-21.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/03-skica-22.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/03-skica-22.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/03-skica-23.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/03-skica-23.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/03-skica-24.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/03-skica-24.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/03-skica-25.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/03-skica-25.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/03-skica-26.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/03-skica-26.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/04-skica-27.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/04-skica-27.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/04-skica-28.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/04-skica-28.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/04-skica-29.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/04-skica-29.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/04-skica-30.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/04-skica-30.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/04-skica-31.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/04-skica-31.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/04-skica-32.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/04-skica-32.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/04-skica-33.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/04-skica-33.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/04-skica-34.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/04-skica-34.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/04-skica-35.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/04-skica-35.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/04-skica-36.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/04-skica-36.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/05-skica-37.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/05-skica-37.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/05-skica-38.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/05-skica-38.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/05-skica-39.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/05-skica-39.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/05-skica-40.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/05-skica-40.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/05-skica-41.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/05-skica-41.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/06-skica-42.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/06-skica-42.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/06-skica-43.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/06-skica-43.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/06-skica-44.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/06-skica-44.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/06-skica-45.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/06-skica-45.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/06-skica-46.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/06-skica-46.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/07-skica-47.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/07-skica-47.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/07-skica-48.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/07-skica-48.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/07-skica-49.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/07-skica-49.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/07-skica-50.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/07-skica-50.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/07-skica-51.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/07-skica-51.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/08-skica-52.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/08-skica-52.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/08-skica-53.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/08-skica-53.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/09-skica-54.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/09-skica-54.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/09-skica-55.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/09-skica-55.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/09-skica-56.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/09-skica-56.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/09-skica-57.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/09-skica-57.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/09-skica-58.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/09-skica-58.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/10-skica-59.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/10-skica-59.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/10-skica-60.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/10-skica-60.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/10-skica-61.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/10-skica-61.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/11-skica-62.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/11-skica-62.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/11-skica-63.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/11-skica-63.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/11-skica-64.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/11-skica-64.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/12-skica-65.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/12-skica-65.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/12-skica-66.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/12-skica-66.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/12-skica-67.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/12-skica-67.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/13-skica-68.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/13-skica-68.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/13-skica-69.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/13-skica-69.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/13-skica-70.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/13-skica-70.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/14-skica-71.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/14-skica-71.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/14-skica-72.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/14-skica-72.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/14-skica-73.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/14-skica-73.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/15-skica-74.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/15-skica-74.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/15-skica-75.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/15-skica-75.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/15-skica-76.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/15-skica-76.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/15-skica-77.svg: sanitizator je uklonio 2 elemenata/atributa (metadata, image@href).",
+    "source": {
+      "file": "content/source/skice/15-skica-77.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
     "message": "content/source/skice/ugradjeno/00-3-skica-01.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
     "source": {
       "file": "content/source/skice/ugradjeno/00-3-skica-01.svg"
@@ -819,12 +1422,957 @@
     }
   },
   {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/03-skica-20.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/03-skica-20.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/03-skica-21.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/03-skica-21.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/03-skica-22.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/03-skica-22.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/03-skica-23.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/03-skica-23.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/03-skica-24.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/03-skica-24.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/03-skica-25.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/03-skica-25.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/03-skica-26.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/03-skica-26.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/04-skica-27.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/04-skica-27.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/04-skica-28.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/04-skica-28.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/04-skica-29.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/04-skica-29.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/04-skica-30.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/04-skica-30.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/04-skica-31.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/04-skica-31.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/04-skica-32.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/04-skica-32.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/04-skica-33.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/04-skica-33.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/04-skica-34.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/04-skica-34.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/04-skica-35.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/04-skica-35.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/04-skica-36.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/04-skica-36.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/05-skica-37.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/05-skica-37.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/05-skica-38.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/05-skica-38.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/05-skica-39.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/05-skica-39.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/05-skica-40.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/05-skica-40.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/05-skica-41.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/05-skica-41.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/06-skica-42.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/06-skica-42.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/06-skica-43.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/06-skica-43.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/06-skica-44.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/06-skica-44.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/06-skica-45.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/06-skica-45.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/06-skica-46.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/06-skica-46.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/07-skica-47.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/07-skica-47.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/07-skica-48.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/07-skica-48.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/07-skica-49.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/07-skica-49.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/07-skica-50.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/07-skica-50.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/07-skica-51.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/07-skica-51.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/08-skica-52.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/08-skica-52.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/08-skica-53.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/08-skica-53.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/09-skica-54.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/09-skica-54.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/09-skica-55.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/09-skica-55.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/09-skica-56.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/09-skica-56.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/09-skica-57.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/09-skica-57.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/09-skica-58.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/09-skica-58.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/10-skica-59.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/10-skica-59.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/10-skica-60.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/10-skica-60.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/10-skica-61.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/10-skica-61.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/11-skica-62.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/11-skica-62.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/11-skica-63.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/11-skica-63.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/11-skica-64.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/11-skica-64.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/12-skica-65.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/12-skica-65.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/12-skica-66.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/12-skica-66.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/12-skica-67.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/12-skica-67.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/13-skica-68.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/13-skica-68.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/13-skica-69.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/13-skica-69.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/13-skica-70.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/13-skica-70.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/14-skica-71.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/14-skica-71.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/14-skica-72.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/14-skica-72.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/14-skica-73.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/14-skica-73.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/15-skica-74.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/15-skica-74.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/15-skica-75.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/15-skica-75.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/15-skica-76.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/15-skica-76.svg"
+    }
+  },
+  {
+    "code": "svg.sanitized",
+    "severity": "info",
+    "stage": "A",
+    "message": "content/source/skice/ugradjeno/15-skica-77.svg: sanitizator je uklonio 1 elemenata/atributa (metadata).",
+    "source": {
+      "file": "content/source/skice/ugradjeno/15-skica-77.svg"
+    }
+  },
+  {
     "code": "asset.unsupported-format",
     "severity": "warning",
     "stage": "A",
     "message": "content/source/slike/01-slika-17.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
     "source": {
       "file": "content/source/slike/01-slika-17.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/03-slika-18.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/03-slika-18.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/03-slika-19.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/03-slika-19.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/03-slika-20.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/03-slika-20.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/03-slika-21.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/03-slika-21.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/03-slika-22.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/03-slika-22.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/03-slika-23.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/03-slika-23.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/03-slika-24.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/03-slika-24.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/03-slika-25.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/03-slika-25.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/04-slika-26.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/04-slika-26.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/04-slika-27.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/04-slika-27.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/04-slika-28.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/04-slika-28.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/04-slika-29.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/04-slika-29.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/04-slika-30.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/04-slika-30.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/04-slika-31.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/04-slika-31.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/04-slika-32.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/04-slika-32.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/04-slika-33.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/04-slika-33.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/04-slika-34.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/04-slika-34.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/07-slika-35.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/07-slika-35.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/07-slika-36.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/07-slika-36.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/07-slika-37.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/07-slika-37.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/08-slika-38.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/08-slika-38.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/08-slika-39.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/08-slika-39.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/09-slika-40.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/09-slika-40.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/09-slika-41.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/09-slika-41.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/11-slika-42.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/11-slika-42.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/13-slika-43.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/13-slika-43.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/13-slika-44.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/13-slika-44.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/13-slika-45.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/13-slika-45.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/14-slika-46.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/14-slika-46.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/14-slika-47.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/14-slika-47.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/14-slika-48.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/14-slika-48.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/15-slika-49.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/15-slika-49.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/15-slika-50.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/15-slika-50.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/15-slika-51.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/15-slika-51.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/15-slika-52.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/15-slika-52.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/15-slika-53.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/15-slika-53.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/15-slika-54.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/15-slika-54.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/15-slika-55.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/15-slika-55.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/15-slika-56.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/15-slika-56.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/15-slika-57.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/15-slika-57.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/15-slika-58.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/15-slika-58.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/15-slika-59.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/15-slika-59.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/15-slika-60.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/15-slika-60.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/15-slika-61.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/15-slika-61.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/15-slika-62.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/15-slika-62.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/15-slika-63.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/15-slika-63.jpg"
+    }
+  },
+  {
+    "code": "asset.unsupported-format",
+    "severity": "warning",
+    "stage": "A",
+    "message": "content/source/slike/15-slika-64.jpg: format .jpg nije vektorski/tekstualni; zadržan je kao referenca i zahtijeva ručnu obradu.",
+    "source": {
+      "file": "content/source/slike/15-slika-64.jpg"
     }
   },
   {
@@ -859,7 +2407,7 @@
     "code": "procedure.candidate-mode",
     "severity": "info",
     "stage": "D",
-    "message": "content/source/00-2-Legenda.md: kandidati koraka su odlomci i stavke popisa (10).",
+    "message": "content/source/00-2-Legenda.md: kandidati koraka su odlomci i stavke popisa (14).",
     "source": {
       "file": "content/source/00-2-Legenda.md"
     }
@@ -889,6 +2437,123 @@
     "message": "content/source/02-Vjezba-2.md: kandidati koraka su odlomci i stavke popisa (14).",
     "source": {
       "file": "content/source/02-Vjezba-2.md"
+    }
+  },
+  {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/source/03-Vjezba-3.md: kandidati koraka su odlomci i stavke popisa (57).",
+    "source": {
+      "file": "content/source/03-Vjezba-3.md"
+    }
+  },
+  {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/source/04-Vjezba-4.md: kandidati koraka su odlomci i stavke popisa (33).",
+    "source": {
+      "file": "content/source/04-Vjezba-4.md"
+    }
+  },
+  {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/source/05-Vjezba-5.md: kandidati koraka su odlomci i stavke popisa (18).",
+    "source": {
+      "file": "content/source/05-Vjezba-5.md"
+    }
+  },
+  {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/source/06-Vjezba-6.md: kandidati koraka su odlomci i stavke popisa (17).",
+    "source": {
+      "file": "content/source/06-Vjezba-6.md"
+    }
+  },
+  {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/source/07-Vjezba-7.md: kandidati koraka su odlomci i stavke popisa (14).",
+    "source": {
+      "file": "content/source/07-Vjezba-7.md"
+    }
+  },
+  {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/source/08-Vjezba-8.md: kandidati koraka su odlomci i stavke popisa (11).",
+    "source": {
+      "file": "content/source/08-Vjezba-8.md"
+    }
+  },
+  {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/source/09-Vjezba-9.md: kandidati koraka su odlomci i stavke popisa (10).",
+    "source": {
+      "file": "content/source/09-Vjezba-9.md"
+    }
+  },
+  {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/source/10-Vjezba-10.md: kandidati koraka su odlomci i stavke popisa (11).",
+    "source": {
+      "file": "content/source/10-Vjezba-10.md"
+    }
+  },
+  {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/source/11-Vjezba-11.md: kandidati koraka su odlomci i stavke popisa (17).",
+    "source": {
+      "file": "content/source/11-Vjezba-11.md"
+    }
+  },
+  {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/source/12-Vjezba-12.md: kandidati koraka su odlomci i stavke popisa (13).",
+    "source": {
+      "file": "content/source/12-Vjezba-12.md"
+    }
+  },
+  {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/source/13-Vjezba-13.md: kandidati koraka su odlomci i stavke popisa (20).",
+    "source": {
+      "file": "content/source/13-Vjezba-13.md"
+    }
+  },
+  {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/source/14-Vjezba-14.md: kandidati koraka su odlomci i stavke popisa (20).",
+    "source": {
+      "file": "content/source/14-Vjezba-14.md"
+    }
+  },
+  {
+    "code": "procedure.candidate-mode",
+    "severity": "info",
+    "stage": "D",
+    "message": "content/source/15-Vjezba-15.md: kandidati koraka su odlomci i stavke popisa (43).",
+    "source": {
+      "file": "content/source/15-Vjezba-15.md"
     }
   },
   {

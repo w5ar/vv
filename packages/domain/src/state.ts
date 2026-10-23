@@ -24,6 +24,8 @@ export interface ObjectState {
   readonly carriedBy: Id | null;
   /** Personnel only: carried equipment ids, in pick-up order. */
   readonly carrying: readonly Id[];
+  /** Equipment only: container (vehicle) the item is stored in; stored items are not on the scene. */
+  readonly storedIn?: Id | null | undefined;
   readonly visualState: Id | null;
   /** Hoses only: world positions of end A and end B while laid; null when rolled or rigid. */
   readonly layout: HoseLayout | null;

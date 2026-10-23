@@ -37,8 +37,13 @@ export type Condition =
    * items of a type (`typeId`) or anything (both omitted).
    */
   | { type: 'carrying'; personnelId: Id; equipmentId?: Id | undefined; typeId?: Id | undefined; count?: number | undefined }
-  /** Equipment is on the ground (not carried). */
+  /** Equipment is on the ground (neither carried nor stored in a container). */
   | { type: 'placed'; equipmentId: Id }
+  /**
+   * Equipment is stored in a container (vehicle): a specific item, or at least `count` (default 1)
+   * items of `typeId`; in `containerId` if given, else in any container.
+   */
+  | { type: 'stored'; equipmentId?: Id | undefined; typeId?: Id | undefined; containerId?: Id | undefined; count?: number | undefined }
   /** A specific hose is laid, or at least `count` (default 1) hoses of `typeId` are laid. */
   | { type: 'laid'; equipmentId?: Id | undefined; typeId?: Id | undefined; count?: number | undefined }
   | { type: 'hasRole'; personnelId: Id; roleId: Id }
@@ -76,6 +81,13 @@ export const ConditionSchema: z.ZodType<Condition> = z.lazy(() =>
       count: CountSchema,
     }),
     z.strictObject({ type: z.literal('placed'), equipmentId: IdSchema }),
+    z.strictObject({
+      type: z.literal('stored'),
+      equipmentId: IdSchema.optional(),
+      typeId: IdSchema.optional(),
+      containerId: IdSchema.optional(),
+      count: CountSchema,
+    }),
     z.strictObject({ type: z.literal('laid'), equipmentId: IdSchema.optional(), typeId: IdSchema.optional(), count: CountSchema }),
     z.strictObject({ type: z.literal('hasRole'), personnelId: IdSchema, roleId: IdSchema }),
     z.strictObject({ type: z.literal('objectState'), objectId: IdSchema, state: IdSchema }),
@@ -138,6 +150,10 @@ export function conditionObjectIds(condition: Condition): Id[] {
         break;
       case 'laid':
         if (c.equipmentId) ids.add(c.equipmentId);
+        break;
+      case 'stored':
+        if (c.equipmentId) ids.add(c.equipmentId);
+        if (c.containerId) ids.add(c.containerId);
         break;
       case 'hasRole':
         ids.add(c.personnelId);

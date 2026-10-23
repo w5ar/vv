@@ -1,9 +1,9 @@
 import { connectionIdFor, connectionsAtPort, otherEnd, portWorld, validateConnection } from '@fds/connection-engine';
 import type { Command, CommandOf, Id, Issue, ObjectKind, ObjectState, SimEvent, SimulationState } from '@fds/domain';
-import { angleDelta, distance, distanceToPlacement, normalizeAngle, type Vec2 } from '@fds/geometry';
+import { add, angleDelta, distance, distanceToPlacement, normalizeAngle, sub, type Vec2 } from '@fds/geometry';
 import { evaluateCondition } from './conditions';
 import type { ExerciseContext } from './context';
-import { carriedPosition, connectionList, connectionWorld, objectName, placementOfObject } from './world';
+import { carriedPosition, connectionList, connectionWorld, equipmentTypeOf, isHeld, objectName, placementOfObject } from './world';
 
 /**
  * Per-command intrinsic validation and application. These encode simulation
@@ -45,12 +45,29 @@ function withObjects(state: SimulationState, updates: ObjectState[]): Simulation
   return { ...state, objects };
 }
 
-/** Repositions carried items after the carrier moved. */
-function carriedUpdates(ctx: ExerciseContext, state: SimulationState, carrier: ObjectState): ObjectState[] {
+/**
+ * Repositions carried items after the carrier moved by `delta` (or its load changed): items beside
+ * the carrier are re-stacked, held items move by the same delta.
+ */
+function carriedUpdates(ctx: ExerciseContext, state: SimulationState, carrier: ObjectState, delta: Vec2 = { x: 0, y: 0 }): ObjectState[] {
   return carrier.carrying.flatMap((itemId, slot) => {
     const item = state.objects[itemId];
-    return item ? [{ ...item, position: carriedPosition(ctx, carrier.position, slot) }] : [];
+    if (!item) return [];
+    if (isHeld(ctx, item)) return delta.x === 0 && delta.y === 0 ? [] : [{ ...item, position: add(item.position, delta) }];
+    return [{ ...item, position: carriedPosition(ctx, carrier.position, slot) }];
   });
+}
+
+function storedIssue(ctx: ExerciseContext, state: SimulationState, obj: ObjectState): Issue[] {
+  if (!obj.storedIn) return [];
+  const container = state.objects[obj.storedIn];
+  return [err('equipment.stored', `${objectName(ctx, obj)} je u spremniku (${objectName(ctx, container, obj.storedIn)}); najprije je treba uzeti.`, [obj.id])];
+}
+
+/** Distance from a person to the footprint of an object (or to its position when it has no symbol). */
+function distanceTo(ctx: ExerciseContext, obj: ObjectState, p: Vec2): number {
+  const placement = placementOfObject(ctx, obj);
+  return placement ? distanceToPlacement(placement, p) : distance(p, obj.position);
 }
 
 function hoseType(ctx: ExerciseContext, obj: ObjectState | undefined) {
@@ -117,7 +134,7 @@ const validators: { [T in Command['type']]: Validator<T> } = {
   MoveEquipment: (ctx, state, cmd) => {
     const issues: Issue[] = [];
     const eq = requireObject(state, cmd.equipmentId, 'equipment', issues);
-    if (eq) issues.push(...laidIssue(ctx, eq));
+    if (eq) issues.push(...laidIssue(ctx, eq), ...storedIssue(ctx, state, eq));
     const portable = eq?.typeId ? ctx.catalog.equipmentTypes.get(eq.typeId)?.portable === true : false;
     if (eq && !eq.carriedBy && portable && ctx.exercise.settings.equipmentMovePolicy === 'non-portable-only') {
       issues.push(
@@ -137,8 +154,8 @@ const validators: { [T in Command['type']]: Validator<T> } = {
   RotateObject: (ctx, state, cmd) => {
     const obj = state.objects[cmd.objectId];
     if (!obj) return [err('command.unknown-object', `Objekt „${cmd.objectId}” ne postoji u sceni.`, [cmd.objectId])];
-    const laid = laidIssue(ctx, obj);
-    return laid.length > 0 ? laid : rotationIssues(ctx, obj, cmd.rotation);
+    const blocked = [...laidIssue(ctx, obj), ...storedIssue(ctx, state, obj)];
+    return blocked.length > 0 ? blocked : rotationIssues(ctx, obj, cmd.rotation);
   },
   PickUpEquipment: (ctx, state, cmd) => {
     const issues: Issue[] = [];
@@ -159,14 +176,17 @@ const validators: { [T in Command['type']]: Validator<T> } = {
     if (limit != null && person.carrying.length >= limit) {
       issues.push(err('pickup.capacity', `${objectName(ctx, person)} ne može nositi više od ${limit} predmeta.`, [person.id]));
     }
-    const placement = placementOfObject(ctx, eq);
-    const d = placement ? distanceToPlacement(placement, person.position) : distance(person.position, eq.position);
+    // Stored equipment is taken from its container: the person must be at the container.
+    const container = eq.storedIn ? state.objects[eq.storedIn] : undefined;
+    const d = distanceTo(ctx, container ?? eq, person.position);
     if (!eq.carriedBy && d > ctx.exercise.settings.pickUpDistance) {
       issues.push(
-        err('pickup.too-far', `${objectName(ctx, person)} je predaleko od opreme ${objectName(ctx, eq)} (${Math.round(d)}).`, [
-          person.id,
-          eq.id,
-        ]),
+        container
+          ? err('pickup.too-far', `${objectName(ctx, person)} je predaleko od spremnika (${objectName(ctx, container)}) s opremom ${objectName(ctx, eq)} (${Math.round(d)}).`, [
+              person.id,
+              eq.id,
+            ])
+          : err('pickup.too-far', `${objectName(ctx, person)} je predaleko od opreme ${objectName(ctx, eq)} (${Math.round(d)}).`, [person.id, eq.id]),
       );
     }
     return issues;
@@ -180,7 +200,10 @@ const validators: { [T in Command['type']]: Validator<T> } = {
       issues.push(err('place.not-carrying', `${objectName(ctx, person)} ne nosi ${objectName(ctx, eq)}.`, [person.id, eq.id]));
       return issues;
     }
-    const d = distance(person.position, cmd.at);
+    // A held item is put down where it is lifted: measure to its footprint at the target place.
+    const d = isHeld(ctx, eq)
+      ? distanceTo(ctx, { ...eq, position: cmd.at, rotation: cmd.rotation ?? eq.rotation }, person.position)
+      : distance(person.position, cmd.at);
     if (d > ctx.exercise.settings.placeDistance) {
       issues.push(err('place.too-far', `Mjesto odlaganja je predaleko od osobe ${objectName(ctx, person)} (${Math.round(d)}).`, [person.id, eq.id]));
     }
@@ -190,6 +213,11 @@ const validators: { [T in Command['type']]: Validator<T> } = {
   ConnectPorts: (ctx, state, cmd) => {
     const actor = actorIssues(state, cmd.actorId);
     if (actor.length > 0) return actor;
+    const stored = [cmd.a.objectId, cmd.b.objectId].flatMap((id) => {
+      const obj = state.objects[id];
+      return obj ? storedIssue(ctx, state, obj) : [];
+    });
+    if (stored.length > 0) return stored;
     const issues = validateConnection(ctx.catalog, connectionWorld(state), cmd.a, cmd.b, {
       maxDistance: ctx.exercise.settings.connectionMaxDistance,
     });
@@ -208,6 +236,7 @@ const validators: { [T in Command['type']]: Validator<T> } = {
     if (!hose) return issues;
     if (!hoseType(ctx, hose)) issues.push(err('hose.not-hose', `${objectName(ctx, hose)} nije cijev.`, [hose.id]));
     else if (hose.layout) issues.push(err('hose.already-laid', `${objectName(ctx, hose)} je već položena.`, [hose.id]));
+    issues.push(...storedIssue(ctx, state, hose));
     return issues;
   },
   RollUpHose: (ctx, state, cmd) => {
@@ -241,6 +270,28 @@ const validators: { [T in Command['type']]: Validator<T> } = {
     const limit = ctx.exercise.settings.maxCarriedPerPerson;
     if (limit != null && to.carrying.length >= limit) {
       issues.push(err('pickup.capacity', `${objectName(ctx, to)} ne može nositi više od ${limit} predmeta.`, [to.id]));
+    }
+    return issues;
+  },
+  StoreEquipment: (ctx, state, cmd) => {
+    const issues: Issue[] = [];
+    const person = requireObject(state, cmd.personnelId, 'personnel', issues);
+    const eq = requireObject(state, cmd.equipmentId, 'equipment', issues);
+    const container = requireObject(state, cmd.containerId, 'equipment', issues);
+    if (!person || !eq || !container) return issues;
+    if (eq.carriedBy !== person.id) {
+      issues.push(err('store.not-carrying', `${objectName(ctx, person)} ne nosi ${objectName(ctx, eq)}.`, [person.id, eq.id]));
+    }
+    if (container.id === eq.id || equipmentTypeOf(ctx, container)?.container !== true) {
+      issues.push(err('store.not-container', `${objectName(ctx, container)} nema spremnike za opremu.`, [container.id]));
+      return issues;
+    }
+    if (connectionList(state).some((c) => c.a.objectId === eq.id || c.b.objectId === eq.id)) {
+      issues.push(err('store.connected', `${objectName(ctx, eq)} je spojena; najprije je treba rastaviti.`, [eq.id]));
+    }
+    const d = distanceTo(ctx, container, person.position);
+    if (d > ctx.exercise.settings.placeDistance) {
+      issues.push(err('store.too-far', `${objectName(ctx, person)} je predaleko od spremnika (${objectName(ctx, container)}) (${Math.round(d)}).`, [person.id, container.id]));
     }
     return issues;
   },
@@ -309,7 +360,7 @@ const appliers: { [T in Command['type']]: Applier<T> } = {
     const person = state.objects[cmd.personnelId] as ObjectState;
     const moved = { ...person, position: cmd.to };
     return {
-      state: withObjects(state, [moved, ...carriedUpdates(ctx, state, moved)]),
+      state: withObjects(state, [moved, ...carriedUpdates(ctx, state, moved, sub(cmd.to, person.position))]),
       events: [{ type: 'PersonnelMoved', personnelId: person.id, from: person.position, to: cmd.to }],
       moved: [person.id],
     };
@@ -335,10 +386,14 @@ const appliers: { [T in Command['type']]: Applier<T> } = {
     const person = state.objects[cmd.personnelId] as ObjectState;
     const eq = state.objects[cmd.equipmentId] as ObjectState;
     const carrier = { ...person, carrying: [...person.carrying, eq.id] };
-    const item = { ...eq, carriedBy: person.id, position: carriedPosition(ctx, person.position, person.carrying.length) };
+    // A held item stays where it is lifted; one taken out of a container comes out at the carrier.
+    const position = isHeld(ctx, eq) ? (eq.storedIn ? person.position : eq.position) : carriedPosition(ctx, person.position, person.carrying.length);
+    const item = { ...eq, carriedBy: person.id, storedIn: null, position };
     return {
       state: withObjects(state, [carrier, item]),
-      events: [{ type: 'EquipmentPickedUp', personnelId: person.id, equipmentId: eq.id, from: eq.position }],
+      events: [
+        { type: 'EquipmentPickedUp', personnelId: person.id, equipmentId: eq.id, from: eq.position, ...(eq.storedIn ? { containerId: eq.storedIn } : {}) },
+      ],
       moved: [],
     };
   },
@@ -418,11 +473,24 @@ const appliers: { [T in Command['type']]: Applier<T> } = {
     const eq = state.objects[cmd.equipmentId] as ObjectState;
     const giver = { ...from, carrying: from.carrying.filter((id) => id !== eq.id) };
     const receiver = { ...to, carrying: [...to.carrying, eq.id] };
-    const item = { ...eq, carriedBy: to.id, position: carriedPosition(ctx, to.position, to.carrying.length) };
+    const item = { ...eq, carriedBy: to.id, position: isHeld(ctx, eq) ? eq.position : carriedPosition(ctx, to.position, to.carrying.length) };
     const s1 = withObjects(state, [giver, receiver, item]);
     return {
       state: withObjects(s1, carriedUpdates(ctx, s1, giver)),
       events: [{ type: 'EquipmentHandedOver', fromId: from.id, toId: to.id, equipmentId: eq.id }],
+      moved: [],
+    };
+  },
+  StoreEquipment: (ctx, state, cmd) => {
+    const person = state.objects[cmd.personnelId] as ObjectState;
+    const eq = state.objects[cmd.equipmentId] as ObjectState;
+    const container = state.objects[cmd.containerId] as ObjectState;
+    const carrier = { ...person, carrying: person.carrying.filter((id) => id !== eq.id) };
+    const item = { ...eq, carriedBy: null, storedIn: container.id, position: container.position };
+    const s1 = withObjects(state, [carrier, item]);
+    return {
+      state: withObjects(s1, carriedUpdates(ctx, s1, carrier)),
+      events: [{ type: 'EquipmentStored', personnelId: person.id, equipmentId: eq.id, containerId: container.id }],
       moved: [],
     };
   },

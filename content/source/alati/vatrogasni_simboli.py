@@ -220,6 +220,9 @@ OPREMA = {
         f'<line x1="20" y1="14" x2="20" y2="20"/><line x1="50" y1="14" x2="50" y2="20"/></g>'),
     "n1-ia": ("Vođa navalne grupe s izolacijskim aparatom", 40, 66, _osoba_slovo("N", 1) + _ljestve(14, 38, 12, 26)),
     "n2-ia": ("Član navalne grupe s izolacijskim aparatom", 40, 66, _osoba_slovo("N", 2) + _ljestve(14, 38, 12, 26)),
+    "autocisterna": ("Autocisterna (AC)", 120, 60,
+        f'<g {S} stroke-width="1.5"><rect x="2" y="2" width="88" height="56" fill="#fff"/><path d="M90,2 L118,12 V48 L90,58" fill="#fff"/></g>'
+        f'<text x="46" y="43" text-anchor="middle" font-family="{FONT}" font-size="36" fill="#4a4a4a">AC</text>'),
 }
 
 # ---------------------------------------------------------------- elementi skica
@@ -237,6 +240,12 @@ ELEMENTI = {
         f'<path d="M0.5,1 L12.5,6 L0.5,11" fill="none" stroke="{CRNA}" stroke-width="1.4" stroke-linejoin="round"/>'),
     "strelica-kote": ("Strelica kote (mjere)", 10, 7,
         f'<path d="M0,0.5 L10,3.5 L0,6.5 Z" fill="{CRNA}"/>'),
+    "ia-ljestve": ("Izolacijski aparat na leđima vatrogasca (uz krug osobe)", 12, 26, _ljestve(0.75, 0.75, 10.5, 24.5)),
+    "prikljucak-pumpe": ("Priključak (usisni ili tlačni otvor) motorne pumpe ili vozila", 8, 18,
+        f'<rect x="0.75" y="0.75" width="6.5" height="16.5" fill="#fff" stroke="{CRNA}" stroke-width="1.5"/>'
+        f'<line x1="4" y1="3" x2="4" y2="15" stroke="{CRNA}" stroke-width="1"/>'),
+    "spojnica-usisna": ("Spojnica na usisnom vodu", 7, 22,
+        f'<rect x="0.75" y="0.75" width="5.5" height="20.5" fill="#fff" stroke="{CRNA}" stroke-width="1.5"/>'),
 }
 
 # ---------------------------------------------------------------- zbirni rječnik
@@ -249,6 +258,71 @@ for k, (naziv, w, h, svg) in OPREMA.items():
     SIMBOLI[k] = (w, h, naziv, svg)
 for k, (naziv, w, h, svg) in ELEMENTI.items():
     SIMBOLI[k] = (w, h, naziv, svg)
+
+
+def dodaj_simbol(sid, naziv, w, h, svg):
+    """Registrira dodatni simbol (npr. iz skripte za pojedinu vježbu).
+    Pri spremanju skice simbol se automatski zapisuje u simboli/<sid>.svg ako ne postoji."""
+    if sid in SIMBOLI and SIMBOLI[sid][3] != svg:
+        raise ValueError(f"Simbol '{sid}' već postoji s drukčijim sadržajem")
+    SIMBOLI[sid] = (w, h, naziv, svg)
+
+
+def _putanja(segmenti):
+    """SVG 'd' + uzorkovane točke za segmente [("M",x,y), ("L",..), ("Q",..), ("C",..)]."""
+    d, tocke = "", []
+    tx = ty = 0.0
+    for seg in segmenti:
+        k, *v = seg
+        if k == "M":
+            tx, ty = v
+            d += f"M{tx:.1f},{ty:.1f} "
+            tocke.append((tx, ty))
+        elif k == "L":
+            x, y = v
+            for i in range(1, 11):
+                t = i / 10
+                tocke.append((tx + (x - tx) * t, ty + (y - ty) * t))
+            d += f"L{x:.1f},{y:.1f} "
+            tx, ty = x, y
+        elif k == "Q":
+            cx, cy, x, y = v
+            for i in range(1, 41):
+                t = i / 40
+                tocke.append(((1 - t) ** 2 * tx + 2 * (1 - t) * t * cx + t * t * x,
+                              (1 - t) ** 2 * ty + 2 * (1 - t) * t * cy + t * t * y))
+            d += f"Q{cx:.1f},{cy:.1f} {x:.1f},{y:.1f} "
+            tx, ty = x, y
+        elif k == "C":
+            c1x, c1y, c2x, c2y, x, y = v
+            for i in range(1, 61):
+                t = i / 60
+                a, b, c, e = (1 - t) ** 3, 3 * (1 - t) ** 2 * t, 3 * (1 - t) * t * t, t ** 3
+                tocke.append((a * tx + b * c1x + c * c2x + e * x, a * ty + b * c1y + c * c2y + e * y))
+            d += f"C{c1x:.1f},{c1y:.1f} {c2x:.1f},{c2y:.1f} {x:.1f},{y:.1f} "
+            tx, ty = x, y
+    return d.strip(), tocke
+
+
+def _mjerac(tocke):
+    """Vraća (ukupna duljina, f(s) -> (x, y, ux, uy)) za točku na udaljenosti s duž putanje."""
+    cum = [0.0]
+    for (x1, y1), (x2, y2) in zip(tocke, tocke[1:]):
+        cum.append(cum[-1] + math.hypot(x2 - x1, y2 - y1))
+    L = cum[-1]
+
+    def tocka(s):
+        s = max(0.0, min(L, s))
+        for i in range(1, len(cum)):
+            if cum[i] >= s and cum[i] > cum[i - 1]:
+                (x1, y1), (x2, y2) = tocke[i - 1], tocke[i]
+                seg = cum[i] - cum[i - 1]
+                t = (s - cum[i - 1]) / seg
+                return x1 + (x2 - x1) * t, y1 + (y2 - y1) * t, (x2 - x1) / seg, (y2 - y1) / seg
+        (x1, y1), (x2, y2) = tocke[-2], tocke[-1]
+        seg = math.hypot(x2 - x1, y2 - y1) or 1
+        return x2, y2, (x2 - x1) / seg, (y2 - y1) / seg
+    return L, tocka
 
 
 def svg_simbola(sid, mjerilo=1.0):
@@ -295,16 +369,52 @@ class Skica:
         kut = math.degrees(math.atan2(uy, ux))
         self.simbol(sid, x + ux * pomak, y + uy * pomak, rotacija=round(kut, 2))
 
-    def osoba(self, sid, x, y, smjer=None, r=18):
+    def osoba(self, sid, x, y, smjer=None, r=18, ia=False):
         """Osoba (krug promjera 40). smjer = gore/dolje/lijevo/desno ili kut u stupnjevima
-        (0 = desno, -90 = gore, 90 = dolje) – crtica okrenutosti."""
+        (0 = desno, -90 = gore, 90 = dolje) – crtica okrenutosti.
+        ia=True: izolacijski aparat (ljestvice) na leđima, tj. na suprotnoj strani od smjera
+        (bez smjera: ispod kruga)."""
+        dx, dy = 0.0, 1.0
         if smjer is not None:
             if isinstance(smjer, str):
                 dx, dy = SMJEROVI[smjer]
             else:
                 dx, dy = math.cos(math.radians(smjer)), math.sin(math.radians(smjer))
             self._postavi("smjer", x + dx * (r + 7), y + dy * (r + 7), dx, dy)
+        if ia:
+            bx, by = (-dx, -dy) if smjer is not None else (0.0, 1.0)
+            kut = math.degrees(math.atan2(-bx, by))  # dugačka os ljestvica u smjeru (bx, by)
+            self.simbol("ia-ljestve", x + bx * (r + 15), y + by * (r + 15), rotacija=round(kut, 2))
         self.simbol(sid, x, y)
+
+    def put(self, segmenti, sw=1.0, crtkano=False):
+        """Tanka slobodna linija po putanji (npr. uže). Vraća (L, tocka) za postavljanje elemenata."""
+        d, tocke = _putanja(segmenti)
+        dash = ' stroke-dasharray="4 3"' if crtkano else ""
+        self.el.append(f'<path d="{d}" fill="none" stroke="{CRNA}" stroke-width="{sw}"{dash} '
+                       f'stroke-linecap="round" stroke-linejoin="round"/>')
+        return _mjerac(tocke)
+
+    def usisni_vod(self, segmenti, spojnice=(), sitka=True, sirina=12):
+        """Savijeni usisni vod (debela cijev s obrubom) po putanji.
+        spojnice: udaljenosti (px) ili udjeli (0–1) na kojima su spojnice usisnih cijevi;
+        sitka=True: usisna sitka na početku putanje (okrenuta prema van).
+        Vraća (L, tocka)."""
+        d, tocke = _putanja(segmenti)
+        self.el.append(f'<path d="{d}" fill="none" stroke="{CRNA}" stroke-width="{sirina}" '
+                       f'stroke-linecap="butt" stroke-linejoin="round"/>')
+        self.el.append(f'<path d="{d}" fill="none" stroke="#fff" stroke-width="{sirina - 3}" '
+                       f'stroke-linecap="butt" stroke-linejoin="round"/>')
+        L, tocka = _mjerac(tocke)
+        for s in spojnice:
+            x, y, ux, uy = tocka(s * L if 0 < s < 1 else s)
+            self._postavi("spojnica-usisna", x, y, ux, uy)
+        if sitka:
+            x, y, ux, uy = tocka(0)
+            m = 22 / 52
+            kut = math.degrees(math.atan2(-ux, uy))  # kruna sitke prema van (−u)
+            self.simbol("usisna-sitka", x - ux * 66 * m / 2, y - uy * 66 * m / 2, sirina=22, rotacija=round(kut, 2))
+        return L, tocka
 
     # ---- cijevni vodovi -------------------------------------------------
     def vod(self, segmenti, tip="B", spojnice=(), pocetak=False, kraj=False, mlaznica=False):
@@ -317,57 +427,10 @@ class Skica:
         mlaznica: strelica (mlaznica) na kraju voda
         Vraća (x, y) krajnje točke."""
         sw = 2.6 if tip == "B" else 1.3
-        d, tocke = "", []
-        tx = ty = 0.0
-        for seg in segmenti:
-            k, *v = seg
-            if k == "M":
-                tx, ty = v
-                d += f"M{tx:.1f},{ty:.1f} "
-                tocke.append((tx, ty))
-            elif k == "L":
-                x, y = v
-                for i in range(1, 11):
-                    t = i / 10
-                    tocke.append((tx + (x - tx) * t, ty + (y - ty) * t))
-                d += f"L{x:.1f},{y:.1f} "
-                tx, ty = x, y
-            elif k == "Q":
-                cx, cy, x, y = v
-                for i in range(1, 41):
-                    t = i / 40
-                    tocke.append(((1 - t) ** 2 * tx + 2 * (1 - t) * t * cx + t * t * x,
-                                  (1 - t) ** 2 * ty + 2 * (1 - t) * t * cy + t * t * y))
-                d += f"Q{cx:.1f},{cy:.1f} {x:.1f},{y:.1f} "
-                tx, ty = x, y
-            elif k == "C":
-                c1x, c1y, c2x, c2y, x, y = v
-                for i in range(1, 61):
-                    t = i / 60
-                    a, b, c, e = (1 - t) ** 3, 3 * (1 - t) ** 2 * t, 3 * (1 - t) * t * t, t ** 3
-                    tocke.append((a * tx + b * c1x + c * c2x + e * x, a * ty + b * c1y + c * c2y + e * y))
-                d += f"C{c1x:.1f},{c1y:.1f} {c2x:.1f},{c2y:.1f} {x:.1f},{y:.1f} "
-                tx, ty = x, y
-        self.el.append(f'<path d="{d.strip()}" fill="none" stroke="{CRNA}" stroke-width="{sw}" '
+        d, tocke = _putanja(segmenti)
+        self.el.append(f'<path d="{d}" fill="none" stroke="{CRNA}" stroke-width="{sw}" '
                        f'stroke-linecap="butt" stroke-linejoin="round"/>')
-        # duljine
-        cum = [0.0]
-        for (x1, y1), (x2, y2) in zip(tocke, tocke[1:]):
-            cum.append(cum[-1] + math.hypot(x2 - x1, y2 - y1))
-        L = cum[-1]
-
-        def tocka(s):
-            s = max(0.0, min(L, s))
-            for i in range(1, len(cum)):
-                if cum[i] >= s:
-                    (x1, y1), (x2, y2) = tocke[i - 1], tocke[i]
-                    seg = (cum[i] - cum[i - 1]) or 1
-                    t = (s - cum[i - 1]) / seg
-                    ux, uy = (x2 - x1) / seg, (y2 - y1) / seg
-                    return x1 + (x2 - x1) * t, y1 + (y2 - y1) * t, ux, uy
-            (x1, y1), (x2, y2) = tocke[-2], tocke[-1]
-            seg = math.hypot(x2 - x1, y2 - y1) or 1
-            return x2, y2, (x2 - x1) / seg, (y2 - y1) / seg
+        L, tocka = _mjerac(tocke)
 
         def crtica(s):
             x, y, ux, uy = tocka(s)

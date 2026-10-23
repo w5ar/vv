@@ -65,6 +65,37 @@ describe('scene model', () => {
     expect(edges[0]?.data?.b).toEqual({ x: left, y: top + 5 * CARRIED_SCALE });
   });
 
+  it('draws held items in place, worn items behind the carrier and leaves stored items out', () => {
+    const vehicles = indexCatalog(
+      CatalogSchema.parse({
+        ...testCatalogInput,
+        equipmentTypes: testCatalogInput.equipmentTypes?.map((e) =>
+          e.id === 'et.hose'
+            ? { ...e, carry: 'held' }
+            : e.id === 'et.nozzle'
+              ? { ...e, depiction: { worn: { symbolId: 'sym.blocked', distance: 33 } } }
+              : e.id === 'et.source'
+                ? { ...e, container: true }
+                : e,
+        ),
+      }),
+    );
+    const person = obj({ id: 'p', kind: 'personnel', symbolId: 'sym.person', position: { x: 100, y: 100 }, rotation: 0, carrying: ['h', 'n'] });
+    const hose = obj({ id: 'h', kind: 'equipment', symbolId: 'sym.hose', typeId: 'et.hose', carriedBy: 'p', position: { x: 200, y: 120 }, rotation: 90 });
+    const nozzle = obj({ id: 'n', kind: 'equipment', symbolId: 'sym.nozzle', typeId: 'et.nozzle', carriedBy: 'p', position: { x: 122, y: 82 } });
+    const vehicle = obj({ id: 'v', kind: 'equipment', symbolId: 'sym.source', typeId: 'et.source', position: { x: 300, y: 300 } });
+    const inside = obj({ id: 's', kind: 'equipment', symbolId: 'sym.splitter', typeId: 'et.splitter', storedIn: 'v', position: { x: 300, y: 300 } });
+    const { nodes } = buildFlow({ catalog: vehicles, state: stateOf([person, hose, nozzle, vehicle, inside]) });
+    const h = node(nodes, 'h');
+    expect([h.position, h.data.width, h.data.rotation]).toEqual([{ x: 200, y: 120 }, 60, 90]);
+    const n = node(nodes, 'n');
+    expect(n.data.symbolId).toBe('sym.blocked');
+    expect(n.position).toEqual({ x: 100 - 33, y: 100 });
+    expect(n.data.rotation).toBe(90);
+    expect(nodes.some((x) => x.id === 's')).toBe(false);
+    expect(node(nodes, 'v').data.stored).toBe(1);
+  });
+
   it('shows facing markers instead of rotating personnel and hides redundant role badges', () => {
     const leader = obj({ id: 'l', kind: 'personnel', symbolId: 'sym.person', roleId: 'role.leader', position: { x: 50, y: 50 }, rotation: 90 });
     const member = obj({ id: 'm', kind: 'personnel', symbolId: 'sym.person', roleId: 'role.member', position: { x: 150, y: 50 } });

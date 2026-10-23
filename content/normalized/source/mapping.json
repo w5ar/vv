@@ -78,6 +78,30 @@
     "reason": "Legenda simbola; koristi se u fazi B za nazive simbola, ne sadrži korake vježbe."
   },
   {
+    "candidateId": "00-2-legenda#koristenje-simbola-u-drugim-dijelovima-prirucnika/l3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Legenda simbola; koristi se u fazi B za nazive simbola, ne sadrži korake vježbe."
+  },
+  {
+    "candidateId": "00-2-legenda#koristenje-simbola-u-drugim-dijelovima-prirucnika/l4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Legenda simbola; koristi se u fazi B za nazive simbola, ne sadrži korake vježbe."
+  },
+  {
+    "candidateId": "00-2-legenda#koristenje-simbola-u-drugim-dijelovima-prirucnika/l5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Legenda simbola; koristi se u fazi B za nazive simbola, ne sadrži korake vježbe."
+  },
+  {
+    "candidateId": "00-2-legenda#koristenje-simbola-u-drugim-dijelovima-prirucnika/l6",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Legenda simbola; koristi se u fazi B za nazive simbola, ne sadrži korake vježbe."
+  },
+  {
     "candidateId": "00-2-legenda#koristenje-simbola-u-drugim-dijelovima-prirucnika/p5",
     "stepIds": [],
     "status": "ignored",
@@ -688,5 +712,1709 @@
       "stroj-prijavak"
     ],
     "status": "mapped"
+  },
+  {
+    "candidateId": "03-vjezba-3#2-4-1-vjezba-3-vjezba-s-usisnim-cijevima-5-vatrogasaca/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#2-4-1-vjezba-3-vjezba-s-usisnim-cijevima-5-vatrogasaca/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p6",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p7",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#spajanje-usisnog-voda/l1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#spajanje-usisnog-voda/l2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#spajanje-usisnog-voda/l3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p8",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p9",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p10",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p11",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#vezivanje-usisnog-voda/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#vezivanje-usisnog-voda/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#vezivanje-usisnog-voda/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#vezivanje-usisnog-voda/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#vezivanje-usisnog-voda/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#vezivanje-usisnog-voda/p6",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p6",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p7",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p8",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p9",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p10",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p11",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/p6",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/p7",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/p8",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/p9",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/l1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/l2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/l3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/l4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/p10",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/p11",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/p12",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/p13",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/p14",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/p15",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "03-vjezba-3#pospremanje-opreme/p16",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#2-4-2-vjezba-4-vjezba-s-usisnim-cijevima-3-vatrogasca/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#2-4-2-vjezba-4-vjezba-s-usisnim-cijevima-3-vatrogasca/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#polaganje-usisnih-cijevi/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#polaganje-usisnih-cijevi/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#polaganje-usisnih-cijevi/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#polaganje-usisnih-cijevi/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#spajanje-usisnog-voda/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#spajanje-usisnog-voda/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#spajanje-usisnog-voda/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#spajanje-usisnog-voda/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#vezanje-usisnog-voda/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#vezanje-usisnog-voda/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#vezanje-usisnog-voda/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#vezanje-usisnog-voda/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#prenosenje-usisnog-voda/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#prenosenje-usisnog-voda/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#prenosenje-usisnog-voda/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#prenosenje-usisnog-voda/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#prenosenje-usisnog-voda/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#prenosenje-usisnog-voda/p6",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#prenosenje-usisnog-voda/p7",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#prenosenje-usisnog-voda/p8",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#pospremanje-opreme/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#pospremanje-opreme/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#pospremanje-opreme/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#pospremanje-opreme/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#pospremanje-opreme/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#pospremanje-opreme/p6",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#pospremanje-opreme/p7",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#pospremanje-opreme/p8",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#pospremanje-opreme/p9",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#pospremanje-opreme/p10",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "04-vjezba-4#pospremanje-opreme/p11",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "05-vjezba-5#2-5-1-vjezba-5-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "05-vjezba-5#2-5-1-vjezba-5-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "05-vjezba-5#2-5-1-vjezba-5-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "05-vjezba-5#2-5-1-vjezba-5-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "05-vjezba-5#2-5-1-vjezba-5-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "05-vjezba-5#polaganje-usisnog-voda/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "05-vjezba-5#polaganje-usisnog-voda/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "05-vjezba-5#polaganje-usisnog-voda/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "05-vjezba-5#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "05-vjezba-5#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "05-vjezba-5#polaganje-prvog-mlaza-u-navalnom-sektoru/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "05-vjezba-5#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "05-vjezba-5#pospremanje-opreme/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "05-vjezba-5#pospremanje-opreme/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "05-vjezba-5#pospremanje-opreme/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "05-vjezba-5#pospremanje-opreme/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "05-vjezba-5#pospremanje-opreme/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "05-vjezba-5#pospremanje-opreme/p6",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "06-vjezba-6#polaganje-cijevnog-voda-od-hidranta-do-motorne-pumpe/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "06-vjezba-6#polaganje-cijevnog-voda-od-hidranta-do-motorne-pumpe/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "06-vjezba-6#polaganje-cijevnog-voda-od-hidranta-do-motorne-pumpe/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "06-vjezba-6#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "06-vjezba-6#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "06-vjezba-6#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "06-vjezba-6#pospremanje-opreme/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "06-vjezba-6#pospremanje-opreme/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "06-vjezba-6#pospremanje-opreme/l1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "06-vjezba-6#pospremanje-opreme/l2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "06-vjezba-6#pospremanje-opreme/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "06-vjezba-6#pospremanje-opreme/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "07-vjezba-7#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "07-vjezba-7#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "07-vjezba-7#polaganje-usisnog-voda/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "07-vjezba-7#polaganje-usisnog-voda/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "07-vjezba-7#polaganje-usisnog-voda/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "07-vjezba-7#polaganje-usisnog-voda/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "07-vjezba-7#pospremanje-opreme/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "07-vjezba-7#pospremanje-opreme/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "07-vjezba-7#pospremanje-opreme/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "08-vjezba-8#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "08-vjezba-8#polaganje-b-cijevnog-voda/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "08-vjezba-8#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "08-vjezba-8#posprema-opreme/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "08-vjezba-8#posprema-opreme/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "08-vjezba-8#posprema-opreme/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "08-vjezba-8#posprema-opreme/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "09-vjezba-9#2-7-1-vjezba-9-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "09-vjezba-9#2-7-1-vjezba-9-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "09-vjezba-9#2-7-1-vjezba-9-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "09-vjezba-9#postavljanje-usisnog-voda/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "09-vjezba-9#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "09-vjezba-9#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "09-vjezba-9#polaganje-prvog-mlaza-u-navalnom-sektoru/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "09-vjezba-9#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "09-vjezba-9#pospremanje-opreme/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "09-vjezba-9#pospremanje-opreme/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "10-vjezba-10#2-7-2-vjezba-10-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "10-vjezba-10#2-7-2-vjezba-10-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "10-vjezba-10#2-7-2-vjezba-10-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "10-vjezba-10#2-7-2-vjezba-10-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "10-vjezba-10#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "10-vjezba-10#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "10-vjezba-10#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "10-vjezba-10#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "10-vjezba-10#pospremanje-opreme/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "10-vjezba-10#pospremanje-opreme/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "10-vjezba-10#pospremanje-opreme/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "11-vjezba-11#2-7-3-vjezba-11-vjezba-s-2-c-mlaza-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "11-vjezba-11#2-7-3-vjezba-11-vjezba-s-2-c-mlaza-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "11-vjezba-11#2-7-3-vjezba-11-vjezba-s-2-c-mlaza-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "11-vjezba-11#2-7-3-vjezba-11-vjezba-s-2-c-mlaza-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "11-vjezba-11#2-7-3-vjezba-11-vjezba-s-2-c-mlaza-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "11-vjezba-11#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "11-vjezba-11#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "11-vjezba-11#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "11-vjezba-11#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "11-vjezba-11#polaganje-prvog-mlaza-u-navalnom-sektoru/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "11-vjezba-11#polaganje-prvog-mlaza-u-navalnom-sektoru/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "11-vjezba-11#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "11-vjezba-11#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "11-vjezba-11#pospremanje-opreme/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "11-vjezba-11#pospremanje-opreme/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "11-vjezba-11#pospremanje-opreme/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "11-vjezba-11#pospremanje-opreme/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "12-vjezba-12#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "12-vjezba-12#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "12-vjezba-12#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "12-vjezba-12#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "12-vjezba-12#pospremanje-opreme/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "12-vjezba-12#pospremanje-opreme/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "12-vjezba-12#pospremanje-opreme/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "12-vjezba-12#pospremanje-opreme/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p6",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#polaganje-prvog-mlaza-pjene-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#polaganje-prvog-mlaza-pjene-u-navalnom-sektoru/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#polaganje-prvog-mlaza-pjene-u-navalnom-sektoru/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#pospremanje-opreme/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#pospremanje-opreme/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#pospremanje-opreme/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#pospremanje-opreme/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#pospremanje-opreme/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#pospremanje-opreme/p6",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#pospremanje-opreme/p7",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "13-vjezba-13#pospremanje-opreme/p8",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#2-7-6-vjezba-14-vjezba-s-1-mlazom-pjene-1-mlazom-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-i-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#2-7-6-vjezba-14-vjezba-s-1-mlazom-pjene-1-mlazom-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-i-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#2-7-6-vjezba-14-vjezba-s-1-mlazom-pjene-1-mlazom-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-i-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#2-7-6-vjezba-14-vjezba-s-1-mlazom-pjene-1-mlazom-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-i-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#2-7-6-vjezba-14-vjezba-s-1-mlazom-pjene-1-mlazom-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-i-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#2-7-6-vjezba-14-vjezba-s-1-mlazom-pjene-1-mlazom-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-i-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p6",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#polaganje-prvog-mlaza-pjene-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#polaganje-prvog-mlaza-pjene-u-navalnom-sektoru/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#polaganje-prvog-mlaza-pjene-u-navalnom-sektoru/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#polaganje-prvog-mlaza-pjene-u-navalnom-sektoru/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#pospremanje-opreme/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#pospremanje-opreme/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#pospremanje-opreme/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#pospremanje-opreme/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#pospremanje-opreme/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "14-vjezba-14#pospremanje-opreme/p6",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#2-8-vjezba-15-natjecateljska-vjezba/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#2-8-vjezba-15-natjecateljska-vjezba/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#2-8-vjezba-15-natjecateljska-vjezba/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#2-8-vjezba-15-natjecateljska-vjezba/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#2-8-vjezba-15-natjecateljska-vjezba/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#polaganje-usisnih-cijevi-slika-52-53/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#polaganje-usisnih-cijevi-slika-52-53/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#polaganje-usisnih-cijevi-slika-52-53/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#polaganje-usisnih-cijevi-slika-52-53/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p6",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p7",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p8",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p9",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p10",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p11",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p12",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p6",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p7",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p4",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p5",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p6",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p7",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-slika-63/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#posluzivanje-razdjelnice/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#posluzivanje-razdjelnice/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#polaganje-drugog-mlaza-u-navalnom-sektoru/p2",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#polaganje-drugog-mlaza-u-navalnom-sektoru/p3",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+  },
+  {
+    "candidateId": "15-vjezba-15#pospremanje-opreme/p1",
+    "stepIds": [],
+    "status": "ignored",
+    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
   }
 ]

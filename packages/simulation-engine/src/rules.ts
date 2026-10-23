@@ -56,7 +56,7 @@ export function checkOverlapRules(ctx: ExerciseContext, state: SimulationState, 
   if (rules.length === 0) return issues;
   for (const id of changedIds) {
     const obj = state.objects[id];
-    if (!obj || obj.carriedBy) continue;
+    if (!obj || obj.carriedBy || obj.storedIn) continue;
     const placement = placementOfObject(ctx, obj);
     if (!placement) continue;
     for (const rule of rules) {
@@ -67,7 +67,7 @@ export function checkOverlapRules(ctx: ExerciseContext, state: SimulationState, 
       for (const otherId of state.objectOrder) {
         if (otherId === id) continue;
         const other = state.objects[otherId];
-        if (!other || other.carriedBy) continue;
+        if (!other || other.carriedBy || other.storedIn) continue;
         const pairMatches =
           (inA && selectorMatches(ctx, rule.groupB, other)) || (inB && selectorMatches(ctx, rule.groupA, other));
         if (!pairMatches) continue;

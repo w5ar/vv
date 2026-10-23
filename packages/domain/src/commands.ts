@@ -87,6 +87,14 @@ export const HandOverEquipmentSchema = z.strictObject({
   equipmentId: IdSchema,
 });
 
+/** Puts carried equipment into a container's compartments (e.g. a vehicle). */
+export const StoreEquipmentSchema = z.strictObject({
+  type: z.literal('StoreEquipment'),
+  personnelId: IdSchema,
+  equipmentId: IdSchema,
+  containerId: IdSchema,
+});
+
 export const AssignRoleSchema = z.strictObject({
   type: z.literal('AssignRole'),
   personnelId: IdSchema,
@@ -122,6 +130,7 @@ export const CommandSchema = z.discriminatedUnion('type', [
   LayHoseSchema,
   RollUpHoseSchema,
   HandOverEquipmentSchema,
+  StoreEquipmentSchema,
   AssignRoleSchema,
   BeginActionSchema,
   CompleteActionSchema,
@@ -159,6 +168,8 @@ export function commandObjectIds(command: Command): Id[] {
       return command.personnelId ? [command.equipmentId, command.personnelId] : [command.equipmentId];
     case 'HandOverEquipment':
       return [command.fromId, command.toId, command.equipmentId];
+    case 'StoreEquipment':
+      return [command.personnelId, command.equipmentId, command.containerId];
     case 'AssignRole':
       return [command.personnelId];
     case 'BeginAction':

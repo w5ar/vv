@@ -1,6 +1,6 @@
 import type { ConnectionWorld } from '@fds/connection-engine';
 import { objectPlacement } from '@fds/connection-engine';
-import type { Connection, Id, ObjectState, SimulationState } from '@fds/domain';
+import type { Connection, EquipmentType, Id, ObjectState, SimulationState } from '@fds/domain';
 import { add, type Placement, type Vec2 } from '@fds/geometry';
 import type { ExerciseContext } from './context';
 
@@ -26,6 +26,15 @@ export function placementOfObject(ctx: ExerciseContext, obj: ObjectState): Place
 export function carriedPosition(ctx: ExerciseContext, carrierPosition: Vec2, slot: number): Vec2 {
   const o = ctx.exercise.settings.carryOffset;
   return add(carrierPosition, { x: o.x, y: o.y + slot * 14 });
+}
+
+export function equipmentTypeOf(ctx: ExerciseContext, obj: ObjectState | undefined): EquipmentType | undefined {
+  return obj?.typeId ? ctx.catalog.equipmentTypes.get(obj.typeId) : undefined;
+}
+
+/** Bulky items lifted where they lie: they keep their place and move with the carrier. */
+export function isHeld(ctx: ExerciseContext, obj: ObjectState | undefined): boolean {
+  return equipmentTypeOf(ctx, obj)?.carry === 'held';
 }
 
 export function categoryOf(ctx: ExerciseContext, obj: ObjectState): Id | undefined {

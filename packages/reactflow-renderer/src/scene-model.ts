@@ -102,6 +102,8 @@ export interface SymbolNodeData extends Record<string, unknown> {
   readonly fixedBody?: boolean | undefined;
   readonly hose?: HoseLineData | undefined;
   readonly marker?: DirectionMarkerData | undefined;
+  /** Containers (vehicles): number of items stored in their compartments. */
+  readonly stored?: number | undefined;
 }
 
 export interface ZoneNodeData extends Record<string, unknown> {
@@ -157,9 +159,15 @@ interface CarriedDisplay {
   readonly topLeft: Vec2;
   readonly width: number;
   readonly height: number;
+  /** Worn items are drawn with another symbol (e.g. the apparatus on the back), rotated with the carrier. */
+  readonly symbolId?: Id | undefined;
+  readonly rotation?: number | undefined;
 }
 
-/** Compact display boxes of carried items, stacked top-down beside each carrier's displayed position. */
+/**
+ * Display boxes of carried items: compact, stacked top-down beside each carrier's displayed
+ * position; worn items behind the carrier. Held items (carry `held`) are drawn where they are.
+ */
 function carriedDisplay(catalog: CatalogIndex, state: SimulationState, objects: Record<Id, ObjectState>): Map<Id, CarriedDisplay> {
   const out = new Map<Id, CarriedDisplay>();
   for (const id of state.objectOrder) {
@@ -171,6 +179,17 @@ function carriedDisplay(catalog: CatalogIndex, state: SimulationState, objects: 
     for (const itemId of carrier.carrying) {
       const item = objects[itemId];
       if (!item || item.layout) continue;
+      const type = item.typeId ? catalog.equipmentTypes.get(item.typeId) : undefined;
+      if (type?.carry === 'held') continue;
+      const worn = type?.depiction?.worn;
+      const wornSymbol = worn ? catalog.symbols.get(worn.symbolId) : undefined;
+      if (worn && wornSymbol) {
+        const rad = (carrier.rotation * Math.PI) / 180;
+        const c = { x: carrier.position.x - Math.cos(rad) * worn.distance, y: carrier.position.y - Math.sin(rad) * worn.distance };
+        const { width, height } = wornSymbol.size;
+        out.set(itemId, { topLeft: { x: c.x - width / 2, y: c.y - height / 2 }, width, height, symbolId: wornSymbol.id, rotation: carrier.rotation + 90 });
+        continue;
+      }
       const s = catalog.symbols.get(item.symbolId)?.size ?? { width: 20, height: 20 };
       const width = s.width * CARRIED_SCALE;
       const height = s.height * CARRIED_SCALE;
@@ -216,6 +235,12 @@ export function buildFlow(view: SceneView): { nodes: FlowNode[]; edges: Connecti
     return portWorld(catalog, obj, portId)?.position ?? null;
   };
 
+  const storedCount = new Map<Id, number>();
+  for (const id of state.objectOrder) {
+    const container = objects[id]?.storedIn;
+    if (container) storedCount.set(container, (storedCount.get(container) ?? 0) + 1);
+  }
+
   const nodes: FlowNode[] = [];
   for (const zone of view.zones ?? []) {
     const shape = zone.shape;
@@ -252,7 +277,8 @@ export function buildFlow(view: SceneView): { nodes: FlowNode[]; edges: Connecti
 
   for (const id of state.objectOrder) {
     const obj = objects[id];
-    if (!obj) continue;
+    // Equipment stored in a vehicle's compartments is not on the scene.
+    if (!obj || obj.storedIn) continue;
     const symbol = catalog.symbols.get(obj.symbolId);
     const type = obj.typeId ? catalog.equipmentTypes.get(obj.typeId) : undefined;
     const laid = !!obj.layout && type?.form === 'hose';
@@ -344,13 +370,13 @@ export function buildFlow(view: SceneView): { nodes: FlowNode[]; edges: Connecti
       data: {
         objectId: id,
         kind: obj.kind,
-        symbolId: obj.symbolId,
+        symbolId: box?.symbolId ?? obj.symbolId,
         name: nameOf(catalog, obj),
         label: obj.label,
         roleLabel: showRole && obj.roleId ? (view.roleLabel?.(obj.roleId) ?? obj.roleId) : undefined,
         width,
         height,
-        rotation: box ? 0 : obj.rotation,
+        rotation: box ? (box.rotation ?? 0) : obj.rotation,
         visualState: obj.visualState,
         ports,
         carried,
@@ -360,12 +386,14 @@ export function buildFlow(view: SceneView): { nodes: FlowNode[]; edges: Connecti
         fixedBody: !!marker,
         hose,
         marker,
+        stored: storedCount.get(id),
       },
     });
   }
 
   const edges: ConnectionFlowEdge[] = [];
   const endpoints = (c: Connection): { a: Vec2; b: Vec2 } | null => {
+    if (objects[c.a.objectId]?.storedIn || objects[c.b.objectId]?.storedIn) return null;
     const a = portPosition(c.a.objectId, c.a.portId);
     const b = portPosition(c.b.objectId, c.b.portId);
     return a && b ? { a, b } : null;

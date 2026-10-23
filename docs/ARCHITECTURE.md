@@ -59,7 +59,9 @@ Pipeline per command (`packages/simulation-engine/src/engine.ts`):
 1. **Intrinsic validation** — existence and kind of objects, carrying and hand-over rules, proximity
    (`pickUpDistance`, `placeDistance`), rotation policy of the symbol, port compatibility and
    constraints (via the connection engine), hose state (a laid hose cannot be carried, moved or
-   rotated; it can be rolled up only when disconnected), action roles/preconditions, visual states.
+   rotated; it can be rolled up only when disconnected), storage (stored equipment is taken from
+   its container by a person at the container; it cannot be moved, connected or laid before),
+   action roles/preconditions, visual states.
 2. **Command-precondition rules** from the exercise (`rules[type=commandPrecondition]`), evaluated on
    the state *before* the command.
 3. **Tentative application** (immutable update).
@@ -200,7 +202,13 @@ the world position of the symbol pivot (default: symbol centre).
   declared distance, as the source sketches do.
 - **Carried items** are drawn at half size, unrotated, in a column beside the carrier; their port
   handles and connection edges use the same compact geometry (display only — the domain keeps the
-  logical carry position).
+  logical carry position). Items of a type with `carry: held` (suction hoses, the strainer) are
+  drawn where they are, full size: the domain moves them with their carrier by the carrier's
+  displacement. Worn items (`depiction.worn`, the breathing apparatus) are drawn as the worn symbol
+  behind the carrier, opposite its facing.
+- **Stored equipment** (in a vehicle's compartments) is not drawn; the vehicle shows the number of
+  stored items, its context panel lists them, and a person next to it can take them out or put
+  carried equipment in (`StoreEquipment`).
 - Read-only views (demonstration) hide port handles; zones and notes let clicks pass through to the
   canvas (placing and laying by clicking).
 

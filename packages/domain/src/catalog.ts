@@ -140,6 +140,14 @@ export const EquipmentTypeSchema = z.strictObject({
    * end ports when laid (LayHose / RollUpHose). `rigid`: a normal symbol.
    */
   form: z.enum(['rigid', 'hose']).default('rigid'),
+  /**
+   * How a carried item is held. `beside`: drawn compact beside the carrier. `held`: a bulky item
+   * (e.g. a suction hose) that is lifted where it lies — it keeps its place, size and rotation
+   * when picked up and moves with the carrier.
+   */
+  carry: z.enum(['beside', 'held']).default('beside'),
+  /** Vehicles: equipment can be stored in its compartments and taken from them (StoreEquipment / PickUpEquipment). */
+  container: z.boolean().default(false),
   /** Hose only: port ids at end A (laid from) and end B (laid to). */
   hoseEnds: z.tuple([IdSchema, IdSchema]).optional(),
   /** Hose only: symbol stretched along the laid hose. */
@@ -153,6 +161,16 @@ export const EquipmentTypeSchema = z.strictObject({
       attachedSymbolId: IdSchema.optional(),
       /** Symbol drawn across each end of a laid line (coupling tick), oriented along the line. */
       couplingSymbolId: IdSchema.optional(),
+      /**
+       * Worn equipment (e.g. a breathing apparatus): while carried it is drawn as `symbolId`
+       * behind the carrier, opposite the facing direction, at `distance` from the carrier's centre.
+       */
+      worn: z.strictObject({ symbolId: IdSchema, distance: z.number().positive() }).optional(),
+      /**
+       * Stroke width of the line diagrams draw for items of this type connected into one line
+       * (e.g. an assembled suction line). Such items may be shown either as symbols or as the line.
+       */
+      assembledLineStrokeWidth: z.number().positive().optional(),
     })
     .optional(),
   properties: SemanticPropertiesSchema.default({}),

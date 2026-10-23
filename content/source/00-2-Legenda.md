@@ -46,6 +46,7 @@ Krug s polovicom ispunjenom crnom bojom označava **vođu** grupe, a prazan krug
 | ![Navalno vozilo (NV)](simboli/navalno-vozilo.svg) | Navalno vozilo (NV) | `navalno-vozilo` |
 | ![Torbica s povezicama za cijevi](simboli/torbica-s-povezicama.svg) | Torbica s povezicama za cijevi | `torbica-s-povezicama` |
 | ![N1 s IA](simboli/n1-ia.svg) ![N2 s IA](simboli/n2-ia.svg) | Navalna grupa opremljena sa izolacijskim aparatima | `n1-ia`, `n2-ia` |
+| ![Autocisterna](simboli/autocisterna.svg) | Autocisterna (AC) – dodano, koristi se u vježbama 7 i 8 | `autocisterna` |
 
 ### Dodatni simboli (iz skica u poglavlju 1.3)
 
@@ -56,6 +57,9 @@ Krug s polovicom ispunjenom crnom bojom označava **vođu** grupe, a prazan krug
 | ![Spojnica B](simboli/spojnica-b.svg) ![Spojnica C](simboli/spojnica-c.svg) | Spojnica na „B” odnosno „C” cijevnom vodu | `spojnica-b`, `spojnica-c` |
 | ![Vrh B mlaznice](simboli/vrh-mlaznice-b.svg) ![Vrh C mlaznice](simboli/vrh-mlaznice-c.svg) | „B” odnosno „C” mlaznica na kraju položenog voda | `vrh-mlaznice-b`, `vrh-mlaznice-c` |
 | ![Strelica kote](simboli/strelica-kote.svg) | Strelica kote (mjere) | `strelica-kote` |
+| ![IA na leđima](simboli/ia-ljestve.svg) | Izolacijski aparat na leđima vatrogasca (crta se uz krug osobe, `ia=True`) | `ia-ljestve` |
+| ![Spojnica usisnog voda](simboli/spojnica-usisna.svg) | Spojnica na savijenom usisnom vodu | `spojnica-usisna` |
+| ![Priključak pumpe](simboli/prikljucak-pumpe.svg) | Priključak (usisni ili tlačni otvor) motorne pumpe ili vozila | `prikljucak-pumpe` |
 
 ---
 
@@ -77,8 +81,12 @@ Svi simboli nalaze se u mapi `simboli/`, svaki kao zasebna SVG datoteka (ime dat
 
 **Nove skice** se crtaju skriptama u mapi `alati/`, tako da sve skice koriste iste simbole:
 
-- `vatrogasni_simboli.py` – svi simboli i alati za crtanje (klasa `Skica`): `osoba()` (s crticom smjera, i pod kutom), `simbol()` (s rotacijom), `vod()` (B ili C cijevni vod s krivuljama, spojnicama i mlaznicom), `mlaz()` (položeni C mlaz s lukom), `hidrant_s_nastavkom()`, `kota_h()`, `kota_v()`. Pokretanjem se osvježavaju simboli i skice iz poglavlja 1.3.
-- `skice_vjezbe_01_02.py` – skice 11–19 za vježbe 1 i 2.
+- `vatrogasni_simboli.py` – svi simboli i alati za crtanje (klasa `Skica`): `osoba()` (s crticom smjera, i pod kutom), `simbol()` (s rotacijom), `vod()` (B ili C cijevni vod s krivuljama, spojnicama i mlaznicom), `mlaz()` (položeni C mlaz s lukom), `hidrant_s_nastavkom()`, `usisni_vod()` (savijeni usisni vod sa spojnicama i sitkom), `put()` (uže i druge tanke linije), `kota_h()`, `kota_v()`; `osoba(..., ia=True)` crta izolacijski aparat na leđima, a `dodaj_simbol()` registrira dodatni simbol iz skripte pojedine vježbe. Pokretanjem se osvježavaju simboli i skice iz poglavlja 1.3.
+- `skice_vjezbe_01_02.py` – skice 11–19 (vježbe 1 i 2)
+- `skice_vjezbe_03.py`, `skice_vjezbe_04.py` – skice 20–36 (vježbe 3 i 4)
+- `skice_vjezbe_05_08.py` – skice 37–53 (vježbe 5–8)
+- `skice_vjezbe_09_12.py` – skice 54–67 (vježbe 9–12)
+- `skice_vjezbe_13_15.py` – skice 68–77 (vježbe 13–15)
 
 Skice u mapi `skice/` simbole **povezuju** iz mape `simboli/` (`<image href="../simboli/….svg">`), pa izmjena simbola odmah vrijedi u svim skicama. Pri spremanju skripta provjerava postoji li svaki korišteni simbol u `simboli/` i dodaje one koji nedostaju.
 

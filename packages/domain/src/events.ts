@@ -8,7 +8,8 @@ export type SimEvent =
   | { type: 'PersonnelMoved'; personnelId: Id; from: Vec2; to: Vec2 }
   | { type: 'EquipmentMoved'; equipmentId: Id; from: Vec2; to: Vec2 }
   | { type: 'ObjectRotated'; objectId: Id; from: number; to: number }
-  | { type: 'EquipmentPickedUp'; personnelId: Id; equipmentId: Id; from: Vec2 }
+  | { type: 'EquipmentPickedUp'; personnelId: Id; equipmentId: Id; from: Vec2; containerId?: Id | undefined }
+  | { type: 'EquipmentStored'; personnelId: Id; equipmentId: Id; containerId: Id }
   | { type: 'EquipmentPlaced'; personnelId: Id; equipmentId: Id; at: Vec2; rotation: number }
   | { type: 'PortsConnected'; connection: Connection; actorId?: Id | undefined }
   | { type: 'PortsDisconnected'; connection: Connection; actorId?: Id | undefined }

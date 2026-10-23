@@ -206,6 +206,8 @@ export function compileExercise(authoringFile: string, raw: unknown, ctx: Compil
           };
         }
         if (isObj(obj.position)) return obj;
+        // Equipment stored in a vehicle is not drawn; it takes the vehicle's position below.
+        if (typeof obj.storedIn === 'string') return obj;
         const inst = instances.find((i) => i.instanceId === obj.id);
         if (!inst?.position) {
           at('mapping.missing-position', 'error', `Objekt ${String(obj.id)} nema položaj, a nije pronađen u fazi ${ref.stage} crteža ${ref.file}.`, {
@@ -231,7 +233,17 @@ export function compileExercise(authoringFile: string, raw: unknown, ctx: Compil
         };
       };
       if (Array.isArray(scene.personnel)) scene.personnel = scene.personnel.map((p) => (isObj(p) ? resolve(p, 'personnel') : p));
-      if (Array.isArray(scene.equipment)) scene.equipment = scene.equipment.map((e) => (isObj(e) ? resolve(e, 'equipment') : e));
+      if (Array.isArray(scene.equipment)) {
+        const equipment = scene.equipment.map((e) => (isObj(e) ? resolve(e, 'equipment') : e));
+        const byId = new Map(equipment.filter(isObj).map((e) => [e.id, e]));
+        scene.equipment = equipment.map((e) => {
+          if (!isObj(e) || typeof e.storedIn !== 'string' || isObj(e.position)) return e;
+          const container = byId.get(e.storedIn);
+          if (container && isObj(container.position)) return { ...e, position: container.position };
+          at('mapping.missing-position', 'error', `Objekt ${String(e.id)} je spremljen u „${e.storedIn}”, a taj objekt nema položaj.`, { subjectId: String(e.id) });
+          return e;
+        });
+      }
     }
     doc.initialScene = scene;
   }
@@ -430,7 +442,9 @@ export function compareWithDiagrams(exercise: Exercise, ctx: CompileContext, tim
 /**
  * Schematic comparison: the diagram is not to scale, so only *what* it shows is compared.
  * Per symbol: objects on the ground must be shown, and carried objects may or may not be
- * drawn (`free <= shown <= free + carried`); personnel counts must match exactly.
+ * drawn (`free <= shown <= free + carried`); personnel counts must match exactly. Items joined
+ * into an assembled line (`depiction.assembledLineStrokeWidth`, e.g. a suction line) may be drawn
+ * as symbols or as that line, so they count like carried ones; stored equipment is not drawn.
  * Laid hoses are compared with the diagram's line styles (shown iff laid).
  */
 function compareSchematic(
@@ -455,15 +469,23 @@ function compareSchematic(
   const carried = new Map<string, number>();
   const personnel = new Set<string>();
   const laid = new Map<string, number>();
+  const connections = Object.values(state.connections);
+  const assembled = (id: string, typeId: string | null) =>
+    !!typeId &&
+    types.get(typeId)?.depiction?.assembledLineStrokeWidth !== undefined &&
+    connections.some((c) => {
+      const other = c.a.objectId === id ? c.b.objectId : c.b.objectId === id ? c.a.objectId : null;
+      return other !== null && state.objects[other]?.typeId === typeId;
+    });
   for (const id of state.objectOrder) {
     const obj = state.objects[id];
-    if (!obj) continue;
+    if (!obj || obj.storedIn) continue;
     if (obj.layout && obj.typeId) {
       laid.set(obj.typeId, (laid.get(obj.typeId) ?? 0) + 1);
       continue;
     }
     if (obj.kind === 'personnel') personnel.add(obj.symbolId);
-    const bucket = obj.carriedBy ? carried : free;
+    const bucket = obj.carriedBy || assembled(obj.id, obj.typeId) ? carried : free;
     bucket.set(obj.symbolId, (bucket.get(obj.symbolId) ?? 0) + 1);
   }
   const symbolIds = [...new Set([...shown.keys(), ...free.keys(), ...carried.keys()])].sort();
@@ -521,12 +543,16 @@ export function checkAgainstProcedures(exercise: Exercise, ctx: CompileContext):
       }
       const typeId = item.equipmentTypeIds[0] as string;
       const n = scene.equipment.filter((e) => e.typeId === typeId).length;
-      if (n !== item.quantity) {
+      // An item without a number („prijenosna motorna vatrogasna pumpa,”) only has to be present.
+      if (item.quantity === undefined ? n === 0 : n !== item.quantity) {
         out.push({
           code: 'exercise.equipment-count-mismatch',
           severity: 'warning',
           stage: 'F',
-          message: `Popis opreme navodi ${item.quantity} × „${item.text}”, a početna scena ima ${n}.`,
+          message:
+            item.quantity === undefined
+              ? `Popis opreme navodi „${item.text}”, a početna scena je nema.`
+              : `Popis opreme navodi ${item.quantity} × „${item.text}”, a početna scena ima ${n}.`,
           source,
           subjectId: typeId,
         });

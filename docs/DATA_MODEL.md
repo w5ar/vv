@@ -79,10 +79,12 @@ materials do not use; synthetic examples are not firefighting practice.
 | --- | --- |
 | `id`, `name`, `symbolId`, `description?` | identity; `symbolId` is the symbol shown on the ground or carried |
 | `portable` | whether personnel can pick it up |
+| `carry` | `beside` (default): a carried item is drawn compact beside its carrier · `held`: a bulky item (suction hose, strainer) is lifted where it lies — it keeps its place, size and rotation and moves with the carrier |
+| `container` | vehicles (autocisterna, navalno vozilo): equipment can be stored in their compartments (`storedIn`, `StoreEquipment`) and taken from them |
 | `form` | `rigid` (default) or `hose` — a flexible item shown as a coil until laid |
 | `hoseEnds?` | hose only: `[endA, endB]` port ids; `LayHose` lays from end A to end B |
 | `laidSymbolId?` | hose only: symbol stretched along the laid hose when no line style is given |
-| `depiction?` | `{ laidLineStrokeWidth?, couplingSymbolId?, attachedSymbolId? }` — how diagrams draw the type: line width of a laid hose (stage C classifies lines by it; the renderer draws it), coupling tick at both ends, symbol drawn while attached (informational) |
+| `depiction?` | `{ laidLineStrokeWidth?, couplingSymbolId?, attachedSymbolId?, worn?, assembledLineStrokeWidth? }` — how diagrams draw the type: line width of a laid hose (stage C classifies lines by it; the renderer draws it), coupling tick at both ends, symbol drawn while attached (informational); `worn: { symbolId, distance }` — while carried, the item is drawn as that symbol behind the carrier (the breathing apparatus, *IA na leđima*); `assembledLineStrokeWidth` — diagrams may draw items of the type joined into one line (an assembled suction line) as a line of that width instead of symbols |
 
 ```jsonc
 { "id": "et.tlacna-b-cijev", "name": "Tlačna „B” cijev", "symbolId": "src.tlacna-b-cijev-kolut", "portable": true,
@@ -143,6 +145,8 @@ per-command durations (`pickUpMs`, `placeMs`, `connectMs`, `handOverMs`, …), `
   "sources": [{ "file": "content/synthetic/source/diagrams/sinteticka-vjezba-01-faze.svg", "anchor": "f1-clan-1" }] }
 // EquipmentInstance
 { "id": "mlaznica-1", "typeId": "et.mlaznica", "position": {…}, "rotation": 0, "state": "zatvorena", "carriedBy": null }
+// EquipmentInstance stored in a vehicle's compartments (no position needed in authoring files)
+{ "id": "u1", "typeId": "et.usisna-cijev", "storedIn": "ac" }
 // EquipmentInstance of a hose that is already laid at the start (layout only for form "hose")
 { "id": "b1", "typeId": "et.tlacna-b-cijev", "position": {…}, "layout": { "a": { "x": 120, "y": 282 }, "b": { "x": 346.9, "y": 350 } } }
 // Connection (logical, stored in domain state)
@@ -226,7 +230,8 @@ No criteria ⇒ the result is a report only (`passed: null`). There are no impli
 | `inZone` `{objectId, zoneId}` | object position inside zone |
 | `near` `{objectId, targetId, maxDistance}` | distance to the target's rotated rectangle |
 | `carrying` `{personnelId, equipmentId?, typeId?, count?}` | person carries at least `count` (default 1) items: that item, items of that type, or anything |
-| `placed` `{equipmentId}` | equipment is not carried |
+| `placed` `{equipmentId}` | equipment is on the ground: neither carried nor stored |
+| `stored` `{equipmentId?, typeId?, containerId?, count?}` | that item, or at least `count` items of the type, are stored in `containerId` (or in any container) |
 | `laid` `{equipmentId?, typeId?, count?}` | that hose is laid, or at least `count` hoses of the type are laid |
 | `hasRole` `{personnelId, roleId}` | role assignment |
 | `objectState` `{objectId, state}` | visual/semantic state |
@@ -239,8 +244,9 @@ No criteria ⇒ the result is a report only (`passed: null`). There are no impli
 | `MovePersonnel {personnelId, to}` | personnel exists | position; carried items follow · `PersonnelMoved` |
 | `MoveEquipment {equipmentId, to}` | not carried; portable only if `equipmentMovePolicy = any` | `EquipmentMoved` |
 | `RotateObject {objectId, rotation}` | symbol rotation policy (none/step/free) | `ObjectRotated` |
-| `PickUpEquipment {personnelId, equipmentId}` | portable, not carried, within `pickUpDistance`, capacity | `EquipmentPickedUp` |
-| `PlaceEquipment {personnelId, equipmentId, at, rotation?}` | carried by that person, `at` within `placeDistance` | `EquipmentPlaced` |
+| `PickUpEquipment {personnelId, equipmentId}` | portable, not carried, within `pickUpDistance` (of the container when stored), capacity | `EquipmentPickedUp {containerId?}`; a held item stays where it is |
+| `PlaceEquipment {personnelId, equipmentId, at, rotation?}` | carried by that person, `at` within `placeDistance` (held items: their footprint at `at`) | `EquipmentPlaced` |
+| `StoreEquipment {personnelId, equipmentId, containerId}` | carried by that person, container type, no connections, within `placeDistance` of the container | `EquipmentStored`; the item leaves the scene |
 | `ConnectPorts {a, b, connectionId?, actorId?}` | connection engine (existence, same object, duplicate, compatibility, capacity, distance); actor exists | `PortsConnected` |
 | `DisconnectPorts {connectionId, actorId?}` | connection exists | `PortsDisconnected` |
 | `LayHose {equipmentId, personnelId?, from?, to}` | hose type, not yet laid | lays the hose from `from` (default: the port connected to end A, else the carrier, else the coil) to `to`; releases it from the carrier; its end ports move to the line's ends · `HoseLaid` |
@@ -251,14 +257,17 @@ No criteria ⇒ the result is a report only (`passed: null`). There are no impli
 | `CompleteAction {actionId}` | action active | `ActionCompleted` |
 | `SetObjectState {objectId, state, actorId?}` | state defined on the symbol | `ObjectStateChanged` |
 
-A laid hose cannot be picked up, moved or rotated (`hose.laid`).
+A laid hose cannot be picked up, moved or rotated (`hose.laid`). Stored equipment cannot be moved,
+rotated, connected or laid until it is taken out (`equipment.stored`).
 
 Plus exercise rules and the order policy (see ARCHITECTURE.md). Procedural events:
 `StepAvailable`, `StepCompleted {outOfOrder}`, `StageCompleted`, `ExerciseCompleted`,
 `OrderDeviation {missingStepIds}`, `RuleWarning`.
 
 The vocabulary is generic. The hose, hand-over and actor additions were introduced for the source
-exercises (laying „B”/„C” lines, *predaje gornju spojnicu*), but contain no exercise-specific logic.
+exercises (laying „B”/„C” lines, *predaje gornju spojnicu*); held items and storage for the exercises
+with suction lines and vehicles (*podignu usisnu cijev*, *opremu odlažu u spremnike vozila*). None of
+them contains exercise-specific logic.
 
 ## Demonstration sound (`audio.ts`)
 
@@ -291,7 +300,7 @@ Plain JSON, never mutated:
 ```ts
 { seq, time,                         // accepted command count, logical ms
   objects: Record<Id, ObjectState>,  // kind, symbolId, position, rotation, roleId, typeId,
-  objectOrder: Id[],                 //   carriedBy, carrying[], visualState, layout ({a, b} | null)
+  objectOrder: Id[],                 //   carriedBy, carrying[], storedIn, visualState, layout ({a, b} | null)
   connections: Record<Id, Connection>, connectionOrder: Id[],
   actions: Record<Id, { status: 'active' | 'completed', actorIds, startedAt, completedAt? }>,
   steps: Record<Id, { status: 'locked' | 'available' | 'completed', completedAt?, completedSeq?, outOfOrder? }>,

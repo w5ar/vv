@@ -22,7 +22,14 @@ export const SymbolNode = memo(function SymbolNode({ data, selected }: NodeProps
       className={classes}
       style={{ width: data.width, height: data.height }}
       data-testid={`object-${data.objectId}`}
-      title={[data.label ?? data.name, data.roleLabel ? `Uloga: ${data.roleLabel}` : '', data.carried ? 'Nosi se' : ''].filter(Boolean).join('\n')}
+      title={[
+        data.label ?? data.name,
+        data.roleLabel ? `Uloga: ${data.roleLabel}` : '',
+        data.carried ? 'Nosi se' : '',
+        data.stored ? `U spremnicima: ${data.stored}` : '',
+      ]
+        .filter(Boolean)
+        .join('\n')}
     >
       {hose ? (
         <svg className="fds-hose" width={data.width} height={data.height} aria-label={data.name} role="img">
@@ -73,6 +80,11 @@ export const SymbolNode = memo(function SymbolNode({ data, selected }: NodeProps
           {data.showPortLabels ? <span className="fds-port__label">{p.label}</span> : null}
         </Handle>
       ))}
+      {data.stored ? (
+        <span className="fds-node__stored" data-testid={`stored-${data.objectId}`} title={`Oprema u spremnicima: ${data.stored}`}>
+          {data.stored}
+        </span>
+      ) : null}
       {caption || data.roleLabel ? (
         <div className="fds-node__caption">
           {caption ? <span>{caption}</span> : null}

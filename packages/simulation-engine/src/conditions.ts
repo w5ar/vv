@@ -68,7 +68,17 @@ export function evaluateCondition(ctx: ExerciseContext, state: SimulationState, 
     }
     case 'placed': {
       const e = state.objects[condition.equipmentId];
-      return !!e && e.kind === 'equipment' && e.carriedBy === null;
+      return !!e && e.kind === 'equipment' && e.carriedBy === null && !e.storedIn;
+    }
+    case 'stored': {
+      const inContainer = (id: string) => {
+        const e = state.objects[id];
+        return !!e?.storedIn && (condition.containerId === undefined || e.storedIn === condition.containerId);
+      };
+      if (condition.equipmentId) return inContainer(condition.equipmentId);
+      if (!condition.typeId) return false;
+      const stored = state.objectOrder.filter((id) => state.objects[id]?.typeId === condition.typeId && inContainer(id));
+      return stored.length >= (condition.count ?? 1);
     }
     case 'laid': {
       if (condition.equipmentId) return state.objects[condition.equipmentId]?.layout != null;

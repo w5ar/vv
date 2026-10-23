@@ -490,6 +490,8 @@
       "symbolId": "syn.vozilo",
       "portable": false,
       "form": "rigid",
+      "carry": "beside",
+      "container": false,
       "properties": {},
       "provenance": "synthetic",
       "review": {
@@ -503,6 +505,8 @@
       "symbolId": "syn.cijev-velika",
       "portable": true,
       "form": "rigid",
+      "carry": "beside",
+      "container": false,
       "properties": {},
       "provenance": "synthetic",
       "review": {
@@ -516,6 +520,8 @@
       "symbolId": "syn.cijev-mala",
       "portable": true,
       "form": "rigid",
+      "carry": "beside",
+      "container": false,
       "properties": {},
       "provenance": "synthetic",
       "review": {
@@ -529,6 +535,8 @@
       "symbolId": "syn.razdjelnik",
       "portable": true,
       "form": "rigid",
+      "carry": "beside",
+      "container": false,
       "properties": {},
       "provenance": "synthetic",
       "review": {
@@ -542,6 +550,8 @@
       "symbolId": "syn.mlaznica",
       "portable": true,
       "form": "rigid",
+      "carry": "beside",
+      "container": false,
       "properties": {},
       "provenance": "synthetic",
       "review": {
@@ -555,6 +565,8 @@
       "symbolId": "syn.oznaka-cilja",
       "portable": false,
       "form": "rigid",
+      "carry": "beside",
+      "container": false,
       "properties": {},
       "provenance": "synthetic",
       "review": {
@@ -568,6 +580,8 @@
       "symbolId": "syn.oznaka-polazista",
       "portable": false,
       "form": "rigid",
+      "carry": "beside",
+      "container": false,
       "properties": {},
       "provenance": "synthetic",
       "review": {

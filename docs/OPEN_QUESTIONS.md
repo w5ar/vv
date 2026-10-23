@@ -25,14 +25,16 @@ give the scene a real scale.
    connection points): hydrant connection, the two outlets and the inlet of the dvodijelni
    hidrantski nastavak, both ends of „B”/„C” hoses, inlet and three outlets of the trodijelna
    razdjelnica, the inlet of the „C” mlaznica. Please confirm.
-4. **Middle outlet of the trodijelna razdjelnica**: the text only uses the left and right outlets for
-   „C” hoses (Vj1 75, 93). Its type is `pt.neutvrdjen` (undetermined), so nothing can connect to it.
-   Is it „B” or „C”?
+4. **Middle outlet of the trodijelna razdjelnica** — *answered by the later exercises*: Vježba 12 lays
+   the first „B” jet on the middle outlet (*„Prvi „B” mlaz polaže se na srednji otvor razdjelnice”*)
+   and Vježba 13 carries the distributor *„s prijelaznom spojnicom B/C na srednjem otvoru”*, so the
+   middle outlet is typed „B” (`pt.spojnica-b`). Please confirm.
 5. **Outlet of the hydrant nastavak**: the text says only *izlazni otvor* (Vj1 49). The sketches
    start the „B” line at the lower outlet (`izlaz-1`), which the demonstration uses; training
    accepts either outlet. Is one of them prescribed?
-6. **Prijelaznica B/C** (Vj1 24, Vj2 19) is listed but never used or moved; its ports and whether it
-   is portable are not modelled (`portable: false`).
+6. **Prijelaznica B/C** (Vj1 24, Vj2 19) is listed but not used in Vježbe 1 and 2. Vježba 13 uses it on
+   the distributor's middle outlet; it is modelled as portable with a „B” and a „C” side. Which side
+   of the symbol is which is not drawn (assumption).
 7. **Compatibility rules** B–B, C–C and hydrant–hydrant nastavak are derived from the text. Are there
    others (e.g. through the prijelaznica)?
 

@@ -12,6 +12,58 @@
     {
       "file": "00-3-Postrojavanje.md",
       "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
+    },
+    {
+      "file": "03-Vjezba-3.md",
+      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    },
+    {
+      "file": "04-Vjezba-4.md",
+      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    },
+    {
+      "file": "05-Vjezba-5.md",
+      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    },
+    {
+      "file": "06-Vjezba-6.md",
+      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    },
+    {
+      "file": "07-Vjezba-7.md",
+      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    },
+    {
+      "file": "08-Vjezba-8.md",
+      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    },
+    {
+      "file": "09-Vjezba-9.md",
+      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    },
+    {
+      "file": "10-Vjezba-10.md",
+      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    },
+    {
+      "file": "11-Vjezba-11.md",
+      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    },
+    {
+      "file": "12-Vjezba-12.md",
+      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    },
+    {
+      "file": "13-Vjezba-13.md",
+      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    },
+    {
+      "file": "14-Vjezba-14.md",
+      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    },
+    {
+      "file": "15-Vjezba-15.md",
+      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
     }
   ],
   "ignored": [

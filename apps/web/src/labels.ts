@@ -49,6 +49,7 @@ export const COMMAND: Record<CommandType, string> = {
   LayHose: 'Polaganje cijevi',
   RollUpHose: 'Namatanje cijevi',
   HandOverEquipment: 'Predaja opreme',
+  StoreEquipment: 'Spremanje opreme u vozilo',
   AssignRole: 'Dodjela uloge',
   BeginAction: 'Početak radnje',
   CompleteAction: 'Završetak radnje',
@@ -84,7 +85,9 @@ export function describeEvent(ctx: ExerciseContext, e: SimEvent, state?: Simulat
     case 'ObjectRotated':
       return `${name(e.objectId)} je zakrenut na ${Math.round(e.to)}°.`;
     case 'EquipmentPickedUp':
-      return `${name(e.personnelId)} uzima: ${name(e.equipmentId)}.`;
+      return `${name(e.personnelId)} uzima: ${name(e.equipmentId)}${e.containerId ? ` (iz spremnika: ${name(e.containerId)})` : ''}.`;
+    case 'EquipmentStored':
+      return `${name(e.personnelId)} sprema u ${name(e.containerId)}: ${name(e.equipmentId)}.`;
     case 'EquipmentPlaced':
       return `${name(e.personnelId)} odlaže: ${name(e.equipmentId)}.`;
     case 'PortsConnected':

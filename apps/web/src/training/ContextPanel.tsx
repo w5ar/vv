@@ -52,21 +52,34 @@ function RotateButtons({ ctx, obj, onCommand }: { ctx: ExerciseContext; obj: Obj
   );
 }
 
+/** Distance from a point to an object's footprint (or position). */
+function distanceFrom(ctx: ExerciseContext, o: ObjectState, p: { x: number; y: number }): number {
+  const placement = objectPlacement(ctx.catalog, o);
+  return placement ? distanceToPlacement(placement, p) : distance(o.position, p);
+}
+
 function PersonnelContext({ ctx, state, obj, placingId, layingId, onCommand, onStartPlacing, onStartLaying }: ContextPanelProps & { obj: ObjectState }) {
   const roles = [...ctx.catalog.roles.values()];
   const settings = ctx.exercise.settings;
   const receivers = state.objectOrder
     .map((id) => state.objects[id])
     .filter((o): o is ObjectState => !!o && o.kind === 'personnel' && o.id !== obj.id && distance(o.position, obj.position) <= settings.pickUpDistance);
+  // Stored equipment is offered at the distance of its container.
   const portable = state.objectOrder
     .map((id) => state.objects[id])
     .filter((o): o is ObjectState => !!o && o.kind === 'equipment' && !o.carriedBy && !!o.typeId && ctx.catalog.equipmentTypes.get(o.typeId)?.portable === true)
     .map((o) => {
-      const placement = objectPlacement(ctx.catalog, o);
-      return { o, d: placement ? distanceToPlacement(placement, obj.position) : distance(o.position, obj.position) };
+      const container = o.storedIn ? state.objects[o.storedIn] : undefined;
+      return { o, container, d: distanceFrom(ctx, container ?? o, obj.position) };
     })
     .sort((a, b) => a.d - b.d)
-    .slice(0, 6);
+    .slice(0, 8);
+  const containers = state.objectOrder
+    .map((id) => state.objects[id])
+    .filter(
+      (o): o is ObjectState =>
+        !!o && o.kind === 'equipment' && !!o.typeId && ctx.catalog.equipmentTypes.get(o.typeId)?.container === true && distanceFrom(ctx, o, obj.position) <= settings.placeDistance,
+    );
   const actions = ctx.exercise.actions.filter(
     (a) => state.actions[a.id]?.status !== 'completed' && (a.actorRoleIds.length === 0 || (obj.roleId !== null && a.actorRoleIds.includes(obj.roleId))),
   );
@@ -103,6 +116,17 @@ function PersonnelContext({ ctx, state, obj, placingId, layingId, onCommand, onS
                 {placingId === id ? 'Kliknite na scenu…' : 'Odloži…'}
               </button>
               {isHose(ctx, state.objects[id]) ? <LayButton id={id} layingId={layingId} onStartLaying={onStartLaying} /> : null}
+              {containers.map((c) => (
+                <button
+                  key={c.id}
+                  className="btn btn--small"
+                  onClick={() => onCommand([{ type: 'StoreEquipment', personnelId: obj.id, equipmentId: id, containerId: c.id }])}
+                  data-testid={`store-${id}-${c.id}`}
+                  title={`Spremi u spremnik: ${objectName(ctx, c)}`}
+                >
+                  Spremi u {objectName(ctx, c)}
+                </button>
+              ))}
               {receivers.length > 0 ? (
                 <select
                   className="select--small"
@@ -128,11 +152,15 @@ function PersonnelContext({ ctx, state, obj, placingId, layingId, onCommand, onS
         <p className="muted">Nema slobodne prijenosne opreme.</p>
       ) : (
         <ul className="list">
-          {portable.map(({ o, d }) => {
+          {portable.map(({ o, container, d }) => {
             const far = d > settings.pickUpDistance;
             return (
               <li key={o.id}>
-                {objectName(ctx, o)} <span className="muted">({Math.round(d)})</span>{' '}
+                {objectName(ctx, o)}{' '}
+                <span className="muted">
+                  ({container ? `u spremniku: ${objectName(ctx, container)}, ` : ''}
+                  {Math.round(d)})
+                </span>{' '}
                 <button
                   className="btn btn--small"
                   disabled={far}
@@ -194,6 +222,24 @@ function PersonnelContext({ ctx, state, obj, placingId, layingId, onCommand, onS
   );
 }
 
+function StoredList({ ctx, state, containerId }: { ctx: ExerciseContext; state: SimulationState; containerId: Id }) {
+  const stored = state.objectOrder.map((id) => state.objects[id]).filter((o): o is ObjectState => !!o && o.storedIn === containerId);
+  return (
+    <>
+      <h4>U spremnicima</h4>
+      {stored.length === 0 ? (
+        <p className="muted">Prazno.</p>
+      ) : (
+        <ul className="list" data-testid={`stored-list-${containerId}`}>
+          {stored.map((o) => (
+            <li key={o.id}>{objectName(ctx, o)}</li>
+          ))}
+        </ul>
+      )}
+    </>
+  );
+}
+
 function EquipmentContext({ ctx, state, obj, layingId, onCommand, onStartLaying }: ContextPanelProps & { obj: ObjectState }) {
   const symbol = ctx.catalog.symbols.get(obj.symbolId);
   const type = obj.typeId ? ctx.catalog.equipmentTypes.get(obj.typeId) : undefined;
@@ -208,6 +254,7 @@ function EquipmentContext({ ctx, state, obj, layingId, onCommand, onStartLaying 
         {obj.carriedBy ? ` · nosi: ${objectName(ctx, state.objects[obj.carriedBy], obj.carriedBy)}` : ''}
         {obj.layout ? ` · položena (${Math.round(distance(obj.layout.a, obj.layout.b))})` : ''}
       </p>
+      {type?.container ? <StoredList ctx={ctx} state={state} containerId={obj.id} /> : null}
       {type?.form === 'hose' ? (
         <>
           <h4>Cijev</h4>

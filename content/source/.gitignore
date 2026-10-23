@@ -1,0 +1,7 @@
+# Izvorni skenovi
+*.pdf
+*.PDF
+
+# Sistemske i privremene datoteke
+.DS_Store
+__pycache__/

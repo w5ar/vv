@@ -31,6 +31,8 @@ export const EquipmentInstanceSchema = z.strictObject({
   state: IdSchema.optional(),
   /** Personnel id currently carrying the equipment. */
   carriedBy: IdSchema.nullable().default(null),
+  /** Container (vehicle) whose compartments hold the equipment; it is then not on the scene. */
+  storedIn: IdSchema.optional(),
   /** Hoses only: laid between end A and end B (world positions). Omitted = rolled (coil). */
   layout: z.strictObject({ a: Vec2Schema, b: Vec2Schema }).optional(),
   ...traceShape,

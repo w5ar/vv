@@ -5,7 +5,7 @@ import { resolveLayFrom } from './commands';
 import { executeCommand } from './engine';
 import { createInitialState } from './initial-state';
 import { replay } from './session';
-import { carriedPosition } from './world';
+import { carriedPosition, isHeld } from './world';
 
 /**
  * Demonstration timeline.
@@ -91,6 +91,7 @@ function animatedObjects(state: SimulationState, command: Command): Id[] {
       return [command.objectId];
     case 'PickUpEquipment':
     case 'PlaceEquipment':
+    case 'StoreEquipment':
       return [command.personnelId, command.equipmentId];
     case 'BeginAction':
       return [...command.actorIds];
@@ -124,6 +125,7 @@ function defaultDuration(ctx: ExerciseContext, state: SimulationState, command: 
     case 'PickUpEquipment':
       return a.pickUpMs;
     case 'PlaceEquipment':
+    case 'StoreEquipment':
       return a.placeMs;
     case 'ConnectPorts':
       return a.connectMs;
@@ -445,10 +447,18 @@ export function frameAt(ctx: ExerciseContext, timeline: Timeline, t: number): Vi
       case 'PickUpEquipment': {
         const person = state.objects[cmd.personnelId];
         const eq = state.objects[cmd.equipmentId];
-        if (person && eq) {
-          const target = carriedPosition(ctx, person.position, person.carrying.length);
+        // A held item is lifted where it lies; only items taken out of a container travel.
+        if (person && eq && (!isHeld(ctx, eq) || eq.storedIn)) {
+          const target = isHeld(ctx, eq) ? person.position : carriedPosition(ctx, person.position, person.carrying.length);
           overrides[eq.id] = { ...overrides[eq.id], position: lerpVec(eq.position, target, p) };
         }
+        acting.add(cmd.personnelId);
+        break;
+      }
+      case 'StoreEquipment': {
+        const eq = state.objects[cmd.equipmentId];
+        const container = state.objects[cmd.containerId];
+        if (eq && container) overrides[eq.id] = { ...overrides[eq.id], position: lerpVec(eq.position, container.position, p) };
         acting.add(cmd.personnelId);
         break;
       }
@@ -503,7 +513,7 @@ export function frameAt(ctx: ExerciseContext, timeline: Timeline, t: number): Vi
       case 'HandOverEquipment': {
         const to = state.objects[cmd.toId];
         const eq = state.objects[cmd.equipmentId];
-        if (to && eq) {
+        if (to && eq && !isHeld(ctx, eq)) {
           const target = carriedPosition(ctx, to.position, to.carrying.length);
           overrides[eq.id] = { ...overrides[eq.id], position: lerpVec(eq.position, target, p) };
         }
@@ -514,13 +524,19 @@ export function frameAt(ctx: ExerciseContext, timeline: Timeline, t: number): Vi
     }
   }
 
-  // Carried items follow their carrier's displayed position.
+  // Carried items follow their carrier's displayed position (held items by the same offset).
   for (const id of state.objectOrder) {
     const obj = state.objects[id];
     const ov = obj ? overrides[id] : undefined;
     if (!obj || obj.kind !== 'personnel' || !ov?.position) continue;
+    const shown = ov.position;
     obj.carrying.forEach((itemId, slot) => {
-      overrides[itemId] = { ...overrides[itemId], position: carriedPosition(ctx, ov.position as Vec2, slot) };
+      const item = state.objects[itemId];
+      const position =
+        item && isHeld(ctx, item)
+          ? { x: item.position.x + shown.x - obj.position.x, y: item.position.y + shown.y - obj.position.y }
+          : carriedPosition(ctx, shown, slot);
+      overrides[itemId] = { ...overrides[itemId], position };
     });
   }
 

@@ -15,7 +15,10 @@ import { containsTerm, normalizeName, slugify, toPosix } from './util';
  *
  * excluding image-only paragraphs, figure captions (`**Skica 11** – …`), tables and lists recognised
  * as participant lists ("zapovjednik (Z),") or equipment lists ("3 „B” tlačne cijevi,"), which are
- * extracted separately. Bold quoted text („…!”) is extracted verbatim as **orders**. Pipe tables with
+ * extracted separately. A list introduced by a paragraph about who performs the exercise
+ * („…izvodi odjeljenje…”) or about the required equipment („…potrebna je … oprema…”) is read as a
+ * participant or equipment list as a whole, so items without an abbreviation or quantity
+ * („teklić.”, „prijenosna motorna vatrogasna pumpa,”) are not taken for steps. Bold quoted text („…!”) is extracted verbatim as **orders**. Pipe tables with
  * image references are extracted as **legend** entries (image file + displayed name).
  *
  * Role and equipment mentions are detected only from an explicit lexicon (catalog names + `terms`
@@ -73,6 +76,10 @@ const CAPTION = /^\*\*(Skica|Slika)\s+\d+\*\*/;
 const ORDER = /\*\*(„[\s\S]*?”)\*\*/g;
 const QUANTITY_ITEM = /^(\d+)\s+(.+?)[,.;]?$/;
 const PARTICIPANT_ITEM = /^(.+?)\s*\(([A-ZČĆŽŠĐ][\p{L}\p{N}₀-₉]{0,5})\)[,.;]?$/u;
+const PARTICIPANTS_INTRO = /\bvježbu\s+izvodi\b/i;
+const EQUIPMENT_INTRO = /\bza\s+izvođenje\s+vježbe\s+potrebn/i;
+
+type ListContext = 'participants' | 'equipment' | null;
 
 /** Orders („…!”) inside bold text; a bold run with several quotations yields several orders. */
 export function extractOrders(text: string): string[] {
@@ -195,7 +202,7 @@ export function analyzeProcedure(
     for (const o of extractOrders(text)) orders.push({ text: o, line, candidateId: id });
   };
 
-  const handleList = (list: List) => {
+  const handleList = (list: List, context: ListContext) => {
     list.children.forEach((item: ListItem, index) => {
       const line = item.position?.start.line ?? 0;
       const lineEnd = item.position?.end.line ?? line;
@@ -209,16 +216,18 @@ export function analyzeProcedure(
         const qty = QUANTITY_ITEM.exec(plainText);
         const who = PARTICIPANT_ITEM.exec(plainText);
         const roleIds = mentions(plainText, lexicon.roles);
-        if (qty) {
+        if (context === 'equipment' || (qty && context !== 'participants')) {
+          const name = (qty ? (qty[2] ?? '') : plainText.replace(/[,.;]$/, '')).trim();
           equipmentList.push({
-            text: (qty[2] ?? '').trim(),
-            quantity: Number(qty[1]),
+            text: name,
+            ...(qty ? { quantity: Number(qty[1]) } : {}),
             line,
             sectionId: current.id,
-            equipmentTypeIds: mentions(qty[2] ?? '', lexicon.equipment),
+            equipmentTypeIds: mentions(name, lexicon.equipment),
           });
-        } else if (who && plainText.length <= 80) {
-          participants.push({ text: (who[1] ?? '').trim(), abbreviation: who[2]?.trim(), line, sectionId: current.id, roleIds });
+        } else if (context === 'participants' || (who && plainText.length <= 80)) {
+          const name = (who ? (who[1] ?? '') : plainText.replace(/[,.;]$/, '')).trim();
+          participants.push({ text: name, ...(who?.[2] ? { abbreviation: who[2].trim() } : {}), line, sectionId: current.id, roleIds });
           if (roleIds.length === 0) {
             diagnostics.push({
               code: 'mapping.unresolved-role',
@@ -232,15 +241,19 @@ export function analyzeProcedure(
           addCandidate('list-item', `l${++counter().l}`, content, line, lineEnd);
         }
       }
-      for (const nested of item.children) if (nested.type === 'list') handleList(nested);
+      for (const nested of item.children) if (nested.type === 'list') handleList(nested, null);
     });
   };
 
   const isImageOnly = (n: Nodes) =>
     'children' in n && (n.children as Nodes[]).every((c) => c.type === 'image' || (c.type === 'text' && !c.value.trim()));
 
+  // The paragraph right before a list decides how the list is read (see ListContext).
+  let intro = '';
   for (const node of tree.children) {
     collectRefs(node);
+    const introText = intro;
+    intro = node.type === 'paragraph' ? plain(node) : '';
     if (node.type === 'heading') {
       const text = plain(node).trim();
       if (node.depth === 1 && title === undefined) title = text;
@@ -260,7 +273,7 @@ export function analyzeProcedure(
       };
       sections.push(current);
     } else if (node.type === 'list') {
-      handleList(node);
+      handleList(node, PARTICIPANTS_INTRO.test(introText) ? 'participants' : EQUIPMENT_INTRO.test(introText) ? 'equipment' : null);
     } else if (node.type === 'paragraph') {
       const text = verbatim(source, [node]);
       const line = node.position?.start.line ?? 0;

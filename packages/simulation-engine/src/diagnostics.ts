@@ -169,6 +169,15 @@ function conditionRefs(ctx: ExerciseContext, state: SimulationState, cond: Condi
       case 'placed':
         obj(c.equipmentId);
         break;
+      case 'stored':
+        if (!c.equipmentId && !c.typeId) {
+          out.push(d('condition.selector-empty', 'error', `${path}: uvjet „stored” mora navesti opremu ili vrstu opreme.`, { path }));
+          break;
+        }
+        if (c.equipmentId) obj(c.equipmentId);
+        if (c.typeId) type(c.typeId);
+        if (c.containerId) obj(c.containerId);
+        break;
       case 'laid': {
         if (!c.equipmentId && !c.typeId) {
           out.push(d('condition.selector-empty', 'error', `${path}: uvjet „laid” mora navesti cijev ili vrstu cijevi.`, { path }));
@@ -249,6 +258,15 @@ export function checkExercise(exercise: Exercise, catalog: Catalog): ExerciseChe
     }
     if (e.layout && e.carriedBy) {
       out.push(d('scene.layout-carried', 'error', `Oprema ${e.id}: položena cijev ne može se istodobno nositi.`, { path, subjectId: e.id }));
+    }
+    if (e.storedIn) {
+      const container = scene.equipment.find((x) => x.id === e.storedIn);
+      if (!container || ctx.catalog.equipmentTypes.get(container.typeId)?.container !== true) {
+        out.push(d('ref.unknown-container', 'error', `Oprema ${e.id}: „${e.storedIn}” nije vozilo sa spremnicima.`, { path, subjectId: e.id }));
+      }
+      if (e.carriedBy || e.layout) {
+        out.push(d('scene.stored-in-use', 'error', `Oprema ${e.id}: spremljena oprema ne može se nositi niti biti položena.`, { path, subjectId: e.id }));
+      }
     }
   });
 

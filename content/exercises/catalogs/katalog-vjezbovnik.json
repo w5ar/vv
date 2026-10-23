@@ -107,9 +107,109 @@
       "provenance": "assumption",
       "review": {
         "status": "requires-review",
-        "notes": "Vrsta srednjeg otvora trodijelne razdjelnice nije navedena u izvorima; bez pravila spajanja."
+        "notes": "Više se ne koristi: srednji otvor trodijelne razdjelnice je „B” (vježbe 12 i 13)."
       },
       "sources": []
+    },
+    {
+      "id": "pt.spojnica-a",
+      "name": "Spojnica usisne cijevi",
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 54,
+          "excerpt": "V₁ i C₁ spajaju spojnice usisne cijevi"
+        }
+      ]
+    },
+    {
+      "id": "pt.sitka",
+      "name": "Spojnica usisne sitke",
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 60,
+          "excerpt": "V₁ i C₁ tako postavljeni spajaju usisnu sitku i usisnu cijev rukama"
+        }
+      ]
+    },
+    {
+      "id": "pt.usisni-otvor",
+      "name": "Usisni otvor pumpe",
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 140,
+          "excerpt": "Strojar spaja usisni vod na usisni otvor MVP rukama"
+        },
+        {
+          "file": "content/source/06-Vjezba-6.md",
+          "line": 40,
+          "excerpt": "Strojar uzima sabirnicu u desnu ruku, spaja je na usisni otvor motorne pumpe"
+        }
+      ]
+    },
+    {
+      "id": "pt.sabirnica",
+      "name": "Priključak sabirnice na pumpu",
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/06-Vjezba-6.md",
+          "line": 40,
+          "excerpt": "Strojar uzima sabirnicu u desnu ruku, spaja je na usisni otvor motorne pumpe"
+        }
+      ]
+    },
+    {
+      "id": "pt.karika",
+      "name": "Karika (usisna sitka, nepovratni ventil)",
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 108,
+          "excerpt": "stavlja karabin na kariku usisne sitke"
+        },
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 100,
+          "excerpt": "uzima torbicu s užetom koju zakvači na kariku nepovratnog ventila"
+        }
+      ]
+    },
+    {
+      "id": "pt.karabin",
+      "name": "Karabin užeta",
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 108,
+          "excerpt": "stavlja karabin na kariku usisne sitke"
+        }
+      ]
     }
   ],
   "connectionRules": [
@@ -189,9 +289,206 @@
           "excerpt": "priključuje hidrantski nastavak na hidrant"
         }
       ]
+    },
+    {
+      "id": "pravilo.a-a",
+      "portTypes": [
+        "pt.spojnica-a",
+        "pt.spojnica-a"
+      ],
+      "effect": "allow",
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 54,
+          "excerpt": "V₁ i C₁ spajaju spojnice usisne cijevi"
+        },
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 74,
+          "excerpt": "V₁ i C₁ ponove radnju spajanja"
+        }
+      ]
+    },
+    {
+      "id": "pravilo.sitka-a",
+      "portTypes": [
+        "pt.sitka",
+        "pt.spojnica-a"
+      ],
+      "effect": "allow",
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 60,
+          "excerpt": "V₁ i C₁ tako postavljeni spajaju usisnu sitku i usisnu cijev rukama"
+        }
+      ]
+    },
+    {
+      "id": "pravilo.usisni-otvor-a",
+      "portTypes": [
+        "pt.usisni-otvor",
+        "pt.spojnica-a"
+      ],
+      "effect": "allow",
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 140,
+          "excerpt": "Strojar spaja usisni vod na usisni otvor MVP rukama"
+        }
+      ]
+    },
+    {
+      "id": "pravilo.usisni-otvor-sabirnica",
+      "portTypes": [
+        "pt.usisni-otvor",
+        "pt.sabirnica"
+      ],
+      "effect": "allow",
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/06-Vjezba-6.md",
+          "line": 40,
+          "excerpt": "Strojar uzima sabirnicu u desnu ruku, spaja je na usisni otvor motorne pumpe"
+        }
+      ]
+    },
+    {
+      "id": "pravilo.karabin-karika",
+      "portTypes": [
+        "pt.karabin",
+        "pt.karika"
+      ],
+      "effect": "allow",
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 108,
+          "excerpt": "stavlja karabin na kariku usisne sitke"
+        },
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 100,
+          "excerpt": "uzima torbicu s užetom koju zakvači na kariku nepovratnog ventila"
+        }
+      ]
     }
   ],
   "symbols": [
+    {
+      "id": "src.autocisterna",
+      "name": "Autocisterna (AC)",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/autocisterna.svg"
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "anchors": [],
+      "ports": [
+        {
+          "id": "usisni-otvor",
+          "type": "pt.usisni-otvor",
+          "position": {
+            "x": 2,
+            "y": 22
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "in",
+          "label": "Usisni otvor"
+        },
+        {
+          "id": "tlacni-izlaz",
+          "type": "pt.spojnica-b",
+          "position": {
+            "x": 24,
+            "y": 58
+          },
+          "direction": 90,
+          "maxConnections": 1,
+          "flow": "out",
+          "label": "Tlačni izlaz pumpe"
+        },
+        {
+          "id": "punjenje",
+          "type": "pt.spojnica-b",
+          "position": {
+            "x": 2,
+            "y": 42
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "in",
+          "label": "Otvor za punjenje rezervoara"
+        }
+      ],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Položaji priključaka prema alati/skice_vjezbe_05_08.py (ac, _hidrant_ac). Vrsta tlačnog izlaza i otvora za punjenje („B”) izvedena je iz priključivanja „B” cijevi."
+      },
+      "sources": [
+        {
+          "file": "simboli/autocisterna.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 49,
+          "excerpt": "Autocisterna (AC) – dodano, koristi se u vježbama 7 i 8"
+        },
+        {
+          "file": "07-Vjezba-7.md",
+          "line": 44,
+          "excerpt": "spaja svoju „B” cijev na tlačni izlaz iz pumpe na AC"
+        },
+        {
+          "file": "08-Vjezba-8.md",
+          "line": 29,
+          "excerpt": "Donju spojnicu „B” cijevi spaja na otvor za punjenje rezervoara na vozilu"
+        },
+        {
+          "file": "07-Vjezba-7.md",
+          "line": 76,
+          "excerpt": "Spajanje, vezanje i prenošenje usisnog voda, navalna grupa obavlja kao u"
+        },
+        {
+          "file": "alati/skice_vjezbe_05_08.py",
+          "line": 43,
+          "excerpt": "return (x - AC_L, y - 8), (x - AC_L + 22, y + AC_D)"
+        }
+      ]
+    },
     {
       "id": "src.c1",
       "name": "Vođa cijevne grupe",
@@ -231,8 +528,8 @@
         },
         {
           "file": "alati/vatrogasni_simboli.py",
-          "line": 298,
-          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+          "line": 372,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18, ia=False):"
         }
       ]
     },
@@ -275,8 +572,8 @@
         },
         {
           "file": "alati/vatrogasni_simboli.py",
-          "line": 298,
-          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+          "line": 372,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18, ia=False):"
         }
       ]
     },
@@ -429,6 +726,46 @@
       ]
     },
     {
+      "id": "src.ia-ljestve",
+      "name": "IA na leđima",
+      "category": "elementi-skice",
+      "asset": {
+        "path": "content/source/simboli/ia-ljestve.svg"
+      },
+      "size": {
+        "width": 12,
+        "height": 26
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": true,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review",
+        "notes": "Crta se iza osobe (nasuprot crtice smjera), 33 jedinice od središta (alati/vatrogasni_simboli.py, osoba(..., ia=True))."
+      },
+      "sources": [
+        {
+          "file": "simboli/ia-ljestve.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 60,
+          "excerpt": "Izolacijski aparat na leđima vatrogasca (crta se uz krug osobe"
+        },
+        {
+          "file": "alati/vatrogasni_simboli.py",
+          "line": 372,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18, ia=False):"
+        }
+      ]
+    },
+    {
       "id": "src.izolacijski-aparat",
       "name": "Izolacijski aparat",
       "category": "oprema",
@@ -542,16 +879,42 @@
         "height": 30
       },
       "anchors": [],
-      "ports": [],
+      "ports": [
+        {
+          "id": "ulaz",
+          "type": "pt.spojnica-c",
+          "position": {
+            "x": 2,
+            "y": 17
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "in",
+          "label": "Ulaz"
+        },
+        {
+          "id": "izlaz",
+          "type": "pt.spojnica-c",
+          "position": {
+            "x": 78,
+            "y": 17
+          },
+          "direction": 0,
+          "maxConnections": 1,
+          "flow": "out",
+          "label": "Izlaz"
+        }
+      ],
       "rotation": {
         "mode": "free"
       },
       "semantics": {},
       "visualStates": [],
       "annotation": false,
-      "provenance": "source",
+      "provenance": "derived",
       "review": {
-        "status": "requires-review"
+        "status": "requires-review",
+        "notes": "Ulaz i izlaz na krajevima simbola (crtice); usisna cijev za pjenilo nije modelirana kao priključak."
       },
       "sources": [
         {
@@ -561,6 +924,11 @@
           "file": "00-2-Legenda.md",
           "line": 33,
           "excerpt": "Međumješalica"
+        },
+        {
+          "file": "13-Vjezba-13.md",
+          "line": 40,
+          "excerpt": "spoji međumješalicu sa spojnicama prve i druge „C” cijevi"
         }
       ]
     },
@@ -576,16 +944,30 @@
         "height": 32
       },
       "anchors": [],
-      "ports": [],
+      "ports": [
+        {
+          "id": "ulaz",
+          "type": "pt.spojnica-c",
+          "position": {
+            "x": 2,
+            "y": 16
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "in",
+          "label": "Spojnica mlaznice"
+        }
+      ],
       "rotation": {
         "mode": "free"
       },
       "semantics": {},
       "visualStates": [],
       "annotation": false,
-      "provenance": "source",
+      "provenance": "derived",
       "review": {
-        "status": "requires-review"
+        "status": "requires-review",
+        "notes": "Spojnica na stražnjem kraju simbola."
       },
       "sources": [
         {
@@ -595,50 +977,11 @@
           "file": "00-2-Legenda.md",
           "line": 32,
           "excerpt": "Mlaznica za pjenu"
-        }
-      ]
-    },
-    {
-      "id": "src.n1-ia",
-      "name": "N1 s IA",
-      "category": "osoblje",
-      "asset": {
-        "path": "content/source/simboli/n1-ia.svg"
-      },
-      "size": {
-        "width": 40,
-        "height": 66
-      },
-      "anchors": [],
-      "ports": [],
-      "rotation": {
-        "mode": "free"
-      },
-      "semantics": {},
-      "visualStates": [],
-      "directionMarker": {
-        "symbolId": "src.smjer",
-        "distance": 25
-      },
-      "annotation": false,
-      "provenance": "source",
-      "review": {
-        "status": "requires-review",
-        "notes": "Crtica smjera (src.smjer) crta se 25 jedinica od središta (r + 7 u alati/vatrogasni_simboli.py)."
-      },
-      "sources": [
-        {
-          "file": "simboli/n1-ia.svg"
         },
         {
-          "file": "00-2-Legenda.md",
-          "line": 48,
-          "excerpt": "N1 s IA"
-        },
-        {
-          "file": "alati/vatrogasni_simboli.py",
-          "line": 298,
-          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+          "file": "13-Vjezba-13.md",
+          "line": 40,
+          "excerpt": "spaja mlaznicu za pjenu"
         }
       ]
     },
@@ -681,17 +1024,17 @@
         },
         {
           "file": "alati/vatrogasni_simboli.py",
-          "line": 298,
-          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+          "line": 372,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18, ia=False):"
         }
       ]
     },
     {
-      "id": "src.n2-ia",
-      "name": "N2 s IA",
+      "id": "src.n1-ia",
+      "name": "N1 s IA",
       "category": "osoblje",
       "asset": {
-        "path": "content/source/simboli/n2-ia.svg"
+        "path": "content/source/simboli/n1-ia.svg"
       },
       "size": {
         "width": 40,
@@ -716,17 +1059,17 @@
       },
       "sources": [
         {
-          "file": "simboli/n2-ia.svg"
+          "file": "simboli/n1-ia.svg"
         },
         {
           "file": "00-2-Legenda.md",
           "line": 48,
-          "excerpt": "N2 s IA"
+          "excerpt": "N1 s IA"
         },
         {
           "file": "alati/vatrogasni_simboli.py",
-          "line": 298,
-          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+          "line": 372,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18, ia=False):"
         }
       ]
     },
@@ -769,8 +1112,52 @@
         },
         {
           "file": "alati/vatrogasni_simboli.py",
-          "line": 298,
-          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+          "line": 372,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18, ia=False):"
+        }
+      ]
+    },
+    {
+      "id": "src.n2-ia",
+      "name": "N2 s IA",
+      "category": "osoblje",
+      "asset": {
+        "path": "content/source/simboli/n2-ia.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 66
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "directionMarker": {
+        "symbolId": "src.smjer",
+        "distance": 25
+      },
+      "annotation": false,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review",
+        "notes": "Crtica smjera (src.smjer) crta se 25 jedinica od središta (r + 7 u alati/vatrogasni_simboli.py)."
+      },
+      "sources": [
+        {
+          "file": "simboli/n2-ia.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 48,
+          "excerpt": "N2 s IA"
+        },
+        {
+          "file": "alati/vatrogasni_simboli.py",
+          "line": 372,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18, ia=False):"
         }
       ]
     },
@@ -782,20 +1169,58 @@
         "path": "content/source/simboli/navalno-vozilo.svg"
       },
       "size": {
-        "width": 120,
-        "height": 60
+        "width": 150,
+        "height": 75
       },
       "anchors": [],
-      "ports": [],
+      "ports": [
+        {
+          "id": "usisni-otvor",
+          "type": "pt.usisni-otvor",
+          "position": {
+            "x": 2,
+            "y": 32.5
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "in",
+          "label": "Usisni otvor"
+        },
+        {
+          "id": "tlacni-izlaz",
+          "type": "pt.spojnica-b",
+          "position": {
+            "x": 30,
+            "y": 75
+          },
+          "direction": 90,
+          "maxConnections": 1,
+          "flow": "out",
+          "label": "Tlačni izlaz pumpe"
+        },
+        {
+          "id": "punjenje",
+          "type": "pt.spojnica-b",
+          "position": {
+            "x": 2,
+            "y": 51.5
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "in",
+          "label": "Otvor za punjenje rezervoara"
+        }
+      ],
       "rotation": {
         "mode": "free"
       },
       "semantics": {},
       "visualStates": [],
       "annotation": false,
-      "provenance": "source",
+      "provenance": "derived",
       "review": {
-        "status": "requires-review"
+        "status": "requires-review",
+        "notes": "Veličina prema skicama vježbi 9–14 (širina 150, alati/skice_vjezbe_09_12.py NV_SIR). Tekst vježbi 9–14 upućuje na vježbe 5, 7 i 8; položaji priključaka prema alati/skice_vjezbe_09_12.py (b_vod_od_vozila, hidrant_do_vozila, usisni_vod_do_vozila)."
       },
       "sources": [
         {
@@ -805,6 +1230,31 @@
           "file": "00-2-Legenda.md",
           "line": 46,
           "excerpt": "Navalno vozilo (NV)"
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 34,
+          "excerpt": "prenošenje usisnog voda do crpilišta, obavlja vodna grupa i strojar kao što je to obavljala navalna grupa sa strojarem u"
+        },
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 34,
+          "excerpt": "odlazi na polaganje cijevnog voda od hidranta do vozila kao u"
+        },
+        {
+          "file": "alati/skice_vjezbe_09_12.py",
+          "line": 25,
+          "excerpt": "sx, sy = nx - NV_SIR / 2 + 30, ny + NV_VIS / 2"
+        },
+        {
+          "file": "alati/skice_vjezbe_09_12.py",
+          "line": 34,
+          "excerpt": "xl, yl = nx - NV_SIR / 2 + 2, ny + 14"
+        },
+        {
+          "file": "alati/skice_vjezbe_09_12.py",
+          "line": 40,
+          "excerpt": "xl, yl = nx - NV_SIR / 2 + 2, ny - 5"
         }
       ]
     },
@@ -820,16 +1270,30 @@
         "height": 12
       },
       "anchors": [],
-      "ports": [],
+      "ports": [
+        {
+          "id": "ulaz",
+          "type": "pt.spojnica-b",
+          "position": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "in",
+          "label": "Spojnica mlaznice"
+        }
+      ],
       "rotation": {
         "mode": "free"
       },
       "semantics": {},
       "visualStates": [],
       "annotation": false,
-      "provenance": "source",
+      "provenance": "derived",
       "review": {
-        "status": "requires-review"
+        "status": "requires-review",
+        "notes": "Spojnica mlaznice na lijevom kraju simbola (crtica), kao kod „C” mlaznice."
       },
       "sources": [
         {
@@ -839,6 +1303,16 @@
           "file": "00-2-Legenda.md",
           "line": 30,
           "excerpt": "Obična „B” mlaznica"
+        },
+        {
+          "file": "12-Vjezba-12.md",
+          "line": 32,
+          "excerpt": "„B” mlaznicu s ublaživačem reakcije mlaza"
+        },
+        {
+          "file": "12-Vjezba-12.md",
+          "line": 32,
+          "excerpt": "Postupci spajanja i polaganja cijevi prvog mlaza isti su kao u"
         }
       ]
     },
@@ -1299,16 +1773,42 @@
         "height": 40
       },
       "anchors": [],
-      "ports": [],
+      "ports": [
+        {
+          "id": "b",
+          "type": "pt.spojnica-b",
+          "position": {
+            "x": 2,
+            "y": 20
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Strana „B”"
+        },
+        {
+          "id": "c",
+          "type": "pt.spojnica-c",
+          "position": {
+            "x": 38,
+            "y": 20
+          },
+          "direction": 0,
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Strana „C”"
+        }
+      ],
       "rotation": {
         "mode": "free"
       },
       "semantics": {},
       "visualStates": [],
       "annotation": false,
-      "provenance": "source",
+      "provenance": "derived",
       "review": {
-        "status": "requires-review"
+        "status": "requires-review",
+        "notes": "Strane „B” i „C” na suprotnim krajevima simbola (tehnička pretpostavka; crtež ne razlikuje strane)."
       },
       "sources": [
         {
@@ -1318,6 +1818,16 @@
           "file": "00-2-Legenda.md",
           "line": 39,
           "excerpt": "Prijelazna spojnica B/C"
+        },
+        {
+          "file": "13-Vjezba-13.md",
+          "line": 38,
+          "excerpt": "razdjelnicu s prijelaznom spojnicom B/C na srednjem otvoru"
+        },
+        {
+          "file": "13-Vjezba-13.md",
+          "line": 40,
+          "excerpt": "Navalna grupa počinje polaganje prvog mlaza na srednji otvor razdjelnice"
         }
       ]
     },
@@ -1329,20 +1839,46 @@
         "path": "content/source/simboli/prijenosna-pumpa.svg"
       },
       "size": {
-        "width": 112,
-        "height": 50
+        "width": 150,
+        "height": 66.97
       },
       "anchors": [],
-      "ports": [],
+      "ports": [
+        {
+          "id": "usisni-otvor",
+          "type": "pt.usisni-otvor",
+          "position": {
+            "x": 6.7,
+            "y": 33.48
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "in",
+          "label": "Usisni otvor"
+        },
+        {
+          "id": "tlacni-otvor",
+          "type": "pt.spojnica-b",
+          "position": {
+            "x": 83.04,
+            "y": 65.63
+          },
+          "direction": 90,
+          "maxConnections": 1,
+          "flow": "out",
+          "label": "Tlačni otvor"
+        }
+      ],
       "rotation": {
         "mode": "free"
       },
       "semantics": {},
       "visualStates": [],
       "annotation": false,
-      "provenance": "source",
+      "provenance": "derived",
       "review": {
-        "status": "requires-review"
+        "status": "requires-review",
+        "notes": "Veličina prema skicama vježbi 3, 4 i 15 (širina 150, alati/skice_vjezbe_03.py PUMPA_W); skice vježbi 5 i 6 crtaju pumpu u izvornoj veličini. Usisni otvor lijevo, tlačni otvor na donjem rubu kućišta, kao u alati/skice_vjezbe_05_08.py (mp). Vrsta tlačnog otvora („B”) izvedena je iz priključivanja „B” cijevi."
       },
       "sources": [
         {
@@ -1352,6 +1888,60 @@
           "file": "00-2-Legenda.md",
           "line": 38,
           "excerpt": "Prijenosna vatrogasna pumpa (MP)"
+        },
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 140,
+          "excerpt": "Strojar spaja usisni vod na usisni otvor MVP rukama"
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 82,
+          "excerpt": "Strojar otpaja „B” cijev s tlačnog otvora motorne pumpe"
+        },
+        {
+          "file": "15-Vjezba-15.md",
+          "line": 170,
+          "excerpt": "donju spojnicu priključuje na tlačni otvor motorne pumpe"
+        },
+        {
+          "file": "alati/skice_vjezbe_05_08.py",
+          "line": 37,
+          "excerpt": "return (x - MP_L - 8, y), t"
+        }
+      ]
+    },
+    {
+      "id": "src.prikljucak-pumpe",
+      "name": "Priključak pumpe",
+      "category": "elementi-skice",
+      "asset": {
+        "path": "content/source/simboli/prikljucak-pumpe.svg"
+      },
+      "size": {
+        "width": 8,
+        "height": 18
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": true,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/prikljucak-pumpe.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 62,
+          "excerpt": "Priključak (usisni ili tlačni otvor) motorne pumpe ili vozila"
         }
       ]
     },
@@ -1367,16 +1957,54 @@
         "height": 40
       },
       "anchors": [],
-      "ports": [],
+      "ports": [
+        {
+          "id": "izlaz",
+          "type": "pt.sabirnica",
+          "position": {
+            "x": 25,
+            "y": 2
+          },
+          "direction": 270,
+          "maxConnections": 1,
+          "flow": "out",
+          "label": "Priključak na usisni otvor"
+        },
+        {
+          "id": "ulaz-1",
+          "type": "pt.spojnica-b",
+          "position": {
+            "x": 7,
+            "y": 38
+          },
+          "direction": 90,
+          "maxConnections": 1,
+          "flow": "in",
+          "label": "Otvor 1"
+        },
+        {
+          "id": "ulaz-2",
+          "type": "pt.spojnica-b",
+          "position": {
+            "x": 43,
+            "y": 38
+          },
+          "direction": 90,
+          "maxConnections": 1,
+          "flow": "in",
+          "label": "Otvor 2"
+        }
+      ],
       "rotation": {
         "mode": "free"
       },
       "semantics": {},
       "visualStates": [],
       "annotation": false,
-      "provenance": "source",
+      "provenance": "derived",
       "review": {
-        "status": "requires-review"
+        "status": "requires-review",
+        "notes": "Priključak na pumpu na vrhu simbola, dva otvora na krajevima luka. Vrsta otvora („B”) izvedena je iz priključivanja „B” cijevi."
       },
       "sources": [
         {
@@ -1386,6 +2014,16 @@
           "file": "00-2-Legenda.md",
           "line": 35,
           "excerpt": "Sabirnica"
+        },
+        {
+          "file": "06-Vjezba-6.md",
+          "line": 40,
+          "excerpt": "Strojar uzima sabirnicu u desnu ruku, spaja je na usisni otvor motorne pumpe"
+        },
+        {
+          "file": "06-Vjezba-6.md",
+          "line": 44,
+          "excerpt": "Spaja na svaki otvor sabirnice donju spojnicu „B” cijevi"
         }
       ]
     },
@@ -1492,6 +2130,40 @@
       ]
     },
     {
+      "id": "src.spojnica-usisna",
+      "name": "Spojnica usisnog voda",
+      "category": "elementi-skice",
+      "asset": {
+        "path": "content/source/simboli/spojnica-usisna.svg"
+      },
+      "size": {
+        "width": 7,
+        "height": 22
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": true,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/spojnica-usisna.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 61,
+          "excerpt": "Spojnica na savijenom usisnom vodu"
+        }
+      ]
+    },
+    {
       "id": "src.strelica-kote",
       "name": "Strelica kote",
       "category": "elementi-skice",
@@ -1564,8 +2236,8 @@
         },
         {
           "file": "alati/vatrogasni_simboli.py",
-          "line": 298,
-          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+          "line": 372,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18, ia=False):"
         }
       ]
     },
@@ -1608,8 +2280,72 @@
         },
         {
           "file": "alati/vatrogasni_simboli.py",
-          "line": 298,
-          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+          "line": 372,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18, ia=False):"
+        }
+      ]
+    },
+    {
+      "id": "src.tlacna-b-cijev",
+      "name": "Tlačna „B” cijev",
+      "category": "oprema",
+      "asset": {
+        "path": "content/source/simboli/tlacna-b-cijev.svg"
+      },
+      "size": {
+        "width": 120,
+        "height": 12
+      },
+      "anchors": [],
+      "ports": [
+        {
+          "id": "donja",
+          "type": "pt.spojnica-b",
+          "position": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Donja spojnica"
+        },
+        {
+          "id": "gornja",
+          "type": "pt.spojnica-b",
+          "position": {
+            "x": 118,
+            "y": 6
+          },
+          "direction": 0,
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Gornja spojnica"
+        }
+      ],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": false,
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/tlacna-b-cijev.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 24,
+          "excerpt": "Tlačna „B” cijev"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 51,
+          "excerpt": "spaja donju spojnicu na spojnicu već razvučene cijevi"
         }
       ]
     },
@@ -1682,11 +2418,11 @@
       ]
     },
     {
-      "id": "src.tlacna-b-cijev",
-      "name": "Tlačna „B” cijev",
+      "id": "src.tlacna-c-cijev",
+      "name": "Tlačna „C” cijev",
       "category": "oprema",
       "asset": {
-        "path": "content/source/simboli/tlacna-b-cijev.svg"
+        "path": "content/source/simboli/tlacna-c-cijev.svg"
       },
       "size": {
         "width": 120,
@@ -1696,7 +2432,7 @@
       "ports": [
         {
           "id": "donja",
-          "type": "pt.spojnica-b",
+          "type": "pt.spojnica-c",
           "position": {
             "x": 2,
             "y": 6
@@ -1708,7 +2444,7 @@
         },
         {
           "id": "gornja",
-          "type": "pt.spojnica-b",
+          "type": "pt.spojnica-c",
           "position": {
             "x": 118,
             "y": 6
@@ -1731,17 +2467,17 @@
       },
       "sources": [
         {
-          "file": "simboli/tlacna-b-cijev.svg"
+          "file": "simboli/tlacna-c-cijev.svg"
         },
         {
           "file": "00-2-Legenda.md",
-          "line": 24,
-          "excerpt": "Tlačna „B” cijev"
+          "line": 25,
+          "excerpt": "Tlačna „C” cijev"
         },
         {
           "file": "01-Vjezba-1.md",
-          "line": 51,
-          "excerpt": "spaja donju spojnicu na spojnicu već razvučene cijevi"
+          "line": 81,
+          "excerpt": "skida nosač svoje „C” cijevi i spaja obje cijevi"
         }
       ]
     },
@@ -1805,70 +2541,6 @@
           "file": "01-Vjezba-1.md",
           "line": 75,
           "excerpt": "lijevom rukom predaje gornju spojnicu vođi navalne grupe (N₁), lijevom nogom staje na cijev i spaja donju spojnicu na lijevi otvor razdjelnice"
-        }
-      ]
-    },
-    {
-      "id": "src.tlacna-c-cijev",
-      "name": "Tlačna „C” cijev",
-      "category": "oprema",
-      "asset": {
-        "path": "content/source/simboli/tlacna-c-cijev.svg"
-      },
-      "size": {
-        "width": 120,
-        "height": 12
-      },
-      "anchors": [],
-      "ports": [
-        {
-          "id": "donja",
-          "type": "pt.spojnica-c",
-          "position": {
-            "x": 2,
-            "y": 6
-          },
-          "direction": 180,
-          "maxConnections": 1,
-          "flow": "bidirectional",
-          "label": "Donja spojnica"
-        },
-        {
-          "id": "gornja",
-          "type": "pt.spojnica-c",
-          "position": {
-            "x": 118,
-            "y": 6
-          },
-          "direction": 0,
-          "maxConnections": 1,
-          "flow": "bidirectional",
-          "label": "Gornja spojnica"
-        }
-      ],
-      "rotation": {
-        "mode": "free"
-      },
-      "semantics": {},
-      "visualStates": [],
-      "annotation": false,
-      "provenance": "derived",
-      "review": {
-        "status": "requires-review"
-      },
-      "sources": [
-        {
-          "file": "simboli/tlacna-c-cijev.svg"
-        },
-        {
-          "file": "00-2-Legenda.md",
-          "line": 25,
-          "excerpt": "Tlačna „C” cijev"
-        },
-        {
-          "file": "01-Vjezba-1.md",
-          "line": 81,
-          "excerpt": "skida nosač svoje „C” cijevi i spaja obje cijevi"
         }
       ]
     },
@@ -1945,7 +2617,7 @@
         },
         {
           "id": "srednji",
-          "type": "pt.neutvrdjen",
+          "type": "pt.spojnica-b",
           "position": {
             "x": 72,
             "y": 20
@@ -1977,7 +2649,7 @@
       "provenance": "derived",
       "review": {
         "status": "requires-review",
-        "notes": "Lijevi i desni otvor („C”) i ulaz („B”) izvedeni su iz teksta; vrsta srednjeg otvora nije navedena (vidi OPEN_QUESTIONS)."
+        "notes": "Lijevi i desni otvor („C”) i ulaz („B”) izvedeni su iz teksta vježbe 1; srednji otvor je „B” prema vježbama 12 i 13 (prvi „B” mlaz, prijelazna spojnica B/C na srednjem otvoru)."
       },
       "sources": [
         {
@@ -2007,6 +2679,16 @@
           "file": "alati/skice_vjezbe_01_02.py",
           "line": 14,
           "excerpt": "RAZ_LIJEVI, RAZ_SREDNJI, RAZ_DESNI = (34, -16), (34, 0), (34, 16)"
+        },
+        {
+          "file": "12-Vjezba-12.md",
+          "line": 32,
+          "excerpt": "Prvi „B” mlaz polaže se na srednji otvor razdjelnice"
+        },
+        {
+          "file": "13-Vjezba-13.md",
+          "line": 38,
+          "excerpt": "razdjelnicu s prijelaznom spojnicom B/C na srednjem otvoru"
         }
       ]
     },
@@ -2018,20 +2700,46 @@
         "path": "content/source/simboli/usisna-cijev.svg"
       },
       "size": {
-        "width": 120,
-        "height": 22
+        "width": 170,
+        "height": 31.17
       },
       "anchors": [],
-      "ports": [],
+      "ports": [
+        {
+          "id": "kraj-1",
+          "type": "pt.spojnica-a",
+          "position": {
+            "x": 6.38,
+            "y": 15.58
+          },
+          "direction": 180,
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Spojnica 1"
+        },
+        {
+          "id": "kraj-2",
+          "type": "pt.spojnica-a",
+          "position": {
+            "x": 163.63,
+            "y": 15.58
+          },
+          "direction": 0,
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Spojnica 2"
+        }
+      ],
       "rotation": {
         "mode": "free"
       },
       "semantics": {},
       "visualStates": [],
       "annotation": false,
-      "provenance": "source",
+      "provenance": "derived",
       "review": {
-        "status": "requires-review"
+        "status": "requires-review",
+        "notes": "Veličina prema skicama vježbi 3–15 (mjerilo 1,4167 u većini skica, npr. skica 22). Spojnice na oba kraja (pravokutnici na krajevima simbola)."
       },
       "sources": [
         {
@@ -2041,6 +2749,16 @@
           "file": "00-2-Legenda.md",
           "line": 23,
           "excerpt": "Usisna cijev"
+        },
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 54,
+          "excerpt": "V₁ i C₁ spajaju spojnice usisne cijevi"
+        },
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 36,
+          "excerpt": "svaki od njih drži po jednu spojnicu usisne cijevi u svakoj ruci"
         }
       ]
     },
@@ -2052,20 +2770,58 @@
         "path": "content/source/simboli/usisna-sitka.svg"
       },
       "size": {
-        "width": 52,
-        "height": 66
+        "width": 34,
+        "height": 43.15
       },
       "anchors": [],
-      "ports": [],
+      "ports": [
+        {
+          "id": "spojnica",
+          "type": "pt.sitka",
+          "position": {
+            "x": 17,
+            "y": 40.54
+          },
+          "direction": 90,
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Spojnica sitke"
+        },
+        {
+          "id": "karika-sitke",
+          "type": "pt.karika",
+          "position": {
+            "x": 9.15,
+            "y": 1.31
+          },
+          "direction": 270,
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Karika usisne sitke"
+        },
+        {
+          "id": "karika-ventila",
+          "type": "pt.karika",
+          "position": {
+            "x": 24.84,
+            "y": 1.31
+          },
+          "direction": 270,
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Karika nepovratnog ventila"
+        }
+      ],
       "rotation": {
         "mode": "free"
       },
       "semantics": {},
       "visualStates": [],
       "annotation": false,
-      "provenance": "source",
+      "provenance": "derived",
       "review": {
-        "status": "requires-review"
+        "status": "requires-review",
+        "notes": "Veličina prema skici 20 (mjerilo 0,6538); u ostalim skicama sitka je crtana i manja. Spojnica na donjem (užem) kraju simbola. Položaj obiju karika nije nacrtan; postavljene su na suprotni kraj sitke (tehnička pretpostavka)."
       },
       "sources": [
         {
@@ -2075,6 +2831,21 @@
           "file": "00-2-Legenda.md",
           "line": 37,
           "excerpt": "Usisna sitka"
+        },
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 60,
+          "excerpt": "V₁ i C₁ tako postavljeni spajaju usisnu sitku i usisnu cijev rukama"
+        },
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 108,
+          "excerpt": "stavlja karabin na kariku usisne sitke"
+        },
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 100,
+          "excerpt": "uzima torbicu s užetom koju zakvači na kariku nepovratnog ventila"
         }
       ]
     },
@@ -2086,20 +2857,34 @@
         "path": "content/source/simboli/uze-s-torbicom.svg"
       },
       "size": {
-        "width": 30,
-        "height": 50
+        "width": 16,
+        "height": 26.66
       },
       "anchors": [],
-      "ports": [],
+      "ports": [
+        {
+          "id": "karabin",
+          "type": "pt.karabin",
+          "position": {
+            "x": 8,
+            "y": 26.66
+          },
+          "direction": 90,
+          "maxConnections": 1,
+          "flow": "bidirectional",
+          "label": "Karabin užeta"
+        }
+      ],
       "rotation": {
         "mode": "free"
       },
       "semantics": {},
       "visualStates": [],
       "annotation": false,
-      "provenance": "source",
+      "provenance": "derived",
       "review": {
-        "status": "requires-review"
+        "status": "requires-review",
+        "notes": "Veličina prema skicama vježbi 3 i 4 (mjerilo 0,5333). Karabin na kraju kojim skice crtaju kratku crtu užeta (npr. skica 20)."
       },
       "sources": [
         {
@@ -2109,6 +2894,11 @@
           "file": "00-2-Legenda.md",
           "line": 44,
           "excerpt": "Uže s torbicom za usisnu sitku"
+        },
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 108,
+          "excerpt": "stavlja karabin na kariku usisne sitke"
         }
       ]
     },
@@ -2151,8 +2941,8 @@
         },
         {
           "file": "alati/vatrogasni_simboli.py",
-          "line": 298,
-          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+          "line": 372,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18, ia=False):"
         }
       ]
     },
@@ -2195,8 +2985,8 @@
         },
         {
           "file": "alati/vatrogasni_simboli.py",
-          "line": 298,
-          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+          "line": 372,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18, ia=False):"
         }
       ]
     },
@@ -2269,40 +3059,6 @@
       ]
     },
     {
-      "id": "src.zapovjednik-polozaj",
-      "name": "Položaj zapovjednika",
-      "category": "elementi-skice",
-      "asset": {
-        "path": "content/source/simboli/zapovjednik-polozaj.svg"
-      },
-      "size": {
-        "width": 40,
-        "height": 40
-      },
-      "anchors": [],
-      "ports": [],
-      "rotation": {
-        "mode": "free"
-      },
-      "semantics": {},
-      "visualStates": [],
-      "annotation": true,
-      "provenance": "source",
-      "review": {
-        "status": "requires-review"
-      },
-      "sources": [
-        {
-          "file": "simboli/zapovjednik-polozaj.svg"
-        },
-        {
-          "file": "00-2-Legenda.md",
-          "line": 54,
-          "excerpt": "Položaj zapovjednika"
-        }
-      ]
-    },
-    {
       "id": "src.zapovjednik",
       "name": "Zapovjednik",
       "category": "osoblje",
@@ -2341,8 +3097,42 @@
         },
         {
           "file": "alati/vatrogasni_simboli.py",
-          "line": 298,
-          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18):"
+          "line": 372,
+          "excerpt": "def osoba(self, sid, x, y, smjer=None, r=18, ia=False):"
+        }
+      ]
+    },
+    {
+      "id": "src.zapovjednik-polozaj",
+      "name": "Položaj zapovjednika",
+      "category": "elementi-skice",
+      "asset": {
+        "path": "content/source/simboli/zapovjednik-polozaj.svg"
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "anchors": [],
+      "ports": [],
+      "rotation": {
+        "mode": "free"
+      },
+      "semantics": {},
+      "visualStates": [],
+      "annotation": true,
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "simboli/zapovjednik-polozaj.svg"
+        },
+        {
+          "file": "00-2-Legenda.md",
+          "line": 54,
+          "excerpt": "Položaj zapovjednika"
         }
       ]
     }
@@ -2354,6 +3144,8 @@
       "symbolId": "src.podzemni-hidrant",
       "portable": false,
       "form": "rigid",
+      "carry": "beside",
+      "container": false,
       "properties": {},
       "provenance": "derived",
       "review": {
@@ -2373,6 +3165,8 @@
       "symbolId": "src.dvodijelni-hidrantski-nastavak",
       "portable": true,
       "form": "rigid",
+      "carry": "beside",
+      "container": false,
       "properties": {},
       "provenance": "derived",
       "review": {
@@ -2398,6 +3192,8 @@
       "symbolId": "src.kljuc-podzemni-hidrant",
       "portable": true,
       "form": "rigid",
+      "carry": "beside",
+      "container": false,
       "properties": {},
       "provenance": "derived",
       "review": {
@@ -2422,6 +3218,8 @@
       "symbolId": "src.tlacna-b-cijev-kolut",
       "portable": true,
       "form": "hose",
+      "carry": "beside",
+      "container": false,
       "hoseEnds": [
         "donja",
         "gornja"
@@ -2449,12 +3247,12 @@
         },
         {
           "file": "content/source/alati/vatrogasni_simboli.py",
-          "line": 319,
+          "line": 429,
           "excerpt": "sw = 2.6 if tip == \"B\" else 1.3"
         },
         {
           "file": "content/source/alati/vatrogasni_simboli.py",
-          "line": 389,
+          "line": 452,
           "excerpt": "self._postavi(\"spojnica-b\" if tip == \"B\" else \"spojnica-c\", x, y, ux, uy)"
         }
       ]
@@ -2465,6 +3263,8 @@
       "symbolId": "src.tlacna-c-cijev-kolut",
       "portable": true,
       "form": "hose",
+      "carry": "beside",
+      "container": false,
       "hoseEnds": [
         "donja",
         "gornja"
@@ -2492,12 +3292,12 @@
         },
         {
           "file": "content/source/alati/vatrogasni_simboli.py",
-          "line": 319,
+          "line": 429,
           "excerpt": "sw = 2.6 if tip == \"B\" else 1.3"
         },
         {
           "file": "content/source/alati/vatrogasni_simboli.py",
-          "line": 389,
+          "line": 452,
           "excerpt": "self._postavi(\"spojnica-b\" if tip == \"B\" else \"spojnica-c\", x, y, ux, uy)"
         }
       ]
@@ -2508,6 +3308,8 @@
       "symbolId": "src.obicna-c-mlaznica",
       "portable": true,
       "form": "rigid",
+      "carry": "beside",
+      "container": false,
       "depiction": {
         "attachedSymbolId": "src.vrh-mlaznice-c"
       },
@@ -2535,6 +3337,8 @@
       "symbolId": "src.trodijelna-razdjelnica",
       "portable": true,
       "form": "rigid",
+      "carry": "beside",
+      "container": false,
       "properties": {},
       "provenance": "derived",
       "review": {
@@ -2557,19 +3361,26 @@
       "id": "et.prijelaznica-bc",
       "name": "Prijelaznica B/C",
       "symbolId": "src.prijelazna-spojnica-bc",
-      "portable": false,
+      "portable": true,
       "form": "rigid",
+      "carry": "beside",
+      "container": false,
       "properties": {},
       "provenance": "derived",
       "review": {
         "status": "requires-review",
-        "notes": "U vježbama 1 i 2 prijelaznica se ne koristi niti premješta; prenosivost i priključci nisu opisani."
+        "notes": "U vježbi 13 prijelazna spojnica B/C nosi se s razdjelnicom (na srednjem otvoru); u vježbama 1 i 2 se ne koristi."
       },
       "sources": [
         {
           "file": "content/source/01-Vjezba-1.md",
           "line": 24,
           "excerpt": "1 prijelaznica B/C"
+        },
+        {
+          "file": "content/source/13-Vjezba-13.md",
+          "line": 38,
+          "excerpt": "razdjelnicu s prijelaznom spojnicom B/C na srednjem otvoru"
         }
       ]
     },
@@ -2579,6 +3390,8 @@
       "symbolId": "src.torbica-s-povezicama",
       "portable": true,
       "form": "rigid",
+      "carry": "beside",
+      "container": false,
       "properties": {},
       "provenance": "derived",
       "review": {
@@ -2603,6 +3416,8 @@
       "symbolId": "src.cijevni-drzac",
       "portable": true,
       "form": "rigid",
+      "carry": "beside",
+      "container": false,
       "properties": {},
       "provenance": "derived",
       "review": {
@@ -2627,6 +3442,8 @@
       "symbolId": "src.kljuc-za-spojnice",
       "portable": true,
       "form": "rigid",
+      "carry": "beside",
+      "container": false,
       "properties": {},
       "provenance": "derived",
       "review": {
@@ -2642,6 +3459,355 @@
           "file": "content/source/01-Vjezba-1.md",
           "line": 45,
           "excerpt": "uzima jedan ključ za spojnice i stavlja ga za opasač"
+        }
+      ]
+    },
+    {
+      "id": "et.prijenosna-pumpa",
+      "name": "Prijenosna motorna vatrogasna pumpa (MVP)",
+      "symbolId": "src.prijenosna-pumpa",
+      "portable": false,
+      "form": "rigid",
+      "carry": "beside",
+      "container": false,
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "U vježbama se pumpa ne premješta."
+      },
+      "sources": [
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 17,
+          "excerpt": "prijenosna motorna vatrogasna pumpa (MVP),"
+        },
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 140,
+          "excerpt": "Strojar spaja usisni vod na usisni otvor MVP rukama"
+        }
+      ]
+    },
+    {
+      "id": "et.usisna-cijev",
+      "name": "„A” usisna cijev",
+      "symbolId": "src.usisna-cijev",
+      "portable": true,
+      "form": "rigid",
+      "carry": "held",
+      "container": false,
+      "depiction": {
+        "couplingSymbolId": "src.spojnica-usisna",
+        "assembledLineStrokeWidth": 22
+      },
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Usisne cijevi nose po dvojica; simulator bilježi samo jednog nositelja. Nošena cijev ostaje na mjestu i u punoj veličini (podignuta). Skice crtaju spojeni i vezani usisni vod kao savijenu liniju (debljina 22)."
+      },
+      "sources": [
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 18,
+          "excerpt": "4 „A” usisne cijevi,"
+        },
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 36,
+          "excerpt": "svaki od njih drži po jednu spojnicu usisne cijevi u svakoj ruci"
+        },
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 54,
+          "excerpt": "Cijevi se moraju najprije podići, zatim uzubiti – spojiti i zategnuti ključevima"
+        },
+        {
+          "file": "content/source/alati/vatrogasni_simboli.py",
+          "line": 398,
+          "excerpt": "def usisni_vod("
+        }
+      ]
+    },
+    {
+      "id": "et.usisna-sitka",
+      "name": "Usisna sitka",
+      "symbolId": "src.usisna-sitka",
+      "portable": true,
+      "form": "rigid",
+      "carry": "held",
+      "container": false,
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Nošena sitka ostaje na mjestu i u punoj veličini, kao usisne cijevi s kojima se spaja."
+      },
+      "sources": [
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 19,
+          "excerpt": "1 usisna sitka,"
+        },
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 32,
+          "excerpt": "usisnu sitku u desnu ruku"
+        }
+      ]
+    },
+    {
+      "id": "et.uze-usisnog-voda",
+      "name": "Uže s torbicom za vezanje usisnih cijevi",
+      "symbolId": "src.uze-s-torbicom",
+      "portable": true,
+      "form": "rigid",
+      "carry": "beside",
+      "container": false,
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Legenda navodi jedan simbol „Uže s torbicom za usisnu sitku” za oba užeta."
+      },
+      "sources": [
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 20,
+          "excerpt": "1 uže s torbicom za vezanje usisnih cijevi,"
+        },
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 108,
+          "excerpt": "uzima torbicu s užetom za vezanje usisnog voda i stavlja karabin na kariku usisne sitke"
+        }
+      ]
+    },
+    {
+      "id": "et.uze-ventila",
+      "name": "Uže s torbicom za vezanje ventila na usisnoj sitki",
+      "symbolId": "src.uze-s-torbicom",
+      "portable": true,
+      "form": "rigid",
+      "carry": "beside",
+      "container": false,
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Legenda navodi jedan simbol „Uže s torbicom za usisnu sitku” za oba užeta."
+      },
+      "sources": [
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 21,
+          "excerpt": "1 uže s torbicom za vezanje ventila na usisnoj sitki,"
+        },
+        {
+          "file": "content/source/03-Vjezba-3.md",
+          "line": 100,
+          "excerpt": "uzima torbicu s užetom koju zakvači na kariku nepovratnog ventila"
+        }
+      ]
+    },
+    {
+      "id": "et.sabirnica",
+      "name": "Sabirnica",
+      "symbolId": "src.sabirnica",
+      "portable": true,
+      "form": "rigid",
+      "carry": "beside",
+      "container": false,
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/06-Vjezba-6.md",
+          "line": 20,
+          "excerpt": "1 sabirnica,"
+        },
+        {
+          "file": "content/source/06-Vjezba-6.md",
+          "line": 40,
+          "excerpt": "Strojar uzima sabirnicu u desnu ruku, spaja je na usisni otvor motorne pumpe"
+        }
+      ]
+    },
+    {
+      "id": "et.autocisterna",
+      "name": "Autocisterna (AC)",
+      "symbolId": "src.autocisterna",
+      "portable": false,
+      "form": "rigid",
+      "carry": "beside",
+      "container": true,
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Oprema je u spremnicima vozila; lijevi i desni spremnik nisu zasebno modelirani."
+      },
+      "sources": [
+        {
+          "file": "content/source/07-Vjezba-7.md",
+          "line": 13,
+          "excerpt": "Za izvođenje vježbe potrebna je sljedeća oprema koja je smještena u spremnicima vozila:"
+        },
+        {
+          "file": "content/source/07-Vjezba-7.md",
+          "line": 86,
+          "excerpt": "N₁ i N₂ opremu odlažu u spremnike vozila"
+        }
+      ]
+    },
+    {
+      "id": "et.navalno-vozilo",
+      "name": "Navalno vozilo (NV)",
+      "symbolId": "src.navalno-vozilo",
+      "portable": false,
+      "form": "rigid",
+      "carry": "beside",
+      "container": true,
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Oprema je u spremnicima vozila; pojedini spremnici nisu zasebno modelirani."
+      },
+      "sources": [
+        {
+          "file": "content/source/09-Vjezba-9.md",
+          "line": 20,
+          "excerpt": "Za izvođenje vježbe potrebna je vatrogasna oprema smještena u spremnicima navalnog vozila."
+        },
+        {
+          "file": "content/source/09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "torbicu s povezicama i ključeve zapovjednik odlaže u vozilo na mjesta gdje su stajali prije izvođenja vježbe"
+        }
+      ]
+    },
+    {
+      "id": "et.izolacijski-aparat",
+      "name": "Izolacijski aparat",
+      "symbolId": "src.izolacijski-aparat",
+      "portable": true,
+      "form": "rigid",
+      "carry": "beside",
+      "container": false,
+      "depiction": {
+        "worn": {
+          "symbolId": "src.ia-ljestve",
+          "distance": 33
+        }
+      },
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Izolacijski aparat koji vatrogasac nosi crta se na leđima (simbol „IA na leđima”), kao u skicama."
+      },
+      "sources": [
+        {
+          "file": "content/source/11-Vjezba-11.md",
+          "line": 26,
+          "excerpt": "navalna grupa se uz pomoć zapovjednika oprema izolacijskim aparatima"
+        },
+        {
+          "file": "content/source/00-2-Legenda.md",
+          "line": 60,
+          "excerpt": "Izolacijski aparat na leđima vatrogasca (crta se uz krug osobe"
+        }
+      ]
+    },
+    {
+      "id": "et.b-mlaznica",
+      "name": "„B” mlaznica",
+      "symbolId": "src.obicna-b-mlaznica",
+      "portable": true,
+      "form": "rigid",
+      "carry": "beside",
+      "container": false,
+      "depiction": {
+        "attachedSymbolId": "src.vrh-mlaznice-b"
+      },
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/12-Vjezba-12.md",
+          "line": 32,
+          "excerpt": "„B” mlaznicu s ublaživačem reakcije mlaza"
+        }
+      ]
+    },
+    {
+      "id": "et.medumjesalica",
+      "name": "Međumješalica s usisnom cijevi za pjenilo",
+      "symbolId": "src.medumjesalica",
+      "portable": true,
+      "form": "rigid",
+      "carry": "beside",
+      "container": false,
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/13-Vjezba-13.md",
+          "line": 38,
+          "excerpt": "u lijevu ruku uzima međumješalicu s usisnom cijevi za pjenilo"
+        }
+      ]
+    },
+    {
+      "id": "et.posuda-za-pjenilo",
+      "name": "Posuda s pjenilom",
+      "symbolId": "src.posuda-za-pjenilo",
+      "portable": true,
+      "form": "rigid",
+      "carry": "beside",
+      "container": false,
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/13-Vjezba-13.md",
+          "line": 38,
+          "excerpt": "a u desnu ruku posudu s pjenilom"
+        }
+      ]
+    },
+    {
+      "id": "et.mlaznica-za-pjenu",
+      "name": "Mlaznica za pjenu",
+      "symbolId": "src.mlaznica-za-pjenu",
+      "portable": true,
+      "form": "rigid",
+      "carry": "beside",
+      "container": false,
+      "properties": {},
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "content/source/13-Vjezba-13.md",
+          "line": 38,
+          "excerpt": "vođa grupe (N₁) uzima u lijevu ruku mlaznicu za pjenu"
         }
       ]
     }

@@ -54,7 +54,7 @@ test('editor rotates a selected object and supports undo/redo', async ({ page })
 test('import review shows the source dataset and synthetic pipeline results', async ({ page }) => {
   await page.goto('#/uvoz');
   const source = page.getByTestId('dataset-source');
-  await expect(source).toContainText('52 simbola');
+  await expect(source).toContainText('56 simbola');
   await expect(source).toContainText('2 vježbi · 0 grešaka');
   await source.getByRole('tab', { name: /Crteži/ }).click();
   await expect(source).toContainText('Skica 13');

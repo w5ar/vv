@@ -1,5 +1,16 @@
 [
   {
+    "proposedId": "src.autocisterna",
+    "file": "content/source/simboli/autocisterna.svg",
+    "name": "Autocisterna (AC)",
+    "nameSource": "review",
+    "category": "oprema",
+    "reviewStatus": "requires-review",
+    "reviewed": true,
+    "portCount": 3,
+    "notes": []
+  },
+  {
     "proposedId": "src.c1",
     "file": "content/source/simboli/c1.svg",
     "name": "Vođa cijevne grupe",
@@ -55,6 +66,17 @@
     "notes": []
   },
   {
+    "proposedId": "src.ia-ljestve",
+    "file": "content/source/simboli/ia-ljestve.svg",
+    "name": "IA na leđima",
+    "nameSource": "review",
+    "category": "elementi-skice",
+    "reviewStatus": "requires-review",
+    "reviewed": true,
+    "portCount": 0,
+    "notes": []
+  },
+  {
     "proposedId": "src.izolacijski-aparat",
     "file": "content/source/simboli/izolacijski-aparat.svg",
     "name": "Izolacijski aparat",
@@ -95,7 +117,7 @@
     "category": "oprema",
     "reviewStatus": "requires-review",
     "reviewed": true,
-    "portCount": 0,
+    "portCount": 2,
     "notes": []
   },
   {
@@ -106,18 +128,7 @@
     "category": "oprema",
     "reviewStatus": "requires-review",
     "reviewed": true,
-    "portCount": 0,
-    "notes": []
-  },
-  {
-    "proposedId": "src.n1-ia",
-    "file": "content/source/simboli/n1-ia.svg",
-    "name": "N1 s IA",
-    "nameSource": "review",
-    "category": "osoblje",
-    "reviewStatus": "requires-review",
-    "reviewed": true,
-    "portCount": 0,
+    "portCount": 1,
     "notes": []
   },
   {
@@ -132,9 +143,9 @@
     "notes": []
   },
   {
-    "proposedId": "src.n2-ia",
-    "file": "content/source/simboli/n2-ia.svg",
-    "name": "N2 s IA",
+    "proposedId": "src.n1-ia",
+    "file": "content/source/simboli/n1-ia.svg",
+    "name": "N1 s IA",
     "nameSource": "review",
     "category": "osoblje",
     "reviewStatus": "requires-review",
@@ -154,6 +165,17 @@
     "notes": []
   },
   {
+    "proposedId": "src.n2-ia",
+    "file": "content/source/simboli/n2-ia.svg",
+    "name": "N2 s IA",
+    "nameSource": "review",
+    "category": "osoblje",
+    "reviewStatus": "requires-review",
+    "reviewed": true,
+    "portCount": 0,
+    "notes": []
+  },
+  {
     "proposedId": "src.navalno-vozilo",
     "file": "content/source/simboli/navalno-vozilo.svg",
     "name": "Navalno vozilo (NV)",
@@ -161,7 +183,7 @@
     "category": "oprema",
     "reviewStatus": "requires-review",
     "reviewed": true,
-    "portCount": 0,
+    "portCount": 3,
     "notes": []
   },
   {
@@ -172,7 +194,7 @@
     "category": "oprema",
     "reviewStatus": "requires-review",
     "reviewed": true,
-    "portCount": 0,
+    "portCount": 1,
     "notes": []
   },
   {
@@ -315,7 +337,7 @@
     "category": "oprema",
     "reviewStatus": "requires-review",
     "reviewed": true,
-    "portCount": 0,
+    "portCount": 2,
     "notes": []
   },
   {
@@ -324,6 +346,17 @@
     "name": "Prijenosna vatrogasna pumpa (MP)",
     "nameSource": "review",
     "category": "oprema",
+    "reviewStatus": "requires-review",
+    "reviewed": true,
+    "portCount": 2,
+    "notes": []
+  },
+  {
+    "proposedId": "src.prikljucak-pumpe",
+    "file": "content/source/simboli/prikljucak-pumpe.svg",
+    "name": "Priključak pumpe",
+    "nameSource": "review",
+    "category": "elementi-skice",
     "reviewStatus": "requires-review",
     "reviewed": true,
     "portCount": 0,
@@ -337,7 +370,7 @@
     "category": "oprema",
     "reviewStatus": "requires-review",
     "reviewed": true,
-    "portCount": 0,
+    "portCount": 3,
     "notes": []
   },
   {
@@ -366,6 +399,17 @@
     "proposedId": "src.spojnica-c",
     "file": "content/source/simboli/spojnica-c.svg",
     "name": "Spojnica C",
+    "nameSource": "review",
+    "category": "elementi-skice",
+    "reviewStatus": "requires-review",
+    "reviewed": true,
+    "portCount": 0,
+    "notes": []
+  },
+  {
+    "proposedId": "src.spojnica-usisna",
+    "file": "content/source/simboli/spojnica-usisna.svg",
+    "name": "Spojnica usisnog voda",
     "nameSource": "review",
     "category": "elementi-skice",
     "reviewStatus": "requires-review",
@@ -407,17 +451,6 @@
     "notes": []
   },
   {
-    "proposedId": "src.tlacna-b-cijev-kolut",
-    "file": "content/source/simboli/tlacna-b-cijev-kolut.svg",
-    "name": "Tlačna „B” cijev u kolutu",
-    "nameSource": "review",
-    "category": "oprema",
-    "reviewStatus": "requires-review",
-    "reviewed": true,
-    "portCount": 2,
-    "notes": []
-  },
-  {
     "proposedId": "src.tlacna-b-cijev",
     "file": "content/source/simboli/tlacna-b-cijev.svg",
     "name": "Tlačna „B” cijev",
@@ -429,9 +462,9 @@
     "notes": []
   },
   {
-    "proposedId": "src.tlacna-c-cijev-kolut",
-    "file": "content/source/simboli/tlacna-c-cijev-kolut.svg",
-    "name": "Tlačna „C” cijev u kolutu",
+    "proposedId": "src.tlacna-b-cijev-kolut",
+    "file": "content/source/simboli/tlacna-b-cijev-kolut.svg",
+    "name": "Tlačna „B” cijev u kolutu",
     "nameSource": "review",
     "category": "oprema",
     "reviewStatus": "requires-review",
@@ -443,6 +476,17 @@
     "proposedId": "src.tlacna-c-cijev",
     "file": "content/source/simboli/tlacna-c-cijev.svg",
     "name": "Tlačna „C” cijev",
+    "nameSource": "review",
+    "category": "oprema",
+    "reviewStatus": "requires-review",
+    "reviewed": true,
+    "portCount": 2,
+    "notes": []
+  },
+  {
+    "proposedId": "src.tlacna-c-cijev-kolut",
+    "file": "content/source/simboli/tlacna-c-cijev-kolut.svg",
+    "name": "Tlačna „C” cijev u kolutu",
     "nameSource": "review",
     "category": "oprema",
     "reviewStatus": "requires-review",
@@ -480,7 +524,7 @@
     "category": "oprema",
     "reviewStatus": "requires-review",
     "reviewed": true,
-    "portCount": 0,
+    "portCount": 2,
     "notes": []
   },
   {
@@ -491,7 +535,7 @@
     "category": "oprema",
     "reviewStatus": "requires-review",
     "reviewed": true,
-    "portCount": 0,
+    "portCount": 3,
     "notes": []
   },
   {
@@ -502,7 +546,7 @@
     "category": "oprema",
     "reviewStatus": "requires-review",
     "reviewed": true,
-    "portCount": 0,
+    "portCount": 1,
     "notes": []
   },
   {
@@ -550,22 +594,22 @@
     "notes": []
   },
   {
-    "proposedId": "src.zapovjednik-polozaj",
-    "file": "content/source/simboli/zapovjednik-polozaj.svg",
-    "name": "Položaj zapovjednika",
+    "proposedId": "src.zapovjednik",
+    "file": "content/source/simboli/zapovjednik.svg",
+    "name": "Zapovjednik",
     "nameSource": "review",
-    "category": "elementi-skice",
+    "category": "osoblje",
     "reviewStatus": "requires-review",
     "reviewed": true,
     "portCount": 0,
     "notes": []
   },
   {
-    "proposedId": "src.zapovjednik",
-    "file": "content/source/simboli/zapovjednik.svg",
-    "name": "Zapovjednik",
+    "proposedId": "src.zapovjednik-polozaj",
+    "file": "content/source/simboli/zapovjednik-polozaj.svg",
+    "name": "Položaj zapovjednika",
     "nameSource": "review",
-    "category": "osoblje",
+    "category": "elementi-skice",
     "reviewStatus": "requires-review",
     "reviewed": true,
     "portCount": 0,

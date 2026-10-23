@@ -508,6 +508,109 @@ describe('flexible hoses, hand-over and actors', () => {
   });
 });
 
+describe('held items, vehicle storage and worn equipment', () => {
+  // The test "source" becomes a vehicle with compartments, hoses are lifted where they lie.
+  const vehicleCatalog = CatalogSchema.parse({
+    ...testCatalogInput,
+    equipmentTypes: testCatalogInput.equipmentTypes?.map((e) =>
+      e.id === 'et.hose' ? { ...e, carry: 'held' } : e.id === 'et.source' ? { ...e, container: true } : e,
+    ),
+  });
+  const stored = (e: Exercise): Exercise => ({
+    ...e,
+    initialScene: {
+      ...e.initialScene,
+      equipment: e.initialScene.equipment.map((q) => (q.id === 'splitter' ? { ...q, storedIn: 'source' } : q)),
+    },
+  });
+  const ctx = createExerciseContext(stored(makeTestExercise()), vehicleCatalog);
+  const s0 = createInitialState(ctx);
+
+  it('lifts a held item where it lies and moves it with its carrier', () => {
+    const near = executeCommand(ctx, s0, { type: 'MovePersonnel', personnelId: 'p2', to: { x: 240, y: 130 } }).state;
+    const lifted = executeCommand(ctx, near, { type: 'PickUpEquipment', personnelId: 'p2', equipmentId: 'hose1' });
+    expect(lifted.accepted).toBe(true);
+    expect(lifted.state.objects.hose1).toMatchObject({ carriedBy: 'p2', position: { x: 240, y: 90 } });
+    const moved = executeCommand(ctx, lifted.state, { type: 'MovePersonnel', personnelId: 'p2', to: { x: 340, y: 180 } }).state;
+    expect(moved.objects.hose1?.position).toEqual({ x: 340, y: 140 });
+    // Put down where it is held (its footprint is next to the carrier), not at an arbitrary far point.
+    expect(executeCommand(ctx, moved, { type: 'PlaceEquipment', personnelId: 'p2', equipmentId: 'hose1', at: { x: 340, y: 140 }, rotation: 0 }).accepted).toBe(true);
+    expect(executeCommand(ctx, moved, { type: 'PlaceEquipment', personnelId: 'p2', equipmentId: 'hose1', at: { x: 640, y: 140 } }).issues[0]?.code).toBe(
+      'place.too-far',
+    );
+  });
+
+  it('keeps stored equipment off the scene until it is taken from its container', () => {
+    expect(s0.objects.splitter).toMatchObject({ storedIn: 'source', position: s0.objects.source?.position });
+    expect(evaluateCondition(ctx, s0, { type: 'stored', equipmentId: 'splitter', containerId: 'source' })).toBe(true);
+    expect(evaluateCondition(ctx, s0, { type: 'placed', equipmentId: 'splitter' })).toBe(false);
+    for (const cmd of [
+      { type: 'MoveEquipment', equipmentId: 'splitter', to: { x: 0, y: 0 } },
+      { type: 'ConnectPorts', a: { objectId: 'source', portId: 'out-1' }, b: { objectId: 'splitter', portId: 'in' } },
+    ] satisfies Command[]) {
+      expect(executeCommand(ctx, s0, cmd).issues.map((i) => i.code)).toContain('equipment.stored');
+    }
+    const far = executeCommand(ctx, s0, { type: 'PickUpEquipment', personnelId: 'p1', equipmentId: 'splitter' });
+    expect(far.issues[0]).toMatchObject({ code: 'pickup.too-far' });
+    expect(far.issues[0]?.message).toContain('spremnika');
+
+    const atVehicle = executeCommand(ctx, s0, { type: 'MovePersonnel', personnelId: 'p1', to: { x: 100, y: 160 } }).state;
+    const taken = executeCommand(ctx, atVehicle, { type: 'PickUpEquipment', personnelId: 'p1', equipmentId: 'splitter' });
+    expect(taken.accepted).toBe(true);
+    expect(taken.events[0]).toMatchObject({ type: 'EquipmentPickedUp', containerId: 'source' });
+    expect(taken.state.objects.splitter).toMatchObject({ storedIn: null, carriedBy: 'p1' });
+
+    expect(executeCommand(ctx, taken.state, { type: 'StoreEquipment', personnelId: 'p1', equipmentId: 'splitter', containerId: 'hose1' }).issues[0]?.code).toBe(
+      'store.not-container',
+    );
+    const back = executeCommand(ctx, taken.state, { type: 'StoreEquipment', personnelId: 'p1', equipmentId: 'splitter', containerId: 'source' });
+    expect(back.accepted).toBe(true);
+    expect(back.state.objects.p1?.carrying).toEqual([]);
+    expect(evaluateCondition(ctx, back.state, { type: 'stored', typeId: 'et.splitter', count: 1 })).toBe(true);
+    const away = executeCommand(ctx, taken.state, { type: 'MovePersonnel', personnelId: 'p1', to: { x: 100, y: 400 } }).state;
+    expect(executeCommand(ctx, away, { type: 'StoreEquipment', personnelId: 'p1', equipmentId: 'splitter', containerId: 'source' }).issues[0]?.code).toBe(
+      'store.too-far',
+    );
+  });
+
+  it('reports equipment stored in something that is not a vehicle', () => {
+    const bad = createExerciseContext(makeTestExercise(), vehicleCatalog).exercise;
+    const ex = {
+      ...bad,
+      initialScene: { ...bad.initialScene, equipment: bad.initialScene.equipment.map((q) => (q.id === 'splitter' ? { ...q, storedIn: 'hose1' } : q)) },
+    };
+    expect(checkExercise(ex, vehicleCatalog).diagnostics.map((d) => d.code)).toContain('ref.unknown-container');
+  });
+
+  it('animates a held item along with its walking carrier', () => {
+    const ex = stored(makeTestExercise());
+    const walk: Exercise = {
+      ...ex,
+      steps: [
+        {
+          ...(ex.steps[0] as Exercise['steps'][number]),
+          id: 'walk',
+          dependsOn: [],
+          completedWhen: { type: 'carrying', personnelId: 'p2', equipmentId: 'hose1' },
+          script: [
+            { command: { type: 'MovePersonnel', personnelId: 'p2', to: { x: 240, y: 130 } }, withPrevious: false, delayMs: 0 },
+            { command: { type: 'PickUpEquipment', personnelId: 'p2', equipmentId: 'hose1' }, withPrevious: false, delayMs: 0 },
+            { command: { type: 'MovePersonnel', personnelId: 'p2', to: { x: 440, y: 130 } }, withPrevious: false, delayMs: 0 },
+          ],
+        },
+      ],
+      completion: { requiredSteps: 'all' },
+    };
+    const wctx = createExerciseContext(walk, vehicleCatalog);
+    const timeline = compileTimeline(wctx);
+    const move = timeline.entries[2]!;
+    const mid = frameAt(wctx, timeline, (move.startMs + move.endMs) / 2);
+    const carrier = mid.overrides.p2?.position;
+    expect(carrier?.x).toBeGreaterThan(240);
+    expect(mid.overrides.hose1?.position).toEqual({ x: carrier!.x, y: carrier!.y - 40 });
+  });
+});
+
 describe('demonstration sound', () => {
   function audioExercise(text = 'Član javlja: **„Spremni!”** i čeka.') {
     const input = structuredClone(testExerciseInput);

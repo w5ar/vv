@@ -199,9 +199,18 @@ export const ProcedureAnalysisSchema = z.strictObject({
   participants: z
     .array(z.strictObject({ text: z.string(), abbreviation: z.string().optional(), line: z.number().int(), sectionId: z.string(), roleIds: z.array(z.string()) }))
     .default([]),
-  /** Equipment lists with quantities (e.g. "3 „B” tlačne cijevi,"). */
+  /** Equipment lists (e.g. "3 „B” tlačne cijevi,"). */
   equipmentList: z
-    .array(z.strictObject({ text: z.string(), quantity: z.number().int(), line: z.number().int(), sectionId: z.string(), equipmentTypeIds: z.array(z.string()) }))
+    .array(
+      z.strictObject({
+        text: z.string(),
+        /** Omitted when the list item gives no number (e.g. „prijenosna motorna vatrogasna pumpa,”). */
+        quantity: z.number().int().optional(),
+        line: z.number().int(),
+        sectionId: z.string(),
+        equipmentTypeIds: z.array(z.string()),
+      }),
+    )
     .default([]),
   /** Legend table entries: image reference + displayed name. */
   legend: z.array(z.strictObject({ file: z.string(), name: z.string(), line: z.number().int(), cells: z.array(z.string()) })).default([]),
