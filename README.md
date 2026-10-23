@@ -57,6 +57,17 @@ Everything runs in the browser; there is no backend.
 Playwright is pinned to `1.56.1`. In environments without a bundled browser run
 `pnpm exec playwright install chromium` once.
 
+## Deployment (GitHub Pages)
+
+Every commit pushed to `main` is deployed to GitHub Pages by
+[`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml): it runs the typecheck,
+unit tests and `import:check`, builds `apps/web` and publishes `apps/web/dist`. Pushes to other
+branches are not deployed. The site is served at `https://<owner>.github.io/<repository>/`
+(here `https://w5ar.github.io/vv/`); the build uses a relative base path and hash routes, so no
+per-repository configuration is needed.
+
+One-time setup: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+
 ## Repository layout
 
 ```
