@@ -143,6 +143,32 @@ give the scene a real scale.
     demonstration speaks the Vj3 order (Vj3 183), while joining uses Vj4's separate „Diži!” and
     „Spusti!” (Vj4 72).
 
+## Vježba 5 — otvoreno nalazište, šest vatrogasaca (Vj5 = `content/source/05-Vjezba-5.md`)
+
+46. **Roles in the suction line**: *„obavlja vodna grupa (V₁ i V₂) i strojar kao navalna grupa u vježbi 4”*
+    (Vj5 46) is read as N₁ → V₁, N₂ → V₂, strojar → strojar. The sentence lists joining, tying and
+    carrying, not laying; the laying of Vj4 (after *„Četiri usisne cijevi!”*, Vj5 44) is applied too.
+47. **Operating the pump**: *„puštena voda do razdjelnice, kao u vježbi 1”* (Vj5 62) and stopping the
+    water (Vj5 78) refer to the hydrant procedure of Vježba 1; how the strojar operates the pump is not
+    described, so each is one action of the strojar (`act.voda-do-razdjelnice`, `act.obustava-vode`).
+48. **Bag of the suction-line rope**: after V₁ ties the rope to the pump handle (Vj4 134 → Vj3), where its
+    bag goes is not described; it is left beside the pump. Skice 36 and 38–41 draw a tied rope as a line
+    and only the valve rope's bag, so both rope types are marked `optionalWhenConnected` in the catalog.
+49. **Keys**: V₁ and V₂ keep the keys from joining (Vj4 88), hand them to the zapovjednik at the second
+    jet (Vj1 93), the zapovjednik puts them back beside the strainer (Vj5 82) and the vodna grupa takes
+    them again at *„Usisni vod iz vode!”* (Vj5 90). Correct?
+50. **Skica 41** draws neither the zapovjednik nor the keys, although Vj5 82 has him put the keys back
+    and go into the stroj (two `diagram.count-mismatch` warnings). The stroj of skica 37 lies where the
+    suction line runs in the water, in the sketches as in the simulator.
+51. **Coils in skica 41**: N₁ and V₁ are drawn with two coils, N₂ and V₂ with one; the Vj1 text
+    (Vj1 133–136, applied by Vj5 80) gives N₁ one coil and the distributor, N₂ two, V₁ one and V₂ two.
+    The simulator follows the text.
+52. **Order of pospremanje**: the navalna grupa rolls up the „B” line (Vj5 88) and the vodna grupa with
+    the strojar takes in the suction line (Vj5 90) after the „C” equipment is back in place; the text
+    does not say whether these run in parallel (the demonstration runs them in parallel).
+53. **Commander's position**: *„istupa ispred odjeljenja kao u vježbi 1”* (Vj5 38) is shown, as in
+    Vježba 1, only as turning towards the stroj.
+
 ## Demonstration sound
 
 26. **Resolved orders**: Vj1 111 quotes *„Prvi, odnosno drugi mlaz – vodom stoj!”* for both leaders;
@@ -153,6 +179,10 @@ give the scene a real scale.
     and hand signals (*daje znak*), have no spoken audio.
 29. **Pronunciation** of the synthesized Croatian (abbreviations N₁/V₂, „B”/„C”, the placeholder
     *pravac ……*) should be checked by listening before the clips are published.
+54. **Shared paragraphs**: where several steps come from one paragraph (*„kao u vježbi 1”*), the
+    paragraph is narrated once, at the first of them, and the others only play their orders. An order
+    quoted in such a paragraph is then read by the narrator in the first step and spoken again by the
+    order voice in the step that performs it (e.g. Vježba 2, *„Za prvi mlaz…”*).
 
 ## Simulation choices (technical, not doctrine)
 

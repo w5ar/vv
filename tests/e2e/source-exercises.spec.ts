@@ -152,3 +152,19 @@ test('Vježba 4 demonstration reaches completion', async ({ page }) => {
   await expect(page.getByTestId('demo-complete')).toBeVisible();
   await expect(page.getByTestId('progress-label')).toContainText('49 / 49');
 });
+
+test('Vježba 5 demonstration lays the suction line, the „B” line from the pump and two „C” jets, and reaches completion', async ({ page }) => {
+  const errors: string[] = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  await page.goto('#/demonstracija/vjezba-5-otvoreno-nalaziste');
+  await expect(page.getByTestId('object-mvp')).toBeVisible();
+  const range = page.getByTestId('timeline-range');
+  // While the water is being stopped (after sketch 40): two „B” and four „C” hoses are laid.
+  await range.fill('175000');
+  for (const id of ['b1', 'b2', 'c1', 'c3', 'c5', 'c6']) await expect(page.getByTestId(`object-${id}`).locator('.fds-hose__line')).toHaveCount(1);
+  await range.fill((await range.getAttribute('max')) ?? '0');
+  await expect(page.getByTestId('demo-complete')).toBeVisible();
+  await expect(page.getByTestId('progress-label')).toContainText('95 / 95');
+  await expect(page.locator('.fds-hose__line')).toHaveCount(0);
+  expect(errors).toEqual([]);
+});

@@ -656,6 +656,18 @@ describe('demonstration sound', () => {
     expect(issues.map((i) => i.code)).toEqual(['audio.order-not-in-text']);
   });
 
+  it('narrates a paragraph shared by several steps only once', () => {
+    const input = structuredClone(testExerciseInput);
+    input.actions![0]!.speech = 'Spremni!';
+    input.steps![3]!.text = 'Član javlja: **„Spremni!”** i čeka.';
+    input.steps![4]!.text = 'Član javlja: **„Spremni!”** i čeka.';
+    const { plan, issues } = buildAudioPlan(ExerciseSchema.parse(input));
+    expect(plan.steps.s4).toEqual([{ clipId: 's4' }]);
+    expect(plan.steps.s5).toEqual([{ clipId: 'act.report', actionId: 'act.report' }]);
+    expect(plan.clips.map((c) => c.id)).not.toContain('s5');
+    expect(issues).toEqual([]);
+  });
+
   const exercise = audioExercise();
   const actx = createExerciseContext(exercise, catalog);
   const { plan } = buildAudioPlan(exercise);

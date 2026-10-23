@@ -46,18 +46,6 @@
       "hash": "0b78a4b07b9225"
     },
     {
-      "id": "prvi-mlaz",
-      "voice": "opis",
-      "text": "Kad je „B” cijevni vod položen, navalna grupa lijevom se stranom vraća po opremu za polaganje prvog cijevnog voda. Uzimaju opremu kao u vježbi 1, te se kreću lijevom stranom „B” cijevnog voda do kraja druge „B” cijevi. Vođa i član grupe odlažu cijev, vođa grupe (N1) odlaže razdjelnicu u produžetku „B” cijevi i univerzalni ključ za spojnice s desne strane razdjelnice i vraća se na mjesto, član grupe (N2) spaja razdjelnicu s „B” cijevnim vodom i odlaže svoj ključ s desne strane razdjelnice. Na zapovijed vođe grupe (N1) koja glasi:",
-      "hash": "10d08cec524943"
-    },
-    {
-      "id": "prvi-mlaz-2",
-      "voice": "opis",
-      "text": "navalna grupa polaže prvi cijevni vod za gašenje kao u vježbi 1, s time što član navalne grupe (N2) (pošto priključi „C” cijev na lijevi otvor razdjelnice) otvara ventil za prvi mlaz na razdjelnici.",
-      "hash": "0494255655b5cb"
-    },
-    {
       "id": "act.prvi-mlaz-vodu-daj",
       "voice": "zapovijed",
       "text": "Za prvi mlaz vodu daj!",
@@ -112,12 +100,6 @@
       "hash": "17702c25946d22"
     },
     {
-      "id": "posprema-mlaz",
-      "voice": "opis",
-      "text": "Na tu zapovijed, navalna grupa (N1, N2) posprema prvi mlaz kao u vježbi 1, s tom razlikom što član navalne grupe (N2), kada je presavio „C” cijev, rastavlja „B” i „C” cijev s razdjelnice. Isto je i kod pospreme „B” cijevnog voda, tj. N2 rastavlja spoj prve i druge „B” cijevi i pospremaju „B” cijevni vod kao vodna grupa (V1, V2) u vježbi 1. Strojar posprema hidrantski nastavak i ključ za hidrant kao u vježbi 1.",
-      "hash": "17702c25946d22"
-    },
-    {
       "id": "act.opremu-uzmi",
       "voice": "zapovijed",
       "text": "Opremu uzmi!",
@@ -140,18 +122,6 @@
       "voice": "zapovijed",
       "text": "Opremu odloži!",
       "hash": "1401b177c2cb0a"
-    },
-    {
-      "id": "opremu-vratiti",
-      "voice": "opis",
-      "text": "Na tu zapovijed, navalna grupa (N1, N2) posprema prvi mlaz kao u vježbi 1, s tom razlikom što član navalne grupe (N2), kada je presavio „C” cijev, rastavlja „B” i „C” cijev s razdjelnice. Isto je i kod pospreme „B” cijevnog voda, tj. N2 rastavlja spoj prve i druge „B” cijevi i pospremaju „B” cijevni vod kao vodna grupa (V1, V2) u vježbi 1. Strojar posprema hidrantski nastavak i ključ za hidrant kao u vježbi 1.",
-      "hash": "17702c25946d22"
-    },
-    {
-      "id": "posprema-b",
-      "voice": "opis",
-      "text": "Na tu zapovijed, navalna grupa (N1, N2) posprema prvi mlaz kao u vježbi 1, s tom razlikom što član navalne grupe (N2), kada je presavio „C” cijev, rastavlja „B” i „C” cijev s razdjelnice. Isto je i kod pospreme „B” cijevnog voda, tj. N2 rastavlja spoj prve i druge „B” cijevi i pospremaju „B” cijevni vod kao vodna grupa (V1, V2) u vježbi 1. Strojar posprema hidrantski nastavak i ključ za hidrant kao u vježbi 1.",
-      "hash": "17702c25946d22"
     },
     {
       "id": "act.na-svoje-mjesto",
@@ -210,14 +180,8 @@
     ],
     "prvi-mlaz": [
       {
-        "clipId": "prvi-mlaz"
-      },
-      {
         "clipId": "act.prvi-mlaz-naprijed",
         "actionId": "act.prvi-mlaz-naprijed"
-      },
-      {
-        "clipId": "prvi-mlaz-2"
       }
     ],
     "vodu-daj": [
@@ -260,15 +224,7 @@
         "clipId": "posprema-strojar"
       }
     ],
-    "posprema-mlaz": [
-      {
-        "clipId": "posprema-mlaz"
-      }
-    ],
     "opremu-vratiti": [
-      {
-        "clipId": "opremu-vratiti"
-      },
       {
         "clipId": "act.opremu-uzmi",
         "actionId": "act.opremu-uzmi"
@@ -284,11 +240,6 @@
       {
         "clipId": "act.opremu-odlozi",
         "actionId": "act.opremu-odlozi"
-      }
-    ],
-    "posprema-b": [
-      {
-        "clipId": "posprema-b"
       }
     ],
     "stroj-prijavak": [

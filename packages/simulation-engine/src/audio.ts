@@ -8,6 +8,8 @@ import { textHash, type AudioClip, type AudioCue, type AudioPlan, type Exercise,
  * - The step's verbatim text is the description (`<step-id>`, voice `opis`). Where the text quotes
  *   an order that the step performs, the description is split there and the order voice speaks
  *   it instead of the narrator (`<step-id>`, `<step-id>-2`, `<step-id>-3`, …).
+ * - Steps that share one source paragraph (several steps of a paragraph that refers to another
+ *   exercise) narrate it once, in the first of them; the others play only their orders.
  *
  * The plan is pure data derived from the exercise, so the import pipeline and the player always
  * agree on it.
@@ -72,6 +74,7 @@ export function buildAudioPlan(exercise: Exercise): { plan: AudioPlan; issues: A
   };
   const actionIds = new Set(exercise.actions.map((a) => a.id));
   const steps: Record<Id, AudioCue[]> = {};
+  const narrated = new Set<string>();
 
   for (const step of exercise.steps) {
     // Orders the step performs, in script order.
@@ -82,7 +85,8 @@ export function buildAudioPlan(exercise: Exercise): { plan: AudioPlan; issues: A
       if (action?.speech && !orders.includes(action.id)) orders.push(action.id);
     }
     // Description, split where it quotes those orders.
-    const text = step.text ?? '';
+    const text = step.text && !narrated.has(step.text) ? step.text : '';
+    if (text) narrated.add(text);
     const base = actionIds.has(step.id) ? `${step.id}.opis` : step.id;
     const cues: AudioCue[] = [];
     let segments = 0;

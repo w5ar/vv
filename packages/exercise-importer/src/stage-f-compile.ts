@@ -444,7 +444,8 @@ export function compareWithDiagrams(exercise: Exercise, ctx: CompileContext, tim
  * Per symbol: objects on the ground must be shown, and carried objects may or may not be
  * drawn (`free <= shown <= free + carried`); personnel counts must match exactly. Items joined
  * into an assembled line (`depiction.assembledLineStrokeWidth`, e.g. a suction line) may be drawn
- * as symbols or as that line, so they count like carried ones; stored equipment is not drawn.
+ * as symbols or as that line, so they count like carried ones, as do connected items of a type
+ * with `depiction.optionalWhenConnected` (a rope bag); stored equipment is not drawn.
  * Laid hoses are compared with the diagram's line styles (shown iff laid).
  */
 function compareSchematic(
@@ -477,6 +478,10 @@ function compareSchematic(
       const other = c.a.objectId === id ? c.b.objectId : c.b.objectId === id ? c.a.objectId : null;
       return other !== null && state.objects[other]?.typeId === typeId;
     });
+  const optionalConnected = (id: string, typeId: string | null) =>
+    !!typeId &&
+    types.get(typeId)?.depiction?.optionalWhenConnected === true &&
+    connections.some((c) => c.a.objectId === id || c.b.objectId === id);
   for (const id of state.objectOrder) {
     const obj = state.objects[id];
     if (!obj || obj.storedIn) continue;
@@ -485,7 +490,8 @@ function compareSchematic(
       continue;
     }
     if (obj.kind === 'personnel') personnel.add(obj.symbolId);
-    const bucket = obj.carriedBy || assembled(obj.id, obj.typeId) ? carried : free;
+    const optional = obj.carriedBy || assembled(obj.id, obj.typeId) || optionalConnected(obj.id, obj.typeId);
+    const bucket = optional ? carried : free;
     bucket.set(obj.symbolId, (bucket.get(obj.symbolId) ?? 0) + 1);
   }
   const symbolIds = [...new Set([...shown.keys(), ...free.keys(), ...carried.keys()])].sort();

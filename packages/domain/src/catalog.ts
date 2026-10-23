@@ -171,6 +171,11 @@ export const EquipmentTypeSchema = z.strictObject({
        * (e.g. an assembled suction line). Such items may be shown either as symbols or as the line.
        */
       assembledLineStrokeWidth: z.number().positive().optional(),
+      /**
+       * While connected, diagrams may leave the symbol out and draw only what it is connected by
+       * (e.g. a rope bag whose rope is drawn as a line from the strainer).
+       */
+      optionalWhenConnected: z.boolean().optional(),
     })
     .optional(),
   properties: SemanticPropertiesSchema.default({}),

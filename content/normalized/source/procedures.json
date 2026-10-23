@@ -10501,8 +10501,10 @@
           "src.zapovjednik"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-5-otvoreno-nalaziste/zbor"
+        ],
+        "status": "mapped"
       },
       {
         "id": "05-vjezba-5#2-5-1-vjezba-5-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p4",
@@ -10526,8 +10528,10 @@
         "diagramRefs": [
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-5-otvoreno-nalaziste/zapovijed-za-navalu"
+        ],
+        "status": "mapped"
       },
       {
         "id": "05-vjezba-5#2-5-1-vjezba-5-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p5",
@@ -10570,8 +10574,10 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-5-otvoreno-nalaziste/cetiri-usisne"
+        ],
+        "status": "mapped"
       },
       {
         "id": "05-vjezba-5#polaganje-usisnog-voda/p2",
@@ -10598,8 +10604,34 @@
         "diagramRefs": [
           "04-Vjezba-4.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-5-otvoreno-nalaziste/strojar-oprema",
+          "vjezba-5-otvoreno-nalaziste/strojar-mjesto",
+          "vjezba-5-otvoreno-nalaziste/prva-cijev",
+          "vjezba-5-otvoreno-nalaziste/desne-cijevi",
+          "vjezba-5-otvoreno-nalaziste/polozaj-spajanje",
+          "vjezba-5-otvoreno-nalaziste/spoj-sitka",
+          "vjezba-5-otvoreno-nalaziste/prijelaz-2",
+          "vjezba-5-otvoreno-nalaziste/spoj-2",
+          "vjezba-5-otvoreno-nalaziste/prijelaz-3",
+          "vjezba-5-otvoreno-nalaziste/spoj-3",
+          "vjezba-5-otvoreno-nalaziste/prijelaz-4",
+          "vjezba-5-otvoreno-nalaziste/spoj-4",
+          "vjezba-5-otvoreno-nalaziste/uzetom-vezi",
+          "vjezba-5-otvoreno-nalaziste/v2-ventil",
+          "vjezba-5-otvoreno-nalaziste/strojar-podize",
+          "vjezba-5-otvoreno-nalaziste/v2-podize",
+          "vjezba-5-otvoreno-nalaziste/v1-vezanje",
+          "vjezba-5-otvoreno-nalaziste/u-vodu",
+          "vjezba-5-otvoreno-nalaziste/prihvat-v1",
+          "vjezba-5-otvoreno-nalaziste/prihvat-v2",
+          "vjezba-5-otvoreno-nalaziste/prenosenje",
+          "vjezba-5-otvoreno-nalaziste/v2-uze-mvp",
+          "vjezba-5-otvoreno-nalaziste/v2-pomaze",
+          "vjezba-5-otvoreno-nalaziste/spoj-mvp",
+          "vjezba-5-otvoreno-nalaziste/v1-rucica"
+        ],
+        "status": "mapped"
       },
       {
         "id": "05-vjezba-5#polaganje-usisnog-voda/p3",
@@ -10623,8 +10655,11 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-5-otvoreno-nalaziste/gotovo",
+          "vjezba-5-otvoreno-nalaziste/vodna-ceka"
+        ],
+        "status": "mapped"
       },
       {
         "id": "05-vjezba-5#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
@@ -10649,8 +10684,13 @@
         "diagramRefs": [
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-5-otvoreno-nalaziste/navalna-b-oprema",
+          "vjezba-5-otvoreno-nalaziste/polaganje-b-prva",
+          "vjezba-5-otvoreno-nalaziste/polaganje-b-druga",
+          "vjezba-5-otvoreno-nalaziste/zapovjednik-razdjelnica"
+        ],
+        "status": "mapped"
       },
       {
         "id": "05-vjezba-5#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
@@ -10671,8 +10711,12 @@
         "diagramRefs": [
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-5-otvoreno-nalaziste/navalna-oprema-n1",
+          "vjezba-5-otvoreno-nalaziste/navalna-oprema-n2",
+          "vjezba-5-otvoreno-nalaziste/navalna-do-kraja-b"
+        ],
+        "status": "mapped"
       },
       {
         "id": "05-vjezba-5#polaganje-prvog-mlaza-u-navalnom-sektoru/p2",
@@ -10697,8 +10741,12 @@
           "src.zapovjednik"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-5-otvoreno-nalaziste/voda-do-razdjelnice",
+          "vjezba-5-otvoreno-nalaziste/prvi-mlaz",
+          "vjezba-5-otvoreno-nalaziste/prvi-mlaz-n1"
+        ],
+        "status": "mapped"
       },
       {
         "id": "05-vjezba-5#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
@@ -10723,8 +10771,16 @@
         "diagramRefs": [
           "01-Vjezba-1.md#polaganje-drugog-mlaza-u-navalnom-sektoru"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-5-otvoreno-nalaziste/drugi-mlaz-zapovijed",
+          "vjezba-5-otvoreno-nalaziste/drugi-mlaz-v1-oprema",
+          "vjezba-5-otvoreno-nalaziste/drugi-mlaz-v2",
+          "vjezba-5-otvoreno-nalaziste/drugi-mlaz-v1-mlaznica",
+          "vjezba-5-otvoreno-nalaziste/drugi-mlaz-v2-luk",
+          "vjezba-5-otvoreno-nalaziste/drugi-mlaz-vodu-daj",
+          "vjezba-5-otvoreno-nalaziste/drugi-mlaz-potvrda"
+        ],
+        "status": "mapped"
       },
       {
         "id": "05-vjezba-5#pospremanje-opreme/p1",
@@ -10749,8 +10805,12 @@
         "diagramRefs": [
           "01-Vjezba-1.md#pospremanje-opreme"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-5-otvoreno-nalaziste/vodom-stoj",
+          "vjezba-5-otvoreno-nalaziste/vodom-stoj-vode",
+          "vjezba-5-otvoreno-nalaziste/zatvaranje-vode"
+        ],
+        "status": "mapped"
       },
       {
         "id": "05-vjezba-5#pospremanje-opreme/p2",
@@ -10771,8 +10831,23 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-5-otvoreno-nalaziste/posprema",
+          "vjezba-5-otvoreno-nalaziste/posprema-mlaznice",
+          "vjezba-5-otvoreno-nalaziste/posprema-savijanje",
+          "vjezba-5-otvoreno-nalaziste/posprema-motanje",
+          "vjezba-5-otvoreno-nalaziste/posprema-nosaci",
+          "vjezba-5-otvoreno-nalaziste/uzimanje-n1",
+          "vjezba-5-otvoreno-nalaziste/uzimanje-n2",
+          "vjezba-5-otvoreno-nalaziste/uzimanje-v1",
+          "vjezba-5-otvoreno-nalaziste/uzimanje-v2",
+          "vjezba-5-otvoreno-nalaziste/posprema-polozaj",
+          "vjezba-5-otvoreno-nalaziste/opremu-uzmi",
+          "vjezba-5-otvoreno-nalaziste/stoj-celom-nazad",
+          "vjezba-5-otvoreno-nalaziste/opremu-odlozi",
+          "vjezba-5-otvoreno-nalaziste/odlaganje-opreme"
+        ],
+        "status": "mapped"
       },
       {
         "id": "05-vjezba-5#pospremanje-opreme/p3",
@@ -10797,8 +10872,11 @@
           "src.zapovjednik"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-5-otvoreno-nalaziste/posprema-strojar",
+          "vjezba-5-otvoreno-nalaziste/posprema-zapovjednik"
+        ],
+        "status": "mapped"
       },
       {
         "id": "05-vjezba-5#pospremanje-opreme/p4",
@@ -10817,8 +10895,11 @@
         "roleMentions": [],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-5-otvoreno-nalaziste/posprema-b",
+          "vjezba-5-otvoreno-nalaziste/posprema-b-motanje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "05-vjezba-5#pospremanje-opreme/p5",
@@ -10847,8 +10928,32 @@
         "diagramRefs": [
           "04-Vjezba-4.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-5-otvoreno-nalaziste/iz-vode",
+          "vjezba-5-otvoreno-nalaziste/vodna-kljucevi",
+          "vjezba-5-otvoreno-nalaziste/v1-razvezuje",
+          "vjezba-5-otvoreno-nalaziste/strojar-rastavlja-mvp",
+          "vjezba-5-otvoreno-nalaziste/v1-prvi-spoj",
+          "vjezba-5-otvoreno-nalaziste/v2-drugi-spoj",
+          "vjezba-5-otvoreno-nalaziste/odnosenje",
+          "vjezba-5-otvoreno-nalaziste/v1-skida-uze",
+          "vjezba-5-otvoreno-nalaziste/v2-skida-karabin",
+          "vjezba-5-otvoreno-nalaziste/spustanje",
+          "vjezba-5-otvoreno-nalaziste/polozaj-rastavljanje",
+          "vjezba-5-otvoreno-nalaziste/rastavljanje-4",
+          "vjezba-5-otvoreno-nalaziste/prijelaz-r2",
+          "vjezba-5-otvoreno-nalaziste/rastavljanje-3",
+          "vjezba-5-otvoreno-nalaziste/prijelaz-r3",
+          "vjezba-5-otvoreno-nalaziste/rastavljanje-2",
+          "vjezba-5-otvoreno-nalaziste/prijelaz-r4",
+          "vjezba-5-otvoreno-nalaziste/rastavljanje-sitke",
+          "vjezba-5-otvoreno-nalaziste/sitka-strojaru",
+          "vjezba-5-otvoreno-nalaziste/cijevi-natrag",
+          "vjezba-5-otvoreno-nalaziste/cetvrta-natrag",
+          "vjezba-5-otvoreno-nalaziste/uzad-natrag",
+          "vjezba-5-otvoreno-nalaziste/vodna-u-stroj"
+        ],
+        "status": "mapped"
       },
       {
         "id": "05-vjezba-5#pospremanje-opreme/p6",
@@ -10867,8 +10972,13 @@
         "roleMentions": [],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-5-otvoreno-nalaziste/pregled-opreme",
+          "vjezba-5-otvoreno-nalaziste/prijavak",
+          "vjezba-5-otvoreno-nalaziste/na-svoje-mjesto",
+          "vjezba-5-otvoreno-nalaziste/zavrsetak"
+        ],
+        "status": "mapped"
       }
     ],
     "roleMentions": [

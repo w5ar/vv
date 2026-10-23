@@ -214,6 +214,7 @@ describe('full pipeline on repository content', async () => {
     ['vjezba-2-jedan-c-mlaz', '02-Vjezba-2.md'],
     ['vjezba-3-usisne-cijevi', '03-Vjezba-3.md'],
     ['vjezba-4-usisne-cijevi', '04-Vjezba-4.md'],
+    ['vjezba-5-otvoreno-nalaziste', '05-Vjezba-5.md'],
   ] as const;
 
   it('compiles the source exercises without errors and with full traceability', () => {
@@ -248,9 +249,10 @@ describe('full pipeline on repository content', async () => {
     ]);
     expect(clip('zapovijed-za-navalu')?.text).toMatch(/a zatim izdaje zapovijed koja glasi:$/);
     expect(plan.clips.filter((c) => c.voice === 'zapovijed')).toHaveLength(20);
-    // Every spoken order is quoted from its sources, except the two resolved from „Prvi, odnosno drugi mlaz…”.
+    // Every spoken order is quoted from its sources, except the two resolved from „Prvi, odnosno drugi mlaz…”
+    // (Vježba 1, and Vježba 5, which applies it).
     const notVerbatim = source.diagnostics.filter((d) => d.code === 'audio.speech-not-verbatim').map((d) => d.subjectId);
-    expect(notVerbatim).toEqual(['act.vodom-stoj-prvi', 'act.vodom-stoj-drugi']);
+    expect(new Set(notVerbatim)).toEqual(new Set(['act.vodom-stoj-prvi', 'act.vodom-stoj-drugi']));
   });
 
   it('verifies all excerpts of source references against the source texts', () => {

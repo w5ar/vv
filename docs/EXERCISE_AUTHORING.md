@@ -126,7 +126,8 @@ Guidelines:
 - Non-spatial actions (orders, reports) are `actions[]` executed with `BeginAction`/`CompleteAction`
   and checked with `actionCompleted`. Give actions that are spoken a `speech` with the **verbatim**
   words from the source (it is voiced in the demonstration; a step text quoting the same words is
-  split there so the narrator does not repeat them). Speech that is not a verbatim quote of the
+  split there so the narrator does not repeat them; a paragraph used as the source of several steps is
+narrated once, at the first of them). Speech that is not a verbatim quote of the
   action's sources is reported as `audio.speech-not-verbatim` for review. After changing texts, run
   `pnpm import:all` and `python3 tools/generate_audio.py`.
 - Visual states (e.g. open/closed) are changed with `SetObjectState` and checked with `objectState`.

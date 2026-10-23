@@ -1,0 +1,633 @@
+{
+  "schemaVersion": 1,
+  "exerciseId": "vjezba-5-otvoreno-nalaziste",
+  "synthetic": false,
+  "clips": [
+    {
+      "id": "act.zbor",
+      "voice": "zapovijed",
+      "text": "Odjeljenje – zbor!",
+      "hash": "0f463788e4c968"
+    },
+    {
+      "id": "zbor",
+      "voice": "opis",
+      "text": "Kada je oprema postavljena na svoje mjesto, zapovjednik staje na dva koraka od usisnog otvora motorne pumpe, podiže lijevu ruku i zapovijeda:",
+      "hash": "1e208586734e0c"
+    },
+    {
+      "id": "zbor-2",
+      "voice": "opis",
+      "text": "Na tu zapovijed vatrogasci se postrojavaju u dvije vrste (skica 37).",
+      "hash": "1657954715cc4d"
+    },
+    {
+      "id": "act.za-navalu",
+      "voice": "zapovijed",
+      "text": "Požar pravac … voda …, s dvije „B” cijevi do razdjelnice, za navalu pripremi!",
+      "hash": "1412a772082c64"
+    },
+    {
+      "id": "zapovijed-za-navalu",
+      "voice": "opis",
+      "text": "Kada je odjeljenje postrojeno, zapovjednik istupa ispred odjeljenja kao u vježbi 1 i izdaje zapovijed koja glasi:",
+      "hash": "1f91d607bd1c81"
+    },
+    {
+      "id": "act.cetiri-usisne",
+      "voice": "zapovijed",
+      "text": "Četiri usisne cijevi!",
+      "hash": "0671d99de23ac5"
+    },
+    {
+      "id": "cetiri-usisne",
+      "voice": "opis",
+      "text": "Nakon izdane zapovijedi zapovjednika: „Za navalu – pripremi”, strojar zapovijeda:",
+      "hash": "0b01f3bb61ba0d"
+    },
+    {
+      "id": "strojar-oprema",
+      "voice": "opis",
+      "text": "Kod ove vježbe, spajanje usisnog voda, vezanje usisnog voda i nepovratnog ventila usisne sitke i prenošenje usisnog voda do crpilišta vode, obavlja vodna grupa (V1 i V2) i strojar kao navalna grupa u vježbi 4.",
+      "hash": "0932a4ebffcf8c"
+    },
+    {
+      "id": "act.dizi-1",
+      "voice": "zapovijed",
+      "text": "Diži!",
+      "hash": "1f917b3323a5e2"
+    },
+    {
+      "id": "act.spusti-1",
+      "voice": "zapovijed",
+      "text": "Spusti!",
+      "hash": "1a1db46ccfb9c3"
+    },
+    {
+      "id": "act.dizi-2",
+      "voice": "zapovijed",
+      "text": "Diži!",
+      "hash": "1f917b3323a5e2"
+    },
+    {
+      "id": "act.spusti-2",
+      "voice": "zapovijed",
+      "text": "Spusti!",
+      "hash": "1a1db46ccfb9c3"
+    },
+    {
+      "id": "act.dizi-3",
+      "voice": "zapovijed",
+      "text": "Diži!",
+      "hash": "1f917b3323a5e2"
+    },
+    {
+      "id": "act.spusti-3",
+      "voice": "zapovijed",
+      "text": "Spusti!",
+      "hash": "1a1db46ccfb9c3"
+    },
+    {
+      "id": "act.dizi-4",
+      "voice": "zapovijed",
+      "text": "Diži!",
+      "hash": "1f917b3323a5e2"
+    },
+    {
+      "id": "act.spusti-4",
+      "voice": "zapovijed",
+      "text": "Spusti!",
+      "hash": "1a1db46ccfb9c3"
+    },
+    {
+      "id": "act.uzetom-vezi",
+      "voice": "zapovijed",
+      "text": "Užetom veži!",
+      "hash": "10069c60053e07"
+    },
+    {
+      "id": "act.u-vodu",
+      "voice": "zapovijed",
+      "text": "Usisni vod u vodu!",
+      "hash": "1255f9b780d4e8"
+    },
+    {
+      "id": "act.gotovo",
+      "voice": "zapovijed",
+      "text": "Gotovo!",
+      "hash": "0bb3d9f76c7717"
+    },
+    {
+      "id": "gotovo",
+      "voice": "opis",
+      "text": "Nakon zapovijedi strojara „Gotovo”, V2 uzima torbicu s povezicama i zajedno s V1 stoji između motorne pumpe i opreme koja je postavljena na zemlji. Na tom mjestu ostaju sve do zapovijedi zapovjednika za drugi mlaz.",
+      "hash": "0b5f6a70954d8e"
+    },
+    {
+      "id": "navalna-b-oprema",
+      "voice": "opis",
+      "text": "Nakon izdane zapovijedi zapovjednika: „Za navalu – pripremi”, navalna grupa se oprema „B” cijevima i polaže „B” cijevni vod od motorne pumpe do razdjelnice kao vodna grupa u vježbi 1, s razlikom što navalna grupa nije opremljena ključevima i torbicom s povezicama za cijevi. Zapovjednik nakon izdane zapovijedi odlazi do kraja „B” cijevnog voda i staje tri koraka desno od razdjelnice, okrenut prema razdjelnici (skica 38).",
+      "hash": "0a8794dfebd645"
+    },
+    {
+      "id": "navalna-oprema-n1",
+      "voice": "opis",
+      "text": "Kada je „B” cijevni vod položen, navalna grupa se lijevom stranom vraća po opremu za polaganje prvog cijevnog voda kao u vježbi 1.",
+      "hash": "115866c5902dbf"
+    },
+    {
+      "id": "act.vodu-daj-b",
+      "voice": "zapovijed",
+      "text": "Vodu daj!",
+      "hash": "1a78cdd37ac23a"
+    },
+    {
+      "id": "voda-do-razdjelnice",
+      "voice": "opis",
+      "text": "Kada je „B” cijevni vod spojen na razdjelnicu i puštena voda do razdjelnice, kao u vježbi 1, zapovjednik zapovijeda: „Za prvi mlaz s dvije „C” cijevi pravac … naprijed!” Na tu zapovijed, članovi navalne grupe (N1 i N2) polažu prvi cijevni vod za gašenje kao u vježbi 1. Zapovjednik, nakon izdane zapovijedi preuzima posluživanje razdjelnice kao u vježbi 1 (skica 39).",
+      "hash": "0a00c86104db1a"
+    },
+    {
+      "id": "act.prvi-mlaz-naprijed",
+      "voice": "zapovijed",
+      "text": "Za prvi mlaz s dvije „C” cijevi pravac … naprijed!",
+      "hash": "02bfb140f55827"
+    },
+    {
+      "id": "act.prvi-mlaz-vodu-daj",
+      "voice": "zapovijed",
+      "text": "Za prvi mlaz – vodu daj!",
+      "hash": "04ff2bdaf377aa"
+    },
+    {
+      "id": "act.drugi-mlaz-naprijed",
+      "voice": "zapovijed",
+      "text": "Za drugi mlaz s dvije „C” cijevi pravac … naprijed!",
+      "hash": "105ba74a19bb1b"
+    },
+    {
+      "id": "drugi-mlaz-zapovijed",
+      "voice": "opis",
+      "text": "Na zapovijed zapovjednika:",
+      "hash": "0f4ff1539f7455"
+    },
+    {
+      "id": "drugi-mlaz-zapovijed-2",
+      "voice": "opis",
+      "text": "vodna grupa (V1, V2) opremaju se i polažu drugi mlaz kao u vježbi 1 (skica 40).",
+      "hash": "080015c4ab3911"
+    },
+    {
+      "id": "act.drugi-mlaz-vodu-daj",
+      "voice": "zapovijed",
+      "text": "Za drugi mlaz vodu daj!",
+      "hash": "1cf04cf004ca5b"
+    },
+    {
+      "id": "act.vodom-stoj-mlazovi",
+      "voice": "zapovijed",
+      "text": "Prvi i drugi mlaz – vodom stoj!",
+      "hash": "0755cc211bdcd8"
+    },
+    {
+      "id": "vodom-stoj",
+      "voice": "opis",
+      "text": "Po završetku vježbe zapovjednik zapovijeda:",
+      "hash": "051f129cd5798e"
+    },
+    {
+      "id": "vodom-stoj-2",
+      "voice": "opis",
+      "text": "Na tu zapovijed svi članovi odjeljenja postupaju kao u vježbi 1.",
+      "hash": "1cb639955af6e1"
+    },
+    {
+      "id": "act.vodom-stoj-prvi",
+      "voice": "zapovijed",
+      "text": "Prvi mlaz – vodom stoj!",
+      "hash": "05455f7ba0ee95"
+    },
+    {
+      "id": "act.vodom-stoj-drugi",
+      "voice": "zapovijed",
+      "text": "Drugi mlaz – vodom stoj!",
+      "hash": "1d5ead4a01215b"
+    },
+    {
+      "id": "act.z-vodom-stoj",
+      "voice": "zapovijed",
+      "text": "Vodom stoj!",
+      "hash": "138cf361a363ce"
+    },
+    {
+      "id": "act.posprema",
+      "voice": "zapovijed",
+      "text": "Posprema!",
+      "hash": "13469a9e41281c"
+    },
+    {
+      "id": "posprema",
+      "voice": "opis",
+      "text": "Na zapovijed zapovjednika:",
+      "hash": "0f4ff1539f7455"
+    },
+    {
+      "id": "posprema-2",
+      "voice": "opis",
+      "text": "navalna i vodna grupa pospremaju prvi, odnosno drugi mlaz kao u vježbi 1.",
+      "hash": "0aae56e41a5845"
+    },
+    {
+      "id": "posprema-strojar",
+      "voice": "opis",
+      "text": "Zapovjednik otpaja tlačne cijevi kao u vježbi 1, a torbicu s povezicama i ključeve odlaže na mjesto gdje su stajali prije izvođenja vježbe. Strojar otpaja „B” cijev s tlačnog otvora motorne pumpe i poteže uže nepovratnog ventila (skica 41).",
+      "hash": "0e6546f4befcdc"
+    },
+    {
+      "id": "act.opremu-uzmi",
+      "voice": "zapovijed",
+      "text": "Opremu uzmi!",
+      "hash": "03cf2ae0d2e3ab"
+    },
+    {
+      "id": "act.s-opremom-naprijed",
+      "voice": "zapovijed",
+      "text": "S opremom naprijed!",
+      "hash": "123f97f88a0ac1"
+    },
+    {
+      "id": "act.stoj-celom-nazad",
+      "voice": "zapovijed",
+      "text": "Stoj! Čelom nazad!",
+      "hash": "0e1c1cfdf1037d"
+    },
+    {
+      "id": "act.opremu-odlozi",
+      "voice": "zapovijed",
+      "text": "Opremu odloži!",
+      "hash": "1401b177c2cb0a"
+    },
+    {
+      "id": "posprema-b",
+      "voice": "opis",
+      "text": "„B” cijevni vod posprema navalna grupa, kao što je to pospremala vodna grupa u vježbi 1.",
+      "hash": "11bb8f6ca3e730"
+    },
+    {
+      "id": "act.iz-vode",
+      "voice": "zapovijed",
+      "text": "Usisni vod iz vode!",
+      "hash": "11a10d57c3b649"
+    },
+    {
+      "id": "iz-vode",
+      "voice": "opis",
+      "text": "Pospremanje usisnog voda obavlja vodna grupa (V1 i V2) i strojar, kao navalna grupa u vježbi 4, s time što vodna grupa na zapovijed strojara",
+      "hash": "01c4c80455b2bb"
+    },
+    {
+      "id": "iz-vode-2",
+      "voice": "opis",
+      "text": "uzima ključeve koje je odložio zapovjednik.",
+      "hash": "14a98f8dbaeb4f"
+    },
+    {
+      "id": "act.dizi-spusti-r1",
+      "voice": "zapovijed",
+      "text": "Diži – spusti!",
+      "hash": "1254e5ec47db2d"
+    },
+    {
+      "id": "act.dizi-spusti-r2",
+      "voice": "zapovijed",
+      "text": "Diži – spusti!",
+      "hash": "1254e5ec47db2d"
+    },
+    {
+      "id": "act.dizi-spusti-r3",
+      "voice": "zapovijed",
+      "text": "Diži – spusti!",
+      "hash": "1254e5ec47db2d"
+    },
+    {
+      "id": "act.dizi-spusti-r4",
+      "voice": "zapovijed",
+      "text": "Diži – spusti!",
+      "hash": "1254e5ec47db2d"
+    },
+    {
+      "id": "pregled-opreme",
+      "voice": "opis",
+      "text": "Kad odlože opremu, vatrogasci odlaze u stroj i postupaju kao u vježbi 1.",
+      "hash": "159eba1249b117"
+    },
+    {
+      "id": "act.prijavak",
+      "voice": "zapovijed",
+      "text": "Gospodine zapovjedniče, vježba je izvršena, oprema je na svome mjestu!",
+      "hash": "00e19441164dc7"
+    },
+    {
+      "id": "act.na-svoje-mjesto",
+      "voice": "zapovijed",
+      "text": "Na svoje mjesto!",
+      "hash": "163ba54158fbfe"
+    },
+    {
+      "id": "act.na-zapovijed",
+      "voice": "zapovijed",
+      "text": "Na zapovijed!",
+      "hash": "182ecc34d3ef04"
+    },
+    {
+      "id": "act.odmor-ili-otpust",
+      "voice": "zapovijed",
+      "text": "Na mjestu odmor!",
+      "hash": "06d370de725f05"
+    }
+  ],
+  "steps": {
+    "zbor": [
+      {
+        "clipId": "zbor"
+      },
+      {
+        "clipId": "act.zbor",
+        "actionId": "act.zbor"
+      },
+      {
+        "clipId": "zbor-2"
+      }
+    ],
+    "zapovijed-za-navalu": [
+      {
+        "clipId": "zapovijed-za-navalu"
+      },
+      {
+        "clipId": "act.za-navalu",
+        "actionId": "act.za-navalu"
+      }
+    ],
+    "cetiri-usisne": [
+      {
+        "clipId": "cetiri-usisne"
+      },
+      {
+        "clipId": "act.cetiri-usisne",
+        "actionId": "act.cetiri-usisne"
+      }
+    ],
+    "strojar-oprema": [
+      {
+        "clipId": "strojar-oprema"
+      }
+    ],
+    "spoj-sitka": [
+      {
+        "clipId": "act.dizi-1",
+        "actionId": "act.dizi-1"
+      },
+      {
+        "clipId": "act.spusti-1",
+        "actionId": "act.spusti-1"
+      }
+    ],
+    "spoj-2": [
+      {
+        "clipId": "act.dizi-2",
+        "actionId": "act.dizi-2"
+      },
+      {
+        "clipId": "act.spusti-2",
+        "actionId": "act.spusti-2"
+      }
+    ],
+    "spoj-3": [
+      {
+        "clipId": "act.dizi-3",
+        "actionId": "act.dizi-3"
+      },
+      {
+        "clipId": "act.spusti-3",
+        "actionId": "act.spusti-3"
+      }
+    ],
+    "spoj-4": [
+      {
+        "clipId": "act.dizi-4",
+        "actionId": "act.dizi-4"
+      },
+      {
+        "clipId": "act.spusti-4",
+        "actionId": "act.spusti-4"
+      }
+    ],
+    "uzetom-vezi": [
+      {
+        "clipId": "act.uzetom-vezi",
+        "actionId": "act.uzetom-vezi"
+      }
+    ],
+    "u-vodu": [
+      {
+        "clipId": "act.u-vodu",
+        "actionId": "act.u-vodu"
+      }
+    ],
+    "gotovo": [
+      {
+        "clipId": "gotovo"
+      },
+      {
+        "clipId": "act.gotovo",
+        "actionId": "act.gotovo"
+      }
+    ],
+    "navalna-b-oprema": [
+      {
+        "clipId": "navalna-b-oprema"
+      }
+    ],
+    "navalna-oprema-n1": [
+      {
+        "clipId": "navalna-oprema-n1"
+      }
+    ],
+    "navalna-do-kraja-b": [
+      {
+        "clipId": "act.vodu-daj-b",
+        "actionId": "act.vodu-daj-b"
+      }
+    ],
+    "voda-do-razdjelnice": [
+      {
+        "clipId": "voda-do-razdjelnice"
+      }
+    ],
+    "prvi-mlaz": [
+      {
+        "clipId": "act.prvi-mlaz-naprijed",
+        "actionId": "act.prvi-mlaz-naprijed"
+      }
+    ],
+    "prvi-mlaz-n1": [
+      {
+        "clipId": "act.prvi-mlaz-vodu-daj",
+        "actionId": "act.prvi-mlaz-vodu-daj"
+      }
+    ],
+    "drugi-mlaz-zapovijed": [
+      {
+        "clipId": "drugi-mlaz-zapovijed"
+      },
+      {
+        "clipId": "act.drugi-mlaz-naprijed",
+        "actionId": "act.drugi-mlaz-naprijed"
+      },
+      {
+        "clipId": "drugi-mlaz-zapovijed-2"
+      }
+    ],
+    "drugi-mlaz-vodu-daj": [
+      {
+        "clipId": "act.drugi-mlaz-vodu-daj",
+        "actionId": "act.drugi-mlaz-vodu-daj"
+      }
+    ],
+    "vodom-stoj": [
+      {
+        "clipId": "vodom-stoj"
+      },
+      {
+        "clipId": "act.vodom-stoj-mlazovi",
+        "actionId": "act.vodom-stoj-mlazovi"
+      },
+      {
+        "clipId": "vodom-stoj-2"
+      }
+    ],
+    "vodom-stoj-vode": [
+      {
+        "clipId": "act.vodom-stoj-prvi",
+        "actionId": "act.vodom-stoj-prvi"
+      },
+      {
+        "clipId": "act.vodom-stoj-drugi",
+        "actionId": "act.vodom-stoj-drugi"
+      }
+    ],
+    "zatvaranje-vode": [
+      {
+        "clipId": "act.z-vodom-stoj",
+        "actionId": "act.z-vodom-stoj"
+      }
+    ],
+    "posprema": [
+      {
+        "clipId": "posprema"
+      },
+      {
+        "clipId": "act.posprema",
+        "actionId": "act.posprema"
+      },
+      {
+        "clipId": "posprema-2"
+      }
+    ],
+    "posprema-strojar": [
+      {
+        "clipId": "posprema-strojar"
+      }
+    ],
+    "opremu-uzmi": [
+      {
+        "clipId": "act.opremu-uzmi",
+        "actionId": "act.opremu-uzmi"
+      },
+      {
+        "clipId": "act.s-opremom-naprijed",
+        "actionId": "act.s-opremom-naprijed"
+      }
+    ],
+    "stoj-celom-nazad": [
+      {
+        "clipId": "act.stoj-celom-nazad",
+        "actionId": "act.stoj-celom-nazad"
+      }
+    ],
+    "opremu-odlozi": [
+      {
+        "clipId": "act.opremu-odlozi",
+        "actionId": "act.opremu-odlozi"
+      }
+    ],
+    "posprema-b": [
+      {
+        "clipId": "posprema-b"
+      }
+    ],
+    "iz-vode": [
+      {
+        "clipId": "iz-vode"
+      },
+      {
+        "clipId": "act.iz-vode",
+        "actionId": "act.iz-vode"
+      },
+      {
+        "clipId": "iz-vode-2"
+      }
+    ],
+    "rastavljanje-4": [
+      {
+        "clipId": "act.dizi-spusti-r1",
+        "actionId": "act.dizi-spusti-r1"
+      }
+    ],
+    "rastavljanje-3": [
+      {
+        "clipId": "act.dizi-spusti-r2",
+        "actionId": "act.dizi-spusti-r2"
+      }
+    ],
+    "rastavljanje-2": [
+      {
+        "clipId": "act.dizi-spusti-r3",
+        "actionId": "act.dizi-spusti-r3"
+      }
+    ],
+    "rastavljanje-sitke": [
+      {
+        "clipId": "act.dizi-spusti-r4",
+        "actionId": "act.dizi-spusti-r4"
+      }
+    ],
+    "pregled-opreme": [
+      {
+        "clipId": "pregled-opreme"
+      }
+    ],
+    "prijavak": [
+      {
+        "clipId": "act.prijavak",
+        "actionId": "act.prijavak"
+      }
+    ],
+    "na-svoje-mjesto": [
+      {
+        "clipId": "act.na-svoje-mjesto",
+        "actionId": "act.na-svoje-mjesto"
+      }
+    ],
+    "zavrsetak": [
+      {
+        "clipId": "act.na-zapovijed",
+        "actionId": "act.na-zapovijed"
+      },
+      {
+        "clipId": "act.odmor-ili-otpust",
+        "actionId": "act.odmor-ili-otpust"
+      }
+    ]
+  }
+}

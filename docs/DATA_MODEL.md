@@ -84,7 +84,7 @@ materials do not use; synthetic examples are not firefighting practice.
 | `form` | `rigid` (default) or `hose` — a flexible item shown as a coil until laid |
 | `hoseEnds?` | hose only: `[endA, endB]` port ids; `LayHose` lays from end A to end B |
 | `laidSymbolId?` | hose only: symbol stretched along the laid hose when no line style is given |
-| `depiction?` | `{ laidLineStrokeWidth?, couplingSymbolId?, attachedSymbolId?, worn?, assembledLineStrokeWidth? }` — how diagrams draw the type: line width of a laid hose (stage C classifies lines by it; the renderer draws it), coupling tick at both ends, symbol drawn while attached (informational); `worn: { symbolId, distance }` — while carried, the item is drawn as that symbol behind the carrier (the breathing apparatus, *IA na leđima*); `assembledLineStrokeWidth` — diagrams may draw items of the type joined into one line (an assembled suction line) as a line of that width instead of symbols |
+| `depiction?` | `{ laidLineStrokeWidth?, couplingSymbolId?, attachedSymbolId?, worn?, assembledLineStrokeWidth?, optionalWhenConnected? }` — how diagrams draw the type: line width of a laid hose (stage C classifies lines by it; the renderer draws it), coupling tick at both ends, symbol drawn while attached (informational); `worn: { symbolId, distance }` — while carried, the item is drawn as that symbol behind the carrier (the breathing apparatus, *IA na leđima*); `assembledLineStrokeWidth` — diagrams may draw items of the type joined into one line (an assembled suction line) as a line of that width instead of symbols; `optionalWhenConnected` — while connected, diagrams may leave the symbol out (a rope bag whose rope is drawn as a line) |
 
 ```jsonc
 { "id": "et.tlacna-b-cijev", "name": "Tlačna „B” cijev", "symbolId": "src.tlacna-b-cijev-kolut", "portable": true,
@@ -285,7 +285,8 @@ Both files live in `content/exercises/<exercise-id>/`.
 
 - Order clips: one per action with `speech` that a step's script begins; id = action id.
 - Description clips (voice `opis`): the step text with markup removed, split where it quotes an order
-  the step performs; ids `<step-id>`, `<step-id>-2`, …
+  the step performs; ids `<step-id>`, `<step-id>-2`, … A text shared by several steps is narrated only
+  by the first of them; the others play only their orders.
 - Cues of a step play in order; a cue with `actionId` starts with that action.
 - `hash` (of voice + text) tells whether a generated clip still matches the current text.
 

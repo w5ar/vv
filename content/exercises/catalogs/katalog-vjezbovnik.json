@@ -3565,11 +3565,14 @@
       "form": "rigid",
       "carry": "beside",
       "container": false,
+      "depiction": {
+        "optionalWhenConnected": true
+      },
       "properties": {},
       "provenance": "derived",
       "review": {
         "status": "requires-review",
-        "notes": "Legenda navodi jedan simbol „Uže s torbicom za usisnu sitku” za oba užeta."
+        "notes": "Legenda navodi jedan simbol „Uže s torbicom za usisnu sitku” za oba užeta. Kad je uže vezano (karabin na sitki), skice crtaju uže kao crtu, a torbicu ne uvijek (skice 36 i 38–41: nacrtana je samo torbica užeta ventila), pa se simbol vezanog užeta pri usporedbi sa skicom smije izostaviti."
       },
       "sources": [
         {
@@ -3581,6 +3584,9 @@
           "file": "content/source/03-Vjezba-3.md",
           "line": 108,
           "excerpt": "uzima torbicu s užetom za vezanje usisnog voda i stavlja karabin na kariku usisne sitke"
+        },
+        {
+          "file": "content/source/skice/05-skica-38.svg"
         }
       ]
     },
@@ -3592,11 +3598,14 @@
       "form": "rigid",
       "carry": "beside",
       "container": false,
+      "depiction": {
+        "optionalWhenConnected": true
+      },
       "properties": {},
       "provenance": "derived",
       "review": {
         "status": "requires-review",
-        "notes": "Legenda navodi jedan simbol „Uže s torbicom za usisnu sitku” za oba užeta."
+        "notes": "Legenda navodi jedan simbol „Uže s torbicom za usisnu sitku” za oba užeta. Kad je uže vezano (karabin na sitki), skice crtaju uže kao crtu, a torbicu ne uvijek (skice 36 i 38–41: nacrtana je samo torbica užeta ventila), pa se simbol vezanog užeta pri usporedbi sa skicom smije izostaviti."
       },
       "sources": [
         {
@@ -3608,6 +3617,9 @@
           "file": "content/source/03-Vjezba-3.md",
           "line": 100,
           "excerpt": "uzima torbicu s užetom koju zakvači na kariku nepovratnog ventila"
+        },
+        {
+          "file": "content/source/skice/05-skica-38.svg"
         }
       ]
     },
