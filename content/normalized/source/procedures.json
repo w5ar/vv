@@ -14864,8 +14864,10 @@
         "diagramRefs": [
           "05-Vjezba-5.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-9-navalno-vozilo/zbor"
+        ],
+        "status": "mapped"
       },
       {
         "id": "09-vjezba-9#2-7-1-vjezba-9-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p3",
@@ -14912,8 +14914,38 @@
         "diagramRefs": [
           "07-Vjezba-7.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-9-navalno-vozilo/zapovijed-za-navalu",
+          "vjezba-9-navalno-vozilo/cetiri-usisne",
+          "vjezba-9-navalno-vozilo/strojar-oprema",
+          "vjezba-9-navalno-vozilo/strojar-mjesto",
+          "vjezba-9-navalno-vozilo/prve-cijevi",
+          "vjezba-9-navalno-vozilo/desne-cijevi",
+          "vjezba-9-navalno-vozilo/polozaj-spajanje",
+          "vjezba-9-navalno-vozilo/spoj-sitka",
+          "vjezba-9-navalno-vozilo/prijelaz-2",
+          "vjezba-9-navalno-vozilo/spoj-2",
+          "vjezba-9-navalno-vozilo/prijelaz-3",
+          "vjezba-9-navalno-vozilo/spoj-3",
+          "vjezba-9-navalno-vozilo/prijelaz-4",
+          "vjezba-9-navalno-vozilo/spoj-4",
+          "vjezba-9-navalno-vozilo/uzetom-vezi",
+          "vjezba-9-navalno-vozilo/v2-ventil",
+          "vjezba-9-navalno-vozilo/strojar-podize",
+          "vjezba-9-navalno-vozilo/v2-podize",
+          "vjezba-9-navalno-vozilo/v1-vezanje",
+          "vjezba-9-navalno-vozilo/u-vodu",
+          "vjezba-9-navalno-vozilo/prihvat-v1",
+          "vjezba-9-navalno-vozilo/prihvat-v2",
+          "vjezba-9-navalno-vozilo/prenosenje",
+          "vjezba-9-navalno-vozilo/v2-uze-vozilo",
+          "vjezba-9-navalno-vozilo/v2-pomaze",
+          "vjezba-9-navalno-vozilo/spoj-nv",
+          "vjezba-9-navalno-vozilo/v1-vozilo",
+          "vjezba-9-navalno-vozilo/gotovo",
+          "vjezba-9-navalno-vozilo/vodna-ceka"
+        ],
+        "status": "mapped"
       },
       {
         "id": "09-vjezba-9#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
@@ -14934,8 +14966,17 @@
         "diagramRefs": [
           "05-Vjezba-5.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-9-navalno-vozilo/navalna-b-oprema",
+          "vjezba-9-navalno-vozilo/polaganje-b-prva",
+          "vjezba-9-navalno-vozilo/polaganje-b-druga",
+          "vjezba-9-navalno-vozilo/navalna-oprema-n1",
+          "vjezba-9-navalno-vozilo/navalna-oprema-n2",
+          "vjezba-9-navalno-vozilo/navalna-do-kraja-b",
+          "vjezba-9-navalno-vozilo/voda-do-razdjelnice",
+          "vjezba-9-navalno-vozilo/zapovjednik-razdjelnica"
+        ],
+        "status": "mapped"
       },
       {
         "id": "09-vjezba-9#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
@@ -14956,8 +14997,11 @@
         "diagramRefs": [
           "05-Vjezba-5.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-9-navalno-vozilo/prvi-mlaz",
+          "vjezba-9-navalno-vozilo/prvi-mlaz-n1"
+        ],
+        "status": "mapped"
       },
       {
         "id": "09-vjezba-9#polaganje-prvog-mlaza-u-navalnom-sektoru/p2",
@@ -14982,8 +15026,10 @@
         "diagramRefs": [
           "05-Vjezba-5.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-9-navalno-vozilo/zapovjednik-posluzuje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "09-vjezba-9#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
@@ -15004,8 +15050,16 @@
         "diagramRefs": [
           "05-Vjezba-5.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-9-navalno-vozilo/drugi-mlaz-zapovijed",
+          "vjezba-9-navalno-vozilo/drugi-mlaz-v1-oprema",
+          "vjezba-9-navalno-vozilo/drugi-mlaz-v2",
+          "vjezba-9-navalno-vozilo/drugi-mlaz-v1-mlaznica",
+          "vjezba-9-navalno-vozilo/drugi-mlaz-v2-luk",
+          "vjezba-9-navalno-vozilo/drugi-mlaz-vodu-daj",
+          "vjezba-9-navalno-vozilo/drugi-mlaz-potvrda"
+        ],
+        "status": "mapped"
       },
       {
         "id": "09-vjezba-9#pospremanje-opreme/p1",
@@ -15035,8 +15089,50 @@
           "07-Vjezba-7.md",
           "07-Vjezba-7.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-9-navalno-vozilo/vodom-stoj",
+          "vjezba-9-navalno-vozilo/vodom-stoj-vode",
+          "vjezba-9-navalno-vozilo/zatvaranje-vode",
+          "vjezba-9-navalno-vozilo/posprema",
+          "vjezba-9-navalno-vozilo/posprema-strojar",
+          "vjezba-9-navalno-vozilo/posprema-mlaznice",
+          "vjezba-9-navalno-vozilo/posprema-zapovjednik",
+          "vjezba-9-navalno-vozilo/posprema-savijanje",
+          "vjezba-9-navalno-vozilo/posprema-motanje",
+          "vjezba-9-navalno-vozilo/posprema-nosaci",
+          "vjezba-9-navalno-vozilo/uzimanje-n1",
+          "vjezba-9-navalno-vozilo/uzimanje-n2",
+          "vjezba-9-navalno-vozilo/uzimanje-v1",
+          "vjezba-9-navalno-vozilo/uzimanje-v2",
+          "vjezba-9-navalno-vozilo/posprema-polozaj",
+          "vjezba-9-navalno-vozilo/oprema-u-vozilo",
+          "vjezba-9-navalno-vozilo/posprema-b",
+          "vjezba-9-navalno-vozilo/posprema-b-motanje",
+          "vjezba-9-navalno-vozilo/iz-vode",
+          "vjezba-9-navalno-vozilo/vodna-kljucevi",
+          "vjezba-9-navalno-vozilo/v1-razvezuje",
+          "vjezba-9-navalno-vozilo/strojar-rastavlja-nv",
+          "vjezba-9-navalno-vozilo/v1-prvi-spoj",
+          "vjezba-9-navalno-vozilo/v2-drugi-spoj",
+          "vjezba-9-navalno-vozilo/odnosenje",
+          "vjezba-9-navalno-vozilo/v1-skida-uze",
+          "vjezba-9-navalno-vozilo/v2-skida-karabin",
+          "vjezba-9-navalno-vozilo/spustanje",
+          "vjezba-9-navalno-vozilo/polozaj-rastavljanje",
+          "vjezba-9-navalno-vozilo/rastavljanje-4",
+          "vjezba-9-navalno-vozilo/prijelaz-r2",
+          "vjezba-9-navalno-vozilo/rastavljanje-3",
+          "vjezba-9-navalno-vozilo/prijelaz-r3",
+          "vjezba-9-navalno-vozilo/rastavljanje-2",
+          "vjezba-9-navalno-vozilo/prijelaz-r4",
+          "vjezba-9-navalno-vozilo/rastavljanje-sitke",
+          "vjezba-9-navalno-vozilo/sitka-strojaru",
+          "vjezba-9-navalno-vozilo/cijevi-u-vozilo",
+          "vjezba-9-navalno-vozilo/trecu-i-cetvrtu",
+          "vjezba-9-navalno-vozilo/uzad-u-vozilo",
+          "vjezba-9-navalno-vozilo/vodna-u-stroj"
+        ],
+        "status": "mapped"
       },
       {
         "id": "09-vjezba-9#pospremanje-opreme/p2",
@@ -15057,8 +15153,13 @@
         "diagramRefs": [
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-9-navalno-vozilo/pregled-opreme",
+          "vjezba-9-navalno-vozilo/prijavak",
+          "vjezba-9-navalno-vozilo/na-svoje-mjesto",
+          "vjezba-9-navalno-vozilo/zavrsetak"
+        ],
+        "status": "mapped"
       }
     ],
     "roleMentions": [

@@ -61,6 +61,12 @@
       "synthetic": false
     },
     {
+      "id": "vjezba-9-navalno-vozilo",
+      "file": "content/exercises/vjezba-9-navalno-vozilo.json",
+      "catalogId": "katalog-vjezbovnik",
+      "synthetic": false
+    },
+    {
       "id": "sinteticka-vjezba-01",
       "file": "content/exercises/sinteticka-vjezba-01.json",
       "catalogId": "katalog-sinteticki",

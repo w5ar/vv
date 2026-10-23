@@ -26,7 +26,8 @@ screen) button that shows the scene with its panels over the whole screen.
 | **Vježba 6 – Vježba s 2 „C” mlaza vode, opskrba vodom iz hidrantske mreže (6 vatrogasaca)** | `content/source/06-Vjezba-6.md`, sketches 42–46 | 6 stages, 51 steps; two „B” hoses from the hydrant to the collecting head (*sabirnica*) on the pump, then as Vježbe 5 and 1 |
 | **Vježba 7 – Vježba s 1 „C” mlazom vode, opskrba vodom iz otvorenog nalazišta (3 vatrogasca)** | `content/source/07-Vjezba-7.md`, sketches 47–51 | 7 stages, 67 steps; tanker (*autocisterna*): equipment taken from and returned to its compartments, „B” line and jet as in Vježba 2, suction line as in Vježba 4 once the tank is empty |
 | **Vježba 8 – Vježba s 1 „C” mlazom vode, opskrba vodom iz hidrantske mreže (3 vatrogasca)** | `content/source/08-Vjezba-8.md`, sketches 52–53 | 5 stages, 17 steps; the strojar fills the tanker from the hydrant through one „B” hose, the navalna grupa works as in Vježba 7 |
-| Vježbe 9–15 | `content/source/09-Vjezba-9.md` … `15-Vjezba-15.md`, sketches 54–77 | vendored and analysed (Pregled uvoza); not yet converted |
+| **Vježba 9 – Vježba s 2 „C” mlaza vode, opskrba vodom iz otvorenog nalazišta (6 vatrogasaca)** | `content/source/09-Vjezba-9.md`, sketches 54–58 | 6 stages, 93 steps; fire engine (*navalno vozilo*): suction line from the vehicle by the vodna grupa and the strojar as in Vježba 7, „B” line and two jets as in Vježba 5 |
+| Vježbe 10–15 | `content/source/10-Vjezba-10.md` … `15-Vjezba-15.md`, sketches 59–77 | vendored and analysed (Pregled uvoza); not yet converted |
 | Sintetička vježba 01 | `content/synthetic/` | **synthetic** test fixture, not firefighting practice |
 
 The source materials are a copy of the repository `w5ar/VatrogasneVjezbe` (*Vatrogasni vježbovnik*:

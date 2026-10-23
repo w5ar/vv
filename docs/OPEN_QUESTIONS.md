@@ -222,6 +222,21 @@ give the scene a real scale.
     hydrant key and the „B” hose; closing the hydrant cover (as in Vj1 117) is not mentioned and is not shown.
 72. **Which outlet**: *„na jedan izlazni otvor hidrantskog nastavka”* — the one skica 52 draws.
 
+## Vježba 9 — navalno vozilo, otvoreno nalazište (Vj9 = `content/source/09-Vjezba-9.md`)
+
+73. **No equipment list**: *„potrebna je vatrogasna oprema smještena u spremnicima navalnog vozila”* (Vj9 20)
+    names no items; the simulator uses the list of Vježba 5 without the portable pump (marked `derived`).
+    The seating plan in the vehicle (skica 54) is not shown.
+74. **Keys for the suction line**: in Vježba 7 the navalna grupa joins the line with its own keys; the vodna
+    grupa of Vježba 9 has none, so the strojar takes two keys from the vehicle and hands them over as in Vježba 4.
+75. **Laying the suction hoses**: Vj9 34 lists joining, tying and carrying; laying (after *„Četiri usisne
+    cijevi”*) is done by V₁ and V₂ as by the navalna grupa in Vježba 7.
+76. **Skica 56** does not draw the zapovjednik, who stands right of the distributor as in Vježba 5
+    (one `diagram.count-mismatch` warning).
+77. **Pospremanje** has no sketch: the column is placed as on skica 41 of Vježba 5, and the „C” equipment
+    goes into the vehicle in front of it as in Vježba 7. The suction line is taken in after the „B” line is
+    tidied (Vj7 88).
+
 ## Demonstration sound
 
 26. **Resolved orders**: Vj1 111 quotes *„Prvi, odnosno drugi mlaz – vodom stoj!”* for both leaders;

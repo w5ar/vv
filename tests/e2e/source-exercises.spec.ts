@@ -209,3 +209,15 @@ test('Vježba 8 demonstration fills the tanker from the hydrant and reaches comp
   await expect(page.getByTestId('object-nastavak')).toHaveCount(0);
   expect(errors).toEqual([]);
 });
+
+test('Vježba 9 demonstration (fire engine, suction line, two „C” jets) reaches completion', async ({ page }) => {
+  const errors: string[] = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  await page.goto('#/demonstracija/vjezba-9-navalno-vozilo');
+  await expect(page.getByTestId('object-nv')).toBeVisible();
+  const range = page.getByTestId('timeline-range');
+  await range.fill((await range.getAttribute('max')) ?? '0');
+  await expect(page.getByTestId('demo-complete')).toBeVisible();
+  await expect(page.getByTestId('progress-label')).toContainText('93 / 93');
+  expect(errors).toEqual([]);
+});

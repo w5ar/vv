@@ -2074,61 +2074,162 @@
     "candidateId": "09-vjezba-9#2-7-1-vjezba-9-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p1",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
   },
   {
     "candidateId": "09-vjezba-9#2-7-1-vjezba-9-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p2",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-9-navalno-vozilo",
+    "stepIds": [
+      "zbor"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "09-vjezba-9#2-7-1-vjezba-9-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p3",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
   },
   {
     "candidateId": "09-vjezba-9#postavljanje-usisnog-voda/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-9-navalno-vozilo",
+    "stepIds": [
+      "zapovijed-za-navalu",
+      "cetiri-usisne",
+      "strojar-oprema",
+      "strojar-mjesto",
+      "prve-cijevi",
+      "desne-cijevi",
+      "polozaj-spajanje",
+      "spoj-sitka",
+      "prijelaz-2",
+      "spoj-2",
+      "prijelaz-3",
+      "spoj-3",
+      "prijelaz-4",
+      "spoj-4",
+      "uzetom-vezi",
+      "v2-ventil",
+      "strojar-podize",
+      "v2-podize",
+      "v1-vezanje",
+      "u-vodu",
+      "prihvat-v1",
+      "prihvat-v2",
+      "prenosenje",
+      "v2-uze-vozilo",
+      "v2-pomaze",
+      "spoj-nv",
+      "v1-vozilo",
+      "gotovo",
+      "vodna-ceka"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "09-vjezba-9#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-9-navalno-vozilo",
+    "stepIds": [
+      "navalna-b-oprema",
+      "polaganje-b-prva",
+      "polaganje-b-druga",
+      "navalna-oprema-n1",
+      "navalna-oprema-n2",
+      "navalna-do-kraja-b",
+      "voda-do-razdjelnice",
+      "zapovjednik-razdjelnica"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "09-vjezba-9#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-9-navalno-vozilo",
+    "stepIds": [
+      "prvi-mlaz",
+      "prvi-mlaz-n1"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "09-vjezba-9#polaganje-prvog-mlaza-u-navalnom-sektoru/p2",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-9-navalno-vozilo",
+    "stepIds": [
+      "zapovjednik-posluzuje"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "09-vjezba-9#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-9-navalno-vozilo",
+    "stepIds": [
+      "drugi-mlaz-zapovijed",
+      "drugi-mlaz-v1-oprema",
+      "drugi-mlaz-v2",
+      "drugi-mlaz-v1-mlaznica",
+      "drugi-mlaz-v2-luk",
+      "drugi-mlaz-vodu-daj",
+      "drugi-mlaz-potvrda"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "09-vjezba-9#pospremanje-opreme/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-9-navalno-vozilo",
+    "stepIds": [
+      "vodom-stoj",
+      "vodom-stoj-vode",
+      "zatvaranje-vode",
+      "posprema",
+      "posprema-strojar",
+      "posprema-mlaznice",
+      "posprema-zapovjednik",
+      "posprema-savijanje",
+      "posprema-motanje",
+      "posprema-nosaci",
+      "uzimanje-n1",
+      "uzimanje-n2",
+      "uzimanje-v1",
+      "uzimanje-v2",
+      "posprema-polozaj",
+      "oprema-u-vozilo",
+      "posprema-b",
+      "posprema-b-motanje",
+      "iz-vode",
+      "vodna-kljucevi",
+      "v1-razvezuje",
+      "strojar-rastavlja-nv",
+      "v1-prvi-spoj",
+      "v2-drugi-spoj",
+      "odnosenje",
+      "v1-skida-uze",
+      "v2-skida-karabin",
+      "spustanje",
+      "polozaj-rastavljanje",
+      "rastavljanje-4",
+      "prijelaz-r2",
+      "rastavljanje-3",
+      "prijelaz-r3",
+      "rastavljanje-2",
+      "prijelaz-r4",
+      "rastavljanje-sitke",
+      "sitka-strojaru",
+      "cijevi-u-vozilo",
+      "trecu-i-cetvrtu",
+      "uzad-u-vozilo",
+      "vodna-u-stroj"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "09-vjezba-9#pospremanje-opreme/p2",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-9-navalno-vozilo",
+    "stepIds": [
+      "pregled-opreme",
+      "prijavak",
+      "na-svoje-mjesto",
+      "zavrsetak"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "10-vjezba-10#2-7-2-vjezba-10-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p1",
