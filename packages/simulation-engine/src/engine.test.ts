@@ -87,6 +87,14 @@ describe('command validation and state transitions', () => {
     expect(far.issues[0]?.code).toBe('place.too-far');
   });
 
+  it('requires portable equipment to be carried unless the exercise allows direct moves', () => {
+    const r = executeCommand(ctx, s0, { type: 'MoveEquipment', equipmentId: 'hose1', to: { x: 0, y: 0 } });
+    expect(r.issues[0]?.code).toBe('move.portable-must-be-carried');
+    expect(executeCommand(ctx, s0, { type: 'MoveEquipment', equipmentId: 'source', to: { x: 120, y: 90 } }).accepted).toBe(true);
+    const lenient = ctxFor((e) => ({ ...e, settings: { ...e.settings, equipmentMovePolicy: 'any' } }));
+    expect(executeCommand(lenient, createInitialState(lenient), { type: 'MoveEquipment', equipmentId: 'hose1', to: { x: 0, y: 0 } }).accepted).toBe(true);
+  });
+
   it('applies rotation policies from the symbol definition', () => {
     expect(executeCommand(ctx, s0, { type: 'RotateObject', objectId: 'source', rotation: 90 }).issues[0]?.code).toBe('rotation.not-allowed');
     expect(executeCommand(ctx, s0, { type: 'RotateObject', objectId: 'splitter', rotation: 45 }).issues[0]?.code).toBe('rotation.invalid-step');
@@ -271,6 +279,8 @@ describe('demonstration timeline', () => {
     expect(tl.problems).toEqual([]);
     expect(tl.finalState.completed).toBe(true);
     expect(tl.durationMs).toBeGreaterThan(0);
+    // Integer schedule: a UI slider with step 1 can reach every boundary exactly.
+    expect(tl.entries.every((e) => Number.isInteger(e.startMs) && Number.isInteger(e.endMs))).toBe(true);
   });
 
   it('runs independent steps in parallel and respects dependencies', () => {

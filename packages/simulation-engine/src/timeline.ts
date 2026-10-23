@@ -159,8 +159,9 @@ export function compileTimeline(ctx: ExerciseContext, options: { snapshotInterva
     let prevStart = start;
     let end = start;
     for (const sc of step.script) {
-      const duration = sc.durationMs ?? defaultDuration(ctx, sim, sc.command);
-      const s = (sc.withPrevious ? prevStart : cursor) + sc.delayMs;
+      // Whole milliseconds keep the schedule exact for seeking and UI sliders.
+      const duration = Math.round(sc.durationMs ?? defaultDuration(ctx, sim, sc.command));
+      const s = (sc.withPrevious ? prevStart : cursor) + Math.round(sc.delayMs);
       const e = s + duration;
       drafts.push({
         order: drafts.length,

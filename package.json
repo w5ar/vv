@@ -13,7 +13,7 @@
     "dev": "pnpm --filter @fds/web dev",
     "build": "pnpm --filter @fds/web build",
     "preview": "pnpm --filter @fds/web preview",
-    "typecheck": "pnpm -r --workspace-concurrency=1 typecheck",
+    "typecheck": "pnpm -r --workspace-concurrency=1 typecheck && tsc --noEmit -p tsconfig.json",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",

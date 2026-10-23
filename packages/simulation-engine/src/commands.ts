@@ -80,6 +80,12 @@ const validators: { [T in Command['type']]: Validator<T> } = {
   MoveEquipment: (ctx, state, cmd) => {
     const issues: Issue[] = [];
     const eq = requireObject(state, cmd.equipmentId, 'equipment', issues);
+    const portable = eq?.typeId ? ctx.catalog.equipmentTypes.get(eq.typeId)?.portable === true : false;
+    if (eq && !eq.carriedBy && portable && ctx.exercise.settings.equipmentMovePolicy === 'non-portable-only') {
+      issues.push(
+        err('move.portable-must-be-carried', `${objectName(ctx, eq)} je prijenosna oprema: osoba je treba uzeti i odložiti na novo mjesto.`, [eq.id]),
+      );
+    }
     if (eq?.carriedBy) {
       const carrier = state.objects[eq.carriedBy];
       issues.push(

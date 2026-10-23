@@ -143,6 +143,11 @@ export const ExerciseSettingsSchema = z.strictObject({
   maxCarriedPerPerson: z.number().int().positive().nullable().default(null),
   /** Handling of actions that complete a step before its dependencies: warn, reject or ignore. */
   orderPolicy: z.enum(['warn', 'reject', 'ignore']).default('warn'),
+  /**
+   * `non-portable-only`: portable equipment changes place only by being carried
+   * (PickUp/Place); MoveEquipment is limited to non-portable objects such as vehicles.
+   */
+  equipmentMovePolicy: z.enum(['any', 'non-portable-only']).default('non-portable-only'),
   /** Visual offset of carried equipment relative to the carrier. */
   carryOffset: Vec2Schema.default({ x: 22, y: -18 }),
 });
