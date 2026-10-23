@@ -21498,8 +21498,10 @@
           "src.zapovjednik"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/zbor"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#2-8-vjezba-15-natjecateljska-vjezba/p4",
@@ -21520,8 +21522,10 @@
           "src.zapovjednik"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/zapovijed"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#2-8-vjezba-15-natjecateljska-vjezba/p5",
@@ -21543,8 +21547,10 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/cetiri-usisne"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#polaganje-usisnih-cijevi-slika-52-53/p1",
@@ -21568,8 +21574,10 @@
           "src.usisna-sitka"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/strojar-oprema"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#polaganje-usisnih-cijevi-slika-52-53/p2",
@@ -21591,8 +21599,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/vodna-uzimanje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#polaganje-usisnih-cijevi-slika-52-53/p3",
@@ -21611,8 +21621,10 @@
         "roleMentions": [],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/vodna-polaganje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#polaganje-usisnih-cijevi-slika-52-53/p4",
@@ -21634,8 +21646,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/cijevna-polaganje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p1",
@@ -21659,8 +21673,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/cijevna-prva-cijev"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p2",
@@ -21685,8 +21701,11 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/v1-sitka",
+          "vjezba-15-natjecateljska/spoj-sitka"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p3",
@@ -21709,8 +21728,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/v2-torbice"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p4",
@@ -21729,8 +21750,10 @@
         "roleMentions": [],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/prijelaz-2"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p5",
@@ -21749,8 +21772,11 @@
         "roleMentions": [],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/prijelaz-3",
+          "vjezba-15-natjecateljska/prijelaz-4"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p6",
@@ -21774,8 +21800,11 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/spoj-2",
+          "vjezba-15-natjecateljska/spoj-4"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p7",
@@ -21864,8 +21893,10 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/spoj-3"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p11",
@@ -21912,8 +21943,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/kljuc-c2"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p1",
@@ -21936,8 +21969,10 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/uzetom-vezi"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p2",
@@ -21959,8 +21994,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/c1-ventil"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p3",
@@ -21981,8 +22018,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/v2-podize"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p4",
@@ -22006,8 +22045,11 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/strojar-podize",
+          "vjezba-15-natjecateljska/v1-vezanje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p5",
@@ -22030,8 +22072,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/c2-ceka"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p6",
@@ -22100,8 +22144,10 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/u-vodu"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p2",
@@ -22125,8 +22171,10 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/prihvat-v1"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p3",
@@ -22152,8 +22200,11 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/prihvat-ostali",
+          "vjezba-15-natjecateljska/prenosenje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p4",
@@ -22174,8 +22225,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/v1-rucica"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p5",
@@ -22196,8 +22249,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/c1-uze-mvp"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p6",
@@ -22220,8 +22275,11 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/spoj-mvp",
+          "vjezba-15-natjecateljska/gotovo"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p7",
@@ -22247,8 +22305,11 @@
           "src.c1"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/nakon-gotovo",
+          "vjezba-15-natjecateljska/vodna-ceka"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-slika-63/p1",
@@ -22272,8 +22333,12 @@
           "src.n2"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/navalna-b-oprema",
+          "vjezba-15-natjecateljska/polaganje-b-prva",
+          "vjezba-15-natjecateljska/polaganje-b-druga"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
@@ -22294,8 +22359,15 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/navalna-oprema-n1",
+          "vjezba-15-natjecateljska/navalna-oprema-n2",
+          "vjezba-15-natjecateljska/navalna-razdjelnica",
+          "vjezba-15-natjecateljska/prvi-mlaz-spajanje",
+          "vjezba-15-natjecateljska/prvi-mlaz-n1",
+          "vjezba-15-natjecateljska/prvi-mlaz-n2"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#posluzivanje-razdjelnice/p1",
@@ -22319,8 +22391,10 @@
           "src.zapovjednik"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/z-teklic"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#posluzivanje-razdjelnice/p2",
@@ -22345,8 +22419,12 @@
           "src.teklic"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/teklic-vodu-daj",
+          "vjezba-15-natjecateljska/strojar-tlacni",
+          "vjezba-15-natjecateljska/prvi-mlaz-ventil"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
@@ -22368,8 +22446,11 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/drugi-mlaz-oprema",
+          "vjezba-15-natjecateljska/drugi-mlaz-v2"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#polaganje-drugog-mlaza-u-navalnom-sektoru/p2",
@@ -22394,8 +22475,12 @@
           "src.v2"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/drugi-mlaz-v1",
+          "vjezba-15-natjecateljska/drugi-mlaz-ventil",
+          "vjezba-15-natjecateljska/drugi-mlaz-v2-luk"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#polaganje-drugog-mlaza-u-navalnom-sektoru/p3",
@@ -22419,8 +22504,10 @@
           "src.zapovjednik"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/kraj-vjezbe"
+        ],
+        "status": "mapped"
       },
       {
         "id": "15-vjezba-15#pospremanje-opreme/p1",
@@ -22444,8 +22531,54 @@
           "05-Vjezba-5.md",
           "03-Vjezba-3.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-15-natjecateljska/vodom-stoj",
+          "vjezba-15-natjecateljska/vodom-stoj-vode",
+          "vjezba-15-natjecateljska/zatvaranje-vode",
+          "vjezba-15-natjecateljska/posprema",
+          "vjezba-15-natjecateljska/posprema-strojar",
+          "vjezba-15-natjecateljska/posprema-mlaznice",
+          "vjezba-15-natjecateljska/posprema-razdjelnica",
+          "vjezba-15-natjecateljska/posprema-savijanje",
+          "vjezba-15-natjecateljska/posprema-motanje",
+          "vjezba-15-natjecateljska/posprema-nosaci",
+          "vjezba-15-natjecateljska/uzimanje",
+          "vjezba-15-natjecateljska/posprema-polozaj",
+          "vjezba-15-natjecateljska/opremu-uzmi",
+          "vjezba-15-natjecateljska/stoj-celom-nazad",
+          "vjezba-15-natjecateljska/odlaganje-opreme",
+          "vjezba-15-natjecateljska/navalna-u-stroj",
+          "vjezba-15-natjecateljska/cijevni-savijanje",
+          "vjezba-15-natjecateljska/cijevni-motanje",
+          "vjezba-15-natjecateljska/z-teklic-stroj",
+          "vjezba-15-natjecateljska/iz-vode",
+          "vjezba-15-natjecateljska/v1-razvezuje",
+          "vjezba-15-natjecateljska/c1-uze-sitka",
+          "vjezba-15-natjecateljska/strojar-rastavlja-mvp",
+          "vjezba-15-natjecateljska/v1-prvi-spoj",
+          "vjezba-15-natjecateljska/v2-drugi-spoj",
+          "vjezba-15-natjecateljska/c2-treci-spoj",
+          "vjezba-15-natjecateljska/c1-sitka",
+          "vjezba-15-natjecateljska/odnosenje",
+          "vjezba-15-natjecateljska/v1-skida-uze",
+          "vjezba-15-natjecateljska/c1-skida-karabin",
+          "vjezba-15-natjecateljska/spustanje",
+          "vjezba-15-natjecateljska/polozaj-rastavljanje",
+          "vjezba-15-natjecateljska/kljuc-v1",
+          "vjezba-15-natjecateljska/rastavljanje-4",
+          "vjezba-15-natjecateljska/prijelaz-r2",
+          "vjezba-15-natjecateljska/rastavljanje-3",
+          "vjezba-15-natjecateljska/prijelaz-r3",
+          "vjezba-15-natjecateljska/rastavljanje-2",
+          "vjezba-15-natjecateljska/prijelaz-r4",
+          "vjezba-15-natjecateljska/rastavljanje-sitke",
+          "vjezba-15-natjecateljska/sitka-strojaru",
+          "vjezba-15-natjecateljska/vodna-natrag",
+          "vjezba-15-natjecateljska/cijevna-natrag",
+          "vjezba-15-natjecateljska/uzad-natrag",
+          "vjezba-15-natjecateljska/u-stroj"
+        ],
+        "status": "mapped"
       }
     ],
     "roleMentions": [

@@ -316,6 +316,29 @@ give the scene a real scale.
 100. **Skica 73** is captioned *„…nakon izdane zapovijedi za prvi mlaz”* but shows the second jet (as slika 48,
     *„…za drugi mlaz”*); the simulator compares it at the end of the second-jet stage.
 
+## Vježba 15 — natjecateljska vježba (Vj15 = `content/source/15-Vjezba-15.md`)
+
+101. **Layout**: skica 74 draws the setup of skica 20 (Vježba 3) enlarged. The suction equipment is placed as on
+     skica 20 and the scripts of Vježba 3 are reused for the suction line (same five people, almost the same
+     text); the other equipment is placed as on skica 74, scaled down about the pump. Skice 74–77 draw a B/C
+     adapter that the equipment list (Vj15 17–30) does not name; it is in the scene (`derived`) but not used.
+102. **Suction line**: *„Diži – spusti”* is shown although giving it is optional (Vj15 98). Vježba 15 does not
+     say who holds the fourth hose while the strojar connects it to the pump (V₂ does in Vježba 3); the strojar
+     holds it. The competition rules (posture, what C₂ may and must not do, nobody passing in front of the pump
+     before *„Gotovo!”* — Vj15 88–96, 128–130, 166) are listed in the step texts but not checked. Where V₁
+     leaves the rope bag after tying it to the pump handle is not described (left at the pump, as in Vježba 5).
+103. **Serving the distributor**: the teklić serves it until C₁ arrives and gives *„Vodu daj!”* once the „B”
+     line is connected; the strojar confirms and opens the pressure valve after *„Gotovo!”*. C₁ arrives after
+     *„Gotovo!”* (skice 75 and 76 draw C₁ at the distributor) and answers N₁'s *„Prvi mlaz vodu daj!”*; the text
+     allows either of them.
+104. **Skice 75 and 76** do not draw the teklić (two `diagram.count-mismatch` warnings).
+105. **Second jet**: the vodna grupa waits near its equipment after *„Gotovo!”* until the first jet is laid
+     (skica 76 draws it there), then lays the second jet (Vj15 200).
+106. **Pospremanje** (Vj15 212) refers to Vježbe 5 and 3. The distributor tasks of the zapovjednik in Vježba 5
+     are done by C₁, who serves the distributor here, and the „B” coupling is undone by C₂, who stands there with
+     the bag and V₁'s key; C₂ gives the key back to V₁ before the suction line is dismantled (see Q33). The
+     zapovjednik and the teklić go to the stroj; Vježba 15 describes no report, so none is shown.
+
 ## Demonstration sound
 
 26. **Resolved orders**: Vj1 111 quotes *„Prvi, odnosno drugi mlaz – vodom stoj!”* for both leaders;
@@ -355,9 +378,9 @@ give the scene a real scale.
 
 ## Recommended next steps
 
-1. Expert review of both exercises in the demonstration and training modes; record answers here and
+1. Expert review of the fifteen exercises in the demonstration and training modes; record answers here and
    set `review.status: verified` where confirmed.
 2. Decide the questions on ports and compatibility (3–7) and update the catalog review file.
 3. Define assessment criteria for the exercises if the training organisation uses them.
-4. Then: formation drills (Q2), further exercises from the vježbovnik, per-trainee results via an
-   ASP.NET Core backend implementing the persistence interfaces.
+4. Then: formation drills (Q2), per-trainee results via an ASP.NET Core backend implementing the
+   persistence interfaces.

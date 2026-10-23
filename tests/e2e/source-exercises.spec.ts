@@ -293,3 +293,16 @@ test('Vježba 14 demonstration (foam jet, breathing apparatus) reaches completio
   await expect(page.getByTestId('object-posuda')).toHaveCount(0);
   expect(errors).toEqual([]);
 });
+
+test('Vježba 15 demonstration (competition exercise, nine firefighters) reaches completion', async ({ page }) => {
+  const errors: string[] = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  await page.goto('#/demonstracija/vjezba-15-natjecateljska');
+  await expect(page.getByTestId('object-t')).toBeVisible();
+  await expect(page.getByTestId('object-c2')).toBeVisible();
+  const range = page.getByTestId('timeline-range');
+  await range.fill((await range.getAttribute('max')) ?? '0');
+  await expect(page.getByTestId('demo-complete')).toBeVisible();
+  await expect(page.getByTestId('progress-label')).toContainText('98 / 98');
+  expect(errors).toEqual([]);
+});

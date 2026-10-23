@@ -3033,258 +3033,391 @@
     "candidateId": "15-vjezba-15#2-8-vjezba-15-natjecateljska-vjezba/p1",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
   },
   {
     "candidateId": "15-vjezba-15#2-8-vjezba-15-natjecateljska-vjezba/p2",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Uvod u popis opreme; oprema je u početnoj sceni, a količine se provjeravaju u fazi F."
   },
   {
     "candidateId": "15-vjezba-15#2-8-vjezba-15-natjecateljska-vjezba/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "zbor"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#2-8-vjezba-15-natjecateljska-vjezba/p4",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "zapovijed"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#2-8-vjezba-15-natjecateljska-vjezba/p5",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "cetiri-usisne"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#polaganje-usisnih-cijevi-slika-52-53/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "strojar-oprema"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#polaganje-usisnih-cijevi-slika-52-53/p2",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "vodna-uzimanje"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#polaganje-usisnih-cijevi-slika-52-53/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "vodna-polaganje"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#polaganje-usisnih-cijevi-slika-52-53/p4",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "cijevna-polaganje"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "cijevna-prva-cijev"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p2",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "v1-sitka",
+      "spoj-sitka"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "v2-torbice"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p4",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "prijelaz-2"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p5",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "prijelaz-3",
+      "prijelaz-4"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p6",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "spoj-2",
+      "spoj-4"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p7",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Pravilo položaja tijela pri spajanju (raskorak, položaj nogu); simulator ga ne prikazuje."
   },
   {
     "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p8",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Pravilo natjecanja (što se mora, smije ili ne smije) za vrijeme spajanja i vezivanja; simulator položaj tijela i dodire ne provjerava."
   },
   {
     "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p9",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Pravilo natjecanja (što se mora, smije ili ne smije) za vrijeme spajanja i vezivanja; simulator položaj tijela i dodire ne provjerava."
   },
   {
     "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p10",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "spoj-3"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p11",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Postupak za slučaj pogreške (rastavljena spojnica); u demonstraciji se spojnice ne rastavljaju."
   },
   {
     "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p12",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "kljuc-c2"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "uzetom-vezi"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p2",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "c1-ventil"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "v2-podize"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p4",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "strojar-podize",
+      "v1-vezanje"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p5",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "c2-ceka"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p6",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Pravilo natjecanja (što se mora, smije ili ne smije) za vrijeme spajanja i vezivanja; simulator položaj tijela i dodire ne provjerava."
   },
   {
     "candidateId": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p7",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Dopušteni drugačiji redoslijed (kvačenje užeta i nakon zapovijedi „Gotovo!”); demonstracija prikazuje redoslijed iz odlomka iznad."
   },
   {
     "candidateId": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "u-vodu"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p2",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "prihvat-v1"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "prihvat-ostali",
+      "prenosenje"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p4",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "v1-rucica"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p5",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "c1-uze-mvp"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p6",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "spoj-mvp",
+      "gotovo"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#prenosenje-usisnog-voda-slika-59/p7",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "nakon-gotovo",
+      "vodna-ceka"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-slika-63/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "navalna-b-oprema",
+      "polaganje-b-prva",
+      "polaganje-b-druga"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "navalna-oprema-n1",
+      "navalna-oprema-n2",
+      "navalna-razdjelnica",
+      "prvi-mlaz-spajanje",
+      "prvi-mlaz-n1",
+      "prvi-mlaz-n2"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#posluzivanje-razdjelnice/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "z-teklic"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#posluzivanje-razdjelnice/p2",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "teklic-vodu-daj",
+      "strojar-tlacni",
+      "prvi-mlaz-ventil"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "drugi-mlaz-oprema",
+      "drugi-mlaz-v2"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#polaganje-drugog-mlaza-u-navalnom-sektoru/p2",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "drugi-mlaz-v1",
+      "drugi-mlaz-ventil",
+      "drugi-mlaz-v2-luk"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#polaganje-drugog-mlaza-u-navalnom-sektoru/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "kraj-vjezbe"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "15-vjezba-15#pospremanje-opreme/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-15-natjecateljska",
+    "stepIds": [
+      "vodom-stoj",
+      "vodom-stoj-vode",
+      "zatvaranje-vode",
+      "posprema",
+      "posprema-strojar",
+      "posprema-mlaznice",
+      "posprema-razdjelnica",
+      "posprema-savijanje",
+      "posprema-motanje",
+      "posprema-nosaci",
+      "uzimanje",
+      "posprema-polozaj",
+      "opremu-uzmi",
+      "stoj-celom-nazad",
+      "odlaganje-opreme",
+      "navalna-u-stroj",
+      "cijevni-savijanje",
+      "cijevni-motanje",
+      "z-teklic-stroj",
+      "iz-vode",
+      "v1-razvezuje",
+      "c1-uze-sitka",
+      "strojar-rastavlja-mvp",
+      "v1-prvi-spoj",
+      "v2-drugi-spoj",
+      "c2-treci-spoj",
+      "c1-sitka",
+      "odnosenje",
+      "v1-skida-uze",
+      "c1-skida-karabin",
+      "spustanje",
+      "polozaj-rastavljanje",
+      "kljuc-v1",
+      "rastavljanje-4",
+      "prijelaz-r2",
+      "rastavljanje-3",
+      "prijelaz-r3",
+      "rastavljanje-2",
+      "prijelaz-r4",
+      "rastavljanje-sitke",
+      "sitka-strojaru",
+      "vodna-natrag",
+      "cijevna-natrag",
+      "uzad-natrag",
+      "u-stroj"
+    ],
+    "status": "mapped"
   }
 ]

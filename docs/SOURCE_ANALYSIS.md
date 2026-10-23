@@ -27,20 +27,19 @@ unchanged). A byte-identical copy is vendored in `content/source/` (provenance i
 | **Vježba 12** – fire engine, one „B” and one „C” jet, hydrant network, six firefighters (`12-Vjezba-12.md`, sketches 65–67) | 1 + 3 | **converted**; refers to Vježbe 1, 8, 9 and 10; no equipment list (first-jet equipment from the text, the rest from Vježbe 1 and 10) |
 | **Vježba 13** – fire engine, one foam jet and one „C” jet, hydrant network, six firefighters (`13-Vjezba-13.md`, sketches 68–70) | 1 + 3 | **converted**; refers to Vježbe 1, 8, 9, 10 and 12; no equipment list (first-jet and foam equipment from the text, the rest from Vježbe 1 and 10) |
 | **Vježba 14** – fire engine, foam jet and water jet, navalna grupa with breathing apparatus, hydrant network, six firefighters (`14-Vjezba-14.md`, sketches 71–73) | 1 + 3 | **converted**; refers to Vježbe 1, 8, 9, 10, 11 and 13; no equipment list (as Vježba 13, plus two breathing apparatus) |
-| Vježba 15 (`15-Vjezba-15.md`, sketches 74–77) | 1 + 4 | analysed; marked as not yet entered in `mapping.review.json` |
+| **Vježba 15** – competition exercise, nine firefighters (`15-Vjezba-15.md`, sketches 74–77) | 1 + 4 | **converted**; suction line described as in Vježba 3, pospremanje refers to Vježbe 5 and 3; competition rules are listed but not checked |
 | Symbols (`simboli/*.svg`) + sprite (`simboli/simboli.svg`) | 56 + 1 | catalog `katalog-vjezbovnik` (sprite ignored: duplicates the single files) |
 | Stage sketches (`skice/*.svg`) and self-contained render copies (`skice/ugradjeno/*.svg`) | 76 + 76 | analysed (stage C) |
 | Photographs (`slike/*.jpg`) | 48 | raster, kept as references only |
 | Generator scripts (`alati/*.py`) | 7 | read as text; quoted as the source of drawing conventions (line widths, couplings, facing marks, pump and vehicle connections) |
 
 Pipeline result (`content/normalized/source/REPORT.md`): 282 files, 56 symbols, 76 diagrams,
-18 procedures, 14 exercises — **0 errors**, 54 warnings (48 raster photographs, 6 sketch differences
-listed in OPEN_QUESTIONS Q44, Q50 and Q76). Every step candidate
-is either mapped to an exercise step or explicitly ignored with a reason (the candidates of exercise
-15 are ignored as „not yet entered”). The demonstrations run without rejected commands, reach
+18 procedures, 15 exercises — **0 errors**, 56 warnings (48 raster photographs, 8 sketch differences
+listed in OPEN_QUESTIONS Q44, Q50, Q76 and Q104). Every step candidate
+is either mapped to an exercise step or explicitly ignored with a reason. The demonstrations run without rejected commands, reach
 completion and agree with every stage sketch they are compared with.
 
-Both exercises have `review.status: requires-review`: the linking of text, sketches and simulation
+All exercises have `review.status: requires-review`: the linking of text, sketches and simulation
 commands was done by the development team and must be checked by a firefighting expert. The
 questions this raised are listed in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md).
 

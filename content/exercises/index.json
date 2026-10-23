@@ -49,6 +49,12 @@
       "synthetic": false
     },
     {
+      "id": "vjezba-15-natjecateljska",
+      "file": "content/exercises/vjezba-15-natjecateljska.json",
+      "catalogId": "katalog-vjezbovnik",
+      "synthetic": false
+    },
+    {
       "id": "vjezba-2-jedan-c-mlaz",
       "file": "content/exercises/vjezba-2-jedan-c-mlaz.json",
       "catalogId": "katalog-vjezbovnik",

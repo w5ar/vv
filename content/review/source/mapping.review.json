@@ -12,10 +12,6 @@
     {
       "file": "00-3-Postrojavanje.md",
       "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
-    },
-    {
-      "file": "15-Vjezba-15.md",
-      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
     }
   ],
   "ignored": [
@@ -246,6 +242,38 @@
     {
       "candidateId": "14-vjezba-14#2-7-6-vjezba-14-vjezba-s-1-mlazom-pjene-1-mlazom-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-i-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p6",
       "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
+    },
+    {
+      "candidateId": "15-vjezba-15#2-8-vjezba-15-natjecateljska-vjezba/p1",
+      "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
+    },
+    {
+      "candidateId": "15-vjezba-15#2-8-vjezba-15-natjecateljska-vjezba/p2",
+      "reason": "Uvod u popis opreme; oprema je u početnoj sceni, a količine se provjeravaju u fazi F."
+    },
+    {
+      "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p7",
+      "reason": "Pravilo položaja tijela pri spajanju (raskorak, položaj nogu); simulator ga ne prikazuje."
+    },
+    {
+      "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p8",
+      "reason": "Pravilo natjecanja (što se mora, smije ili ne smije) za vrijeme spajanja i vezivanja; simulator položaj tijela i dodire ne provjerava."
+    },
+    {
+      "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p9",
+      "reason": "Pravilo natjecanja (što se mora, smije ili ne smije) za vrijeme spajanja i vezivanja; simulator položaj tijela i dodire ne provjerava."
+    },
+    {
+      "candidateId": "15-vjezba-15#spajanje-usisnog-voda-slika-54-55-56-57/p11",
+      "reason": "Postupak za slučaj pogreške (rastavljena spojnica); u demonstraciji se spojnice ne rastavljaju."
+    },
+    {
+      "candidateId": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p6",
+      "reason": "Pravilo natjecanja (što se mora, smije ili ne smije) za vrijeme spajanja i vezivanja; simulator položaj tijela i dodire ne provjerava."
+    },
+    {
+      "candidateId": "15-vjezba-15#vezanje-usisnog-voda-slika-58/p7",
+      "reason": "Dopušteni drugačiji redoslijed (kvačenje užeta i nakon zapovijedi „Gotovo!”); demonstracija prikazuje redoslijed iz odlomka iznad."
     }
   ]
 }
