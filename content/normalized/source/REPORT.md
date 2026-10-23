@@ -4,7 +4,7 @@
 
 - Izvorni direktorij: `content/source`
 - Datoteka: 282
-- Dijagnostika: 0 grešaka, 53 upozorenja, 423 informacija
+- Dijagnostika: 0 grešaka, 53 upozorenja, 425 informacija
 
 ## A – Popis materijala
 
@@ -3070,15 +3070,15 @@ Naslov: Poligonske vježbe
 | --- | --- | --- | --- | --- | --- |
 | 08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p1 | 5 | *Vježbu izvodi odjeljenje od 3 vatrogasca:* |  |  | ignored |
 | 08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p2 | 11 | *Za izvođenje vježbe potrebna je sljedeća vatrogasna oprema smještena u spremnicima vozila:* |  |  | ignored |
-| 08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p3 | 23 | Vatrogasci se postrojavaju iza vozila i postupaju kao u [vježbi 7](07-Vjezba-7.md). Vođa navalne grupe (N₁) izdaje zapovijed: **„Požar pravac … voda – hidrant, sa dvije „B” cijevi do razdjelnice za navalu pripremi!”**. | role.vodja-navalne | src.n1 | ignored |
+| 08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p3 | 23 | Vatrogasci se postrojavaju iza vozila i postupaju kao u [vježbi 7](07-Vjezba-7.md). Vođa navalne grupe (N₁) izdaje zapovijed: **„Požar pravac … voda – hidrant, sa dvije „B” cijevi do razdjelnice za navalu pripremi!”**. | role.vodja-navalne | src.n1 | mapped |
 | 08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p4 | 25 | Nakon izdane zapovijedi obavljaju se sljedeće radnje: |  |  | ignored |
-| 08-vjezba-8#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1 | 29 | Nakon izdane zapovijedi, strojar uzima u desnu ruku hidrantski nastavak, a u lijevu hidrantski ključ, te univerzalni ključ za spojnice koji stavlja za opasač, odlazi do podzemnog hidranta i postavlja ga kao u [vježbi 1](01-Vjezba-1.md#postavljanje-hidrantskog-nastavka). Vraća se do vozila i uzima jednu „B” cijev. Donju spojnicu „B” cijevi spaja na otvor za punjenje rezervoara na vozilu, a gornju spojnicu „B” cijevi priključuje na jedan izlazni otvor hidrantskog nastavka. Nakon toga, po potrebi, otvara hidrant i ventil hidrantskog nastavka i odlazi do pumpe vozila gdje čeka zapovijed za puštanje vode za prvi mlaz. | role.strojar | src.kljuc-za-spojnice, src.strojar | ignored |
-| 08-vjezba-8#polaganje-b-cijevnog-voda/p1 | 33 | „B” cijevni vod polaže navalna grupa kao u [vježbi 7](07-Vjezba-7.md#polaganje-b-cijevnog-voda-u-cijevnom-sektoru) (skica 52, slika 38). |  |  | ignored |
-| 08-vjezba-8#polaganje-prvog-mlaza-u-navalnom-sektoru/p1 | 45 | Navalna grupa polaže prvi mlaz kao u [vježbi 7](07-Vjezba-7.md#polaganje-prvog-mlaza-u-navalnom-sektoru) (skica 53, slika 39). |  |  | ignored |
-| 08-vjezba-8#posprema-opreme/p1 | 57 | Za završetak rada i pospremu, vođa navalne grupe (N₁) izdaje zapovijedi kao u [vježbi 7](07-Vjezba-7.md#pospremanje-opreme). Pospremu prvog mlaza i „B” cijevnog voda obavlja navalna grupa kao u vježbi 7. | role.vodja-navalne | src.n1 | ignored |
-| 08-vjezba-8#posprema-opreme/p2 | 59 | Strojar, na zapovijed **„Posprema”**, rastavlja „B” cijevni vod sa pumpe, odlazi do hidranta, zatvara vodu na hidrantu i ventil na hidrantskom nastavku, zatim rastavlja „B” cijev cijevnog voda od hidranta do vozila. Posprema hidrantski ključ, hidrantski nastavak i „B” cijev. | role.strojar | src.strojar | ignored |
-| 08-vjezba-8#posprema-opreme/p3 | 61 | Navalna grupa obavlja pospremu prvog mlaza i „B” cijevnog voda kao u vježbi 7. |  |  | ignored |
-| 08-vjezba-8#posprema-opreme/p4 | 63 | Kada odlože opremu, vatrogasci odlaze u stroj i postupaju kao u vježbi 7. |  |  | ignored |
+| 08-vjezba-8#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1 | 29 | Nakon izdane zapovijedi, strojar uzima u desnu ruku hidrantski nastavak, a u lijevu hidrantski ključ, te univerzalni ključ za spojnice koji stavlja za opasač, odlazi do podzemnog hidranta i postavlja ga kao u [vježbi 1](01-Vjezba-1.md#postavljanje-hidrantskog-nastavka). Vraća se do vozila i uzima jednu „B” cijev. Donju spojnicu „B” cijevi spaja na otvor za punjenje rezervoara na vozilu, a gornju spojnicu „B” cijevi priključuje na jedan izlazni otvor hidrantskog nastavka. Nakon toga, po potrebi, otvara hidrant i ventil hidrantskog nastavka i odlazi do pumpe vozila gdje čeka zapovijed za puštanje vode za prvi mlaz. | role.strojar | src.kljuc-za-spojnice, src.strojar | mapped |
+| 08-vjezba-8#polaganje-b-cijevnog-voda/p1 | 33 | „B” cijevni vod polaže navalna grupa kao u [vježbi 7](07-Vjezba-7.md#polaganje-b-cijevnog-voda-u-cijevnom-sektoru) (skica 52, slika 38). |  |  | mapped |
+| 08-vjezba-8#polaganje-prvog-mlaza-u-navalnom-sektoru/p1 | 45 | Navalna grupa polaže prvi mlaz kao u [vježbi 7](07-Vjezba-7.md#polaganje-prvog-mlaza-u-navalnom-sektoru) (skica 53, slika 39). |  |  | mapped |
+| 08-vjezba-8#posprema-opreme/p1 | 57 | Za završetak rada i pospremu, vođa navalne grupe (N₁) izdaje zapovijedi kao u [vježbi 7](07-Vjezba-7.md#pospremanje-opreme). Pospremu prvog mlaza i „B” cijevnog voda obavlja navalna grupa kao u vježbi 7. | role.vodja-navalne | src.n1 | mapped |
+| 08-vjezba-8#posprema-opreme/p2 | 59 | Strojar, na zapovijed **„Posprema”**, rastavlja „B” cijevni vod sa pumpe, odlazi do hidranta, zatvara vodu na hidrantu i ventil na hidrantskom nastavku, zatim rastavlja „B” cijev cijevnog voda od hidranta do vozila. Posprema hidrantski ključ, hidrantski nastavak i „B” cijev. | role.strojar | src.strojar | mapped |
+| 08-vjezba-8#posprema-opreme/p3 | 61 | Navalna grupa obavlja pospremu prvog mlaza i „B” cijevnog voda kao u vježbi 7. |  |  | mapped |
+| 08-vjezba-8#posprema-opreme/p4 | 63 | Kada odlože opremu, vatrogasci odlaze u stroj i postupaju kao u vježbi 7. |  |  | mapped |
 
 ### content/source/09-Vjezba-9.md
 
@@ -3505,17 +3505,17 @@ Naslov: Poligonske vježbe
 | 07-vjezba-7#pospremanje-opreme/p1 | vjezba-7-autocisterna | vodom-stoj, zatvaranje-posprema, strojar-otpaja-b, posprema-mlaz, oprema-u-vozilo, posprema-b | mapped |  |
 | 07-vjezba-7#pospremanje-opreme/p2 | vjezba-7-autocisterna | iz-vode, n1-razvezuje, strojar-rastavlja-ac, n1-prvi-spoj, n2-drugi-spoj, odnosenje, n1-skida-uze, n2-skida-karabin, spustanje, polozaj-rastavljanje, rastavljanje-4, prijelaz-r2, rastavljanje-3, prijelaz-r3, rastavljanje-2, prijelaz-r4, rastavljanje-sitke, sitka-strojaru, cijevi-u-vozilo, trecu-i-cetvrtu, uzad-u-vozilo | mapped |  |
 | 07-vjezba-7#pospremanje-opreme/p3 | vjezba-7-autocisterna | u-stroj, stroj-prijavak | mapped |  |
-| 08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p2 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p3 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p4 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 08-vjezba-8#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 08-vjezba-8#polaganje-b-cijevnog-voda/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 08-vjezba-8#polaganje-prvog-mlaza-u-navalnom-sektoru/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 08-vjezba-8#posprema-opreme/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 08-vjezba-8#posprema-opreme/p2 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 08-vjezba-8#posprema-opreme/p3 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 08-vjezba-8#posprema-opreme/p4 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
+| 08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p1 |  |  | ignored | Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F. |
+| 08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p2 |  |  | ignored | Uvod u popis opreme; oprema je u početnoj sceni (u spremnicima vozila), a količine se provjeravaju u fazi F. |
+| 08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p3 | vjezba-8-autocisterna-hidrant | postrojavanje, zapovijed-za-navalu | mapped |  |
+| 08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p4 |  |  | ignored | Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima. |
+| 08-vjezba-8#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1 | vjezba-8-autocisterna-hidrant | strojar-nastavak, strojar-b-hidrant | mapped |  |
+| 08-vjezba-8#polaganje-b-cijevnog-voda/p1 | vjezba-8-autocisterna-hidrant | b-vod, povratak-po-opremu | mapped |  |
+| 08-vjezba-8#polaganje-prvog-mlaza-u-navalnom-sektoru/p1 | vjezba-8-autocisterna-hidrant | prvi-mlaz, vodu-daj, strojar-voda | mapped |  |
+| 08-vjezba-8#posprema-opreme/p1 | vjezba-8-autocisterna-hidrant | vodom-stoj, zatvaranje-posprema, posprema-mlaz, oprema-u-vozilo | mapped |  |
+| 08-vjezba-8#posprema-opreme/p2 | vjezba-8-autocisterna-hidrant | posprema-strojar | mapped |  |
+| 08-vjezba-8#posprema-opreme/p3 | vjezba-8-autocisterna-hidrant | posprema-b | mapped |  |
+| 08-vjezba-8#posprema-opreme/p4 | vjezba-8-autocisterna-hidrant | u-stroj, stroj-prijavak | mapped |  |
 | 09-vjezba-9#2-7-1-vjezba-9-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
 | 09-vjezba-9#2-7-1-vjezba-9-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p2 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
 | 09-vjezba-9#2-7-1-vjezba-9-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p3 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
@@ -3662,6 +3662,7 @@ Naslov: Poligonske vježbe
 | vjezba-5-otvoreno-nalaziste | content/authoring/source/vjezba-5.exercise.json | content/exercises/vjezba-5-otvoreno-nalaziste.json | da | 0 | 2 | 95 | 95 | da |
 | vjezba-6-hidrantska-mreza | content/authoring/source/vjezba-6.exercise.json | content/exercises/vjezba-6-hidrantska-mreza.json | da | 0 | 0 | 51 | 51 | da |
 | vjezba-7-autocisterna | content/authoring/source/vjezba-7.exercise.json | content/exercises/vjezba-7-autocisterna.json | da | 0 | 0 | 67 | 67 | da |
+| vjezba-8-autocisterna-hidrant | content/authoring/source/vjezba-8.exercise.json | content/exercises/vjezba-8-autocisterna-hidrant.json | da | 0 | 0 | 17 | 17 | da |
 
 ## Dijagnostika
 
@@ -4143,3 +4144,5 @@ Naslov: Poligonske vježbe
 | info | F | mapping.role-mismatch | Korak uzad-u-vozilo: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-7.exercise.json |
 | info | F | audio.order-not-in-text | Korak vodom-stoj: zapovijed „Za prvi mlaz vodom – stoj!” (act.vodom-stoj) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-7.exercise.json |
 | info | F | audio.order-not-in-text | Korak iz-vode: zapovijed „Usisni vod iz vode!” (act.iz-vode) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-7.exercise.json |
+| info | F | audio.order-not-in-text | Korak prvi-mlaz: zapovijed „Za prvi mlaz s dvije „C” cijevi, pravac …. naprijed!” (act.prvi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-8.exercise.json |
+| info | F | audio.order-not-in-text | Korak vodom-stoj: zapovijed „Za prvi mlaz vodom – stoj!” (act.vodom-stoj) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-8.exercise.json |

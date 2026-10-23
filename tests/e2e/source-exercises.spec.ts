@@ -196,3 +196,16 @@ test('Vježba 7 demonstration takes the equipment out of the tanker and puts it 
   await expect(page.getByTestId('object-u1')).toHaveCount(0);
   expect(errors).toEqual([]);
 });
+
+test('Vježba 8 demonstration fills the tanker from the hydrant and reaches completion', async ({ page }) => {
+  const errors: string[] = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  await page.goto('#/demonstracija/vjezba-8-autocisterna-hidrant');
+  await expect(page.getByTestId('object-hidrant')).toBeVisible();
+  const range = page.getByTestId('timeline-range');
+  await range.fill((await range.getAttribute('max')) ?? '0');
+  await expect(page.getByTestId('demo-complete')).toBeVisible();
+  await expect(page.getByTestId('progress-label')).toContainText('17 / 17');
+  await expect(page.getByTestId('object-nastavak')).toHaveCount(0);
+  expect(errors).toEqual([]);
+});

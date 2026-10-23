@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "exerciseId": "vjezba-8-autocisterna-hidrant",
+  "synthetic": false,
+  "clips": [
+    {
+      "id": "postrojavanje",
+      "voice": "opis",
+      "text": "Vatrogasci se postrojavaju iza vozila i postupaju kao u vježbi 7. Vođa navalne grupe (N1) izdaje zapovijed: „Požar pravac … voda – hidrant, sa dvije „B” cijevi do razdjelnice za navalu pripremi!”.",
+      "hash": "13dc99e0bf786d"
+    },
+    {
+      "id": "act.za-navalu",
+      "voice": "zapovijed",
+      "text": "Požar pravac … voda – hidrant, sa dvije „B” cijevi do razdjelnice za navalu pripremi!",
+      "hash": "1020d83796adeb"
+    },
+    {
+      "id": "strojar-nastavak",
+      "voice": "opis",
+      "text": "Nakon izdane zapovijedi, strojar uzima u desnu ruku hidrantski nastavak, a u lijevu hidrantski ključ, te univerzalni ključ za spojnice koji stavlja za opasač, odlazi do podzemnog hidranta i postavlja ga kao u vježbi 1. Vraća se do vozila i uzima jednu „B” cijev. Donju spojnicu „B” cijevi spaja na otvor za punjenje rezervoara na vozilu, a gornju spojnicu „B” cijevi priključuje na jedan izlazni otvor hidrantskog nastavka. Nakon toga, po potrebi, otvara hidrant i ventil hidrantskog nastavka i odlazi do pumpe vozila gdje čeka zapovijed za puštanje vode za prvi mlaz.",
+      "hash": "13f18e6fa266b1"
+    },
+    {
+      "id": "b-vod",
+      "voice": "opis",
+      "text": "„B” cijevni vod polaže navalna grupa kao u vježbi 7 (skica 52, slika 38).",
+      "hash": "0bb7925d39177b"
+    },
+    {
+      "id": "act.prvi-mlaz-naprijed",
+      "voice": "zapovijed",
+      "text": "Za prvi mlaz s dvije „C” cijevi, pravac …. naprijed!",
+      "hash": "0b78a4b07b9225"
+    },
+    {
+      "id": "prvi-mlaz",
+      "voice": "opis",
+      "text": "Navalna grupa polaže prvi mlaz kao u vježbi 7 (skica 53, slika 39).",
+      "hash": "074dc67a3bd621"
+    },
+    {
+      "id": "act.prvi-mlaz-vodu-daj",
+      "voice": "zapovijed",
+      "text": "Za prvi mlaz vodu daj!",
+      "hash": "115b18c873eb0f"
+    },
+    {
+      "id": "act.vodom-stoj",
+      "voice": "zapovijed",
+      "text": "Za prvi mlaz vodom – stoj!",
+      "hash": "11c20a3d814aed"
+    },
+    {
+      "id": "vodom-stoj",
+      "voice": "opis",
+      "text": "Za završetak rada i pospremu, vođa navalne grupe (N1) izdaje zapovijedi kao u vježbi 7. Pospremu prvog mlaza i „B” cijevnog voda obavlja navalna grupa kao u vježbi 7.",
+      "hash": "0a8ebd3671ee66"
+    },
+    {
+      "id": "act.posprema",
+      "voice": "zapovijed",
+      "text": "Posprema!",
+      "hash": "13469a9e41281c"
+    },
+    {
+      "id": "posprema-strojar",
+      "voice": "opis",
+      "text": "Strojar, na zapovijed „Posprema”, rastavlja „B” cijevni vod sa pumpe, odlazi do hidranta, zatvara vodu na hidrantu i ventil na hidrantskom nastavku, zatim rastavlja „B” cijev cijevnog voda od hidranta do vozila. Posprema hidrantski ključ, hidrantski nastavak i „B” cijev.",
+      "hash": "0f57e85b47bec7"
+    },
+    {
+      "id": "act.opremu-uzmi",
+      "voice": "zapovijed",
+      "text": "Opremu uzmi!",
+      "hash": "03cf2ae0d2e3ab"
+    },
+    {
+      "id": "act.s-opremom-naprijed",
+      "voice": "zapovijed",
+      "text": "S opremom naprijed!",
+      "hash": "123f97f88a0ac1"
+    },
+    {
+      "id": "act.stoj",
+      "voice": "zapovijed",
+      "text": "Stoj!",
+      "hash": "0c041f0f1e56a9"
+    },
+    {
+      "id": "act.opremu-odlozi",
+      "voice": "zapovijed",
+      "text": "Opremu odloži!",
+      "hash": "1401b177c2cb0a"
+    },
+    {
+      "id": "posprema-b",
+      "voice": "opis",
+      "text": "Navalna grupa obavlja pospremu prvog mlaza i „B” cijevnog voda kao u vježbi 7.",
+      "hash": "0d13f2fc243978"
+    },
+    {
+      "id": "u-stroj",
+      "voice": "opis",
+      "text": "Kada odlože opremu, vatrogasci odlaze u stroj i postupaju kao u vježbi 7.",
+      "hash": "0536b8caf0a7fe"
+    },
+    {
+      "id": "act.na-svoje-mjesto",
+      "voice": "zapovijed",
+      "text": "Na svoje mjesto!",
+      "hash": "163ba54158fbfe"
+    },
+    {
+      "id": "act.na-zapovijed",
+      "voice": "zapovijed",
+      "text": "Na zapovijed!",
+      "hash": "182ecc34d3ef04"
+    },
+    {
+      "id": "act.odmor-ili-otpust",
+      "voice": "zapovijed",
+      "text": "Na mjestu odmor!",
+      "hash": "06d370de725f05"
+    }
+  ],
+  "steps": {
+    "postrojavanje": [
+      {
+        "clipId": "postrojavanje"
+      }
+    ],
+    "zapovijed-za-navalu": [
+      {
+        "clipId": "act.za-navalu",
+        "actionId": "act.za-navalu"
+      }
+    ],
+    "strojar-nastavak": [
+      {
+        "clipId": "strojar-nastavak"
+      }
+    ],
+    "b-vod": [
+      {
+        "clipId": "b-vod"
+      }
+    ],
+    "prvi-mlaz": [
+      {
+        "clipId": "prvi-mlaz"
+      },
+      {
+        "clipId": "act.prvi-mlaz-naprijed",
+        "actionId": "act.prvi-mlaz-naprijed"
+      }
+    ],
+    "vodu-daj": [
+      {
+        "clipId": "act.prvi-mlaz-vodu-daj",
+        "actionId": "act.prvi-mlaz-vodu-daj"
+      }
+    ],
+    "vodom-stoj": [
+      {
+        "clipId": "vodom-stoj"
+      },
+      {
+        "clipId": "act.vodom-stoj",
+        "actionId": "act.vodom-stoj"
+      }
+    ],
+    "zatvaranje-posprema": [
+      {
+        "clipId": "act.posprema",
+        "actionId": "act.posprema"
+      }
+    ],
+    "posprema-strojar": [
+      {
+        "clipId": "posprema-strojar"
+      }
+    ],
+    "oprema-u-vozilo": [
+      {
+        "clipId": "act.opremu-uzmi",
+        "actionId": "act.opremu-uzmi"
+      },
+      {
+        "clipId": "act.s-opremom-naprijed",
+        "actionId": "act.s-opremom-naprijed"
+      },
+      {
+        "clipId": "act.stoj",
+        "actionId": "act.stoj"
+      },
+      {
+        "clipId": "act.opremu-odlozi",
+        "actionId": "act.opremu-odlozi"
+      }
+    ],
+    "posprema-b": [
+      {
+        "clipId": "posprema-b"
+      }
+    ],
+    "u-stroj": [
+      {
+        "clipId": "u-stroj"
+      }
+    ],
+    "stroj-prijavak": [
+      {
+        "clipId": "act.na-svoje-mjesto",
+        "actionId": "act.na-svoje-mjesto"
+      },
+      {
+        "clipId": "act.na-zapovijed",
+        "actionId": "act.na-zapovijed"
+      },
+      {
+        "clipId": "act.odmor-ili-otpust",
+        "actionId": "act.odmor-ili-otpust"
+      }
+    ]
+  }
+}

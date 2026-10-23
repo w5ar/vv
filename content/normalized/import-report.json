@@ -77357,8 +77357,11 @@
               "diagramRefs": [
                 "07-Vjezba-7.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-8-autocisterna-hidrant/postrojavanje",
+                "vjezba-8-autocisterna-hidrant/zapovijed-za-navalu"
+              ],
+              "status": "mapped"
             },
             {
               "id": "08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p4",
@@ -77401,8 +77404,11 @@
               "diagramRefs": [
                 "01-Vjezba-1.md#postavljanje-hidrantskog-nastavka"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-8-autocisterna-hidrant/strojar-nastavak",
+                "vjezba-8-autocisterna-hidrant/strojar-b-hidrant"
+              ],
+              "status": "mapped"
             },
             {
               "id": "08-vjezba-8#polaganje-b-cijevnog-voda/p1",
@@ -77422,8 +77428,11 @@
               "diagramRefs": [
                 "07-Vjezba-7.md#polaganje-b-cijevnog-voda-u-cijevnom-sektoru"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-8-autocisterna-hidrant/b-vod",
+                "vjezba-8-autocisterna-hidrant/povratak-po-opremu"
+              ],
+              "status": "mapped"
             },
             {
               "id": "08-vjezba-8#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
@@ -77443,8 +77452,12 @@
               "diagramRefs": [
                 "07-Vjezba-7.md#polaganje-prvog-mlaza-u-navalnom-sektoru"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-8-autocisterna-hidrant/prvi-mlaz",
+                "vjezba-8-autocisterna-hidrant/vodu-daj",
+                "vjezba-8-autocisterna-hidrant/strojar-voda"
+              ],
+              "status": "mapped"
             },
             {
               "id": "08-vjezba-8#posprema-opreme/p1",
@@ -77468,8 +77481,13 @@
               "diagramRefs": [
                 "07-Vjezba-7.md#pospremanje-opreme"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-8-autocisterna-hidrant/vodom-stoj",
+                "vjezba-8-autocisterna-hidrant/zatvaranje-posprema",
+                "vjezba-8-autocisterna-hidrant/posprema-mlaz",
+                "vjezba-8-autocisterna-hidrant/oprema-u-vozilo"
+              ],
+              "status": "mapped"
             },
             {
               "id": "08-vjezba-8#posprema-opreme/p2",
@@ -77491,8 +77509,10 @@
                 "src.strojar"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-8-autocisterna-hidrant/posprema-strojar"
+              ],
+              "status": "mapped"
             },
             {
               "id": "08-vjezba-8#posprema-opreme/p3",
@@ -77510,8 +77530,10 @@
               "roleMentions": [],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-8-autocisterna-hidrant/posprema-b"
+              ],
+              "status": "mapped"
             },
             {
               "id": "08-vjezba-8#posprema-opreme/p4",
@@ -77529,8 +77551,11 @@
               "roleMentions": [],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-8-autocisterna-hidrant/u-stroj",
+                "vjezba-8-autocisterna-hidrant/stroj-prijavak"
+              ],
+              "status": "mapped"
             }
           ],
           "roleMentions": [
@@ -88033,67 +88058,92 @@
           "candidateId": "08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p1",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
         },
         {
           "candidateId": "08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p2",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Uvod u popis opreme; oprema je u početnoj sceni (u spremnicima vozila), a količine se provjeravaju u fazi F."
         },
         {
           "candidateId": "08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p3",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-8-autocisterna-hidrant",
+          "stepIds": [
+            "postrojavanje",
+            "zapovijed-za-navalu"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p4",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
         },
         {
           "candidateId": "08-vjezba-8#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-8-autocisterna-hidrant",
+          "stepIds": [
+            "strojar-nastavak",
+            "strojar-b-hidrant"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "08-vjezba-8#polaganje-b-cijevnog-voda/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-8-autocisterna-hidrant",
+          "stepIds": [
+            "b-vod",
+            "povratak-po-opremu"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "08-vjezba-8#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-8-autocisterna-hidrant",
+          "stepIds": [
+            "prvi-mlaz",
+            "vodu-daj",
+            "strojar-voda"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "08-vjezba-8#posprema-opreme/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-8-autocisterna-hidrant",
+          "stepIds": [
+            "vodom-stoj",
+            "zatvaranje-posprema",
+            "posprema-mlaz",
+            "oprema-u-vozilo"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "08-vjezba-8#posprema-opreme/p2",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-8-autocisterna-hidrant",
+          "stepIds": [
+            "posprema-strojar"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "08-vjezba-8#posprema-opreme/p3",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-8-autocisterna-hidrant",
+          "stepIds": [
+            "posprema-b"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "08-vjezba-8#posprema-opreme/p4",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-8-autocisterna-hidrant",
+          "stepIds": [
+            "u-stroj",
+            "stroj-prijavak"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "09-vjezba-9#2-7-1-vjezba-9-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p1",
@@ -88976,6 +89026,17 @@
           "warningCount": 0,
           "stepCount": 67,
           "tracedStepCount": 67,
+          "demoReachesCompletion": true
+        },
+        {
+          "exerciseId": "vjezba-8-autocisterna-hidrant",
+          "authoringFile": "content/authoring/source/vjezba-8.exercise.json",
+          "outputFile": "content/exercises/vjezba-8-autocisterna-hidrant.json",
+          "ok": true,
+          "errorCount": 0,
+          "warningCount": 0,
+          "stepCount": 17,
+          "tracedStepCount": 17,
           "demoReachesCompletion": true
         }
       ],
@@ -93438,6 +93499,26 @@
             "file": "content/authoring/source/vjezba-7.exercise.json"
           },
           "subjectId": "iz-vode"
+        },
+        {
+          "code": "audio.order-not-in-text",
+          "severity": "info",
+          "message": "Korak prvi-mlaz: zapovijed „Za prvi mlaz s dvije „C” cijevi, pravac …. naprijed!” (act.prvi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-8.exercise.json"
+          },
+          "subjectId": "prvi-mlaz"
+        },
+        {
+          "code": "audio.order-not-in-text",
+          "severity": "info",
+          "message": "Korak vodom-stoj: zapovijed „Za prvi mlaz vodom – stoj!” (act.vodom-stoj) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-8.exercise.json"
+          },
+          "subjectId": "vodom-stoj"
         }
       ]
     },

@@ -14080,8 +14080,11 @@
         "diagramRefs": [
           "07-Vjezba-7.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-8-autocisterna-hidrant/postrojavanje",
+          "vjezba-8-autocisterna-hidrant/zapovijed-za-navalu"
+        ],
+        "status": "mapped"
       },
       {
         "id": "08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p4",
@@ -14124,8 +14127,11 @@
         "diagramRefs": [
           "01-Vjezba-1.md#postavljanje-hidrantskog-nastavka"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-8-autocisterna-hidrant/strojar-nastavak",
+          "vjezba-8-autocisterna-hidrant/strojar-b-hidrant"
+        ],
+        "status": "mapped"
       },
       {
         "id": "08-vjezba-8#polaganje-b-cijevnog-voda/p1",
@@ -14145,8 +14151,11 @@
         "diagramRefs": [
           "07-Vjezba-7.md#polaganje-b-cijevnog-voda-u-cijevnom-sektoru"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-8-autocisterna-hidrant/b-vod",
+          "vjezba-8-autocisterna-hidrant/povratak-po-opremu"
+        ],
+        "status": "mapped"
       },
       {
         "id": "08-vjezba-8#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
@@ -14166,8 +14175,12 @@
         "diagramRefs": [
           "07-Vjezba-7.md#polaganje-prvog-mlaza-u-navalnom-sektoru"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-8-autocisterna-hidrant/prvi-mlaz",
+          "vjezba-8-autocisterna-hidrant/vodu-daj",
+          "vjezba-8-autocisterna-hidrant/strojar-voda"
+        ],
+        "status": "mapped"
       },
       {
         "id": "08-vjezba-8#posprema-opreme/p1",
@@ -14191,8 +14204,13 @@
         "diagramRefs": [
           "07-Vjezba-7.md#pospremanje-opreme"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-8-autocisterna-hidrant/vodom-stoj",
+          "vjezba-8-autocisterna-hidrant/zatvaranje-posprema",
+          "vjezba-8-autocisterna-hidrant/posprema-mlaz",
+          "vjezba-8-autocisterna-hidrant/oprema-u-vozilo"
+        ],
+        "status": "mapped"
       },
       {
         "id": "08-vjezba-8#posprema-opreme/p2",
@@ -14214,8 +14232,10 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-8-autocisterna-hidrant/posprema-strojar"
+        ],
+        "status": "mapped"
       },
       {
         "id": "08-vjezba-8#posprema-opreme/p3",
@@ -14233,8 +14253,10 @@
         "roleMentions": [],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-8-autocisterna-hidrant/posprema-b"
+        ],
+        "status": "mapped"
       },
       {
         "id": "08-vjezba-8#posprema-opreme/p4",
@@ -14252,8 +14274,11 @@
         "roleMentions": [],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-8-autocisterna-hidrant/u-stroj",
+          "vjezba-8-autocisterna-hidrant/stroj-prijavak"
+        ],
+        "status": "mapped"
       }
     ],
     "roleMentions": [

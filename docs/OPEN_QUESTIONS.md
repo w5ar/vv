@@ -212,6 +212,16 @@ give the scene a real scale.
     Vježba 2 (schematic). In front of the vehicle N₁ orders *„Stoj!”*, *„Opremu odloži!”* (Vj7 86) and the
     equipment, with the nozzle, the hose holder and the bag of ties, goes into the compartments.
 
+## Vježba 8 — autocisterna uz hidrant (Vj8 = `content/source/08-Vjezba-8.md`)
+
+69. **No formation sketch**: *„postupaju kao u vježbi 7”* (Vj8 23) — the formation is skica 47 of Vježba 7
+    and the hydrant is placed relative to the vehicle as on skica 52. The first and last stages are
+    therefore not compared with a sketch.
+70. **Opening the hydrant „po potrebi”** (Vj8 29): the simulator always opens it.
+71. **Strojar's pospremanje** (Vj8 59): his universal key goes into the vehicle with the hydrant head, the
+    hydrant key and the „B” hose; closing the hydrant cover (as in Vj1 117) is not mentioned and is not shown.
+72. **Which outlet**: *„na jedan izlazni otvor hidrantskog nastavka”* — the one skica 52 draws.
+
 ## Demonstration sound
 
 26. **Resolved orders**: Vj1 111 quotes *„Prvi, odnosno drugi mlaz – vodom stoj!”* for both leaders;

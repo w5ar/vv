@@ -4457,5 +4457,25 @@
       "file": "content/authoring/source/vjezba-7.exercise.json"
     },
     "subjectId": "iz-vode"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak prvi-mlaz: zapovijed „Za prvi mlaz s dvije „C” cijevi, pravac …. naprijed!” (act.prvi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-8.exercise.json"
+    },
+    "subjectId": "prvi-mlaz"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak vodom-stoj: zapovijed „Za prvi mlaz vodom – stoj!” (act.vodom-stoj) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-8.exercise.json"
+    },
+    "subjectId": "vodom-stoj"
   }
 ]

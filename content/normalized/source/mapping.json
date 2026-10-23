@@ -1983,67 +1983,92 @@
     "candidateId": "08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p1",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
   },
   {
     "candidateId": "08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p2",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Uvod u popis opreme; oprema je u početnoj sceni (u spremnicima vozila), a količine se provjeravaju u fazi F."
   },
   {
     "candidateId": "08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-8-autocisterna-hidrant",
+    "stepIds": [
+      "postrojavanje",
+      "zapovijed-za-navalu"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p4",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
   },
   {
     "candidateId": "08-vjezba-8#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-8-autocisterna-hidrant",
+    "stepIds": [
+      "strojar-nastavak",
+      "strojar-b-hidrant"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "08-vjezba-8#polaganje-b-cijevnog-voda/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-8-autocisterna-hidrant",
+    "stepIds": [
+      "b-vod",
+      "povratak-po-opremu"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "08-vjezba-8#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-8-autocisterna-hidrant",
+    "stepIds": [
+      "prvi-mlaz",
+      "vodu-daj",
+      "strojar-voda"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "08-vjezba-8#posprema-opreme/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-8-autocisterna-hidrant",
+    "stepIds": [
+      "vodom-stoj",
+      "zatvaranje-posprema",
+      "posprema-mlaz",
+      "oprema-u-vozilo"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "08-vjezba-8#posprema-opreme/p2",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-8-autocisterna-hidrant",
+    "stepIds": [
+      "posprema-strojar"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "08-vjezba-8#posprema-opreme/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-8-autocisterna-hidrant",
+    "stepIds": [
+      "posprema-b"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "08-vjezba-8#posprema-opreme/p4",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-8-autocisterna-hidrant",
+    "stepIds": [
+      "u-stroj",
+      "stroj-prijavak"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "09-vjezba-9#2-7-1-vjezba-9-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p1",
