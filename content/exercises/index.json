@@ -37,6 +37,12 @@
       "synthetic": false
     },
     {
+      "id": "vjezba-13-pjena",
+      "file": "content/exercises/vjezba-13-pjena.json",
+      "catalogId": "katalog-vjezbovnik",
+      "synthetic": false
+    },
+    {
       "id": "vjezba-2-jedan-c-mlaz",
       "file": "content/exercises/vjezba-2-jedan-c-mlaz.json",
       "catalogId": "katalog-vjezbovnik",

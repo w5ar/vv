@@ -2918,7 +2918,7 @@
       "provenance": "derived",
       "review": {
         "status": "requires-review",
-        "notes": "U vježbi 13 prijelazna spojnica B/C nosi se s razdjelnicom (na srednjem otvoru); u vježbama 1 i 2 se ne koristi."
+        "notes": "U vježbi 13 prijelazna spojnica B/C nosi se s razdjelnicom (na srednjem otvoru); u vježbama 1 i 2 se ne koristi. Skice 68–70 ne crtaju spojnicu na srednjem otvoru, pa se spojena smije izostaviti (optionalWhenConnected)."
       },
       "sources": [
         {
@@ -2930,8 +2930,14 @@
           "file": "13-Vjezba-13.md",
           "line": 38,
           "excerpt": "razdjelnicu s prijelaznom spojnicom B/C na srednjem otvoru"
+        },
+        {
+          "file": "skice/13-skica-69.svg"
         }
-      ]
+      ],
+      "depiction": {
+        "optionalWhenConnected": true
+      }
     },
     {
       "id": "et.torbica-s-povezicama",

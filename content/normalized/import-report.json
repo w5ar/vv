@@ -81958,8 +81958,10 @@
               "diagramRefs": [
                 "09-Vjezba-9.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-13-pjena/zbor"
+              ],
+              "status": "mapped"
             },
             {
               "id": "13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4",
@@ -81982,8 +81984,10 @@
               "diagramRefs": [
                 "01-Vjezba-1.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-13-pjena/istupanje"
+              ],
+              "status": "mapped"
             },
             {
               "id": "13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5",
@@ -82000,8 +82004,10 @@
               "roleMentions": [],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-13-pjena/zapovijed-za-navalu"
+              ],
+              "status": "mapped"
             },
             {
               "id": "13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p6",
@@ -82039,8 +82045,13 @@
               "diagramRefs": [
                 "01-Vjezba-1.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-13-pjena/vodna-oprema",
+                "vjezba-13-pjena/strojar-kod-pumpe",
+                "vjezba-13-pjena/polaganje-b-prva",
+                "vjezba-13-pjena/polaganje-b-druga"
+              ],
+              "status": "mapped"
             },
             {
               "id": "13-vjezba-13#polaganje-prvog-mlaza-pjene-u-navalnom-sektoru/p1",
@@ -82072,8 +82083,16 @@
                 "01-Vjezba-1.md",
                 "01-Vjezba-1.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-13-pjena/navalna-oprema-n1",
+                "vjezba-13-pjena/navalna-oprema-n2",
+                "vjezba-13-pjena/navalna-do-kraja-b",
+                "vjezba-13-pjena/zapovjednik-razdjelnica",
+                "vjezba-13-pjena/v1-razdjelnica",
+                "vjezba-13-pjena/v2-pjenilo",
+                "vjezba-13-pjena/prvi-mlaz"
+              ],
+              "status": "mapped"
             },
             {
               "id": "13-vjezba-13#polaganje-prvog-mlaza-pjene-u-navalnom-sektoru/p2",
@@ -82100,8 +82119,12 @@
                 "12-Vjezba-12.md",
                 "01-Vjezba-1.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-13-pjena/prvi-mlaz-mm",
+                "vjezba-13-pjena/prvi-mlaz-n1",
+                "vjezba-13-pjena/pjenu-daj"
+              ],
+              "status": "mapped"
             },
             {
               "id": "13-vjezba-13#polaganje-prvog-mlaza-pjene-u-navalnom-sektoru/p3",
@@ -82129,8 +82152,10 @@
               "diagramRefs": [
                 "12-Vjezba-12.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-13-pjena/posluzivanje"
+              ],
+              "status": "mapped"
             },
             {
               "id": "13-vjezba-13#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1",
@@ -82154,8 +82179,12 @@
               "diagramRefs": [
                 "10-Vjezba-10.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-13-pjena/voda-do-razdjelnice",
+                "vjezba-13-pjena/strojar-nastavak",
+                "vjezba-13-pjena/strojar-b-hidrant"
+              ],
+              "status": "mapped"
             },
             {
               "id": "13-vjezba-13#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
@@ -82178,8 +82207,17 @@
                 "01-Vjezba-1.md",
                 "01-Vjezba-1.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-13-pjena/drugi-mlaz-zapovijed",
+                "vjezba-13-pjena/drugi-mlaz-predaja",
+                "vjezba-13-pjena/drugi-mlaz-oprema",
+                "vjezba-13-pjena/drugi-mlaz-v2",
+                "vjezba-13-pjena/drugi-mlaz-v1-mlaznica",
+                "vjezba-13-pjena/drugi-mlaz-v2-luk",
+                "vjezba-13-pjena/drugi-mlaz-vodu-daj",
+                "vjezba-13-pjena/drugi-mlaz-potvrda"
+              ],
+              "status": "mapped"
             },
             {
               "id": "13-vjezba-13#pospremanje-opreme/p1",
@@ -82201,8 +82239,10 @@
                 "src.zapovjednik"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-13-pjena/vodom-stoj"
+              ],
+              "status": "mapped"
             },
             {
               "id": "13-vjezba-13#pospremanje-opreme/p2",
@@ -82222,8 +82262,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-13-pjena/pjenom-stoj"
+              ],
+              "status": "mapped"
             },
             {
               "id": "13-vjezba-13#pospremanje-opreme/p3",
@@ -82249,8 +82291,14 @@
                 "src.zapovjednik"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-13-pjena/zatvaranje-prvog",
+                "vjezba-13-pjena/zatvaranje-drugog",
+                "vjezba-13-pjena/posprema",
+                "vjezba-13-pjena/posprema-mlaznice",
+                "vjezba-13-pjena/posprema-savijanje"
+              ],
+              "status": "mapped"
             },
             {
               "id": "13-vjezba-13#pospremanje-opreme/p4",
@@ -82270,8 +82318,11 @@
               "diagramRefs": [
                 "01-Vjezba-1.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-13-pjena/posprema-motanje",
+                "vjezba-13-pjena/posprema-nosaci"
+              ],
+              "status": "mapped"
             },
             {
               "id": "13-vjezba-13#pospremanje-opreme/p5",
@@ -82297,8 +82348,14 @@
                 "01-Vjezba-1.md",
                 "10-Vjezba-10.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-13-pjena/posprema-zapovjednik",
+                "vjezba-13-pjena/posprema-pjenilo",
+                "vjezba-13-pjena/uzimanje",
+                "vjezba-13-pjena/posprema-polozaj",
+                "vjezba-13-pjena/oprema-u-vozilo"
+              ],
+              "status": "mapped"
             },
             {
               "id": "13-vjezba-13#pospremanje-opreme/p6",
@@ -82316,8 +82373,11 @@
               "roleMentions": [],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-13-pjena/posprema-b",
+                "vjezba-13-pjena/posprema-b-motanje"
+              ],
+              "status": "mapped"
             },
             {
               "id": "13-vjezba-13#pospremanje-opreme/p7",
@@ -82341,8 +82401,10 @@
               "diagramRefs": [
                 "08-Vjezba-8.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-13-pjena/posprema-strojar"
+              ],
+              "status": "mapped"
             },
             {
               "id": "13-vjezba-13#pospremanje-opreme/p8",
@@ -82362,8 +82424,15 @@
               "diagramRefs": [
                 "01-Vjezba-1.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-13-pjena/navalna-u-stroj",
+                "vjezba-13-pjena/strojar-u-stroj",
+                "vjezba-13-pjena/pregled-opreme",
+                "vjezba-13-pjena/prijavak",
+                "vjezba-13-pjena/na-svoje-mjesto",
+                "vjezba-13-pjena/zavrsetak"
+              ],
+              "status": "mapped"
             }
           ],
           "roleMentions": [
@@ -89006,121 +89075,190 @@
           "candidateId": "13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p1",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
         },
         {
           "candidateId": "13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p2",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Raspored mjesta u vozilu (kao u vježbi 9) i smještaj opreme; simulator počinje od postrojenog odjeljenja, a oprema je u početnoj sceni (u spremnicima vozila)."
         },
         {
           "candidateId": "13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p3",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-13-pjena",
+          "stepIds": [
+            "zbor"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-13-pjena",
+          "stepIds": [
+            "istupanje"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-13-pjena",
+          "stepIds": [
+            "zapovijed-za-navalu"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p6",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
         },
         {
           "candidateId": "13-vjezba-13#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-13-pjena",
+          "stepIds": [
+            "vodna-oprema",
+            "strojar-kod-pumpe",
+            "polaganje-b-prva",
+            "polaganje-b-druga"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "13-vjezba-13#polaganje-prvog-mlaza-pjene-u-navalnom-sektoru/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-13-pjena",
+          "stepIds": [
+            "navalna-oprema-n1",
+            "navalna-oprema-n2",
+            "navalna-do-kraja-b",
+            "zapovjednik-razdjelnica",
+            "v1-razdjelnica",
+            "v2-pjenilo",
+            "prvi-mlaz"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "13-vjezba-13#polaganje-prvog-mlaza-pjene-u-navalnom-sektoru/p2",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-13-pjena",
+          "stepIds": [
+            "prvi-mlaz-mm",
+            "prvi-mlaz-n1",
+            "pjenu-daj"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "13-vjezba-13#polaganje-prvog-mlaza-pjene-u-navalnom-sektoru/p3",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-13-pjena",
+          "stepIds": [
+            "posluzivanje"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "13-vjezba-13#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-13-pjena",
+          "stepIds": [
+            "voda-do-razdjelnice",
+            "strojar-nastavak",
+            "strojar-b-hidrant"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "13-vjezba-13#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-13-pjena",
+          "stepIds": [
+            "drugi-mlaz-zapovijed",
+            "drugi-mlaz-predaja",
+            "drugi-mlaz-oprema",
+            "drugi-mlaz-v2",
+            "drugi-mlaz-v1-mlaznica",
+            "drugi-mlaz-v2-luk",
+            "drugi-mlaz-vodu-daj",
+            "drugi-mlaz-potvrda"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "13-vjezba-13#pospremanje-opreme/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-13-pjena",
+          "stepIds": [
+            "vodom-stoj"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "13-vjezba-13#pospremanje-opreme/p2",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-13-pjena",
+          "stepIds": [
+            "pjenom-stoj"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "13-vjezba-13#pospremanje-opreme/p3",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-13-pjena",
+          "stepIds": [
+            "zatvaranje-prvog",
+            "zatvaranje-drugog",
+            "posprema",
+            "posprema-mlaznice",
+            "posprema-savijanje"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "13-vjezba-13#pospremanje-opreme/p4",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-13-pjena",
+          "stepIds": [
+            "posprema-motanje",
+            "posprema-nosaci"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "13-vjezba-13#pospremanje-opreme/p5",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-13-pjena",
+          "stepIds": [
+            "posprema-zapovjednik",
+            "posprema-pjenilo",
+            "uzimanje",
+            "posprema-polozaj",
+            "oprema-u-vozilo"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "13-vjezba-13#pospremanje-opreme/p6",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-13-pjena",
+          "stepIds": [
+            "posprema-b",
+            "posprema-b-motanje"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "13-vjezba-13#pospremanje-opreme/p7",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-13-pjena",
+          "stepIds": [
+            "posprema-strojar"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "13-vjezba-13#pospremanje-opreme/p8",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-13-pjena",
+          "stepIds": [
+            "navalna-u-stroj",
+            "strojar-u-stroj",
+            "pregled-opreme",
+            "prijavak",
+            "na-svoje-mjesto",
+            "zavrsetak"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "14-vjezba-14#2-7-6-vjezba-14-vjezba-s-1-mlazom-pjene-1-mlazom-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-i-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p1",
@@ -89544,6 +89682,17 @@
           "warningCount": 0,
           "stepCount": 45,
           "tracedStepCount": 45,
+          "demoReachesCompletion": true
+        },
+        {
+          "exerciseId": "vjezba-13-pjena",
+          "authoringFile": "content/authoring/source/vjezba-13.exercise.json",
+          "outputFile": "content/exercises/vjezba-13-pjena.json",
+          "ok": true,
+          "errorCount": 0,
+          "warningCount": 0,
+          "stepCount": 52,
+          "tracedStepCount": 52,
           "demoReachesCompletion": true
         },
         {
@@ -93051,6 +93200,256 @@
             "file": "content/authoring/source/vjezba-12.exercise.json"
           },
           "subjectId": "vodom-stoj-vode"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak navalna-oprema-n1: izvorni tekst spominje uloge role.zapovjednik, role.clan-navalne, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "navalna-oprema-n1"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak navalna-oprema-n2: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "navalna-oprema-n2"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak navalna-do-kraja-b: izvorni tekst spominje uloge role.zapovjednik, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "navalna-do-kraja-b"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak zapovjednik-razdjelnica: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "zapovjednik-razdjelnica"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak v1-razdjelnica: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne, role.clan-navalne, role.clan-vodne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "v1-razdjelnica"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak v2-pjenilo: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne, role.clan-navalne, role.vodja-vodne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "v2-pjenilo"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak prvi-mlaz: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "prvi-mlaz"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak prvi-mlaz-n1: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "prvi-mlaz-n1"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak pjenu-daj: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "pjenu-daj"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak posluzivanje: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "posluzivanje"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak drugi-mlaz-oprema: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "drugi-mlaz-oprema"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak drugi-mlaz-v2: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "drugi-mlaz-v2"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak drugi-mlaz-v1-mlaznica: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "drugi-mlaz-v1-mlaznica"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak drugi-mlaz-v2-luk: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "drugi-mlaz-v2-luk"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak drugi-mlaz-vodu-daj: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "drugi-mlaz-vodu-daj"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak zatvaranje-prvog: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "zatvaranje-prvog"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak zatvaranje-drugog: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "zatvaranje-drugog"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak posprema: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "posprema"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak posprema-mlaznice: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "posprema-mlaznice"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak posprema-savijanje: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "posprema-savijanje"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak uzimanje: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "uzimanje"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak posprema-polozaj: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "posprema-polozaj"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak oprema-u-vozilo: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "oprema-u-vozilo"
+        },
+        {
+          "code": "audio.order-not-in-text",
+          "severity": "info",
+          "message": "Korak zbor: zapovijed „Odjeljenje – zbor!” (act.zbor) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "zbor"
+        },
+        {
+          "code": "audio.order-not-in-text",
+          "severity": "info",
+          "message": "Korak drugi-mlaz-zapovijed: zapovijed „Za drugi mlaz s dvije „C” cijevi pravac …. naprijed!” (act.drugi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-13.exercise.json"
+          },
+          "subjectId": "drugi-mlaz-zapovijed"
         },
         {
           "code": "mapping.role-mismatch",

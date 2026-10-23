@@ -284,6 +284,23 @@ give the scene a real scale.
 90. **Pospremanje**: the „B” hoses of the first jet are folded, rolled and carried like the „C” hoses of
     Vježba 10 (N₁ the distributor and one hose, N₂ two hoses).
 
+## Vježba 13 — mlaz pjene (Vj13 = `content/source/13-Vjezba-13.md`)
+
+91. **Equipment**: the first-jet and foam equipment is listed in Vj13 38; the rest (hoses of the „B” line,
+    the hydrant line and the second jet, keys, bag) is taken from Vježbe 1 and 10 (marked `derived`).
+92. **B/C adapter**: carried on the middle outlet of the distributor (Vj13 38); it is connected when the
+    distributor is put down and taken off when N₁ picks the distributor up again. Skice 68–70 do not draw it,
+    so a connected adapter may be left out of the sketch comparison (`optionalWhenConnected`).
+93. **Serving the distributor and the inductor** (Vj13 42): V₁ gives the sign of a received order and opens
+    the middle valve after N₁'s *„Za prvi mlaz – pjenu daj!”*, as the zapovjednik does in Vježba 1; V₂ serving
+    the inductor is one action without details. Putting the foam suction tube into the container is not
+    described (only taking it out, Vj13 74) and is not shown.
+94. **Stopping the water at the pump**: Vj13 70–74 end with closing the two jets; the zapovjednik's *„Vodom
+    stoj!”* to the strojar and the strojar stopping the water are shown as in Vježbe 1 and 10. Closing the
+    second jet after V₁'s order is shown as in Vj1 113.
+95. **Inductor and container** go into the vehicle with the bag and the keys, carried by the zapovjednik
+    (Vj13 78); slike 43–45 (photographs) show the same moments as skice 68–70 and are not compared.
+
 ## Demonstration sound
 
 26. **Resolved orders**: Vj1 111 quotes *„Prvi, odnosno drugi mlaz – vodom stoj!”* for both leaders;

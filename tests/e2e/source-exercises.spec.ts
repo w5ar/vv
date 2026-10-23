@@ -264,3 +264,18 @@ test('Vježba 12 demonstration („B” jet from the middle outlet) reaches comp
   await expect(page.getByTestId('object-mb')).toHaveCount(0);
   expect(errors).toEqual([]);
 });
+
+test('Vježba 13 demonstration (foam jet with inductor) reaches completion', async ({ page }) => {
+  const errors: string[] = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  await page.goto('#/demonstracija/vjezba-13-pjena');
+  await expect(page.getByTestId('object-nv')).toBeVisible();
+  const range = page.getByTestId('timeline-range');
+  await range.fill('70000');
+  await expect(page.getByTestId('object-medumjesalica')).toBeVisible();
+  await range.fill((await range.getAttribute('max')) ?? '0');
+  await expect(page.getByTestId('demo-complete')).toBeVisible();
+  await expect(page.getByTestId('progress-label')).toContainText('52 / 52');
+  await expect(page.getByTestId('object-medumjesalica')).toHaveCount(0);
+  expect(errors).toEqual([]);
+});

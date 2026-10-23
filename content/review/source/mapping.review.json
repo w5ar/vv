@@ -14,10 +14,6 @@
       "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
     },
     {
-      "file": "13-Vjezba-13.md",
-      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
-    },
-    {
       "file": "14-Vjezba-14.md",
       "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
     },
@@ -229,6 +225,18 @@
     },
     {
       "candidateId": "12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5",
+      "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
+    },
+    {
+      "candidateId": "13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p1",
+      "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
+    },
+    {
+      "candidateId": "13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p2",
+      "reason": "Raspored mjesta u vozilu (kao u vježbi 9) i smještaj opreme; simulator počinje od postrojenog odjeljenja, a oprema je u početnoj sceni (u spremnicima vozila)."
+    },
+    {
+      "candidateId": "13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p6",
       "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
     }
   ]
