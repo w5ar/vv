@@ -75124,8 +75124,10 @@
               "diagramRefs": [
                 "05-Vjezba-5.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-6-hidrantska-mreza/zbor"
+              ],
+              "status": "mapped"
             },
             {
               "id": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4",
@@ -75148,8 +75150,10 @@
               "diagramRefs": [
                 "01-Vjezba-1.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-6-hidrantska-mreza/zapovijed-za-navalu"
+              ],
+              "status": "mapped"
             },
             {
               "id": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5",
@@ -75189,8 +75193,10 @@
                 "src.strojar"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-6-hidrantska-mreza/strojar-sabirnica"
+              ],
+              "status": "mapped"
             },
             {
               "id": "06-vjezba-6#polaganje-cijevnog-voda-od-hidranta-do-motorne-pumpe/p2",
@@ -75212,8 +75218,10 @@
                 "src.v1"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-6-hidrantska-mreza/v1-nastavak"
+              ],
+              "status": "mapped"
             },
             {
               "id": "06-vjezba-6#polaganje-cijevnog-voda-od-hidranta-do-motorne-pumpe/p3",
@@ -75240,8 +75248,12 @@
                 "src.v2"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-6-hidrantska-mreza/v2-oprema",
+                "vjezba-6-hidrantska-mreza/v2-polaganje",
+                "vjezba-6-hidrantska-mreza/voda-s-hidranta"
+              ],
+              "status": "mapped"
             },
             {
               "id": "06-vjezba-6#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
@@ -75264,8 +75276,17 @@
               "diagramRefs": [
                 "05-Vjezba-5.md#polaganje-b-cijevnog-voda-u-cijevnom-sektoru"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-6-hidrantska-mreza/navalna-b-oprema",
+                "vjezba-6-hidrantska-mreza/polaganje-b-prva",
+                "vjezba-6-hidrantska-mreza/polaganje-b-druga",
+                "vjezba-6-hidrantska-mreza/navalna-oprema-n1",
+                "vjezba-6-hidrantska-mreza/navalna-oprema-n2",
+                "vjezba-6-hidrantska-mreza/navalna-do-kraja-b",
+                "vjezba-6-hidrantska-mreza/voda-do-razdjelnice",
+                "vjezba-6-hidrantska-mreza/zapovjednik-razdjelnica"
+              ],
+              "status": "mapped"
             },
             {
               "id": "06-vjezba-6#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
@@ -75291,8 +75312,11 @@
               "diagramRefs": [
                 "01-Vjezba-1.md#polaganje-prvog-mlaza-u-navalnom-sektoru"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-6-hidrantska-mreza/prvi-mlaz",
+                "vjezba-6-hidrantska-mreza/prvi-mlaz-n1"
+              ],
+              "status": "mapped"
             },
             {
               "id": "06-vjezba-6#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
@@ -75312,8 +75336,16 @@
               "diagramRefs": [
                 "01-Vjezba-1.md#polaganje-drugog-mlaza-u-navalnom-sektoru"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-6-hidrantska-mreza/drugi-mlaz-zapovijed",
+                "vjezba-6-hidrantska-mreza/drugi-mlaz-v1-oprema",
+                "vjezba-6-hidrantska-mreza/drugi-mlaz-v2",
+                "vjezba-6-hidrantska-mreza/drugi-mlaz-v1-mlaznica",
+                "vjezba-6-hidrantska-mreza/drugi-mlaz-v2-luk",
+                "vjezba-6-hidrantska-mreza/drugi-mlaz-vodu-daj",
+                "vjezba-6-hidrantska-mreza/drugi-mlaz-potvrda"
+              ],
+              "status": "mapped"
             },
             {
               "id": "06-vjezba-6#pospremanje-opreme/p1",
@@ -75338,8 +75370,28 @@
               "diagramRefs": [
                 "05-Vjezba-5.md#pospremanje-opreme"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-6-hidrantska-mreza/vodom-stoj",
+                "vjezba-6-hidrantska-mreza/vodom-stoj-vode",
+                "vjezba-6-hidrantska-mreza/zatvaranje-vode",
+                "vjezba-6-hidrantska-mreza/posprema",
+                "vjezba-6-hidrantska-mreza/posprema-strojar",
+                "vjezba-6-hidrantska-mreza/posprema-mlaznice",
+                "vjezba-6-hidrantska-mreza/posprema-zapovjednik",
+                "vjezba-6-hidrantska-mreza/posprema-savijanje",
+                "vjezba-6-hidrantska-mreza/posprema-motanje",
+                "vjezba-6-hidrantska-mreza/posprema-nosaci",
+                "vjezba-6-hidrantska-mreza/uzimanje-n1",
+                "vjezba-6-hidrantska-mreza/uzimanje-n2",
+                "vjezba-6-hidrantska-mreza/uzimanje-v1",
+                "vjezba-6-hidrantska-mreza/uzimanje-v2",
+                "vjezba-6-hidrantska-mreza/posprema-polozaj",
+                "vjezba-6-hidrantska-mreza/opremu-uzmi",
+                "vjezba-6-hidrantska-mreza/stoj-celom-nazad",
+                "vjezba-6-hidrantska-mreza/opremu-odlozi",
+                "vjezba-6-hidrantska-mreza/odlaganje-opreme"
+              ],
+              "status": "mapped"
             },
             {
               "id": "06-vjezba-6#pospremanje-opreme/p2",
@@ -75380,8 +75432,10 @@
                 "src.v1"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-6-hidrantska-mreza/v1-hidrant"
+              ],
+              "status": "mapped"
             },
             {
               "id": "06-vjezba-6#pospremanje-opreme/l2",
@@ -75403,8 +75457,10 @@
                 "src.v2"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-6-hidrantska-mreza/v2-b-hidrant"
+              ],
+              "status": "mapped"
             },
             {
               "id": "06-vjezba-6#pospremanje-opreme/p3",
@@ -75422,8 +75478,11 @@
               "roleMentions": [],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-6-hidrantska-mreza/posprema-b",
+                "vjezba-6-hidrantska-mreza/posprema-b-motanje"
+              ],
+              "status": "mapped"
             },
             {
               "id": "06-vjezba-6#pospremanje-opreme/p4",
@@ -75443,8 +75502,13 @@
               "diagramRefs": [
                 "01-Vjezba-1.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-6-hidrantska-mreza/pregled-opreme",
+                "vjezba-6-hidrantska-mreza/prijavak",
+                "vjezba-6-hidrantska-mreza/na-svoje-mjesto",
+                "vjezba-6-hidrantska-mreza/zavrsetak"
+              ],
+              "status": "mapped"
             }
           ],
           "roleMentions": [
@@ -75711,7 +75775,6 @@
               "line": 23,
               "sectionId": "2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca",
               "equipmentTypeIds": [
-                "et.podzemni-hidrant",
                 "et.kljuc-za-hidrant"
               ]
             },
@@ -77535,7 +77598,6 @@
               "line": 18,
               "sectionId": "2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca",
               "equipmentTypeIds": [
-                "et.podzemni-hidrant",
                 "et.kljuc-za-hidrant"
               ]
             },
@@ -87565,103 +87627,167 @@
           "candidateId": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p1",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
         },
         {
           "candidateId": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p2",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Uvod u popis opreme; oprema je u početnoj sceni, a količine se provjeravaju u fazi F."
         },
         {
           "candidateId": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p3",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-6-hidrantska-mreza",
+          "stepIds": [
+            "zbor"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-6-hidrantska-mreza",
+          "stepIds": [
+            "zapovijed-za-navalu"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
         },
         {
           "candidateId": "06-vjezba-6#polaganje-cijevnog-voda-od-hidranta-do-motorne-pumpe/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-6-hidrantska-mreza",
+          "stepIds": [
+            "strojar-sabirnica"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "06-vjezba-6#polaganje-cijevnog-voda-od-hidranta-do-motorne-pumpe/p2",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-6-hidrantska-mreza",
+          "stepIds": [
+            "v1-nastavak"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "06-vjezba-6#polaganje-cijevnog-voda-od-hidranta-do-motorne-pumpe/p3",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-6-hidrantska-mreza",
+          "stepIds": [
+            "v2-oprema",
+            "v2-polaganje",
+            "voda-s-hidranta"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "06-vjezba-6#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-6-hidrantska-mreza",
+          "stepIds": [
+            "navalna-b-oprema",
+            "polaganje-b-prva",
+            "polaganje-b-druga",
+            "navalna-oprema-n1",
+            "navalna-oprema-n2",
+            "navalna-do-kraja-b",
+            "voda-do-razdjelnice",
+            "zapovjednik-razdjelnica"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "06-vjezba-6#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-6-hidrantska-mreza",
+          "stepIds": [
+            "prvi-mlaz",
+            "prvi-mlaz-n1"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "06-vjezba-6#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-6-hidrantska-mreza",
+          "stepIds": [
+            "drugi-mlaz-zapovijed",
+            "drugi-mlaz-v1-oprema",
+            "drugi-mlaz-v2",
+            "drugi-mlaz-v1-mlaznica",
+            "drugi-mlaz-v2-luk",
+            "drugi-mlaz-vodu-daj",
+            "drugi-mlaz-potvrda"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "06-vjezba-6#pospremanje-opreme/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-6-hidrantska-mreza",
+          "stepIds": [
+            "vodom-stoj",
+            "vodom-stoj-vode",
+            "zatvaranje-vode",
+            "posprema",
+            "posprema-strojar",
+            "posprema-mlaznice",
+            "posprema-zapovjednik",
+            "posprema-savijanje",
+            "posprema-motanje",
+            "posprema-nosaci",
+            "uzimanje-n1",
+            "uzimanje-n2",
+            "uzimanje-v1",
+            "uzimanje-v2",
+            "posprema-polozaj",
+            "opremu-uzmi",
+            "stoj-celom-nazad",
+            "opremu-odlozi",
+            "odlaganje-opreme"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "06-vjezba-6#pospremanje-opreme/p2",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Uvod u popis radnji vodne grupe; radnje su stavke popisa koje slijede (koraci v1-hidrant i v2-b-hidrant ovise o odlaganju opreme drugog mlaza)."
         },
         {
           "candidateId": "06-vjezba-6#pospremanje-opreme/l1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-6-hidrantska-mreza",
+          "stepIds": [
+            "v1-hidrant"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "06-vjezba-6#pospremanje-opreme/l2",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-6-hidrantska-mreza",
+          "stepIds": [
+            "v2-b-hidrant"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "06-vjezba-6#pospremanje-opreme/p3",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-6-hidrantska-mreza",
+          "stepIds": [
+            "posprema-b",
+            "posprema-b-motanje"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "06-vjezba-6#pospremanje-opreme/p4",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-6-hidrantska-mreza",
+          "stepIds": [
+            "pregled-opreme",
+            "prijavak",
+            "na-svoje-mjesto",
+            "zavrsetak"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p1",
@@ -88672,6 +88798,17 @@
           "warningCount": 2,
           "stepCount": 95,
           "tracedStepCount": 95,
+          "demoReachesCompletion": true
+        },
+        {
+          "exerciseId": "vjezba-6-hidrantska-mreza",
+          "authoringFile": "content/authoring/source/vjezba-6.exercise.json",
+          "outputFile": "content/exercises/vjezba-6-hidrantska-mreza.json",
+          "ok": true,
+          "errorCount": 0,
+          "warningCount": 0,
+          "stepCount": 51,
+          "tracedStepCount": 51,
           "demoReachesCompletion": true
         }
       ],
@@ -92570,6 +92707,310 @@
             "file": "content/authoring/source/vjezba-5.exercise.json"
           },
           "subjectId": "gotovo"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak v2-oprema: izvorni tekst spominje uloge role.zapovjednik, role.strojar, role.vodja-vodne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "v2-oprema"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak v2-polaganje: izvorni tekst spominje uloge role.zapovjednik, role.strojar, role.vodja-vodne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "v2-polaganje"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak voda-s-hidranta: izvorni tekst spominje uloge role.zapovjednik, role.clan-vodne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "voda-s-hidranta"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak navalna-oprema-n1: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "navalna-oprema-n1"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak navalna-oprema-n2: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "navalna-oprema-n2"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak voda-do-razdjelnice: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "voda-do-razdjelnice"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak zapovjednik-razdjelnica: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "zapovjednik-razdjelnica"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak vodom-stoj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "vodom-stoj"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak vodom-stoj-vode: izvorni tekst spominje uloge role.zapovjednik, role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "vodom-stoj-vode"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak posprema: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "posprema"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak posprema-strojar: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "posprema-strojar"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak posprema-mlaznice: izvorni tekst spominje uloge role.zapovjednik, role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "posprema-mlaznice"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak posprema-zapovjednik: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "posprema-zapovjednik"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak posprema-savijanje: izvorni tekst spominje uloge role.zapovjednik, role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "posprema-savijanje"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak posprema-motanje: izvorni tekst spominje uloge role.zapovjednik, role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "posprema-motanje"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak posprema-nosaci: izvorni tekst spominje uloge role.zapovjednik, role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "posprema-nosaci"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak uzimanje-n1: izvorni tekst spominje uloge role.zapovjednik, role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "uzimanje-n1"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak uzimanje-n2: izvorni tekst spominje uloge role.zapovjednik, role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "uzimanje-n2"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak uzimanje-v1: izvorni tekst spominje uloge role.zapovjednik, role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "uzimanje-v1"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak uzimanje-v2: izvorni tekst spominje uloge role.zapovjednik, role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "uzimanje-v2"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak posprema-polozaj: izvorni tekst spominje uloge role.zapovjednik, role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "posprema-polozaj"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak opremu-uzmi: izvorni tekst spominje uloge role.zapovjednik, role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "opremu-uzmi"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak stoj-celom-nazad: izvorni tekst spominje uloge role.zapovjednik, role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "stoj-celom-nazad"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak opremu-odlozi: izvorni tekst spominje uloge role.zapovjednik, role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "opremu-odlozi"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak odlaganje-opreme: izvorni tekst spominje uloge role.zapovjednik, role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "odlaganje-opreme"
+        },
+        {
+          "code": "audio.speech-not-verbatim",
+          "severity": "info",
+          "message": "Radnja act.vodom-stoj-prvi: izgovor „Prvi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti.",
+          "stage": "F",
+          "subjectId": "act.vodom-stoj-prvi"
+        },
+        {
+          "code": "audio.speech-not-verbatim",
+          "severity": "info",
+          "message": "Radnja act.vodom-stoj-drugi: izgovor „Drugi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti.",
+          "stage": "F",
+          "subjectId": "act.vodom-stoj-drugi"
+        },
+        {
+          "code": "audio.order-not-in-text",
+          "severity": "info",
+          "message": "Korak zbor: zapovijed „Odjeljenje – zbor!” (act.zbor) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "zbor"
+        },
+        {
+          "code": "audio.order-not-in-text",
+          "severity": "info",
+          "message": "Korak prvi-mlaz: zapovijed „Za prvi mlaz s dvije „C” cijevi pravac … naprijed!” (act.prvi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "prvi-mlaz"
+        },
+        {
+          "code": "audio.order-not-in-text",
+          "severity": "info",
+          "message": "Korak drugi-mlaz-zapovijed: zapovijed „Za drugi mlaz s dvije „C” cijevi pravac … naprijed!” (act.drugi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "drugi-mlaz-zapovijed"
+        },
+        {
+          "code": "audio.order-not-in-text",
+          "severity": "info",
+          "message": "Korak vodom-stoj: zapovijed „Prvi i drugi mlaz – vodom stoj!” (act.vodom-stoj-mlazovi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-6.exercise.json"
+          },
+          "subjectId": "vodom-stoj"
         }
       ]
     },

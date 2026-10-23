@@ -76,9 +76,14 @@ export function escapeRegExp(s: string): string {
 
 /** Whole-word, case-insensitive occurrence test that respects Croatian letters. */
 export function containsTerm(text: string, term: string): boolean {
-  if (!term.trim()) return false;
-  const re = new RegExp(`(?<![\\p{L}\\p{N}])${escapeRegExp(term)}(?![\\p{L}\\p{N}])`, 'iu');
-  return re.test(text);
+  return termSpans(text, term).length > 0;
+}
+
+/** Whole-word, case-insensitive occurrences of `term` in `text` as [start, end) ranges. */
+export function termSpans(text: string, term: string): Array<[number, number]> {
+  if (!term.trim()) return [];
+  const re = new RegExp(`(?<![\\p{L}\\p{N}])${escapeRegExp(term)}(?![\\p{L}\\p{N}])`, 'giu');
+  return [...text.matchAll(re)].map((m) => [m.index, m.index + m[0].length]);
 }
 
 export function stableJson(value: unknown): string {

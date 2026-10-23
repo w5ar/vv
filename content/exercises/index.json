@@ -43,6 +43,12 @@
       "synthetic": false
     },
     {
+      "id": "vjezba-6-hidrantska-mreza",
+      "file": "content/exercises/vjezba-6-hidrantska-mreza.json",
+      "catalogId": "katalog-vjezbovnik",
+      "synthetic": false
+    },
+    {
       "id": "sinteticka-vjezba-01",
       "file": "content/exercises/sinteticka-vjezba-01.json",
       "catalogId": "katalog-sinteticki",

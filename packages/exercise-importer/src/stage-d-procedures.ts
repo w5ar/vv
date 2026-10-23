@@ -3,7 +3,7 @@ import type { List, ListItem, Nodes, Root } from 'mdast';
 import { fromMarkdown } from 'mdast-util-from-markdown';
 import path from 'node:path';
 import type { CatalogReview } from './review-files';
-import { containsTerm, normalizeName, slugify, toPosix } from './util';
+import { containsTerm, normalizeName, slugify, termSpans, toPosix } from './util';
 
 /**
  * Stage D — Markdown procedure analysis. Preserves headings, sections and the verbatim source text
@@ -65,10 +65,21 @@ export function buildLexicon(catalog: Catalog | null, review: CatalogReview | nu
   return { roles, symbols, equipment };
 }
 
+/**
+ * Ids whose terms occur in `text`. An occurrence inside a longer term of another id does not count
+ * („ključ za podzemni hidrant” names the key, not the hydrant).
+ */
 function mentions(text: string, map: ReadonlyMap<string, string[]>): string[] {
-  const out: string[] = [];
-  for (const [id, terms] of map) if (terms.some((t) => containsTerm(text, t))) out.push(id);
-  return out;
+  const spans = new Map<string, Array<[number, number]>>();
+  for (const [id, terms] of map) {
+    const found = terms.flatMap((t) => termSpans(text, t));
+    if (found.length > 0) spans.set(id, found);
+  }
+  const all = [...spans].flatMap(([id, list]) => list.map((s) => ({ id, s })));
+  const inside = (a: [number, number], b: [number, number]) => b[0] <= a[0] && a[1] <= b[1] && b[1] - b[0] > a[1] - a[0];
+  return [...spans]
+    .filter(([id, list]) => list.some((s) => !all.some((o) => o.id !== id && inside(s, o.s))))
+    .map(([id]) => id);
 }
 
 const IMAGE_MD = /!\[([^\]]*)\]\(([^)\s]+)\)/g;

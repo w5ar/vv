@@ -168,3 +168,16 @@ test('Vježba 5 demonstration lays the suction line, the „B” line from the p
   await expect(page.locator('.fds-hose__line')).toHaveCount(0);
   expect(errors).toEqual([]);
 });
+
+test('Vježba 6 demonstration lays two „B” hoses from the hydrant to the collecting head and reaches completion', async ({ page }) => {
+  const errors: string[] = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  await page.goto('#/demonstracija/vjezba-6-hidrantska-mreza');
+  await expect(page.getByTestId('object-sabirnica')).toBeVisible();
+  const range = page.getByTestId('timeline-range');
+  await range.fill((await range.getAttribute('max')) ?? '0');
+  await expect(page.getByTestId('demo-complete')).toBeVisible();
+  await expect(page.getByTestId('progress-label')).toContainText('51 / 51');
+  await expect(page.locator('.fds-hose__line')).toHaveCount(0);
+  expect(errors).toEqual([]);
+});

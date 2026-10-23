@@ -1655,103 +1655,167 @@
     "candidateId": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p1",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
   },
   {
     "candidateId": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p2",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Uvod u popis opreme; oprema je u početnoj sceni, a količine se provjeravaju u fazi F."
   },
   {
     "candidateId": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-6-hidrantska-mreza",
+    "stepIds": [
+      "zbor"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-6-hidrantska-mreza",
+    "stepIds": [
+      "zapovijed-za-navalu"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
   },
   {
     "candidateId": "06-vjezba-6#polaganje-cijevnog-voda-od-hidranta-do-motorne-pumpe/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-6-hidrantska-mreza",
+    "stepIds": [
+      "strojar-sabirnica"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "06-vjezba-6#polaganje-cijevnog-voda-od-hidranta-do-motorne-pumpe/p2",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-6-hidrantska-mreza",
+    "stepIds": [
+      "v1-nastavak"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "06-vjezba-6#polaganje-cijevnog-voda-od-hidranta-do-motorne-pumpe/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-6-hidrantska-mreza",
+    "stepIds": [
+      "v2-oprema",
+      "v2-polaganje",
+      "voda-s-hidranta"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "06-vjezba-6#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-6-hidrantska-mreza",
+    "stepIds": [
+      "navalna-b-oprema",
+      "polaganje-b-prva",
+      "polaganje-b-druga",
+      "navalna-oprema-n1",
+      "navalna-oprema-n2",
+      "navalna-do-kraja-b",
+      "voda-do-razdjelnice",
+      "zapovjednik-razdjelnica"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "06-vjezba-6#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-6-hidrantska-mreza",
+    "stepIds": [
+      "prvi-mlaz",
+      "prvi-mlaz-n1"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "06-vjezba-6#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-6-hidrantska-mreza",
+    "stepIds": [
+      "drugi-mlaz-zapovijed",
+      "drugi-mlaz-v1-oprema",
+      "drugi-mlaz-v2",
+      "drugi-mlaz-v1-mlaznica",
+      "drugi-mlaz-v2-luk",
+      "drugi-mlaz-vodu-daj",
+      "drugi-mlaz-potvrda"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "06-vjezba-6#pospremanje-opreme/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-6-hidrantska-mreza",
+    "stepIds": [
+      "vodom-stoj",
+      "vodom-stoj-vode",
+      "zatvaranje-vode",
+      "posprema",
+      "posprema-strojar",
+      "posprema-mlaznice",
+      "posprema-zapovjednik",
+      "posprema-savijanje",
+      "posprema-motanje",
+      "posprema-nosaci",
+      "uzimanje-n1",
+      "uzimanje-n2",
+      "uzimanje-v1",
+      "uzimanje-v2",
+      "posprema-polozaj",
+      "opremu-uzmi",
+      "stoj-celom-nazad",
+      "opremu-odlozi",
+      "odlaganje-opreme"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "06-vjezba-6#pospremanje-opreme/p2",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Uvod u popis radnji vodne grupe; radnje su stavke popisa koje slijede (koraci v1-hidrant i v2-b-hidrant ovise o odlaganju opreme drugog mlaza)."
   },
   {
     "candidateId": "06-vjezba-6#pospremanje-opreme/l1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-6-hidrantska-mreza",
+    "stepIds": [
+      "v1-hidrant"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "06-vjezba-6#pospremanje-opreme/l2",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-6-hidrantska-mreza",
+    "stepIds": [
+      "v2-b-hidrant"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "06-vjezba-6#pospremanje-opreme/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-6-hidrantska-mreza",
+    "stepIds": [
+      "posprema-b",
+      "posprema-b-motanje"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "06-vjezba-6#pospremanje-opreme/p4",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-6-hidrantska-mreza",
+    "stepIds": [
+      "pregled-opreme",
+      "prijavak",
+      "na-svoje-mjesto",
+      "zavrsetak"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p1",

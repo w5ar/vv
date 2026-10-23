@@ -169,6 +169,25 @@ give the scene a real scale.
 53. **Commander's position**: *„istupa ispred odjeljenja kao u vježbi 1”* (Vj5 38) is shown, as in
     Vježba 1, only as turning towards the stroj.
 
+## Vježba 6 — hidrantska mreža, šest vatrogasaca (Vj6 = `content/source/06-Vjezba-6.md`)
+
+55. **Hydrant position**: skica 42 draws the hydrant left of the stroj; skice 43–45 draw it much closer
+    to the pump, where the stroj of skica 42 stands. The simulator keeps skica 42's position, so the two
+    hoses from the hydrant to the sabirnica pass on both sides of the first rank of the stroj.
+56. **Hose to outlet**: *„Spaja na svaki otvor sabirnice donju spojnicu „B” cijevi … priključuje na
+    svaki izlazni otvor hidrantskog nastavka”* (Vj6 44) does not say which hose goes to which outlet;
+    the upper inlet is joined to the upper outlet (the hoses do not cross).
+57. **Opening and closing the hydrant**: V₁ opens the hydrant and the valves on the nastavak outlets
+    (Vj6 44); at *„Posprema”* the strojar *„zatvara vodu na hidrantu”* (Vj6 72), without mentioning the
+    outlet valves — one action.
+58. **Strojar after „Posprema”**: Vj6 72 ends with *„posprema jednu od „B” cijevi”*; carrying the
+    sabirnica, his key and the rolled hose back to their places and going into the stroj are taken from
+    skica 46, which shows them there.
+59. **Keys**: V₁ and V₂ take one key each at the start (Vj6 42, 44) and hand them to the zapovjednik at
+    the second jet (Vj1 93); he puts them back as in Vježba 5 (Vj5 82, applied by Vj6 72).
+60. **Water to the razdjelnica** and **stopping the water** follow Vježba 5 (Q47): one action each of
+    the strojar, since operating the pump is not described.
+
 ## Demonstration sound
 
 26. **Resolved orders**: Vj1 111 quotes *„Prvi, odnosno drugi mlaz – vodom stoj!”* for both leaders;

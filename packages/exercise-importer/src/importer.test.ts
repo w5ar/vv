@@ -215,6 +215,7 @@ describe('full pipeline on repository content', async () => {
     ['vjezba-3-usisne-cijevi', '03-Vjezba-3.md'],
     ['vjezba-4-usisne-cijevi', '04-Vjezba-4.md'],
     ['vjezba-5-otvoreno-nalaziste', '05-Vjezba-5.md'],
+    ['vjezba-6-hidrantska-mreza', '06-Vjezba-6.md'],
   ] as const;
 
   it('compiles the source exercises without errors and with full traceability', () => {
@@ -237,6 +238,11 @@ describe('full pipeline on repository content', async () => {
       // Initial positions are traced to instances of the stage sketch.
       expect(exercise.initialScene.personnel.every((p) => p.sources.some((s) => s.file.includes('/skice/') && s.anchor?.includes('@')))).toBe(true);
     }
+  });
+
+  it('links an equipment item to the type of its longest term („ključ za podzemni hidrant” is the key, not the hydrant)', () => {
+    const proc = source.procedures.find((p) => p.file === 'content/source/06-Vjezba-6.md')!;
+    expect(proc.equipmentList.find((e) => e.text === 'ključ za podzemni hidrant')?.equipmentTypeIds).toEqual(['et.kljuc-za-hidrant']);
   });
 
   it('writes an audio plan per exercise: orders by action id, descriptions split at the quoted orders', () => {

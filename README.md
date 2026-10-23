@@ -23,7 +23,8 @@ screen) button that shows the scene with its panels over the whole screen.
 | **Vježba 3 – Vježba s usisnim cijevima (5 vatrogasaca)** | `content/source/03-Vjezba-3.md`, sketches 20–26 | 8 stages, 59 steps; suction line laid, joined while lifted, tied, carried into the water and connected to the pump |
 | **Vježba 4 – Vježba s usisnim cijevima (3 vatrogasca)** | `content/source/04-Vjezba-4.md`, sketches 27–36 | 9 stages, 49 steps; the same with the navalna grupa and the strojar, applying Vježba 3 where the text refers to it |
 | **Vježba 5 – Vježba s 2 „C” mlaza vode, opskrba vodom iz otvorenog nalazišta (6 vatrogasaca)** | `content/source/05-Vjezba-5.md`, sketches 37–41 | 6 stages, 95 steps; suction line as in Vježba 4 (vodna grupa and strojar), „B” line from the pump and two „C” jets as in Vježba 1 |
-| Vježbe 6–15 | `content/source/06-Vjezba-6.md` … `15-Vjezba-15.md`, sketches 42–77 | vendored and analysed (Pregled uvoza); not yet converted |
+| **Vježba 6 – Vježba s 2 „C” mlaza vode, opskrba vodom iz hidrantske mreže (6 vatrogasaca)** | `content/source/06-Vjezba-6.md`, sketches 42–46 | 6 stages, 51 steps; two „B” hoses from the hydrant to the collecting head (*sabirnica*) on the pump, then as Vježbe 5 and 1 |
+| Vježbe 7–15 | `content/source/07-Vjezba-7.md` … `15-Vjezba-15.md`, sketches 47–77 | vendored and analysed (Pregled uvoza); not yet converted |
 | Sintetička vježba 01 | `content/synthetic/` | **synthetic** test fixture, not firefighting practice |
 
 The source materials are a copy of the repository `w5ar/VatrogasneVjezbe` (*Vatrogasni vježbovnik*:

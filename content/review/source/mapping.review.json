@@ -14,10 +14,6 @@
       "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
     },
     {
-      "file": "06-Vjezba-6.md",
-      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
-    },
-    {
       "file": "07-Vjezba-7.md",
       "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
     },
@@ -174,6 +170,22 @@
     {
       "candidateId": "05-vjezba-5#2-5-1-vjezba-5-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p5",
       "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
+    },
+    {
+      "candidateId": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p1",
+      "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
+    },
+    {
+      "candidateId": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p2",
+      "reason": "Uvod u popis opreme; oprema je u početnoj sceni, a količine se provjeravaju u fazi F."
+    },
+    {
+      "candidateId": "06-vjezba-6#2-5-2-vjezba-6-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5",
+      "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
+    },
+    {
+      "candidateId": "06-vjezba-6#pospremanje-opreme/p2",
+      "reason": "Uvod u popis radnji vodne grupe; radnje su stavke popisa koje slijede (koraci v1-hidrant i v2-b-hidrant ovise o odlaganju opreme drugog mlaza)."
     }
   ]
 }
