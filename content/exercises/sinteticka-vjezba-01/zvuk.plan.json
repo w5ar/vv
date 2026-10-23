@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "exerciseId": "sinteticka-vjezba-01",
+  "synthetic": true,
+  "clips": [
+    {
+      "id": "korak-1",
+      "voice": "opis",
+      "text": "Voditelj daje znak za početak vježbe.",
+      "hash": "0f14e5293c0d7d"
+    },
+    {
+      "id": "korak-2",
+      "voice": "opis",
+      "text": "Član 1 uzima razdjelnik i postavlja ga na označeno mjesto razdjelnika.",
+      "hash": "1598ca09f2b63a"
+    },
+    {
+      "id": "korak-3",
+      "voice": "opis",
+      "text": "Član 2 uzima cijev s velikim spojem, polaže je i spaja na prvi izlaz vozila.",
+      "hash": "08acb6da02a80d"
+    },
+    {
+      "id": "korak-4",
+      "voice": "opis",
+      "text": "Član 2 spaja slobodni kraj velike cijevi na ulaz razdjelnika.",
+      "hash": "0551231c320c52"
+    },
+    {
+      "id": "korak-5",
+      "voice": "opis",
+      "text": "Član 1 uzima cijev s malim spojem i mlaznicu, spaja cijev na razdjelnik i postavlja mlaznicu u ciljno područje.",
+      "hash": "03af2425813653"
+    },
+    {
+      "id": "korak-6",
+      "voice": "opis",
+      "text": "Član 2 uzima drugu cijev s malim spojem i mlaznicu, spaja cijev na razdjelnik i postavlja mlaznicu u ciljno područje.",
+      "hash": "066375ed2bc539"
+    },
+    {
+      "id": "korak-7",
+      "voice": "opis",
+      "text": "Član 1 ili Član 2 javlja spremnost voditelju.",
+      "hash": "108de7432f89eb"
+    },
+    {
+      "id": "korak-8",
+      "voice": "opis",
+      "text": "Voditelj daje znak za otvaranje, a članovi otvaraju mlaznice.",
+      "hash": "1668a7d017e3b8"
+    }
+  ],
+  "steps": {
+    "korak-1": [
+      {
+        "clipId": "korak-1"
+      }
+    ],
+    "korak-2": [
+      {
+        "clipId": "korak-2"
+      }
+    ],
+    "korak-3": [
+      {
+        "clipId": "korak-3"
+      }
+    ],
+    "korak-4": [
+      {
+        "clipId": "korak-4"
+      }
+    ],
+    "korak-5": [
+      {
+        "clipId": "korak-5"
+      }
+    ],
+    "korak-6": [
+      {
+        "clipId": "korak-6"
+      }
+    ],
+    "korak-7": [
+      {
+        "clipId": "korak-7"
+      }
+    ],
+    "korak-8": [
+      {
+        "clipId": "korak-8"
+      }
+    ]
+  }
+}

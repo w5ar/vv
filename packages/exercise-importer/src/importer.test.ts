@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { CatalogSchema, ExerciseSchema } from '@fds/domain';
+import { AudioPlanSchema, CatalogSchema, ExerciseSchema } from '@fds/domain';
 import { sanitizeSvg } from '@fds/svg-registry';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -229,6 +229,21 @@ describe('full pipeline on repository content', async () => {
       // Initial positions are traced to instances of the stage sketch.
       expect(exercise.initialScene.personnel.every((p) => p.sources.some((s) => s.file.includes('/skice/') && s.anchor?.includes('@')))).toBe(true);
     }
+  });
+
+  it('writes an audio plan per exercise: orders by action id, descriptions split at the quoted orders', () => {
+    const plan = AudioPlanSchema.parse(JSON.parse(outputs.get('content/exercises/vjezba-1-dva-c-mlaza/zvuk.plan.json')!));
+    const clip = (id: string) => plan.clips.find((c) => c.id === id);
+    expect(clip('act.prvi-mlaz-naprijed')).toMatchObject({ voice: 'zapovijed', text: 'Za prvi mlaz s dvije „C” cijevi pravac …… naprijed!' });
+    expect(plan.steps['zapovijed-za-navalu']).toEqual([
+      { clipId: 'zapovijed-za-navalu' },
+      { clipId: 'act.za-navalu', actionId: 'act.za-navalu' },
+    ]);
+    expect(clip('zapovijed-za-navalu')?.text).toMatch(/a zatim izdaje zapovijed koja glasi:$/);
+    expect(plan.clips.filter((c) => c.voice === 'zapovijed')).toHaveLength(20);
+    // Every spoken order is quoted from its sources, except the two resolved from „Prvi, odnosno drugi mlaz…”.
+    const notVerbatim = source.diagnostics.filter((d) => d.code === 'audio.speech-not-verbatim').map((d) => d.subjectId);
+    expect(notVerbatim).toEqual(['act.vodom-stoj-prvi', 'act.vodom-stoj-drugi']);
   });
 
   it('verifies all excerpts of source references against the source texts', () => {

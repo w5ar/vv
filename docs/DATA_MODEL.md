@@ -175,8 +175,10 @@ to scale).
 
 ### ProceduralAction
 
-`{ id, name, actorRoleIds[], minActors, requires?: Condition, durationMs? }` — e.g. a signal or a
-report. Executed with `BeginAction` / `CompleteAction`.
+`{ id, name, actorRoleIds[], minActors, requires?: Condition, durationMs?, speech? }` — e.g. a signal,
+an order or a report. Executed with `BeginAction` / `CompleteAction`. `speech` holds the words spoken
+aloud, verbatim from the source (`„Za prvi mlaz s dvije „C” cijevi pravac …… naprijed!”`); it is voiced
+in demonstrations with sound.
 
 ### Rules
 
@@ -257,6 +259,30 @@ Plus exercise rules and the order policy (see ARCHITECTURE.md). Procedural event
 
 The vocabulary is generic. The hose, hand-over and actor additions were introduced for the source
 exercises (laying „B”/„C” lines, *predaje gornju spojnicu*), but contain no exercise-specific logic.
+
+## Demonstration sound (`audio.ts`)
+
+Both files live in `content/exercises/<exercise-id>/`.
+
+**Audio plan** (`zvuk.plan.json`, written by the import pipeline from `buildAudioPlan(exercise)`):
+
+```jsonc
+{ "schemaVersion": 1, "exerciseId": "vjezba-1-dva-c-mlaza", "synthetic": false,
+  "clips": [
+    { "id": "zapovijed-za-navalu", "voice": "opis", "text": "Kada je odjeljenje postrojeno, … koja glasi:", "hash": "…" },
+    { "id": "act.za-navalu", "voice": "zapovijed", "text": "Požar pravac …… voda – hidrant, …, za navalu pripremi!", "hash": "…" } ],
+  "steps": { "zapovijed-za-navalu": [ { "clipId": "zapovijed-za-navalu" }, { "clipId": "act.za-navalu", "actionId": "act.za-navalu" } ] } }
+```
+
+- Order clips: one per action with `speech` that a step's script begins; id = action id.
+- Description clips (voice `opis`): the step text with markup removed, split where it quotes an order
+  the step performs; ids `<step-id>`, `<step-id>-2`, …
+- Cues of a step play in order; a cue with `actionId` starts with that action.
+- `hash` (of voice + text) tells whether a generated clip still matches the current text.
+
+**Audio manifest** (`zvuk.json`, written by `tools/generate_audio.py`):
+`{ schemaVersion: 1, exerciseId, clips: { <clip id>: { file, durationMs, voice, hash, model?, voiceName? } } }`.
+The player uses only clips whose `hash` matches the plan.
 
 ## Simulation state (`state.ts`)
 

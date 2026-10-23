@@ -5,6 +5,7 @@ import { portWorld } from '@fds/connection-engine';
 import {
   SimulationSession,
   appliedCountAt,
+  buildAudioPlan,
   checkCatalog,
   checkExercise,
   compileTimeline,
@@ -504,5 +505,79 @@ describe('flexible hoses, hand-over and actors', () => {
       equipmentTypes: testCatalogInput.equipmentTypes?.map((e) => (e.id === 'et.hose' ? { ...e, form: 'hose', hoseEnds: ['end-a', 'nope'] } : e)),
     });
     expect(checkCatalog(bad).map((d) => d.code)).toContain('ref.unknown-port');
+  });
+});
+
+describe('demonstration sound', () => {
+  function audioExercise(text = 'Član javlja: **„Spremni!”** i čeka.') {
+    const input = structuredClone(testExerciseInput);
+    input.actions![0]!.speech = 'Spremni!';
+    input.steps![0]!.text = 'Član postavlja razdjelnik u [radni prostor](x.md#a) (N₁).';
+    input.steps![4]!.text = text;
+    return ExerciseSchema.parse(input);
+  }
+
+  it('splits a step description where the order voice speaks the quoted order', () => {
+    const { plan, issues } = buildAudioPlan(audioExercise());
+    expect(issues).toEqual([]);
+    expect(plan.steps.s5).toEqual([{ clipId: 's5' }, { clipId: 'act.report', actionId: 'act.report' }, { clipId: 's5-2' }]);
+    const text = Object.fromEntries(plan.clips.map((c) => [c.id, [c.voice, c.text]]));
+    expect(text).toMatchObject({
+      s1: ['opis', 'Član postavlja razdjelnik u radni prostor (N1).'],
+      s5: ['opis', 'Član javlja:'],
+      'act.report': ['zapovijed', 'Spremni!'],
+      's5-2': ['opis', 'i čeka.'],
+    });
+    expect(plan.steps.s2).toBeUndefined(); // no text, no spoken order
+    expect(new Set(plan.clips.map((c) => c.hash)).size).toBe(plan.clips.length);
+  });
+
+  it('keeps an order that the text does not quote and reports it', () => {
+    const { plan, issues } = buildAudioPlan(audioExercise('Član javlja spremnost.'));
+    expect(plan.steps.s5).toEqual([{ clipId: 's5' }, { clipId: 'act.report', actionId: 'act.report' }]);
+    expect(issues.map((i) => i.code)).toEqual(['audio.order-not-in-text']);
+  });
+
+  const exercise = audioExercise();
+  const actx = createExerciseContext(exercise, catalog);
+  const { plan } = buildAudioPlan(exercise);
+  const durations = new Map([
+    ['s1', 10_000],
+    ['s5', 3_000],
+    ['act.report', 2_500],
+    ['s5-2', 1_500],
+  ]);
+  const silent = compileTimeline(actx);
+
+  it('makes each step last at least as long as its sound and starts orders with their action', () => {
+    const t = compileTimeline(actx, { audio: { mode: 'zapovijedi-opis', plan, durations } });
+    expect(t.problems).toEqual([]);
+    const w1 = t.stepWindows.s1!;
+    expect(w1.endMs - w1.startMs).toBeGreaterThanOrEqual(10_000);
+    const [n1, n5, order, n52] = ['s1', 's5', 'act.report', 's5-2'].map((id) => t.audio.find((c) => c.clipId === id)!);
+    expect(n5!.startMs).toBe(t.stepWindows.s5!.startMs);
+    const begin = t.entries.find((e) => e.command.type === 'BeginAction')!;
+    const complete = t.entries.find((e) => e.command.type === 'CompleteAction')!;
+    expect(begin.startMs).toBe(n5!.endMs); // the description before the order is finished first
+    expect(order!.startMs).toBe(begin.startMs);
+    expect(complete.endMs).toBeGreaterThanOrEqual(order!.endMs);
+    expect(n52!.startMs).toBe(order!.endMs);
+    expect(t.durationMs).toBeGreaterThanOrEqual(n52!.endMs);
+    // Cues never overlap.
+    for (let i = 1; i < t.audio.length; i++) expect(t.audio[i]!.startMs).toBeGreaterThanOrEqual(t.audio[i - 1]!.endMs);
+    // During a description the step counts as active and the cue is reported.
+    const mid = frameAt(actx, t, n1!.startMs + 9_000);
+    expect(mid.cue?.clipId).toBe('s1');
+    expect(mid.activeStepIds).toContain('s1');
+    expect(stateAt(actx, t, t.durationMs).completed).toBe(true);
+    expect(t.durationMs).toBeGreaterThan(silent.durationMs);
+  });
+
+  it('plays only orders in the orders mode and skips clips that were not generated', () => {
+    const orders = compileTimeline(actx, { audio: { mode: 'zapovijedi', plan, durations } });
+    expect(orders.audio.map((c) => c.clipId)).toEqual(['act.report']);
+    const none = compileTimeline(actx, { audio: { mode: 'zapovijedi-opis', plan, durations: new Map() } });
+    expect(none.audio).toEqual([]);
+    expect(none.durationMs).toBe(silent.durationMs);
   });
 });

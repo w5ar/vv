@@ -92,6 +92,7 @@
       ],
       "minActors": 1,
       "durationMs": 3000,
+      "speech": "Požar pravac …. voda – hidrant s dvije „B” cijevi do razdjelnice za navalu pripremi!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -136,6 +137,7 @@
       ],
       "minActors": 1,
       "durationMs": 3000,
+      "speech": "Za prvi mlaz s dvije „C” cijevi, pravac …. naprijed!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -200,6 +202,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Za prvi mlaz vodu daj!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -266,6 +269,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Za prvi mlaz vodom – stoj!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -309,6 +313,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Posprema!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -404,6 +409,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Opremu uzmi!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -429,6 +435,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "S opremom naprijed!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -454,6 +461,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Stoj! Čelom nazad!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -479,6 +487,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Opremu odloži!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -611,6 +620,7 @@
         "actionId": "act.prijavak"
       },
       "durationMs": 2000,
+      "speech": "Na svoje mjesto!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -636,6 +646,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Na zapovijed!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -661,9 +672,11 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Na mjestu odmor!",
       "provenance": "source",
       "review": {
-        "status": "requires-review"
+        "status": "requires-review",
+        "notes": "Izvor (vježba 1, redak 160) navodi dvije mogućnosti („Na mjestu odmor!” ili „Otpust!”); demonstracija izgovara prvu."
       },
       "sources": [
         {
@@ -5036,7 +5049,7 @@
   "build": {
     "compiledFrom": "content/authoring/source/vjezba-2.exercise.json",
     "sourceHashes": {
-      "content/authoring/source/vjezba-2.exercise.json": "73b8d4f70b520c4f9c43f6828a16c9255c95e5d1d7203efa7570ac9981257f68",
+      "content/authoring/source/vjezba-2.exercise.json": "5912992656b869e1d43d4f31d8c052691d28774ad25f1759f10e016d0048a5f9",
       "content/source/01-Vjezba-1.md": "98de24bd0a7a7e810f51ea636ec7714cb31daf0a04a278cda35b57f3c7c9b94a",
       "content/source/02-Vjezba-2.md": "a591c61b489d5076cb580e0935376c24a533c03ff492367c92c0b21b51e45974",
       "content/source/skice/02-skica-16.svg": "2984f1f2eff4dfe384fc5e31e702853d35da2c372f2b5539179712b3785449f5",

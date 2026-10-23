@@ -972,6 +972,40 @@
     "subjectId": "prijavak"
   },
   {
+    "code": "audio.speech-not-verbatim",
+    "severity": "info",
+    "stage": "F",
+    "message": "Radnja act.vodom-stoj-prvi: izgovor „Prvi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti.",
+    "subjectId": "act.vodom-stoj-prvi"
+  },
+  {
+    "code": "audio.speech-not-verbatim",
+    "severity": "info",
+    "stage": "F",
+    "message": "Radnja act.vodom-stoj-drugi: izgovor „Drugi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti.",
+    "subjectId": "act.vodom-stoj-drugi"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak vodom-stoj-vode: zapovijed „Prvi mlaz – vodom stoj!” (act.vodom-stoj-prvi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-1.exercise.json"
+    },
+    "subjectId": "vodom-stoj-vode"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak vodom-stoj-vode: zapovijed „Drugi mlaz – vodom stoj!” (act.vodom-stoj-drugi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-1.exercise.json"
+    },
+    "subjectId": "vodom-stoj-vode"
+  },
+  {
     "code": "mapping.role-mismatch",
     "severity": "info",
     "message": "Korak b-vod: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka.",
@@ -1030,5 +1064,75 @@
       "file": "content/authoring/source/vjezba-2.exercise.json"
     },
     "subjectId": "posprema-b"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak opremu-vratiti: zapovijed „Opremu uzmi!” (act.opremu-uzmi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-2.exercise.json"
+    },
+    "subjectId": "opremu-vratiti"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak opremu-vratiti: zapovijed „S opremom naprijed!” (act.s-opremom-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-2.exercise.json"
+    },
+    "subjectId": "opremu-vratiti"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak opremu-vratiti: zapovijed „Stoj! Čelom nazad!” (act.stoj-celom-nazad) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-2.exercise.json"
+    },
+    "subjectId": "opremu-vratiti"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak opremu-vratiti: zapovijed „Opremu odloži!” (act.opremu-odlozi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-2.exercise.json"
+    },
+    "subjectId": "opremu-vratiti"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak stroj-prijavak: zapovijed „Na svoje mjesto!” (act.na-svoje-mjesto) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-2.exercise.json"
+    },
+    "subjectId": "stroj-prijavak"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak stroj-prijavak: zapovijed „Na zapovijed!” (act.na-zapovijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-2.exercise.json"
+    },
+    "subjectId": "stroj-prijavak"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak stroj-prijavak: zapovijed „Na mjestu odmor!” (act.odmor-ili-otpust) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-2.exercise.json"
+    },
+    "subjectId": "stroj-prijavak"
   }
 ]

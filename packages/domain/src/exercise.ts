@@ -24,6 +24,11 @@ export const ProceduralActionSchema = z.strictObject({
   requires: ConditionSchema.optional(),
   /** Demonstration duration between BeginAction and CompleteAction. */
   durationMs: z.number().nonnegative().optional(),
+  /**
+   * Words spoken aloud when the action is performed (an order or a report), verbatim from the
+   * source. Voiced by the order voice in demonstrations with sound.
+   */
+  speech: z.string().min(1).optional(),
   ...traceShape,
 });
 export type ProceduralAction = z.infer<typeof ProceduralActionSchema>;

@@ -111,3 +111,13 @@ test('training: commander orders, then a hose is picked up, handed over, laid an
   await expect(page.getByTestId('object-b1').locator('.fds-hose__line')).toHaveCount(0);
   expect(errors).toEqual([]);
 });
+
+test('demonstration offers sound modes and explains how to generate missing clips', async ({ page }) => {
+  // The synthetic exercise is never voiced by default (tools/generate_audio.py skips it).
+  await page.goto('#/demonstracija/sinteticka-vjezba-01');
+  const mode = page.getByTestId('audio-mode');
+  await expect(mode).toHaveValue('none');
+  await expect(page.getByTestId('audio-status')).toContainText('tools/generate_audio.py');
+  await expect(mode.locator('option[value="zapovijedi"]')).toHaveJSProperty('disabled', true);
+  await expect(mode.locator('option[value="zapovijedi-opis"]')).toHaveJSProperty('disabled', true);
+});

@@ -1,8 +1,10 @@
 import {
+  AudioManifestSchema,
   ImportReportSchema,
   parseCatalog,
   parseExercise,
   summarizeExercise,
+  type AudioManifest,
   type Catalog,
   type ContentRepository,
   type Diagnostic,
@@ -26,6 +28,9 @@ const svgModules = import.meta.glob<string>(
   ['../../../../content/source/**/*.svg', '../../../../content/synthetic/source/**/*.svg'],
   { query: '?raw', import: 'default' },
 );
+
+// Generated speech clips (tools/generate_audio.py): only their URLs are bundled; files are emitted as assets.
+const audioUrls = import.meta.glob<string>('../../../../content/exercises/*/*.webm', { query: '?url', import: 'default', eager: true });
 
 function byRepoPath<T>(modules: Record<string, Loader<T>>): Map<string, Loader<T>> {
   const out = new Map<string, Loader<T>>();
@@ -54,6 +59,7 @@ export class BundledContentRepository implements ContentRepository {
   private readonly json = byRepoPath(jsonModules);
   private readonly svg = byRepoPath(svgModules);
   private readonly report = byRepoPath(reportModules);
+  private readonly audio = new Map(Object.entries(audioUrls).map(([k, url]) => [k.slice(k.indexOf('content/')), url]));
   private indexPromise: Promise<z.infer<typeof IndexSchema>> | null = null;
   private readonly exercises = new Map<string, Promise<Exercise>>();
   private readonly catalogs = new Map<string, Promise<Catalog>>();
@@ -142,6 +148,18 @@ export class BundledContentRepository implements ContentRepository {
     const r = ImportReportSchema.safeParse(await loader());
     if (!r.success) throw new ContentLoadError('Izvješće o uvozu nije ispravno. Pokrenite „pnpm import:all”.');
     return r.data;
+  }
+
+  async getAudioManifest(exerciseId: string): Promise<AudioManifest | null> {
+    const loader = this.json.get(`content/exercises/${exerciseId}/zvuk.json`);
+    if (!loader) return null;
+    const r = AudioManifestSchema.safeParse(await loader());
+    if (!r.success) throw new ContentLoadError(`content/exercises/${exerciseId}/zvuk.json nije ispravan. Ponovno pokrenite tools/generate_audio.py.`);
+    return r.data;
+  }
+
+  getAudioUrl(exerciseId: string, file: string): string | null {
+    return this.audio.get(`content/exercises/${exerciseId}/${file}`) ?? null;
   }
 
   /** Paths of all bundled SVG files (for the import review screen). */

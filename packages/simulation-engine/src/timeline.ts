@@ -1,4 +1,4 @@
-import type { Command, Connection, HoseLayout, Id, Issue, SimEvent, SimulationState } from '@fds/domain';
+import type { AudioPlan, Command, Connection, HoseLayout, Id, Issue, SimEvent, SimulationState, Voice } from '@fds/domain';
 import { distance, lerpAngle, lerpVec, type Vec2 } from '@fds/geometry';
 import type { ExerciseContext } from './context';
 import { resolveLayFrom } from './commands';
@@ -18,7 +18,28 @@ import { carriedPosition } from './world';
  * Visual time: the renderer maps wall-clock time to logical time (speed,
  * pause). In-progress commands are *interpolated* for display only via
  * {@link frameAt}; interpolation never touches the authoritative state.
+ *
+ * Sound (optional): audio cues are placed on the same logical time line. A step
+ * lasts at least as long as its cues, an order cue starts together with its
+ * action (which lasts at least as long as the order), and cues never overlap.
  */
+
+export interface TimelineAudio {
+  readonly mode: 'zapovijedi' | 'zapovijedi-opis';
+  readonly plan: AudioPlan;
+  /** Durations (ms) of the available clips; cues of clips without a duration are skipped. */
+  readonly durations: ReadonlyMap<Id, number>;
+}
+
+export interface TimelineCue {
+  readonly clipId: Id;
+  readonly stepId: Id;
+  readonly voice: Voice;
+  readonly text: string;
+  readonly actionId?: Id | undefined;
+  readonly startMs: number;
+  readonly endMs: number;
+}
 
 export interface TimelineEntry {
   /** Index in authoritative (application) order. */
@@ -52,6 +73,8 @@ export interface Timeline {
   readonly finalState: SimulationState;
   /** Boundaries (unique endMs values plus 0 and duration) for step forward/back. */
   readonly boundaries: readonly number[];
+  /** Audio cues in time order (empty without sound). */
+  readonly audio: readonly TimelineCue[];
   readonly snapshotInterval: number;
   /** snapshots[k] = state after k * snapshotInterval applied entries. */
   readonly snapshots: readonly SimulationState[];
@@ -136,9 +159,13 @@ function defaultDuration(ctx: ExerciseContext, state: SimulationState, command: 
  * objects therefore play in parallel. Within a step, commands run
  * sequentially unless marked `withPrevious`.
  */
-export function compileTimeline(ctx: ExerciseContext, options: { snapshotInterval?: number } = {}): Timeline {
+export function compileTimeline(ctx: ExerciseContext, options: { snapshotInterval?: number; audio?: TimelineAudio } = {}): Timeline {
   const gap = ctx.exercise.animation.stepGapMs;
   const initialState = createInitialState(ctx);
+  const audio = options.audio;
+  const clips = new Map(audio?.plan.clips.map((c) => [c.id, c]) ?? []);
+  const cues: TimelineCue[] = [];
+  let audioFree = 0;
 
   // Pass 1: schedule, simulating in script order to know positions for durations.
   interface Draft {
@@ -152,6 +179,8 @@ export function compileTimeline(ctx: ExerciseContext, options: { snapshotInterva
   }
   const drafts: Draft[] = [];
   const stepEnd = new Map<Id, number>();
+  /** Start of steps with sound (their first cue may begin before their first command). */
+  const stepStart = new Map<Id, number>();
   const objectFree = new Map<Id, number>();
   let sim = initialState;
 
@@ -169,13 +198,49 @@ export function compileTimeline(ctx: ExerciseContext, options: { snapshotInterva
     for (const dep of step.dependsOn) start = Math.max(start, (stepEnd.get(dep) ?? 0) + gap);
     for (const id of stepAnimates) start = Math.max(start, objectFree.get(id) ?? 0);
 
+    // Audio cues of this step: order cues bound to their BeginAction, descriptions in between.
+    const stepCues = (audio?.plan.steps[stepId] ?? []).filter(
+      (c) => audio?.durations.has(c.clipId) && clips.has(c.clipId) && (audio.mode === 'zapovijedi-opis' || c.actionId !== undefined),
+    );
+    const bound = new Map<number, { clipId: Id; actionId: Id; before: Id[] }>();
+    let pending: Id[] = [];
+    for (const c of stepCues) {
+      const at = c.actionId ? step.script.findIndex((sc) => sc.command.type === 'BeginAction' && sc.command.actionId === c.actionId) : -1;
+      if (c.actionId && at >= 0 && !bound.has(at)) {
+        bound.set(at, { clipId: c.clipId, actionId: c.actionId, before: pending });
+        pending = [];
+      } else pending.push(c.clipId);
+    }
+    if (stepCues.length > 0) start = Math.max(start, audioFree);
+    let audioT = start;
+    const playCue = (clipId: Id, at: number, actionId?: Id) => {
+      const clip = clips.get(clipId);
+      const d = Math.round(audio?.durations.get(clipId) ?? 0);
+      if (!clip || d <= 0) return at;
+      cues.push({ clipId, stepId, voice: clip.voice, text: clip.text, actionId, startMs: at, endMs: at + d });
+      return at + d;
+    };
+    const orderEnd = new Map<Id, number>();
+
     let cursor = start;
     let prevStart = start;
     let end = start;
-    for (const sc of step.script) {
+    for (const [i, sc] of step.script.entries()) {
       // Whole milliseconds keep the schedule exact for seeking and UI sliders.
-      const duration = Math.round(sc.durationMs ?? defaultDuration(ctx, sim, sc.command));
-      const s = (sc.withPrevious ? prevStart : cursor) + Math.round(sc.delayMs);
+      let duration = Math.round(sc.durationMs ?? defaultDuration(ctx, sim, sc.command));
+      let s = (sc.withPrevious ? prevStart : cursor) + Math.round(sc.delayMs);
+      const order = bound.get(i);
+      if (order) {
+        // The description before the order is finished first; the order is spoken as the action begins.
+        for (const clipId of order.before) audioT = playCue(clipId, audioT);
+        s = Math.max(s, audioT);
+        audioT = playCue(order.clipId, s, order.actionId);
+        orderEnd.set(order.actionId, audioT);
+      }
+      if (sc.command.type === 'CompleteAction') {
+        const spoken = orderEnd.get(sc.command.actionId);
+        if (spoken !== undefined) duration = Math.max(duration, spoken - s);
+      }
       const e = s + duration;
       drafts.push({
         order: drafts.length,
@@ -190,6 +255,12 @@ export function compileTimeline(ctx: ExerciseContext, options: { snapshotInterva
       prevStart = s;
       cursor = Math.max(cursor, e);
       end = Math.max(end, e);
+    }
+    for (const clipId of pending) audioT = playCue(clipId, audioT);
+    if (stepCues.length > 0) {
+      end = Math.max(end, audioT);
+      audioFree = audioT;
+      stepStart.set(stepId, start);
     }
     stepEnd.set(stepId, end);
     for (const id of stepAnimates) objectFree.set(id, end);
@@ -220,6 +291,12 @@ export function compileTimeline(ctx: ExerciseContext, options: { snapshotInterva
       ? { startMs: Math.min(w.startMs, e.startMs), endMs: Math.max(w.endMs, e.endMs) }
       : { startMs: e.startMs, endMs: e.endMs };
   }
+  // A step's sound may start before and end after its commands; the window covers both.
+  for (const [stepId, startMs] of stepStart) {
+    const w = stepWindows[stepId];
+    const endMs = stepEnd.get(stepId) ?? startMs;
+    stepWindows[stepId] = w ? { startMs: Math.min(w.startMs, startMs), endMs: Math.max(w.endMs, endMs) } : { startMs, endMs };
+  }
   const stageWindows: Record<Id, { startMs: number; endMs: number }> = {};
   for (const [stageId, stepIds] of ctx.stageSteps) {
     const ws = stepIds.map((id) => stepWindows[id]).filter((w): w is { startMs: number; endMs: number } => !!w);
@@ -228,7 +305,11 @@ export function compileTimeline(ctx: ExerciseContext, options: { snapshotInterva
     }
   }
 
-  const durationMs = entries.reduce((m, e) => Math.max(m, e.endMs), 0);
+  cues.sort((a, b) => a.startMs - b.startMs);
+  const durationMs = Math.max(
+    entries.reduce((m, e) => Math.max(m, e.endMs), 0),
+    cues.reduce((m, c) => Math.max(m, c.endMs), 0),
+  );
   const boundaries = [...new Set([0, ...entries.map((e) => e.endMs), durationMs])].sort((a, b) => a - b);
 
   return {
@@ -241,9 +322,19 @@ export function compileTimeline(ctx: ExerciseContext, options: { snapshotInterva
     initialState,
     finalState: state,
     boundaries,
+    audio: cues,
     snapshotInterval: interval,
     snapshots,
   };
+}
+
+/** The audio cue playing at logical time t, if any. */
+export function cueAt(timeline: Timeline, t: number): TimelineCue | null {
+  for (const c of timeline.audio) {
+    if (c.startMs > t) break;
+    if (t < c.endMs) return c;
+  }
+  return null;
 }
 
 /** Number of entries applied at logical time t (entries with endMs <= t). */
@@ -306,6 +397,8 @@ export interface VisualFrame {
   /** Personnel currently performing an action/assignment (for highlighting). */
   readonly actingIds: readonly Id[];
   readonly captions: readonly string[];
+  /** Audio cue playing at this time (sound modes only). */
+  readonly cue: TimelineCue | null;
 }
 
 /**
@@ -431,7 +524,8 @@ export function frameAt(ctx: ExerciseContext, timeline: Timeline, t: number): Vi
     });
   }
 
-  const activeStepIds = [...new Set(active.map((a) => a.entry.stepId))];
+  const cue = cueAt(timeline, time);
+  const activeStepIds = [...new Set([...active.map((a) => a.entry.stepId), ...(cue ? [cue.stepId] : [])])];
   return {
     time,
     state,
@@ -443,6 +537,7 @@ export function frameAt(ctx: ExerciseContext, timeline: Timeline, t: number): Vi
     fadingConnections,
     actingIds: [...acting],
     captions,
+    cue,
   };
 }
 

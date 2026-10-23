@@ -53,6 +53,7 @@
     {
       "id": "act.zbor",
       "name": "Zapovijed „Odjeljenje zbor!”",
+      "speech": "Odjeljenje zbor!",
       "actorRoleIds": [
         "role.zapovjednik"
       ],
@@ -72,6 +73,7 @@
     {
       "id": "act.za-navalu",
       "name": "Zapovijed „Požar pravac …… voda – hidrant, s dvije „B” cijevi do razdjelnice, za navalu pripremi!”",
+      "speech": "Požar pravac …… voda – hidrant, s dvije „B” cijevi do razdjelnice, za navalu pripremi!",
       "actorRoleIds": [
         "role.zapovjednik"
       ],
@@ -109,6 +111,7 @@
     {
       "id": "act.vodu-daj-b",
       "name": "Znak za vodu i zapovijed „Vodu daj!”",
+      "speech": "Vodu daj!",
       "actorRoleIds": [
         "role.clan-navalne"
       ],
@@ -194,6 +197,7 @@
     {
       "id": "act.prvi-mlaz-naprijed",
       "name": "Zapovijed „Za prvi mlaz s dvije „C” cijevi pravac …… naprijed!”",
+      "speech": "Za prvi mlaz s dvije „C” cijevi pravac …… naprijed!",
       "actorRoleIds": [
         "role.zapovjednik"
       ],
@@ -213,6 +217,7 @@
     {
       "id": "act.prvi-mlaz-vodu-daj",
       "name": "Zapovijed „Za prvi mlaz – vodu daj!”",
+      "speech": "Za prvi mlaz – vodu daj!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
@@ -295,6 +300,7 @@
     {
       "id": "act.drugi-mlaz-naprijed",
       "name": "Zapovijed „Za drugi mlaz s dvije „C” cijevi pravac …. naprijed!”",
+      "speech": "Za drugi mlaz s dvije „C” cijevi pravac …. naprijed!",
       "actorRoleIds": [
         "role.zapovjednik"
       ],
@@ -333,6 +339,7 @@
     {
       "id": "act.drugi-mlaz-vodu-daj",
       "name": "Zapovijed „Za drugi mlaz vodu daj!”",
+      "speech": "Za drugi mlaz vodu daj!",
       "actorRoleIds": [
         "role.vodja-vodne"
       ],
@@ -374,6 +381,7 @@
     {
       "id": "act.vodom-stoj-mlazovi",
       "name": "Zapovijed „Prvi i drugi mlaz – vodom stoj!”",
+      "speech": "Prvi i drugi mlaz – vodom stoj!",
       "actorRoleIds": [
         "role.zapovjednik"
       ],
@@ -393,12 +401,14 @@
     {
       "id": "act.vodom-stoj-prvi",
       "name": "Znak i zapovijed „Prvi, odnosno drugi mlaz – vodom stoj!” – prvi mlaz",
+      "speech": "Prvi mlaz – vodom stoj!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
       "provenance": "source",
       "review": {
-        "status": "requires-review"
+        "status": "requires-review",
+        "notes": "Izgovor razriješen iz „Prvi, odnosno drugi mlaz – vodom stoj!” (redak 111): vođa navalne grupe zapovijeda za prvi mlaz."
       },
       "sources": [
         {
@@ -416,12 +426,14 @@
     {
       "id": "act.vodom-stoj-drugi",
       "name": "Znak i zapovijed „Prvi, odnosno drugi mlaz – vodom stoj!” – drugi mlaz",
+      "speech": "Drugi mlaz – vodom stoj!",
       "actorRoleIds": [
         "role.vodja-vodne"
       ],
       "provenance": "source",
       "review": {
-        "status": "requires-review"
+        "status": "requires-review",
+        "notes": "Izgovor razriješen iz „Prvi, odnosno drugi mlaz – vodom stoj!” (redak 111): vođa vodne grupe zapovijeda za drugi mlaz."
       },
       "sources": [
         {
@@ -488,6 +500,7 @@
     {
       "id": "act.z-vodom-stoj",
       "name": "Znak strojaru i zapovijed „Vodom stoj!”",
+      "speech": "Vodom stoj!",
       "actorRoleIds": [
         "role.zapovjednik"
       ],
@@ -551,6 +564,7 @@
     {
       "id": "act.posprema",
       "name": "Zapovijed „Posprema!”",
+      "speech": "Posprema!",
       "actorRoleIds": [
         "role.zapovjednik"
       ],
@@ -631,6 +645,7 @@
     {
       "id": "act.opremu-uzmi",
       "name": "Zapovijed „Opremu uzmi!”",
+      "speech": "Opremu uzmi!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
@@ -650,6 +665,7 @@
     {
       "id": "act.s-opremom-naprijed",
       "name": "Zapovijed „S opremom naprijed!”",
+      "speech": "S opremom naprijed!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
@@ -669,6 +685,7 @@
     {
       "id": "act.stoj-celom-nazad",
       "name": "Zapovijedi „Stoj!” „Čelom nazad!”",
+      "speech": "Stoj! Čelom nazad!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
@@ -688,6 +705,7 @@
     {
       "id": "act.opremu-odlozi",
       "name": "Zapovijed „Opremu odloži!”",
+      "speech": "Opremu odloži!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
@@ -765,6 +783,7 @@
     {
       "id": "act.prijavak",
       "name": "Prijavak „Gospodine zapovjedniče, vježba je izvršena, oprema je na svome mjestu!”",
+      "speech": "Gospodine zapovjedniče, vježba je izvršena, oprema je na svome mjestu!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
@@ -784,6 +803,7 @@
     {
       "id": "act.na-svoje-mjesto",
       "name": "Zapovijed „Na svoje mjesto!”",
+      "speech": "Na svoje mjesto!",
       "actorRoleIds": [
         "role.zapovjednik"
       ],
@@ -807,6 +827,7 @@
     {
       "id": "act.na-zapovijed",
       "name": "Pozdrav i odgovor „Na zapovijed!”",
+      "speech": "Na zapovijed!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
@@ -826,12 +847,14 @@
     {
       "id": "act.odmor-ili-otpust",
       "name": "Zapovijed „Na mjestu odmor!” ili „Otpust!”",
+      "speech": "Na mjestu odmor!",
       "actorRoleIds": [
         "role.zapovjednik"
       ],
       "provenance": "source",
       "review": {
-        "status": "requires-review"
+        "status": "requires-review",
+        "notes": "Izvor navodi dvije mogućnosti („Na mjestu odmor!” ili „Otpust!”); demonstracija izgovara prvu."
       },
       "sources": [
         {

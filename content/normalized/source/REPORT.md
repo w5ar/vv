@@ -4,7 +4,7 @@
 
 - Izvorni direktorij: `content/source`
 - Datoteka: 97
-- Dijagnostika: 0 grešaka, 1 upozorenja, 112 informacija
+- Dijagnostika: 0 grešaka, 1 upozorenja, 123 informacija
 
 ## A – Popis materijala
 
@@ -1024,9 +1024,20 @@ Naslov: Poligonske vježbe
 | info | F | mapping.role-mismatch | Korak drugi-mlaz-vodu-daj: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-1.exercise.json |
 | info | F | mapping.role-mismatch | Korak pregled-opreme: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-1.exercise.json |
 | info | F | mapping.role-mismatch | Korak prijavak: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-1.exercise.json |
+| info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-prvi: izgovor „Prvi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
+| info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-drugi: izgovor „Drugi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
+| info | F | audio.order-not-in-text | Korak vodom-stoj-vode: zapovijed „Prvi mlaz – vodom stoj!” (act.vodom-stoj-prvi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-1.exercise.json |
+| info | F | audio.order-not-in-text | Korak vodom-stoj-vode: zapovijed „Drugi mlaz – vodom stoj!” (act.vodom-stoj-drugi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-1.exercise.json |
 | info | F | mapping.role-mismatch | Korak b-vod: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-2.exercise.json |
 | info | F | mapping.role-mismatch | Korak vodu-daj: izvorni tekst spominje uloge role.strojar, role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-2.exercise.json |
 | info | F | mapping.role-mismatch | Korak posprema-strojar: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-2.exercise.json |
 | info | F | mapping.role-mismatch | Korak posprema-mlaz: izvorni tekst spominje uloge role.strojar, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-2.exercise.json |
 | info | F | mapping.role-mismatch | Korak opremu-vratiti: izvorni tekst spominje uloge role.strojar, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-2.exercise.json |
 | info | F | mapping.role-mismatch | Korak posprema-b: izvorni tekst spominje uloge role.strojar, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-2.exercise.json |
+| info | F | audio.order-not-in-text | Korak opremu-vratiti: zapovijed „Opremu uzmi!” (act.opremu-uzmi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-2.exercise.json |
+| info | F | audio.order-not-in-text | Korak opremu-vratiti: zapovijed „S opremom naprijed!” (act.s-opremom-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-2.exercise.json |
+| info | F | audio.order-not-in-text | Korak opremu-vratiti: zapovijed „Stoj! Čelom nazad!” (act.stoj-celom-nazad) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-2.exercise.json |
+| info | F | audio.order-not-in-text | Korak opremu-vratiti: zapovijed „Opremu odloži!” (act.opremu-odlozi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-2.exercise.json |
+| info | F | audio.order-not-in-text | Korak stroj-prijavak: zapovijed „Na svoje mjesto!” (act.na-svoje-mjesto) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-2.exercise.json |
+| info | F | audio.order-not-in-text | Korak stroj-prijavak: zapovijed „Na zapovijed!” (act.na-zapovijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-2.exercise.json |
+| info | F | audio.order-not-in-text | Korak stroj-prijavak: zapovijed „Na mjestu odmor!” (act.odmor-ili-otpust) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-2.exercise.json |

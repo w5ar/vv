@@ -1,3 +1,4 @@
+import type { AudioManifest } from './audio';
 import type { Catalog } from './catalog';
 import type { Exercise, ExerciseSummary } from './exercise';
 import type { ImportReport } from './import-report';
@@ -17,6 +18,10 @@ export interface ContentRepository {
   /** Raw SVG text of a catalog asset; sanitized by the SVG registry before rendering. */
   getSvgAsset(path: string): Promise<string>;
   getImportReport(): Promise<ImportReport | null>;
+  /** Generated demonstration sound of an exercise (`null` if none was generated). */
+  getAudioManifest(exerciseId: string): Promise<AudioManifest | null>;
+  /** URL of a generated clip file listed in the manifest (`null` if missing). */
+  getAudioUrl(exerciseId: string, file: string): string | null;
 }
 
 /** Editor drafts (authoring work in progress). */

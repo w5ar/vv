@@ -289,6 +289,7 @@ export function compileExercise(authoringFile: string, raw: unknown, ctx: Compil
   for (const d of check.diagnostics) diagnostics.push({ ...d, source: d.source ?? { file: authoringFile } });
   if (check.timeline) diagnostics.push(...compareWithDiagrams(parsed.value, ctx, check.timeline));
   diagnostics.push(...checkAgainstProcedures(parsed.value, ctx));
+  diagnostics.push(...checkSpeech(parsed.value));
 
   const referenced = new Set<string>([authoringFile]);
   const collect = (v: unknown) => {
@@ -556,6 +557,25 @@ export function checkAgainstProcedures(exercise: Exercise, ctx: CompileContext):
         }
       }
     }
+  }
+  return out;
+}
+
+/** Spoken words should be quoted from the action's sources; anything else is reported for review. */
+export function checkSpeech(exercise: Exercise): Diagnostic[] {
+  const plain = (t: string) => t.replace(/[*„”"“]/g, '').replace(/\s+/g, ' ').trim();
+  const out: Diagnostic[] = [];
+  for (const action of exercise.actions) {
+    if (!action.speech) continue;
+    const speech = plain(action.speech);
+    if (action.sources.some((s) => s.excerpt && plain(s.excerpt).includes(speech))) continue;
+    out.push({
+      code: 'audio.speech-not-verbatim',
+      severity: 'info',
+      stage: 'F',
+      message: `Radnja ${action.id}: izgovor „${action.speech}” nije doslovni navod iz izvora radnje; provjeriti.`,
+      subjectId: action.id,
+    });
   }
   return out;
 }

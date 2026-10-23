@@ -94,6 +94,17 @@ give the scene a real scale.
     vođi navalne grupe”*, Vj2 70) is modelled with the strojar in N₁'s Vj1 role (inspect equipment,
     report) and N₁ in the commander's role („Na svoje mjesto!”, „Na mjestu odmor!” / „Otpust!”).
 
+## Demonstration sound
+
+26. **Resolved orders**: Vj1 111 quotes *„Prvi, odnosno drugi mlaz – vodom stoj!”* for both leaders;
+    the demonstration has N₁ say „Prvi mlaz – vodom stoj!” and V₁ „Drugi mlaz – vodom stoj!”
+    (`audio.speech-not-verbatim`). Correct?
+27. **Alternatives**: for *„Na mjestu odmor!” ili „Otpust!”* (Vj1 160) the demonstration speaks the first.
+28. **No wording in the source, no speech**: the formation order and the strojar's report in Vježba 2,
+    and hand signals (*daje znak*), have no spoken audio.
+29. **Pronunciation** of the synthesized Croatian (abbreviations N₁/V₂, „B”/„C”, the placeholder
+    *pravac ……*) should be checked by listening before the clips are published.
+
 ## Simulation choices (technical, not doctrine)
 
 | Setting / choice | Value | Question |

@@ -76,6 +76,7 @@
     {
       "id": "act.za-navalu",
       "name": "Zapovijed „Požar pravac …. voda – hidrant s dvije „B” cijevi do razdjelnice za navalu pripremi!”",
+      "speech": "Požar pravac …. voda – hidrant s dvije „B” cijevi do razdjelnice za navalu pripremi!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
@@ -118,6 +119,7 @@
     {
       "id": "act.prvi-mlaz-naprijed",
       "name": "Zapovijed „Za prvi mlaz s dvije „C” cijevi, pravac …. naprijed!”",
+      "speech": "Za prvi mlaz s dvije „C” cijevi, pravac …. naprijed!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
@@ -179,6 +181,7 @@
     {
       "id": "act.prvi-mlaz-vodu-daj",
       "name": "Zapovijed „Za prvi mlaz vodu daj!”",
+      "speech": "Za prvi mlaz vodu daj!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
@@ -242,6 +245,7 @@
     {
       "id": "act.vodom-stoj",
       "name": "Zapovijed „Za prvi mlaz vodom – stoj!”",
+      "speech": "Za prvi mlaz vodom – stoj!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
@@ -283,6 +287,7 @@
     {
       "id": "act.posprema",
       "name": "Zapovijed „Posprema!”",
+      "speech": "Posprema!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
@@ -374,6 +379,7 @@
     {
       "id": "act.opremu-uzmi",
       "name": "Zapovijed „Opremu uzmi!”",
+      "speech": "Opremu uzmi!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
@@ -398,6 +404,7 @@
     {
       "id": "act.s-opremom-naprijed",
       "name": "Zapovijed „S opremom naprijed!”",
+      "speech": "S opremom naprijed!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
@@ -422,6 +429,7 @@
     {
       "id": "act.stoj-celom-nazad",
       "name": "Zapovijedi „Stoj!” „Čelom nazad!”",
+      "speech": "Stoj! Čelom nazad!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
@@ -446,6 +454,7 @@
     {
       "id": "act.opremu-odlozi",
       "name": "Zapovijed „Opremu odloži!”",
+      "speech": "Opremu odloži!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
@@ -569,6 +578,7 @@
     {
       "id": "act.na-svoje-mjesto",
       "name": "Zapovijed „Na svoje mjesto!”",
+      "speech": "Na svoje mjesto!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
@@ -597,6 +607,7 @@
     {
       "id": "act.na-zapovijed",
       "name": "Pozdrav i odgovor „Na zapovijed!”",
+      "speech": "Na zapovijed!",
       "actorRoleIds": [
         "role.strojar"
       ],
@@ -621,12 +632,14 @@
     {
       "id": "act.odmor-ili-otpust",
       "name": "Zapovijed „Na mjestu odmor!” ili „Otpust!”",
+      "speech": "Na mjestu odmor!",
       "actorRoleIds": [
         "role.vodja-navalne"
       ],
       "provenance": "source",
       "review": {
-        "status": "requires-review"
+        "status": "requires-review",
+        "notes": "Izvor (vježba 1, redak 160) navodi dvije mogućnosti („Na mjestu odmor!” ili „Otpust!”); demonstracija izgovara prvu."
       },
       "sources": [
         {

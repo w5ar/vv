@@ -202,6 +202,10 @@ For every `content/authoring/<dataset>/*.exercise.json`:
 9. Verify every source excerpt of the compiled exercise against the source texts (`trace.*`).
 10. Write `content/exercises/<id>.json` with `build` info (authoring file, SHA-256 of all referenced
     sources, diagnostics) and update `content/exercises/index.json`.
+11. Write the **audio plan** `content/exercises/<id>/zvuk.plan.json` (DATA_MODEL.md, *Demonstration
+    sound*) for `tools/generate_audio.py`; `audio.order-not-in-text` (info) marks orders that the step
+    text does not quote verbatim, `audio.speech-not-verbatim` (info) spoken words that are not a quote
+    of the action's sources.
 
 ## Outputs
 
@@ -212,6 +216,8 @@ content/normalized/
             mapping.json    mapping.template.json  diagnostics.json  REPORT.md
 content/exercises/
   index.json  <exercise>.json  catalogs/<catalog>.json
+  <exercise>/zvuk.plan.json              ← input of tools/generate_audio.py
+  <exercise>/<clip>.webm  zvuk.json      ← written by tools/generate_audio.py (not by the pipeline)
 ```
 
 All outputs are deterministic (no timestamps), so `pnpm import:check` can detect stale files in CI.

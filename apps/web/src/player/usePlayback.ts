@@ -15,12 +15,21 @@ export function usePlayback(timeline: Timeline | null) {
   const timeRef = useRef(0);
   timeRef.current = time;
 
+  // A recompiled timeline (e.g. with sound) may be shorter than the current position.
+  useEffect(() => {
+    if (timeRef.current > duration) {
+      timeRef.current = duration;
+      setTime(duration);
+    }
+  }, [duration]);
+
   useEffect(() => {
     if (!playing) return;
     let raf = 0;
     let last = performance.now();
     const tick = (now: number) => {
-      const dt = now - last;
+      // The first frame's timestamp can precede the moment playback started.
+      const dt = Math.max(0, now - last);
       last = now;
       const next = Math.min(duration, timeRef.current + dt * speed);
       timeRef.current = next;

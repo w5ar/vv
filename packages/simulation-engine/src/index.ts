@@ -8,5 +8,6 @@ export * from './engine';
 export * from './initial-state';
 export * from './session';
 export * from './timeline';
+export * from './audio';
 export * from './assessment';
 export * from './diagnostics';

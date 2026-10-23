@@ -6,3 +6,5 @@ test-results/
 *.log
 .DS_Store
 .vite/
+.env
+__pycache__/

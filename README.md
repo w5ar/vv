@@ -57,6 +57,30 @@ Everything runs in the browser; there is no backend.
 Playwright is pinned to `1.56.1`. In environments without a bundled browser run
 `pnpm exec playwright install chromium` once.
 
+## Demonstration sound
+
+The demonstration player offers **Zvuk: Bez zvuka / Zapovijedi / Zapovijedi i opis**. Orders and
+reports are spoken by a strict male voice when they are given; with *opis*, a female narrator reads
+each step's verbatim text, and the quoted orders in it are spoken by the order voice instead. Each
+step then lasts at least as long as its sound, and voices never overlap.
+
+The clips are generated locally with OpenAI text-to-speech and committed with the content:
+
+```bash
+cp .env.example .env                       # enter OPENAI_API_KEY (.env is not committed)
+python3 tools/generate_audio.py --dry-run  # what would be generated, characters to send
+python3 tools/generate_audio.py            # all exercises; or: python3 tools/generate_audio.py vjezba-1-dva-c-mlaza
+```
+
+Requirements: Python ≥ 3.9 (standard library only) and `ffmpeg`/`ffprobe`. The script reads the
+audio plans written by `pnpm import:all` and saves `content/exercises/<exercise-id>/<clip-id>.webm`
+(e.g. `content/exercises/vjezba-1-dva-c-mlaza/act.prvi-mlaz-naprijed.webm` for an order,
+`…/prvi-mlaz.webm` for a step description) plus `zvuk.json` with the durations. Unchanged clips are
+skipped on later runs; after editing an exercise, run `pnpm import:all` and the script again
+(`--clean` removes clips that are no longer used). Voices, model and speaking instructions can be
+changed in `.env` (see `.env.example`). The player ignores clips whose text has changed since they
+were generated and says so.
+
 ## Deployment (GitHub Pages)
 
 Every commit pushed to `main` is deployed to GitHub Pages by
@@ -82,6 +106,7 @@ packages/
   svg-registry/              SVG sanitizer → JSON AST, CSS inlining, id namespacing, symbol registry
   reactflow-renderer/        React Flow nodes/edges derived from domain state, SVG rendering
   exercise-importer/         Node CLI: import pipeline stages A–F
+tools/generate_audio.py      speech generator for demonstration sound (OpenAI TTS)
 content/
   source/                                 authoritative source materials (copy of w5ar/VatrogasneVjezbe):
                                           *.md, simboli/, skice/ (+ ugradjeno/), slike/, alati/
@@ -89,7 +114,8 @@ content/
   review/<dataset>/                       human review files (catalog curation, mapping)
   authoring/<dataset>/                    exercise authoring files (*.exercise.json)
   normalized/                             generated pipeline reports (do not edit)
-  exercises/                              generated, validated exercises + catalogs (do not edit)
+  exercises/                              generated, validated exercises + catalogs (do not edit);
+                                          exercises/<id>/: audio plan (pipeline) and generated sound (tools/)
   pipeline.config.json                    datasets processed by the pipeline
 docs/                        architecture and process documentation
 tests/e2e/                   Playwright tests

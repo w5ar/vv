@@ -21,6 +21,7 @@ import { normalizeSymbols } from './stage-b-symbols';
 import { analyzeDiagrams } from './stage-c-diagrams';
 import { analyzeProcedure, buildLexicon, extractLegend } from './stage-d-procedures';
 import { buildMapping } from './stage-e-mapping';
+import { buildAudioPlan } from '@fds/simulation-engine';
 import { compileExercise } from './stage-f-compile';
 import { joinRel, listFiles, readText, sha256, stableJson } from './util';
 
@@ -171,6 +172,12 @@ async function runDataset(
     if (result.exercise) {
       outputFile = `${config.exercisesDir}/${result.exercise.id}.json`;
       outputs.set(outputFile, stableJson(result.exercise));
+      // Audio plan for the speech generator (tools/generate_audio.py), next to the generated clips.
+      const audio = buildAudioPlan(result.exercise);
+      outputs.set(`${config.exercisesDir}/${result.exercise.id}/zvuk.plan.json`, stableJson(audio.plan));
+      for (const issue of audio.issues) {
+        diagnostics.push({ code: issue.code, severity: 'info', stage: 'F', message: issue.message, source: { file }, subjectId: issue.stepId });
+      }
       index.exercises.push({ id: result.exercise.id, file: outputFile, catalogId: result.exercise.catalogId, synthetic: result.exercise.synthetic });
     }
     compiled.push({

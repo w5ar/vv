@@ -116,6 +116,16 @@ when not given.
   up (`layout` override), carried items following their carrier, connections being drawn (progress)
   or removed (fade), actors highlighted. Frames never mutate state.
 
+**Sound.** `compileTimeline(ctx, { audio })` places the cues of the audio plan on the same logical
+time line (modes *zapovijedi* and *zapovijedi i opis*): the description before an order is played
+first and the order's `BeginAction` waits for it, the order cue starts with the action, whose
+`CompleteAction` is stretched to the end of the spoken order, the remaining description plays
+alongside the following commands, and the step ends no earlier than its last cue. A step with sound
+also waits until the previous cue has ended, so voices never overlap. Without generated clips the
+timeline is identical to the silent one. `frameAt` reports the cue playing at *t*; the player starts
+the clip at the matching offset, pauses and seeks with the playhead, follows the speed and
+re-synchronises on drift — the logical clock stays authoritative.
+
 The web player maps `requestAnimationFrame` wall-clock deltas × speed to logical time. Pausing or
 skipping an animation cannot make the exercise state inconsistent because the state is never
 derived from animation progress. No animation library is used: interpolation is a few lines of pure

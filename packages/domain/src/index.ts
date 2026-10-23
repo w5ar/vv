@@ -9,6 +9,7 @@ export * from './state';
 export * from './events';
 export * from './results';
 export * from './import-report';
+export * from './audio';
 export * from './persistence';
 export * from './parse';
 export * from './catalog-index';

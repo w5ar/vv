@@ -68,6 +68,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Odjeljenje zbor!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -88,6 +89,7 @@
       ],
       "minActors": 1,
       "durationMs": 3000,
+      "speech": "Požar pravac …… voda – hidrant, s dvije „B” cijevi do razdjelnice, za navalu pripremi!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -127,6 +129,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Vodu daj!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -216,6 +219,7 @@
       ],
       "minActors": 1,
       "durationMs": 3000,
+      "speech": "Za prvi mlaz s dvije „C” cijevi pravac …… naprijed!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -236,6 +240,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Za prvi mlaz – vodu daj!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -322,6 +327,7 @@
       ],
       "minActors": 1,
       "durationMs": 3000,
+      "speech": "Za drugi mlaz s dvije „C” cijevi pravac …. naprijed!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -362,6 +368,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Za drugi mlaz vodu daj!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -405,6 +412,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Prvi i drugi mlaz – vodom stoj!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -429,9 +437,11 @@
         "actionId": "act.vodom-stoj-mlazovi"
       },
       "durationMs": 2000,
+      "speech": "Prvi mlaz – vodom stoj!",
       "provenance": "source",
       "review": {
-        "status": "requires-review"
+        "status": "requires-review",
+        "notes": "Izgovor razriješen iz „Prvi, odnosno drugi mlaz – vodom stoj!” (redak 111): vođa navalne grupe zapovijeda za prvi mlaz."
       },
       "sources": [
         {
@@ -453,9 +463,11 @@
         "actionId": "act.vodom-stoj-prvi"
       },
       "durationMs": 2000,
+      "speech": "Drugi mlaz – vodom stoj!",
       "provenance": "source",
       "review": {
-        "status": "requires-review"
+        "status": "requires-review",
+        "notes": "Izgovor razriješen iz „Prvi, odnosno drugi mlaz – vodom stoj!” (redak 111): vođa vodne grupe zapovijeda za drugi mlaz."
       },
       "sources": [
         {
@@ -524,6 +536,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Vodom stoj!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -590,6 +603,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Posprema!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -674,6 +688,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Opremu uzmi!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -694,6 +709,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "S opremom naprijed!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -714,6 +730,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Stoj! Čelom nazad!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -734,6 +751,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Opremu odloži!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -815,6 +833,7 @@
       ],
       "minActors": 1,
       "durationMs": 3000,
+      "speech": "Gospodine zapovjedniče, vježba je izvršena, oprema je na svome mjestu!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -839,6 +858,7 @@
         "actionId": "act.prijavak"
       },
       "durationMs": 2000,
+      "speech": "Na svoje mjesto!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -859,6 +879,7 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Na zapovijed!",
       "provenance": "source",
       "review": {
         "status": "requires-review"
@@ -879,9 +900,11 @@
       ],
       "minActors": 1,
       "durationMs": 2000,
+      "speech": "Na mjestu odmor!",
       "provenance": "source",
       "review": {
-        "status": "requires-review"
+        "status": "requires-review",
+        "notes": "Izvor navodi dvije mogućnosti („Na mjestu odmor!” ili „Otpust!”); demonstracija izgovara prvu."
       },
       "sources": [
         {
@@ -8106,7 +8129,7 @@
   "build": {
     "compiledFrom": "content/authoring/source/vjezba-1.exercise.json",
     "sourceHashes": {
-      "content/authoring/source/vjezba-1.exercise.json": "659cdffbdc0ad40d81479a633a23e98f0a560b7af46e95bbfa1d0d019b974c4a",
+      "content/authoring/source/vjezba-1.exercise.json": "ec783623b497b8cbd269ac73af83169f029271551677a7f6c7d86eba62b9da7e",
       "content/source/01-Vjezba-1.md": "98de24bd0a7a7e810f51ea636ec7714cb31daf0a04a278cda35b57f3c7c9b94a",
       "content/source/skice/01-skica-11.svg": "bd23913bc2946f3bbfae3a1033e5c2ca9b10070fe092e9fff79d79c6e9aeeb81",
       "content/source/skice/01-skica-12.svg": "3810b2de8bfc777586eb5cd6e8d6bb4741c589010fbae7aeab187e6143d8d72d",
@@ -8194,6 +8217,20 @@
           "file": "content/authoring/source/vjezba-1.exercise.json"
         },
         "subjectId": "prijavak"
+      },
+      {
+        "code": "audio.speech-not-verbatim",
+        "severity": "info",
+        "stage": "F",
+        "message": "Radnja act.vodom-stoj-prvi: izgovor „Prvi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti.",
+        "subjectId": "act.vodom-stoj-prvi"
+      },
+      {
+        "code": "audio.speech-not-verbatim",
+        "severity": "info",
+        "stage": "F",
+        "message": "Radnja act.vodom-stoj-drugi: izgovor „Drugi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti.",
+        "subjectId": "act.vodom-stoj-drugi"
       }
     ]
   }
