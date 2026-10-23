@@ -17736,8 +17736,10 @@
         "diagramRefs": [
           "09-Vjezba-9.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-12-b-mlaz/zbor"
+        ],
+        "status": "mapped"
       },
       {
         "id": "12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4",
@@ -17760,8 +17762,10 @@
         "diagramRefs": [
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-12-b-mlaz/zapovijed-za-navalu"
+        ],
+        "status": "mapped"
       },
       {
         "id": "12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5",
@@ -17799,8 +17803,15 @@
         "diagramRefs": [
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-12-b-mlaz/vodna-oprema",
+          "vjezba-12-b-mlaz/strojar-kod-pumpe",
+          "vjezba-12-b-mlaz/polaganje-b-prva",
+          "vjezba-12-b-mlaz/polaganje-b-druga",
+          "vjezba-12-b-mlaz/zapovjednik-razdjelnica",
+          "vjezba-12-b-mlaz/vodna-povratak"
+        ],
+        "status": "mapped"
       },
       {
         "id": "12-vjezba-12#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
@@ -17824,8 +17835,15 @@
           "01-Vjezba-1.md",
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-12-b-mlaz/navalna-oprema-n1",
+          "vjezba-12-b-mlaz/navalna-oprema-n2",
+          "vjezba-12-b-mlaz/navalna-do-kraja-b",
+          "vjezba-12-b-mlaz/prvi-mlaz",
+          "vjezba-12-b-mlaz/prvi-mlaz-n1",
+          "vjezba-12-b-mlaz/prvi-mlaz-vodu-daj"
+        ],
+        "status": "mapped"
       },
       {
         "id": "12-vjezba-12#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1",
@@ -17849,8 +17867,12 @@
         "diagramRefs": [
           "10-Vjezba-10.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-12-b-mlaz/voda-do-razdjelnice",
+          "vjezba-12-b-mlaz/strojar-nastavak",
+          "vjezba-12-b-mlaz/strojar-b-hidrant"
+        ],
+        "status": "mapped"
       },
       {
         "id": "12-vjezba-12#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
@@ -17870,8 +17892,16 @@
         "diagramRefs": [
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-12-b-mlaz/drugi-mlaz-zapovijed",
+          "vjezba-12-b-mlaz/drugi-mlaz-v1-oprema",
+          "vjezba-12-b-mlaz/drugi-mlaz-v2",
+          "vjezba-12-b-mlaz/drugi-mlaz-v1-mlaznica",
+          "vjezba-12-b-mlaz/drugi-mlaz-v2-luk",
+          "vjezba-12-b-mlaz/drugi-mlaz-vodu-daj",
+          "vjezba-12-b-mlaz/drugi-mlaz-potvrda"
+        ],
+        "status": "mapped"
       },
       {
         "id": "12-vjezba-12#pospremanje-opreme/p1",
@@ -17895,8 +17925,13 @@
         "diagramRefs": [
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-12-b-mlaz/vodom-stoj",
+          "vjezba-12-b-mlaz/zatvaranje-vode",
+          "vjezba-12-b-mlaz/posprema",
+          "vjezba-12-b-mlaz/posprema-zapovjednik"
+        ],
+        "status": "mapped"
       },
       {
         "id": "12-vjezba-12#pospremanje-opreme/p2",
@@ -17919,8 +17954,19 @@
         "diagramRefs": [
           "10-Vjezba-10.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-12-b-mlaz/vodom-stoj-vode",
+          "vjezba-12-b-mlaz/posprema-mlaznice",
+          "vjezba-12-b-mlaz/posprema-savijanje",
+          "vjezba-12-b-mlaz/posprema-motanje",
+          "vjezba-12-b-mlaz/posprema-nosaci",
+          "vjezba-12-b-mlaz/uzimanje",
+          "vjezba-12-b-mlaz/posprema-polozaj",
+          "vjezba-12-b-mlaz/oprema-u-vozilo",
+          "vjezba-12-b-mlaz/posprema-b",
+          "vjezba-12-b-mlaz/posprema-b-motanje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "12-vjezba-12#pospremanje-opreme/p3",
@@ -17944,8 +17990,10 @@
         "diagramRefs": [
           "08-Vjezba-8.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-12-b-mlaz/posprema-strojar"
+        ],
+        "status": "mapped"
       },
       {
         "id": "12-vjezba-12#pospremanje-opreme/p4",
@@ -17965,8 +18013,15 @@
         "diagramRefs": [
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-12-b-mlaz/navalna-u-stroj",
+          "vjezba-12-b-mlaz/strojar-u-stroj",
+          "vjezba-12-b-mlaz/pregled-opreme",
+          "vjezba-12-b-mlaz/prijavak",
+          "vjezba-12-b-mlaz/na-svoje-mjesto",
+          "vjezba-12-b-mlaz/zavrsetak"
+        ],
+        "status": "mapped"
       }
     ],
     "roleMentions": [

@@ -31,6 +31,12 @@
       "synthetic": false
     },
     {
+      "id": "vjezba-12-b-mlaz",
+      "file": "content/exercises/vjezba-12-b-mlaz.json",
+      "catalogId": "katalog-vjezbovnik",
+      "synthetic": false
+    },
+    {
       "id": "vjezba-2-jedan-c-mlaz",
       "file": "content/exercises/vjezba-2-jedan-c-mlaz.json",
       "catalogId": "katalog-vjezbovnik",

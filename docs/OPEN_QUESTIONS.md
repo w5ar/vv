@@ -271,6 +271,19 @@ give the scene a real scale.
     comes back for the first jet (with the distributor and the spare hoses) and finally the „B” line; V₁ gives the
     orders of Vježba 7 for both loads.
 
+## Vježba 12 — „B” mlaz (Vj12 = `content/source/12-Vjezba-12.md`)
+
+87. **Equipment**: the first-jet equipment is listed in Vj12 32 (holder, „B” nozzle with reaction damper,
+    distributor, one „B” hose for N₁, two for N₂); as in Vježba 1 one of N₂'s hoses is laid as a spare to the
+    right of the distributor (skica 66 draws it). The rest is taken from Vježbe 1 and 10: six „B” hoses in all,
+    three „C” hoses, one „C” nozzle (marked `derived`).
+88. **Valve**: Vježba 1 describes opening the left valve; the „B” jet is on the middle outlet, so the
+    zapovjednik opens the middle valve (`act.ventil-srednji`, `derived`). The water order for the „B” jet is the
+    one of Vježba 1 (*„Za prvi mlaz – vodu daj!”*), as the text gives none of its own.
+89. **„S” shape** of the second „B” hose (Vj12 32) is an action; the laid hose is drawn straight.
+90. **Pospremanje**: the „B” hoses of the first jet are folded, rolled and carried like the „C” hoses of
+    Vježba 10 (N₁ the distributor and one hose, N₂ two hoses).
+
 ## Demonstration sound
 
 26. **Resolved orders**: Vj1 111 quotes *„Prvi, odnosno drugi mlaz – vodom stoj!”* for both leaders;

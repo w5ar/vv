@@ -3251,6 +3251,173 @@
   {
     "code": "mapping.role-mismatch",
     "severity": "info",
+    "message": "Korak navalna-oprema-n1: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-12.exercise.json"
+    },
+    "subjectId": "navalna-oprema-n1"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak navalna-oprema-n2: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-12.exercise.json"
+    },
+    "subjectId": "navalna-oprema-n2"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak prvi-mlaz-vodu-daj: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-12.exercise.json"
+    },
+    "subjectId": "prvi-mlaz-vodu-daj"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak vodom-stoj-vode: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-12.exercise.json"
+    },
+    "subjectId": "vodom-stoj-vode"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak posprema-mlaznice: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-12.exercise.json"
+    },
+    "subjectId": "posprema-mlaznice"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak posprema-savijanje: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-12.exercise.json"
+    },
+    "subjectId": "posprema-savijanje"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak posprema-motanje: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-12.exercise.json"
+    },
+    "subjectId": "posprema-motanje"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak posprema-nosaci: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-12.exercise.json"
+    },
+    "subjectId": "posprema-nosaci"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak uzimanje: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-12.exercise.json"
+    },
+    "subjectId": "uzimanje"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak posprema-polozaj: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-12.exercise.json"
+    },
+    "subjectId": "posprema-polozaj"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak oprema-u-vozilo: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-12.exercise.json"
+    },
+    "subjectId": "oprema-u-vozilo"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak posprema-b: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-12.exercise.json"
+    },
+    "subjectId": "posprema-b"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak posprema-b-motanje: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-12.exercise.json"
+    },
+    "subjectId": "posprema-b-motanje"
+  },
+  {
+    "code": "audio.speech-not-verbatim",
+    "severity": "info",
+    "stage": "F",
+    "message": "Radnja act.vodom-stoj-drugi: izgovor „Drugi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti.",
+    "subjectId": "act.vodom-stoj-drugi"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak zbor: zapovijed „Odjeljenje – zbor!” (act.zbor) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-12.exercise.json"
+    },
+    "subjectId": "zbor"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak drugi-mlaz-zapovijed: zapovijed „Za drugi mlaz s dvije „C” cijevi pravac …. naprijed!” (act.drugi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-12.exercise.json"
+    },
+    "subjectId": "drugi-mlaz-zapovijed"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak vodom-stoj-vode: zapovijed „Drugi mlaz – vodom stoj!” (act.vodom-stoj-drugi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-12.exercise.json"
+    },
+    "subjectId": "vodom-stoj-vode"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
     "message": "Korak b-vod: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka.",
     "stage": "F",
     "source": {

@@ -4,7 +4,7 @@
 
 - Izvorni direktorij: `content/source`
 - Datoteka: 282
-- Dijagnostika: 0 grešaka, 54 upozorenja, 559 informacija
+- Dijagnostika: 0 grešaka, 54 upozorenja, 576 informacija
 
 ## A – Popis materijala
 
@@ -3147,17 +3147,17 @@ Naslov: Poligonske vježbe
 | --- | --- | --- | --- | --- | --- |
 | 12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p1 | 5 | *Vježbu izvodi odjeljenje od 6 vatrogasaca:* |  |  | ignored |
 | 12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p2 | 14 | Raspored mjesta vatrogasaca u navalnom vozilu isti je kao u [vježbi 9](09-Vjezba-9.md). Oprema je smještena u spremnicima navalnog vozila. |  |  | ignored |
-| 12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p3 | 16 | Kada je vozilo postavljeno na svoje mjesto, zapovjednik postrojava odjeljenje kao u [vježbi 9](09-Vjezba-9.md). | role.zapovjednik | src.zapovjednik | ignored |
-| 12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4 | 18 | Zapovjednik istupa ispred odjeljenja kao u [vježbi 1](01-Vjezba-1.md) i zapovijeda: **„Požar pravac…voda – hidrant, s dvije „B” cijevi do razdjelnice, za „B” mlaz, za navalu pripremi!”**. | role.zapovjednik | src.zapovjednik | ignored |
+| 12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p3 | 16 | Kada je vozilo postavljeno na svoje mjesto, zapovjednik postrojava odjeljenje kao u [vježbi 9](09-Vjezba-9.md). | role.zapovjednik | src.zapovjednik | mapped |
+| 12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4 | 18 | Zapovjednik istupa ispred odjeljenja kao u [vježbi 1](01-Vjezba-1.md) i zapovijeda: **„Požar pravac…voda – hidrant, s dvije „B” cijevi do razdjelnice, za „B” mlaz, za navalu pripremi!”**. | role.zapovjednik | src.zapovjednik | mapped |
 | 12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5 | 20 | Nakon izdane zapovijedi obavljaju se sljedeće radnje: |  |  | ignored |
-| 12-vjezba-12#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1 | 24 | Vodna grupa polaže „B” cijevni vod kao u [vježbi 1](01-Vjezba-1.md) (skica 65). |  |  | ignored |
-| 12-vjezba-12#polaganje-prvog-mlaza-u-navalnom-sektoru/p1 | 32 | Navalna grupa se oprema za polaganje prvog „B” mlaza i uzima sljedeću opremu: vođa grupe (N₁) uzima držač cijevi, „B” mlaznicu s ublaživačem reakcije mlaza i stavlja je za opasač, u desnu ruku uzima razdjelnicu, a u lijevu ruku jednu „B” cijev, a član grupe (N₂) u svaku ruku po jednu „B” cijev. Tako opremljeni kreću se lijevom stranom „B” cijevnog voda i postupaju kao u [vježbi 1](01-Vjezba-1.md). Zapovijed za prvi mlaz glasi: **„Za prvi „B” mlaz, s dvije „B” cijevi pravac…naprijed”**. Prvi „B” mlaz polaže se na srednji otvor razdjelnice. Postupci spajanja i polaganja cijevi prvog mlaza isti su kao u [vježbi 1](01-Vjezba-1.md), s razlikom što član grupe (N₂) drugu „B” cijev izbacuje u lijevu i desnu stranu, tako da cijev dobije manji luk i pravi oblik slova „S”. | role.vodja-navalne, role.clan-navalne |  | ignored |
-| 12-vjezba-12#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1 | 36 | Strojar polaže cijevni vod od hidranta do vozila kao u [vježbi 10](10-Vjezba-10.md) (skica 66). | role.strojar | src.strojar | ignored |
-| 12-vjezba-12#polaganje-drugog-mlaza-u-navalnom-sektoru/p1 | 44 | Drugi mlaz polaže vodna grupa kao u [vježbi 1](01-Vjezba-1.md) (skica 67). |  |  | ignored |
-| 12-vjezba-12#pospremanje-opreme/p1 | 52 | Zapovjednik zapovijeda: **„Prvi „B” mlaz i drugi mlaz – vodom stoj”**. Ostale zapovijedi i radnje zapovjednika iste su kao u [vježbi 1](01-Vjezba-1.md). | role.zapovjednik | src.zapovjednik | ignored |
-| 12-vjezba-12#pospremanje-opreme/p2 | 54 | Na tu zapovijed zapovjednika, N₁ izdaje zapovijed: **„Prvi „B” mlaz – vodom stoj!”**, a preostale zapovijedi i radnje za pospremu prvog i drugog cijevnog voda u navalnom sektoru i posprema „B” cijevnog voda iste su kao u [vježbi 10](10-Vjezba-10.md). | role.zapovjednik, role.vodja-navalne |  | ignored |
-| 12-vjezba-12#pospremanje-opreme/p3 | 56 | Strojar na zapovijed: **„Posprema”** postupa kao u [vježbi 8](08-Vjezba-8.md). | role.strojar | src.strojar | ignored |
-| 12-vjezba-12#pospremanje-opreme/p4 | 58 | Kad odlože opremu, vatrogasci odlaze u stroj i postupaju kao u [vježbi 1](01-Vjezba-1.md). |  |  | ignored |
+| 12-vjezba-12#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1 | 24 | Vodna grupa polaže „B” cijevni vod kao u [vježbi 1](01-Vjezba-1.md) (skica 65). |  |  | mapped |
+| 12-vjezba-12#polaganje-prvog-mlaza-u-navalnom-sektoru/p1 | 32 | Navalna grupa se oprema za polaganje prvog „B” mlaza i uzima sljedeću opremu: vođa grupe (N₁) uzima držač cijevi, „B” mlaznicu s ublaživačem reakcije mlaza i stavlja je za opasač, u desnu ruku uzima razdjelnicu, a u lijevu ruku jednu „B” cijev, a član grupe (N₂) u svaku ruku po jednu „B” cijev. Tako opremljeni kreću se lijevom stranom „B” cijevnog voda i postupaju kao u [vježbi 1](01-Vjezba-1.md). Zapovijed za prvi mlaz glasi: **„Za prvi „B” mlaz, s dvije „B” cijevi pravac…naprijed”**. Prvi „B” mlaz polaže se na srednji otvor razdjelnice. Postupci spajanja i polaganja cijevi prvog mlaza isti su kao u [vježbi 1](01-Vjezba-1.md), s razlikom što član grupe (N₂) drugu „B” cijev izbacuje u lijevu i desnu stranu, tako da cijev dobije manji luk i pravi oblik slova „S”. | role.vodja-navalne, role.clan-navalne |  | mapped |
+| 12-vjezba-12#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1 | 36 | Strojar polaže cijevni vod od hidranta do vozila kao u [vježbi 10](10-Vjezba-10.md) (skica 66). | role.strojar | src.strojar | mapped |
+| 12-vjezba-12#polaganje-drugog-mlaza-u-navalnom-sektoru/p1 | 44 | Drugi mlaz polaže vodna grupa kao u [vježbi 1](01-Vjezba-1.md) (skica 67). |  |  | mapped |
+| 12-vjezba-12#pospremanje-opreme/p1 | 52 | Zapovjednik zapovijeda: **„Prvi „B” mlaz i drugi mlaz – vodom stoj”**. Ostale zapovijedi i radnje zapovjednika iste su kao u [vježbi 1](01-Vjezba-1.md). | role.zapovjednik | src.zapovjednik | mapped |
+| 12-vjezba-12#pospremanje-opreme/p2 | 54 | Na tu zapovijed zapovjednika, N₁ izdaje zapovijed: **„Prvi „B” mlaz – vodom stoj!”**, a preostale zapovijedi i radnje za pospremu prvog i drugog cijevnog voda u navalnom sektoru i posprema „B” cijevnog voda iste su kao u [vježbi 10](10-Vjezba-10.md). | role.zapovjednik, role.vodja-navalne |  | mapped |
+| 12-vjezba-12#pospremanje-opreme/p3 | 56 | Strojar na zapovijed: **„Posprema”** postupa kao u [vježbi 8](08-Vjezba-8.md). | role.strojar | src.strojar | mapped |
+| 12-vjezba-12#pospremanje-opreme/p4 | 58 | Kad odlože opremu, vatrogasci odlaze u stroj i postupaju kao u [vježbi 1](01-Vjezba-1.md). |  |  | mapped |
 
 ### content/source/13-Vjezba-13.md
 
@@ -3554,19 +3554,19 @@ Naslov: Poligonske vježbe
 | 11-vjezba-11#pospremanje-opreme/p2 | vjezba-11-izolacijski-aparati | posprema-drugi, posprema-drugi-motanje, posprema-drugi-odnosenje, posprema-prvi, posprema-prvi-motanje, posprema-prvi-odnosenje, posprema-b, posprema-b-motanje | mapped |  |
 | 11-vjezba-11#pospremanje-opreme/p3 | vjezba-11-izolacijski-aparati | posprema-strojar | mapped |  |
 | 11-vjezba-11#pospremanje-opreme/p4 | vjezba-11-izolacijski-aparati | navalna-u-stroj, strojar-u-stroj, pregled-opreme, prijavak, na-svoje-mjesto, zavrsetak | mapped |  |
-| 12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p2 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p3 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 12-vjezba-12#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 12-vjezba-12#polaganje-prvog-mlaza-u-navalnom-sektoru/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 12-vjezba-12#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 12-vjezba-12#polaganje-drugog-mlaza-u-navalnom-sektoru/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 12-vjezba-12#pospremanje-opreme/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 12-vjezba-12#pospremanje-opreme/p2 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 12-vjezba-12#pospremanje-opreme/p3 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 12-vjezba-12#pospremanje-opreme/p4 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
+| 12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p1 |  |  | ignored | Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F. |
+| 12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p2 |  |  | ignored | Raspored mjesta u vozilu (kao u vježbi 9) i smještaj opreme; simulator počinje od postrojenog odjeljenja, a oprema je u početnoj sceni (u spremnicima vozila). |
+| 12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p3 | vjezba-12-b-mlaz | zbor | mapped |  |
+| 12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4 | vjezba-12-b-mlaz | zapovijed-za-navalu | mapped |  |
+| 12-vjezba-12#2-7-4-vjezba-12-vjezba-s-1-b-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5 |  |  | ignored | Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima. |
+| 12-vjezba-12#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1 | vjezba-12-b-mlaz | vodna-oprema, strojar-kod-pumpe, polaganje-b-prva, polaganje-b-druga, zapovjednik-razdjelnica, vodna-povratak | mapped |  |
+| 12-vjezba-12#polaganje-prvog-mlaza-u-navalnom-sektoru/p1 | vjezba-12-b-mlaz | navalna-oprema-n1, navalna-oprema-n2, navalna-do-kraja-b, prvi-mlaz, prvi-mlaz-n1, prvi-mlaz-vodu-daj | mapped |  |
+| 12-vjezba-12#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1 | vjezba-12-b-mlaz | voda-do-razdjelnice, strojar-nastavak, strojar-b-hidrant | mapped |  |
+| 12-vjezba-12#polaganje-drugog-mlaza-u-navalnom-sektoru/p1 | vjezba-12-b-mlaz | drugi-mlaz-zapovijed, drugi-mlaz-v1-oprema, drugi-mlaz-v2, drugi-mlaz-v1-mlaznica, drugi-mlaz-v2-luk, drugi-mlaz-vodu-daj, drugi-mlaz-potvrda | mapped |  |
+| 12-vjezba-12#pospremanje-opreme/p1 | vjezba-12-b-mlaz | vodom-stoj, zatvaranje-vode, posprema, posprema-zapovjednik | mapped |  |
+| 12-vjezba-12#pospremanje-opreme/p2 | vjezba-12-b-mlaz | vodom-stoj-vode, posprema-mlaznice, posprema-savijanje, posprema-motanje, posprema-nosaci, uzimanje, posprema-polozaj, oprema-u-vozilo, posprema-b, posprema-b-motanje | mapped |  |
+| 12-vjezba-12#pospremanje-opreme/p3 | vjezba-12-b-mlaz | posprema-strojar | mapped |  |
+| 12-vjezba-12#pospremanje-opreme/p4 | vjezba-12-b-mlaz | navalna-u-stroj, strojar-u-stroj, pregled-opreme, prijavak, na-svoje-mjesto, zavrsetak | mapped |  |
 | 13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
 | 13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p2 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
 | 13-vjezba-13#2-7-5-vjezba-13-vjezba-s-1-mlazom-pjene-i-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p3 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
@@ -3658,6 +3658,7 @@ Naslov: Poligonske vježbe
 | vjezba-1-dva-c-mlaza | content/authoring/source/vjezba-1.exercise.json | content/exercises/vjezba-1-dva-c-mlaza.json | da | 0 | 0 | 47 | 47 | da |
 | vjezba-10-navalno-vozilo-hidrant | content/authoring/source/vjezba-10.exercise.json | content/exercises/vjezba-10-navalno-vozilo-hidrant.json | da | 0 | 0 | 44 | 44 | da |
 | vjezba-11-izolacijski-aparati | content/authoring/source/vjezba-11.exercise.json | content/exercises/vjezba-11-izolacijski-aparati.json | da | 0 | 0 | 50 | 50 | da |
+| vjezba-12-b-mlaz | content/authoring/source/vjezba-12.exercise.json | content/exercises/vjezba-12-b-mlaz.json | da | 0 | 0 | 45 | 45 | da |
 | vjezba-2-jedan-c-mlaz | content/authoring/source/vjezba-2.exercise.json | content/exercises/vjezba-2-jedan-c-mlaz.json | da | 0 | 0 | 15 | 15 | da |
 | vjezba-3-usisne-cijevi | content/authoring/source/vjezba-3.exercise.json | content/exercises/vjezba-3-usisne-cijevi.json | da | 0 | 0 | 59 | 59 | da |
 | vjezba-4-usisne-cijevi | content/authoring/source/vjezba-4.exercise.json | content/exercises/vjezba-4-usisne-cijevi.json | da | 0 | 3 | 49 | 49 | da |
@@ -4026,6 +4027,23 @@ Naslov: Poligonske vježbe
 | info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-drugi: izgovor „Drugi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
 | info | F | audio.order-not-in-text | Korak zbor: zapovijed „Odjeljenje – zbor!” (act.zbor) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-11.exercise.json |
 | info | F | audio.order-not-in-text | Korak vodom-stoj: zapovijed „Prvi i drugi mlaz – vodom stoj!” (act.vodom-stoj-mlazovi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak navalna-oprema-n1: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak navalna-oprema-n2: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak prvi-mlaz-vodu-daj: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak vodom-stoj-vode: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-mlaznice: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-savijanje: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-motanje: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-nosaci: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak uzimanje: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-polozaj: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak oprema-u-vozilo: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-b: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-b-motanje: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-drugi: izgovor „Drugi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
+| info | F | audio.order-not-in-text | Korak zbor: zapovijed „Odjeljenje – zbor!” (act.zbor) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | audio.order-not-in-text | Korak drugi-mlaz-zapovijed: zapovijed „Za drugi mlaz s dvije „C” cijevi pravac …. naprijed!” (act.drugi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | audio.order-not-in-text | Korak vodom-stoj-vode: zapovijed „Drugi mlaz – vodom stoj!” (act.vodom-stoj-drugi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-12.exercise.json |
 | info | F | mapping.role-mismatch | Korak b-vod: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-2.exercise.json |
 | info | F | mapping.role-mismatch | Korak vodu-daj: izvorni tekst spominje uloge role.strojar, role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-2.exercise.json |
 | info | F | mapping.role-mismatch | Korak posprema-strojar: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-2.exercise.json |

@@ -213,6 +213,7 @@ describe('full pipeline on repository content', async () => {
     ['vjezba-1-dva-c-mlaza', '01-Vjezba-1.md'],
     ['vjezba-10-navalno-vozilo-hidrant', '10-Vjezba-10.md'],
     ['vjezba-11-izolacijski-aparati', '11-Vjezba-11.md'],
+    ['vjezba-12-b-mlaz', '12-Vjezba-12.md'],
     ['vjezba-2-jedan-c-mlaz', '02-Vjezba-2.md'],
     ['vjezba-3-usisne-cijevi', '03-Vjezba-3.md'],
     ['vjezba-4-usisne-cijevi', '04-Vjezba-4.md'],
