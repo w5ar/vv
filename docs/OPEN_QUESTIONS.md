@@ -188,6 +188,30 @@ give the scene a real scale.
 60. **Water to the razdjelnica** and **stopping the water** follow Vježba 5 (Q47): one action each of
     the strojar, since operating the pump is not described.
 
+## Vježba 7 — autocisterna, jedan „C” mlaz, otvoreno nalazište (Vj7 = `content/source/07-Vjezba-7.md`)
+
+61. **Compartments**: all equipment starts in the tanker (Vj7 13) and goes back into it (Vj7 86, 88); the left
+    and right compartments (Vj7 70) are not modelled separately. A suction hose taken out of the vehicle
+    is shown at the person carrying it.
+62. **Strojar and water**: the strojar's place at the pump is taken from skice 48 and 51. For the first jet
+    Vježba 2 opens the hydrant; here the strojar *„pušta vodu”* (worded as in Vj7 78). Operating the pump
+    and stopping the water are not described (one action each).
+63. **Empty tank**: *„Pošto se spremnik za vodu na AC isprazni”* (Vj7 68) — the simulator has no water
+    quantities; the strojar's order follows the first jet directly.
+64. **Keys**: the navalna grupa takes the keys at the distributor for the suction line (Vj7 68) and puts
+    them back there after *„Gotovo!”* (Vj7 78). For taking in the suction line (Vj4, Vj7 88) N₁ and N₂ need
+    them again; the simulator lets them keep the keys from the jet's pospremanje (Vj2 picks them up at the
+    distributor) until the strojar takes them with the strainer (Vj4 160) and stores them.
+65. **„B” hose at the vehicle**: who disconnects it from the pump's pressure outlet is not stated; the
+    strojar does, as at the water source in Vježbe 1, 2 and 5.
+66. **Rope of the suction line**: Vježba 4 ties it to the first right handle of the pump; where it is tied
+    on the tanker is not described (skica 51 draws the rope to the vehicle).
+67. **Third key**: it lies in a compartment; the strojar takes it when he connects the line to the vehicle
+    (Vj3 140: *„treći ključ koji je ležao ispod usisnog otvora”*) and later stores it.
+68. **Pospremanje of the jet**: there is no sketch; the equipment is put down in a column as in skica 19 of
+    Vježba 2 (schematic). In front of the vehicle N₁ orders *„Stoj!”*, *„Opremu odloži!”* (Vj7 86) and the
+    equipment, with the nozzle, the hose holder and the bag of ties, goes into the compartments.
+
 ## Demonstration sound
 
 26. **Resolved orders**: Vj1 111 quotes *„Prvi, odnosno drugi mlaz – vodom stoj!”* for both leaders;

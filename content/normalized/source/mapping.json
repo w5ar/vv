@@ -1821,85 +1821,163 @@
     "candidateId": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p1",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
   },
   {
     "candidateId": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p2",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Uvod u popis opreme; oprema je u početnoj sceni (u spremnicima vozila), a količine se provjeravaju u fazi F."
   },
   {
     "candidateId": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-7-autocisterna",
+    "stepIds": [
+      "postrojavanje"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p4",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-7-autocisterna",
+    "stepIds": [
+      "zapovijed-za-navalu"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p5",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
   },
   {
     "candidateId": "07-vjezba-7#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-7-autocisterna",
+    "stepIds": [
+      "b-vod",
+      "strojar-kod-pumpe"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "07-vjezba-7#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-7-autocisterna",
+    "stepIds": [
+      "povratak-po-opremu",
+      "prvi-mlaz",
+      "vodu-daj",
+      "strojar-voda"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "07-vjezba-7#polaganje-usisnog-voda/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-7-autocisterna",
+    "stepIds": [
+      "cetiri-usisne",
+      "n1-razumio"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "07-vjezba-7#polaganje-usisnog-voda/p2",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-7-autocisterna",
+    "stepIds": [
+      "strojar-oprema",
+      "strojar-mjesto",
+      "prve-cijevi",
+      "desne-cijevi"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "07-vjezba-7#polaganje-usisnog-voda/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-7-autocisterna",
+    "stepIds": [
+      "polozaj-spajanje",
+      "spoj-sitka",
+      "prijelaz-2",
+      "spoj-2",
+      "prijelaz-3",
+      "spoj-3",
+      "prijelaz-4",
+      "spoj-4",
+      "uzetom-vezi",
+      "n2-ventil",
+      "strojar-podize",
+      "n2-podize",
+      "n1-vezanje",
+      "u-vodu",
+      "prihvat-n1",
+      "prihvat-n2",
+      "prenosenje",
+      "n2-uze-vozilo",
+      "n2-pomaze",
+      "spoj-ac",
+      "n1-vozilo"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "07-vjezba-7#polaganje-usisnog-voda/p4",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-7-autocisterna",
+    "stepIds": [
+      "gotovo",
+      "natrag-do-mlaznice",
+      "vodu-daj-2"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "07-vjezba-7#pospremanje-opreme/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-7-autocisterna",
+    "stepIds": [
+      "vodom-stoj",
+      "zatvaranje-posprema",
+      "strojar-otpaja-b",
+      "posprema-mlaz",
+      "oprema-u-vozilo",
+      "posprema-b"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "07-vjezba-7#pospremanje-opreme/p2",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-7-autocisterna",
+    "stepIds": [
+      "iz-vode",
+      "n1-razvezuje",
+      "strojar-rastavlja-ac",
+      "n1-prvi-spoj",
+      "n2-drugi-spoj",
+      "odnosenje",
+      "n1-skida-uze",
+      "n2-skida-karabin",
+      "spustanje",
+      "polozaj-rastavljanje",
+      "rastavljanje-4",
+      "prijelaz-r2",
+      "rastavljanje-3",
+      "prijelaz-r3",
+      "rastavljanje-2",
+      "prijelaz-r4",
+      "rastavljanje-sitke",
+      "sitka-strojaru",
+      "cijevi-u-vozilo",
+      "trecu-i-cetvrtu",
+      "uzad-u-vozilo"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "07-vjezba-7#pospremanje-opreme/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-7-autocisterna",
+    "stepIds": [
+      "u-stroj",
+      "stroj-prijavak"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p1",

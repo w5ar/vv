@@ -181,3 +181,18 @@ test('Vježba 6 demonstration lays two „B” hoses from the hydrant to the col
   await expect(page.locator('.fds-hose__line')).toHaveCount(0);
   expect(errors).toEqual([]);
 });
+
+test('Vježba 7 demonstration takes the equipment out of the tanker and puts it back', async ({ page }) => {
+  const errors: string[] = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  await page.goto('#/demonstracija/vjezba-7-autocisterna');
+  await expect(page.getByTestId('object-ac')).toBeVisible();
+  // Everything starts in the vehicle's compartments.
+  await expect(page.getByTestId('object-b1')).toHaveCount(0);
+  const range = page.getByTestId('timeline-range');
+  await range.fill((await range.getAttribute('max')) ?? '0');
+  await expect(page.getByTestId('demo-complete')).toBeVisible();
+  await expect(page.getByTestId('progress-label')).toContainText('67 / 67');
+  await expect(page.getByTestId('object-u1')).toHaveCount(0);
+  expect(errors).toEqual([]);
+});

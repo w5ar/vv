@@ -49,6 +49,12 @@
       "synthetic": false
     },
     {
+      "id": "vjezba-7-autocisterna",
+      "file": "content/exercises/vjezba-7-autocisterna.json",
+      "catalogId": "katalog-vjezbovnik",
+      "synthetic": false
+    },
+    {
       "id": "sinteticka-vjezba-01",
       "file": "content/exercises/sinteticka-vjezba-01.json",
       "catalogId": "katalog-sinteticki",

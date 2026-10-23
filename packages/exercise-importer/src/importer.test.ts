@@ -216,6 +216,7 @@ describe('full pipeline on repository content', async () => {
     ['vjezba-4-usisne-cijevi', '04-Vjezba-4.md'],
     ['vjezba-5-otvoreno-nalaziste', '05-Vjezba-5.md'],
     ['vjezba-6-hidrantska-mreza', '06-Vjezba-6.md'],
+    ['vjezba-7-autocisterna', '07-Vjezba-7.md'],
   ] as const;
 
   it('compiles the source exercises without errors and with full traceability', () => {

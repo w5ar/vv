@@ -4197,5 +4197,265 @@
       "file": "content/authoring/source/vjezba-6.exercise.json"
     },
     "subjectId": "vodom-stoj"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak strojar-kod-pumpe: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "strojar-kod-pumpe"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak cetiri-usisne: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "cetiri-usisne"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak n1-razumio: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "n1-razumio"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak strojar-oprema: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "strojar-oprema"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak strojar-mjesto: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "strojar-mjesto"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak prve-cijevi: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "prve-cijevi"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak desne-cijevi: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "desne-cijevi"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak gotovo: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "gotovo"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak natrag-do-mlaznice: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "natrag-do-mlaznice"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak vodom-stoj: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "vodom-stoj"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak zatvaranje-posprema: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "zatvaranje-posprema"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak strojar-otpaja-b: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "strojar-otpaja-b"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak iz-vode: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "iz-vode"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak n1-razvezuje: izvorni tekst spominje uloge role.strojar, role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "n1-razvezuje"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak strojar-rastavlja-ac: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "strojar-rastavlja-ac"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak n1-prvi-spoj: izvorni tekst spominje uloge role.strojar, role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "n1-prvi-spoj"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak n2-drugi-spoj: izvorni tekst spominje uloge role.strojar, role.vodja-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "n2-drugi-spoj"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak n1-skida-uze: izvorni tekst spominje uloge role.strojar, role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "n1-skida-uze"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak n2-skida-karabin: izvorni tekst spominje uloge role.strojar, role.vodja-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "n2-skida-karabin"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak spustanje: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "spustanje"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak sitka-strojaru: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "sitka-strojaru"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak cijevi-u-vozilo: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "cijevi-u-vozilo"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak trecu-i-cetvrtu: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "trecu-i-cetvrtu"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak uzad-u-vozilo: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "uzad-u-vozilo"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak vodom-stoj: zapovijed „Za prvi mlaz vodom – stoj!” (act.vodom-stoj) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "vodom-stoj"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak iz-vode: zapovijed „Usisni vod iz vode!” (act.iz-vode) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-7.exercise.json"
+    },
+    "subjectId": "iz-vode"
   }
 ]

@@ -76334,8 +76334,10 @@
               "diagramRefs": [
                 "02-Vjezba-2.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-7-autocisterna/postrojavanje"
+              ],
+              "status": "mapped"
             },
             {
               "id": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p4",
@@ -76357,8 +76359,10 @@
                 "src.n1"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-7-autocisterna/zapovijed-za-navalu"
+              ],
+              "status": "mapped"
             },
             {
               "id": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p5",
@@ -76403,8 +76407,11 @@
               "diagramRefs": [
                 "02-Vjezba-2.md#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-rada"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-7-autocisterna/b-vod",
+                "vjezba-7-autocisterna/strojar-kod-pumpe"
+              ],
+              "status": "mapped"
             },
             {
               "id": "07-vjezba-7#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
@@ -76425,8 +76432,13 @@
               "diagramRefs": [
                 "02-Vjezba-2.md#polaganje-prvog-mlaza-u-navalnom-sektoru"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-7-autocisterna/povratak-po-opremu",
+                "vjezba-7-autocisterna/prvi-mlaz",
+                "vjezba-7-autocisterna/vodu-daj",
+                "vjezba-7-autocisterna/strojar-voda"
+              ],
+              "status": "mapped"
             },
             {
               "id": "07-vjezba-7#polaganje-usisnog-voda/p1",
@@ -76450,8 +76462,11 @@
                 "src.strojar"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-7-autocisterna/cetiri-usisne",
+                "vjezba-7-autocisterna/n1-razumio"
+              ],
+              "status": "mapped"
             },
             {
               "id": "07-vjezba-7#polaganje-usisnog-voda/p2",
@@ -76478,8 +76493,13 @@
               "diagramRefs": [
                 "04-Vjezba-4.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-7-autocisterna/strojar-oprema",
+                "vjezba-7-autocisterna/strojar-mjesto",
+                "vjezba-7-autocisterna/prve-cijevi",
+                "vjezba-7-autocisterna/desne-cijevi"
+              ],
+              "status": "mapped"
             },
             {
               "id": "07-vjezba-7#polaganje-usisnog-voda/p3",
@@ -76500,8 +76520,30 @@
               "diagramRefs": [
                 "04-Vjezba-4.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-7-autocisterna/polozaj-spajanje",
+                "vjezba-7-autocisterna/spoj-sitka",
+                "vjezba-7-autocisterna/prijelaz-2",
+                "vjezba-7-autocisterna/spoj-2",
+                "vjezba-7-autocisterna/prijelaz-3",
+                "vjezba-7-autocisterna/spoj-3",
+                "vjezba-7-autocisterna/prijelaz-4",
+                "vjezba-7-autocisterna/spoj-4",
+                "vjezba-7-autocisterna/uzetom-vezi",
+                "vjezba-7-autocisterna/n2-ventil",
+                "vjezba-7-autocisterna/strojar-podize",
+                "vjezba-7-autocisterna/n2-podize",
+                "vjezba-7-autocisterna/n1-vezanje",
+                "vjezba-7-autocisterna/u-vodu",
+                "vjezba-7-autocisterna/prihvat-n1",
+                "vjezba-7-autocisterna/prihvat-n2",
+                "vjezba-7-autocisterna/prenosenje",
+                "vjezba-7-autocisterna/n2-uze-vozilo",
+                "vjezba-7-autocisterna/n2-pomaze",
+                "vjezba-7-autocisterna/spoj-ac",
+                "vjezba-7-autocisterna/n1-vozilo"
+              ],
+              "status": "mapped"
             },
             {
               "id": "07-vjezba-7#polaganje-usisnog-voda/p4",
@@ -76525,8 +76567,12 @@
                 "src.strojar"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-7-autocisterna/gotovo",
+                "vjezba-7-autocisterna/natrag-do-mlaznice",
+                "vjezba-7-autocisterna/vodu-daj-2"
+              ],
+              "status": "mapped"
             },
             {
               "id": "07-vjezba-7#pospremanje-opreme/p1",
@@ -76550,8 +76596,15 @@
               "diagramRefs": [
                 "02-Vjezba-2.md#pospremanje-opreme"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-7-autocisterna/vodom-stoj",
+                "vjezba-7-autocisterna/zatvaranje-posprema",
+                "vjezba-7-autocisterna/strojar-otpaja-b",
+                "vjezba-7-autocisterna/posprema-mlaz",
+                "vjezba-7-autocisterna/oprema-u-vozilo",
+                "vjezba-7-autocisterna/posprema-b"
+              ],
+              "status": "mapped"
             },
             {
               "id": "07-vjezba-7#pospremanje-opreme/p2",
@@ -76579,8 +76632,30 @@
               "diagramRefs": [
                 "04-Vjezba-4.md"
               ],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-7-autocisterna/iz-vode",
+                "vjezba-7-autocisterna/n1-razvezuje",
+                "vjezba-7-autocisterna/strojar-rastavlja-ac",
+                "vjezba-7-autocisterna/n1-prvi-spoj",
+                "vjezba-7-autocisterna/n2-drugi-spoj",
+                "vjezba-7-autocisterna/odnosenje",
+                "vjezba-7-autocisterna/n1-skida-uze",
+                "vjezba-7-autocisterna/n2-skida-karabin",
+                "vjezba-7-autocisterna/spustanje",
+                "vjezba-7-autocisterna/polozaj-rastavljanje",
+                "vjezba-7-autocisterna/rastavljanje-4",
+                "vjezba-7-autocisterna/prijelaz-r2",
+                "vjezba-7-autocisterna/rastavljanje-3",
+                "vjezba-7-autocisterna/prijelaz-r3",
+                "vjezba-7-autocisterna/rastavljanje-2",
+                "vjezba-7-autocisterna/prijelaz-r4",
+                "vjezba-7-autocisterna/rastavljanje-sitke",
+                "vjezba-7-autocisterna/sitka-strojaru",
+                "vjezba-7-autocisterna/cijevi-u-vozilo",
+                "vjezba-7-autocisterna/trecu-i-cetvrtu",
+                "vjezba-7-autocisterna/uzad-u-vozilo"
+              ],
+              "status": "mapped"
             },
             {
               "id": "07-vjezba-7#pospremanje-opreme/p3",
@@ -76599,8 +76674,11 @@
               "roleMentions": [],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-7-autocisterna/u-stroj",
+                "vjezba-7-autocisterna/stroj-prijavak"
+              ],
+              "status": "mapped"
             }
           ],
           "roleMentions": [
@@ -87793,85 +87871,163 @@
           "candidateId": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p1",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
         },
         {
           "candidateId": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p2",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Uvod u popis opreme; oprema je u početnoj sceni (u spremnicima vozila), a količine se provjeravaju u fazi F."
         },
         {
           "candidateId": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p3",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-7-autocisterna",
+          "stepIds": [
+            "postrojavanje"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p4",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-7-autocisterna",
+          "stepIds": [
+            "zapovijed-za-navalu"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p5",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
         },
         {
           "candidateId": "07-vjezba-7#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-7-autocisterna",
+          "stepIds": [
+            "b-vod",
+            "strojar-kod-pumpe"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "07-vjezba-7#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-7-autocisterna",
+          "stepIds": [
+            "povratak-po-opremu",
+            "prvi-mlaz",
+            "vodu-daj",
+            "strojar-voda"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "07-vjezba-7#polaganje-usisnog-voda/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-7-autocisterna",
+          "stepIds": [
+            "cetiri-usisne",
+            "n1-razumio"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "07-vjezba-7#polaganje-usisnog-voda/p2",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-7-autocisterna",
+          "stepIds": [
+            "strojar-oprema",
+            "strojar-mjesto",
+            "prve-cijevi",
+            "desne-cijevi"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "07-vjezba-7#polaganje-usisnog-voda/p3",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-7-autocisterna",
+          "stepIds": [
+            "polozaj-spajanje",
+            "spoj-sitka",
+            "prijelaz-2",
+            "spoj-2",
+            "prijelaz-3",
+            "spoj-3",
+            "prijelaz-4",
+            "spoj-4",
+            "uzetom-vezi",
+            "n2-ventil",
+            "strojar-podize",
+            "n2-podize",
+            "n1-vezanje",
+            "u-vodu",
+            "prihvat-n1",
+            "prihvat-n2",
+            "prenosenje",
+            "n2-uze-vozilo",
+            "n2-pomaze",
+            "spoj-ac",
+            "n1-vozilo"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "07-vjezba-7#polaganje-usisnog-voda/p4",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-7-autocisterna",
+          "stepIds": [
+            "gotovo",
+            "natrag-do-mlaznice",
+            "vodu-daj-2"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "07-vjezba-7#pospremanje-opreme/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-7-autocisterna",
+          "stepIds": [
+            "vodom-stoj",
+            "zatvaranje-posprema",
+            "strojar-otpaja-b",
+            "posprema-mlaz",
+            "oprema-u-vozilo",
+            "posprema-b"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "07-vjezba-7#pospremanje-opreme/p2",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-7-autocisterna",
+          "stepIds": [
+            "iz-vode",
+            "n1-razvezuje",
+            "strojar-rastavlja-ac",
+            "n1-prvi-spoj",
+            "n2-drugi-spoj",
+            "odnosenje",
+            "n1-skida-uze",
+            "n2-skida-karabin",
+            "spustanje",
+            "polozaj-rastavljanje",
+            "rastavljanje-4",
+            "prijelaz-r2",
+            "rastavljanje-3",
+            "prijelaz-r3",
+            "rastavljanje-2",
+            "prijelaz-r4",
+            "rastavljanje-sitke",
+            "sitka-strojaru",
+            "cijevi-u-vozilo",
+            "trecu-i-cetvrtu",
+            "uzad-u-vozilo"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "07-vjezba-7#pospremanje-opreme/p3",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-7-autocisterna",
+          "stepIds": [
+            "u-stroj",
+            "stroj-prijavak"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "08-vjezba-8#2-6-2-vjezba-8-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-hidrantske-mreze-3-vatrogasca/p1",
@@ -88809,6 +88965,17 @@
           "warningCount": 0,
           "stepCount": 51,
           "tracedStepCount": 51,
+          "demoReachesCompletion": true
+        },
+        {
+          "exerciseId": "vjezba-7-autocisterna",
+          "authoringFile": "content/authoring/source/vjezba-7.exercise.json",
+          "outputFile": "content/exercises/vjezba-7-autocisterna.json",
+          "ok": true,
+          "errorCount": 0,
+          "warningCount": 0,
+          "stepCount": 67,
+          "tracedStepCount": 67,
           "demoReachesCompletion": true
         }
       ],
@@ -93011,6 +93178,266 @@
             "file": "content/authoring/source/vjezba-6.exercise.json"
           },
           "subjectId": "vodom-stoj"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak strojar-kod-pumpe: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "strojar-kod-pumpe"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak cetiri-usisne: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "cetiri-usisne"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak n1-razumio: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "n1-razumio"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak strojar-oprema: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "strojar-oprema"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak strojar-mjesto: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "strojar-mjesto"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak prve-cijevi: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "prve-cijevi"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak desne-cijevi: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "desne-cijevi"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak gotovo: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "gotovo"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak natrag-do-mlaznice: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "natrag-do-mlaznice"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak vodom-stoj: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "vodom-stoj"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak zatvaranje-posprema: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "zatvaranje-posprema"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak strojar-otpaja-b: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "strojar-otpaja-b"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak iz-vode: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "iz-vode"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak n1-razvezuje: izvorni tekst spominje uloge role.strojar, role.clan-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "n1-razvezuje"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak strojar-rastavlja-ac: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "strojar-rastavlja-ac"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak n1-prvi-spoj: izvorni tekst spominje uloge role.strojar, role.clan-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "n1-prvi-spoj"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak n2-drugi-spoj: izvorni tekst spominje uloge role.strojar, role.vodja-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "n2-drugi-spoj"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak n1-skida-uze: izvorni tekst spominje uloge role.strojar, role.clan-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "n1-skida-uze"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak n2-skida-karabin: izvorni tekst spominje uloge role.strojar, role.vodja-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "n2-skida-karabin"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak spustanje: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "spustanje"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak sitka-strojaru: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "sitka-strojaru"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak cijevi-u-vozilo: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "cijevi-u-vozilo"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak trecu-i-cetvrtu: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "trecu-i-cetvrtu"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak uzad-u-vozilo: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "uzad-u-vozilo"
+        },
+        {
+          "code": "audio.order-not-in-text",
+          "severity": "info",
+          "message": "Korak vodom-stoj: zapovijed „Za prvi mlaz vodom – stoj!” (act.vodom-stoj) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "vodom-stoj"
+        },
+        {
+          "code": "audio.order-not-in-text",
+          "severity": "info",
+          "message": "Korak iz-vode: zapovijed „Usisni vod iz vode!” (act.iz-vode) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-7.exercise.json"
+          },
+          "subjectId": "iz-vode"
         }
       ]
     },

@@ -445,7 +445,8 @@ export function compareWithDiagrams(exercise: Exercise, ctx: CompileContext, tim
  * drawn (`free <= shown <= free + carried`); personnel counts must match exactly. Items joined
  * into an assembled line (`depiction.assembledLineStrokeWidth`, e.g. a suction line) may be drawn
  * as symbols or as that line, so they count like carried ones, as do connected items of a type
- * with `depiction.optionalWhenConnected` (a rope bag); stored equipment is not drawn.
+ * with `depiction.optionalWhenConnected` (a rope bag); a connected item counts as its
+ * `depiction.attachedSymbolId` (a nozzle tip, a marker that is not counted); stored equipment is not drawn.
  * Laid hoses are compared with the diagram's line styles (shown iff laid).
  */
 function compareSchematic(
@@ -478,10 +479,9 @@ function compareSchematic(
       const other = c.a.objectId === id ? c.b.objectId : c.b.objectId === id ? c.a.objectId : null;
       return other !== null && state.objects[other]?.typeId === typeId;
     });
+  const isConnected = (id: string) => connections.some((c) => c.a.objectId === id || c.b.objectId === id);
   const optionalConnected = (id: string, typeId: string | null) =>
-    !!typeId &&
-    types.get(typeId)?.depiction?.optionalWhenConnected === true &&
-    connections.some((c) => c.a.objectId === id || c.b.objectId === id);
+    !!typeId && types.get(typeId)?.depiction?.optionalWhenConnected === true && isConnected(id);
   for (const id of state.objectOrder) {
     const obj = state.objects[id];
     if (!obj || obj.storedIn) continue;
@@ -490,9 +490,13 @@ function compareSchematic(
       continue;
     }
     if (obj.kind === 'personnel') personnel.add(obj.symbolId);
+    // A connected item is drawn as its attached symbol (a nozzle tip); a marker is not counted.
+    const attached = obj.typeId ? types.get(obj.typeId)?.depiction?.attachedSymbolId : undefined;
+    const drawnAs = attached && isConnected(obj.id) ? attached : obj.symbolId;
+    if (symbols.get(drawnAs)?.annotation) continue;
     const optional = obj.carriedBy || assembled(obj.id, obj.typeId) || optionalConnected(obj.id, obj.typeId);
     const bucket = optional ? carried : free;
-    bucket.set(obj.symbolId, (bucket.get(obj.symbolId) ?? 0) + 1);
+    bucket.set(drawnAs, (bucket.get(drawnAs) ?? 0) + 1);
   }
   const symbolIds = [...new Set([...shown.keys(), ...free.keys(), ...carried.keys()])].sort();
   for (const symbolId of symbolIds) {

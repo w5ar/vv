@@ -13057,8 +13057,10 @@
         "diagramRefs": [
           "02-Vjezba-2.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-7-autocisterna/postrojavanje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p4",
@@ -13080,8 +13082,10 @@
           "src.n1"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-7-autocisterna/zapovijed-za-navalu"
+        ],
+        "status": "mapped"
       },
       {
         "id": "07-vjezba-7#2-6-1-vjezba-7-vjezba-s-1-c-mlazom-vode-opskrba-vodom-iz-otvorenog-nalazista-3-vatrogasca/p5",
@@ -13126,8 +13130,11 @@
         "diagramRefs": [
           "02-Vjezba-2.md#polaganje-b-cijevnog-voda-u-cijevnom-sektoru-rada"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-7-autocisterna/b-vod",
+          "vjezba-7-autocisterna/strojar-kod-pumpe"
+        ],
+        "status": "mapped"
       },
       {
         "id": "07-vjezba-7#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
@@ -13148,8 +13155,13 @@
         "diagramRefs": [
           "02-Vjezba-2.md#polaganje-prvog-mlaza-u-navalnom-sektoru"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-7-autocisterna/povratak-po-opremu",
+          "vjezba-7-autocisterna/prvi-mlaz",
+          "vjezba-7-autocisterna/vodu-daj",
+          "vjezba-7-autocisterna/strojar-voda"
+        ],
+        "status": "mapped"
       },
       {
         "id": "07-vjezba-7#polaganje-usisnog-voda/p1",
@@ -13173,8 +13185,11 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-7-autocisterna/cetiri-usisne",
+          "vjezba-7-autocisterna/n1-razumio"
+        ],
+        "status": "mapped"
       },
       {
         "id": "07-vjezba-7#polaganje-usisnog-voda/p2",
@@ -13201,8 +13216,13 @@
         "diagramRefs": [
           "04-Vjezba-4.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-7-autocisterna/strojar-oprema",
+          "vjezba-7-autocisterna/strojar-mjesto",
+          "vjezba-7-autocisterna/prve-cijevi",
+          "vjezba-7-autocisterna/desne-cijevi"
+        ],
+        "status": "mapped"
       },
       {
         "id": "07-vjezba-7#polaganje-usisnog-voda/p3",
@@ -13223,8 +13243,30 @@
         "diagramRefs": [
           "04-Vjezba-4.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-7-autocisterna/polozaj-spajanje",
+          "vjezba-7-autocisterna/spoj-sitka",
+          "vjezba-7-autocisterna/prijelaz-2",
+          "vjezba-7-autocisterna/spoj-2",
+          "vjezba-7-autocisterna/prijelaz-3",
+          "vjezba-7-autocisterna/spoj-3",
+          "vjezba-7-autocisterna/prijelaz-4",
+          "vjezba-7-autocisterna/spoj-4",
+          "vjezba-7-autocisterna/uzetom-vezi",
+          "vjezba-7-autocisterna/n2-ventil",
+          "vjezba-7-autocisterna/strojar-podize",
+          "vjezba-7-autocisterna/n2-podize",
+          "vjezba-7-autocisterna/n1-vezanje",
+          "vjezba-7-autocisterna/u-vodu",
+          "vjezba-7-autocisterna/prihvat-n1",
+          "vjezba-7-autocisterna/prihvat-n2",
+          "vjezba-7-autocisterna/prenosenje",
+          "vjezba-7-autocisterna/n2-uze-vozilo",
+          "vjezba-7-autocisterna/n2-pomaze",
+          "vjezba-7-autocisterna/spoj-ac",
+          "vjezba-7-autocisterna/n1-vozilo"
+        ],
+        "status": "mapped"
       },
       {
         "id": "07-vjezba-7#polaganje-usisnog-voda/p4",
@@ -13248,8 +13290,12 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-7-autocisterna/gotovo",
+          "vjezba-7-autocisterna/natrag-do-mlaznice",
+          "vjezba-7-autocisterna/vodu-daj-2"
+        ],
+        "status": "mapped"
       },
       {
         "id": "07-vjezba-7#pospremanje-opreme/p1",
@@ -13273,8 +13319,15 @@
         "diagramRefs": [
           "02-Vjezba-2.md#pospremanje-opreme"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-7-autocisterna/vodom-stoj",
+          "vjezba-7-autocisterna/zatvaranje-posprema",
+          "vjezba-7-autocisterna/strojar-otpaja-b",
+          "vjezba-7-autocisterna/posprema-mlaz",
+          "vjezba-7-autocisterna/oprema-u-vozilo",
+          "vjezba-7-autocisterna/posprema-b"
+        ],
+        "status": "mapped"
       },
       {
         "id": "07-vjezba-7#pospremanje-opreme/p2",
@@ -13302,8 +13355,30 @@
         "diagramRefs": [
           "04-Vjezba-4.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-7-autocisterna/iz-vode",
+          "vjezba-7-autocisterna/n1-razvezuje",
+          "vjezba-7-autocisterna/strojar-rastavlja-ac",
+          "vjezba-7-autocisterna/n1-prvi-spoj",
+          "vjezba-7-autocisterna/n2-drugi-spoj",
+          "vjezba-7-autocisterna/odnosenje",
+          "vjezba-7-autocisterna/n1-skida-uze",
+          "vjezba-7-autocisterna/n2-skida-karabin",
+          "vjezba-7-autocisterna/spustanje",
+          "vjezba-7-autocisterna/polozaj-rastavljanje",
+          "vjezba-7-autocisterna/rastavljanje-4",
+          "vjezba-7-autocisterna/prijelaz-r2",
+          "vjezba-7-autocisterna/rastavljanje-3",
+          "vjezba-7-autocisterna/prijelaz-r3",
+          "vjezba-7-autocisterna/rastavljanje-2",
+          "vjezba-7-autocisterna/prijelaz-r4",
+          "vjezba-7-autocisterna/rastavljanje-sitke",
+          "vjezba-7-autocisterna/sitka-strojaru",
+          "vjezba-7-autocisterna/cijevi-u-vozilo",
+          "vjezba-7-autocisterna/trecu-i-cetvrtu",
+          "vjezba-7-autocisterna/uzad-u-vozilo"
+        ],
+        "status": "mapped"
       },
       {
         "id": "07-vjezba-7#pospremanje-opreme/p3",
@@ -13322,8 +13397,11 @@
         "roleMentions": [],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-7-autocisterna/u-stroj",
+          "vjezba-7-autocisterna/stroj-prijavak"
+        ],
+        "status": "mapped"
       }
     ],
     "roleMentions": [

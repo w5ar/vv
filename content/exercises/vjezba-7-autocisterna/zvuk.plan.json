@@ -1,0 +1,480 @@
+{
+  "schemaVersion": 1,
+  "exerciseId": "vjezba-7-autocisterna",
+  "synthetic": false,
+  "clips": [
+    {
+      "id": "postrojavanje",
+      "voice": "opis",
+      "text": "Kada je vozilo postavljeno na određeno mjesto kod crpilišta, vođa navalne grupe (N1) staje dva koraka iza vozila, podiže lijevu ruku i postrojava odjeljenje kao u vježbi 2 (skica 47, slika 35).",
+      "hash": "0f94ae566b3e66"
+    },
+    {
+      "id": "act.za-navalu",
+      "voice": "zapovijed",
+      "text": "Požar pravac … voda … sa 2 „B” cijevi do razdjelnice za navalu pripremi!",
+      "hash": "19c8596366fbae"
+    },
+    {
+      "id": "zapovijed-za-navalu",
+      "voice": "opis",
+      "text": "Vođa navalne grupe (N1) istupa kao u vježbi 2 i zapovijeda:",
+      "hash": "068c6a4f06b9f8"
+    },
+    {
+      "id": "b-vod",
+      "voice": "opis",
+      "text": "Na zapovijed vođe navalne grupe (N1), „B” cijevni vod, od AC do razdjelnice, polaže navalna grupa kao u vježbi 2, s tom razlikom što član navalne grupe (N2) spaja svoju „B” cijev na tlačni izlaz iz pumpe na AC (skica 48, slika 36).",
+      "hash": "0a29c956a091eb"
+    },
+    {
+      "id": "povratak-po-opremu",
+      "voice": "opis",
+      "text": "Kada je „B” cijevni vod položen, navalna grupa se lijevom stranom vraća po opremu za polaganje prvog mlaza kao u vježbi 2. Prvi cijevni vod polaže navalna grupa kao u vježbi 2 (skica 49, slika 37).",
+      "hash": "1dde6b16c8174b"
+    },
+    {
+      "id": "act.prvi-mlaz-naprijed",
+      "voice": "zapovijed",
+      "text": "Za prvi mlaz s dvije „C” cijevi, pravac …. naprijed!",
+      "hash": "0b78a4b07b9225"
+    },
+    {
+      "id": "act.prvi-mlaz-vodu-daj",
+      "voice": "zapovijed",
+      "text": "Za prvi mlaz vodu daj!",
+      "hash": "115b18c873eb0f"
+    },
+    {
+      "id": "act.cetiri-usisne",
+      "voice": "zapovijed",
+      "text": "Četiri usisne cijevi!",
+      "hash": "0671d99de23ac5"
+    },
+    {
+      "id": "cetiri-usisne",
+      "voice": "opis",
+      "text": "Pošto se spremnik za vodu na AC isprazni, a zadatak nije izvršen, strojar se okreće licem prema navalnoj grupi i izdaje zapovijed:",
+      "hash": "0b037a07660f38"
+    },
+    {
+      "id": "cetiri-usisne-2",
+      "voice": "opis",
+      "text": "N1 daje znak da je zapovijed razumio, odlažu mlaznicu na zemlju i odlaze do AC za polaganje usisnog voda. Kod razdjelnice uzimaju ključeve za spojnice.",
+      "hash": "1d2ef92207037a"
+    },
+    {
+      "id": "strojar-oprema",
+      "voice": "opis",
+      "text": "Strojar za polaganje usisnog voda uzima istu opremu kao u vježbi 4 (osim ključeva koje navalna grupa ima kod sebe). Navalna grupa prva polaže usisne cijevi iz lijevog spremnika, tako da član grupe (N2) svoju usisnu cijev polaže prvi, a vođa grupe (N1) polaže svoju cijev iza već položene usisne cijevi (prema crpilištu). Zajedno odlaze do desne strane vozila, uzimaju dvije usisne cijevi iz desnog spremnika i zajedno ih odnose i polažu kao u vježbi 4 prema crpilištu (skica 50).",
+      "hash": "100637e376d4ad"
+    },
+    {
+      "id": "polozaj-spajanje",
+      "voice": "opis",
+      "text": "Spajanje, vezanje i prenošenje usisnog voda, navalna grupa obavlja kao u vježbi 4.",
+      "hash": "0202028e526ac3"
+    },
+    {
+      "id": "act.dizi-1",
+      "voice": "zapovijed",
+      "text": "Diži!",
+      "hash": "1f917b3323a5e2"
+    },
+    {
+      "id": "act.spusti-1",
+      "voice": "zapovijed",
+      "text": "Spusti!",
+      "hash": "1a1db46ccfb9c3"
+    },
+    {
+      "id": "act.dizi-2",
+      "voice": "zapovijed",
+      "text": "Diži!",
+      "hash": "1f917b3323a5e2"
+    },
+    {
+      "id": "act.spusti-2",
+      "voice": "zapovijed",
+      "text": "Spusti!",
+      "hash": "1a1db46ccfb9c3"
+    },
+    {
+      "id": "act.dizi-3",
+      "voice": "zapovijed",
+      "text": "Diži!",
+      "hash": "1f917b3323a5e2"
+    },
+    {
+      "id": "act.spusti-3",
+      "voice": "zapovijed",
+      "text": "Spusti!",
+      "hash": "1a1db46ccfb9c3"
+    },
+    {
+      "id": "act.dizi-4",
+      "voice": "zapovijed",
+      "text": "Diži!",
+      "hash": "1f917b3323a5e2"
+    },
+    {
+      "id": "act.spusti-4",
+      "voice": "zapovijed",
+      "text": "Spusti!",
+      "hash": "1a1db46ccfb9c3"
+    },
+    {
+      "id": "act.uzetom-vezi",
+      "voice": "zapovijed",
+      "text": "Užetom veži!",
+      "hash": "10069c60053e07"
+    },
+    {
+      "id": "act.u-vodu",
+      "voice": "zapovijed",
+      "text": "Usisni vod u vodu!",
+      "hash": "1255f9b780d4e8"
+    },
+    {
+      "id": "act.gotovo",
+      "voice": "zapovijed",
+      "text": "Gotovo!",
+      "hash": "0bb3d9f76c7717"
+    },
+    {
+      "id": "gotovo",
+      "voice": "opis",
+      "text": "Nakon zapovijedi strojara:",
+      "hash": "0b7c31ba65d40a"
+    },
+    {
+      "id": "gotovo-2",
+      "voice": "opis",
+      "text": "navalna grupa odlazi lijevom stranom „B” cijevnog voda do razdjelnice, odlažu ključeve s desne strane razdjelnice i odlaze do mlaznice gdje N1 ponovo zapovijeda: „Za prvi mlaz vodu daj!”. Strojar daje znak da je zapovijed razumio i pušta vodu (skica 51).",
+      "hash": "08213b60e54cce"
+    },
+    {
+      "id": "act.prvi-mlaz-vodu-daj-2",
+      "voice": "zapovijed",
+      "text": "Za prvi mlaz vodu daj!",
+      "hash": "115b18c873eb0f"
+    },
+    {
+      "id": "act.vodom-stoj",
+      "voice": "zapovijed",
+      "text": "Za prvi mlaz vodom – stoj!",
+      "hash": "11c20a3d814aed"
+    },
+    {
+      "id": "vodom-stoj",
+      "voice": "opis",
+      "text": "Za završetak rada i pospremu, vođa grupe (N1) izdaje zapovijedi kao u vježbi 2. Pospremu prvog mlaza obavlja navalna grupa kao u vježbi 2, uz sljedeću razliku, kada dođu ispred vozila, N1 izdaje zapovijed: „Stoj!”, „Opremu odloži!”. Nakon izdanih zapovijedi, N1 i N2 opremu odlažu u spremnike vozila. Pospremu „B” cijevnog voda obavlja navalna grupa kao u vježbi 2.",
+      "hash": "0ae666aa2fa688"
+    },
+    {
+      "id": "act.posprema",
+      "voice": "zapovijed",
+      "text": "Posprema!",
+      "hash": "13469a9e41281c"
+    },
+    {
+      "id": "act.opremu-uzmi",
+      "voice": "zapovijed",
+      "text": "Opremu uzmi!",
+      "hash": "03cf2ae0d2e3ab"
+    },
+    {
+      "id": "act.s-opremom-naprijed",
+      "voice": "zapovijed",
+      "text": "S opremom naprijed!",
+      "hash": "123f97f88a0ac1"
+    },
+    {
+      "id": "act.stoj",
+      "voice": "zapovijed",
+      "text": "Stoj!",
+      "hash": "0c041f0f1e56a9"
+    },
+    {
+      "id": "act.opremu-odlozi",
+      "voice": "zapovijed",
+      "text": "Opremu odloži!",
+      "hash": "1401b177c2cb0a"
+    },
+    {
+      "id": "act.iz-vode",
+      "voice": "zapovijed",
+      "text": "Usisni vod iz vode!",
+      "hash": "11a10d57c3b649"
+    },
+    {
+      "id": "iz-vode",
+      "voice": "opis",
+      "text": "Kada je „B” cijevni vod pospremljen, strojar zapovijeda: „Usisni vod iz vode”. Na tu zapovijed navalna grupa i strojar obavljaju prenošenje usisnog voda, odvezivanje i rastavljanje kao u vježbi 4. Nošenje i pospremanje rastavljenih usisnih cijevi navalna grupa obavlja kao u vježbi 4, s razlikom što treću usisnu cijev posprema vođa grupe (N1) u spremnik, a četvrtu član navalne grupe (N2).",
+      "hash": "0a46e60391ef18"
+    },
+    {
+      "id": "act.dizi-spusti-r1",
+      "voice": "zapovijed",
+      "text": "Diži – spusti!",
+      "hash": "1254e5ec47db2d"
+    },
+    {
+      "id": "act.dizi-spusti-r2",
+      "voice": "zapovijed",
+      "text": "Diži – spusti!",
+      "hash": "1254e5ec47db2d"
+    },
+    {
+      "id": "act.dizi-spusti-r3",
+      "voice": "zapovijed",
+      "text": "Diži – spusti!",
+      "hash": "1254e5ec47db2d"
+    },
+    {
+      "id": "act.dizi-spusti-r4",
+      "voice": "zapovijed",
+      "text": "Diži – spusti!",
+      "hash": "1254e5ec47db2d"
+    },
+    {
+      "id": "u-stroj",
+      "voice": "opis",
+      "text": "Kada odlože opremu, vatrogasci odlaze u stroj i postupaju kao u vježbi 2.",
+      "hash": "0861ec224596cb"
+    },
+    {
+      "id": "act.na-svoje-mjesto",
+      "voice": "zapovijed",
+      "text": "Na svoje mjesto!",
+      "hash": "163ba54158fbfe"
+    },
+    {
+      "id": "act.na-zapovijed",
+      "voice": "zapovijed",
+      "text": "Na zapovijed!",
+      "hash": "182ecc34d3ef04"
+    },
+    {
+      "id": "act.odmor-ili-otpust",
+      "voice": "zapovijed",
+      "text": "Na mjestu odmor!",
+      "hash": "06d370de725f05"
+    }
+  ],
+  "steps": {
+    "postrojavanje": [
+      {
+        "clipId": "postrojavanje"
+      }
+    ],
+    "zapovijed-za-navalu": [
+      {
+        "clipId": "zapovijed-za-navalu"
+      },
+      {
+        "clipId": "act.za-navalu",
+        "actionId": "act.za-navalu"
+      }
+    ],
+    "b-vod": [
+      {
+        "clipId": "b-vod"
+      }
+    ],
+    "povratak-po-opremu": [
+      {
+        "clipId": "povratak-po-opremu"
+      }
+    ],
+    "prvi-mlaz": [
+      {
+        "clipId": "act.prvi-mlaz-naprijed",
+        "actionId": "act.prvi-mlaz-naprijed"
+      }
+    ],
+    "vodu-daj": [
+      {
+        "clipId": "act.prvi-mlaz-vodu-daj",
+        "actionId": "act.prvi-mlaz-vodu-daj"
+      }
+    ],
+    "cetiri-usisne": [
+      {
+        "clipId": "cetiri-usisne"
+      },
+      {
+        "clipId": "act.cetiri-usisne",
+        "actionId": "act.cetiri-usisne"
+      },
+      {
+        "clipId": "cetiri-usisne-2"
+      }
+    ],
+    "strojar-oprema": [
+      {
+        "clipId": "strojar-oprema"
+      }
+    ],
+    "polozaj-spajanje": [
+      {
+        "clipId": "polozaj-spajanje"
+      }
+    ],
+    "spoj-sitka": [
+      {
+        "clipId": "act.dizi-1",
+        "actionId": "act.dizi-1"
+      },
+      {
+        "clipId": "act.spusti-1",
+        "actionId": "act.spusti-1"
+      }
+    ],
+    "spoj-2": [
+      {
+        "clipId": "act.dizi-2",
+        "actionId": "act.dizi-2"
+      },
+      {
+        "clipId": "act.spusti-2",
+        "actionId": "act.spusti-2"
+      }
+    ],
+    "spoj-3": [
+      {
+        "clipId": "act.dizi-3",
+        "actionId": "act.dizi-3"
+      },
+      {
+        "clipId": "act.spusti-3",
+        "actionId": "act.spusti-3"
+      }
+    ],
+    "spoj-4": [
+      {
+        "clipId": "act.dizi-4",
+        "actionId": "act.dizi-4"
+      },
+      {
+        "clipId": "act.spusti-4",
+        "actionId": "act.spusti-4"
+      }
+    ],
+    "uzetom-vezi": [
+      {
+        "clipId": "act.uzetom-vezi",
+        "actionId": "act.uzetom-vezi"
+      }
+    ],
+    "u-vodu": [
+      {
+        "clipId": "act.u-vodu",
+        "actionId": "act.u-vodu"
+      }
+    ],
+    "gotovo": [
+      {
+        "clipId": "gotovo"
+      },
+      {
+        "clipId": "act.gotovo",
+        "actionId": "act.gotovo"
+      },
+      {
+        "clipId": "gotovo-2"
+      }
+    ],
+    "vodu-daj-2": [
+      {
+        "clipId": "act.prvi-mlaz-vodu-daj-2",
+        "actionId": "act.prvi-mlaz-vodu-daj-2"
+      }
+    ],
+    "vodom-stoj": [
+      {
+        "clipId": "vodom-stoj"
+      },
+      {
+        "clipId": "act.vodom-stoj",
+        "actionId": "act.vodom-stoj"
+      }
+    ],
+    "zatvaranje-posprema": [
+      {
+        "clipId": "act.posprema",
+        "actionId": "act.posprema"
+      }
+    ],
+    "oprema-u-vozilo": [
+      {
+        "clipId": "act.opremu-uzmi",
+        "actionId": "act.opremu-uzmi"
+      },
+      {
+        "clipId": "act.s-opremom-naprijed",
+        "actionId": "act.s-opremom-naprijed"
+      },
+      {
+        "clipId": "act.stoj",
+        "actionId": "act.stoj"
+      },
+      {
+        "clipId": "act.opremu-odlozi",
+        "actionId": "act.opremu-odlozi"
+      }
+    ],
+    "iz-vode": [
+      {
+        "clipId": "iz-vode"
+      },
+      {
+        "clipId": "act.iz-vode",
+        "actionId": "act.iz-vode"
+      }
+    ],
+    "rastavljanje-4": [
+      {
+        "clipId": "act.dizi-spusti-r1",
+        "actionId": "act.dizi-spusti-r1"
+      }
+    ],
+    "rastavljanje-3": [
+      {
+        "clipId": "act.dizi-spusti-r2",
+        "actionId": "act.dizi-spusti-r2"
+      }
+    ],
+    "rastavljanje-2": [
+      {
+        "clipId": "act.dizi-spusti-r3",
+        "actionId": "act.dizi-spusti-r3"
+      }
+    ],
+    "rastavljanje-sitke": [
+      {
+        "clipId": "act.dizi-spusti-r4",
+        "actionId": "act.dizi-spusti-r4"
+      }
+    ],
+    "u-stroj": [
+      {
+        "clipId": "u-stroj"
+      }
+    ],
+    "stroj-prijavak": [
+      {
+        "clipId": "act.na-svoje-mjesto",
+        "actionId": "act.na-svoje-mjesto"
+      },
+      {
+        "clipId": "act.na-zapovijed",
+        "actionId": "act.na-zapovijed"
+      },
+      {
+        "clipId": "act.odmor-ili-otpust",
+        "actionId": "act.odmor-ili-otpust"
+      }
+    ]
+  }
+}
