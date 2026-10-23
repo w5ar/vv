@@ -121,3 +121,26 @@ test('demonstration offers sound modes and explains how to generate missing clip
   await expect(mode.locator('option[value="zapovijedi"]')).toHaveJSProperty('disabled', true);
   await expect(mode.locator('option[value="zapovijedi-opis"]')).toHaveJSProperty('disabled', true);
 });
+
+test('Vježba 3 demonstration carries the joined suction line into the water and back', async ({ page }) => {
+  const errors: string[] = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  await page.goto('#/demonstracija/vjezba-3-usisne-cijevi');
+  await expect(page.getByTestId('object-mvp')).toBeVisible();
+  const range = page.getByTestId('timeline-range');
+  await range.fill((await range.getAttribute('max')) ?? '0');
+  await expect(page.getByTestId('demo-complete')).toBeVisible();
+  await expect(page.getByTestId('progress-label')).toContainText('59 / 59');
+  expect(errors).toEqual([]);
+});
+
+test('Vježba 3 training: suction hoses are joined only while they are lifted', async ({ page }) => {
+  await page.goto('#/vjezbanje/vjezba-3-usisne-cijevi');
+  await expect(page.getByTestId('object-u1')).toBeVisible();
+  const feedback = page.getByTestId('feedback');
+  // Both hoses lie on the ground next to each other at the pump: joining them there is rejected.
+  await page.getByTestId('port-u1-kraj-1').click();
+  await page.getByTestId('port-u2-kraj-1').click();
+  await expect(feedback).toHaveAttribute('data-accepted', 'false');
+  await expect(feedback).toContainText('ne smije se obaviti na tlu');
+});

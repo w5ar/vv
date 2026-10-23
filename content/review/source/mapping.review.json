@@ -14,10 +14,6 @@
       "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
     },
     {
-      "file": "03-Vjezba-3.md",
-      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
-    },
-    {
       "file": "04-Vjezba-4.md",
       "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
     },
@@ -102,6 +98,58 @@
     {
       "candidateId": "02-vjezba-2#2-3-2-vjezba-2-vjezba-s-jednim-c-mlazom-vode-tri-vatrogasca/p5",
       "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
+    },
+    {
+      "candidateId": "03-vjezba-3#2-4-1-vjezba-3-vjezba-s-usisnim-cijevima-5-vatrogasaca/p1",
+      "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
+    },
+    {
+      "candidateId": "03-vjezba-3#2-4-1-vjezba-3-vjezba-s-usisnim-cijevima-5-vatrogasaca/p2",
+      "reason": "Uvod u popis opreme; oprema je u početnoj sceni, a količine se provjeravaju u fazi F."
+    },
+    {
+      "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p1",
+      "reason": "Opći opis spajanja; radnje su u koracima spoj-sitka i spoj-2 … spoj-4 (navedeno kao dodatni izvor)."
+    },
+    {
+      "candidateId": "03-vjezba-3#spajanje-usisnog-voda/l1",
+      "reason": "Pravilo položaja člana cijevne grupe pri pridržavanju; položaji u simulatoru su shematski i ne provjeravaju se."
+    },
+    {
+      "candidateId": "03-vjezba-3#spajanje-usisnog-voda/l2",
+      "reason": "Dopuštena radnja člana cijevne grupe (namještanje spojnice); ne mijenja stanje simulacije."
+    },
+    {
+      "candidateId": "03-vjezba-3#spajanje-usisnog-voda/l3",
+      "reason": "Zabrana za člana cijevne grupe (ne dirati sljedeću cijev); simulator je ne provjerava."
+    },
+    {
+      "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p8",
+      "reason": "Način zatezanja (ključ u desnoj ruci); spoj se u simulatoru bilježi kao jedna radnja spajanja (dodatni izvor koraka spoj-2 … spoj-4)."
+    },
+    {
+      "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p9",
+      "reason": "Zapovijed „Diži – spusti” modelirana je u koracima spoj-sitka i spoj-2 … spoj-4 (dodatni izvor)."
+    },
+    {
+      "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p10",
+      "reason": "Zapovijed za slučaj da se spojnica rastavi; simulator ne modelira slučajno rastavljanje spojnice."
+    },
+    {
+      "candidateId": "03-vjezba-3#vezivanje-usisnog-voda/p3",
+      "reason": "Dopuštena, neobvezna radnja (C₁ može podići sitku); nije dio demonstracije."
+    },
+    {
+      "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p11",
+      "reason": "Dopuštena mogućnost strojara i zahtjev na izvedbu (zategnuto uže); ne mijenja stanje simulacije."
+    },
+    {
+      "candidateId": "03-vjezba-3#pospremanje-opreme/p1",
+      "reason": "Uvodna rečenica; radnje rastavljanja opisane su u sljedećim odlomcima (dodatni izvor koraka iz-vode)."
+    },
+    {
+      "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p2",
+      "reason": "Strojar već drži kraj četvrte cijevi (korak strojar-podize); odlomak je dodatni izvor koraka prenosenje."
     }
   ]
 }

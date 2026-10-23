@@ -1,0 +1,833 @@
+{
+  "schemaVersion": 1,
+  "exerciseId": "vjezba-3-usisne-cijevi",
+  "synthetic": false,
+  "clips": [
+    {
+      "id": "act.cetiri-usisne",
+      "voice": "zapovijed",
+      "text": "Četiri usisne cijevi",
+      "hash": "062ccfd6792aeb"
+    },
+    {
+      "id": "zapovijed",
+      "voice": "opis",
+      "text": "Strojar (S) zapovijeda:",
+      "hash": "05664f938d1ec2"
+    },
+    {
+      "id": "zapovijed-2",
+      "voice": "opis",
+      "text": "i istovremeno uzima dvije torbice s užadima pod lijevu ruku, dva ključa koja leže kraj usisne sitke u lijevu ruku i usisnu sitku u desnu ruku. Tako opremljen kreće prema mjestu gdje će se spajati usisna sitka s usisnim cijevima.",
+      "hash": "0445d0a0be1590"
+    },
+    {
+      "id": "strojar-oprema",
+      "voice": "opis",
+      "text": "Strojar (S) zapovijeda: „Četiri usisne cijevi” i istovremeno uzima dvije torbice s užadima pod lijevu ruku, dva ključa koja leže kraj usisne sitke u lijevu ruku i usisnu sitku u desnu ruku. Tako opremljen kreće prema mjestu gdje će se spajati usisna sitka s usisnim cijevima.",
+      "hash": "0017090de9253a"
+    },
+    {
+      "id": "vodna-uzimanje",
+      "voice": "opis",
+      "text": "Vodna grupa (V1 i V2) uzima usisne cijevi koje leže s desne strane MVP gledano u smjeru požara. Pri uzimanju usisnih cijevi oba su okrenuta prema crpilištu vode i stoje između usisnih cijevi tako da je V1 ispred V2.",
+      "hash": "1ab1e301897328"
+    },
+    {
+      "id": "vodna-polaganje",
+      "voice": "opis",
+      "text": "Polaganje usisnih cijevi obavlja se prema crpilištu vode jedna iza druge. Pritom V1 ide naprijed, a V2 iza njega i svaki od njih drži po jednu spojnicu usisne cijevi u svakoj ruci. Polažu cijevi u produžetku usisne cijevi, koja je ostala na zemlji pokraj motorne pumpe s lijeve strane. Prvo odlažu usisnu cijev, koju nose u lijevoj ruci, zatim odlažu drugu usisnu cijev, koju nose u desnoj ruci, iza prethodno odložene cijevi krećući se prema crpilištu.",
+      "hash": "02c32c550997ab"
+    },
+    {
+      "id": "cijevna-polaganje",
+      "voice": "opis",
+      "text": "Cijevna grupa (C1, C2) diže samo onu usisnu cijev koja leži bliže MVP s lijeve strane i polaže je u produžetku usisne cijevi, koja je ostala na zemlji, prema požaru. Pritom se C2 natraške povlači za duljinu cijevi, a C1 ga slijedi licem u lice. C1 svoj kraj cijevi drži desnom rukom, a C2 može nositi cijev lijevom ili desnom rukom.",
+      "hash": "05527e0d2e0b7d"
+    },
+    {
+      "id": "cijevna-prva-cijev",
+      "voice": "opis",
+      "text": "Kada su sve usisne cijevi položene, spajanje se obavlja na sljedeći način: C1 i C2 odlaze do prve usisne cijevi najbliže crpilištu. Istovremeno prekorače usisnu cijev, gledajući prema crpilištu, pri čemu C1 stoji bliže, a C2 dalje od crpilišta i, tako postavljeni, podignu usisnu cijev.",
+      "hash": "145010d494deb9"
+    },
+    {
+      "id": "v1-sitka",
+      "voice": "opis",
+      "text": "Istovremeno V1 uzima od strojara usisnu sitku i postavi se nasuprot C1, gledajući prema požaru.",
+      "hash": "1cd823a64b502b"
+    },
+    {
+      "id": "act.dizi-spusti-1",
+      "voice": "zapovijed",
+      "text": "Diži – spusti",
+      "hash": "11c3f323649e59"
+    },
+    {
+      "id": "spoj-sitka",
+      "voice": "opis",
+      "text": "V1 i C1 tako postavljeni spajaju usisnu sitku i usisnu cijev rukama. Tada strojar (S) predaje V1 i C1 po jedan ključ. Strojar stoji s desne strane prve cijevi, gledajući prema usisnim cijevima. Spojenu usisnu sitku i prvu cijev odlažu na tlo, a ključeve zadržavaju kod sebe.",
+      "hash": "1a59803c87ca47"
+    },
+    {
+      "id": "v2-torbice",
+      "voice": "opis",
+      "text": "V2 u međuvremenu preuzima torbice s užetima od strojara (S) i odlaže ih lijevo i desno, nedaleko od usisne sitke, te se postavi iza V1 (slika 20, skica 22).",
+      "hash": "0d780a63297b6c"
+    },
+    {
+      "id": "prijelaz-2",
+      "voice": "opis",
+      "text": "Nakon prvog spajanja i odlaganja cijevi na tlo, cijevna grupa iskoračuje korak u lijevo i na lijevoj nozi čine okret čelom nazad. Vodna grupa iskorači u desno od usisnog voda, i obje grupe kreću do sljedećih spojnica. Potom vodna grupa načini korak u lijevo i lijevom nogom prekorači cijev, a cijevna grupa, okrećući se na lijevoj nozi, okrene se čelom nazad i desnom nogom prekorači drugu usisnu cijev.",
+      "hash": "04d38c45530f8a"
+    },
+    {
+      "id": "act.dizi-spusti-2",
+      "voice": "zapovijed",
+      "text": "Diži – spusti",
+      "hash": "11c3f323649e59"
+    },
+    {
+      "id": "spoj-2",
+      "voice": "opis",
+      "text": "Tako postavljena vodna i cijevna grupa, jedna nasuprot druge, podižu usisne cijevi do visine na kojoj ih spajaju. V1 i C1 ponove radnju spajanja, a V2 i C2 za to vrijeme pridržavaju samo one cijevi koje se spajaju. Prilikom spajanja usisnih cijevi vodna i cijevna grupa mora biti u raskoraku iznad usisnih cijevi.",
+      "hash": "02c67ffc82e479"
+    },
+    {
+      "id": "prijelaz-3",
+      "voice": "opis",
+      "text": "Nakon prvog spajanja i odlaganja cijevi na tlo, cijevna grupa iskoračuje korak u lijevo i na lijevoj nozi čine okret čelom nazad. Vodna grupa iskorači u desno od usisnog voda, i obje grupe kreću do sljedećih spojnica. Potom vodna grupa načini korak u lijevo i lijevom nogom prekorači cijev, a cijevna grupa, okrećući se na lijevoj nozi, okrene se čelom nazad i desnom nogom prekorači drugu usisnu cijev.",
+      "hash": "04d38c45530f8a"
+    },
+    {
+      "id": "act.dizi-spusti-3",
+      "voice": "zapovijed",
+      "text": "Diži – spusti",
+      "hash": "11c3f323649e59"
+    },
+    {
+      "id": "spoj-3",
+      "voice": "opis",
+      "text": "Tako postavljena vodna i cijevna grupa, jedna nasuprot druge, podižu usisne cijevi do visine na kojoj ih spajaju. V1 i C1 ponove radnju spajanja, a V2 i C2 za to vrijeme pridržavaju samo one cijevi koje se spajaju. Prilikom spajanja usisnih cijevi vodna i cijevna grupa mora biti u raskoraku iznad usisnih cijevi.",
+      "hash": "02c67ffc82e479"
+    },
+    {
+      "id": "prijelaz-4",
+      "voice": "opis",
+      "text": "Nakon prvog spajanja i odlaganja cijevi na tlo, cijevna grupa iskoračuje korak u lijevo i na lijevoj nozi čine okret čelom nazad. Vodna grupa iskorači u desno od usisnog voda, i obje grupe kreću do sljedećih spojnica. Potom vodna grupa načini korak u lijevo i lijevom nogom prekorači cijev, a cijevna grupa, okrećući se na lijevoj nozi, okrene se čelom nazad i desnom nogom prekorači drugu usisnu cijev.",
+      "hash": "04d38c45530f8a"
+    },
+    {
+      "id": "act.dizi-spusti-4",
+      "voice": "zapovijed",
+      "text": "Diži – spusti",
+      "hash": "11c3f323649e59"
+    },
+    {
+      "id": "spoj-4",
+      "voice": "opis",
+      "text": "Tako postavljena vodna i cijevna grupa, jedna nasuprot druge, podižu usisne cijevi do visine na kojoj ih spajaju. V1 i C1 ponove radnju spajanja, a V2 i C2 za to vrijeme pridržavaju samo one cijevi koje se spajaju. Prilikom spajanja usisnih cijevi vodna i cijevna grupa mora biti u raskoraku iznad usisnih cijevi.",
+      "hash": "02c67ffc82e479"
+    },
+    {
+      "id": "kljuc-c2",
+      "voice": "opis",
+      "text": "Kada su sve spojnice usisnog voda spojene, V1 predaje ključ C2. Pri tome nije dopušteno dobacivanje ili ispuštanje ključa na tlo. C1 nakon završetka spajanja usisnog voda zadržava ključ kod sebe (i C1 i C2 ključeve stavljaju za opasač).",
+      "hash": "15838a50e2930a"
+    },
+    {
+      "id": "act.uzetom-vezi",
+      "voice": "zapovijed",
+      "text": "Užetom veži!",
+      "hash": "10069c60053e07"
+    },
+    {
+      "id": "uzetom-vezi",
+      "voice": "opis",
+      "text": "Kada je usisni vod potpuno spojen, strojar izdaje zapovijed:",
+      "hash": "1205f3be84c665"
+    },
+    {
+      "id": "c1-ventil",
+      "voice": "opis",
+      "text": "C1 odlazi do usisne sitke i uzima torbicu s užetom koju zakvači na kariku nepovratnog ventila.",
+      "hash": "03877b9680cbd4"
+    },
+    {
+      "id": "v2-podize",
+      "voice": "opis",
+      "text": "V2 prelazi na lijevu stranu usisnog voda i umjereno podigne na sredini drugu cijev usisnog voda, gledajući prema crpilištu.",
+      "hash": "0f924261d6bd54"
+    },
+    {
+      "id": "strojar-podize",
+      "voice": "opis",
+      "text": "Strojar uhvati za zadnju spojnicu na četvrtoj usisnoj cijevi i umjereno je podigne.",
+      "hash": "15280e837906c3"
+    },
+    {
+      "id": "v1-vezanje",
+      "voice": "opis",
+      "text": "V1 odlazi po desnoj strani usisnog voda do usisne sitke, uzima torbicu s užetom za vezanje usisnog voda i stavlja karabin na kariku usisne sitke, a zatim pravi omču ispred (oko 10 cm) svake spojnice tako da usisni vod stvara blagu liniju u obliku slova „S”. Tijekom vezanja usisnog voda C2 ne obavlja nikakve radnje stojeći između C1 i V2 s lijeve strane usisnog voda (skica 24, slika 22).",
+      "hash": "00c13824dea197"
+    },
+    {
+      "id": "act.u-vodu",
+      "voice": "zapovijed",
+      "text": "Usisni vod u vodu!",
+      "hash": "1255f9b780d4e8"
+    },
+    {
+      "id": "u-vodu",
+      "voice": "opis",
+      "text": "Nakon što je V1 vezao omču kod zadnjeg spoja usisnog voda, strojar izdaje zapovijed:",
+      "hash": "0e59efa8b483fd"
+    },
+    {
+      "id": "prihvat-v1",
+      "voice": "opis",
+      "text": "V1 prima spojnicu između treće i četvrte usisne cijevi, barem jednom rukom, i drži uže kojim je vezao usisni vod.",
+      "hash": "01781d708cb811"
+    },
+    {
+      "id": "prihvat-ostali",
+      "voice": "opis",
+      "text": "V2 s obje ruke prima spoj između druge i treće usisne cijevi, C2 s obje ruke prima spoj između prve i druge usisne cijevi, a C1 s obje ruke prima za spoj usisne sitke i prve cijevi.",
+      "hash": "09f56d892f6b69"
+    },
+    {
+      "id": "prenosenje",
+      "voice": "opis",
+      "text": "Tako strojar, vodna i cijevna grupa prenose spojeni usisni vod u vodu, odnosno do ravnine usisnog otvora MVP (skica 25, slika 23).",
+      "hash": "183b1b233e5387"
+    },
+    {
+      "id": "v2-pomaze",
+      "voice": "opis",
+      "text": "Pri spajanju usisnog voda na MVP, strojaru pomaže V2. Strojar mora desnom nogom prekoračiti preko usisnog voda. V2 mora prekoračiti preko treće usisne cijevi. V2, prilikom pridržavanja usisnog voda, strojaru mora primiti za cijev koju strojar spaja ili za četvrti par spojnica usisnog voda.",
+      "hash": "04a21680535c9c"
+    },
+    {
+      "id": "spoj-mvp",
+      "voice": "opis",
+      "text": "Strojar spaja usisni vod na usisni otvor MVP rukama, upotrijebivši nakon toga treći ključ koji je ležao ispod usisnog otvora.",
+      "hash": "08f165e7d51d74"
+    },
+    {
+      "id": "v1-rucica",
+      "voice": "opis",
+      "text": "V1, istovremeno sa spajanjem usisnog voda na MVP, postavlja uže ispod „B” tlačnog cijevnog voda i veže ga za prvu desnu ručicu MVP.",
+      "hash": "126ef53587afa3"
+    },
+    {
+      "id": "c1-uze-mvp",
+      "voice": "opis",
+      "text": "C1, pošto je zakvačio uže za kariku nepovratnog ventila i položio usisnu sitku, uže vuče iz torbice do ravnine MVP (skica 26, slika 24).",
+      "hash": "04b36c03dde3a2"
+    },
+    {
+      "id": "act.gotovo",
+      "voice": "zapovijed",
+      "text": "Gotovo!",
+      "hash": "0bb3d9f76c7717"
+    },
+    {
+      "id": "gotovo",
+      "voice": "opis",
+      "text": "Čim je strojar usisni vod spojio na MVP i stavio ključ na spojnicu, zapovijeda:",
+      "hash": "166bb1ac3801fd"
+    },
+    {
+      "id": "act.iz-vode",
+      "voice": "zapovijed",
+      "text": "Usisni vod iz vode!",
+      "hash": "11a10d57c3b649"
+    },
+    {
+      "id": "iz-vode",
+      "voice": "opis",
+      "text": "Na zapovijed strojara:",
+      "hash": "12a1ad8ca61d6e"
+    },
+    {
+      "id": "iz-vode-2",
+      "voice": "opis",
+      "text": "vođa vodne grupe (V1) razvezuje uže usisnog voda s prve desne ručice MVP, vođa cijevne grupe (C1) uzima kraj užeta za vezanje povratnog ventila i stavlja ga u torbicu odlazeći do usisne sitke, dok strojar uzima jedan ključ za spojnice i u raskoračnom stavu rastavlja usisni vod kod MVP. Iza njega, u raskoračnom stavu, nalazi se član vodne grupe (V2), koji pridržava usisni vod. Strojar, poslije rastavljanja usisnog voda, ostavlja ključ za spojnice na zemlju. Kada je usisni vod rastavljen od motorne pumpe, strojar uhvati njegovu slobodnu spojnicu.",
+      "hash": "1d928e01eed087"
+    },
+    {
+      "id": "v1-razvezuje",
+      "voice": "opis",
+      "text": "Na zapovijed strojara: „Usisni vod iz vode!”, vođa vodne grupe (V1) razvezuje uže usisnog voda s prve desne ručice MVP, vođa cijevne grupe (C1) uzima kraj užeta za vezanje povratnog ventila i stavlja ga u torbicu odlazeći do usisne sitke, dok strojar uzima jedan ključ za spojnice i u raskoračnom stavu rastavlja usisni vod kod MVP. Iza njega, u raskoračnom stavu, nalazi se član vodne grupe (V2), koji pridržava usisni vod. Strojar, poslije rastavljanja usisnog voda, ostavlja ključ za spojnice na zemlju. Kada je usisni vod rastavljen od motorne pumpe, strojar uhvati njegovu slobodnu spojnicu.",
+      "hash": "01475456f5122b"
+    },
+    {
+      "id": "c1-uze-sitka",
+      "voice": "opis",
+      "text": "Na zapovijed strojara: „Usisni vod iz vode!”, vođa vodne grupe (V1) razvezuje uže usisnog voda s prve desne ručice MVP, vođa cijevne grupe (C1) uzima kraj užeta za vezanje povratnog ventila i stavlja ga u torbicu odlazeći do usisne sitke, dok strojar uzima jedan ključ za spojnice i u raskoračnom stavu rastavlja usisni vod kod MVP. Iza njega, u raskoračnom stavu, nalazi se član vodne grupe (V2), koji pridržava usisni vod. Strojar, poslije rastavljanja usisnog voda, ostavlja ključ za spojnice na zemlju. Kada je usisni vod rastavljen od motorne pumpe, strojar uhvati njegovu slobodnu spojnicu.",
+      "hash": "01475456f5122b"
+    },
+    {
+      "id": "strojar-rastavlja-mvp",
+      "voice": "opis",
+      "text": "Na zapovijed strojara: „Usisni vod iz vode!”, vođa vodne grupe (V1) razvezuje uže usisnog voda s prve desne ručice MVP, vođa cijevne grupe (C1) uzima kraj užeta za vezanje povratnog ventila i stavlja ga u torbicu odlazeći do usisne sitke, dok strojar uzima jedan ključ za spojnice i u raskoračnom stavu rastavlja usisni vod kod MVP. Iza njega, u raskoračnom stavu, nalazi se član vodne grupe (V2), koji pridržava usisni vod. Strojar, poslije rastavljanja usisnog voda, ostavlja ključ za spojnice na zemlju. Kada je usisni vod rastavljen od motorne pumpe, strojar uhvati njegovu slobodnu spojnicu.",
+      "hash": "01475456f5122b"
+    },
+    {
+      "id": "v1-prvi-spoj",
+      "voice": "opis",
+      "text": "Vođa vodne grupe (V1), s užetom u ruci, odlazi do prvog spoja kod strojara i hvata usisni vod s desne strane, gledajući prema usisnoj sitki.",
+      "hash": "10b4367e3a6220"
+    },
+    {
+      "id": "v2-drugi-spoj",
+      "voice": "opis",
+      "text": "V2 prilazi usisnom vodu i hvata ga kod drugog spoja.",
+      "hash": "07e76163314952"
+    },
+    {
+      "id": "c2-treci-spoj",
+      "voice": "opis",
+      "text": "C2 prilazi usisnom vodu i hvata ga kod trećeg spoja.",
+      "hash": "0837e0cbff43d7"
+    },
+    {
+      "id": "c1-sitka",
+      "voice": "opis",
+      "text": "C1 odlazi i hvata usisnu sitku.",
+      "hash": "03988d61aabcef"
+    },
+    {
+      "id": "odnosenje",
+      "voice": "opis",
+      "text": "Članovi V2, C2 i C1 nalaze se s lijeve strane usisnog voda i okrenuti su u pravcu crpilišta vode. Nakon toga svi zajedno odnose usisni vod do mjesta odakle je donesen do vode, tj. treća usisna cijev mora doći u ravninu s MVP. Prije spuštanja usisnog voda na zemlju, vođa vodne grupe skida uže s usisnog voda. Kada je to završio, skida karabin užeta usisnog voda s karike usisne sitke i ostavlja ga na zemlji.",
+      "hash": "0f89fd44f6d36f"
+    },
+    {
+      "id": "v1-skida-uze",
+      "voice": "opis",
+      "text": "Članovi V2, C2 i C1 nalaze se s lijeve strane usisnog voda i okrenuti su u pravcu crpilišta vode. Nakon toga svi zajedno odnose usisni vod do mjesta odakle je donesen do vode, tj. treća usisna cijev mora doći u ravninu s MVP. Prije spuštanja usisnog voda na zemlju, vođa vodne grupe skida uže s usisnog voda. Kada je to završio, skida karabin užeta usisnog voda s karike usisne sitke i ostavlja ga na zemlji.",
+      "hash": "0f89fd44f6d36f"
+    },
+    {
+      "id": "c1-skida-karabin",
+      "voice": "opis",
+      "text": "C1 skida karabin užeta s karike nepovratnog ventila na usisnoj sitki i stavlja torbicu na zemlju.",
+      "hash": "1367fa44e6c0c3"
+    },
+    {
+      "id": "spustanje",
+      "voice": "opis",
+      "text": "Kada je užad skinuta, usisni se vod spušta na zemlju. Nakon toga, članovi vodne i cijevne grupe postavljaju se u položaj za rastavljanje usisnog voda, i to:",
+      "hash": "17452e44495571"
+    },
+    {
+      "id": "c1-polozaj",
+      "voice": "opis",
+      "text": "C1 staje u raskoračnom stavu kod prvog spoja od slobodne spojnice, gledajući prema usisnoj sitki,",
+      "hash": "0e9fe5319defb3"
+    },
+    {
+      "id": "v1-polozaj",
+      "voice": "opis",
+      "text": "V1 staje u raskoračni stav kod istog spoja, licem okrenut prema vođi cijevne grupe,",
+      "hash": "14427bbcf56db1"
+    },
+    {
+      "id": "v2-c2-polozaj",
+      "voice": "opis",
+      "text": "V2, C2 stoje u raskoračnom stavu iza svojih vođa grupa,",
+      "hash": "1b8d46476bfb6b"
+    },
+    {
+      "id": "strojar-polozaj",
+      "voice": "opis",
+      "text": "Strojar stoji na istom mjestu gdje je stajao prilikom spajanja usisnog voda.",
+      "hash": "05b568a6a4026c"
+    },
+    {
+      "id": "kljuc-v1",
+      "voice": "opis",
+      "text": "U tijeku rastavljanja usisne sitke od usisnog voda, strojar prilazi mjestu gdje se obavlja rastavljanje usisne sitke, preuzima lijevom rukom od vođe cijevne grupe (C1) jedan, a od vođe vodne grupe (V1) drugi ključ za spojnice i oba ključa drži u lijevoj ruci.",
+      "hash": "00419742a5f733"
+    },
+    {
+      "id": "act.dizi-spusti-r1",
+      "voice": "zapovijed",
+      "text": "Diži – spusti!",
+      "hash": "1254e5ec47db2d"
+    },
+    {
+      "id": "rastavljanje-4",
+      "voice": "opis",
+      "text": "Usisni vod rastavlja se obrnutim redoslijedom od spajanja. Na zapovijed strojara:",
+      "hash": "0c3bac7af3fabf"
+    },
+    {
+      "id": "rastavljanje-4-2",
+      "voice": "opis",
+      "text": "članovi vodne i cijevne grupe rastavljaju usisni vod ključevima za spojnice i to desnom rukom, tako da je ključ na suprotnim spojnicama. Prilikom prelaženja od spoja do spoja usisnog voda, vodna grupa se okreće čelom nazad, onako kako je to radila cijevna grupa prilikom spajanja usisnog voda, a cijevna grupa (C1, C2) iskoračuju desnom nogom u desnu stranu kako je to radila vodna grupa prilikom spajanja cijevnog voda.",
+      "hash": "13ff713c567026"
+    },
+    {
+      "id": "prijelaz-r2",
+      "voice": "opis",
+      "text": "Usisni vod rastavlja se obrnutim redoslijedom od spajanja. Na zapovijed strojara: „Diži – spusti!” članovi vodne i cijevne grupe rastavljaju usisni vod ključevima za spojnice i to desnom rukom, tako da je ključ na suprotnim spojnicama. Prilikom prelaženja od spoja do spoja usisnog voda, vodna grupa se okreće čelom nazad, onako kako je to radila cijevna grupa prilikom spajanja usisnog voda, a cijevna grupa (C1, C2) iskoračuju desnom nogom u desnu stranu kako je to radila vodna grupa prilikom spajanja cijevnog voda.",
+      "hash": "189c5e2149e831"
+    },
+    {
+      "id": "act.dizi-spusti-r2",
+      "voice": "zapovijed",
+      "text": "Diži – spusti!",
+      "hash": "1254e5ec47db2d"
+    },
+    {
+      "id": "rastavljanje-3",
+      "voice": "opis",
+      "text": "Usisni vod rastavlja se obrnutim redoslijedom od spajanja. Na zapovijed strojara:",
+      "hash": "0c3bac7af3fabf"
+    },
+    {
+      "id": "rastavljanje-3-2",
+      "voice": "opis",
+      "text": "članovi vodne i cijevne grupe rastavljaju usisni vod ključevima za spojnice i to desnom rukom, tako da je ključ na suprotnim spojnicama. Prilikom prelaženja od spoja do spoja usisnog voda, vodna grupa se okreće čelom nazad, onako kako je to radila cijevna grupa prilikom spajanja usisnog voda, a cijevna grupa (C1, C2) iskoračuju desnom nogom u desnu stranu kako je to radila vodna grupa prilikom spajanja cijevnog voda.",
+      "hash": "13ff713c567026"
+    },
+    {
+      "id": "prijelaz-r3",
+      "voice": "opis",
+      "text": "Usisni vod rastavlja se obrnutim redoslijedom od spajanja. Na zapovijed strojara: „Diži – spusti!” članovi vodne i cijevne grupe rastavljaju usisni vod ključevima za spojnice i to desnom rukom, tako da je ključ na suprotnim spojnicama. Prilikom prelaženja od spoja do spoja usisnog voda, vodna grupa se okreće čelom nazad, onako kako je to radila cijevna grupa prilikom spajanja usisnog voda, a cijevna grupa (C1, C2) iskoračuju desnom nogom u desnu stranu kako je to radila vodna grupa prilikom spajanja cijevnog voda.",
+      "hash": "189c5e2149e831"
+    },
+    {
+      "id": "act.dizi-spusti-r3",
+      "voice": "zapovijed",
+      "text": "Diži – spusti!",
+      "hash": "1254e5ec47db2d"
+    },
+    {
+      "id": "rastavljanje-2",
+      "voice": "opis",
+      "text": "Usisni vod rastavlja se obrnutim redoslijedom od spajanja. Na zapovijed strojara:",
+      "hash": "0c3bac7af3fabf"
+    },
+    {
+      "id": "rastavljanje-2-2",
+      "voice": "opis",
+      "text": "članovi vodne i cijevne grupe rastavljaju usisni vod ključevima za spojnice i to desnom rukom, tako da je ključ na suprotnim spojnicama. Prilikom prelaženja od spoja do spoja usisnog voda, vodna grupa se okreće čelom nazad, onako kako je to radila cijevna grupa prilikom spajanja usisnog voda, a cijevna grupa (C1, C2) iskoračuju desnom nogom u desnu stranu kako je to radila vodna grupa prilikom spajanja cijevnog voda.",
+      "hash": "13ff713c567026"
+    },
+    {
+      "id": "prijelaz-r4",
+      "voice": "opis",
+      "text": "Usisni vod rastavlja se obrnutim redoslijedom od spajanja. Na zapovijed strojara: „Diži – spusti!” članovi vodne i cijevne grupe rastavljaju usisni vod ključevima za spojnice i to desnom rukom, tako da je ključ na suprotnim spojnicama. Prilikom prelaženja od spoja do spoja usisnog voda, vodna grupa se okreće čelom nazad, onako kako je to radila cijevna grupa prilikom spajanja usisnog voda, a cijevna grupa (C1, C2) iskoračuju desnom nogom u desnu stranu kako je to radila vodna grupa prilikom spajanja cijevnog voda.",
+      "hash": "189c5e2149e831"
+    },
+    {
+      "id": "act.dizi-spusti-r4",
+      "voice": "zapovijed",
+      "text": "Diži – spusti!",
+      "hash": "1254e5ec47db2d"
+    },
+    {
+      "id": "rastavljanje-sitke",
+      "voice": "opis",
+      "text": "U tijeku rastavljanja usisne sitke od usisnog voda, strojar prilazi mjestu gdje se obavlja rastavljanje usisne sitke, preuzima lijevom rukom od vođe cijevne grupe (C1) jedan, a od vođe vodne grupe (V1) drugi ključ za spojnice i oba ključa drži u lijevoj ruci.",
+      "hash": "00419742a5f733"
+    },
+    {
+      "id": "sitka-strojaru",
+      "voice": "opis",
+      "text": "V1 zatim predaje strojaru usisnu sitku u desnu ruku (slika 25). Strojar odlazi s primljenom opremom na mjesto odakle je počelo s izvođenjem vježbe, a zatim na svoje mjesto u stroj.",
+      "hash": "0fb412c98b8491"
+    },
+    {
+      "id": "vodna-natrag",
+      "voice": "opis",
+      "text": "Prenošenje usisnih cijevi rastavljenog usisnog voda obavlja se tako da članovi vodne grupe uzimaju sa zemlje prvu usisnu cijev u lijevu, a drugu u desnu ruku i odnose ih s desne strane MVP. Pri nošenju usisnih cijevi, član vodne grupe ide ispred vođe svoje grupe.",
+      "hash": "0272e09b674f5c"
+    },
+    {
+      "id": "cijevna-natrag",
+      "voice": "opis",
+      "text": "Članovi cijevne grupe prenose četvrtu usisnu cijev tako da član te grupe (C2) drži usisnu cijev u desnoj, a vođa u lijevoj ruci, te je stavljaju s unutarnje strane usisne cijevi koja je ostala na zemlji. Pritom su okrenuti licem jedan prema drugom i vođa grupe stoji bliže izvoru.",
+      "hash": "196cc2a76ac62c"
+    },
+    {
+      "id": "uzad-natrag",
+      "voice": "opis",
+      "text": "Nakon što su prenijeli usisne cijevi do MVP, vođa vodne grupe (V1) i vođa cijevne grupe (C2) motaju i stavljaju svaki svoje uže u torbicu koju zatvaraju i stavljaju na mjesto prije izvođenja vježbe.",
+      "hash": "1b44c5cf5e292a"
+    },
+    {
+      "id": "u-stroj",
+      "voice": "opis",
+      "text": "Nakon toga odlaze na svoja mjesta u stroj.",
+      "hash": "012cec5dedca3c"
+    }
+  ],
+  "steps": {
+    "zapovijed": [
+      {
+        "clipId": "zapovijed"
+      },
+      {
+        "clipId": "act.cetiri-usisne",
+        "actionId": "act.cetiri-usisne"
+      },
+      {
+        "clipId": "zapovijed-2"
+      }
+    ],
+    "strojar-oprema": [
+      {
+        "clipId": "strojar-oprema"
+      }
+    ],
+    "vodna-uzimanje": [
+      {
+        "clipId": "vodna-uzimanje"
+      }
+    ],
+    "vodna-polaganje": [
+      {
+        "clipId": "vodna-polaganje"
+      }
+    ],
+    "cijevna-polaganje": [
+      {
+        "clipId": "cijevna-polaganje"
+      }
+    ],
+    "cijevna-prva-cijev": [
+      {
+        "clipId": "cijevna-prva-cijev"
+      }
+    ],
+    "v1-sitka": [
+      {
+        "clipId": "v1-sitka"
+      }
+    ],
+    "spoj-sitka": [
+      {
+        "clipId": "spoj-sitka"
+      },
+      {
+        "clipId": "act.dizi-spusti-1",
+        "actionId": "act.dizi-spusti-1"
+      }
+    ],
+    "v2-torbice": [
+      {
+        "clipId": "v2-torbice"
+      }
+    ],
+    "prijelaz-2": [
+      {
+        "clipId": "prijelaz-2"
+      }
+    ],
+    "spoj-2": [
+      {
+        "clipId": "spoj-2"
+      },
+      {
+        "clipId": "act.dizi-spusti-2",
+        "actionId": "act.dizi-spusti-2"
+      }
+    ],
+    "prijelaz-3": [
+      {
+        "clipId": "prijelaz-3"
+      }
+    ],
+    "spoj-3": [
+      {
+        "clipId": "spoj-3"
+      },
+      {
+        "clipId": "act.dizi-spusti-3",
+        "actionId": "act.dizi-spusti-3"
+      }
+    ],
+    "prijelaz-4": [
+      {
+        "clipId": "prijelaz-4"
+      }
+    ],
+    "spoj-4": [
+      {
+        "clipId": "spoj-4"
+      },
+      {
+        "clipId": "act.dizi-spusti-4",
+        "actionId": "act.dizi-spusti-4"
+      }
+    ],
+    "kljuc-c2": [
+      {
+        "clipId": "kljuc-c2"
+      }
+    ],
+    "uzetom-vezi": [
+      {
+        "clipId": "uzetom-vezi"
+      },
+      {
+        "clipId": "act.uzetom-vezi",
+        "actionId": "act.uzetom-vezi"
+      }
+    ],
+    "c1-ventil": [
+      {
+        "clipId": "c1-ventil"
+      }
+    ],
+    "v2-podize": [
+      {
+        "clipId": "v2-podize"
+      }
+    ],
+    "strojar-podize": [
+      {
+        "clipId": "strojar-podize"
+      }
+    ],
+    "v1-vezanje": [
+      {
+        "clipId": "v1-vezanje"
+      }
+    ],
+    "u-vodu": [
+      {
+        "clipId": "u-vodu"
+      },
+      {
+        "clipId": "act.u-vodu",
+        "actionId": "act.u-vodu"
+      }
+    ],
+    "prihvat-v1": [
+      {
+        "clipId": "prihvat-v1"
+      }
+    ],
+    "prihvat-ostali": [
+      {
+        "clipId": "prihvat-ostali"
+      }
+    ],
+    "prenosenje": [
+      {
+        "clipId": "prenosenje"
+      }
+    ],
+    "v2-pomaze": [
+      {
+        "clipId": "v2-pomaze"
+      }
+    ],
+    "spoj-mvp": [
+      {
+        "clipId": "spoj-mvp"
+      }
+    ],
+    "v1-rucica": [
+      {
+        "clipId": "v1-rucica"
+      }
+    ],
+    "c1-uze-mvp": [
+      {
+        "clipId": "c1-uze-mvp"
+      }
+    ],
+    "gotovo": [
+      {
+        "clipId": "gotovo"
+      },
+      {
+        "clipId": "act.gotovo",
+        "actionId": "act.gotovo"
+      }
+    ],
+    "iz-vode": [
+      {
+        "clipId": "iz-vode"
+      },
+      {
+        "clipId": "act.iz-vode",
+        "actionId": "act.iz-vode"
+      },
+      {
+        "clipId": "iz-vode-2"
+      }
+    ],
+    "v1-razvezuje": [
+      {
+        "clipId": "v1-razvezuje"
+      }
+    ],
+    "c1-uze-sitka": [
+      {
+        "clipId": "c1-uze-sitka"
+      }
+    ],
+    "strojar-rastavlja-mvp": [
+      {
+        "clipId": "strojar-rastavlja-mvp"
+      }
+    ],
+    "v1-prvi-spoj": [
+      {
+        "clipId": "v1-prvi-spoj"
+      }
+    ],
+    "v2-drugi-spoj": [
+      {
+        "clipId": "v2-drugi-spoj"
+      }
+    ],
+    "c2-treci-spoj": [
+      {
+        "clipId": "c2-treci-spoj"
+      }
+    ],
+    "c1-sitka": [
+      {
+        "clipId": "c1-sitka"
+      }
+    ],
+    "odnosenje": [
+      {
+        "clipId": "odnosenje"
+      }
+    ],
+    "v1-skida-uze": [
+      {
+        "clipId": "v1-skida-uze"
+      }
+    ],
+    "c1-skida-karabin": [
+      {
+        "clipId": "c1-skida-karabin"
+      }
+    ],
+    "spustanje": [
+      {
+        "clipId": "spustanje"
+      }
+    ],
+    "c1-polozaj": [
+      {
+        "clipId": "c1-polozaj"
+      }
+    ],
+    "v1-polozaj": [
+      {
+        "clipId": "v1-polozaj"
+      }
+    ],
+    "v2-c2-polozaj": [
+      {
+        "clipId": "v2-c2-polozaj"
+      }
+    ],
+    "strojar-polozaj": [
+      {
+        "clipId": "strojar-polozaj"
+      }
+    ],
+    "kljuc-v1": [
+      {
+        "clipId": "kljuc-v1"
+      }
+    ],
+    "rastavljanje-4": [
+      {
+        "clipId": "rastavljanje-4"
+      },
+      {
+        "clipId": "act.dizi-spusti-r1",
+        "actionId": "act.dizi-spusti-r1"
+      },
+      {
+        "clipId": "rastavljanje-4-2"
+      }
+    ],
+    "prijelaz-r2": [
+      {
+        "clipId": "prijelaz-r2"
+      }
+    ],
+    "rastavljanje-3": [
+      {
+        "clipId": "rastavljanje-3"
+      },
+      {
+        "clipId": "act.dizi-spusti-r2",
+        "actionId": "act.dizi-spusti-r2"
+      },
+      {
+        "clipId": "rastavljanje-3-2"
+      }
+    ],
+    "prijelaz-r3": [
+      {
+        "clipId": "prijelaz-r3"
+      }
+    ],
+    "rastavljanje-2": [
+      {
+        "clipId": "rastavljanje-2"
+      },
+      {
+        "clipId": "act.dizi-spusti-r3",
+        "actionId": "act.dizi-spusti-r3"
+      },
+      {
+        "clipId": "rastavljanje-2-2"
+      }
+    ],
+    "prijelaz-r4": [
+      {
+        "clipId": "prijelaz-r4"
+      }
+    ],
+    "rastavljanje-sitke": [
+      {
+        "clipId": "rastavljanje-sitke"
+      },
+      {
+        "clipId": "act.dizi-spusti-r4",
+        "actionId": "act.dizi-spusti-r4"
+      }
+    ],
+    "sitka-strojaru": [
+      {
+        "clipId": "sitka-strojaru"
+      }
+    ],
+    "vodna-natrag": [
+      {
+        "clipId": "vodna-natrag"
+      }
+    ],
+    "cijevna-natrag": [
+      {
+        "clipId": "cijevna-natrag"
+      }
+    ],
+    "uzad-natrag": [
+      {
+        "clipId": "uzad-natrag"
+      }
+    ],
+    "u-stroj": [
+      {
+        "clipId": "u-stroj"
+      }
+    ]
+  }
+}

@@ -4,7 +4,7 @@
 
 - Izvorni direktorij: `content/source`
 - Datoteka: 282
-- Dijagnostika: 0 grešaka, 48 upozorenja, 261 informacija
+- Dijagnostika: 0 grešaka, 48 upozorenja, 283 informacija
 
 ## A – Popis materijala
 
@@ -2896,61 +2896,61 @@ Naslov: Poligonske vježbe
 | --- | --- | --- | --- | --- | --- |
 | 03-vjezba-3#2-4-1-vjezba-3-vjezba-s-usisnim-cijevima-5-vatrogasaca/p1 | 7 | *Vježbu izvodi odjeljenje od 5 vatrogasaca:* |  |  | ignored |
 | 03-vjezba-3#2-4-1-vjezba-3-vjezba-s-usisnim-cijevima-5-vatrogasaca/p2 | 15 | *Za izvođenje vježbe potrebna je sljedeća vatrogasna oprema:* |  |  | ignored |
-| 03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p1 | 32 | Strojar (S) zapovijeda: **„Četiri usisne cijevi”** i istovremeno uzima dvije torbice s užadima pod lijevu ruku, dva ključa koja leže kraj usisne sitke u lijevu ruku i usisnu sitku u desnu ruku. Tako opremljen kreće prema mjestu gdje će se spajati usisna sitka s usisnim cijevima. | role.strojar | src.strojar, src.usisna-sitka | ignored |
-| 03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p2 | 34 | Vodna grupa (V₁ i V₂) uzima usisne cijevi koje leže s desne strane MVP gledano u smjeru požara. Pri uzimanju usisnih cijevi oba su okrenuta prema crpilištu vode i stoje između usisnih cijevi tako da je V₁ ispred V₂. | role.vodja-vodne, role.clan-vodne |  | ignored |
-| 03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p3 | 36 | Polaganje usisnih cijevi obavlja se prema crpilištu vode jedna iza druge. Pritom V₁ ide naprijed, a V₂ iza njega i svaki od njih drži po jednu spojnicu usisne cijevi u svakoj ruci. Polažu cijevi u produžetku usisne cijevi, koja je ostala na zemlji pokraj motorne pumpe s lijeve strane. Prvo odlažu usisnu cijev, koju nose u lijevoj ruci, zatim odlažu drugu usisnu cijev, koju nose u desnoj ruci, iza prethodno odložene cijevi krećući se prema crpilištu. | role.vodja-vodne, role.clan-vodne |  | ignored |
-| 03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p4 | 38 | Cijevna grupa (C₁, C₂) diže samo onu usisnu cijev koja leži bliže MVP s lijeve strane i polaže je u produžetku usisne cijevi, koja je ostala na zemlji, prema požaru. Pritom se C₂ natraške povlači za duljinu cijevi, a C₁ ga slijedi licem u lice. C₁ svoj kraj cijevi drži desnom rukom, a C₂ može nositi cijev lijevom ili desnom rukom. | role.vodja-cijevne, role.clan-cijevne |  | ignored |
+| 03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p1 | 32 | Strojar (S) zapovijeda: **„Četiri usisne cijevi”** i istovremeno uzima dvije torbice s užadima pod lijevu ruku, dva ključa koja leže kraj usisne sitke u lijevu ruku i usisnu sitku u desnu ruku. Tako opremljen kreće prema mjestu gdje će se spajati usisna sitka s usisnim cijevima. | role.strojar | src.strojar, src.usisna-sitka | mapped |
+| 03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p2 | 34 | Vodna grupa (V₁ i V₂) uzima usisne cijevi koje leže s desne strane MVP gledano u smjeru požara. Pri uzimanju usisnih cijevi oba su okrenuta prema crpilištu vode i stoje između usisnih cijevi tako da je V₁ ispred V₂. | role.vodja-vodne, role.clan-vodne |  | mapped |
+| 03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p3 | 36 | Polaganje usisnih cijevi obavlja se prema crpilištu vode jedna iza druge. Pritom V₁ ide naprijed, a V₂ iza njega i svaki od njih drži po jednu spojnicu usisne cijevi u svakoj ruci. Polažu cijevi u produžetku usisne cijevi, koja je ostala na zemlji pokraj motorne pumpe s lijeve strane. Prvo odlažu usisnu cijev, koju nose u lijevoj ruci, zatim odlažu drugu usisnu cijev, koju nose u desnoj ruci, iza prethodno odložene cijevi krećući se prema crpilištu. | role.vodja-vodne, role.clan-vodne |  | mapped |
+| 03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p4 | 38 | Cijevna grupa (C₁, C₂) diže samo onu usisnu cijev koja leži bliže MVP s lijeve strane i polaže je u produžetku usisne cijevi, koja je ostala na zemlji, prema požaru. Pritom se C₂ natraške povlači za duljinu cijevi, a C₁ ga slijedi licem u lice. C₁ svoj kraj cijevi drži desnom rukom, a C₂ može nositi cijev lijevom ili desnom rukom. | role.vodja-cijevne, role.clan-cijevne |  | mapped |
 | 03-vjezba-3#spajanje-usisnog-voda/p1 | 54 | Spajanje usisnih cijevi obavlja vodna i cijevna grupa počevši od usisne sitke. V₁ i C₁ spajaju spojnice usisne cijevi, a V₂ i C₂ pridržavaju usisne cijevi koje se spajaju. Spajanje usisnih cijevi smije se obavljati na bilo kojoj visini iznad tla, ali tako da cijevi koje se spajaju, niti jednim dijelom ne smiju dodirivati tlo. Cijevi se moraju najprije podići, zatim uzubiti – spojiti i zategnuti ključevima. Niti jedna od tih radnji ne smije se uraditi na zemlji. | role.vodja-vodne, role.clan-vodne, role.vodja-cijevne, role.clan-cijevne |  | ignored |
-| 03-vjezba-3#spajanje-usisnog-voda/p2 | 56 | Kada su sve usisne cijevi položene, spajanje se obavlja na sljedeći način: C₁ i C₂ odlaze do prve usisne cijevi najbliže crpilištu. Istovremeno prekorače usisnu cijev, gledajući prema crpilištu, pri čemu C₁ stoji bliže, a C₂ dalje od crpilišta i, tako postavljeni, podignu usisnu cijev. | role.vodja-cijevne, role.clan-cijevne |  | ignored |
-| 03-vjezba-3#spajanje-usisnog-voda/p3 | 58 | Istovremeno V₁ uzima od strojara usisnu sitku i postavi se nasuprot C₁, gledajući prema požaru. | role.strojar, role.vodja-vodne, role.vodja-cijevne |  | ignored |
-| 03-vjezba-3#spajanje-usisnog-voda/p4 | 60 | V₁ i C₁ tako postavljeni spajaju usisnu sitku i usisnu cijev rukama. Tada strojar (S) predaje V₁ i C₁ po jedan ključ. Strojar stoji s desne strane prve cijevi, gledajući prema usisnim cijevima. Spojenu usisnu sitku i prvu cijev odlažu na tlo, a ključeve zadržavaju kod sebe. | role.strojar, role.vodja-vodne, role.vodja-cijevne | src.strojar | ignored |
-| 03-vjezba-3#spajanje-usisnog-voda/p5 | 62 | V₂ u međuvremenu preuzima torbice s užetima od strojara (S) i odlaže ih lijevo i desno, nedaleko od usisne sitke, te se postavi iza V₁ (slika 20, skica 22). | role.strojar, role.vodja-vodne, role.clan-vodne |  | ignored |
-| 03-vjezba-3#spajanje-usisnog-voda/p6 | 72 | Nakon prvog spajanja i odlaganja cijevi na tlo, cijevna grupa iskoračuje korak u lijevo i na lijevoj nozi čine okret čelom nazad. Vodna grupa iskorači u desno od usisnog voda, i obje grupe kreću do sljedećih spojnica. Potom vodna grupa načini korak u lijevo i lijevom nogom prekorači cijev, a cijevna grupa, okrećući se na lijevoj nozi, okrene se čelom nazad i desnom nogom prekorači drugu usisnu cijev. |  |  | ignored |
-| 03-vjezba-3#spajanje-usisnog-voda/p7 | 74 | Tako postavljena vodna i cijevna grupa, jedna nasuprot druge, podižu usisne cijevi do visine na kojoj ih spajaju. V₁ i C₁ ponove radnju spajanja, a V₂ i C₂ za to vrijeme pridržavaju samo one cijevi koje se spajaju. Prilikom spajanja usisnih cijevi vodna i cijevna grupa mora biti u raskoraku iznad usisnih cijevi. | role.vodja-vodne, role.clan-vodne, role.vodja-cijevne, role.clan-cijevne |  | ignored |
+| 03-vjezba-3#spajanje-usisnog-voda/p2 | 56 | Kada su sve usisne cijevi položene, spajanje se obavlja na sljedeći način: C₁ i C₂ odlaze do prve usisne cijevi najbliže crpilištu. Istovremeno prekorače usisnu cijev, gledajući prema crpilištu, pri čemu C₁ stoji bliže, a C₂ dalje od crpilišta i, tako postavljeni, podignu usisnu cijev. | role.vodja-cijevne, role.clan-cijevne |  | mapped |
+| 03-vjezba-3#spajanje-usisnog-voda/p3 | 58 | Istovremeno V₁ uzima od strojara usisnu sitku i postavi se nasuprot C₁, gledajući prema požaru. | role.strojar, role.vodja-vodne, role.vodja-cijevne |  | mapped |
+| 03-vjezba-3#spajanje-usisnog-voda/p4 | 60 | V₁ i C₁ tako postavljeni spajaju usisnu sitku i usisnu cijev rukama. Tada strojar (S) predaje V₁ i C₁ po jedan ključ. Strojar stoji s desne strane prve cijevi, gledajući prema usisnim cijevima. Spojenu usisnu sitku i prvu cijev odlažu na tlo, a ključeve zadržavaju kod sebe. | role.strojar, role.vodja-vodne, role.vodja-cijevne | src.strojar | mapped |
+| 03-vjezba-3#spajanje-usisnog-voda/p5 | 62 | V₂ u međuvremenu preuzima torbice s užetima od strojara (S) i odlaže ih lijevo i desno, nedaleko od usisne sitke, te se postavi iza V₁ (slika 20, skica 22). | role.strojar, role.vodja-vodne, role.clan-vodne |  | mapped |
+| 03-vjezba-3#spajanje-usisnog-voda/p6 | 72 | Nakon prvog spajanja i odlaganja cijevi na tlo, cijevna grupa iskoračuje korak u lijevo i na lijevoj nozi čine okret čelom nazad. Vodna grupa iskorači u desno od usisnog voda, i obje grupe kreću do sljedećih spojnica. Potom vodna grupa načini korak u lijevo i lijevom nogom prekorači cijev, a cijevna grupa, okrećući se na lijevoj nozi, okrene se čelom nazad i desnom nogom prekorači drugu usisnu cijev. |  |  | mapped |
+| 03-vjezba-3#spajanje-usisnog-voda/p7 | 74 | Tako postavljena vodna i cijevna grupa, jedna nasuprot druge, podižu usisne cijevi do visine na kojoj ih spajaju. V₁ i C₁ ponove radnju spajanja, a V₂ i C₂ za to vrijeme pridržavaju samo one cijevi koje se spajaju. Prilikom spajanja usisnih cijevi vodna i cijevna grupa mora biti u raskoraku iznad usisnih cijevi. | role.vodja-vodne, role.clan-vodne, role.vodja-cijevne, role.clan-cijevne |  | mapped |
 | 03-vjezba-3#spajanje-usisnog-voda/l1 | 76 | C₂ prilikom pridržavanja mora barem jednom nogom stajati u ravnini spojnice usisne cijevi koja se spaja. | role.clan-cijevne |  | ignored |
 | 03-vjezba-3#spajanje-usisnog-voda/l2 | 77 | C₂ je dopušteno namještati spojnicu na cijevi koja se spaja. | role.clan-cijevne |  | ignored |
 | 03-vjezba-3#spajanje-usisnog-voda/l3 | 78 | C₂ ne smije dirati niti privlačiti sljedeću usisnu cijev. | role.clan-cijevne |  | ignored |
 | 03-vjezba-3#spajanje-usisnog-voda/p8 | 80 | Tijekom spajanja, zatezanje spojnice obavlja se ključem u desnoj ruci. |  |  | ignored |
 | 03-vjezba-3#spajanje-usisnog-voda/p9 | 82 | Strojar nadzire rad članova grupa a, radi postizanja ujednačenosti rada, strojar stoji s desne strane usisne cijevi i zapovijeda: **„Diži – spusti”**, sve dok se usisne cijevi ne spoje (skica 23, slika 21). | role.strojar | src.strojar | ignored |
 | 03-vjezba-3#spajanje-usisnog-voda/p10 | 92 | Ako se jedna od spojnica usisnog voda rastavi, strojar zapovijeda: **„Usisni vod, ponovo spajati!”**. | role.strojar | src.strojar | ignored |
-| 03-vjezba-3#spajanje-usisnog-voda/p11 | 94 | Kada su sve spojnice usisnog voda spojene, V₁ predaje ključ C₂. Pri tome nije dopušteno dobacivanje ili ispuštanje ključa na tlo. C₁ nakon završetka spajanja usisnog voda zadržava ključ kod sebe (i C₁ i C₂ ključeve stavljaju za opasač). | role.vodja-vodne, role.vodja-cijevne, role.clan-cijevne |  | ignored |
-| 03-vjezba-3#vezivanje-usisnog-voda/p1 | 98 | Kada je usisni vod potpuno spojen, strojar izdaje zapovijed: **„Užetom veži!”** | role.strojar | src.strojar | ignored |
-| 03-vjezba-3#vezivanje-usisnog-voda/p2 | 100 | C₁ odlazi do usisne sitke i uzima torbicu s užetom koju zakvači na kariku nepovratnog ventila. | role.vodja-cijevne |  | ignored |
+| 03-vjezba-3#spajanje-usisnog-voda/p11 | 94 | Kada su sve spojnice usisnog voda spojene, V₁ predaje ključ C₂. Pri tome nije dopušteno dobacivanje ili ispuštanje ključa na tlo. C₁ nakon završetka spajanja usisnog voda zadržava ključ kod sebe (i C₁ i C₂ ključeve stavljaju za opasač). | role.vodja-vodne, role.vodja-cijevne, role.clan-cijevne |  | mapped |
+| 03-vjezba-3#vezivanje-usisnog-voda/p1 | 98 | Kada je usisni vod potpuno spojen, strojar izdaje zapovijed: **„Užetom veži!”** | role.strojar | src.strojar | mapped |
+| 03-vjezba-3#vezivanje-usisnog-voda/p2 | 100 | C₁ odlazi do usisne sitke i uzima torbicu s užetom koju zakvači na kariku nepovratnog ventila. | role.vodja-cijevne |  | mapped |
 | 03-vjezba-3#vezivanje-usisnog-voda/p3 | 102 | C₁ može već kod kvačenja užeta podići usisnu sitku. | role.vodja-cijevne |  | ignored |
-| 03-vjezba-3#vezivanje-usisnog-voda/p4 | 104 | V₂ prelazi na lijevu stranu usisnog voda i umjereno podigne na sredini drugu cijev usisnog voda, gledajući prema crpilištu. | role.clan-vodne |  | ignored |
-| 03-vjezba-3#vezivanje-usisnog-voda/p5 | 106 | Strojar uhvati za zadnju spojnicu na četvrtoj usisnoj cijevi i umjereno je podigne. | role.strojar | src.strojar | ignored |
-| 03-vjezba-3#vezivanje-usisnog-voda/p6 | 108 | V₁ odlazi po desnoj strani usisnog voda do usisne sitke, uzima torbicu s užetom za vezanje usisnog voda i stavlja karabin na kariku usisne sitke, a zatim pravi omču ispred (oko 10 cm) svake spojnice tako da usisni vod stvara blagu liniju u obliku slova „S”. Tijekom vezanja usisnog voda C₂ ne obavlja nikakve radnje stojeći između C₁ i V₂ s lijeve strane usisnog voda (skica 24, slika 22). | role.vodja-vodne, role.clan-vodne, role.vodja-cijevne, role.clan-cijevne |  | ignored |
-| 03-vjezba-3#prenosenje-usisnog-voda/p1 | 120 | Nakon što je V₁ vezao omču kod zadnjeg spoja usisnog voda, strojar izdaje zapovijed: **„Usisni vod u vodu!”** | role.strojar, role.vodja-vodne | src.strojar | ignored |
+| 03-vjezba-3#vezivanje-usisnog-voda/p4 | 104 | V₂ prelazi na lijevu stranu usisnog voda i umjereno podigne na sredini drugu cijev usisnog voda, gledajući prema crpilištu. | role.clan-vodne |  | mapped |
+| 03-vjezba-3#vezivanje-usisnog-voda/p5 | 106 | Strojar uhvati za zadnju spojnicu na četvrtoj usisnoj cijevi i umjereno je podigne. | role.strojar | src.strojar | mapped |
+| 03-vjezba-3#vezivanje-usisnog-voda/p6 | 108 | V₁ odlazi po desnoj strani usisnog voda do usisne sitke, uzima torbicu s užetom za vezanje usisnog voda i stavlja karabin na kariku usisne sitke, a zatim pravi omču ispred (oko 10 cm) svake spojnice tako da usisni vod stvara blagu liniju u obliku slova „S”. Tijekom vezanja usisnog voda C₂ ne obavlja nikakve radnje stojeći između C₁ i V₂ s lijeve strane usisnog voda (skica 24, slika 22). | role.vodja-vodne, role.clan-vodne, role.vodja-cijevne, role.clan-cijevne |  | mapped |
+| 03-vjezba-3#prenosenje-usisnog-voda/p1 | 120 | Nakon što je V₁ vezao omču kod zadnjeg spoja usisnog voda, strojar izdaje zapovijed: **„Usisni vod u vodu!”** | role.strojar, role.vodja-vodne | src.strojar | mapped |
 | 03-vjezba-3#prenosenje-usisnog-voda/p2 | 122 | Pri prenošenju usisnog voda strojar ostaje na kraju zadnje, četvrte usisne cijevi i drži najmanje jednom rukom za spojnicu. | role.strojar | src.strojar | ignored |
-| 03-vjezba-3#prenosenje-usisnog-voda/p3 | 124 | V₁ prima spojnicu između treće i četvrte usisne cijevi, barem jednom rukom, i drži uže kojim je vezao usisni vod. | role.vodja-vodne |  | ignored |
-| 03-vjezba-3#prenosenje-usisnog-voda/p4 | 126 | V₂ s obje ruke prima spoj između druge i treće usisne cijevi, C₂ s obje ruke prima spoj između prve i druge usisne cijevi, a C₁ s obje ruke prima za spoj usisne sitke i prve cijevi. | role.clan-vodne, role.vodja-cijevne, role.clan-cijevne |  | ignored |
-| 03-vjezba-3#prenosenje-usisnog-voda/p5 | 128 | Tako strojar, vodna i cijevna grupa prenose spojeni usisni vod u vodu, odnosno do ravnine usisnog otvora MVP (skica 25, slika 23). | role.strojar | src.strojar | ignored |
-| 03-vjezba-3#prenosenje-usisnog-voda/p6 | 138 | Pri spajanju usisnog voda na MVP, strojaru pomaže V₂. Strojar mora desnom nogom prekoračiti preko usisnog voda. V₂ mora prekoračiti preko treće usisne cijevi. V₂, prilikom pridržavanja usisnog voda, strojaru mora primiti za cijev koju strojar spaja ili za četvrti par spojnica usisnog voda. | role.strojar, role.clan-vodne | src.strojar | ignored |
-| 03-vjezba-3#prenosenje-usisnog-voda/p7 | 140 | Strojar spaja usisni vod na usisni otvor MVP rukama, upotrijebivši nakon toga treći ključ koji je ležao ispod usisnog otvora. | role.strojar | src.strojar | ignored |
-| 03-vjezba-3#prenosenje-usisnog-voda/p8 | 142 | V₁, istovremeno sa spajanjem usisnog voda na MVP, postavlja uže ispod „B” tlačnog cijevnog voda i veže ga za prvu desnu ručicu MVP. | role.vodja-vodne |  | ignored |
-| 03-vjezba-3#prenosenje-usisnog-voda/p9 | 144 | C₁, pošto je zakvačio uže za kariku nepovratnog ventila i položio usisnu sitku, uže vuče iz torbice do ravnine MVP (skica 26, slika 24). | role.vodja-cijevne |  | ignored |
-| 03-vjezba-3#prenosenje-usisnog-voda/p10 | 154 | Čim je strojar usisni vod spojio na MVP i stavio ključ na spojnicu, zapovijeda: **„Gotovo!”** | role.strojar | src.strojar | ignored |
+| 03-vjezba-3#prenosenje-usisnog-voda/p3 | 124 | V₁ prima spojnicu između treće i četvrte usisne cijevi, barem jednom rukom, i drži uže kojim je vezao usisni vod. | role.vodja-vodne |  | mapped |
+| 03-vjezba-3#prenosenje-usisnog-voda/p4 | 126 | V₂ s obje ruke prima spoj između druge i treće usisne cijevi, C₂ s obje ruke prima spoj između prve i druge usisne cijevi, a C₁ s obje ruke prima za spoj usisne sitke i prve cijevi. | role.clan-vodne, role.vodja-cijevne, role.clan-cijevne |  | mapped |
+| 03-vjezba-3#prenosenje-usisnog-voda/p5 | 128 | Tako strojar, vodna i cijevna grupa prenose spojeni usisni vod u vodu, odnosno do ravnine usisnog otvora MVP (skica 25, slika 23). | role.strojar | src.strojar | mapped |
+| 03-vjezba-3#prenosenje-usisnog-voda/p6 | 138 | Pri spajanju usisnog voda na MVP, strojaru pomaže V₂. Strojar mora desnom nogom prekoračiti preko usisnog voda. V₂ mora prekoračiti preko treće usisne cijevi. V₂, prilikom pridržavanja usisnog voda, strojaru mora primiti za cijev koju strojar spaja ili za četvrti par spojnica usisnog voda. | role.strojar, role.clan-vodne | src.strojar | mapped |
+| 03-vjezba-3#prenosenje-usisnog-voda/p7 | 140 | Strojar spaja usisni vod na usisni otvor MVP rukama, upotrijebivši nakon toga treći ključ koji je ležao ispod usisnog otvora. | role.strojar | src.strojar | mapped |
+| 03-vjezba-3#prenosenje-usisnog-voda/p8 | 142 | V₁, istovremeno sa spajanjem usisnog voda na MVP, postavlja uže ispod „B” tlačnog cijevnog voda i veže ga za prvu desnu ručicu MVP. | role.vodja-vodne |  | mapped |
+| 03-vjezba-3#prenosenje-usisnog-voda/p9 | 144 | C₁, pošto je zakvačio uže za kariku nepovratnog ventila i položio usisnu sitku, uže vuče iz torbice do ravnine MVP (skica 26, slika 24). | role.vodja-cijevne |  | mapped |
+| 03-vjezba-3#prenosenje-usisnog-voda/p10 | 154 | Čim je strojar usisni vod spojio na MVP i stavio ključ na spojnicu, zapovijeda: **„Gotovo!”** | role.strojar | src.strojar | mapped |
 | 03-vjezba-3#prenosenje-usisnog-voda/p11 | 156 | Strojar može ključ nakon zapovijedi zadržati kod sebe ili odložiti na tlo. Usisni vod treba postaviti tako da uže usisnog voda bude zategnuto, a ne smije u ravnini izlaznog otvora MVP dodirivati tlo. | role.strojar | src.strojar | ignored |
 | 03-vjezba-3#pospremanje-opreme/p1 | 160 | Usisni vod rastavlja vodna i cijevna grupa uz pomoć strojara. | role.strojar |  | ignored |
-| 03-vjezba-3#pospremanje-opreme/p2 | 162 | Na zapovijed strojara: **„Usisni vod iz vode!”**, vođa vodne grupe (V₁) razvezuje uže usisnog voda s prve desne ručice MVP, vođa cijevne grupe (C₁) uzima kraj užeta za vezanje povratnog ventila i stavlja ga u torbicu odlazeći do usisne sitke, dok strojar uzima jedan ključ za spojnice i u raskoračnom stavu rastavlja usisni vod kod MVP. Iza njega, u raskoračnom stavu, nalazi se član vodne grupe (V₂), koji pridržava usisni vod. Strojar, poslije rastavljanja usisnog voda, ostavlja ključ za spojnice na zemlju. Kada je usisni vod rastavljen od motorne pumpe, strojar uhvati njegovu slobodnu spojnicu. | role.strojar, role.vodja-vodne, role.clan-vodne, role.vodja-cijevne | src.c1, src.kljuc-za-spojnice, src.strojar, src.v1, src.v2 | ignored |
-| 03-vjezba-3#pospremanje-opreme/p3 | 164 | Vođa vodne grupe (V₁), s užetom u ruci, odlazi do prvog spoja kod strojara i hvata usisni vod s desne strane, gledajući prema usisnoj sitki. | role.strojar, role.vodja-vodne | src.v1 | ignored |
-| 03-vjezba-3#pospremanje-opreme/p4 | 166 | V₂ prilazi usisnom vodu i hvata ga kod drugog spoja. | role.clan-vodne |  | ignored |
-| 03-vjezba-3#pospremanje-opreme/p5 | 168 | C₂ prilazi usisnom vodu i hvata ga kod trećeg spoja. | role.clan-cijevne |  | ignored |
-| 03-vjezba-3#pospremanje-opreme/p6 | 170 | C₁ odlazi i hvata usisnu sitku. | role.vodja-cijevne |  | ignored |
-| 03-vjezba-3#pospremanje-opreme/p7 | 172 | Članovi V₂, C₂ i C₁ nalaze se s lijeve strane usisnog voda i okrenuti su u pravcu crpilišta vode. Nakon toga svi zajedno odnose usisni vod do mjesta odakle je donesen do vode, tj. treća usisna cijev mora doći u ravninu s MVP. Prije spuštanja usisnog voda na zemlju, vođa vodne grupe skida uže s usisnog voda. Kada je to završio, skida karabin užeta usisnog voda s karike usisne sitke i ostavlja ga na zemlji. | role.vodja-vodne, role.clan-vodne, role.vodja-cijevne, role.clan-cijevne | src.usisna-cijev, src.v1 | ignored |
-| 03-vjezba-3#pospremanje-opreme/p8 | 174 | C₁ skida karabin užeta s karike nepovratnog ventila na usisnoj sitki i stavlja torbicu na zemlju. | role.vodja-cijevne |  | ignored |
-| 03-vjezba-3#pospremanje-opreme/p9 | 176 | Kada je užad skinuta, usisni se vod spušta na zemlju. Nakon toga, članovi vodne i cijevne grupe postavljaju se u položaj za rastavljanje usisnog voda, i to: |  |  | ignored |
-| 03-vjezba-3#pospremanje-opreme/l1 | 178 | C₁ staje u raskoračnom stavu kod prvog spoja od slobodne spojnice, gledajući prema usisnoj sitki, | role.vodja-cijevne |  | ignored |
-| 03-vjezba-3#pospremanje-opreme/l2 | 179 | V₁ staje u raskoračni stav kod istog spoja, licem okrenut prema vođi cijevne grupe, | role.vodja-vodne, role.vodja-cijevne |  | ignored |
-| 03-vjezba-3#pospremanje-opreme/l3 | 180 | V₂, C₂ stoje u raskoračnom stavu iza svojih vođa grupa, | role.clan-vodne, role.clan-cijevne |  | ignored |
-| 03-vjezba-3#pospremanje-opreme/l4 | 181 | Strojar stoji na istom mjestu gdje je stajao prilikom spajanja usisnog voda. | role.strojar | src.strojar | ignored |
-| 03-vjezba-3#pospremanje-opreme/p10 | 183 | Usisni vod rastavlja se obrnutim redoslijedom od spajanja. Na zapovijed strojara: **„Diži – spusti!”** članovi vodne i cijevne grupe rastavljaju usisni vod ključevima za spojnice i to desnom rukom, tako da je ključ na suprotnim spojnicama. Prilikom prelaženja od spoja do spoja usisnog voda, vodna grupa se okreće čelom nazad, onako kako je to radila cijevna grupa prilikom spajanja usisnog voda, a cijevna grupa (C₁, C₂) iskoračuju desnom nogom u desnu stranu kako je to radila vodna grupa prilikom spajanja cijevnog voda. | role.strojar, role.vodja-cijevne, role.clan-cijevne |  | ignored |
-| 03-vjezba-3#pospremanje-opreme/p11 | 185 | U tijeku rastavljanja usisne sitke od usisnog voda, strojar prilazi mjestu gdje se obavlja rastavljanje usisne sitke, preuzima lijevom rukom od vođe cijevne grupe (C₁) jedan, a od vođe vodne grupe (V₁) drugi ključ za spojnice i oba ključa drži u lijevoj ruci. | role.strojar, role.vodja-vodne, role.vodja-cijevne | src.kljuc-za-spojnice, src.strojar | ignored |
-| 03-vjezba-3#pospremanje-opreme/p12 | 187 | V₁ zatim predaje strojaru usisnu sitku u desnu ruku (slika 25). Strojar odlazi s primljenom opremom na mjesto odakle je počelo s izvođenjem vježbe, a zatim na svoje mjesto u stroj. | role.strojar, role.vodja-vodne | src.strojar | ignored |
-| 03-vjezba-3#pospremanje-opreme/p13 | 189 | Prenošenje usisnih cijevi rastavljenog usisnog voda obavlja se tako da članovi vodne grupe uzimaju sa zemlje prvu usisnu cijev u lijevu, a drugu u desnu ruku i odnose ih s desne strane MVP. Pri nošenju usisnih cijevi, član vodne grupe ide ispred vođe svoje grupe. | role.clan-vodne | src.v2 | ignored |
-| 03-vjezba-3#pospremanje-opreme/p14 | 191 | Članovi cijevne grupe prenose četvrtu usisnu cijev tako da član te grupe (C₂) drži usisnu cijev u desnoj, a vođa u lijevoj ruci, te je stavljaju s unutarnje strane usisne cijevi koja je ostala na zemlji. Pritom su okrenuti licem jedan prema drugom i vođa grupe stoji bliže izvoru. | role.clan-cijevne |  | ignored |
-| 03-vjezba-3#pospremanje-opreme/p15 | 193 | Nakon što su prenijeli usisne cijevi do MVP, vođa vodne grupe (V₁) i vođa cijevne grupe (C₂) motaju i stavljaju svaki svoje uže u torbicu koju zatvaraju i stavljaju na mjesto prije izvođenja vježbe. | role.vodja-vodne, role.vodja-cijevne, role.clan-cijevne | src.c1, src.v1 | ignored |
-| 03-vjezba-3#pospremanje-opreme/p16 | 195 | Nakon toga odlaze na svoja mjesta u stroj. |  |  | ignored |
+| 03-vjezba-3#pospremanje-opreme/p2 | 162 | Na zapovijed strojara: **„Usisni vod iz vode!”**, vođa vodne grupe (V₁) razvezuje uže usisnog voda s prve desne ručice MVP, vođa cijevne grupe (C₁) uzima kraj užeta za vezanje povratnog ventila i stavlja ga u torbicu odlazeći do usisne sitke, dok strojar uzima jedan ključ za spojnice i u raskoračnom stavu rastavlja usisni vod kod MVP. Iza njega, u raskoračnom stavu, nalazi se član vodne grupe (V₂), koji pridržava usisni vod. Strojar, poslije rastavljanja usisnog voda, ostavlja ključ za spojnice na zemlju. Kada je usisni vod rastavljen od motorne pumpe, strojar uhvati njegovu slobodnu spojnicu. | role.strojar, role.vodja-vodne, role.clan-vodne, role.vodja-cijevne | src.c1, src.kljuc-za-spojnice, src.strojar, src.v1, src.v2 | mapped |
+| 03-vjezba-3#pospremanje-opreme/p3 | 164 | Vođa vodne grupe (V₁), s užetom u ruci, odlazi do prvog spoja kod strojara i hvata usisni vod s desne strane, gledajući prema usisnoj sitki. | role.strojar, role.vodja-vodne | src.v1 | mapped |
+| 03-vjezba-3#pospremanje-opreme/p4 | 166 | V₂ prilazi usisnom vodu i hvata ga kod drugog spoja. | role.clan-vodne |  | mapped |
+| 03-vjezba-3#pospremanje-opreme/p5 | 168 | C₂ prilazi usisnom vodu i hvata ga kod trećeg spoja. | role.clan-cijevne |  | mapped |
+| 03-vjezba-3#pospremanje-opreme/p6 | 170 | C₁ odlazi i hvata usisnu sitku. | role.vodja-cijevne |  | mapped |
+| 03-vjezba-3#pospremanje-opreme/p7 | 172 | Članovi V₂, C₂ i C₁ nalaze se s lijeve strane usisnog voda i okrenuti su u pravcu crpilišta vode. Nakon toga svi zajedno odnose usisni vod do mjesta odakle je donesen do vode, tj. treća usisna cijev mora doći u ravninu s MVP. Prije spuštanja usisnog voda na zemlju, vođa vodne grupe skida uže s usisnog voda. Kada je to završio, skida karabin užeta usisnog voda s karike usisne sitke i ostavlja ga na zemlji. | role.vodja-vodne, role.clan-vodne, role.vodja-cijevne, role.clan-cijevne | src.usisna-cijev, src.v1 | mapped |
+| 03-vjezba-3#pospremanje-opreme/p8 | 174 | C₁ skida karabin užeta s karike nepovratnog ventila na usisnoj sitki i stavlja torbicu na zemlju. | role.vodja-cijevne |  | mapped |
+| 03-vjezba-3#pospremanje-opreme/p9 | 176 | Kada je užad skinuta, usisni se vod spušta na zemlju. Nakon toga, članovi vodne i cijevne grupe postavljaju se u položaj za rastavljanje usisnog voda, i to: |  |  | mapped |
+| 03-vjezba-3#pospremanje-opreme/l1 | 178 | C₁ staje u raskoračnom stavu kod prvog spoja od slobodne spojnice, gledajući prema usisnoj sitki, | role.vodja-cijevne |  | mapped |
+| 03-vjezba-3#pospremanje-opreme/l2 | 179 | V₁ staje u raskoračni stav kod istog spoja, licem okrenut prema vođi cijevne grupe, | role.vodja-vodne, role.vodja-cijevne |  | mapped |
+| 03-vjezba-3#pospremanje-opreme/l3 | 180 | V₂, C₂ stoje u raskoračnom stavu iza svojih vođa grupa, | role.clan-vodne, role.clan-cijevne |  | mapped |
+| 03-vjezba-3#pospremanje-opreme/l4 | 181 | Strojar stoji na istom mjestu gdje je stajao prilikom spajanja usisnog voda. | role.strojar | src.strojar | mapped |
+| 03-vjezba-3#pospremanje-opreme/p10 | 183 | Usisni vod rastavlja se obrnutim redoslijedom od spajanja. Na zapovijed strojara: **„Diži – spusti!”** članovi vodne i cijevne grupe rastavljaju usisni vod ključevima za spojnice i to desnom rukom, tako da je ključ na suprotnim spojnicama. Prilikom prelaženja od spoja do spoja usisnog voda, vodna grupa se okreće čelom nazad, onako kako je to radila cijevna grupa prilikom spajanja usisnog voda, a cijevna grupa (C₁, C₂) iskoračuju desnom nogom u desnu stranu kako je to radila vodna grupa prilikom spajanja cijevnog voda. | role.strojar, role.vodja-cijevne, role.clan-cijevne |  | mapped |
+| 03-vjezba-3#pospremanje-opreme/p11 | 185 | U tijeku rastavljanja usisne sitke od usisnog voda, strojar prilazi mjestu gdje se obavlja rastavljanje usisne sitke, preuzima lijevom rukom od vođe cijevne grupe (C₁) jedan, a od vođe vodne grupe (V₁) drugi ključ za spojnice i oba ključa drži u lijevoj ruci. | role.strojar, role.vodja-vodne, role.vodja-cijevne | src.kljuc-za-spojnice, src.strojar | mapped |
+| 03-vjezba-3#pospremanje-opreme/p12 | 187 | V₁ zatim predaje strojaru usisnu sitku u desnu ruku (slika 25). Strojar odlazi s primljenom opremom na mjesto odakle je počelo s izvođenjem vježbe, a zatim na svoje mjesto u stroj. | role.strojar, role.vodja-vodne | src.strojar | mapped |
+| 03-vjezba-3#pospremanje-opreme/p13 | 189 | Prenošenje usisnih cijevi rastavljenog usisnog voda obavlja se tako da članovi vodne grupe uzimaju sa zemlje prvu usisnu cijev u lijevu, a drugu u desnu ruku i odnose ih s desne strane MVP. Pri nošenju usisnih cijevi, član vodne grupe ide ispred vođe svoje grupe. | role.clan-vodne | src.v2 | mapped |
+| 03-vjezba-3#pospremanje-opreme/p14 | 191 | Članovi cijevne grupe prenose četvrtu usisnu cijev tako da član te grupe (C₂) drži usisnu cijev u desnoj, a vođa u lijevoj ruci, te je stavljaju s unutarnje strane usisne cijevi koja je ostala na zemlji. Pritom su okrenuti licem jedan prema drugom i vođa grupe stoji bliže izvoru. | role.clan-cijevne |  | mapped |
+| 03-vjezba-3#pospremanje-opreme/p15 | 193 | Nakon što su prenijeli usisne cijevi do MVP, vođa vodne grupe (V₁) i vođa cijevne grupe (C₂) motaju i stavljaju svaki svoje uže u torbicu koju zatvaraju i stavljaju na mjesto prije izvođenja vježbe. | role.vodja-vodne, role.vodja-cijevne, role.clan-cijevne | src.c1, src.v1 | mapped |
+| 03-vjezba-3#pospremanje-opreme/p16 | 195 | Nakon toga odlaze na svoja mjesta u stroj. |  |  | mapped |
 
 ### content/source/04-Vjezba-4.md
 
@@ -3366,63 +3366,63 @@ Naslov: Poligonske vježbe
 | 02-vjezba-2#pospremanje-opreme/p2 | vjezba-2-jedan-c-mlaz | zatvaranje-posprema | mapped |  |
 | 02-vjezba-2#pospremanje-opreme/p3 | vjezba-2-jedan-c-mlaz | posprema-strojar, posprema-mlaz, opremu-vratiti, posprema-b | mapped |  |
 | 02-vjezba-2#pospremanje-opreme/p4 | vjezba-2-jedan-c-mlaz | stroj-prijavak | mapped |  |
-| 03-vjezba-3#2-4-1-vjezba-3-vjezba-s-usisnim-cijevima-5-vatrogasaca/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#2-4-1-vjezba-3-vjezba-s-usisnim-cijevima-5-vatrogasaca/p2 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p2 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p3 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p4 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#spajanje-usisnog-voda/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#spajanje-usisnog-voda/p2 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#spajanje-usisnog-voda/p3 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#spajanje-usisnog-voda/p4 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#spajanje-usisnog-voda/p5 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#spajanje-usisnog-voda/p6 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#spajanje-usisnog-voda/p7 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#spajanje-usisnog-voda/l1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#spajanje-usisnog-voda/l2 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#spajanje-usisnog-voda/l3 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#spajanje-usisnog-voda/p8 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#spajanje-usisnog-voda/p9 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#spajanje-usisnog-voda/p10 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#spajanje-usisnog-voda/p11 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#vezivanje-usisnog-voda/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#vezivanje-usisnog-voda/p2 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#vezivanje-usisnog-voda/p3 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#vezivanje-usisnog-voda/p4 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#vezivanje-usisnog-voda/p5 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#vezivanje-usisnog-voda/p6 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#prenosenje-usisnog-voda/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#prenosenje-usisnog-voda/p2 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#prenosenje-usisnog-voda/p3 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#prenosenje-usisnog-voda/p4 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#prenosenje-usisnog-voda/p5 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#prenosenje-usisnog-voda/p6 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#prenosenje-usisnog-voda/p7 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#prenosenje-usisnog-voda/p8 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#prenosenje-usisnog-voda/p9 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#prenosenje-usisnog-voda/p10 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#prenosenje-usisnog-voda/p11 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/p2 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/p3 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/p4 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/p5 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/p6 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/p7 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/p8 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/p9 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/l1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/l2 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/l3 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/l4 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/p10 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/p11 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/p12 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/p13 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/p14 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/p15 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
-| 03-vjezba-3#pospremanje-opreme/p16 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
+| 03-vjezba-3#2-4-1-vjezba-3-vjezba-s-usisnim-cijevima-5-vatrogasaca/p1 |  |  | ignored | Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F. |
+| 03-vjezba-3#2-4-1-vjezba-3-vjezba-s-usisnim-cijevima-5-vatrogasaca/p2 |  |  | ignored | Uvod u popis opreme; oprema je u početnoj sceni, a količine se provjeravaju u fazi F. |
+| 03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p1 | vjezba-3-usisne-cijevi | zapovijed, strojar-oprema | mapped |  |
+| 03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p2 | vjezba-3-usisne-cijevi | vodna-uzimanje | mapped |  |
+| 03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p3 | vjezba-3-usisne-cijevi | vodna-polaganje | mapped |  |
+| 03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p4 | vjezba-3-usisne-cijevi | cijevna-polaganje | mapped |  |
+| 03-vjezba-3#spajanje-usisnog-voda/p1 |  |  | ignored | Opći opis spajanja; radnje su u koracima spoj-sitka i spoj-2 … spoj-4 (navedeno kao dodatni izvor). |
+| 03-vjezba-3#spajanje-usisnog-voda/p2 | vjezba-3-usisne-cijevi | cijevna-prva-cijev | mapped |  |
+| 03-vjezba-3#spajanje-usisnog-voda/p3 | vjezba-3-usisne-cijevi | v1-sitka | mapped |  |
+| 03-vjezba-3#spajanje-usisnog-voda/p4 | vjezba-3-usisne-cijevi | spoj-sitka | mapped |  |
+| 03-vjezba-3#spajanje-usisnog-voda/p5 | vjezba-3-usisne-cijevi | v2-torbice | mapped |  |
+| 03-vjezba-3#spajanje-usisnog-voda/p6 | vjezba-3-usisne-cijevi | prijelaz-2, prijelaz-3, prijelaz-4 | mapped |  |
+| 03-vjezba-3#spajanje-usisnog-voda/p7 | vjezba-3-usisne-cijevi | spoj-2, spoj-3, spoj-4 | mapped |  |
+| 03-vjezba-3#spajanje-usisnog-voda/l1 |  |  | ignored | Pravilo položaja člana cijevne grupe pri pridržavanju; položaji u simulatoru su shematski i ne provjeravaju se. |
+| 03-vjezba-3#spajanje-usisnog-voda/l2 |  |  | ignored | Dopuštena radnja člana cijevne grupe (namještanje spojnice); ne mijenja stanje simulacije. |
+| 03-vjezba-3#spajanje-usisnog-voda/l3 |  |  | ignored | Zabrana za člana cijevne grupe (ne dirati sljedeću cijev); simulator je ne provjerava. |
+| 03-vjezba-3#spajanje-usisnog-voda/p8 |  |  | ignored | Način zatezanja (ključ u desnoj ruci); spoj se u simulatoru bilježi kao jedna radnja spajanja (dodatni izvor koraka spoj-2 … spoj-4). |
+| 03-vjezba-3#spajanje-usisnog-voda/p9 |  |  | ignored | Zapovijed „Diži – spusti” modelirana je u koracima spoj-sitka i spoj-2 … spoj-4 (dodatni izvor). |
+| 03-vjezba-3#spajanje-usisnog-voda/p10 |  |  | ignored | Zapovijed za slučaj da se spojnica rastavi; simulator ne modelira slučajno rastavljanje spojnice. |
+| 03-vjezba-3#spajanje-usisnog-voda/p11 | vjezba-3-usisne-cijevi | kljuc-c2 | mapped |  |
+| 03-vjezba-3#vezivanje-usisnog-voda/p1 | vjezba-3-usisne-cijevi | uzetom-vezi | mapped |  |
+| 03-vjezba-3#vezivanje-usisnog-voda/p2 | vjezba-3-usisne-cijevi | c1-ventil | mapped |  |
+| 03-vjezba-3#vezivanje-usisnog-voda/p3 |  |  | ignored | Dopuštena, neobvezna radnja (C₁ može podići sitku); nije dio demonstracije. |
+| 03-vjezba-3#vezivanje-usisnog-voda/p4 | vjezba-3-usisne-cijevi | v2-podize | mapped |  |
+| 03-vjezba-3#vezivanje-usisnog-voda/p5 | vjezba-3-usisne-cijevi | strojar-podize | mapped |  |
+| 03-vjezba-3#vezivanje-usisnog-voda/p6 | vjezba-3-usisne-cijevi | v1-vezanje | mapped |  |
+| 03-vjezba-3#prenosenje-usisnog-voda/p1 | vjezba-3-usisne-cijevi | u-vodu | mapped |  |
+| 03-vjezba-3#prenosenje-usisnog-voda/p2 |  |  | ignored | Strojar već drži kraj četvrte cijevi (korak strojar-podize); odlomak je dodatni izvor koraka prenosenje. |
+| 03-vjezba-3#prenosenje-usisnog-voda/p3 | vjezba-3-usisne-cijevi | prihvat-v1 | mapped |  |
+| 03-vjezba-3#prenosenje-usisnog-voda/p4 | vjezba-3-usisne-cijevi | prihvat-ostali | mapped |  |
+| 03-vjezba-3#prenosenje-usisnog-voda/p5 | vjezba-3-usisne-cijevi | prenosenje | mapped |  |
+| 03-vjezba-3#prenosenje-usisnog-voda/p6 | vjezba-3-usisne-cijevi | v2-pomaze | mapped |  |
+| 03-vjezba-3#prenosenje-usisnog-voda/p7 | vjezba-3-usisne-cijevi | spoj-mvp | mapped |  |
+| 03-vjezba-3#prenosenje-usisnog-voda/p8 | vjezba-3-usisne-cijevi | v1-rucica | mapped |  |
+| 03-vjezba-3#prenosenje-usisnog-voda/p9 | vjezba-3-usisne-cijevi | c1-uze-mvp | mapped |  |
+| 03-vjezba-3#prenosenje-usisnog-voda/p10 | vjezba-3-usisne-cijevi | gotovo | mapped |  |
+| 03-vjezba-3#prenosenje-usisnog-voda/p11 |  |  | ignored | Dopuštena mogućnost strojara i zahtjev na izvedbu (zategnuto uže); ne mijenja stanje simulacije. |
+| 03-vjezba-3#pospremanje-opreme/p1 |  |  | ignored | Uvodna rečenica; radnje rastavljanja opisane su u sljedećim odlomcima (dodatni izvor koraka iz-vode). |
+| 03-vjezba-3#pospremanje-opreme/p2 | vjezba-3-usisne-cijevi | iz-vode, v1-razvezuje, c1-uze-sitka, strojar-rastavlja-mvp | mapped |  |
+| 03-vjezba-3#pospremanje-opreme/p3 | vjezba-3-usisne-cijevi | v1-prvi-spoj | mapped |  |
+| 03-vjezba-3#pospremanje-opreme/p4 | vjezba-3-usisne-cijevi | v2-drugi-spoj | mapped |  |
+| 03-vjezba-3#pospremanje-opreme/p5 | vjezba-3-usisne-cijevi | c2-treci-spoj | mapped |  |
+| 03-vjezba-3#pospremanje-opreme/p6 | vjezba-3-usisne-cijevi | c1-sitka | mapped |  |
+| 03-vjezba-3#pospremanje-opreme/p7 | vjezba-3-usisne-cijevi | odnosenje, v1-skida-uze | mapped |  |
+| 03-vjezba-3#pospremanje-opreme/p8 | vjezba-3-usisne-cijevi | c1-skida-karabin | mapped |  |
+| 03-vjezba-3#pospremanje-opreme/p9 | vjezba-3-usisne-cijevi | spustanje | mapped |  |
+| 03-vjezba-3#pospremanje-opreme/l1 | vjezba-3-usisne-cijevi | c1-polozaj | mapped |  |
+| 03-vjezba-3#pospremanje-opreme/l2 | vjezba-3-usisne-cijevi | v1-polozaj | mapped |  |
+| 03-vjezba-3#pospremanje-opreme/l3 | vjezba-3-usisne-cijevi | v2-c2-polozaj | mapped |  |
+| 03-vjezba-3#pospremanje-opreme/l4 | vjezba-3-usisne-cijevi | strojar-polozaj | mapped |  |
+| 03-vjezba-3#pospremanje-opreme/p10 | vjezba-3-usisne-cijevi | rastavljanje-4, prijelaz-r2, rastavljanje-3, prijelaz-r3, rastavljanje-2, prijelaz-r4 | mapped |  |
+| 03-vjezba-3#pospremanje-opreme/p11 | vjezba-3-usisne-cijevi | kljuc-v1, rastavljanje-sitke | mapped |  |
+| 03-vjezba-3#pospremanje-opreme/p12 | vjezba-3-usisne-cijevi | sitka-strojaru | mapped |  |
+| 03-vjezba-3#pospremanje-opreme/p13 | vjezba-3-usisne-cijevi | vodna-natrag | mapped |  |
+| 03-vjezba-3#pospremanje-opreme/p14 | vjezba-3-usisne-cijevi | cijevna-natrag | mapped |  |
+| 03-vjezba-3#pospremanje-opreme/p15 | vjezba-3-usisne-cijevi | uzad-natrag | mapped |  |
+| 03-vjezba-3#pospremanje-opreme/p16 | vjezba-3-usisne-cijevi | u-stroj | mapped |  |
 | 04-vjezba-4#2-4-2-vjezba-4-vjezba-s-usisnim-cijevima-3-vatrogasca/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
 | 04-vjezba-4#2-4-2-vjezba-4-vjezba-s-usisnim-cijevima-3-vatrogasca/p2 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
 | 04-vjezba-4#polaganje-usisnih-cijevi/p1 |  |  | ignored | Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje. |
@@ -3657,6 +3657,7 @@ Naslov: Poligonske vježbe
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | vjezba-1-dva-c-mlaza | content/authoring/source/vjezba-1.exercise.json | content/exercises/vjezba-1-dva-c-mlaza.json | da | 0 | 0 | 47 | 47 | da |
 | vjezba-2-jedan-c-mlaz | content/authoring/source/vjezba-2.exercise.json | content/exercises/vjezba-2-jedan-c-mlaz.json | da | 0 | 0 | 15 | 15 | da |
+| vjezba-3-usisne-cijevi | content/authoring/source/vjezba-3.exercise.json | content/exercises/vjezba-3-usisne-cijevi.json | da | 0 | 0 | 59 | 59 | da |
 
 ## Dijagnostika
 
@@ -3971,3 +3972,25 @@ Naslov: Poligonske vježbe
 | info | F | audio.order-not-in-text | Korak stroj-prijavak: zapovijed „Na svoje mjesto!” (act.na-svoje-mjesto) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-2.exercise.json |
 | info | F | audio.order-not-in-text | Korak stroj-prijavak: zapovijed „Na zapovijed!” (act.na-zapovijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-2.exercise.json |
 | info | F | audio.order-not-in-text | Korak stroj-prijavak: zapovijed „Na mjestu odmor!” (act.odmor-ili-otpust) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-2.exercise.json |
+| info | F | mapping.role-mismatch | Korak v1-sitka: izvorni tekst spominje uloge role.strojar, role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | mapping.role-mismatch | Korak v2-torbice: izvorni tekst spominje uloge role.strojar, role.vodja-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | mapping.role-mismatch | Korak kljuc-c2: izvorni tekst spominje uloge role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | mapping.role-mismatch | Korak v1-vezanje: izvorni tekst spominje uloge role.clan-vodne, role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | mapping.role-mismatch | Korak u-vodu: izvorni tekst spominje uloge role.vodja-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | mapping.role-mismatch | Korak iz-vode: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne, role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | mapping.role-mismatch | Korak v1-razvezuje: izvorni tekst spominje uloge role.strojar, role.clan-vodne, role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | mapping.role-mismatch | Korak c1-uze-sitka: izvorni tekst spominje uloge role.strojar, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | mapping.role-mismatch | Korak strojar-rastavlja-mvp: izvorni tekst spominje uloge role.vodja-vodne, role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | mapping.role-mismatch | Korak v1-prvi-spoj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | mapping.role-mismatch | Korak v1-skida-uze: izvorni tekst spominje uloge role.clan-vodne, role.vodja-cijevne, role.clan-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | mapping.role-mismatch | Korak v1-polozaj: izvorni tekst spominje uloge role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | mapping.role-mismatch | Korak kljuc-v1: izvorni tekst spominje uloge role.strojar, role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | mapping.role-mismatch | Korak prijelaz-r2: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | mapping.role-mismatch | Korak prijelaz-r3: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | mapping.role-mismatch | Korak prijelaz-r4: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | mapping.role-mismatch | Korak uzad-natrag: izvorni tekst spominje uloge role.clan-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | audio.order-not-in-text | Korak spoj-sitka: zapovijed „Diži – spusti” (act.dizi-spusti-1) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | audio.order-not-in-text | Korak spoj-2: zapovijed „Diži – spusti” (act.dizi-spusti-2) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | audio.order-not-in-text | Korak spoj-3: zapovijed „Diži – spusti” (act.dizi-spusti-3) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | audio.order-not-in-text | Korak spoj-4: zapovijed „Diži – spusti” (act.dizi-spusti-4) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-3.exercise.json |
+| info | F | audio.order-not-in-text | Korak rastavljanje-sitke: zapovijed „Diži – spusti!” (act.dizi-spusti-r4) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-3.exercise.json |

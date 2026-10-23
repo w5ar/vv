@@ -135,6 +135,14 @@ Guidelines:
   the far end — it starts at the port end A is connected to. `HandOverEquipment` models *predaje
   gornju spojnicu*. Disconnect before `RollUpHose`. Give `actorId` / `personnelId` to show who acts.
 - Zones (`initialScene.zones`) give `inZone` conditions a named area.
+- **Bulky items** (equipment types with `carry: held`, e.g. suction hoses) stay where they are lifted
+  and move with the carrier by the carrier's displacement: to put one down at a target, move the
+  carrier by *target − current position* of the item, then `PlaceEquipment` without changing `at`.
+  A rule can require parts to be lifted while they are joined: a `commandPrecondition` on
+  `ConnectPorts` for the part's ports (`portKeys`) with `requires: not placed(<part>)` (Vježba 3).
+- **Vehicles** (`container: true`): equipment that starts in the compartments is written with
+  `storedIn: "<vehicle id>"` and no position; it is taken out with `PickUpEquipment` by a person at
+  the vehicle and put back with `StoreEquipment`; check it with the `stored` condition.
 
 ## Rules
 

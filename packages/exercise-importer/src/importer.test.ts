@@ -208,22 +208,28 @@ describe('full pipeline on repository content', async () => {
   const synthetic = report.datasets.find((d) => d.id === 'synthetic')!;
   const source = report.datasets.find((d) => d.id === 'source')!;
 
-  it('compiles both source exercises without errors and with full traceability', () => {
+  // Source exercises and the procedure file each one is built from.
+  const SOURCE_EXERCISES = [
+    ['vjezba-1-dva-c-mlaza', '01-Vjezba-1.md'],
+    ['vjezba-2-jedan-c-mlaz', '02-Vjezba-2.md'],
+    ['vjezba-3-usisne-cijevi', '03-Vjezba-3.md'],
+  ] as const;
+
+  it('compiles the source exercises without errors and with full traceability', () => {
     expect(source.inventory.length).toBeGreaterThan(90);
     expect(source.diagnostics.filter((d) => d.severity === 'error')).toEqual([]);
-    expect(source.compiled.map((c) => [c.exerciseId, c.ok, c.demoReachesCompletion, c.stepCount === c.tracedStepCount])).toEqual([
-      ['vjezba-1-dva-c-mlaza', true, true, true],
-      ['vjezba-2-jedan-c-mlaz', true, true, true],
-    ]);
+    expect(source.compiled.map((c) => [c.exerciseId, c.ok, c.demoReachesCompletion, c.stepCount === c.tracedStepCount])).toEqual(
+      SOURCE_EXERCISES.map(([id]) => [id, true, true, true]),
+    );
     // Every step candidate is either mapped to a step or deliberately ignored with a reason.
     expect(source.mapping.filter((m) => m.status === 'unmapped')).toEqual([]);
     expect(source.diagnostics.map((d) => d.code)).not.toContain('mapping.unmapped-step');
-    for (const id of ['vjezba-1-dva-c-mlaza', 'vjezba-2-jedan-c-mlaz']) {
+    for (const [id, file] of SOURCE_EXERCISES) {
       const exercise = ExerciseSchema.parse(JSON.parse(outputs.get(`content/exercises/${id}.json`)!));
       expect(exercise.synthetic).toBe(false);
       expect(exercise.review.status).toBe('requires-review');
       for (const step of exercise.steps) {
-        expect(step.sources[0]?.file).toMatch(/^content\/source\/0[12]-Vjezba-[12]\.md$/);
+        expect(step.sources[0]?.file).toBe(`content/source/${file}`);
         expect(step.text).toBe(step.sources[0]?.excerpt);
       }
       // Initial positions are traced to instances of the stage sketch.

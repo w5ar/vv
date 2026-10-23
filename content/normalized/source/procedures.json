@@ -6457,8 +6457,11 @@
           "src.usisna-sitka"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/zapovijed",
+          "vjezba-3-usisne-cijevi/strojar-oprema"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p2",
@@ -6481,8 +6484,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/vodna-uzimanje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p3",
@@ -6505,8 +6510,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/vodna-polaganje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p4",
@@ -6529,8 +6536,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/cijevna-polaganje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#spajanje-usisnog-voda/p1",
@@ -6577,8 +6586,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/cijevna-prva-cijev"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#spajanje-usisnog-voda/p3",
@@ -6601,8 +6612,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/v1-sitka"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#spajanje-usisnog-voda/p4",
@@ -6627,8 +6640,10 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/spoj-sitka"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#spajanje-usisnog-voda/p5",
@@ -6651,8 +6666,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/v2-torbice"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#spajanje-usisnog-voda/p6",
@@ -6671,8 +6688,12 @@
         "roleMentions": [],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/prijelaz-2",
+          "vjezba-3-usisne-cijevi/prijelaz-3",
+          "vjezba-3-usisne-cijevi/prijelaz-4"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#spajanje-usisnog-voda/p7",
@@ -6696,8 +6717,12 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/spoj-2",
+          "vjezba-3-usisne-cijevi/spoj-3",
+          "vjezba-3-usisne-cijevi/spoj-4"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#spajanje-usisnog-voda/l1",
@@ -6854,8 +6879,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/kljuc-c2"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#vezivanje-usisnog-voda/p1",
@@ -6878,8 +6905,10 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/uzetom-vezi"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#vezivanje-usisnog-voda/p2",
@@ -6900,8 +6929,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/c1-ventil"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#vezivanje-usisnog-voda/p3",
@@ -6944,8 +6975,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/v2-podize"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#vezivanje-usisnog-voda/p5",
@@ -6968,8 +7001,10 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/strojar-podize"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#vezivanje-usisnog-voda/p6",
@@ -6993,8 +7028,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/v1-vezanje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#prenosenje-usisnog-voda/p1",
@@ -7018,8 +7055,10 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/u-vodu"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#prenosenje-usisnog-voda/p2",
@@ -7064,8 +7103,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/prihvat-v1"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#prenosenje-usisnog-voda/p4",
@@ -7088,8 +7129,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/prihvat-ostali"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#prenosenje-usisnog-voda/p5",
@@ -7112,8 +7155,10 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/prenosenje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#prenosenje-usisnog-voda/p6",
@@ -7137,8 +7182,10 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/v2-pomaze"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#prenosenje-usisnog-voda/p7",
@@ -7161,8 +7208,10 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/spoj-mvp"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#prenosenje-usisnog-voda/p8",
@@ -7183,8 +7232,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/v1-rucica"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#prenosenje-usisnog-voda/p9",
@@ -7205,8 +7256,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/c1-uze-mvp"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#prenosenje-usisnog-voda/p10",
@@ -7229,8 +7282,10 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/gotovo"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#prenosenje-usisnog-voda/p11",
@@ -7306,8 +7361,13 @@
           "src.v2"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/iz-vode",
+          "vjezba-3-usisne-cijevi/v1-razvezuje",
+          "vjezba-3-usisne-cijevi/c1-uze-sitka",
+          "vjezba-3-usisne-cijevi/strojar-rastavlja-mvp"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#pospremanje-opreme/p3",
@@ -7331,8 +7391,10 @@
           "src.v1"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/v1-prvi-spoj"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#pospremanje-opreme/p4",
@@ -7353,8 +7415,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/v2-drugi-spoj"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#pospremanje-opreme/p5",
@@ -7375,8 +7439,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/c2-treci-spoj"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#pospremanje-opreme/p6",
@@ -7397,8 +7463,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/c1-sitka"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#pospremanje-opreme/p7",
@@ -7425,8 +7493,11 @@
           "src.v1"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/odnosenje",
+          "vjezba-3-usisne-cijevi/v1-skida-uze"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#pospremanje-opreme/p8",
@@ -7447,8 +7518,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/c1-skida-karabin"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#pospremanje-opreme/p9",
@@ -7467,8 +7540,10 @@
         "roleMentions": [],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/spustanje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#pospremanje-opreme/l1",
@@ -7489,8 +7564,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/c1-polozaj"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#pospremanje-opreme/l2",
@@ -7512,8 +7589,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/v1-polozaj"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#pospremanje-opreme/l3",
@@ -7535,8 +7614,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/v2-c2-polozaj"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#pospremanje-opreme/l4",
@@ -7559,8 +7640,10 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/strojar-polozaj"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#pospremanje-opreme/p10",
@@ -7583,8 +7666,15 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/rastavljanje-4",
+          "vjezba-3-usisne-cijevi/prijelaz-r2",
+          "vjezba-3-usisne-cijevi/rastavljanje-3",
+          "vjezba-3-usisne-cijevi/prijelaz-r3",
+          "vjezba-3-usisne-cijevi/rastavljanje-2",
+          "vjezba-3-usisne-cijevi/prijelaz-r4"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#pospremanje-opreme/p11",
@@ -7610,8 +7700,11 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/kljuc-v1",
+          "vjezba-3-usisne-cijevi/rastavljanje-sitke"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#pospremanje-opreme/p12",
@@ -7635,8 +7728,10 @@
           "src.strojar"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/sitka-strojaru"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#pospremanje-opreme/p13",
@@ -7659,8 +7754,10 @@
           "src.v2"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/vodna-natrag"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#pospremanje-opreme/p14",
@@ -7681,8 +7778,10 @@
         ],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/cijevna-natrag"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#pospremanje-opreme/p15",
@@ -7708,8 +7807,10 @@
           "src.v1"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/uzad-natrag"
+        ],
+        "status": "mapped"
       },
       {
         "id": "03-vjezba-3#pospremanje-opreme/p16",
@@ -7728,8 +7829,10 @@
         "roleMentions": [],
         "equipmentMentions": [],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-3-usisne-cijevi/u-stroj"
+        ],
+        "status": "mapped"
       }
     ],
     "roleMentions": [

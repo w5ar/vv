@@ -69734,8 +69734,11 @@
                 "src.usisna-sitka"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/zapovijed",
+                "vjezba-3-usisne-cijevi/strojar-oprema"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p2",
@@ -69758,8 +69761,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/vodna-uzimanje"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p3",
@@ -69782,8 +69787,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/vodna-polaganje"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p4",
@@ -69806,8 +69813,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/cijevna-polaganje"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#spajanje-usisnog-voda/p1",
@@ -69854,8 +69863,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/cijevna-prva-cijev"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#spajanje-usisnog-voda/p3",
@@ -69878,8 +69889,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/v1-sitka"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#spajanje-usisnog-voda/p4",
@@ -69904,8 +69917,10 @@
                 "src.strojar"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/spoj-sitka"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#spajanje-usisnog-voda/p5",
@@ -69928,8 +69943,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/v2-torbice"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#spajanje-usisnog-voda/p6",
@@ -69948,8 +69965,12 @@
               "roleMentions": [],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/prijelaz-2",
+                "vjezba-3-usisne-cijevi/prijelaz-3",
+                "vjezba-3-usisne-cijevi/prijelaz-4"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#spajanje-usisnog-voda/p7",
@@ -69973,8 +69994,12 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/spoj-2",
+                "vjezba-3-usisne-cijevi/spoj-3",
+                "vjezba-3-usisne-cijevi/spoj-4"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#spajanje-usisnog-voda/l1",
@@ -70131,8 +70156,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/kljuc-c2"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#vezivanje-usisnog-voda/p1",
@@ -70155,8 +70182,10 @@
                 "src.strojar"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/uzetom-vezi"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#vezivanje-usisnog-voda/p2",
@@ -70177,8 +70206,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/c1-ventil"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#vezivanje-usisnog-voda/p3",
@@ -70221,8 +70252,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/v2-podize"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#vezivanje-usisnog-voda/p5",
@@ -70245,8 +70278,10 @@
                 "src.strojar"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/strojar-podize"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#vezivanje-usisnog-voda/p6",
@@ -70270,8 +70305,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/v1-vezanje"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#prenosenje-usisnog-voda/p1",
@@ -70295,8 +70332,10 @@
                 "src.strojar"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/u-vodu"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#prenosenje-usisnog-voda/p2",
@@ -70341,8 +70380,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/prihvat-v1"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#prenosenje-usisnog-voda/p4",
@@ -70365,8 +70406,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/prihvat-ostali"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#prenosenje-usisnog-voda/p5",
@@ -70389,8 +70432,10 @@
                 "src.strojar"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/prenosenje"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#prenosenje-usisnog-voda/p6",
@@ -70414,8 +70459,10 @@
                 "src.strojar"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/v2-pomaze"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#prenosenje-usisnog-voda/p7",
@@ -70438,8 +70485,10 @@
                 "src.strojar"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/spoj-mvp"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#prenosenje-usisnog-voda/p8",
@@ -70460,8 +70509,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/v1-rucica"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#prenosenje-usisnog-voda/p9",
@@ -70482,8 +70533,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/c1-uze-mvp"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#prenosenje-usisnog-voda/p10",
@@ -70506,8 +70559,10 @@
                 "src.strojar"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/gotovo"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#prenosenje-usisnog-voda/p11",
@@ -70583,8 +70638,13 @@
                 "src.v2"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/iz-vode",
+                "vjezba-3-usisne-cijevi/v1-razvezuje",
+                "vjezba-3-usisne-cijevi/c1-uze-sitka",
+                "vjezba-3-usisne-cijevi/strojar-rastavlja-mvp"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#pospremanje-opreme/p3",
@@ -70608,8 +70668,10 @@
                 "src.v1"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/v1-prvi-spoj"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#pospremanje-opreme/p4",
@@ -70630,8 +70692,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/v2-drugi-spoj"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#pospremanje-opreme/p5",
@@ -70652,8 +70716,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/c2-treci-spoj"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#pospremanje-opreme/p6",
@@ -70674,8 +70740,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/c1-sitka"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#pospremanje-opreme/p7",
@@ -70702,8 +70770,11 @@
                 "src.v1"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/odnosenje",
+                "vjezba-3-usisne-cijevi/v1-skida-uze"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#pospremanje-opreme/p8",
@@ -70724,8 +70795,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/c1-skida-karabin"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#pospremanje-opreme/p9",
@@ -70744,8 +70817,10 @@
               "roleMentions": [],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/spustanje"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#pospremanje-opreme/l1",
@@ -70766,8 +70841,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/c1-polozaj"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#pospremanje-opreme/l2",
@@ -70789,8 +70866,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/v1-polozaj"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#pospremanje-opreme/l3",
@@ -70812,8 +70891,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/v2-c2-polozaj"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#pospremanje-opreme/l4",
@@ -70836,8 +70917,10 @@
                 "src.strojar"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/strojar-polozaj"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#pospremanje-opreme/p10",
@@ -70860,8 +70943,15 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/rastavljanje-4",
+                "vjezba-3-usisne-cijevi/prijelaz-r2",
+                "vjezba-3-usisne-cijevi/rastavljanje-3",
+                "vjezba-3-usisne-cijevi/prijelaz-r3",
+                "vjezba-3-usisne-cijevi/rastavljanje-2",
+                "vjezba-3-usisne-cijevi/prijelaz-r4"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#pospremanje-opreme/p11",
@@ -70887,8 +70977,11 @@
                 "src.strojar"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/kljuc-v1",
+                "vjezba-3-usisne-cijevi/rastavljanje-sitke"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#pospremanje-opreme/p12",
@@ -70912,8 +71005,10 @@
                 "src.strojar"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/sitka-strojaru"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#pospremanje-opreme/p13",
@@ -70936,8 +71031,10 @@
                 "src.v2"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/vodna-natrag"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#pospremanje-opreme/p14",
@@ -70958,8 +71055,10 @@
               ],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/cijevna-natrag"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#pospremanje-opreme/p15",
@@ -70985,8 +71084,10 @@
                 "src.v1"
               ],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/uzad-natrag"
+              ],
+              "status": "mapped"
             },
             {
               "id": "03-vjezba-3#pospremanje-opreme/p16",
@@ -71005,8 +71106,10 @@
               "roleMentions": [],
               "equipmentMentions": [],
               "diagramRefs": [],
-              "mappedTo": [],
-              "status": "ignored"
+              "mappedTo": [
+                "vjezba-3-usisne-cijevi/u-stroj"
+              ],
+              "status": "mapped"
             }
           ],
           "roleMentions": [
@@ -86337,343 +86440,446 @@
           "candidateId": "03-vjezba-3#2-4-1-vjezba-3-vjezba-s-usisnim-cijevima-5-vatrogasaca/p1",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
         },
         {
           "candidateId": "03-vjezba-3#2-4-1-vjezba-3-vjezba-s-usisnim-cijevima-5-vatrogasaca/p2",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Uvod u popis opreme; oprema je u početnoj sceni, a količine se provjeravaju u fazi F."
         },
         {
           "candidateId": "03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "zapovijed",
+            "strojar-oprema"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p2",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "vodna-uzimanje"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p3",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "vodna-polaganje"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#polaganje-usisnih-cijevi-skica-21-slika-18-i-19/p4",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "cijevna-polaganje"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p1",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Opći opis spajanja; radnje su u koracima spoj-sitka i spoj-2 … spoj-4 (navedeno kao dodatni izvor)."
         },
         {
           "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p2",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "cijevna-prva-cijev"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p3",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "v1-sitka"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p4",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "spoj-sitka"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p5",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "v2-torbice"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p6",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "prijelaz-2",
+            "prijelaz-3",
+            "prijelaz-4"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p7",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "spoj-2",
+            "spoj-3",
+            "spoj-4"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#spajanje-usisnog-voda/l1",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Pravilo položaja člana cijevne grupe pri pridržavanju; položaji u simulatoru su shematski i ne provjeravaju se."
         },
         {
           "candidateId": "03-vjezba-3#spajanje-usisnog-voda/l2",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Dopuštena radnja člana cijevne grupe (namještanje spojnice); ne mijenja stanje simulacije."
         },
         {
           "candidateId": "03-vjezba-3#spajanje-usisnog-voda/l3",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Zabrana za člana cijevne grupe (ne dirati sljedeću cijev); simulator je ne provjerava."
         },
         {
           "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p8",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Način zatezanja (ključ u desnoj ruci); spoj se u simulatoru bilježi kao jedna radnja spajanja (dodatni izvor koraka spoj-2 … spoj-4)."
         },
         {
           "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p9",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Zapovijed „Diži – spusti” modelirana je u koracima spoj-sitka i spoj-2 … spoj-4 (dodatni izvor)."
         },
         {
           "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p10",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Zapovijed za slučaj da se spojnica rastavi; simulator ne modelira slučajno rastavljanje spojnice."
         },
         {
           "candidateId": "03-vjezba-3#spajanje-usisnog-voda/p11",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "kljuc-c2"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#vezivanje-usisnog-voda/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "uzetom-vezi"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#vezivanje-usisnog-voda/p2",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "c1-ventil"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#vezivanje-usisnog-voda/p3",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Dopuštena, neobvezna radnja (C₁ može podići sitku); nije dio demonstracije."
         },
         {
           "candidateId": "03-vjezba-3#vezivanje-usisnog-voda/p4",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "v2-podize"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#vezivanje-usisnog-voda/p5",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "strojar-podize"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#vezivanje-usisnog-voda/p6",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "v1-vezanje"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "u-vodu"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p2",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Strojar već drži kraj četvrte cijevi (korak strojar-podize); odlomak je dodatni izvor koraka prenosenje."
         },
         {
           "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p3",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "prihvat-v1"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p4",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "prihvat-ostali"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p5",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "prenosenje"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p6",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "v2-pomaze"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p7",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "spoj-mvp"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p8",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "v1-rucica"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p9",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "c1-uze-mvp"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p10",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "gotovo"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p11",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Dopuštena mogućnost strojara i zahtjev na izvedbu (zategnuto uže); ne mijenja stanje simulacije."
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/p1",
           "stepIds": [],
           "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "reason": "Uvodna rečenica; radnje rastavljanja opisane su u sljedećim odlomcima (dodatni izvor koraka iz-vode)."
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/p2",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "iz-vode",
+            "v1-razvezuje",
+            "c1-uze-sitka",
+            "strojar-rastavlja-mvp"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/p3",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "v1-prvi-spoj"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/p4",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "v2-drugi-spoj"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/p5",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "c2-treci-spoj"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/p6",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "c1-sitka"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/p7",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "odnosenje",
+            "v1-skida-uze"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/p8",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "c1-skida-karabin"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/p9",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "spustanje"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/l1",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "c1-polozaj"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/l2",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "v1-polozaj"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/l3",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "v2-c2-polozaj"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/l4",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "strojar-polozaj"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/p10",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "rastavljanje-4",
+            "prijelaz-r2",
+            "rastavljanje-3",
+            "prijelaz-r3",
+            "rastavljanje-2",
+            "prijelaz-r4"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/p11",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "kljuc-v1",
+            "rastavljanje-sitke"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/p12",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "sitka-strojaru"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/p13",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "vodna-natrag"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/p14",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "cijevna-natrag"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/p15",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "uzad-natrag"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "03-vjezba-3#pospremanje-opreme/p16",
-          "stepIds": [],
-          "status": "ignored",
-          "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "stepIds": [
+            "u-stroj"
+          ],
+          "status": "mapped"
         },
         {
           "candidateId": "04-vjezba-4#2-4-2-vjezba-4-vjezba-s-usisnim-cijevima-3-vatrogasca/p1",
@@ -88059,6 +88265,17 @@
           "warningCount": 0,
           "stepCount": 15,
           "tracedStepCount": 15,
+          "demoReachesCompletion": true
+        },
+        {
+          "exerciseId": "vjezba-3-usisne-cijevi",
+          "authoringFile": "content/authoring/source/vjezba-3.exercise.json",
+          "outputFile": "content/exercises/vjezba-3-usisne-cijevi.json",
+          "ok": true,
+          "errorCount": 0,
+          "warningCount": 0,
+          "stepCount": 59,
+          "tracedStepCount": 59,
           "demoReachesCompletion": true
         }
       ],
@@ -90863,6 +91080,226 @@
             "file": "content/authoring/source/vjezba-2.exercise.json"
           },
           "subjectId": "stroj-prijavak"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak v1-sitka: izvorni tekst spominje uloge role.strojar, role.vodja-cijevne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "v1-sitka"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak v2-torbice: izvorni tekst spominje uloge role.strojar, role.vodja-vodne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "v2-torbice"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak kljuc-c2: izvorni tekst spominje uloge role.vodja-cijevne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "kljuc-c2"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak v1-vezanje: izvorni tekst spominje uloge role.clan-vodne, role.vodja-cijevne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "v1-vezanje"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak u-vodu: izvorni tekst spominje uloge role.vodja-vodne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "u-vodu"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak iz-vode: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne, role.vodja-cijevne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "iz-vode"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak v1-razvezuje: izvorni tekst spominje uloge role.strojar, role.clan-vodne, role.vodja-cijevne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "v1-razvezuje"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak c1-uze-sitka: izvorni tekst spominje uloge role.strojar, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "c1-uze-sitka"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak strojar-rastavlja-mvp: izvorni tekst spominje uloge role.vodja-vodne, role.vodja-cijevne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "strojar-rastavlja-mvp"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak v1-prvi-spoj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "v1-prvi-spoj"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak v1-skida-uze: izvorni tekst spominje uloge role.clan-vodne, role.vodja-cijevne, role.clan-cijevne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "v1-skida-uze"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak v1-polozaj: izvorni tekst spominje uloge role.vodja-cijevne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "v1-polozaj"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak kljuc-v1: izvorni tekst spominje uloge role.strojar, role.vodja-cijevne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "kljuc-v1"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak prijelaz-r2: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "prijelaz-r2"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak prijelaz-r3: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "prijelaz-r3"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak prijelaz-r4: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "prijelaz-r4"
+        },
+        {
+          "code": "mapping.role-mismatch",
+          "severity": "info",
+          "message": "Korak uzad-natrag: izvorni tekst spominje uloge role.clan-cijevne koje nisu među izvršiteljima koraka.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "uzad-natrag"
+        },
+        {
+          "code": "audio.order-not-in-text",
+          "severity": "info",
+          "message": "Korak spoj-sitka: zapovijed „Diži – spusti” (act.dizi-spusti-1) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "spoj-sitka"
+        },
+        {
+          "code": "audio.order-not-in-text",
+          "severity": "info",
+          "message": "Korak spoj-2: zapovijed „Diži – spusti” (act.dizi-spusti-2) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "spoj-2"
+        },
+        {
+          "code": "audio.order-not-in-text",
+          "severity": "info",
+          "message": "Korak spoj-3: zapovijed „Diži – spusti” (act.dizi-spusti-3) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "spoj-3"
+        },
+        {
+          "code": "audio.order-not-in-text",
+          "severity": "info",
+          "message": "Korak spoj-4: zapovijed „Diži – spusti” (act.dizi-spusti-4) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "spoj-4"
+        },
+        {
+          "code": "audio.order-not-in-text",
+          "severity": "info",
+          "message": "Korak rastavljanje-sitke: zapovijed „Diži – spusti!” (act.dizi-spusti-r4) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+          "stage": "F",
+          "source": {
+            "file": "content/authoring/source/vjezba-3.exercise.json"
+          },
+          "subjectId": "rastavljanje-sitke"
         }
       ]
     },

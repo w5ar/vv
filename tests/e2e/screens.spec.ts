@@ -55,7 +55,7 @@ test('import review shows the source dataset and synthetic pipeline results', as
   await page.goto('#/uvoz');
   const source = page.getByTestId('dataset-source');
   await expect(source).toContainText('56 simbola');
-  await expect(source).toContainText('2 vježbi · 0 grešaka');
+  await expect(source).toContainText(/\d+ vježbi · 0 grešaka/);
   await source.getByRole('tab', { name: /Crteži/ }).click();
   await expect(source).toContainText('Skica 13');
   await source.getByRole('tab', { name: /Povezivanje/ }).click();

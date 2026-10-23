@@ -96,6 +96,37 @@ give the scene a real scale.
     vođi navalne grupe”*, Vj2 70) is modelled with the strojar in N₁'s Vj1 role (inspect equipment,
     report) and N₁ in the commander's role („Na svoje mjesto!”, „Na mjestu odmor!” / „Otpust!”).
 
+## Vježba 3 — usisni vod (Vj3 = `content/source/03-Vjezba-3.md`)
+
+30. **Carrying by two people**: each suction hose is carried by two firefighters (*„svaki od njih drži
+    po jednu spojnicu usisne cijevi u svakoj ruci”*, Vj3 36; C₁ and C₂, Vj3 38). The simulator records
+    one carrier per item (V₁ for both hoses of the vodna grupa, C₂ for the cijevna grupa's hose); a
+    carried suction hose stays full size where it is lifted and moves with that carrier.
+31. **Positions along the line** are computed from the hose length (sketches 21–26 are not to scale);
+    the S-shaped line, the loops (*omče*), the stance (*raskorak*, *prekoračivanje*) and lifting height
+    are not shown. The suction line is drawn straight.
+32. **Which rope bag goes where** (*„odlaže ih lijevo i desno, nedaleko od usisne sitke”*, Vj3 62) is
+    not stated; modelled: the line's rope on the side V₁ walks along, the valve rope on the other side.
+33. **The key V₁ gives to C₂** (Vj3 94): at the end the strojar takes a key *od vođe vodne grupe (V₁)*
+    (Vj3 185), so V₁ must have one again. Modelled as an *assumption* step `kljuc-v1` (C₂ returns it
+    before dismantling). How does V₁ get his key back?
+34. **„vođa cijevne grupe (C₂)”** (Vj3 193): C₂ is the *član* of the cijevna grupa. Modelled with C₁,
+    who handled the valve rope.
+35. **Facing at the couplings**: skica 22 draws V₁ facing C₁ (*„jedna nasuprot druge”*), skica 23 draws
+    the vodna grupa facing the water. The demonstration keeps V₁/V₂ facing C₁/C₂ at every coupling.
+36. **Sides of the line**: the text puts V₂ and C₂ on the left side of the line looking toward the water
+    and V₁ on the right side (Vj3 104–108); skica 24 draws V₂/C₂ above and V₁ below the line. The
+    demonstration follows the sketch.
+37. *„postavlja uže ispod „B” tlačnog cijevnog voda”* (Vj3 142): Vježba 3 has no „B” line; tying the
+    rope to the pump handle is a procedural action (the handle is not modelled as a port).
+38. **Water**: the sketches do not draw the water source; a schematic zone *Crpilište vode* left of the
+    pump (where skica 26 draws the strainer) is used for the condition „sitka u vodi”.
+39. **Lifted connections**: the rule that couplings are joined only while both parts are lifted
+    (Vj3 54, *„Niti jedna od tih radnji ne smije se uraditi na zemlji”*) is enforced when connecting.
+    Dismantling (*„Diži – spusti!”*, Vj3 183) is shown lifted but not enforced.
+40. **Port positions** of the suction hose, strainer (incl. both *karike*), rope bags, pump and vehicles
+    are derived from the symbol drawings and the sketch scripts; the *karike* are not drawn at all.
+
 ## Demonstration sound
 
 26. **Resolved orders**: Vj1 111 quotes *„Prvi, odnosno drugi mlaz – vodom stoj!”* for both leaders;

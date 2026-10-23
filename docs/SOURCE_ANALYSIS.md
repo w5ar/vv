@@ -3,8 +3,9 @@
 ## Summary
 
 The authoritative materials are the GitHub repository **`w5ar/VatrogasneVjezbe`** at commit
-`bf43bf5c2933d67a1333d698347fc81f77485051` (*„Vatrogasni vježbovnik: uvod, legenda, postrojavanje,
-vježbe 1 i 2”*). A byte-identical copy is vendored in `content/source/` (provenance in
+`2393766ad2c7a325feb305b8bb24f69467e594a0` (*„Vježbe 3–15: prijepis, skice 20–77 i fotografije
+18–64”*; exercises 1 and 2 were converted from the earlier commit `bf43bf5`, whose files are
+unchanged). A byte-identical copy is vendored in `content/source/` (provenance in
 `content/source/README.md`). They contain:
 
 | Material | Files | Use in the simulator |
@@ -14,15 +15,18 @@ vježbe 1 i 2”*). A byte-identical copy is vendored in `content/source/` (prov
 | Formation drills (`00-3-Postrojavanje.md`, sketches 1–9) | 1 + 9 | analysed; not modelled as an exercise in this milestone |
 | **Vježba 1** – two „C” jets, six firefighters (`01-Vjezba-1.md`, sketches 11–15) | 1 + 5 | **fully converted** |
 | **Vježba 2** – one „C” jet, three firefighters (`02-Vjezba-2.md`, sketches 16–19) | 1 + 4 | **converted**; its text refers to Vježba 1 for most details |
-| Symbols (`simboli/*.svg`) + sprite (`simboli/simboli.svg`) | 52 + 1 | catalog `katalog-vjezbovnik` (sprite ignored: duplicates the single files) |
-| Stage sketches (`skice/*.svg`) and self-contained render copies (`skice/ugradjeno/*.svg`) | 18 + 18 | analysed (stage C); every render copy was verified to show the same symbols at the same positions |
-| Photo (`slike/01-slika-17.jpg`) | 1 | raster, kept as a reference only |
-| Generator scripts (`alati/*.py`) | 2 | read as text; quoted as the source of drawing conventions (line widths, couplings, facing marks) |
+| **Vježba 3** – suction hoses, five firefighters (`03-Vjezba-3.md`, sketches 20–26) | 1 + 7 | **converted** |
+| Vježbe 4–15 (`04-Vjezba-4.md` … `15-Vjezba-15.md`, sketches 27–77) | 12 + 51 | analysed; marked as not yet entered in `mapping.review.json` |
+| Symbols (`simboli/*.svg`) + sprite (`simboli/simboli.svg`) | 56 + 1 | catalog `katalog-vjezbovnik` (sprite ignored: duplicates the single files) |
+| Stage sketches (`skice/*.svg`) and self-contained render copies (`skice/ugradjeno/*.svg`) | 76 + 76 | analysed (stage C) |
+| Photographs (`slike/*.jpg`) | 48 | raster, kept as references only |
+| Generator scripts (`alati/*.py`) | 7 | read as text; quoted as the source of drawing conventions (line widths, couplings, facing marks, pump and vehicle connections) |
 
-Pipeline result (`content/normalized/source/REPORT.md`): 97 files, 52 symbols, 18 diagrams,
-5 procedures, 2 exercises — **0 errors**, 1 warning (the raster photo). All 108 step candidates are
-either mapped to exercise steps (58) or explicitly ignored with a reason (50). Both demonstrations run
-without rejected commands, reach completion and agree with every stage sketch.
+Pipeline result (`content/normalized/source/REPORT.md`): 282 files, 56 symbols, 76 diagrams,
+18 procedures, 3 exercises — **0 errors**, 48 warnings (the raster photographs). Every step candidate
+is either mapped to an exercise step or explicitly ignored with a reason (the candidates of exercises
+4–15 are ignored as „not yet entered”). The demonstrations run without rejected commands, reach
+completion and agree with every stage sketch they are compared with.
 
 Both exercises have `review.status: requires-review`: the linking of text, sketches and simulation
 commands was done by the development team and must be checked by a firefighting expert. The
