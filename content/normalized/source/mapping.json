@@ -1162,199 +1162,276 @@
     "candidateId": "04-vjezba-4#2-4-2-vjezba-4-vjezba-s-usisnim-cijevima-3-vatrogasca/p1",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
   },
   {
     "candidateId": "04-vjezba-4#2-4-2-vjezba-4-vjezba-s-usisnim-cijevima-3-vatrogasca/p2",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Uvod u popis opreme; oprema je u početnoj sceni, a količine se provjeravaju u fazi F."
   },
   {
     "candidateId": "04-vjezba-4#polaganje-usisnih-cijevi/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "zapovijed",
+      "strojar-oprema"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#polaganje-usisnih-cijevi/p2",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "strojar-mjesto"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#polaganje-usisnih-cijevi/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "prva-cijev"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#polaganje-usisnih-cijevi/p4",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "desne-cijevi"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#spajanje-usisnog-voda/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "polozaj-spajanje"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#spajanje-usisnog-voda/p2",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "spoj-sitka"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#spajanje-usisnog-voda/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "prijelaz-2",
+      "spoj-2",
+      "prijelaz-3",
+      "spoj-3",
+      "prijelaz-4",
+      "spoj-4"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#spajanje-usisnog-voda/p4",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "N₁ i N₂ ključeve nose od spajanja sitke (korak spoj-sitka); stavljanje za opasač nije prikazano."
   },
   {
     "candidateId": "04-vjezba-4#vezanje-usisnog-voda/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "uzetom-vezi",
+      "n2-ventil"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#vezanje-usisnog-voda/p2",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "strojar-podize"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#vezanje-usisnog-voda/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "n1-vezanje"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#vezanje-usisnog-voda/p4",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "n2-podize"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#prenosenje-usisnog-voda/p1",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "u-vodu"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#prenosenje-usisnog-voda/p2",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Strojar već drži kraj četvrte cijevi (korak strojar-podize); odlomak je dodatni izvor koraka prenosenje."
   },
   {
     "candidateId": "04-vjezba-4#prenosenje-usisnog-voda/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "prihvat-n1"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#prenosenje-usisnog-voda/p4",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "prihvat-n2"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#prenosenje-usisnog-voda/p5",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "prenosenje"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#prenosenje-usisnog-voda/p6",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "n2-uze-mvp",
+      "n2-pomaze",
+      "spoj-mvp"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#prenosenje-usisnog-voda/p7",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "n1-rucica"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#prenosenje-usisnog-voda/p8",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "gotovo"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#pospremanje-opreme/p1",
     "stepIds": [],
     "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "reason": "Uvodna rečenica; radnje rastavljanja opisane su u sljedećim odlomcima (dodatni izvor koraka iz-vode)."
   },
   {
     "candidateId": "04-vjezba-4#pospremanje-opreme/p2",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "iz-vode",
+      "n1-razvezuje",
+      "strojar-rastavlja-mvp"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#pospremanje-opreme/p3",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "n1-prvi-spoj"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#pospremanje-opreme/p4",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "n2-drugi-spoj"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#pospremanje-opreme/p5",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "odnosenje",
+      "n1-skida-uze",
+      "n2-skida-karabin",
+      "spustanje"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#pospremanje-opreme/p6",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "polozaj-rastavljanje",
+      "rastavljanje-4",
+      "prijelaz-r2",
+      "rastavljanje-3",
+      "prijelaz-r3",
+      "rastavljanje-2",
+      "prijelaz-r4"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#pospremanje-opreme/p7",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "rastavljanje-sitke"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#pospremanje-opreme/p8",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "sitka-strojaru"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#pospremanje-opreme/p9",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "cijevi-natrag"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#pospremanje-opreme/p10",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "cetvrta-natrag",
+      "uzad-natrag"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "04-vjezba-4#pospremanje-opreme/p11",
-    "stepIds": [],
-    "status": "ignored",
-    "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
+    "exerciseId": "vjezba-4-usisne-cijevi",
+    "stepIds": [
+      "u-stroj"
+    ],
+    "status": "mapped"
   },
   {
     "candidateId": "05-vjezba-5#2-5-1-vjezba-5-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-otvorenog-nalazista-6-vatrogasaca/p1",

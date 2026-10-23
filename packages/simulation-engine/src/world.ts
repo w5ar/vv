@@ -37,6 +37,53 @@ export function isHeld(ctx: ExerciseContext, obj: ObjectState | undefined): bool
   return equipmentTypeOf(ctx, obj)?.carry === 'held';
 }
 
+/**
+ * Items that move when a carrier walks: the held items it carries plus the held items joined to them
+ * that nobody carries (a lifted part of a suction line takes the strainer hanging on it along).
+ * A part also joined to parts carried by someone else stays where it is: it hangs between carriers.
+ */
+export function heldGroup(ctx: ExerciseContext, state: SimulationState, carrierId: Id): Id[] {
+  const carrier = state.objects[carrierId];
+  if (!carrier) return [];
+  const own = carrier.carrying.filter((id) => isHeld(ctx, state.objects[id]));
+  if (own.length === 0) return [];
+  const neighbours = new Map<Id, Id[]>();
+  for (const c of connectionList(state)) {
+    neighbours.set(c.a.objectId, [...(neighbours.get(c.a.objectId) ?? []), c.b.objectId]);
+    neighbours.set(c.b.objectId, [...(neighbours.get(c.b.objectId) ?? []), c.a.objectId]);
+  }
+  const loose = (id: Id) => {
+    const o = state.objects[id];
+    return !!o && isHeld(ctx, o) && !o.carriedBy && !o.storedIn;
+  };
+  // Components of loose parts, and the carriers of the parts they touch.
+  const out = new Set<Id>(own);
+  const seen = new Set<Id>();
+  for (const start of own) {
+    for (const first of neighbours.get(start) ?? []) {
+      if (seen.has(first) || !loose(first)) continue;
+      const component: Id[] = [];
+      const carriers = new Set<Id>();
+      const queue = [first];
+      seen.add(first);
+      while (queue.length > 0) {
+        const id = queue.shift() as Id;
+        component.push(id);
+        for (const n of neighbours.get(id) ?? []) {
+          const o = state.objects[n];
+          if (o?.carriedBy && isHeld(ctx, o)) carriers.add(o.carriedBy);
+          else if (!seen.has(n) && loose(n)) {
+            seen.add(n);
+            queue.push(n);
+          }
+        }
+      }
+      if (carriers.size === 1 && carriers.has(carrierId)) for (const id of component) out.add(id);
+    }
+  }
+  return [...out];
+}
+
 export function categoryOf(ctx: ExerciseContext, obj: ObjectState): Id | undefined {
   return ctx.catalog.symbols.get(obj.symbolId)?.category;
 }

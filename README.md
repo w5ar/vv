@@ -21,7 +21,8 @@ screen) button that shows the scene with its panels over the whole screen.
 | **Vježba 1 – Vježba s dva „C” mlaza vode (šest vatrogasaca)** | `content/source/01-Vjezba-1.md`, sketches 11–15 | 6 stages, 47 steps; demonstration, training and assessment |
 | **Vježba 2 – Vježba s jednim „C” mlazom vode (tri vatrogasca)** | `content/source/02-Vjezba-2.md`, sketches 16–19 | 5 stages, 15 steps; applies Vježba 1 where the text says *„kao u vježbi 1”* |
 | **Vježba 3 – Vježba s usisnim cijevima (5 vatrogasaca)** | `content/source/03-Vjezba-3.md`, sketches 20–26 | 8 stages, 59 steps; suction line laid, joined while lifted, tied, carried into the water and connected to the pump |
-| Vježbe 4–15 | `content/source/04-Vjezba-4.md` … `15-Vjezba-15.md`, sketches 27–77 | vendored and analysed (Pregled uvoza); not yet converted |
+| **Vježba 4 – Vježba s usisnim cijevima (3 vatrogasca)** | `content/source/04-Vjezba-4.md`, sketches 27–36 | 9 stages, 49 steps; the same with the navalna grupa and the strojar, applying Vježba 3 where the text refers to it |
+| Vježbe 5–15 | `content/source/05-Vjezba-5.md` … `15-Vjezba-15.md`, sketches 37–77 | vendored and analysed (Pregled uvoza); not yet converted |
 | Sintetička vježba 01 | `content/synthetic/` | **synthetic** test fixture, not firefighting practice |
 
 The source materials are a copy of the repository `w5ar/VatrogasneVjezbe` (*Vatrogasni vježbovnik*:

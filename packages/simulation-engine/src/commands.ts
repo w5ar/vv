@@ -3,7 +3,7 @@ import type { Command, CommandOf, Id, Issue, ObjectKind, ObjectState, SimEvent, 
 import { add, angleDelta, distance, distanceToPlacement, normalizeAngle, sub, type Vec2 } from '@fds/geometry';
 import { evaluateCondition } from './conditions';
 import type { ExerciseContext } from './context';
-import { carriedPosition, connectionList, connectionWorld, equipmentTypeOf, isHeld, objectName, placementOfObject } from './world';
+import { carriedPosition, connectionList, connectionWorld, equipmentTypeOf, heldGroup, isHeld, objectName, placementOfObject } from './world';
 
 /**
  * Per-command intrinsic validation and application. These encode simulation
@@ -47,15 +47,20 @@ function withObjects(state: SimulationState, updates: ObjectState[]): Simulation
 
 /**
  * Repositions carried items after the carrier moved by `delta` (or its load changed): items beside
- * the carrier are re-stacked, held items move by the same delta.
+ * the carrier are re-stacked; held items, and the loose parts joined to them, move by the same delta.
  */
 function carriedUpdates(ctx: ExerciseContext, state: SimulationState, carrier: ObjectState, delta: Vec2 = { x: 0, y: 0 }): ObjectState[] {
-  return carrier.carrying.flatMap((itemId, slot) => {
+  const beside = carrier.carrying.flatMap((itemId, slot) => {
     const item = state.objects[itemId];
-    if (!item) return [];
-    if (isHeld(ctx, item)) return delta.x === 0 && delta.y === 0 ? [] : [{ ...item, position: add(item.position, delta) }];
+    if (!item || isHeld(ctx, item)) return [];
     return [{ ...item, position: carriedPosition(ctx, carrier.position, slot) }];
   });
+  if (delta.x === 0 && delta.y === 0) return beside;
+  const held = heldGroup(ctx, state, carrier.id).flatMap((id) => {
+    const item = state.objects[id];
+    return item ? [{ ...item, position: add(item.position, delta) }] : [];
+  });
+  return [...beside, ...held];
 }
 
 function storedIssue(ctx: ExerciseContext, state: SimulationState, obj: ObjectState): Issue[] {

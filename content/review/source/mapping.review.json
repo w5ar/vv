@@ -14,10 +14,6 @@
       "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
     },
     {
-      "file": "04-Vjezba-4.md",
-      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
-    },
-    {
       "file": "05-Vjezba-5.md",
       "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
     },
@@ -150,6 +146,26 @@
     {
       "candidateId": "03-vjezba-3#prenosenje-usisnog-voda/p2",
       "reason": "Strojar već drži kraj četvrte cijevi (korak strojar-podize); odlomak je dodatni izvor koraka prenosenje."
+    },
+    {
+      "candidateId": "04-vjezba-4#2-4-2-vjezba-4-vjezba-s-usisnim-cijevima-3-vatrogasca/p1",
+      "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
+    },
+    {
+      "candidateId": "04-vjezba-4#2-4-2-vjezba-4-vjezba-s-usisnim-cijevima-3-vatrogasca/p2",
+      "reason": "Uvod u popis opreme; oprema je u početnoj sceni, a količine se provjeravaju u fazi F."
+    },
+    {
+      "candidateId": "04-vjezba-4#spajanje-usisnog-voda/p4",
+      "reason": "N₁ i N₂ ključeve nose od spajanja sitke (korak spoj-sitka); stavljanje za opasač nije prikazano."
+    },
+    {
+      "candidateId": "04-vjezba-4#prenosenje-usisnog-voda/p2",
+      "reason": "Strojar već drži kraj četvrte cijevi (korak strojar-podize); odlomak je dodatni izvor koraka prenosenje."
+    },
+    {
+      "candidateId": "04-vjezba-4#pospremanje-opreme/p1",
+      "reason": "Uvodna rečenica; radnje rastavljanja opisane su u sljedećim odlomcima (dodatni izvor koraka iz-vode)."
     }
   ]
 }

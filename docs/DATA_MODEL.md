@@ -79,7 +79,7 @@ materials do not use; synthetic examples are not firefighting practice.
 | --- | --- |
 | `id`, `name`, `symbolId`, `description?` | identity; `symbolId` is the symbol shown on the ground or carried |
 | `portable` | whether personnel can pick it up |
-| `carry` | `beside` (default): a carried item is drawn compact beside its carrier · `held`: a bulky item (suction hose, strainer) is lifted where it lies — it keeps its place, size and rotation and moves with the carrier |
+| `carry` | `beside` (default): a carried item is drawn compact beside its carrier · `held`: a bulky item (suction hose, strainer) is lifted where it lies — it keeps its place, size and rotation and moves with the carrier; held items joined to it that nobody carries move along (a strainer hanging on a lifted hose), unless they are also joined to parts someone else carries |
 | `container` | vehicles (autocisterna, navalno vozilo): equipment can be stored in their compartments (`storedIn`, `StoreEquipment`) and taken from them |
 | `form` | `rigid` (default) or `hose` — a flexible item shown as a coil until laid |
 | `hoseEnds?` | hose only: `[endA, endB]` port ids; `LayHose` lays from end A to end B |

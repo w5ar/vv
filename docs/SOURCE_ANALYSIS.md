@@ -16,16 +16,18 @@ unchanged). A byte-identical copy is vendored in `content/source/` (provenance i
 | **Vježba 1** – two „C” jets, six firefighters (`01-Vjezba-1.md`, sketches 11–15) | 1 + 5 | **fully converted** |
 | **Vježba 2** – one „C” jet, three firefighters (`02-Vjezba-2.md`, sketches 16–19) | 1 + 4 | **converted**; its text refers to Vježba 1 for most details |
 | **Vježba 3** – suction hoses, five firefighters (`03-Vjezba-3.md`, sketches 20–26) | 1 + 7 | **converted** |
-| Vježbe 4–15 (`04-Vjezba-4.md` … `15-Vjezba-15.md`, sketches 27–77) | 12 + 51 | analysed; marked as not yet entered in `mapping.review.json` |
+| **Vježba 4** – suction hoses, three firefighters (`04-Vjezba-4.md`, sketches 27–36) | 1 + 10 | **converted**; refers to Vježba 3 for details |
+| Vježbe 5–15 (`05-Vjezba-5.md` … `15-Vjezba-15.md`, sketches 37–77) | 11 + 41 | analysed; marked as not yet entered in `mapping.review.json` |
 | Symbols (`simboli/*.svg`) + sprite (`simboli/simboli.svg`) | 56 + 1 | catalog `katalog-vjezbovnik` (sprite ignored: duplicates the single files) |
 | Stage sketches (`skice/*.svg`) and self-contained render copies (`skice/ugradjeno/*.svg`) | 76 + 76 | analysed (stage C) |
 | Photographs (`slike/*.jpg`) | 48 | raster, kept as references only |
 | Generator scripts (`alati/*.py`) | 7 | read as text; quoted as the source of drawing conventions (line widths, couplings, facing marks, pump and vehicle connections) |
 
 Pipeline result (`content/normalized/source/REPORT.md`): 282 files, 56 symbols, 76 diagrams,
-18 procedures, 3 exercises — **0 errors**, 48 warnings (the raster photographs). Every step candidate
+18 procedures, 4 exercises — **0 errors**, 51 warnings (48 raster photographs, 3 sketch differences
+listed in OPEN_QUESTIONS Q44). Every step candidate
 is either mapped to an exercise step or explicitly ignored with a reason (the candidates of exercises
-4–15 are ignored as „not yet entered”). The demonstrations run without rejected commands, reach
+5–15 are ignored as „not yet entered”). The demonstrations run without rejected commands, reach
 completion and agree with every stage sketch they are compared with.
 
 Both exercises have `review.status: requires-review`: the linking of text, sketches and simulation

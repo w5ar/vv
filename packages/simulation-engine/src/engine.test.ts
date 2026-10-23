@@ -540,6 +540,21 @@ describe('held items, vehicle storage and worn equipment', () => {
     );
   });
 
+  it('takes loose parts joined to a lifted part along, but not parts held by someone else', () => {
+    const near = executeCommand(ctx, s0, { type: 'MovePersonnel', personnelId: 'p2', to: { x: 240, y: 130 } }).state;
+    // Two hoses joined end to end; p2 lifts the first one, the second lies loose.
+    const placed = { ...near, objects: { ...near.objects, hose2: { ...near.objects.hose1!, id: 'hose2', position: { x: 300, y: 90 } } }, objectOrder: [...near.objectOrder, 'hose2'] };
+    const joined = executeCommand(ctx, placed, { type: 'ConnectPorts', a: { objectId: 'hose1', portId: 'end-b' }, b: { objectId: 'hose2', portId: 'end-a' } }).state;
+    const lifted = executeCommand(ctx, joined, { type: 'PickUpEquipment', personnelId: 'p2', equipmentId: 'hose1' }).state;
+    const moved = executeCommand(ctx, lifted, { type: 'MovePersonnel', personnelId: 'p2', to: { x: 240, y: 230 } }).state;
+    expect(moved.objects.hose1?.position).toEqual({ x: 240, y: 190 });
+    expect(moved.objects.hose2?.position).toEqual({ x: 300, y: 190 });
+    // When p1 also holds the second hose, p2's walk leaves it where p1 holds it.
+    const p1near = executeCommand(ctx, lifted, { type: 'MovePersonnel', personnelId: 'p1', to: { x: 300, y: 130 } }).state;
+    const both = executeCommand(ctx, p1near, { type: 'PickUpEquipment', personnelId: 'p1', equipmentId: 'hose2' }).state;
+    expect(executeCommand(ctx, both, { type: 'MovePersonnel', personnelId: 'p2', to: { x: 240, y: 230 } }).state.objects.hose2?.position).toEqual({ x: 300, y: 90 });
+  });
+
   it('keeps stored equipment off the scene until it is taken from its container', () => {
     expect(s0.objects.splitter).toMatchObject({ storedIn: 'source', position: s0.objects.source?.position });
     expect(evaluateCondition(ctx, s0, { type: 'stored', equipmentId: 'splitter', containerId: 'source' })).toBe(true);

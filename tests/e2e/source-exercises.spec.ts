@@ -144,3 +144,11 @@ test('Vježba 3 training: suction hoses are joined only while they are lifted', 
   await expect(feedback).toHaveAttribute('data-accepted', 'false');
   await expect(feedback).toContainText('ne smije se obaviti na tlu');
 });
+
+test('Vježba 4 demonstration reaches completion', async ({ page }) => {
+  await page.goto('#/demonstracija/vjezba-4-usisne-cijevi');
+  const range = page.getByTestId('timeline-range');
+  await range.fill((await range.getAttribute('max')) ?? '0');
+  await expect(page.getByTestId('demo-complete')).toBeVisible();
+  await expect(page.getByTestId('progress-label')).toContainText('49 / 49');
+});

@@ -3019,5 +3019,305 @@
       "file": "content/authoring/source/vjezba-3.exercise.json"
     },
     "subjectId": "rastavljanje-sitke"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak prva-cijev: izvorni tekst spominje uloge role.vodja-cijevne, role.clan-cijevne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "prva-cijev"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak desne-cijevi: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "desne-cijevi"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak polozaj-spajanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "polozaj-spajanje"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak uzetom-vezi: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "uzetom-vezi"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak n2-ventil: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "n2-ventil"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak u-vodu: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "u-vodu"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak n2-uze-mvp: izvorni tekst spominje uloge role.strojar, role.clan-vodne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "n2-uze-mvp"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak n2-pomaze: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "n2-pomaze"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak spoj-mvp: izvorni tekst spominje uloge role.clan-navalne, role.clan-vodne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "spoj-mvp"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak n1-rucica: izvorni tekst spominje uloge role.vodja-vodne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "n1-rucica"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak iz-vode: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "iz-vode"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak n1-razvezuje: izvorni tekst spominje uloge role.strojar, role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "n1-razvezuje"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak strojar-rastavlja-mvp: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "strojar-rastavlja-mvp"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak n1-prvi-spoj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "n1-prvi-spoj"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak n1-skida-uze: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "n1-skida-uze"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak n2-skida-karabin: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "n2-skida-karabin"
+  },
+  {
+    "code": "mapping.role-mismatch",
+    "severity": "info",
+    "message": "Korak spustanje: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka.",
+    "stage": "F",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "spustanje"
+  },
+  {
+    "code": "diagram.count-mismatch",
+    "severity": "warning",
+    "stage": "F",
+    "message": "Faza faza.spajanje-sitke (na početku): „Ključ za spojnice” – na crtežu 0, u vježbi 1 (+2 nošeno).",
+    "source": {
+      "file": "content/source/skice/04-skica-31.svg"
+    },
+    "subjectId": "src.kljuc-za-spojnice"
+  },
+  {
+    "code": "diagram.count-mismatch",
+    "severity": "warning",
+    "stage": "F",
+    "message": "Faza faza.vezanje (na kraju): „Ključ za spojnice” – na crtežu 0, u vježbi 1 (+2 nošeno).",
+    "source": {
+      "file": "content/source/skice/04-skica-34.svg"
+    },
+    "subjectId": "src.kljuc-za-spojnice"
+  },
+  {
+    "code": "diagram.count-mismatch",
+    "severity": "warning",
+    "stage": "F",
+    "message": "Faza faza.prihvat (na kraju): „Ključ za spojnice” – na crtežu 0, u vježbi 1 (+2 nošeno).",
+    "source": {
+      "file": "content/source/skice/04-skica-35.svg"
+    },
+    "subjectId": "src.kljuc-za-spojnice"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak spoj-2: zapovijed „Diži!” (act.dizi-2) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "spoj-2"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak spoj-2: zapovijed „Spusti!” (act.spusti-2) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "spoj-2"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak spoj-3: zapovijed „Diži!” (act.dizi-3) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "spoj-3"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak spoj-3: zapovijed „Spusti!” (act.spusti-3) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "spoj-3"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak spoj-4: zapovijed „Diži!” (act.dizi-4) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "spoj-4"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak spoj-4: zapovijed „Spusti!” (act.spusti-4) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "spoj-4"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak rastavljanje-4: zapovijed „Diži – spusti!” (act.dizi-spusti-r1) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "rastavljanje-4"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak rastavljanje-3: zapovijed „Diži – spusti!” (act.dizi-spusti-r2) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "rastavljanje-3"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak rastavljanje-2: zapovijed „Diži – spusti!” (act.dizi-spusti-r3) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "rastavljanje-2"
+  },
+  {
+    "code": "audio.order-not-in-text",
+    "severity": "info",
+    "stage": "F",
+    "message": "Korak rastavljanje-sitke: zapovijed „Diži – spusti!” (act.dizi-spusti-r4) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa.",
+    "source": {
+      "file": "content/authoring/source/vjezba-4.exercise.json"
+    },
+    "subjectId": "rastavljanje-sitke"
   }
 ]

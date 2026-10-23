@@ -1,11 +1,11 @@
-import type { AudioPlan, Command, Connection, HoseLayout, Id, Issue, SimEvent, SimulationState, Voice } from '@fds/domain';
+import type { AudioPlan, Command, Connection, HoseLayout, Id, Issue, ObjectState, SimEvent, SimulationState, Voice } from '@fds/domain';
 import { distance, lerpAngle, lerpVec, type Vec2 } from '@fds/geometry';
 import type { ExerciseContext } from './context';
 import { resolveLayFrom } from './commands';
 import { executeCommand } from './engine';
 import { createInitialState } from './initial-state';
 import { replay } from './session';
-import { carriedPosition, isHeld } from './world';
+import { carriedPosition, heldGroup, isHeld } from './world';
 
 /**
  * Demonstration timeline.
@@ -80,8 +80,8 @@ export interface Timeline {
   readonly snapshots: readonly SimulationState[];
 }
 
-function animatedObjects(state: SimulationState, command: Command): Id[] {
-  const carried = (id: Id) => state.objects[id]?.carrying ?? [];
+function animatedObjects(ctx: ExerciseContext, state: SimulationState, command: Command): Id[] {
+  const carried = (id: Id) => [...new Set([...(state.objects[id]?.carrying ?? []), ...heldGroup(ctx, state, id)])];
   switch (command.type) {
     case 'MovePersonnel':
       return [command.personnelId, ...carried(command.personnelId)];
@@ -192,7 +192,7 @@ export function compileTimeline(ctx: ExerciseContext, options: { snapshotInterva
     let probe = sim;
     const stepAnimates = new Set<Id>();
     for (const sc of step.script) {
-      for (const id of animatedObjects(probe, sc.command)) stepAnimates.add(id);
+      for (const id of animatedObjects(ctx, probe, sc.command)) stepAnimates.add(id);
       const r = executeCommand(ctx, probe, sc.command, probe.time);
       probe = r.state;
     }
@@ -251,7 +251,7 @@ export function compileTimeline(ctx: ExerciseContext, options: { snapshotInterva
         startMs: s,
         endMs: e,
         caption: sc.caption,
-        animates: animatedObjects(sim, sc.command),
+        animates: animatedObjects(ctx, sim, sc.command),
       });
       sim = executeCommand(ctx, sim, sc.command, e).state;
       prevStart = s;
@@ -531,13 +531,12 @@ export function frameAt(ctx: ExerciseContext, timeline: Timeline, t: number): Vi
     if (!obj || obj.kind !== 'personnel' || !ov?.position) continue;
     const shown = ov.position;
     obj.carrying.forEach((itemId, slot) => {
-      const item = state.objects[itemId];
-      const position =
-        item && isHeld(ctx, item)
-          ? { x: item.position.x + shown.x - obj.position.x, y: item.position.y + shown.y - obj.position.y }
-          : carriedPosition(ctx, shown, slot);
-      overrides[itemId] = { ...overrides[itemId], position };
+      if (!isHeld(ctx, state.objects[itemId])) overrides[itemId] = { ...overrides[itemId], position: carriedPosition(ctx, shown, slot) };
     });
+    for (const itemId of heldGroup(ctx, state, obj.id)) {
+      const item = state.objects[itemId] as ObjectState;
+      overrides[itemId] = { ...overrides[itemId], position: { x: item.position.x + shown.x - obj.position.x, y: item.position.y + shown.y - obj.position.y } };
+    }
   }
 
   const cue = cueAt(timeline, time);

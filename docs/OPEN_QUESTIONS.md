@@ -127,6 +127,22 @@ give the scene a real scale.
 40. **Port positions** of the suction hose, strainer (incl. both *karike*), rope bags, pump and vehicles
     are derived from the symbol drawings and the sketch scripts; the *karike* are not drawn at all.
 
+## Vježba 4 — usisni vod s tri vatrogasca (Vj4 = `content/source/04-Vjezba-4.md`)
+
+41. **Who holds what while carrying the line**: three people hold four hoses and the strainer
+    (*„N₂ s lijevom rukom prima spoj između prve i druge usisne cijevi, a desnom za uže nepovratnog
+    ventila”*, Vj4 120). The strainer is held by nobody; the simulator carries it along with the first
+    hose it is joined to (a loose part joined to a lifted part moves with it).
+42. **Lifting while joining** (Vj4 74): *„druga spojnica cijevi iza N₂ ostaje na tlu”* — the far end
+    of N₂'s hose stays on the ground; the simulator records the hose as lifted (carried by N₂).
+43. **Facing at the couplings**: as in Vježba 3 (Q35), N₁ is kept facing N₂; skica 32 draws N₁ facing
+    the water.
+44. **The third key** lies under the pump's suction inlet until the strojar uses it (Vj3 140);
+    skice 27–30 draw it, skice 31, 34 and 35 do not (three `diagram.count-mismatch` warnings).
+45. **„Diži – spusti!” when dismantling**: Vj4 158 says *„istim postupkom kao u vježbi 3”*; the
+    demonstration speaks the Vj3 order (Vj3 183), while joining uses Vj4's separate „Diži!” and
+    „Spusti!” (Vj4 72).
+
 ## Demonstration sound
 
 26. **Resolved orders**: Vj1 111 quotes *„Prvi, odnosno drugi mlaz – vodom stoj!”* for both leaders;

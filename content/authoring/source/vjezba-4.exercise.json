@@ -1,0 +1,6437 @@
+{
+  "$comment": [
+    "Vježba 4 iz izvornih materijala (content/source/04-Vjezba-4.md, skice 27–36). Tekst koraka preuzima se doslovno iz Markdowna preko „source”.",
+    "Tekst vježbe 4 na više mjesta upućuje na vježbu 3; retci vježbe 3 čiji se postupak primjenjuje navedeni su kao dodatni izvori koraka.",
+    "Koordinatni sustav vježbe je sustav skice 27. Položaji duž usisnog voda izračunati su iz duljine usisne cijevi (skice nisu u mjerilu).",
+    "Datoteka je generirana pomoćnom skriptom pri izradi; mijenja se izravno."
+  ],
+  "schemaVersion": 1,
+  "id": "vjezba-4-usisne-cijevi",
+  "title": "Vježba 4 – Vježba s usisnim cijevima (3 vatrogasca)",
+  "summary": "Strojar i navalna grupa polažu, spajaju i vežu usisni vod, prenose ga u vodu i spajaju na prijenosnu motornu pumpu.",
+  "description": "Izvor: Vatrogasni vježbovnik, 2.4.2 Vježba 4 (content/source/04-Vjezba-4.md) i skice 27–36; postupci iz vježbe 3 na koje tekst upućuje. Usisne cijevi spajaju se samo podignute. Omče užeta, oblik slova „S” i položaj nogu nisu prikazani. Položaji su shematski: skice nisu u mjerilu pa se faze uspoređuju samo po tome koji su simboli prikazani.",
+  "synthetic": false,
+  "catalogId": "katalog-vjezbovnik",
+  "metadata": {
+    "tags": [
+      "usisni vod",
+      "prijenosna motorna pumpa",
+      "tri vatrogasca"
+    ],
+    "authors": [
+      "Vatrogasni vježbovnik (izvor)"
+    ],
+    "version": "0.1"
+  },
+  "provenance": "source",
+  "review": {
+    "status": "requires-review",
+    "notes": "Vježba 4 primjenjuje postupke vježbe 3 prema uputama iz teksta; potrebna je provjera vatrogasnog stručnjaka."
+  },
+  "sources": [
+    {
+      "file": "04-Vjezba-4.md"
+    },
+    {
+      "file": "03-Vjezba-3.md"
+    }
+  ],
+  "settings": {
+    "pickUpDistance": 70,
+    "placeDistance": 90,
+    "snapDistance": 24,
+    "connectionMaxDistance": 100,
+    "maxCarriedPerPerson": null,
+    "orderPolicy": "warn",
+    "equipmentMovePolicy": "non-portable-only"
+  },
+  "animation": {
+    "moveSpeed": 160,
+    "hoseSpeed": 200,
+    "actionMs": 1500,
+    "stepGapMs": 300
+  },
+  "initialScene": {
+    "fromDiagram": {
+      "file": "skice/04-skica-27.svg",
+      "translate": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "viewport": {
+      "x": -560,
+      "y": -40,
+      "width": 1360,
+      "height": 420
+    },
+    "personnel": [
+      {
+        "id": "s",
+        "symbolId": "src.strojar",
+        "roleId": "role.strojar",
+        "diagramKey": "strojar@150,190",
+        "rotation": 270,
+        "provenance": "source",
+        "sources": [
+          {
+            "file": "04-Vjezba-4.md",
+            "line": 7,
+            "excerpt": "strojar (S),"
+          }
+        ]
+      },
+      {
+        "id": "n1",
+        "symbolId": "src.n1",
+        "roleId": "role.vodja-navalne",
+        "diagramKey": "n1@225,190",
+        "rotation": 270,
+        "provenance": "source",
+        "sources": [
+          {
+            "file": "04-Vjezba-4.md",
+            "line": 8,
+            "excerpt": "vođa grupe (N₁),"
+          }
+        ]
+      },
+      {
+        "id": "n2",
+        "symbolId": "src.n2",
+        "roleId": "role.clan-navalne",
+        "diagramKey": "n2@150,260",
+        "rotation": 270,
+        "provenance": "source",
+        "sources": [
+          {
+            "file": "04-Vjezba-4.md",
+            "line": 9,
+            "excerpt": "član grupe (N₂)."
+          }
+        ]
+      }
+    ],
+    "equipment": [
+      {
+        "id": "mvp",
+        "typeId": "et.prijenosna-pumpa",
+        "diagramKey": "prijenosna-pumpa@440,190",
+        "provenance": "source",
+        "sources": [
+          {
+            "file": "04-Vjezba-4.md",
+            "line": 13,
+            "excerpt": "prijenosna motorna vatrogasna pumpa,"
+          }
+        ]
+      },
+      {
+        "id": "u3",
+        "typeId": "et.usisna-cijev",
+        "diagramKey": "usisna-cijev@450,72",
+        "provenance": "source",
+        "sources": [
+          {
+            "file": "04-Vjezba-4.md",
+            "line": 14,
+            "excerpt": "4 „A” usisne cijevi,"
+          }
+        ]
+      },
+      {
+        "id": "u4",
+        "typeId": "et.usisna-cijev",
+        "diagramKey": "usisna-cijev@450,112",
+        "provenance": "source",
+        "sources": [
+          {
+            "file": "04-Vjezba-4.md",
+            "line": 14,
+            "excerpt": "4 „A” usisne cijevi,"
+          }
+        ]
+      },
+      {
+        "id": "u1",
+        "typeId": "et.usisna-cijev",
+        "diagramKey": "usisna-cijev@450,268",
+        "provenance": "source",
+        "sources": [
+          {
+            "file": "04-Vjezba-4.md",
+            "line": 14,
+            "excerpt": "4 „A” usisne cijevi,"
+          }
+        ]
+      },
+      {
+        "id": "u2",
+        "typeId": "et.usisna-cijev",
+        "diagramKey": "usisna-cijev@450,308",
+        "provenance": "source",
+        "sources": [
+          {
+            "file": "04-Vjezba-4.md",
+            "line": 14,
+            "excerpt": "4 „A” usisne cijevi,"
+          }
+        ]
+      },
+      {
+        "id": "sitka",
+        "typeId": "et.usisna-sitka",
+        "diagramKey": "usisna-sitka@313,190",
+        "provenance": "source",
+        "sources": [
+          {
+            "file": "04-Vjezba-4.md",
+            "line": 15,
+            "excerpt": "1 usisna sitka,"
+          }
+        ]
+      },
+      {
+        "id": "uze-vod",
+        "typeId": "et.uze-usisnog-voda",
+        "diagramKey": "uze-s-torbicom@319,135",
+        "provenance": "source",
+        "sources": [
+          {
+            "file": "04-Vjezba-4.md",
+            "line": 16,
+            "excerpt": "1 uže s torbicom za vezanje usisnih cijevi,"
+          }
+        ]
+      },
+      {
+        "id": "uze-ventil",
+        "typeId": "et.uze-ventila",
+        "diagramKey": "uze-s-torbicom@319,155",
+        "provenance": "source",
+        "sources": [
+          {
+            "file": "04-Vjezba-4.md",
+            "line": 17,
+            "excerpt": "1 uže s torbicom za vezanje ventila na usisnoj sitki,"
+          }
+        ]
+      },
+      {
+        "id": "ks1",
+        "typeId": "et.kljuc-za-spojnice",
+        "diagramKey": "kljuc-za-spojnice@315,222",
+        "provenance": "source",
+        "sources": [
+          {
+            "file": "04-Vjezba-4.md",
+            "line": 18,
+            "excerpt": "3 univerzalna ključa za spojnice."
+          }
+        ]
+      },
+      {
+        "id": "ks2",
+        "typeId": "et.kljuc-za-spojnice",
+        "diagramKey": "kljuc-za-spojnice@315,233",
+        "provenance": "source",
+        "sources": [
+          {
+            "file": "04-Vjezba-4.md",
+            "line": 18,
+            "excerpt": "3 univerzalna ključa za spojnice."
+          }
+        ]
+      },
+      {
+        "id": "ks3",
+        "typeId": "et.kljuc-za-spojnice",
+        "diagramKey": "kljuc-za-spojnice@360.4,190",
+        "provenance": "source",
+        "sources": [
+          {
+            "file": "04-Vjezba-4.md",
+            "line": 18,
+            "excerpt": "3 univerzalna ključa za spojnice."
+          }
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "id": "zona.stroj",
+        "name": "Stroj odjeljenja (skica 27)",
+        "shape": {
+          "type": "rect",
+          "rect": {
+            "x": 115,
+            "y": 155,
+            "width": 145,
+            "height": 140
+          }
+        },
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Obuhvat postrojenog odjeljenja na skici 27."
+        },
+        "sources": [
+          {
+            "file": "skice/04-skica-27.svg"
+          }
+        ]
+      },
+      {
+        "id": "zona.oprema",
+        "name": "Mjesto opreme (skica 27)",
+        "shape": {
+          "type": "rect",
+          "rect": {
+            "x": 280,
+            "y": 40,
+            "width": 265,
+            "height": 290
+          }
+        },
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Obuhvat usisnih cijevi, sitke, užadi i ključeva na skici 27 (zajedno s pumpom)."
+        },
+        "sources": [
+          {
+            "file": "skice/04-skica-27.svg"
+          }
+        ]
+      },
+      {
+        "id": "zona.mjesto-spajanja",
+        "name": "Mjesto spajanja sitke",
+        "shape": {
+          "type": "rect",
+          "rect": {
+            "x": -60,
+            "y": 95,
+            "width": 105,
+            "height": 70
+          }
+        },
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Mjesto gdje strojar čeka sa sitkom: ispod mjesta na kojem se sitka spaja s prvom usisnom cijevi (skica 31)."
+        },
+        "sources": [
+          {
+            "file": "skice/04-skica-31.svg"
+          },
+          {
+            "file": "04-Vjezba-4.md",
+            "line": 34,
+            "excerpt": "Tako opremljen kreće prema mjestu gdje će se spajati usisna sitka s usisnim cijevima."
+          }
+        ]
+      },
+      {
+        "id": "zona.crpiliste",
+        "name": "Crpilište vode (shematski)",
+        "shape": {
+          "type": "rect",
+          "rect": {
+            "x": -550,
+            "y": 110,
+            "width": 390,
+            "height": 180
+          }
+        },
+        "provenance": "assumption",
+        "review": {
+          "status": "requires-review",
+          "notes": "Skice ne crtaju vodu; obuhvat je shematski, lijevo od pumpe, gdje skica 36 crta usisnu sitku."
+        },
+        "sources": [
+          {
+            "file": "skice/04-skica-36.svg"
+          },
+          {
+            "file": "04-Vjezba-4.md",
+            "line": 130,
+            "excerpt": "Tako strojar, N₁ i N₂ nose spojeni usisni vod u vodu"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "type": "commandPrecondition",
+      "id": "pravilo.podignuto-sitka",
+      "description": "Usisne cijevi i sitka spajaju se samo podignute (nošene), nikad na tlu.",
+      "when": {
+        "commandTypes": [
+          "ConnectPorts"
+        ],
+        "portKeys": [
+          "sitka#spojnica"
+        ]
+      },
+      "requires": {
+        "type": "not",
+        "of": {
+          "type": "placed",
+          "equipmentId": "sitka"
+        }
+      },
+      "severity": "error",
+      "message": "Usisne cijevi najprije se podignu, zatim spoje i zategnu; niti jedna od tih radnji ne smije se obaviti na tlu.",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 54,
+          "excerpt": "Cijevi se moraju najprije podići, zatim uzubiti – spojiti i zategnuti ključevima"
+        },
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 54,
+          "excerpt": "Niti jedna od tih radnji ne smije se uraditi na zemlji."
+        },
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 74,
+          "excerpt": "Spajanje i zatezanje spojnica usisnih cijevi obavlja se do kraja na isti način kao u"
+        }
+      ]
+    },
+    {
+      "type": "commandPrecondition",
+      "id": "pravilo.podignuto-u1",
+      "description": "Usisne cijevi i sitka spajaju se samo podignute (nošene), nikad na tlu.",
+      "when": {
+        "commandTypes": [
+          "ConnectPorts"
+        ],
+        "portKeys": [
+          "u1#kraj-1",
+          "u1#kraj-2"
+        ]
+      },
+      "requires": {
+        "type": "not",
+        "of": {
+          "type": "placed",
+          "equipmentId": "u1"
+        }
+      },
+      "severity": "error",
+      "message": "Usisne cijevi najprije se podignu, zatim spoje i zategnu; niti jedna od tih radnji ne smije se obaviti na tlu.",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 54,
+          "excerpt": "Cijevi se moraju najprije podići, zatim uzubiti – spojiti i zategnuti ključevima"
+        },
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 54,
+          "excerpt": "Niti jedna od tih radnji ne smije se uraditi na zemlji."
+        },
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 74,
+          "excerpt": "Spajanje i zatezanje spojnica usisnih cijevi obavlja se do kraja na isti način kao u"
+        }
+      ]
+    },
+    {
+      "type": "commandPrecondition",
+      "id": "pravilo.podignuto-u2",
+      "description": "Usisne cijevi i sitka spajaju se samo podignute (nošene), nikad na tlu.",
+      "when": {
+        "commandTypes": [
+          "ConnectPorts"
+        ],
+        "portKeys": [
+          "u2#kraj-1",
+          "u2#kraj-2"
+        ]
+      },
+      "requires": {
+        "type": "not",
+        "of": {
+          "type": "placed",
+          "equipmentId": "u2"
+        }
+      },
+      "severity": "error",
+      "message": "Usisne cijevi najprije se podignu, zatim spoje i zategnu; niti jedna od tih radnji ne smije se obaviti na tlu.",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 54,
+          "excerpt": "Cijevi se moraju najprije podići, zatim uzubiti – spojiti i zategnuti ključevima"
+        },
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 54,
+          "excerpt": "Niti jedna od tih radnji ne smije se uraditi na zemlji."
+        },
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 74,
+          "excerpt": "Spajanje i zatezanje spojnica usisnih cijevi obavlja se do kraja na isti način kao u"
+        }
+      ]
+    },
+    {
+      "type": "commandPrecondition",
+      "id": "pravilo.podignuto-u3",
+      "description": "Usisne cijevi i sitka spajaju se samo podignute (nošene), nikad na tlu.",
+      "when": {
+        "commandTypes": [
+          "ConnectPorts"
+        ],
+        "portKeys": [
+          "u3#kraj-1",
+          "u3#kraj-2"
+        ]
+      },
+      "requires": {
+        "type": "not",
+        "of": {
+          "type": "placed",
+          "equipmentId": "u3"
+        }
+      },
+      "severity": "error",
+      "message": "Usisne cijevi najprije se podignu, zatim spoje i zategnu; niti jedna od tih radnji ne smije se obaviti na tlu.",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 54,
+          "excerpt": "Cijevi se moraju najprije podići, zatim uzubiti – spojiti i zategnuti ključevima"
+        },
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 54,
+          "excerpt": "Niti jedna od tih radnji ne smije se uraditi na zemlji."
+        },
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 74,
+          "excerpt": "Spajanje i zatezanje spojnica usisnih cijevi obavlja se do kraja na isti način kao u"
+        }
+      ]
+    },
+    {
+      "type": "commandPrecondition",
+      "id": "pravilo.podignuto-u4",
+      "description": "Usisne cijevi i sitka spajaju se samo podignute (nošene), nikad na tlu.",
+      "when": {
+        "commandTypes": [
+          "ConnectPorts"
+        ],
+        "portKeys": [
+          "u4#kraj-1",
+          "u4#kraj-2"
+        ]
+      },
+      "requires": {
+        "type": "not",
+        "of": {
+          "type": "placed",
+          "equipmentId": "u4"
+        }
+      },
+      "severity": "error",
+      "message": "Usisne cijevi najprije se podignu, zatim spoje i zategnu; niti jedna od tih radnji ne smije se obaviti na tlu.",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 54,
+          "excerpt": "Cijevi se moraju najprije podići, zatim uzubiti – spojiti i zategnuti ključevima"
+        },
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 54,
+          "excerpt": "Niti jedna od tih radnji ne smije se uraditi na zemlji."
+        },
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 74,
+          "excerpt": "Spajanje i zatezanje spojnica usisnih cijevi obavlja se do kraja na isti način kao u"
+        }
+      ]
+    }
+  ],
+  "completion": {
+    "requiredSteps": "all",
+    "finalCondition": {
+      "type": "all",
+      "of": [
+        {
+          "type": "not",
+          "of": {
+            "type": "carrying",
+            "personnelId": "s"
+          }
+        },
+        {
+          "type": "not",
+          "of": {
+            "type": "carrying",
+            "personnelId": "n1"
+          }
+        },
+        {
+          "type": "not",
+          "of": {
+            "type": "carrying",
+            "personnelId": "n2"
+          }
+        },
+        {
+          "type": "inZone",
+          "objectId": "s",
+          "zoneId": "zona.stroj"
+        },
+        {
+          "type": "inZone",
+          "objectId": "n1",
+          "zoneId": "zona.stroj"
+        },
+        {
+          "type": "inZone",
+          "objectId": "n2",
+          "zoneId": "zona.stroj"
+        },
+        {
+          "type": "inZone",
+          "objectId": "u3",
+          "zoneId": "zona.oprema"
+        },
+        {
+          "type": "inZone",
+          "objectId": "u4",
+          "zoneId": "zona.oprema"
+        },
+        {
+          "type": "inZone",
+          "objectId": "u1",
+          "zoneId": "zona.oprema"
+        },
+        {
+          "type": "inZone",
+          "objectId": "u2",
+          "zoneId": "zona.oprema"
+        },
+        {
+          "type": "inZone",
+          "objectId": "sitka",
+          "zoneId": "zona.oprema"
+        },
+        {
+          "type": "inZone",
+          "objectId": "uze-vod",
+          "zoneId": "zona.oprema"
+        },
+        {
+          "type": "inZone",
+          "objectId": "uze-ventil",
+          "zoneId": "zona.oprema"
+        },
+        {
+          "type": "inZone",
+          "objectId": "ks1",
+          "zoneId": "zona.oprema"
+        },
+        {
+          "type": "inZone",
+          "objectId": "ks2",
+          "zoneId": "zona.oprema"
+        },
+        {
+          "type": "inZone",
+          "objectId": "ks3",
+          "zoneId": "zona.oprema"
+        },
+        {
+          "type": "placed",
+          "equipmentId": "u3"
+        },
+        {
+          "type": "placed",
+          "equipmentId": "u4"
+        },
+        {
+          "type": "placed",
+          "equipmentId": "u1"
+        },
+        {
+          "type": "placed",
+          "equipmentId": "u2"
+        },
+        {
+          "type": "placed",
+          "equipmentId": "sitka"
+        },
+        {
+          "type": "placed",
+          "equipmentId": "uze-vod"
+        },
+        {
+          "type": "placed",
+          "equipmentId": "uze-ventil"
+        },
+        {
+          "type": "placed",
+          "equipmentId": "ks1"
+        },
+        {
+          "type": "placed",
+          "equipmentId": "ks2"
+        },
+        {
+          "type": "placed",
+          "equipmentId": "ks3"
+        },
+        {
+          "type": "portFree",
+          "port": {
+            "objectId": "mvp",
+            "portId": "usisni-otvor"
+          }
+        },
+        {
+          "type": "portFree",
+          "port": {
+            "objectId": "sitka",
+            "portId": "spojnica"
+          }
+        }
+      ]
+    }
+  },
+  "assessment": {
+    "criteria": [],
+    "showStepListDuringAssessment": false,
+    "provenance": "assumption",
+    "review": {
+      "status": "requires-review"
+    },
+    "sources": []
+  },
+  "actions": [
+    {
+      "id": "act.cetiri-usisne",
+      "name": "Zapovijed „Četiri usisne cijevi!”",
+      "speech": "Četiri usisne cijevi!",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 32,
+          "excerpt": "**„Četiri usisne cijevi!”**"
+        }
+      ],
+      "durationMs": 2000
+    },
+    {
+      "id": "act.dizi-1",
+      "name": "Zapovijed „Diži!” (1. spoj)",
+      "speech": "Diži!",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 72,
+          "excerpt": "zapovijeda **„Diži!”** odnosno **„Spusti!”**"
+        }
+      ],
+      "durationMs": 1500
+    },
+    {
+      "id": "act.spusti-1",
+      "name": "Zapovijed „Spusti!” (1. spoj)",
+      "speech": "Spusti!",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 72,
+          "excerpt": "zapovijeda **„Diži!”** odnosno **„Spusti!”**"
+        }
+      ],
+      "durationMs": 1500
+    },
+    {
+      "id": "act.dizi-2",
+      "name": "Zapovijed „Diži!” (2. spoj)",
+      "speech": "Diži!",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 72,
+          "excerpt": "zapovijeda **„Diži!”** odnosno **„Spusti!”**"
+        }
+      ],
+      "durationMs": 1500
+    },
+    {
+      "id": "act.spusti-2",
+      "name": "Zapovijed „Spusti!” (2. spoj)",
+      "speech": "Spusti!",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 72,
+          "excerpt": "zapovijeda **„Diži!”** odnosno **„Spusti!”**"
+        }
+      ],
+      "durationMs": 1500
+    },
+    {
+      "id": "act.dizi-3",
+      "name": "Zapovijed „Diži!” (3. spoj)",
+      "speech": "Diži!",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 72,
+          "excerpt": "zapovijeda **„Diži!”** odnosno **„Spusti!”**"
+        }
+      ],
+      "durationMs": 1500
+    },
+    {
+      "id": "act.spusti-3",
+      "name": "Zapovijed „Spusti!” (3. spoj)",
+      "speech": "Spusti!",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 72,
+          "excerpt": "zapovijeda **„Diži!”** odnosno **„Spusti!”**"
+        }
+      ],
+      "durationMs": 1500
+    },
+    {
+      "id": "act.dizi-4",
+      "name": "Zapovijed „Diži!” (4. spoj)",
+      "speech": "Diži!",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 72,
+          "excerpt": "zapovijeda **„Diži!”** odnosno **„Spusti!”**"
+        }
+      ],
+      "durationMs": 1500
+    },
+    {
+      "id": "act.spusti-4",
+      "name": "Zapovijed „Spusti!” (4. spoj)",
+      "speech": "Spusti!",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 72,
+          "excerpt": "zapovijeda **„Diži!”** odnosno **„Spusti!”**"
+        }
+      ],
+      "durationMs": 1500
+    },
+    {
+      "id": "act.uzetom-vezi",
+      "name": "Zapovijed „Užetom veži!”",
+      "speech": "Užetom veži!",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 92,
+          "excerpt": "**„Užetom veži!”**"
+        }
+      ],
+      "durationMs": 2000
+    },
+    {
+      "id": "act.omce",
+      "name": "Vezanje omči ispred svake spojnice (oblik slova „S”)",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 96,
+          "excerpt": "pravi omču ispred (oko 10 cm) svake spojnice tako da usisni vod stvara blagu liniju u obliku slova „S”"
+        }
+      ],
+      "description": "Omče i oblik slova „S” nisu prikazani; uže je vezano karabinom za kariku usisne sitke.",
+      "durationMs": 3000
+    },
+    {
+      "id": "act.u-vodu",
+      "name": "Zapovijed „Usisni vod u vodu!”",
+      "speech": "Usisni vod u vodu!",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 114,
+          "excerpt": "**„Usisni vod u vodu!”**"
+        }
+      ],
+      "durationMs": 2000
+    },
+    {
+      "id": "act.uze-rucica",
+      "name": "Vezanje užeta za prvu desnu ručicu MVP",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 134,
+          "excerpt": "N₁ postupa kao V₁ u [vježbi 3](03-Vjezba-3.md#prenošenje-usisnog-voda) (skica 36, slika 34)."
+        },
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 142,
+          "excerpt": "postavlja uže ispod „B” tlačnog cijevnog voda i veže ga za prvu desnu ručicu MVP"
+        }
+      ],
+      "description": "Prema vježbi 3. Ručica pumpe nije modelirana kao priključak."
+    },
+    {
+      "id": "act.gotovo",
+      "name": "Zapovijed „Gotovo!”",
+      "speech": "Gotovo!",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 144,
+          "excerpt": "zapovijeda: **„Gotovo!”**"
+        }
+      ],
+      "durationMs": 2000
+    },
+    {
+      "id": "act.iz-vode",
+      "name": "Zapovijed „Usisni vod iz vode!”",
+      "speech": "Usisni vod iz vode!",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 150,
+          "excerpt": "**„Usisni vod iz vode!”**"
+        }
+      ],
+      "durationMs": 2000
+    },
+    {
+      "id": "act.razvezivanje",
+      "name": "Razvezivanje užeta s prve desne ručice MVP",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 150,
+          "excerpt": "N₁ razvezuje uže usisnog voda s prve desne ručice MVP"
+        }
+      ]
+    },
+    {
+      "id": "act.skidanje-uzeta",
+      "name": "Skidanje užeta s usisnog voda",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 156,
+          "excerpt": "N₁ skida uže usisnog voda i kod toga mu pomaže N₂"
+        }
+      ],
+      "durationMs": 3000
+    },
+    {
+      "id": "act.dizi-spusti-r1",
+      "name": "Zapovijed „Diži – spusti!” (1. rastavljanje)",
+      "speech": "Diži – spusti!",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 158,
+          "excerpt": "Usisni vod rastavlja se obrnutim redoslijedom od spajanja i istim postupkom kao u"
+        },
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 183,
+          "excerpt": "Na zapovijed strojara: **„Diži – spusti!”**"
+        }
+      ],
+      "description": "Riječi zapovijedi prema vježbi 3, na koju tekst upućuje.",
+      "durationMs": 2000
+    },
+    {
+      "id": "act.dizi-spusti-r2",
+      "name": "Zapovijed „Diži – spusti!” (2. rastavljanje)",
+      "speech": "Diži – spusti!",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 158,
+          "excerpt": "Usisni vod rastavlja se obrnutim redoslijedom od spajanja i istim postupkom kao u"
+        },
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 183,
+          "excerpt": "Na zapovijed strojara: **„Diži – spusti!”**"
+        }
+      ],
+      "description": "Riječi zapovijedi prema vježbi 3, na koju tekst upućuje.",
+      "durationMs": 2000
+    },
+    {
+      "id": "act.dizi-spusti-r3",
+      "name": "Zapovijed „Diži – spusti!” (3. rastavljanje)",
+      "speech": "Diži – spusti!",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 158,
+          "excerpt": "Usisni vod rastavlja se obrnutim redoslijedom od spajanja i istim postupkom kao u"
+        },
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 183,
+          "excerpt": "Na zapovijed strojara: **„Diži – spusti!”**"
+        }
+      ],
+      "description": "Riječi zapovijedi prema vježbi 3, na koju tekst upućuje.",
+      "durationMs": 2000
+    },
+    {
+      "id": "act.dizi-spusti-r4",
+      "name": "Zapovijed „Diži – spusti!” (4. rastavljanje)",
+      "speech": "Diži – spusti!",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 158,
+          "excerpt": "Usisni vod rastavlja se obrnutim redoslijedom od spajanja i istim postupkom kao u"
+        },
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 183,
+          "excerpt": "Na zapovijed strojara: **„Diži – spusti!”**"
+        }
+      ],
+      "description": "Riječi zapovijedi prema vježbi 3, na koju tekst upućuje.",
+      "durationMs": 2000
+    },
+    {
+      "id": "act.motanje-uzadi",
+      "name": "Motanje užadi u torbice",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 166,
+          "excerpt": "motaju i stavljaju svaki svoje uže u torbicu koju zatvaraju"
+        }
+      ],
+      "durationMs": 3000
+    }
+  ],
+  "stages": [
+    {
+      "id": "faza.postrojavanje",
+      "name": "Postavljanje opreme i postrojavanje",
+      "diagram": {
+        "file": "skice/04-skica-27.svg"
+      },
+      "diagramMoment": "start",
+      "diagramScale": "schematic",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 22,
+          "excerpt": "**Skica 27** – *Postavljanje sprava, opreme i postrojavanje odjeljenja.*"
+        }
+      ]
+    },
+    {
+      "id": "faza.prva-cijev",
+      "name": "Polaganje prve usisne cijevi",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 40,
+          "excerpt": "**Skica 28** – *Položaj grupe tijekom polaganja prve usisne cijevi.*"
+        }
+      ],
+      "description": "Skica 28 prikazuje položaj za vrijeme polaganja (prije premještanja cijevi), pa se s njom ne uspoređuje."
+    },
+    {
+      "id": "faza.polaganje",
+      "name": "Polaganje usisnih cijevi",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 54,
+          "excerpt": "**Skica 30** – *Položaj grupe tijekom polaganja usisnih cijevi.*"
+        }
+      ],
+      "description": "Skice 29 i 30 prikazuju trenutke tijekom polaganja; s njima se ne uspoređuje."
+    },
+    {
+      "id": "faza.spajanje-sitke",
+      "name": "Početak spajanja usisnog voda",
+      "diagram": {
+        "file": "skice/04-skica-31.svg"
+      },
+      "diagramMoment": "start",
+      "diagramScale": "schematic",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 66,
+          "excerpt": "**Skica 31** – *Položaj odjeljenja na početku spajanja usisnog voda.*"
+        }
+      ]
+    },
+    {
+      "id": "faza.spajanje",
+      "name": "Spajanje usisnih cijevi",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 78,
+          "excerpt": "**Skica 32** – *Položaj odjeljenja tijekom spajanja usisnog voda.*"
+        }
+      ],
+      "description": "Skica 32 prikazuje spajanje druge cijevi (trenutak tijekom faze); s njom se ne uspoređuje."
+    },
+    {
+      "id": "faza.vezanje",
+      "name": "Vezanje usisnog voda",
+      "diagram": {
+        "file": "skice/04-skica-34.svg"
+      },
+      "diagramMoment": "end",
+      "diagramScale": "schematic",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 106,
+          "excerpt": "**Skica 34** – *Položaj odjeljenja tijekom vezanja usisnog voda.*"
+        }
+      ]
+    },
+    {
+      "id": "faza.prihvat",
+      "name": "Prihvat usisnog voda za prenošenje",
+      "diagram": {
+        "file": "skice/04-skica-35.svg"
+      },
+      "diagramMoment": "end",
+      "diagramScale": "schematic",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 124,
+          "excerpt": "**Skica 35** – *Položaj odjeljenja tijekom prenošenja usisnog voda.*"
+        }
+      ]
+    },
+    {
+      "id": "faza.u-vodu",
+      "name": "Prenošenje u vodu i spajanje na pumpu",
+      "diagram": {
+        "file": "skice/04-skica-36.svg"
+      },
+      "diagramMoment": "end",
+      "diagramScale": "schematic",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 138,
+          "excerpt": "**Skica 36** – *Položaj odjeljenja tijekom spajanja usisnog voda na motornu pumpu.*"
+        }
+      ]
+    },
+    {
+      "id": "faza.pospremanje",
+      "name": "Pospremanje opreme",
+      "diagram": {
+        "file": "skice/04-skica-27.svg"
+      },
+      "diagramMoment": "end",
+      "diagramScale": "schematic",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 168,
+          "excerpt": "Nakon toga odlaze na svoje mjesto u stroj."
+        }
+      ],
+      "description": "Na kraju je stanje kao na skici 27 (oprema na početnom mjestu, odjeljenje postrojeno)."
+    }
+  ],
+  "steps": [
+    {
+      "id": "zapovijed",
+      "title": "Zapovijed „Četiri usisne cijevi!”",
+      "source": "04-vjezba-4#polaganje-usisnih-cijevi/p1",
+      "stageId": "faza.postrojavanje",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "dependsOn": [],
+      "completedWhen": {
+        "type": "actionCompleted",
+        "actionId": "act.cetiri-usisne"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.cetiri-usisne",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Strojar zapovijeda: „Četiri usisne cijevi!”."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.cetiri-usisne"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "strojar-oprema",
+      "title": "Strojar uzima užad, ključeve i usisnu sitku",
+      "source": "04-vjezba-4#polaganje-usisnih-cijevi/p1",
+      "stageId": "faza.prva-cijev",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "zapovijed"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "carrying",
+            "personnelId": "s",
+            "equipmentId": "sitka"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "s",
+            "typeId": "et.uze-usisnog-voda"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "s",
+            "typeId": "et.uze-ventila"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "s",
+            "typeId": "et.kljuc-za-spojnice",
+            "count": 2
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 265,
+              "y": 190
+            }
+          },
+          "caption": "Strojar uzima dvije torbice s užadima pod lijevu ruku…"
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "uze-vod"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "uze-ventil"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 265,
+              "y": 235
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "ks1"
+          },
+          "caption": "…dva ključa koja leže kraj usisne sitke u lijevu ruku…"
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "ks2"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "sitka"
+          },
+          "caption": "…i usisnu sitku u desnu ruku."
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 32,
+          "excerpt": "istovremeno uzima dvije torbice s užadima pod lijevu ruku"
+        }
+      ]
+    },
+    {
+      "id": "strojar-mjesto",
+      "title": "Strojar odlazi na mjesto spajanja",
+      "source": "04-vjezba-4#polaganje-usisnih-cijevi/p2",
+      "stageId": "faza.prva-cijev",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "strojar-oprema"
+      ],
+      "completedWhen": {
+        "type": "inZone",
+        "objectId": "s",
+        "zoneId": "zona.mjesto-spajanja"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "s",
+            "rotation": 180
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 20.6,
+              "y": 142
+            }
+          },
+          "caption": "Tako opremljen kreće prema mjestu gdje će se spajati usisna sitka s usisnim cijevima."
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Mjesto spajanja preuzeto je sa skice 31 (strojar ispod usisne sitke)."
+      }
+    },
+    {
+      "id": "prva-cijev",
+      "title": "Navalna grupa polaže prvu usisnu cijev prema požaru",
+      "source": "04-vjezba-4#polaganje-usisnih-cijevi/p3",
+      "stageId": "faza.prva-cijev",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "zapovijed"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "placed",
+            "equipmentId": "u4"
+          },
+          {
+            "type": "near",
+            "objectId": "u4",
+            "targetId": "u3",
+            "maxDistance": 100
+          },
+          {
+            "type": "not",
+            "of": {
+              "type": "near",
+              "objectId": "u4",
+              "targetId": "mvp",
+              "maxDistance": 60
+            }
+          },
+          {
+            "type": "rotation",
+            "objectId": "u4",
+            "angle": 0,
+            "tolerance": 10
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 325,
+              "y": 112
+            }
+          },
+          "caption": "Najprije polažu usisnu cijev koja leži s lijeve strane MVP…"
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 575,
+              "y": 112
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 0
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 180
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u4"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 751,
+              "y": 72
+            }
+          },
+          "caption": "…kao cijevna grupa u vježbi 3: N₂ se natraške povlači, N₁ ga slijedi licem u lice."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 501,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u4",
+            "at": {
+              "x": 626,
+              "y": 72
+            }
+          },
+          "caption": "Polažu je u produžetku cijevi koja je ostala na zemlji, prema požaru."
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Cijev nose obojica; simulator bilježi N₂ kao nositelja."
+      },
+      "sources": [
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 38,
+          "excerpt": "Cijevna grupa (C₁, C₂) diže samo onu usisnu cijev koja leži bliže MVP s lijeve strane"
+        }
+      ]
+    },
+    {
+      "id": "desne-cijevi",
+      "title": "Navalna grupa polaže usisne cijevi s desne strane MVP prema crpilištu",
+      "source": "04-vjezba-4#polaganje-usisnih-cijevi/p4",
+      "stageId": "faza.polaganje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "prva-cijev"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "placed",
+            "equipmentId": "u1"
+          },
+          {
+            "type": "placed",
+            "equipmentId": "u2"
+          },
+          {
+            "type": "near",
+            "objectId": "u2",
+            "targetId": "u3",
+            "maxDistance": 100
+          },
+          {
+            "type": "near",
+            "objectId": "u1",
+            "targetId": "u2",
+            "maxDistance": 100
+          },
+          {
+            "type": "rotation",
+            "objectId": "u1",
+            "angle": 0,
+            "tolerance": 10
+          },
+          {
+            "type": "rotation",
+            "objectId": "u2",
+            "angle": 0,
+            "tolerance": 10
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 325,
+              "y": 287
+            }
+          },
+          "caption": "Zatim uzimaju usisne cijevi koje leže s desne strane MVP…"
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 575,
+              "y": 287
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 180
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 180
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n1",
+            "equipmentId": "u1"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n1",
+            "equipmentId": "u2"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 149,
+              "y": 51
+            }
+          },
+          "caption": "…i polažu ih prema crpilištu kao vodna grupa u vježbi 3; N₁ ide naprijed."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 399,
+              "y": 51
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n1",
+            "equipmentId": "u2",
+            "at": {
+              "x": 274,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": -27,
+              "y": 91
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 223,
+              "y": 91
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n1",
+            "equipmentId": "u1",
+            "at": {
+              "x": 98,
+              "y": 72
+            }
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Svaki drži po jednu spojnicu obiju cijevi; simulator bilježi N₁ kao nositelja."
+      },
+      "sources": [
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 36,
+          "excerpt": "Polaganje usisnih cijevi obavlja se prema crpilištu vode jedna iza druge"
+        }
+      ]
+    },
+    {
+      "id": "polozaj-spajanje",
+      "title": "Položaj za spajanje usisne sitke",
+      "source": "04-vjezba-4#spajanje-usisnog-voda/p1",
+      "stageId": "faza.spajanje-sitke",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "desne-cijevi",
+        "strojar-mjesto"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "near",
+            "objectId": "n2",
+            "targetId": "u1",
+            "maxDistance": 20
+          },
+          {
+            "type": "rotation",
+            "objectId": "n2",
+            "angle": 180,
+            "tolerance": 45
+          },
+          {
+            "type": "rotation",
+            "objectId": "n1",
+            "angle": 0,
+            "tolerance": 45
+          },
+          {
+            "type": "near",
+            "objectId": "n1",
+            "targetId": "sitka",
+            "maxDistance": 70
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 8.6,
+              "y": 97
+            }
+          },
+          "caption": "N₁ stoji kod prve spojnice i gleda prema požaru…"
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 68,
+              "y": 102
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 0
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 68,
+              "y": 72
+            }
+          },
+          "caption": "…a N₂ stoji u raskoračnom stavu na drugoj spojnici i gleda prema crpilištu.",
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 180
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "spoj-sitka",
+      "title": "Spajanje usisne sitke i prve usisne cijevi",
+      "source": "04-vjezba-4#spajanje-usisnog-voda/p2",
+      "stageId": "faza.spajanje-sitke",
+      "actorRoleIds": [
+        "role.strojar",
+        "role.vodja-navalne",
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "polozaj-spajanje"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "connected",
+            "a": {
+              "objectId": "sitka",
+              "portId": "spojnica"
+            },
+            "b": {
+              "typeId": "et.usisna-cijev"
+            }
+          },
+          {
+            "type": "placed",
+            "equipmentId": "sitka"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "n1",
+            "typeId": "et.kljuc-za-spojnice"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "n2",
+            "typeId": "et.kljuc-za-spojnice"
+          },
+          {
+            "type": "placed",
+            "equipmentId": "uze-vod"
+          },
+          {
+            "type": "placed",
+            "equipmentId": "uze-ventil"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.dizi-1",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Strojar zapovijeda „Diži!”."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.dizi-1"
+          }
+        },
+        {
+          "command": {
+            "type": "HandOverEquipment",
+            "fromId": "s",
+            "toId": "n1",
+            "equipmentId": "sitka"
+          },
+          "caption": "N₁ uzima od strojara usisnu sitku…"
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": -65,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u1"
+          }
+        },
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "sitka",
+              "portId": "spojnica"
+            },
+            "b": {
+              "objectId": "u1",
+              "portId": "kraj-1"
+            },
+            "connectionId": "spoj.sitka-u1",
+            "actorId": "n1"
+          },
+          "caption": "…i zajedno s N₂ spaja usisnu cijev rukama."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": -30,
+              "y": 110
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "HandOverEquipment",
+            "fromId": "s",
+            "toId": "n1",
+            "equipmentId": "ks1"
+          },
+          "caption": "Strojar predaje N₁ i N₂ po jedan ključ."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 40,
+              "y": 110
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "HandOverEquipment",
+            "fromId": "s",
+            "toId": "n2",
+            "equipmentId": "ks2"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": -50,
+              "y": 100
+            }
+          },
+          "caption": "Strojar staje iza N₁ i odlaže torbice s užetima lijevo i desno nedaleko od usisne sitke."
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "s",
+            "equipmentId": "uze-vod",
+            "at": {
+              "x": -3,
+              "y": 112
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": -50,
+              "y": 45
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "s",
+            "equipmentId": "uze-ventil",
+            "at": {
+              "x": -3,
+              "y": 32
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": -125,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "s",
+            "rotation": 0
+          }
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.spusti-1",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Na zapovijed „Spusti” spojenu sitku i prvu cijev odlažu; ključeve zadržavaju."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.spusti-1"
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n1",
+            "equipmentId": "sitka",
+            "at": {
+              "x": -5.0,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u1",
+            "at": {
+              "x": 98,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "hint": "Na „Diži!” N₁ preuzima sitku i s N₂ spaja prvu cijev dok su podignute; strojar predaje ključeve i odlaže torbice; na „Spusti” spuštaju spoj."
+    },
+    {
+      "id": "prijelaz-2",
+      "title": "Prijelaz do 2. spoja",
+      "source": "04-vjezba-4#spajanje-usisnog-voda/p3",
+      "stageId": "faza.spajanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "spoj-sitka"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "near",
+            "objectId": "n1",
+            "targetId": "u1",
+            "maxDistance": 30
+          },
+          {
+            "type": "near",
+            "objectId": "n2",
+            "targetId": "u2",
+            "maxDistance": 30
+          },
+          {
+            "type": "rotation",
+            "objectId": "n2",
+            "angle": 180,
+            "tolerance": 45
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 68,
+              "y": 102
+            }
+          },
+          "caption": "N₂ iskoračuje u lijevo i okreće se čelom nazad, N₁ i S iskorače u desno; svi zajedno idu do sljedećih spojnica."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": -65,
+              "y": 102
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": -125,
+              "y": 102
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 0
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 229,
+              "y": 102
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 153,
+              "y": 102
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 48,
+              "y": 102
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 180
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 229,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 153,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 48,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "hint": "N₁, N₂ i strojar prelaze do sljedećeg spoja i prekorače cijevi."
+    },
+    {
+      "id": "spoj-2",
+      "title": "Spajanje 2. spoja usisnog voda",
+      "source": "04-vjezba-4#spajanje-usisnog-voda/p3",
+      "stageId": "faza.spajanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "prijelaz-2"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "connected",
+            "a": {
+              "objectId": "u1",
+              "portId": "kraj-2"
+            },
+            "b": {
+              "objectId": "u2",
+              "portId": "kraj-1"
+            }
+          },
+          {
+            "type": "placed",
+            "equipmentId": "u1"
+          },
+          {
+            "type": "placed",
+            "equipmentId": "u2"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.dizi-2",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Strojar zapovijeda „Diži!”."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.dizi-2"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "u1"
+          },
+          "caption": "Strojar pridržava cijev bliže crpilištu (iza N₁)…"
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u2"
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "u1",
+              "portId": "kraj-2"
+            },
+            "b": {
+              "objectId": "u2",
+              "portId": "kraj-1"
+            },
+            "connectionId": "spoj.u1-u2",
+            "actorId": "n1"
+          },
+          "caption": "…N₁ i N₂ podižu spojnice, spajaju ih i zatežu ključevima kao u vježbi 3."
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.spusti-2",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Strojar zapovijeda „Spusti!”."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.spusti-2"
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "s",
+            "equipmentId": "u1",
+            "at": {
+              "x": 98,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u2",
+            "at": {
+              "x": 274,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Tekst kaže da druga spojnica cijevi iza N₂ ostaje na tlu; simulator bilježi cijev kao podignutu (nosi je N₂)."
+      },
+      "sources": [
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 80,
+          "excerpt": "Tijekom spajanja, zatezanje spojnice obavlja se ključem u desnoj ruci."
+        }
+      ],
+      "hint": "Na „Diži!” strojar pridržava cijev iza N₁, a N₁ i N₂ podižu i spajaju spojnice; na „Spusti!” spuštaju vod."
+    },
+    {
+      "id": "prijelaz-3",
+      "title": "Prijelaz do 3. spoja",
+      "source": "04-vjezba-4#spajanje-usisnog-voda/p3",
+      "stageId": "faza.spajanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "spoj-2"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "near",
+            "objectId": "n1",
+            "targetId": "u2",
+            "maxDistance": 30
+          },
+          {
+            "type": "near",
+            "objectId": "n2",
+            "targetId": "u3",
+            "maxDistance": 30
+          },
+          {
+            "type": "rotation",
+            "objectId": "n2",
+            "angle": 180,
+            "tolerance": 45
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 229,
+              "y": 102
+            }
+          },
+          "caption": "N₂ iskoračuje u lijevo i okreće se čelom nazad, N₁ i S iskorače u desno; svi zajedno idu do sljedećih spojnica."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 153,
+              "y": 102
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 48,
+              "y": 102
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 0
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 405,
+              "y": 102
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 329,
+              "y": 102
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 224,
+              "y": 102
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 180
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 405,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 329,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 224,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "hint": "N₁, N₂ i strojar prelaze do sljedećeg spoja i prekorače cijevi."
+    },
+    {
+      "id": "spoj-3",
+      "title": "Spajanje 3. spoja usisnog voda",
+      "source": "04-vjezba-4#spajanje-usisnog-voda/p3",
+      "stageId": "faza.spajanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "prijelaz-3"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "connected",
+            "a": {
+              "objectId": "u2",
+              "portId": "kraj-2"
+            },
+            "b": {
+              "objectId": "u3",
+              "portId": "kraj-1"
+            }
+          },
+          {
+            "type": "placed",
+            "equipmentId": "u2"
+          },
+          {
+            "type": "placed",
+            "equipmentId": "u3"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.dizi-3",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Strojar zapovijeda „Diži!”."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.dizi-3"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "u2"
+          },
+          "caption": "Strojar pridržava cijev bliže crpilištu (iza N₁)…"
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u3"
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "u2",
+              "portId": "kraj-2"
+            },
+            "b": {
+              "objectId": "u3",
+              "portId": "kraj-1"
+            },
+            "connectionId": "spoj.u2-u3",
+            "actorId": "n1"
+          },
+          "caption": "…N₁ i N₂ podižu spojnice, spajaju ih i zatežu ključevima kao u vježbi 3."
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.spusti-3",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Strojar zapovijeda „Spusti!”."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.spusti-3"
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "s",
+            "equipmentId": "u2",
+            "at": {
+              "x": 274,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u3",
+            "at": {
+              "x": 450,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Tekst kaže da druga spojnica cijevi iza N₂ ostaje na tlu; simulator bilježi cijev kao podignutu (nosi je N₂)."
+      },
+      "sources": [
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 80,
+          "excerpt": "Tijekom spajanja, zatezanje spojnice obavlja se ključem u desnoj ruci."
+        }
+      ],
+      "hint": "Na „Diži!” strojar pridržava cijev iza N₁, a N₁ i N₂ podižu i spajaju spojnice; na „Spusti!” spuštaju vod."
+    },
+    {
+      "id": "prijelaz-4",
+      "title": "Prijelaz do 4. spoja",
+      "source": "04-vjezba-4#spajanje-usisnog-voda/p3",
+      "stageId": "faza.spajanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "spoj-3"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "near",
+            "objectId": "n1",
+            "targetId": "u3",
+            "maxDistance": 30
+          },
+          {
+            "type": "near",
+            "objectId": "n2",
+            "targetId": "u4",
+            "maxDistance": 30
+          },
+          {
+            "type": "rotation",
+            "objectId": "n2",
+            "angle": 180,
+            "tolerance": 45
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 405,
+              "y": 102
+            }
+          },
+          "caption": "N₂ iskoračuje u lijevo i okreće se čelom nazad, N₁ i S iskorače u desno; svi zajedno idu do sljedećih spojnica."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 329,
+              "y": 102
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 224,
+              "y": 102
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 0
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 581,
+              "y": 102
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 505,
+              "y": 102
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 400,
+              "y": 102
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 180
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 581,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 505,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 400,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "hint": "N₁, N₂ i strojar prelaze do sljedećeg spoja i prekorače cijevi."
+    },
+    {
+      "id": "spoj-4",
+      "title": "Spajanje 4. spoja usisnog voda",
+      "source": "04-vjezba-4#spajanje-usisnog-voda/p3",
+      "stageId": "faza.spajanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "prijelaz-4"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "connected",
+            "a": {
+              "objectId": "u3",
+              "portId": "kraj-2"
+            },
+            "b": {
+              "objectId": "u4",
+              "portId": "kraj-1"
+            }
+          },
+          {
+            "type": "placed",
+            "equipmentId": "u3"
+          },
+          {
+            "type": "placed",
+            "equipmentId": "u4"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.dizi-4",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Strojar zapovijeda „Diži!”."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.dizi-4"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "u3"
+          },
+          "caption": "Strojar pridržava cijev bliže crpilištu (iza N₁)…"
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u4"
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "u3",
+              "portId": "kraj-2"
+            },
+            "b": {
+              "objectId": "u4",
+              "portId": "kraj-1"
+            },
+            "connectionId": "spoj.u3-u4",
+            "actorId": "n1"
+          },
+          "caption": "…N₁ i N₂ podižu spojnice, spajaju ih i zatežu ključevima kao u vježbi 3."
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.spusti-4",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Strojar zapovijeda „Spusti!”."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.spusti-4"
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "s",
+            "equipmentId": "u3",
+            "at": {
+              "x": 450,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u4",
+            "at": {
+              "x": 626,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Tekst kaže da druga spojnica cijevi iza N₂ ostaje na tlu; simulator bilježi cijev kao podignutu (nosi je N₂)."
+      },
+      "sources": [
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 80,
+          "excerpt": "Tijekom spajanja, zatezanje spojnice obavlja se ključem u desnoj ruci."
+        }
+      ],
+      "hint": "Na „Diži!” strojar pridržava cijev iza N₁, a N₁ i N₂ podižu i spajaju spojnice; na „Spusti!” spuštaju vod."
+    },
+    {
+      "id": "uzetom-vezi",
+      "title": "Zapovijed „Užetom veži!”",
+      "source": "04-vjezba-4#vezanje-usisnog-voda/p1",
+      "stageId": "faza.vezanje",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "spoj-4"
+      ],
+      "completedWhen": {
+        "type": "actionCompleted",
+        "actionId": "act.uzetom-vezi"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.uzetom-vezi",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Strojar zapovijeda: „Užetom veži!”."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.uzetom-vezi"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "n2-ventil",
+      "title": "N₂ zakvači uže na kariku nepovratnog ventila",
+      "source": "04-vjezba-4#vezanje-usisnog-voda/p1",
+      "stageId": "faza.vezanje",
+      "actorRoleIds": [
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "uzetom-vezi"
+      ],
+      "completedWhen": {
+        "type": "connected",
+        "a": {
+          "objectId": "uze-ventil",
+          "portId": "karabin"
+        },
+        "b": {
+          "objectId": "sitka",
+          "portId": "karika-ventila"
+        }
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 581,
+              "y": 30
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 20,
+              "y": 35
+            }
+          },
+          "caption": "N₂ odlazi do usisne sitke i uzima torbicu s užetom…"
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "uze-ventil"
+          }
+        },
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "uze-ventil",
+              "portId": "karabin"
+            },
+            "b": {
+              "objectId": "sitka",
+              "portId": "karika-ventila"
+            },
+            "connectionId": "spoj.uze-ventil",
+            "actorId": "n2"
+          },
+          "caption": "…koju zakvači na kariku nepovratnog ventila."
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "strojar-podize",
+      "title": "Strojar podiže zadnju spojnicu četvrte cijevi",
+      "source": "04-vjezba-4#vezanje-usisnog-voda/p2",
+      "stageId": "faza.vezanje",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "uzetom-vezi"
+      ],
+      "completedWhen": {
+        "type": "carrying",
+        "personnelId": "s",
+        "equipmentId": "u4"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 400,
+              "y": 110
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 750,
+              "y": 110
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 720,
+              "y": 40
+            }
+          },
+          "caption": "Strojar uhvati za zadnju spojnicu na četvrtoj usisnoj cijevi…"
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "s",
+            "rotation": 180
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "u4"
+          },
+          "caption": "…i umjereno je podigne."
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "n2-podize",
+      "title": "N₂ podiže drugu cijev u sredini",
+      "source": "04-vjezba-4#vezanje-usisnog-voda/p4",
+      "stageId": "faza.vezanje",
+      "actorRoleIds": [
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "n2-ventil"
+      ],
+      "completedWhen": {
+        "type": "carrying",
+        "personnelId": "n2",
+        "equipmentId": "u2"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 274,
+              "y": 35
+            }
+          },
+          "caption": "N₂, pošto je zakvačio uže na nepovratni ventil, podiže drugu cijev u sredini kako bi olakšao vezivanje."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 180
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u2"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "n1-vezanje",
+      "title": "N₁ veže usisni vod užetom",
+      "source": "04-vjezba-4#vezanje-usisnog-voda/p3",
+      "stageId": "faza.vezanje",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "dependsOn": [
+        "uzetom-vezi",
+        "strojar-podize",
+        "n2-podize"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "connected",
+            "a": {
+              "objectId": "uze-vod",
+              "portId": "karabin"
+            },
+            "b": {
+              "objectId": "sitka",
+              "portId": "karika-sitke"
+            }
+          },
+          {
+            "type": "actionCompleted",
+            "actionId": "act.omce"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 505,
+              "y": 107
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 20,
+              "y": 109
+            }
+          },
+          "caption": "N₁ odlazi po desnoj strani usisnog voda do usisne sitke…"
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n1",
+            "equipmentId": "uze-vod"
+          },
+          "caption": "…uzima torbicu s užetom za vezanje usisnog voda…"
+        },
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "uze-vod",
+              "portId": "karabin"
+            },
+            "b": {
+              "objectId": "sitka",
+              "portId": "karika-sitke"
+            },
+            "connectionId": "spoj.uze-vod",
+            "actorId": "n1"
+          },
+          "caption": "…i stavlja karabin na kariku usisne sitke."
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.omce",
+            "actorIds": [
+              "n1"
+            ]
+          },
+          "caption": "Zatim pravi omču ispred svake spojnice; vod dobiva blagi oblik slova „S”."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 186,
+              "y": 107
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 362,
+              "y": 107
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 538,
+              "y": 107
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.omce"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "u-vodu",
+      "title": "Zapovijed „Usisni vod u vodu!”",
+      "source": "04-vjezba-4#prenosenje-usisnog-voda/p1",
+      "stageId": "faza.prihvat",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "n1-vezanje"
+      ],
+      "completedWhen": {
+        "type": "actionCompleted",
+        "actionId": "act.u-vodu"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.u-vodu",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Strojar zapovijeda: „Usisni vod u vodu!”."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.u-vodu"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "prihvat-n1",
+      "title": "N₁ prima spoj treće i četvrte cijevi",
+      "source": "04-vjezba-4#prenosenje-usisnog-voda/p3",
+      "stageId": "faza.prihvat",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "dependsOn": [
+        "u-vodu"
+      ],
+      "completedWhen": {
+        "type": "carrying",
+        "personnelId": "n1",
+        "equipmentId": "u3"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n1",
+            "equipmentId": "u3"
+          },
+          "caption": "N₁ prima spojnice između treće i četvrte usisne cijevi."
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "prihvat-n2",
+      "title": "N₂ prima spoj prve i druge cijevi i uže ventila",
+      "source": "04-vjezba-4#prenosenje-usisnog-voda/p4",
+      "stageId": "faza.prihvat",
+      "actorRoleIds": [
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "u-vodu"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "carrying",
+            "personnelId": "n2",
+            "equipmentId": "u1"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "n2",
+            "equipmentId": "u2"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "n2",
+            "equipmentId": "uze-ventil"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u2",
+            "at": {
+              "x": 274,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 186,
+              "y": 35
+            }
+          },
+          "caption": "N₂ lijevom rukom prima spoj prve i druge usisne cijevi, a desnom uže nepovratnog ventila."
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u1"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u2"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Usisnu sitku nitko ne drži; spojena je s prvom cijevi pa se nosi s njom."
+      }
+    },
+    {
+      "id": "prenosenje",
+      "title": "Prenošenje usisnog voda u vodu",
+      "source": "04-vjezba-4#prenosenje-usisnog-voda/p5",
+      "stageId": "faza.u-vodu",
+      "actorRoleIds": [
+        "role.strojar",
+        "role.vodja-navalne",
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "prihvat-n1",
+        "prihvat-n2"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "inZone",
+            "objectId": "sitka",
+            "zoneId": "zona.crpiliste"
+          },
+          {
+            "type": "near",
+            "objectId": "u4",
+            "targetId": "mvp",
+            "maxDistance": 90
+          },
+          {
+            "type": "placed",
+            "equipmentId": "u1"
+          },
+          {
+            "type": "placed",
+            "equipmentId": "u3"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 387,
+              "y": 158
+            }
+          },
+          "caption": "Strojar, N₁ i N₂ nose spojeni usisni vod u vodu, do ravnine usisnog otvora MVP."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 205,
+              "y": 225
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": -147,
+              "y": 153
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u1",
+            "at": {
+              "x": -235,
+              "y": 190
+            }
+          },
+          "caption": "Usisni vod je u vodi."
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u2",
+            "at": {
+              "x": -59,
+              "y": 190
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n1",
+            "equipmentId": "u3",
+            "at": {
+              "x": 117,
+              "y": 190
+            }
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 116,
+          "excerpt": "Prilikom prenošenja usisnog voda, strojar ostaje na kraju zadnje, četvrte usisne cijevi i drži najmanje jednom rukom za spojnicu."
+        }
+      ]
+    },
+    {
+      "id": "n2-uze-mvp",
+      "title": "N₂ vuče uže ventila do ravnine MVP",
+      "source": "04-vjezba-4#prenosenje-usisnog-voda/p6",
+      "stageId": "faza.u-vodu",
+      "actorRoleIds": [
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "prenosenje"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "placed",
+            "equipmentId": "uze-ventil"
+          },
+          {
+            "type": "near",
+            "objectId": "uze-ventil",
+            "targetId": "mvp",
+            "maxDistance": 90
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": -147,
+              "y": 60
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 320,
+              "y": 60
+            }
+          },
+          "caption": "Kada je usisni vod stavljen u vodu, N₂ vuče uže iz torbice do ravnine MVP."
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "uze-ventil",
+            "at": {
+              "x": 330,
+              "y": 100
+            }
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "n2-pomaze",
+      "title": "N₂ pomaže strojaru i pridržava četvrtu cijev",
+      "source": "04-vjezba-4#prenosenje-usisnog-voda/p6",
+      "stageId": "faza.u-vodu",
+      "actorRoleIds": [
+        "role.clan-navalne",
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "n2-uze-mvp"
+      ],
+      "completedWhen": {
+        "type": "carrying",
+        "personnelId": "n2",
+        "equipmentId": "u4"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 330,
+              "y": 185
+            }
+          },
+          "caption": "N₂ stoji neposredno iza strojara u raskoračnom stavu i postupa kao V₂ u vježbi 3."
+        },
+        {
+          "command": {
+            "type": "HandOverEquipment",
+            "fromId": "s",
+            "toId": "n2",
+            "equipmentId": "u4"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 360,
+              "y": 196
+            }
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 138,
+          "excerpt": "V₂, prilikom pridržavanja usisnog voda, strojaru mora primiti za cijev koju strojar spaja"
+        }
+      ]
+    },
+    {
+      "id": "spoj-mvp",
+      "title": "Strojar spaja usisni vod s usisnim otvorom pumpe",
+      "source": "04-vjezba-4#prenosenje-usisnog-voda/p6",
+      "stageId": "faza.u-vodu",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "n2-pomaze"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "connected",
+            "a": {
+              "typeId": "et.usisna-cijev"
+            },
+            "b": {
+              "objectId": "mvp",
+              "portId": "usisni-otvor"
+            }
+          },
+          {
+            "type": "carrying",
+            "personnelId": "s",
+            "equipmentId": "ks3"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "u4",
+              "portId": "kraj-2"
+            },
+            "b": {
+              "objectId": "mvp",
+              "portId": "usisni-otvor"
+            },
+            "connectionId": "spoj.u4-mvp",
+            "actorId": "s"
+          },
+          "caption": "Strojar spaja usisni vod s usisnim otvorom pumpe…"
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "ks3"
+          },
+          "caption": "…i zateže ga trećim ključem (kao u vježbi 3)."
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u4",
+            "at": {
+              "x": 293,
+              "y": 190
+            }
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 140,
+          "excerpt": "Strojar spaja usisni vod na usisni otvor MVP rukama, upotrijebivši nakon toga treći ključ koji je ležao ispod usisnog otvora."
+        }
+      ]
+    },
+    {
+      "id": "n1-rucica",
+      "title": "N₁ veže uže za prvu desnu ručicu MVP",
+      "source": "04-vjezba-4#prenosenje-usisnog-voda/p7",
+      "stageId": "faza.u-vodu",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "dependsOn": [
+        "prenosenje"
+      ],
+      "completedWhen": {
+        "type": "actionCompleted",
+        "actionId": "act.uze-rucica"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 570,
+              "y": 262
+            }
+          },
+          "caption": "N₁ postupa kao V₁ u vježbi 3: postavlja uže…"
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 270
+          }
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.uze-rucica",
+            "actorIds": [
+              "n1"
+            ]
+          },
+          "caption": "…i veže ga za prvu desnu ručicu MVP."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.uze-rucica"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "gotovo",
+      "title": "Zapovijed „Gotovo!”",
+      "source": "04-vjezba-4#prenosenje-usisnog-voda/p8",
+      "stageId": "faza.u-vodu",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "spoj-mvp"
+      ],
+      "completedWhen": {
+        "type": "actionCompleted",
+        "actionId": "act.gotovo"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.gotovo",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Čim je spojio vod i stavio ključ na spojnicu, strojar zapovijeda: „Gotovo!”."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.gotovo"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "iz-vode",
+      "title": "Zapovijed „Usisni vod iz vode!”",
+      "source": "04-vjezba-4#pospremanje-opreme/p2",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "gotovo",
+        "n1-rucica"
+      ],
+      "completedWhen": {
+        "type": "actionCompleted",
+        "actionId": "act.iz-vode"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.iz-vode",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Strojar zapovijeda: „Usisni vod iz vode!”."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.iz-vode"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "04-Vjezba-4.md",
+          "line": 148,
+          "excerpt": "Usisni vod rastavlja navalna grupa uz pomoć strojara."
+        }
+      ]
+    },
+    {
+      "id": "n1-razvezuje",
+      "title": "N₁ razvezuje uže s ručice MVP",
+      "source": "04-vjezba-4#pospremanje-opreme/p2",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "dependsOn": [
+        "iz-vode"
+      ],
+      "completedWhen": {
+        "type": "actionCompleted",
+        "actionId": "act.razvezivanje"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.razvezivanje",
+            "actorIds": [
+              "n1"
+            ]
+          },
+          "caption": "N₁ razvezuje uže usisnog voda s prve desne ručice MVP."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.razvezivanje"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "strojar-rastavlja-mvp",
+      "title": "Strojar rastavlja usisni vod kod MVP",
+      "source": "04-vjezba-4#pospremanje-opreme/p2",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.strojar",
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "iz-vode"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "portFree",
+            "port": {
+              "objectId": "mvp",
+              "portId": "usisni-otvor"
+            }
+          },
+          {
+            "type": "carrying",
+            "personnelId": "s",
+            "equipmentId": "u4"
+          },
+          {
+            "type": "placed",
+            "equipmentId": "ks3"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u4"
+          },
+          "caption": "Iza strojara u raskoračnom stavu N₂ pridržava usisni vod."
+        },
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.u4-mvp",
+            "actorId": "s"
+          },
+          "caption": "Strojar ključem rastavlja usisni vod kod MVP…"
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "s",
+            "equipmentId": "ks3",
+            "at": {
+              "x": 360.4,
+              "y": 190
+            },
+            "rotation": 90
+          },
+          "caption": "…ostavlja ključ na zemlju…"
+        },
+        {
+          "command": {
+            "type": "HandOverEquipment",
+            "fromId": "n2",
+            "toId": "s",
+            "equipmentId": "u4"
+          },
+          "caption": "…i hvata slobodnu spojnicu voda."
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "n1-prvi-spoj",
+      "title": "N₁ hvata usisni vod kod prvog spoja",
+      "source": "04-vjezba-4#pospremanje-opreme/p3",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "dependsOn": [
+        "n1-razvezuje",
+        "strojar-rastavlja-mvp"
+      ],
+      "completedWhen": {
+        "type": "carrying",
+        "personnelId": "n1",
+        "equipmentId": "u3"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 650,
+              "y": 150
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 205,
+              "y": 155
+            }
+          },
+          "caption": "N₁ s užetom u ruci odlazi do prvog spoja kod strojara i hvata vod s lijeve strane."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 180
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n1",
+            "equipmentId": "u3"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "n2-drugi-spoj",
+      "title": "N₂ prima spoj prve i druge cijevi i uže ventila",
+      "source": "04-vjezba-4#pospremanje-opreme/p4",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "strojar-rastavlja-mvp"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "carrying",
+            "personnelId": "n2",
+            "equipmentId": "u1"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "n2",
+            "equipmentId": "u2"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "n2",
+            "equipmentId": "uze-ventil"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 300,
+              "y": 60
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "uze-ventil"
+          },
+          "caption": "N₂ desnom rukom prima uže nepovratnog ventila…"
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": -147,
+              "y": 155
+            }
+          },
+          "caption": "…a lijevom spoj prve i druge usisne cijevi."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 180
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u1"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u2"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "odnosenje",
+      "title": "Odnošenje usisnog voda iz vode",
+      "source": "04-vjezba-4#pospremanje-opreme/p5",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.strojar",
+        "role.vodja-navalne",
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "n1-prvi-spoj",
+        "n2-drugi-spoj"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "near",
+            "objectId": "u3",
+            "targetId": "mvp",
+            "maxDistance": 100
+          },
+          {
+            "type": "not",
+            "of": {
+              "type": "inZone",
+              "objectId": "sitka",
+              "zoneId": "zona.crpiliste"
+            }
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 693,
+              "y": 78
+            }
+          },
+          "caption": "Svi zajedno odnose usisni vod do mjesta odakle je donesen do vode."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 538,
+              "y": 37
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 186,
+              "y": 37
+            }
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "n1-skida-uze",
+      "title": "N₁ skida uže s usisnog voda",
+      "source": "04-vjezba-4#pospremanje-opreme/p5",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "dependsOn": [
+        "odnosenje"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "actionCompleted",
+            "actionId": "act.skidanje-uzeta"
+          },
+          {
+            "type": "portFree",
+            "port": {
+              "objectId": "sitka",
+              "portId": "karika-sitke"
+            }
+          },
+          {
+            "type": "placed",
+            "equipmentId": "uze-vod"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n1",
+            "equipmentId": "u3",
+            "at": {
+              "x": 450,
+              "y": 72
+            }
+          },
+          "caption": "N₁ spušta svoj dio voda…"
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.skidanje-uzeta",
+            "actorIds": [
+              "n1"
+            ]
+          },
+          "caption": "…i prije spuštanja voda skida uže; N₂ mu pomaže držeći drugu cijev."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 362,
+              "y": 37
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 186,
+              "y": 37
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 20,
+              "y": 37
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.skidanje-uzeta"
+          }
+        },
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.uze-vod",
+            "actorId": "n1"
+          },
+          "caption": "N₁ skida karabin s karike usisne sitke…"
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n1",
+            "equipmentId": "uze-vod",
+            "at": {
+              "x": -3,
+              "y": 20
+            }
+          },
+          "caption": "…i odlaže uže."
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Simulator bilježi jednog nositelja po dijelu voda; N₁ spušta treću cijev prije skidanja užeta."
+      }
+    },
+    {
+      "id": "n2-skida-karabin",
+      "title": "N₂ skida karabin s karike nepovratnog ventila",
+      "source": "04-vjezba-4#pospremanje-opreme/p5",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "n1-skida-uze"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "portFree",
+            "port": {
+              "objectId": "sitka",
+              "portId": "karika-ventila"
+            }
+          },
+          {
+            "type": "placed",
+            "equipmentId": "uze-ventil"
+          },
+          {
+            "type": "placed",
+            "equipmentId": "u1"
+          },
+          {
+            "type": "placed",
+            "equipmentId": "u2"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u1",
+            "at": {
+              "x": 98,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u2",
+            "at": {
+              "x": 274,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 50,
+              "y": 20
+            }
+          },
+          "caption": "N₂ skida karabin s karike nepovratnog ventila."
+        },
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.uze-ventil",
+            "actorId": "n2"
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "uze-ventil",
+            "at": {
+              "x": -30,
+              "y": 20
+            }
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "N₂ spušta svoj dio voda prije skidanja karabina (simulator bilježi jednog nositelja po dijelu voda)."
+      }
+    },
+    {
+      "id": "spustanje",
+      "title": "Spuštanje usisnog voda na zemlju",
+      "source": "04-vjezba-4#pospremanje-opreme/p5",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "n2-skida-karabin"
+      ],
+      "completedWhen": {
+        "type": "placed",
+        "equipmentId": "u4"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "s",
+            "equipmentId": "u4",
+            "at": {
+              "x": 626,
+              "y": 72
+            }
+          },
+          "caption": "Kada je užad odložena, usisni vod je na zemlji."
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "polozaj-rastavljanje",
+      "title": "Položaj za rastavljanje usisnog voda",
+      "source": "04-vjezba-4#pospremanje-opreme/p6",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "spustanje"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "near",
+            "objectId": "n1",
+            "targetId": "u3",
+            "maxDistance": 30
+          },
+          {
+            "type": "near",
+            "objectId": "n2",
+            "targetId": "u4",
+            "maxDistance": 30
+          },
+          {
+            "type": "near",
+            "objectId": "s",
+            "targetId": "u3",
+            "maxDistance": 30
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 20,
+              "y": 102
+            }
+          },
+          "caption": "N₁, N₂ i strojar postavljaju se u položaj za rastavljanje usisnog voda."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 50,
+              "y": 102
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 693,
+              "y": 102
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 505,
+              "y": 102
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 581,
+              "y": 102
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 400,
+              "y": 102
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 505,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 581,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 400,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 0
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 180
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "s",
+            "rotation": 0
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "rastavljanje-4",
+      "title": "Rastavljanje 4. spoja usisnog voda",
+      "source": "04-vjezba-4#pospremanje-opreme/p6",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "polozaj-rastavljanje"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "not",
+            "of": {
+              "type": "connected",
+              "a": {
+                "objectId": "u3",
+                "portId": "kraj-2"
+              },
+              "b": {
+                "objectId": "u4",
+                "portId": "kraj-1"
+              }
+            }
+          },
+          {
+            "type": "placed",
+            "equipmentId": "u3"
+          },
+          {
+            "type": "placed",
+            "equipmentId": "u4"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.dizi-spusti-r1",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Strojar zapovijeda „Diži – spusti!”."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.dizi-spusti-r1"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "u3"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u4"
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.u3-u4",
+            "actorId": "n1"
+          },
+          "caption": "Usisni vod se rastavlja istim postupkom kao u vježbi 3."
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "s",
+            "equipmentId": "u3",
+            "at": {
+              "x": 450,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u4",
+            "at": {
+              "x": 626,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 183,
+          "excerpt": "Usisni vod rastavlja se obrnutim redoslijedom od spajanja."
+        }
+      ]
+    },
+    {
+      "id": "prijelaz-r2",
+      "title": "Prijelaz do 3. spoja (rastavljanje)",
+      "source": "04-vjezba-4#pospremanje-opreme/p6",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "rastavljanje-4"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "near",
+            "objectId": "n1",
+            "targetId": "u2",
+            "maxDistance": 30
+          },
+          {
+            "type": "near",
+            "objectId": "n2",
+            "targetId": "u3",
+            "maxDistance": 30
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 180
+          },
+          "caption": "N₁ i N₂ kreću se obrnutim redoslijedom od spajanja."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "s",
+            "rotation": 180
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 505,
+              "y": 42
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 400,
+              "y": 42
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 581,
+              "y": 42
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 329,
+              "y": 42
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 224,
+              "y": 42
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 405,
+              "y": 42
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 0
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "s",
+            "rotation": 0
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 405,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 329,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 224,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "rastavljanje-3",
+      "title": "Rastavljanje 3. spoja usisnog voda",
+      "source": "04-vjezba-4#pospremanje-opreme/p6",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "prijelaz-r2"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "not",
+            "of": {
+              "type": "connected",
+              "a": {
+                "objectId": "u2",
+                "portId": "kraj-2"
+              },
+              "b": {
+                "objectId": "u3",
+                "portId": "kraj-1"
+              }
+            }
+          },
+          {
+            "type": "placed",
+            "equipmentId": "u2"
+          },
+          {
+            "type": "placed",
+            "equipmentId": "u3"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.dizi-spusti-r2",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Strojar zapovijeda „Diži – spusti!”."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.dizi-spusti-r2"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "u2"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u3"
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.u2-u3",
+            "actorId": "n1"
+          },
+          "caption": "Usisni vod se rastavlja istim postupkom kao u vježbi 3."
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "s",
+            "equipmentId": "u2",
+            "at": {
+              "x": 274,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u3",
+            "at": {
+              "x": 450,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 183,
+          "excerpt": "Usisni vod rastavlja se obrnutim redoslijedom od spajanja."
+        }
+      ]
+    },
+    {
+      "id": "prijelaz-r3",
+      "title": "Prijelaz do 2. spoja (rastavljanje)",
+      "source": "04-vjezba-4#pospremanje-opreme/p6",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "rastavljanje-3"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "near",
+            "objectId": "n1",
+            "targetId": "u1",
+            "maxDistance": 30
+          },
+          {
+            "type": "near",
+            "objectId": "n2",
+            "targetId": "u2",
+            "maxDistance": 30
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 180
+          },
+          "caption": "N₁ i N₂ kreću se obrnutim redoslijedom od spajanja."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "s",
+            "rotation": 180
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 329,
+              "y": 42
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 224,
+              "y": 42
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 405,
+              "y": 42
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 153,
+              "y": 42
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 48,
+              "y": 42
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 229,
+              "y": 42
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 0
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "s",
+            "rotation": 0
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 229,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 153,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 48,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "rastavljanje-2",
+      "title": "Rastavljanje 2. spoja usisnog voda",
+      "source": "04-vjezba-4#pospremanje-opreme/p6",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "prijelaz-r3"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "not",
+            "of": {
+              "type": "connected",
+              "a": {
+                "objectId": "u1",
+                "portId": "kraj-2"
+              },
+              "b": {
+                "objectId": "u2",
+                "portId": "kraj-1"
+              }
+            }
+          },
+          {
+            "type": "placed",
+            "equipmentId": "u1"
+          },
+          {
+            "type": "placed",
+            "equipmentId": "u2"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.dizi-spusti-r3",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Strojar zapovijeda „Diži – spusti!”."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.dizi-spusti-r3"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "u1"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u2"
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.u1-u2",
+            "actorId": "n1"
+          },
+          "caption": "Usisni vod se rastavlja istim postupkom kao u vježbi 3."
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "s",
+            "equipmentId": "u1",
+            "at": {
+              "x": 98,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u2",
+            "at": {
+              "x": 274,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "03-Vjezba-3.md",
+          "line": 183,
+          "excerpt": "Usisni vod rastavlja se obrnutim redoslijedom od spajanja."
+        }
+      ]
+    },
+    {
+      "id": "prijelaz-r4",
+      "title": "Prijelaz do usisne sitke (rastavljanje)",
+      "source": "04-vjezba-4#pospremanje-opreme/p6",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "rastavljanje-2"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "near",
+            "objectId": "n1",
+            "targetId": "sitka",
+            "maxDistance": 70
+          },
+          {
+            "type": "near",
+            "objectId": "n2",
+            "targetId": "u1",
+            "maxDistance": 30
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 180
+          },
+          "caption": "N₁ i N₂ kreću se obrnutim redoslijedom od spajanja."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "s",
+            "rotation": 180
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 153,
+              "y": 42
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 48,
+              "y": 42
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 229,
+              "y": 42
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": -65,
+              "y": 42
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": -125,
+              "y": 42
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 68,
+              "y": 42
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 0
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "s",
+            "rotation": 0
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 68,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": -65,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": -125,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "rastavljanje-sitke",
+      "title": "Rastavljanje usisne sitke; strojar preuzima ključeve",
+      "source": "04-vjezba-4#pospremanje-opreme/p7",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "prijelaz-r4"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "portFree",
+            "port": {
+              "objectId": "sitka",
+              "portId": "spojnica"
+            }
+          },
+          {
+            "type": "carrying",
+            "personnelId": "s",
+            "typeId": "et.kljuc-za-spojnice",
+            "count": 2
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.dizi-spusti-r4",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Strojar zapovijeda „Diži – spusti!”."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.dizi-spusti-r4"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n1",
+            "equipmentId": "sitka"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u1"
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": -30,
+              "y": 110
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.sitka-u1",
+            "actorId": "n1"
+          },
+          "caption": "Rastavljaju usisnu sitku od voda."
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u1",
+            "at": {
+              "x": 98,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "HandOverEquipment",
+            "fromId": "n1",
+            "toId": "s",
+            "equipmentId": "ks1"
+          },
+          "caption": "Strojar lijevom rukom preuzima ključeve od N₁…"
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 40,
+              "y": 110
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "HandOverEquipment",
+            "fromId": "n2",
+            "toId": "s",
+            "equipmentId": "ks2"
+          },
+          "caption": "…i od N₂."
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "sitka-strojaru",
+      "title": "N₁ predaje sitku strojaru; strojar odnosi opremu i odlazi u stroj",
+      "source": "04-vjezba-4#pospremanje-opreme/p8",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "rastavljanje-sitke"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "placed",
+            "equipmentId": "sitka"
+          },
+          {
+            "type": "inZone",
+            "objectId": "sitka",
+            "zoneId": "zona.oprema"
+          },
+          {
+            "type": "placed",
+            "equipmentId": "ks1"
+          },
+          {
+            "type": "placed",
+            "equipmentId": "ks2"
+          },
+          {
+            "type": "inZone",
+            "objectId": "s",
+            "zoneId": "zona.stroj"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": -20,
+              "y": 105
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "HandOverEquipment",
+            "fromId": "n1",
+            "toId": "s",
+            "equipmentId": "sitka"
+          },
+          "caption": "N₁ predaje strojaru usisnu sitku u desnu ruku."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 298.0,
+              "y": 223
+            }
+          },
+          "caption": "Strojar odlazi s opremom na mjesto odakle je počela vježba…"
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "s",
+            "equipmentId": "sitka",
+            "at": {
+              "x": 313.0,
+              "y": 190
+            },
+            "rotation": 270
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "s",
+            "equipmentId": "ks1",
+            "at": {
+              "x": 315,
+              "y": 222
+            },
+            "rotation": 0
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "s",
+            "equipmentId": "ks2",
+            "at": {
+              "x": 315,
+              "y": 233
+            },
+            "rotation": 0
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 150,
+              "y": 190
+            }
+          },
+          "caption": "…a zatim na svoje mjesto u stroj."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "s",
+            "rotation": 270
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "cijevi-natrag",
+      "title": "N₁ i N₂ odnose prvu i drugu usisnu cijev",
+      "source": "04-vjezba-4#pospremanje-opreme/p9",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "rastavljanje-sitke"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "placed",
+            "equipmentId": "u1"
+          },
+          {
+            "type": "placed",
+            "equipmentId": "u2"
+          },
+          {
+            "type": "inZone",
+            "objectId": "u1",
+            "zoneId": "zona.oprema"
+          },
+          {
+            "type": "inZone",
+            "objectId": "u2",
+            "zoneId": "zona.oprema"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 98,
+              "y": 102
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 274,
+              "y": 102
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u1"
+          },
+          "caption": "N₁ i N₂ uzimaju prvu i drugu usisnu cijev…"
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n1",
+            "equipmentId": "u2"
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 0
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 0
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 450,
+              "y": 298
+            }
+          },
+          "caption": "…i odnose ih s desne strane MVP; N₂ ide ispred N₁."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 450,
+              "y": 338
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u1",
+            "at": {
+              "x": 450,
+              "y": 268
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n1",
+            "equipmentId": "u2",
+            "at": {
+              "x": 450,
+              "y": 308
+            }
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Cijevi nose obojica; simulator bilježi po jednog nositelja za svaku cijev."
+      }
+    },
+    {
+      "id": "cetvrta-natrag",
+      "title": "N₁ i N₂ odnose četvrtu usisnu cijev",
+      "source": "04-vjezba-4#pospremanje-opreme/p10",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "cijevi-natrag"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "placed",
+            "equipmentId": "u4"
+          },
+          {
+            "type": "near",
+            "objectId": "u4",
+            "targetId": "u3",
+            "maxDistance": 30
+          },
+          {
+            "type": "inZone",
+            "objectId": "u4",
+            "zoneId": "zona.oprema"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 450,
+              "y": 42
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 450,
+              "y": 42
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 501,
+              "y": 42
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 716,
+              "y": 42
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 501,
+              "y": 72
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 716,
+              "y": 72
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 0
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 180
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u4"
+          },
+          "caption": "N₂ drži cijev u desnoj, a vođa u lijevoj ruci; okrenuti su licem jedan prema drugom."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 540,
+              "y": 112
+            }
+          },
+          "caption": "Stavljaju je s unutarnje strane cijevi koja je ostala na zemlji."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 325,
+              "y": 112
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "u4",
+            "at": {
+              "x": 450,
+              "y": 112
+            }
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "uzad-natrag",
+      "title": "Motanje užadi i odlaganje torbica",
+      "source": "04-vjezba-4#pospremanje-opreme/p10",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "cetvrta-natrag"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "actionCompleted",
+            "actionId": "act.motanje-uzadi"
+          },
+          {
+            "type": "inZone",
+            "objectId": "uze-vod",
+            "zoneId": "zona.oprema"
+          },
+          {
+            "type": "inZone",
+            "objectId": "uze-ventil",
+            "zoneId": "zona.oprema"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 20,
+              "y": 20
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": -30,
+              "y": 45
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.motanje-uzadi",
+            "actorIds": [
+              "n1",
+              "n2"
+            ]
+          },
+          "caption": "Nakon što su prenijeli cijevi, N₁ i N₂ motaju svaki svoje uže u torbicu…"
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.motanje-uzadi"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n1",
+            "equipmentId": "uze-vod"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "uze-ventil"
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 270,
+              "y": 135
+            }
+          },
+          "caption": "…i ostavljaju je na mjestu prije izvođenja vježbe."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 270,
+              "y": 160
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n1",
+            "equipmentId": "uze-vod",
+            "at": {
+              "x": 319,
+              "y": 135
+            },
+            "rotation": 90
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "uze-ventil",
+            "at": {
+              "x": 319,
+              "y": 155
+            },
+            "rotation": 90
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "u-stroj",
+      "title": "Odlazak u stroj",
+      "source": "04-vjezba-4#pospremanje-opreme/p11",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "uzad-natrag",
+        "sitka-strojaru"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "inZone",
+            "objectId": "n1",
+            "zoneId": "zona.stroj"
+          },
+          {
+            "type": "inZone",
+            "objectId": "n2",
+            "zoneId": "zona.stroj"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 225,
+              "y": 190
+            }
+          },
+          "caption": "Nakon toga odlaze na svoje mjesto u stroj."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 150,
+              "y": 260
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 270
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 270
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    }
+  ]
+}
