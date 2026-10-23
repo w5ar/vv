@@ -208,9 +208,10 @@ describe('full pipeline on repository content', async () => {
   const synthetic = report.datasets.find((d) => d.id === 'synthetic')!;
   const source = report.datasets.find((d) => d.id === 'source')!;
 
-  // Source exercises and the procedure file each one is built from.
+  // Source exercises (in the order of their authoring file names) and the procedure file each one is built from.
   const SOURCE_EXERCISES = [
     ['vjezba-1-dva-c-mlaza', '01-Vjezba-1.md'],
+    ['vjezba-10-navalno-vozilo-hidrant', '10-Vjezba-10.md'],
     ['vjezba-2-jedan-c-mlaz', '02-Vjezba-2.md'],
     ['vjezba-3-usisne-cijevi', '03-Vjezba-3.md'],
     ['vjezba-4-usisne-cijevi', '04-Vjezba-4.md'],

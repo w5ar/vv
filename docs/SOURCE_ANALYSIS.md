@@ -22,17 +22,18 @@ unchanged). A byte-identical copy is vendored in `content/source/` (provenance i
 | **Vježba 7** – tanker, one „C” jet, open water source, three firefighters (`07-Vjezba-7.md`, sketches 47–51) | 1 + 5 | **converted**; refers to Vježbe 2 and 4 for details |
 | **Vježba 8** – tanker, one „C” jet, hydrant network, three firefighters (`08-Vjezba-8.md`, sketches 52–53) | 1 + 2 | **converted**; refers to Vježbe 7, 2 and 1 for details |
 | **Vježba 9** – fire engine, two „C” jets, open water source, six firefighters (`09-Vjezba-9.md`, sketches 54–58) | 1 + 5 | **converted**; refers to Vježbe 5 and 7; no equipment list (taken from Vježba 5) |
-| Vježbe 10–15 (`10-Vjezba-10.md` … `15-Vjezba-15.md`, sketches 59–77) | 6 + 19 | analysed; marked as not yet entered in `mapping.review.json` |
+| **Vježba 10** – fire engine, two „C” jets, hydrant network, six firefighters (`10-Vjezba-10.md`, sketches 59–61) | 1 + 3 | **converted**; refers to Vježbe 1, 6, 8 and 9; no equipment list (taken from Vježba 1) |
+| Vježbe 11–15 (`11-Vjezba-11.md` … `15-Vjezba-15.md`, sketches 62–77) | 5 + 16 | analysed; marked as not yet entered in `mapping.review.json` |
 | Symbols (`simboli/*.svg`) + sprite (`simboli/simboli.svg`) | 56 + 1 | catalog `katalog-vjezbovnik` (sprite ignored: duplicates the single files) |
 | Stage sketches (`skice/*.svg`) and self-contained render copies (`skice/ugradjeno/*.svg`) | 76 + 76 | analysed (stage C) |
 | Photographs (`slike/*.jpg`) | 48 | raster, kept as references only |
 | Generator scripts (`alati/*.py`) | 7 | read as text; quoted as the source of drawing conventions (line widths, couplings, facing marks, pump and vehicle connections) |
 
 Pipeline result (`content/normalized/source/REPORT.md`): 282 files, 56 symbols, 76 diagrams,
-18 procedures, 9 exercises — **0 errors**, 54 warnings (48 raster photographs, 6 sketch differences
+18 procedures, 10 exercises — **0 errors**, 54 warnings (48 raster photographs, 6 sketch differences
 listed in OPEN_QUESTIONS Q44, Q50 and Q76). Every step candidate
 is either mapped to an exercise step or explicitly ignored with a reason (the candidates of exercises
-10–15 are ignored as „not yet entered”). The demonstrations run without rejected commands, reach
+11–15 are ignored as „not yet entered”). The demonstrations run without rejected commands, reach
 completion and agree with every stage sketch they are compared with.
 
 Both exercises have `review.status: requires-review`: the linking of text, sketches and simulation

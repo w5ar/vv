@@ -19,6 +19,12 @@
       "synthetic": false
     },
     {
+      "id": "vjezba-10-navalno-vozilo-hidrant",
+      "file": "content/exercises/vjezba-10-navalno-vozilo-hidrant.json",
+      "catalogId": "katalog-vjezbovnik",
+      "synthetic": false
+    },
+    {
       "id": "vjezba-2-jedan-c-mlaz",
       "file": "content/exercises/vjezba-2-jedan-c-mlaz.json",
       "catalogId": "katalog-vjezbovnik",

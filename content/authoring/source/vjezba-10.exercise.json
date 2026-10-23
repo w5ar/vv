@@ -1,0 +1,7315 @@
+{
+  "$comment": [
+    "Vježba 10 iz izvornih materijala (content/source/10-Vjezba-10.md, skice 59–61). Tekst koraka preuzima se doslovno iz Markdowna preko „source”.",
+    "Tekst vježbe 10 upućuje na vježbe 1, 6, 8 i 9; retci tih vježbi navedeni su kao dodatni izvori koraka i radnji.",
+    "Koordinatni sustav vježbe je sustav skica 60 i 61. Vježba nema skicu postrojavanja: raspored skice 55 vježbe 9 pomaknut je ispod hidranta.",
+    "Vježba 10 nema popis opreme; oprema je preuzeta s popisa vježbe 1.",
+    "Datoteka je generirana pomoćnom skriptom pri izradi; mijenja se izravno."
+  ],
+  "schemaVersion": 1,
+  "id": "vjezba-10-navalno-vozilo-hidrant",
+  "title": "Vježba 10 – Vježba s 2 „C” mlaza vode, opskrba vodom iz hidrantske mreže (6 vatrogasaca)",
+  "summary": "Navalno vozilo uz hidrant: vodna grupa polaže „B” vod, a navalna i vodna grupa dva „C” mlaza kao u vježbi 1; strojar nakon prve vode polaže vod od hidranta do vozila kao u vježbi 8. Oprema se vraća u vozilo.",
+  "description": "Izvor: Vatrogasni vježbovnik, 2.7.2 Vježba 10 (content/source/10-Vjezba-10.md) i skice 59–61; postupci iz vježbi 1, 6, 8 i 9 na koje tekst upućuje. Vježba nema popis opreme pa je oprema preuzeta iz vježbe 1 i čeka provjeru. Rukovanje pumpom nije opisano. Položaji su shematski: skice nisu u mjerilu pa se faze uspoređuju samo po tome koji su simboli prikazani. Ova vježba čeka stručnu provjeru.",
+  "synthetic": false,
+  "catalogId": "katalog-vjezbovnik",
+  "metadata": {
+    "tags": [
+      "navalno vozilo",
+      "hidrantska mreža",
+      "punjenje spremnika",
+      "B vod",
+      "dva C mlaza",
+      "šest vatrogasaca"
+    ],
+    "authors": [
+      "Vatrogasni vježbovnik (izvor)"
+    ],
+    "version": "0.1"
+  },
+  "provenance": "source",
+  "review": {
+    "status": "requires-review",
+    "notes": "Vježba 10 primjenjuje postupke vježbi 1, 8 i 9 prema uputama iz teksta; oprema je izvedena iz vježbe 1. Potrebna je provjera vatrogasnog stručnjaka."
+  },
+  "sources": [
+    {
+      "file": "10-Vjezba-10.md"
+    },
+    {
+      "file": "01-Vjezba-1.md"
+    },
+    {
+      "file": "06-Vjezba-6.md"
+    },
+    {
+      "file": "08-Vjezba-8.md"
+    },
+    {
+      "file": "09-Vjezba-9.md"
+    }
+  ],
+  "settings": {
+    "pickUpDistance": 70,
+    "placeDistance": 90,
+    "snapDistance": 24,
+    "connectionMaxDistance": 100,
+    "maxCarriedPerPerson": null,
+    "orderPolicy": "warn",
+    "equipmentMovePolicy": "non-portable-only"
+  },
+  "animation": {
+    "moveSpeed": 160,
+    "hoseSpeed": 200,
+    "actionMs": 1500,
+    "stepGapMs": 300
+  },
+  "initialScene": {
+    "fromDiagram": {
+      "file": "skice/09-skica-55.svg",
+      "translate": {
+        "x": -60,
+        "y": 170
+      }
+    },
+    "viewport": {
+      "x": -60,
+      "y": 20,
+      "width": 1140,
+      "height": 600
+    },
+    "personnel": [
+      {
+        "id": "z",
+        "symbolId": "src.zapovjednik",
+        "roleId": "role.zapovjednik",
+        "diagramKey": "zapovjednik@215,80",
+        "rotation": 270,
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Raspored skice 55 vježbe 9, pomaknut ispod hidranta."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 7,
+            "excerpt": "zapovjednik (Z),"
+          }
+        ]
+      },
+      {
+        "id": "s",
+        "symbolId": "src.strojar",
+        "roleId": "role.strojar",
+        "diagramKey": "strojar@160,80",
+        "rotation": 270,
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Raspored skice 55 vježbe 9, pomaknut ispod hidranta."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 8,
+            "excerpt": "strojar (S),"
+          }
+        ]
+      },
+      {
+        "id": "n1",
+        "symbolId": "src.n1",
+        "roleId": "role.vodja-navalne",
+        "diagramKey": "n1@105,80",
+        "rotation": 270,
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Raspored skice 55 vježbe 9, pomaknut ispod hidranta."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 9,
+            "excerpt": "vođa navalne grupe (N₁),"
+          }
+        ]
+      },
+      {
+        "id": "n2",
+        "symbolId": "src.n2",
+        "roleId": "role.clan-navalne",
+        "diagramKey": "n2@105,155",
+        "rotation": 270,
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Raspored skice 55 vježbe 9, pomaknut ispod hidranta."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 10,
+            "excerpt": "član navalne grupe (N₂),"
+          }
+        ]
+      },
+      {
+        "id": "v1",
+        "symbolId": "src.v1",
+        "roleId": "role.vodja-vodne",
+        "diagramKey": "v1@50,80",
+        "rotation": 270,
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Raspored skice 55 vježbe 9, pomaknut ispod hidranta."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 11,
+            "excerpt": "vođa vodne grupe (V₁),"
+          }
+        ]
+      },
+      {
+        "id": "v2",
+        "symbolId": "src.v2",
+        "roleId": "role.clan-vodne",
+        "diagramKey": "v2@50,155",
+        "rotation": 270,
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Raspored skice 55 vježbe 9, pomaknut ispod hidranta."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 12,
+            "excerpt": "član vodne grupe (V₂)."
+          }
+        ]
+      }
+    ],
+    "equipment": [
+      {
+        "id": "nv",
+        "typeId": "et.navalno-vozilo",
+        "position": {
+          "x": 380.0,
+          "y": 190.0
+        },
+        "provenance": "source",
+        "sources": [
+          {
+            "file": "skice/10-skica-60.svg"
+          },
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          }
+        ]
+      },
+      {
+        "id": "hidrant",
+        "typeId": "et.podzemni-hidrant",
+        "position": {
+          "x": 110.0,
+          "y": 160.0
+        },
+        "provenance": "source",
+        "sources": [
+          {
+            "file": "skice/10-skica-60.svg"
+          }
+        ]
+      },
+      {
+        "id": "nastavak",
+        "typeId": "et.hidrantski-nastavak",
+        "storedIn": "nv",
+        "rotation": 90,
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 18,
+            "excerpt": "1 hidrantski nastavak,"
+          }
+        ]
+      },
+      {
+        "id": "kljuc-hidrant",
+        "typeId": "et.kljuc-za-hidrant",
+        "storedIn": "nv",
+        "rotation": 90,
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 19,
+            "excerpt": "1 ključ za hidrant,"
+          }
+        ]
+      },
+      {
+        "id": "b1",
+        "typeId": "et.tlacna-b-cijev",
+        "storedIn": "nv",
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 20,
+            "excerpt": "3 „B” tlačne cijevi,"
+          }
+        ]
+      },
+      {
+        "id": "b2",
+        "typeId": "et.tlacna-b-cijev",
+        "storedIn": "nv",
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 20,
+            "excerpt": "3 „B” tlačne cijevi,"
+          }
+        ]
+      },
+      {
+        "id": "b3",
+        "typeId": "et.tlacna-b-cijev",
+        "storedIn": "nv",
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 20,
+            "excerpt": "3 „B” tlačne cijevi,"
+          }
+        ]
+      },
+      {
+        "id": "c1",
+        "typeId": "et.tlacna-c-cijev",
+        "storedIn": "nv",
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 21,
+            "excerpt": "6 „C” tlačnih cijevi,"
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "typeId": "et.tlacna-c-cijev",
+        "storedIn": "nv",
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 21,
+            "excerpt": "6 „C” tlačnih cijevi,"
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "typeId": "et.tlacna-c-cijev",
+        "storedIn": "nv",
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 21,
+            "excerpt": "6 „C” tlačnih cijevi,"
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "typeId": "et.tlacna-c-cijev",
+        "storedIn": "nv",
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 21,
+            "excerpt": "6 „C” tlačnih cijevi,"
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "typeId": "et.tlacna-c-cijev",
+        "storedIn": "nv",
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 21,
+            "excerpt": "6 „C” tlačnih cijevi,"
+          }
+        ]
+      },
+      {
+        "id": "c6",
+        "typeId": "et.tlacna-c-cijev",
+        "storedIn": "nv",
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 21,
+            "excerpt": "6 „C” tlačnih cijevi,"
+          }
+        ]
+      },
+      {
+        "id": "m1",
+        "typeId": "et.c-mlaznica",
+        "storedIn": "nv",
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 22,
+            "excerpt": "2 „C” mlaznice,"
+          }
+        ]
+      },
+      {
+        "id": "m2",
+        "typeId": "et.c-mlaznica",
+        "storedIn": "nv",
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 22,
+            "excerpt": "2 „C” mlaznice,"
+          }
+        ]
+      },
+      {
+        "id": "razdjelnica",
+        "typeId": "et.trodijelna-razdjelnica",
+        "storedIn": "nv",
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 23,
+            "excerpt": "1 trodijelna razdjelnica,"
+          }
+        ]
+      },
+      {
+        "id": "prijelaznica",
+        "typeId": "et.prijelaznica-bc",
+        "storedIn": "nv",
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 24,
+            "excerpt": "1 prijelaznica B/C,"
+          }
+        ]
+      },
+      {
+        "id": "torbica",
+        "typeId": "et.torbica-s-povezicama",
+        "storedIn": "nv",
+        "rotation": 90,
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 25,
+            "excerpt": "1 torbica s povezicama za cijevi,"
+          }
+        ]
+      },
+      {
+        "id": "d1",
+        "typeId": "et.drzac-cijevi",
+        "storedIn": "nv",
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 26,
+            "excerpt": "2 držača za cijevi,"
+          }
+        ]
+      },
+      {
+        "id": "d2",
+        "typeId": "et.drzac-cijevi",
+        "storedIn": "nv",
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 26,
+            "excerpt": "2 držača za cijevi,"
+          }
+        ]
+      },
+      {
+        "id": "ks1",
+        "typeId": "et.kljuc-za-spojnice",
+        "storedIn": "nv",
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 27,
+            "excerpt": "3 univerzalna ključa za spojnice."
+          }
+        ]
+      },
+      {
+        "id": "ks2",
+        "typeId": "et.kljuc-za-spojnice",
+        "storedIn": "nv",
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 27,
+            "excerpt": "3 univerzalna ključa za spojnice."
+          }
+        ]
+      },
+      {
+        "id": "ks3",
+        "typeId": "et.kljuc-za-spojnice",
+        "storedIn": "nv",
+        "provenance": "derived",
+        "review": {
+          "status": "requires-review",
+          "notes": "Vježba 10 nema popis opreme; prema popisu vježbe 1."
+        },
+        "sources": [
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "Oprema je smještena u spremnicima navalnog vozila."
+          },
+          {
+            "file": "01-Vjezba-1.md",
+            "line": 27,
+            "excerpt": "3 univerzalna ključa za spojnice."
+          }
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "id": "zona.stroj",
+        "name": "Stroj odjeljenja (skica 55 vježbe 9, ispod hidranta)",
+        "shape": {
+          "type": "rect",
+          "rect": {
+            "x": -40,
+            "y": 220,
+            "width": 225,
+            "height": 135
+          }
+        },
+        "provenance": "assumption",
+        "review": {
+          "status": "requires-review",
+          "notes": "Obuhvat postrojenog odjeljenja: raspored skice 55 vježbe 9, pomaknut ispod hidranta (shematski)."
+        },
+        "sources": [
+          {
+            "file": "skice/09-skica-55.svg"
+          },
+          {
+            "file": "10-Vjezba-10.md",
+            "line": 16,
+            "excerpt": "zapovjednik stane dva koraka iza vozila, podiže lijevu ruku i zapovijeda kao u [vježbi 6](06-Vjezba-6.md)."
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [],
+  "completion": {
+    "requiredSteps": "all",
+    "finalCondition": {
+      "type": "all",
+      "of": [
+        {
+          "type": "stored",
+          "equipmentId": "nastavak",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "kljuc-hidrant",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "b1",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "b2",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "b3",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "c1",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "c2",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "c3",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "c4",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "c5",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "c6",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "m1",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "m2",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "razdjelnica",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "prijelaznica",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "torbica",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "d1",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "d2",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "ks1",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "ks2",
+          "containerId": "nv"
+        },
+        {
+          "type": "stored",
+          "equipmentId": "ks3",
+          "containerId": "nv"
+        },
+        {
+          "type": "not",
+          "of": {
+            "type": "carrying",
+            "personnelId": "z"
+          }
+        },
+        {
+          "type": "not",
+          "of": {
+            "type": "carrying",
+            "personnelId": "s"
+          }
+        },
+        {
+          "type": "not",
+          "of": {
+            "type": "carrying",
+            "personnelId": "n1"
+          }
+        },
+        {
+          "type": "not",
+          "of": {
+            "type": "carrying",
+            "personnelId": "n2"
+          }
+        },
+        {
+          "type": "not",
+          "of": {
+            "type": "carrying",
+            "personnelId": "v1"
+          }
+        },
+        {
+          "type": "not",
+          "of": {
+            "type": "carrying",
+            "personnelId": "v2"
+          }
+        },
+        {
+          "type": "inZone",
+          "objectId": "z",
+          "zoneId": "zona.stroj"
+        },
+        {
+          "type": "inZone",
+          "objectId": "s",
+          "zoneId": "zona.stroj"
+        },
+        {
+          "type": "inZone",
+          "objectId": "n1",
+          "zoneId": "zona.stroj"
+        },
+        {
+          "type": "inZone",
+          "objectId": "n2",
+          "zoneId": "zona.stroj"
+        },
+        {
+          "type": "inZone",
+          "objectId": "v1",
+          "zoneId": "zona.stroj"
+        },
+        {
+          "type": "inZone",
+          "objectId": "v2",
+          "zoneId": "zona.stroj"
+        },
+        {
+          "type": "portFree",
+          "port": {
+            "objectId": "nv",
+            "portId": "tlacni-izlaz"
+          }
+        },
+        {
+          "type": "portFree",
+          "port": {
+            "objectId": "nv",
+            "portId": "punjenje"
+          }
+        },
+        {
+          "type": "portFree",
+          "port": {
+            "objectId": "hidrant",
+            "portId": "prikljucak"
+          }
+        }
+      ]
+    }
+  },
+  "assessment": {
+    "criteria": [],
+    "showStepListDuringAssessment": false,
+    "provenance": "assumption",
+    "review": {
+      "status": "requires-review"
+    },
+    "sources": []
+  },
+  "actions": [
+    {
+      "id": "act.zbor",
+      "name": "Zapovijed „Odjeljenje – zbor!”",
+      "speech": "Odjeljenje – zbor!",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 16,
+          "excerpt": "zapovjednik stane dva koraka iza vozila, podiže lijevu ruku i zapovijeda kao u [vježbi 6](06-Vjezba-6.md)."
+        },
+        {
+          "file": "06-Vjezba-6.md",
+          "line": 28,
+          "excerpt": "zapovjednik postrojava odjeljenje kao u [vježbi 5](05-Vjezba-5.md) (skica 42)"
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 36,
+          "excerpt": "**„Odjeljenje – zbor!”**"
+        }
+      ],
+      "durationMs": 2000
+    },
+    {
+      "id": "act.za-navalu",
+      "name": "Zapovijed „Požar pravac … voda – hidrant, s dvije „B” cijevi do razdjelnice, za navalu – pripremi!”",
+      "speech": "Požar pravac … voda – hidrant, s dvije „B” cijevi do razdjelnice, za navalu – pripremi!",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 16,
+          "excerpt": "zapovjednik stane dva koraka iza vozila, podiže lijevu ruku i zapovijeda kao u [vježbi 6](06-Vjezba-6.md)."
+        },
+        {
+          "file": "06-Vjezba-6.md",
+          "line": 34,
+          "excerpt": "**„Požar pravac … voda – hidrant, s dvije „B” cijevi do razdjelnice, za navalu – pripremi!”**"
+        }
+      ],
+      "durationMs": 3000
+    },
+    {
+      "id": "act.vodu-daj-b",
+      "name": "Znak za vodu i zapovijed „Vodu daj!”",
+      "speech": "Vodu daj!",
+      "actorRoleIds": [
+        "role.clan-navalne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 22,
+          "excerpt": "vodna grupa, navalna grupa i zapovjednik postupaju kao u [vježbi 1](01-Vjezba-1.md) (skica 59)"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 59,
+          "excerpt": "Nakon toga diže desnu ruku dajući znak za vodu i zapovijeda: **„Vodu daj!”**"
+        }
+      ],
+      "durationMs": 2000
+    },
+    {
+      "id": "act.potvrda-strojar",
+      "name": "Strojar daje znak da je zapovijed primio („Vodu daj!”)",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 34,
+          "excerpt": "primio zapovijed: **„Vodu daj”**, pušta vodu do razdjelnice i odlazi na polaganje cijevnog voda od hidranta do vozila kao u"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 61,
+          "excerpt": "Kada od strojara dobije znak da je zapovijed primio"
+        }
+      ],
+      "requires": {
+        "type": "actionCompleted",
+        "actionId": "act.vodu-daj-b"
+      }
+    },
+    {
+      "id": "act.voda-do-razdjelnice",
+      "name": "Puštanje vode do razdjelnice (motorna pumpa)",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review",
+        "notes": "Rukovanje pumpom (gas, tlak) nije opisano u izvoru; potrebna je stručna provjera."
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 34,
+          "excerpt": "primio zapovijed: **„Vodu daj”**, pušta vodu do razdjelnice i odlazi na polaganje cijevnog voda od hidranta do vozila kao u"
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 62,
+          "excerpt": "puštena voda do razdjelnice, kao u vježbi 1"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 61,
+          "excerpt": "Kada od strojara dobije znak da je zapovijed primio"
+        }
+      ],
+      "description": "Tekst se poziva na vježbu 1 (hidrant); kako strojar rukuje motornom pumpom nije opisano, pa je radnja skupna.",
+      "requires": {
+        "type": "actionCompleted",
+        "actionId": "act.vodu-daj-b"
+      }
+    },
+    {
+      "id": "act.prvi-mlaz-naprijed",
+      "name": "Zapovijed „Za prvi mlaz s dvije „C” cijevi pravac …… naprijed!”",
+      "speech": "Za prvi mlaz s dvije „C” cijevi pravac …… naprijed!",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 30,
+          "excerpt": "Prvi mlaz polaže navalna grupa kao u [vježbi 1](01-Vjezba-1.md)."
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 75,
+          "excerpt": "**„Za prvi mlaz s dvije „C” cijevi pravac …… naprijed!”**"
+        }
+      ],
+      "durationMs": 3000
+    },
+    {
+      "id": "act.prvi-mlaz-vodu-daj",
+      "name": "Zapovijed „Za prvi mlaz – vodu daj!”",
+      "speech": "Za prvi mlaz – vodu daj!",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 30,
+          "excerpt": "Prvi mlaz polaže navalna grupa kao u [vježbi 1](01-Vjezba-1.md)."
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 81,
+          "excerpt": "**„Za prvi mlaz – vodu daj!”**"
+        }
+      ],
+      "durationMs": 2000
+    },
+    {
+      "id": "act.potvrda-z-prvi",
+      "name": "Poslužitelj na razdjelnici daje znak o primljenoj zapovijedi (prvi mlaz)",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 30,
+          "excerpt": "Prvi mlaz polaže navalna grupa kao u [vježbi 1](01-Vjezba-1.md)."
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 81,
+          "excerpt": "Kada je od poslužitelja, koji se nalazi na razdjelnici (Z), dobio znak o primljenoj zapovijedi"
+        }
+      ],
+      "requires": {
+        "type": "actionCompleted",
+        "actionId": "act.prvi-mlaz-vodu-daj"
+      }
+    },
+    {
+      "id": "act.luk-prvi",
+      "name": "Izbacivanje druge „C” cijevi u luku u lijevu stranu",
+      "actorRoleIds": [
+        "role.clan-navalne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 30,
+          "excerpt": "Prvi mlaz polaže navalna grupa kao u [vježbi 1](01-Vjezba-1.md)."
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 81,
+          "excerpt": "izbacuje ju u pravilnom luku u lijevu stranu"
+        }
+      ],
+      "description": "Oblik luka nije prikazan: položena cijev crta se kao ravna crta."
+    },
+    {
+      "id": "act.ventil-lijevi",
+      "name": "Otvaranje ventila na lijevom otvoru razdjelnice",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 30,
+          "excerpt": "Prvi mlaz polaže navalna grupa kao u [vježbi 1](01-Vjezba-1.md)."
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 81,
+          "excerpt": "otvara ventil na lijevom otvoru razdjelnice"
+        }
+      ],
+      "requires": {
+        "type": "actionCompleted",
+        "actionId": "act.potvrda-z-prvi"
+      }
+    },
+    {
+      "id": "act.otvaranje-poklopca",
+      "name": "Otvaranje poklopca hidranta ključem",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 34,
+          "excerpt": "primio zapovijed: **„Vodu daj”**, pušta vodu do razdjelnice i odlazi na polaganje cijevnog voda od hidranta do vozila kao u"
+        },
+        {
+          "file": "08-Vjezba-8.md",
+          "line": 29,
+          "excerpt": "odlazi do podzemnog hidranta i postavlja ga kao u [vježbi 1](01-Vjezba-1.md#postavljanje-hidrantskog-nastavka)"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 41,
+          "excerpt": "zatim otvara ključem poklopac hidranta"
+        }
+      ]
+    },
+    {
+      "id": "act.otvaranje-hidranta",
+      "name": "Otvaranje hidranta i ventila hidrantskog nastavka (po potrebi)",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 34,
+          "excerpt": "primio zapovijed: **„Vodu daj”**, pušta vodu do razdjelnice i odlazi na polaganje cijevnog voda od hidranta do vozila kao u"
+        },
+        {
+          "file": "08-Vjezba-8.md",
+          "line": 29,
+          "excerpt": "po potrebi, otvara hidrant i ventil hidrantskog nastavka"
+        }
+      ],
+      "description": "Tekst kaže „po potrebi”; simulator hidrant uvijek otvara."
+    },
+    {
+      "id": "act.drugi-mlaz-naprijed",
+      "name": "Zapovijed „Za drugi mlaz s dvije „C” cijevi pravac …. naprijed!”",
+      "speech": "Za drugi mlaz s dvije „C” cijevi pravac …. naprijed!",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 42,
+          "excerpt": "Drugi mlaz polaže vodna grupa kao u [vježbi 1](01-Vjezba-1.md) (skica 61)."
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 89,
+          "excerpt": "**„Za drugi mlaz s dvije „C” cijevi pravac …. naprijed!”**"
+        }
+      ],
+      "durationMs": 3000
+    },
+    {
+      "id": "act.luk-drugi",
+      "name": "Poravnavanje druge „C” cijevi i luk u desnu stranu",
+      "actorRoleIds": [
+        "role.clan-vodne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 42,
+          "excerpt": "Drugi mlaz polaže vodna grupa kao u [vježbi 1](01-Vjezba-1.md) (skica 61)."
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 97,
+          "excerpt": "poravnava drugu cijev i pravi luk u desnu stranu"
+        }
+      ],
+      "description": "Oblik luka nije prikazan: položena cijev crta se kao ravna crta."
+    },
+    {
+      "id": "act.drugi-mlaz-vodu-daj",
+      "name": "Zapovijed „Za drugi mlaz vodu daj!”",
+      "speech": "Za drugi mlaz vodu daj!",
+      "actorRoleIds": [
+        "role.vodja-vodne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 42,
+          "excerpt": "Drugi mlaz polaže vodna grupa kao u [vježbi 1](01-Vjezba-1.md) (skica 61)."
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 99,
+          "excerpt": "**„Za drugi mlaz vodu daj!”**"
+        }
+      ],
+      "durationMs": 2000
+    },
+    {
+      "id": "act.potvrda-z-drugi",
+      "name": "Poslužitelj na razdjelnici daje znak o primljenoj zapovijedi (drugi mlaz)",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 42,
+          "excerpt": "Drugi mlaz polaže vodna grupa kao u [vježbi 1](01-Vjezba-1.md) (skica 61)."
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 101,
+          "excerpt": "Kada je od poslužitelja na razdjelnici dobio znak o primljenoj zapovijedi"
+        }
+      ],
+      "requires": {
+        "type": "actionCompleted",
+        "actionId": "act.drugi-mlaz-vodu-daj"
+      }
+    },
+    {
+      "id": "act.vodom-stoj-mlazovi",
+      "name": "Zapovijed „Prvi i drugi mlaz – vodom stoj!”",
+      "speech": "Prvi i drugi mlaz – vodom stoj!",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 50,
+          "excerpt": "Zapovjednik obavlja pospremu kao u [vježbi 9](09-Vjezba-9.md)."
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "Zapovijedi i radnje zapovjednika iste su kao u [vježbi 5](05-Vjezba-5.md)"
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 78,
+          "excerpt": "**„Prvi i drugi mlaz – vodom stoj!”**"
+        }
+      ],
+      "durationMs": 2000
+    },
+    {
+      "id": "act.vodom-stoj-prvi",
+      "name": "Znak i zapovijed „Prvi, odnosno drugi mlaz – vodom stoj!” – prvi mlaz",
+      "speech": "Prvi mlaz – vodom stoj!",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review",
+        "notes": "Izgovor razriješen iz „Prvi, odnosno drugi mlaz – vodom stoj!” (redak 111): vođa navalne grupe zapovijeda za prvi mlaz."
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 50,
+          "excerpt": "Zapovjednik obavlja pospremu kao u [vježbi 9](09-Vjezba-9.md)."
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "Zapovijedi i radnje zapovjednika iste su kao u [vježbi 5](05-Vjezba-5.md)"
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 78,
+          "excerpt": "Na tu zapovijed svi članovi odjeljenja postupaju kao u"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 111,
+          "excerpt": "**„Prvi, odnosno drugi mlaz – vodom stoj!”**"
+        }
+      ],
+      "requires": {
+        "type": "actionCompleted",
+        "actionId": "act.vodom-stoj-mlazovi"
+      },
+      "durationMs": 2000
+    },
+    {
+      "id": "act.vodom-stoj-drugi",
+      "name": "Znak i zapovijed „Prvi, odnosno drugi mlaz – vodom stoj!” – drugi mlaz",
+      "speech": "Drugi mlaz – vodom stoj!",
+      "actorRoleIds": [
+        "role.vodja-vodne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review",
+        "notes": "Izgovor razriješen iz „Prvi, odnosno drugi mlaz – vodom stoj!” (redak 111): vođa vodne grupe zapovijeda za drugi mlaz."
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 50,
+          "excerpt": "Zapovjednik obavlja pospremu kao u [vježbi 9](09-Vjezba-9.md)."
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "Zapovijedi i radnje zapovjednika iste su kao u [vježbi 5](05-Vjezba-5.md)"
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 78,
+          "excerpt": "Na tu zapovijed svi članovi odjeljenja postupaju kao u"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 111,
+          "excerpt": "**„Prvi, odnosno drugi mlaz – vodom stoj!”**"
+        }
+      ],
+      "requires": {
+        "type": "actionCompleted",
+        "actionId": "act.vodom-stoj-prvi"
+      },
+      "durationMs": 2000
+    },
+    {
+      "id": "act.potvrda-z-stoj",
+      "name": "Zapovjednik daje znak da je primio zapovijed („…vodom stoj!”)",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 50,
+          "excerpt": "Zapovjednik obavlja pospremu kao u [vježbi 9](09-Vjezba-9.md)."
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "Zapovijedi i radnje zapovjednika iste su kao u [vježbi 5](05-Vjezba-5.md)"
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 78,
+          "excerpt": "Na tu zapovijed svi članovi odjeljenja postupaju kao u"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 113,
+          "excerpt": "dizanjem desne ruke daje znak da je primio zapovijed, a potom zatvara ventile na razdjelnici"
+        }
+      ]
+    },
+    {
+      "id": "act.ventili-razdjelnice",
+      "name": "Zatvaranje ventila na razdjelnici po redoslijedu primanja zapovijedi",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 50,
+          "excerpt": "Zapovjednik obavlja pospremu kao u [vježbi 9](09-Vjezba-9.md)."
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "Zapovijedi i radnje zapovjednika iste su kao u [vježbi 5](05-Vjezba-5.md)"
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 78,
+          "excerpt": "Na tu zapovijed svi članovi odjeljenja postupaju kao u"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 113,
+          "excerpt": "zatvara ventile na razdjelnici po redoslijedu primanja zapovijedi"
+        }
+      ],
+      "requires": {
+        "type": "all",
+        "of": [
+          {
+            "type": "actionCompleted",
+            "actionId": "act.vodom-stoj-prvi"
+          },
+          {
+            "type": "actionCompleted",
+            "actionId": "act.vodom-stoj-drugi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "act.z-vodom-stoj",
+      "name": "Znak strojaru i zapovijed „Vodom stoj!”",
+      "speech": "Vodom stoj!",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 50,
+          "excerpt": "Zapovjednik obavlja pospremu kao u [vježbi 9](09-Vjezba-9.md)."
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "Zapovijedi i radnje zapovjednika iste su kao u [vježbi 5](05-Vjezba-5.md)"
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 78,
+          "excerpt": "Na tu zapovijed svi članovi odjeljenja postupaju kao u"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 113,
+          "excerpt": "dizanjem desne ruke daje znak strojaru za obustavu vode i zapovijeda: **„Vodom stoj!”**"
+        }
+      ],
+      "durationMs": 2000
+    },
+    {
+      "id": "act.potvrda-strojar-stoj",
+      "name": "Strojar daje znak da je primio zapovijed („Vodom stoj!”)",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 50,
+          "excerpt": "Zapovjednik obavlja pospremu kao u [vježbi 9](09-Vjezba-9.md)."
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "Zapovijedi i radnje zapovjednika iste su kao u [vježbi 5](05-Vjezba-5.md)"
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 78,
+          "excerpt": "Na tu zapovijed svi članovi odjeljenja postupaju kao u"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 113,
+          "excerpt": "Na tu zapovijed strojar dizanjem desne ruke daje znak da je primio zapovijed"
+        }
+      ],
+      "requires": {
+        "type": "actionCompleted",
+        "actionId": "act.z-vodom-stoj"
+      }
+    },
+    {
+      "id": "act.obustava-vode",
+      "name": "Obustava vode na motornoj pumpi",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review",
+        "notes": "Rukovanje pumpom nije opisano u izvoru; potrebna je stručna provjera."
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 50,
+          "excerpt": "Zapovjednik obavlja pospremu kao u [vježbi 9](09-Vjezba-9.md)."
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "Zapovijedi i radnje zapovjednika iste su kao u [vježbi 5](05-Vjezba-5.md)"
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 78,
+          "excerpt": "Na tu zapovijed svi članovi odjeljenja postupaju kao u"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 113,
+          "excerpt": "a zatim zatvara hidrant i ventil na hidrantskom nastavku"
+        }
+      ],
+      "description": "Tekst se poziva na vježbu 1 (zatvaranje hidranta); kako strojar obustavlja vodu na pumpi nije opisano.",
+      "requires": {
+        "type": "actionCompleted",
+        "actionId": "act.z-vodom-stoj"
+      }
+    },
+    {
+      "id": "act.posprema",
+      "name": "Zapovijed „Posprema!”",
+      "speech": "Posprema!",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 50,
+          "excerpt": "Zapovjednik obavlja pospremu kao u [vježbi 9](09-Vjezba-9.md)."
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "Zapovijedi i radnje zapovjednika iste su kao u [vježbi 5](05-Vjezba-5.md)"
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 80,
+          "excerpt": "**„Posprema!”**"
+        }
+      ],
+      "durationMs": 2000
+    },
+    {
+      "id": "act.savijanje-c",
+      "name": "Savijanje „C” cijevi (gornji kraj 20 – 30 cm preko donjeg dijela)",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.vodja-vodne",
+        "role.clan-vodne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 52,
+          "excerpt": "Navalna i vodna grupa obavljaju pospremu navalnog sektora kao u [vježbi 9](09-Vjezba-9.md)"
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "Zapovijedi i radnje zapovjednika iste su kao u [vježbi 5](05-Vjezba-5.md)"
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 80,
+          "excerpt": "navalna i vodna grupa pospremaju prvi, odnosno drugi mlaz kao u vježbi 1."
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 127,
+          "excerpt": "savijaju cijevi tako da gornji kraj cijevi prebacuju 20 – 30 cm preko donjeg dijela"
+        }
+      ],
+      "durationMs": 2500
+    },
+    {
+      "id": "act.vezanje-nosaca-c",
+      "name": "Vezanje nosača na „C” cijevi",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.vodja-vodne",
+        "role.clan-vodne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 52,
+          "excerpt": "Navalna i vodna grupa obavljaju pospremu navalnog sektora kao u [vježbi 9](09-Vjezba-9.md)"
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "Zapovijedi i radnje zapovjednika iste su kao u [vježbi 5](05-Vjezba-5.md)"
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 80,
+          "excerpt": "navalna i vodna grupa pospremaju prvi, odnosno drugi mlaz kao u vježbi 1."
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 131,
+          "excerpt": "svaki član veže nosač na cijev"
+        }
+      ]
+    },
+    {
+      "id": "act.opremu-uzmi",
+      "name": "Zapovijed „Opremu uzmi!”",
+      "speech": "Opremu uzmi!",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 52,
+          "excerpt": "Navalna i vodna grupa obavljaju pospremu navalnog sektora kao u [vježbi 9](09-Vjezba-9.md)"
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "kada navalna i vodna grupa s opremom prvog i drugog „C” mlaza dođu ispred vozila, postupaju kao navalna grupa u [vježbi 7](07-Vjezba-7.md)"
+        },
+        {
+          "file": "07-Vjezba-7.md",
+          "line": 86,
+          "excerpt": "Pospremu prvog mlaza obavlja navalna grupa kao u vježbi 2"
+        },
+        {
+          "file": "02-Vjezba-2.md",
+          "line": 70,
+          "excerpt": "postupaju kao u vježbi 1"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 140,
+          "excerpt": "**„Opremu uzmi!”**"
+        }
+      ],
+      "durationMs": 2000
+    },
+    {
+      "id": "act.s-opremom-naprijed",
+      "name": "Zapovijed „S opremom naprijed!”",
+      "speech": "S opremom naprijed!",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 52,
+          "excerpt": "Navalna i vodna grupa obavljaju pospremu navalnog sektora kao u [vježbi 9](09-Vjezba-9.md)"
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "kada navalna i vodna grupa s opremom prvog i drugog „C” mlaza dođu ispred vozila, postupaju kao navalna grupa u [vježbi 7](07-Vjezba-7.md)"
+        },
+        {
+          "file": "07-Vjezba-7.md",
+          "line": 86,
+          "excerpt": "Pospremu prvog mlaza obavlja navalna grupa kao u vježbi 2"
+        },
+        {
+          "file": "02-Vjezba-2.md",
+          "line": 70,
+          "excerpt": "postupaju kao u vježbi 1"
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 140,
+          "excerpt": "**„S opremom naprijed!”**"
+        }
+      ],
+      "durationMs": 2000
+    },
+    {
+      "id": "act.stoj",
+      "name": "Zapovijed „Stoj!” ispred vozila",
+      "speech": "Stoj!",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 52,
+          "excerpt": "Navalna i vodna grupa obavljaju pospremu navalnog sektora kao u [vježbi 9](09-Vjezba-9.md)"
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "kada navalna i vodna grupa s opremom prvog i drugog „C” mlaza dođu ispred vozila, postupaju kao navalna grupa u [vježbi 7](07-Vjezba-7.md)"
+        },
+        {
+          "file": "07-Vjezba-7.md",
+          "line": 86,
+          "excerpt": "N₁ izdaje zapovijed: **„Stoj!”**, **„Opremu odloži!”**"
+        }
+      ],
+      "durationMs": 1500
+    },
+    {
+      "id": "act.opremu-odlozi",
+      "name": "Zapovijed „Opremu odloži!”",
+      "speech": "Opremu odloži!",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 52,
+          "excerpt": "Navalna i vodna grupa obavljaju pospremu navalnog sektora kao u [vježbi 9](09-Vjezba-9.md)"
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "kada navalna i vodna grupa s opremom prvog i drugog „C” mlaza dođu ispred vozila, postupaju kao navalna grupa u [vježbi 7](07-Vjezba-7.md)"
+        },
+        {
+          "file": "07-Vjezba-7.md",
+          "line": 86,
+          "excerpt": "N₁ izdaje zapovijed: **„Stoj!”**, **„Opremu odloži!”**"
+        }
+      ],
+      "durationMs": 2000
+    },
+    {
+      "id": "act.savijanje-b",
+      "name": "Savijanje „B” cijevi (gornji kraj 20 – 30 cm preko donjeg dijela)",
+      "actorRoleIds": [
+        "role.vodja-vodne",
+        "role.clan-vodne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 52,
+          "excerpt": "dok cijevni sektor posprema vodna grupa, kao što to posprema navalna grupa u [vježbi 9](09-Vjezba-9.md)"
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "Zapovijedi i radnje zapovjednika iste su kao u [vježbi 5](05-Vjezba-5.md)"
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 88,
+          "excerpt": "„B” cijevni vod posprema navalna grupa, kao što je to pospremala vodna grupa u vježbi 1."
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 150,
+          "excerpt": "savijaju cijevi tako da gornji kraj cijevi prebace 20 – 30 cm preko donjeg dijela"
+        }
+      ],
+      "durationMs": 2500
+    },
+    {
+      "id": "act.vezanje-nosaca-b",
+      "name": "Vezanje nosača na „B” cijevi",
+      "actorRoleIds": [
+        "role.vodja-vodne",
+        "role.clan-vodne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 52,
+          "excerpt": "dok cijevni sektor posprema vodna grupa, kao što to posprema navalna grupa u [vježbi 9](09-Vjezba-9.md)"
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "Zapovijedi i radnje zapovjednika iste su kao u [vježbi 5](05-Vjezba-5.md)"
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 88,
+          "excerpt": "„B” cijevni vod posprema navalna grupa, kao što je to pospremala vodna grupa u vježbi 1."
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 152,
+          "excerpt": "svaki član veže nosač na cijev"
+        }
+      ]
+    },
+    {
+      "id": "act.zatvaranje-hidranta",
+      "name": "Zatvaranje vode na hidrantu i ventila na hidrantskom nastavku",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 52,
+          "excerpt": "Strojar, na zapovijed **„Posprema!”**, postupa kao u [vježbi 8](08-Vjezba-8.md)."
+        },
+        {
+          "file": "08-Vjezba-8.md",
+          "line": 59,
+          "excerpt": "zatvara vodu na hidrantu i ventil na hidrantskom nastavku"
+        }
+      ],
+      "requires": {
+        "type": "actionCompleted",
+        "actionId": "act.posprema"
+      }
+    },
+    {
+      "id": "act.pregled-opreme",
+      "name": "Pregled opreme",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 54,
+          "excerpt": "Kada odlože opremu, vatrogasci odlaze u stroj i postupaju kao u [vježbi 1](01-Vjezba-1.md)."
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 70,
+          "excerpt": "Kad odlože opremu, vatrogasci odlaze u stroj i postupaju kao u [vježbi 1](01-Vjezba-1.md)."
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 92,
+          "excerpt": "Kad odlože opremu, vatrogasci odlaze u stroj i postupaju kao u vježbi 1."
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 154,
+          "excerpt": "izlazi iz stroja i pregledava opremu"
+        }
+      ],
+      "durationMs": 2500
+    },
+    {
+      "id": "act.prijavak",
+      "name": "Prijavak „Gospodine zapovjedniče, vježba je izvršena, oprema je na svome mjestu!”",
+      "speech": "Gospodine zapovjedniče, vježba je izvršena, oprema je na svome mjestu!",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 54,
+          "excerpt": "Kada odlože opremu, vatrogasci odlaze u stroj i postupaju kao u [vježbi 1](01-Vjezba-1.md)."
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 70,
+          "excerpt": "Kad odlože opremu, vatrogasci odlaze u stroj i postupaju kao u [vježbi 1](01-Vjezba-1.md)."
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 92,
+          "excerpt": "Kad odlože opremu, vatrogasci odlaze u stroj i postupaju kao u vježbi 1."
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 156,
+          "excerpt": "**„Gospodine zapovjedniče, vježba je izvršena, oprema je na svome mjestu!”**"
+        }
+      ],
+      "durationMs": 3000
+    },
+    {
+      "id": "act.na-svoje-mjesto",
+      "name": "Zapovijed „Na svoje mjesto!”",
+      "speech": "Na svoje mjesto!",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 54,
+          "excerpt": "Kada odlože opremu, vatrogasci odlaze u stroj i postupaju kao u [vježbi 1](01-Vjezba-1.md)."
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 70,
+          "excerpt": "Kad odlože opremu, vatrogasci odlaze u stroj i postupaju kao u [vježbi 1](01-Vjezba-1.md)."
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 92,
+          "excerpt": "Kad odlože opremu, vatrogasci odlaze u stroj i postupaju kao u vježbi 1."
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 158,
+          "excerpt": "**„Na svoje mjesto!”**"
+        }
+      ],
+      "requires": {
+        "type": "actionCompleted",
+        "actionId": "act.prijavak"
+      },
+      "durationMs": 2000
+    },
+    {
+      "id": "act.na-zapovijed",
+      "name": "Pozdrav i odgovor „Na zapovijed!”",
+      "speech": "Na zapovijed!",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 54,
+          "excerpt": "Kada odlože opremu, vatrogasci odlaze u stroj i postupaju kao u [vježbi 1](01-Vjezba-1.md)."
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 70,
+          "excerpt": "Kad odlože opremu, vatrogasci odlaze u stroj i postupaju kao u [vježbi 1](01-Vjezba-1.md)."
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 92,
+          "excerpt": "Kad odlože opremu, vatrogasci odlaze u stroj i postupaju kao u vježbi 1."
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 160,
+          "excerpt": "pozdravlja i odgovara: **„Na zapovijed!”**"
+        }
+      ],
+      "durationMs": 2000
+    },
+    {
+      "id": "act.odmor-ili-otpust",
+      "name": "Zapovijed „Na mjestu odmor!” ili „Otpust!”",
+      "speech": "Na mjestu odmor!",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "provenance": "source",
+      "review": {
+        "status": "requires-review",
+        "notes": "Izvor navodi dvije mogućnosti („Na mjestu odmor!” ili „Otpust!”); demonstracija izgovara prvu."
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 54,
+          "excerpt": "Kada odlože opremu, vatrogasci odlaze u stroj i postupaju kao u [vježbi 1](01-Vjezba-1.md)."
+        },
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 70,
+          "excerpt": "Kad odlože opremu, vatrogasci odlaze u stroj i postupaju kao u [vježbi 1](01-Vjezba-1.md)."
+        },
+        {
+          "file": "05-Vjezba-5.md",
+          "line": 92,
+          "excerpt": "Kad odlože opremu, vatrogasci odlaze u stroj i postupaju kao u vježbi 1."
+        },
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 160,
+          "excerpt": "zapovjednik izdaje zapovijed: **„Na mjestu odmor!”** ili zapovijed **„Otpust!”**"
+        }
+      ],
+      "durationMs": 2000
+    }
+  ],
+  "stages": [
+    {
+      "id": "faza.postrojavanje",
+      "name": "Postrojavanje i zapovijed",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 16,
+          "excerpt": "zapovjednik stane dva koraka iza vozila, podiže lijevu ruku i zapovijeda kao u [vježbi 6](06-Vjezba-6.md)."
+        }
+      ],
+      "description": "Vježba 10 nema skicu postrojavanja; odjeljenje se postrojava kao u vježbi 9 (skica 55)."
+    },
+    {
+      "id": "faza.za-navalu",
+      "name": "Za navalu pripremi",
+      "diagram": {
+        "file": "skice/10-skica-59.svg"
+      },
+      "diagramMoment": "end",
+      "diagramScale": "schematic",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 26,
+          "excerpt": "**Skica 59** – *Položaj odjeljenja, sprava i opreme nakon izdane zapovijedi: „Za navalu pripremi!”*"
+        }
+      ]
+    },
+    {
+      "id": "faza.prvi-mlaz",
+      "name": "Prvi mlaz i vod od hidranta do vozila",
+      "diagram": {
+        "file": "skice/10-skica-60.svg"
+      },
+      "diagramMoment": "end",
+      "diagramScale": "schematic",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 38,
+          "excerpt": "**Skica 60** – *Položaj odjeljenja, sprava i opreme nakon izdane zapovijedi za prvi mlaz*"
+        }
+      ]
+    },
+    {
+      "id": "faza.drugi-mlaz",
+      "name": "Drugi mlaz",
+      "diagram": {
+        "file": "skice/10-skica-61.svg"
+      },
+      "diagramMoment": "end",
+      "diagramScale": "schematic",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 46,
+          "excerpt": "**Skica 61** – *Položaj odjeljenja, sprava i opreme nakon izdane zapovijedi za drugi mlaz*"
+        }
+      ]
+    },
+    {
+      "id": "faza.pospremanje",
+      "name": "Pospremanje mlazova",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 52,
+          "excerpt": "Navalna i vodna grupa obavljaju pospremu navalnog sektora kao u [vježbi 9](09-Vjezba-9.md)"
+        }
+      ],
+      "description": "Za pospremanje vježba 10 nema skicu."
+    },
+    {
+      "id": "faza.povratak",
+      "name": "Oprema u vozilu i završetak",
+      "provenance": "source",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 54,
+          "excerpt": "Kada odlože opremu, vatrogasci odlaze u stroj i postupaju kao u [vježbi 1](01-Vjezba-1.md)."
+        }
+      ],
+      "description": "Na kraju je oprema u spremnicima vozila, a odjeljenje postrojeno kao na početku."
+    }
+  ],
+  "steps": [
+    {
+      "id": "zbor",
+      "title": "Zapovijed za postrojavanje",
+      "source": "10-vjezba-10#2-7-2-vjezba-10-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p3",
+      "stageId": "faza.postrojavanje",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "dependsOn": [],
+      "completedWhen": {
+        "type": "actionCompleted",
+        "actionId": "act.zbor"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.zbor",
+            "actorIds": [
+              "z"
+            ]
+          },
+          "caption": "Zapovjednik iza vozila zapovijeda postrojavanje kao u vježbi 6."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.zbor"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 20,
+          "excerpt": "zapovjednik staje dva koraka iza vozila, podiže lijevu ruku i zapovijeda kao u [vježbi 5]"
+        }
+      ],
+      "hint": "Odaberite zapovjednika i izvršite radnju zapovijedi."
+    },
+    {
+      "id": "zapovijed-za-navalu",
+      "title": "Zapovijed „…za navalu – pripremi!”",
+      "source": "10-vjezba-10#2-7-2-vjezba-10-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p3",
+      "stageId": "faza.postrojavanje",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "dependsOn": [
+        "zbor"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "actionCompleted",
+            "actionId": "act.za-navalu"
+          },
+          {
+            "type": "rotation",
+            "objectId": "z",
+            "angle": 90,
+            "tolerance": 45
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "z",
+            "rotation": 90
+          },
+          "caption": "Zapovjednik istupa ispred odjeljenja i okreće se prema njemu (kao u vježbi 6)."
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.za-navalu",
+            "actorIds": [
+              "z"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.za-navalu"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "10-Vjezba-10.md",
+          "line": 16,
+          "excerpt": "Kada je vozilo postavljeno na svoje mjesto, zapovjednik stane dva koraka iza vozila"
+        }
+      ],
+      "hint": "Zapovjednik se okreće prema odjeljenju i izdaje zapovijed."
+    },
+    {
+      "id": "vodna-oprema",
+      "title": "Vodna grupa uzima opremu iz vozila",
+      "source": "10-vjezba-10#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
+      "stageId": "faza.za-navalu",
+      "actorRoleIds": [
+        "role.vodja-vodne",
+        "role.clan-vodne"
+      ],
+      "dependsOn": [
+        "zapovijed-za-navalu"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "carrying",
+            "personnelId": "v1",
+            "typeId": "et.kljuc-za-spojnice"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "v1",
+            "typeId": "et.tlacna-b-cijev"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "v2",
+            "equipmentId": "torbica"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "v2",
+            "typeId": "et.kljuc-za-spojnice"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "v2",
+            "typeId": "et.tlacna-b-cijev"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 290,
+              "y": 245
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v1",
+            "equipmentId": "ks1"
+          },
+          "caption": "V₁ uzima iz vozila ključ za spojnice i kolut „B” cijevi."
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v1",
+            "equipmentId": "b1"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 180,
+              "y": 300
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 330,
+              "y": 250
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v2",
+            "equipmentId": "torbica"
+          },
+          "caption": "V₂ uzima torbicu s povezicama, ključ i kolut „B” cijevi."
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v2",
+            "equipmentId": "ks2"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v2",
+            "equipmentId": "b2"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 45,
+          "excerpt": "Nakon izdane zapovijedi, vođa vodne grupe (V₁) uzima jedan ključ za spojnice i stavlja ga za opasač"
+        }
+      ],
+      "hint": "V₁: ključ za spojnice i „B” cijev; V₂: torbica s povezicama, ključ za spojnice i „B” cijev."
+    },
+    {
+      "id": "strojar-kod-pumpe",
+      "title": "Strojar kod pumpe vozila",
+      "source": "10-vjezba-10#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
+      "stageId": "faza.za-navalu",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "zapovijed-za-navalu"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "near",
+            "objectId": "s",
+            "targetId": "nv",
+            "maxDistance": 120
+          },
+          {
+            "type": "rotation",
+            "objectId": "s",
+            "angle": 0,
+            "tolerance": 45
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 200,
+              "y": 300
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 285.0,
+              "y": 320.0
+            }
+          },
+          "caption": "Strojar staje kod pumpe vozila (skica 59)."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "s",
+            "rotation": 0
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Položaj strojara preuzet je sa skice 59."
+      }
+    },
+    {
+      "id": "polaganje-b-prva",
+      "title": "Polaganje prve „B” cijevi od tlačnog izlaza vozila",
+      "source": "10-vjezba-10#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
+      "stageId": "faza.za-navalu",
+      "actorRoleIds": [
+        "role.clan-vodne",
+        "role.vodja-vodne"
+      ],
+      "dependsOn": [
+        "vodna-oprema"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "connected",
+            "a": {
+              "typeId": "et.tlacna-b-cijev",
+              "portId": "donja"
+            },
+            "b": {
+              "objectId": "nv",
+              "portId": "tlacni-izlaz"
+            }
+          },
+          {
+            "type": "laid",
+            "equipmentId": "b2"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 345,
+              "y": 255
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 377,
+              "y": 252
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "b2",
+              "portId": "donja"
+            },
+            "b": {
+              "objectId": "nv",
+              "portId": "tlacni-izlaz"
+            },
+            "connectionId": "spoj.b2-nv",
+            "actorId": "v2"
+          },
+          "caption": "V₂ priključuje donju spojnicu na tlačni izlaz vozila."
+        },
+        {
+          "command": {
+            "type": "HandOverEquipment",
+            "fromId": "v2",
+            "toId": "v1",
+            "equipmentId": "b2"
+          },
+          "caption": "V₂ predaje gornju spojnicu V₁."
+        },
+        {
+          "command": {
+            "type": "LayHose",
+            "equipmentId": "b2",
+            "personnelId": "v1",
+            "to": {
+              "x": 474.6,
+              "y": 300.0
+            }
+          },
+          "caption": "V₁ povlači cijev prema požaru."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 460,
+              "y": 282
+            }
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 49,
+          "excerpt": "donju spojnicu priključuje na izlazni otvor hidrantskog nastavka"
+        }
+      ],
+      "hint": "V₂ priključuje „B” cijev na tlačni izlaz vozila i predaje je V₁, koji je polaže prema požaru."
+    },
+    {
+      "id": "polaganje-b-druga",
+      "title": "Polaganje druge „B” cijevi",
+      "source": "10-vjezba-10#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
+      "stageId": "faza.za-navalu",
+      "actorRoleIds": [
+        "role.vodja-vodne",
+        "role.clan-vodne"
+      ],
+      "dependsOn": [
+        "polaganje-b-prva"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "connected",
+            "a": {
+              "objectId": "b1",
+              "portId": "donja"
+            },
+            "b": {
+              "objectId": "b2",
+              "portId": "gornja"
+            }
+          },
+          {
+            "type": "laid",
+            "equipmentId": "b1"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "v1",
+            "equipmentId": "b1",
+            "at": {
+              "x": 500,
+              "y": 282
+            }
+          },
+          "caption": "V₁ polaže svoju „B” cijev…"
+        },
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "b1",
+              "portId": "donja"
+            },
+            "b": {
+              "objectId": "b2",
+              "portId": "gornja"
+            },
+            "connectionId": "spoj.b1-b2",
+            "actorId": "v1"
+          },
+          "caption": "…i spaja donju spojnicu na spojnicu već razvučene cijevi."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 505,
+              "y": 270
+            }
+          },
+          "caption": "V₂ dolazi lijevom stranom."
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v2",
+            "equipmentId": "b1"
+          },
+          "caption": "V₂ prihvaća slobodni kraj druge „B” cijevi."
+        },
+        {
+          "command": {
+            "type": "LayHose",
+            "equipmentId": "b1",
+            "personnelId": "v2",
+            "to": {
+              "x": 680.0,
+              "y": 300.0
+            }
+          },
+          "caption": "V₂ povlači cijev u smjeru požara dok ne bude ravno položena."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 675,
+              "y": 282
+            }
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 51,
+          "excerpt": "Kada je vođa vodne grupe razvukao prvi kolut „B” cijevi, on polaže svoju „B” cijev"
+        }
+      ]
+    },
+    {
+      "id": "navalna-oprema-n1",
+      "title": "Vođa navalne grupe uzima opremu iz vozila",
+      "source": "10-vjezba-10#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
+      "stageId": "faza.za-navalu",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "dependsOn": [
+        "zapovijed-za-navalu"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "carrying",
+            "personnelId": "n1",
+            "typeId": "et.c-mlaznica"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "n1",
+            "typeId": "et.drzac-cijevi"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "n1",
+            "equipmentId": "razdjelnica"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "n1",
+            "typeId": "et.tlacna-c-cijev"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 200,
+              "y": 140
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 475,
+              "y": 190
+            }
+          },
+          "caption": "N₁ uzima iz vozila mlaznicu i držač (za opasač), razdjelnicu i kolut „C” cijevi."
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n1",
+            "equipmentId": "m1"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n1",
+            "equipmentId": "d1"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n1",
+            "equipmentId": "razdjelnica"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n1",
+            "equipmentId": "c6"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 55,
+          "excerpt": "Vođa navalne grupe (N₁) uzima mlaznicu i držač koje stavlja za opasač"
+        }
+      ]
+    },
+    {
+      "id": "navalna-oprema-n2",
+      "title": "Član navalne grupe uzima opremu iz vozila",
+      "source": "10-vjezba-10#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
+      "stageId": "faza.za-navalu",
+      "actorRoleIds": [
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "navalna-oprema-n1"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "carrying",
+            "personnelId": "n2",
+            "typeId": "et.tlacna-c-cijev",
+            "count": 2
+          },
+          {
+            "type": "near",
+            "objectId": "n2",
+            "targetId": "n1",
+            "maxDistance": 60
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 200,
+              "y": 120
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 475,
+              "y": 230
+            }
+          },
+          "caption": "N₂ uzima u svaku ruku po jedan kolut „C” cijevi i staje s desne strane vođe."
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "c4"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "c5"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 57,
+          "excerpt": "Član navalne grupe (N₂) uzima u svaku ruku po jedan kolut „C” tlačnih cijevi i staje s desne strane vođe navalne grupe."
+        }
+      ]
+    },
+    {
+      "id": "navalna-do-kraja-b",
+      "title": "Postavljanje razdjelnice i znak za vodu",
+      "source": "10-vjezba-10#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
+      "stageId": "faza.za-navalu",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "navalna-oprema-n2",
+        "polaganje-b-druga"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "placed",
+            "equipmentId": "razdjelnica"
+          },
+          {
+            "type": "connected",
+            "a": {
+              "typeId": "et.tlacna-b-cijev",
+              "portId": "gornja"
+            },
+            "b": {
+              "objectId": "razdjelnica",
+              "portId": "ulaz"
+            }
+          },
+          {
+            "type": "actionCompleted",
+            "actionId": "act.vodu-daj-b"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 660,
+              "y": 235
+            }
+          },
+          "caption": "Navalna grupa odlazi lijevom stranom „B” voda do njegova kraja."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 660,
+              "y": 275
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n1",
+            "equipmentId": "c6",
+            "at": {
+              "x": 660,
+              "y": 200
+            }
+          },
+          "caption": "N₁ stavlja kolut „C” cijevi pored sebe."
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n1",
+            "equipmentId": "razdjelnica",
+            "at": {
+              "x": 716.0,
+              "y": 300.0
+            },
+            "rotation": 0
+          },
+          "caption": "N₁ postavlja razdjelnicu na kraju „B” voda."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 0
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "c4",
+            "at": {
+              "x": 595,
+              "y": 268
+            }
+          },
+          "caption": "N₂ stavlja oba koluta pored sebe."
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "c5",
+            "at": {
+              "x": 595,
+              "y": 283
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "b1",
+              "portId": "gornja"
+            },
+            "b": {
+              "objectId": "razdjelnica",
+              "portId": "ulaz"
+            },
+            "connectionId": "spoj.b1-razdjelnica",
+            "actorId": "n2"
+          },
+          "caption": "N₂ priključuje „B” cijevni vod s razdjelnicom."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 716,
+              "y": 272
+            }
+          },
+          "caption": "N₂ desnom nogom staje na razdjelnicu."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 187
+          },
+          "caption": "N₂ se okreće prema vozilu."
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.vodu-daj-b",
+            "actorIds": [
+              "n2"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.vodu-daj-b"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 59,
+          "excerpt": "Tada vođa navalne grupe (N₁) stavlja pored sebe na zemlju kolut „C” tlačnih cijevi iz lijeve ruke"
+        }
+      ]
+    },
+    {
+      "id": "voda-do-razdjelnice",
+      "title": "Strojar pušta vodu do razdjelnice",
+      "source": "10-vjezba-10#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1",
+      "stageId": "faza.za-navalu",
+      "actorRoleIds": [
+        "role.clan-navalne",
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "navalna-do-kraja-b",
+        "strojar-kod-pumpe"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "actionCompleted",
+            "actionId": "act.potvrda-strojar"
+          },
+          {
+            "type": "actionCompleted",
+            "actionId": "act.voda-do-razdjelnice"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.potvrda-strojar",
+            "actorIds": [
+              "s"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.potvrda-strojar"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 660,
+              "y": 275
+            }
+          },
+          "caption": "N₂ odlazi na svoje mjesto i čeka sljedeću zapovijed."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 0
+          }
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.voda-do-razdjelnice",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Strojar pušta vodu do razdjelnice (rukovanje pumpom nije opisano)."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.voda-do-razdjelnice"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 61,
+          "excerpt": "Kada od strojara dobije znak da je zapovijed primio"
+        }
+      ]
+    },
+    {
+      "id": "zapovjednik-razdjelnica",
+      "title": "Zapovjednik kod razdjelnice",
+      "source": "10-vjezba-10#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
+      "stageId": "faza.za-navalu",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "dependsOn": [
+        "navalna-do-kraja-b"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "near",
+            "objectId": "z",
+            "targetId": "razdjelnica",
+            "maxDistance": 60
+          },
+          {
+            "type": "rotation",
+            "objectId": "z",
+            "angle": 270,
+            "tolerance": 45
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "z",
+            "to": {
+              "x": 200,
+              "y": 380
+            }
+          },
+          "caption": "Zapovjednik odlazi do kraja „B” voda i staje tri koraka desno od razdjelnice."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "z",
+            "to": {
+              "x": 706.0,
+              "y": 385.0
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "z",
+            "rotation": 270
+          },
+          "caption": "Okrenut prema razdjelnici."
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 63,
+          "excerpt": "Nakon izdane zapovijedi, zapovjednik odlazi do kraja „B” cijevnog voda i staje tri koraka desno od razdjelnice"
+        }
+      ]
+    },
+    {
+      "id": "vodna-povratak",
+      "title": "Vodna grupa se vraća do vozila",
+      "source": "10-vjezba-10#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p1",
+      "stageId": "faza.za-navalu",
+      "actorRoleIds": [
+        "role.vodja-vodne",
+        "role.clan-vodne"
+      ],
+      "dependsOn": [
+        "navalna-do-kraja-b"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "near",
+            "objectId": "v1",
+            "targetId": "nv",
+            "maxDistance": 80
+          },
+          {
+            "type": "near",
+            "objectId": "v2",
+            "targetId": "nv",
+            "maxDistance": 80
+          },
+          {
+            "type": "rotation",
+            "objectId": "v1",
+            "angle": 0,
+            "tolerance": 45
+          },
+          {
+            "type": "rotation",
+            "objectId": "v2",
+            "angle": 0,
+            "tolerance": 45
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 560,
+              "y": 250
+            }
+          },
+          "caption": "Vodna grupa prelazi na lijevu stranu „B” voda i vraća se do vozila."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 600,
+              "y": 262
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 480,
+              "y": 130
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 480,
+              "y": 140
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 350.0,
+              "y": 75.0
+            }
+          },
+          "caption": "Staju kod vozila okrenuti u pravcu požara (skica 59)."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 350.0,
+              "y": 118.0
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "v1",
+            "rotation": 0
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "v2",
+            "rotation": 0
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Oprema je u vozilu, pa se vodna grupa vraća do vozila (skica 59)."
+      },
+      "sources": [
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 65,
+          "excerpt": "Pošto je obavljeno spajanje „B” cijevnog voda, vodna grupa prelazi na lijevu stranu „B” voda i vraća se nazad do mjesta gdje je postavljena oprema."
+        }
+      ]
+    },
+    {
+      "id": "prvi-mlaz",
+      "title": "Zapovijed za prvi mlaz i spajanje na razdjelnicu",
+      "source": "10-vjezba-10#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
+      "stageId": "faza.prvi-mlaz",
+      "actorRoleIds": [
+        "role.zapovjednik",
+        "role.vodja-navalne",
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "voda-do-razdjelnice",
+        "zapovjednik-razdjelnica"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "actionCompleted",
+            "actionId": "act.prvi-mlaz-naprijed"
+          },
+          {
+            "type": "near",
+            "objectId": "z",
+            "targetId": "razdjelnica",
+            "maxDistance": 40
+          },
+          {
+            "type": "connected",
+            "a": {
+              "typeId": "et.tlacna-c-cijev",
+              "portId": "donja"
+            },
+            "b": {
+              "objectId": "razdjelnica",
+              "portId": "lijevi"
+            }
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.prvi-mlaz-naprijed",
+            "actorIds": [
+              "z"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.prvi-mlaz-naprijed"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "c4"
+          },
+          "caption": "N₂ uzima kolute „C” cijevi."
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "c5"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 770,
+              "y": 345
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "c4",
+            "at": {
+              "x": 716.0,
+              "y": 350.0
+            }
+          },
+          "caption": "N₂ odlaže rezervnu „C” cijev s desne strane razdjelnice."
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n1",
+            "equipmentId": "c6"
+          },
+          "caption": "N₁ uzima svoj kolut „C” cijevi.",
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 780,
+              "y": 320
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 785,
+              "y": 270
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "HandOverEquipment",
+            "fromId": "n2",
+            "toId": "n1",
+            "equipmentId": "c5"
+          },
+          "caption": "N₂ lijevom rukom predaje gornju spojnicu N₁."
+        },
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "c5",
+              "portId": "donja"
+            },
+            "b": {
+              "objectId": "razdjelnica",
+              "portId": "lijevi"
+            },
+            "connectionId": "spoj.c5-razdjelnica",
+            "actorId": "n2"
+          },
+          "caption": "N₂ spaja donju spojnicu na lijevi otvor razdjelnice."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "z",
+            "to": {
+              "x": 658.0,
+              "y": 300.0
+            }
+          },
+          "caption": "Zapovjednik preuzima nadzor nad razdjelnicom."
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 75,
+          "excerpt": "Član navalne grupe (N₂) odlaže rezervnu „C” cijev s desne strane razdjelnice"
+        }
+      ]
+    },
+    {
+      "id": "prvi-mlaz-n1",
+      "title": "Polaganje prvog mlaza i znak za vodu",
+      "source": "10-vjezba-10#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
+      "stageId": "faza.prvi-mlaz",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.zapovjednik"
+      ],
+      "dependsOn": [
+        "prvi-mlaz"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "laid",
+            "typeId": "et.tlacna-c-cijev",
+            "count": 2
+          },
+          {
+            "type": "connected",
+            "a": {
+              "typeId": "et.c-mlaznica",
+              "portId": "ulaz"
+            },
+            "b": {
+              "typeId": "et.tlacna-c-cijev",
+              "portId": "gornja"
+            }
+          },
+          {
+            "type": "actionCompleted",
+            "actionId": "act.ventil-lijevi"
+          },
+          {
+            "type": "actionCompleted",
+            "actionId": "act.luk-prvi"
+          },
+          {
+            "type": "near",
+            "objectId": "n2",
+            "targetId": "n1",
+            "maxDistance": 90
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "LayHose",
+            "equipmentId": "c5",
+            "personnelId": "n1",
+            "to": {
+              "x": 864.9,
+              "y": 187.6
+            }
+          },
+          "caption": "N₁ povlači „C” cijev prema požaru."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 850,
+              "y": 165
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "c6",
+              "portId": "donja"
+            },
+            "b": {
+              "objectId": "c5",
+              "portId": "gornja"
+            },
+            "connectionId": "spoj.c6-c5",
+            "actorId": "n1"
+          },
+          "caption": "Skida nosač svoje „C” cijevi i spaja obje cijevi."
+        },
+        {
+          "command": {
+            "type": "LayHose",
+            "equipmentId": "c6",
+            "personnelId": "n1",
+            "to": {
+              "x": 960.7,
+              "y": 107.2
+            }
+          },
+          "caption": "Polaže drugu „C” cijev u smjeru požara."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 957.2,
+              "y": 65.8
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "m1",
+              "portId": "ulaz"
+            },
+            "b": {
+              "objectId": "c6",
+              "portId": "gornja"
+            },
+            "connectionId": "spoj.m1-c6",
+            "actorId": "n1"
+          },
+          "caption": "Uzima mlaznicu iz opasača i spaja je na spojnicu „C” cijevi."
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.luk-prvi",
+            "actorIds": [
+              "n2"
+            ]
+          },
+          "caption": "N₂ izbacuje drugu „C” cijev u luku u lijevu stranu."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.luk-prvi"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 982.5,
+              "y": 141.1
+            }
+          },
+          "caption": "N₂ staje korak iza N₁."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 320
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 142
+          },
+          "caption": "N₁ se okreće u desnu stranu prema poslužitelju na razdjelnici."
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.prvi-mlaz-vodu-daj",
+            "actorIds": [
+              "n1"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.prvi-mlaz-vodu-daj"
+          }
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.potvrda-z-prvi",
+            "actorIds": [
+              "z"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.potvrda-z-prvi"
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 320
+          },
+          "caption": "N₁ se okreće prema požaru."
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.ventil-lijevi",
+            "actorIds": [
+              "z"
+            ]
+          },
+          "caption": "Zapovjednik otvara ventil na lijevom otvoru razdjelnice."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.ventil-lijevi"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 81,
+          "excerpt": "Vođa navalne grupe (N₁) uzima u desnu ruku gornju spojnicu „C” cijevi i povlači je prema požaru"
+        }
+      ]
+    },
+    {
+      "id": "strojar-nastavak",
+      "title": "Strojar postavlja hidrantski nastavak (kao u vježbi 8)",
+      "source": "10-vjezba-10#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1",
+      "stageId": "faza.prvi-mlaz",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "voda-do-razdjelnice"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "actionCompleted",
+            "actionId": "act.otvaranje-poklopca"
+          },
+          {
+            "type": "connected",
+            "a": {
+              "objectId": "nastavak",
+              "portId": "ulaz"
+            },
+            "b": {
+              "objectId": "hidrant",
+              "portId": "prikljucak"
+            }
+          },
+          {
+            "type": "placed",
+            "equipmentId": "kljuc-hidrant"
+          },
+          {
+            "type": "near",
+            "objectId": "kljuc-hidrant",
+            "targetId": "hidrant",
+            "maxDistance": 40
+          },
+          {
+            "type": "carrying",
+            "personnelId": "s",
+            "equipmentId": "ks3"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 285,
+              "y": 205
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "nastavak"
+          },
+          "caption": "Strojar uzima iz vozila hidrantski nastavak, hidrantski ključ…"
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "kljuc-hidrant"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "ks3"
+          },
+          "caption": "…i univerzalni ključ za spojnice."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 70.0,
+              "y": 140.0
+            }
+          },
+          "caption": "Odlazi do podzemnog hidranta…"
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.otvaranje-poklopca",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "…otvara poklopac…"
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.otvaranje-poklopca"
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "s",
+            "equipmentId": "nastavak",
+            "at": {
+              "x": 89.0,
+              "y": 160.0
+            },
+            "rotation": 270
+          },
+          "caption": "…postavlja hidrantski nastavak…"
+        },
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "nastavak",
+              "portId": "ulaz"
+            },
+            "b": {
+              "objectId": "hidrant",
+              "portId": "prikljucak"
+            },
+            "connectionId": "spoj.nastavak-hidrant",
+            "actorId": "s"
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "s",
+            "equipmentId": "kljuc-hidrant",
+            "at": {
+              "x": 116.0,
+              "y": 137.0
+            },
+            "rotation": 0
+          },
+          "caption": "…i ključ."
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "08-Vjezba-8.md",
+          "line": 29,
+          "excerpt": "strojar uzima u desnu ruku hidrantski nastavak, a u lijevu hidrantski ključ, te univerzalni ključ za spojnice koji stavlja za opasač"
+        }
+      ]
+    },
+    {
+      "id": "strojar-b-hidrant",
+      "title": "Strojar spaja „B” cijev od hidranta do otvora za punjenje vozila",
+      "source": "10-vjezba-10#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1",
+      "stageId": "faza.prvi-mlaz",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "strojar-nastavak"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "connected",
+            "a": {
+              "typeId": "et.tlacna-b-cijev",
+              "portId": "donja"
+            },
+            "b": {
+              "objectId": "nv",
+              "portId": "punjenje"
+            }
+          },
+          {
+            "type": "connected",
+            "a": {
+              "typeId": "et.tlacna-b-cijev",
+              "portId": "gornja"
+            },
+            "b": {
+              "objectId": "nastavak",
+              "portId": "izlaz-1"
+            }
+          },
+          {
+            "type": "actionCompleted",
+            "actionId": "act.otvaranje-hidranta"
+          },
+          {
+            "type": "near",
+            "objectId": "s",
+            "targetId": "nv",
+            "maxDistance": 120
+          },
+          {
+            "type": "rotation",
+            "objectId": "s",
+            "angle": 0,
+            "tolerance": 45
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 285,
+              "y": 205
+            }
+          },
+          "caption": "Strojar se vraća do vozila i uzima jednu „B” cijev."
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "b3"
+          }
+        },
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "b3",
+              "portId": "donja"
+            },
+            "b": {
+              "objectId": "nv",
+              "portId": "punjenje"
+            },
+            "connectionId": "spoj.b3-nv",
+            "actorId": "s"
+          },
+          "caption": "Donju spojnicu spaja na otvor za punjenje rezervoara…"
+        },
+        {
+          "command": {
+            "type": "LayHose",
+            "equipmentId": "b3",
+            "personnelId": "s",
+            "to": {
+              "x": 80.0,
+              "y": 182.0
+            }
+          },
+          "caption": "…a gornju priključuje na izlazni otvor hidrantskog nastavka."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 105.0,
+              "y": 207.0
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "b3",
+              "portId": "gornja"
+            },
+            "b": {
+              "objectId": "nastavak",
+              "portId": "izlaz-1"
+            },
+            "connectionId": "spoj.b3-nastavak",
+            "actorId": "s"
+          }
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.otvaranje-hidranta",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "Po potrebi otvara hidrant i ventil nastavka…"
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.otvaranje-hidranta"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 285.0,
+              "y": 259.5
+            }
+          },
+          "caption": "…i odlazi do pumpe vozila (skica 60)."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "s",
+            "rotation": 0
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "08-Vjezba-8.md",
+          "line": 29,
+          "excerpt": "Vraća se do vozila i uzima jednu „B” cijev. Donju spojnicu „B” cijevi spaja na otvor za punjenje rezervoara na vozilu"
+        }
+      ]
+    },
+    {
+      "id": "drugi-mlaz-zapovijed",
+      "title": "Zapovijed za drugi mlaz",
+      "source": "10-vjezba-10#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
+      "stageId": "faza.drugi-mlaz",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "dependsOn": [
+        "prvi-mlaz-n1",
+        "vodna-povratak"
+      ],
+      "completedWhen": {
+        "type": "actionCompleted",
+        "actionId": "act.drugi-mlaz-naprijed"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.drugi-mlaz-naprijed",
+            "actorIds": [
+              "z"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.drugi-mlaz-naprijed"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "drugi-mlaz-v1-oprema",
+      "title": "Vođa vodne grupe uzima opremu iz vozila",
+      "source": "10-vjezba-10#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
+      "stageId": "faza.drugi-mlaz",
+      "actorRoleIds": [
+        "role.vodja-vodne"
+      ],
+      "dependsOn": [
+        "drugi-mlaz-zapovijed"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "carrying",
+            "personnelId": "v1",
+            "typeId": "et.c-mlaznica"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "v1",
+            "typeId": "et.drzac-cijevi"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "v1",
+            "typeId": "et.tlacna-c-cijev"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 380.0,
+              "y": 135
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v1",
+            "equipmentId": "m2"
+          },
+          "caption": "V₁ uzima iz vozila mlaznicu i držač (za opasač) i kolut „C” cijevi."
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v1",
+            "equipmentId": "d2"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v1",
+            "equipmentId": "c1"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 91,
+          "excerpt": "Vođa vodne grupe (V₁) uzima mlaznicu i držač koje stavlja za opasač"
+        }
+      ]
+    },
+    {
+      "id": "drugi-mlaz-v2",
+      "title": "Vodna grupa spaja drugi mlaz na razdjelnicu",
+      "source": "10-vjezba-10#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
+      "stageId": "faza.drugi-mlaz",
+      "actorRoleIds": [
+        "role.clan-vodne",
+        "role.vodja-vodne",
+        "role.zapovjednik"
+      ],
+      "dependsOn": [
+        "drugi-mlaz-v1-oprema"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "connected",
+            "a": {
+              "typeId": "et.tlacna-c-cijev",
+              "portId": "donja"
+            },
+            "b": {
+              "objectId": "razdjelnica",
+              "portId": "desni"
+            }
+          },
+          {
+            "type": "carrying",
+            "personnelId": "z",
+            "equipmentId": "torbica"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "z",
+            "typeId": "et.kljuc-za-spojnice",
+            "count": 2
+          },
+          {
+            "type": "laid",
+            "typeId": "et.tlacna-c-cijev",
+            "count": 3
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 420.0,
+              "y": 135
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v2",
+            "equipmentId": "c2"
+          },
+          "caption": "V₂ uzima u svaku ruku po jedan kolut „C” cijevi."
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v2",
+            "equipmentId": "c3"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 480,
+              "y": 140
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 500,
+              "y": 150
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 507.6,
+              "y": 335.0
+            }
+          },
+          "caption": "Iza prve spojnice „B” voda prelaze na njegovu desnu stranu."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 507.6,
+              "y": 375.0
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 705,
+              "y": 342
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 640,
+              "y": 355
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "v2",
+            "equipmentId": "c2",
+            "at": {
+              "x": 666.0,
+              "y": 363.0
+            }
+          },
+          "caption": "V₂ stavlja jedan kolut „C” cijevi s desne strane razdjelnice."
+        },
+        {
+          "command": {
+            "type": "HandOverEquipment",
+            "fromId": "v2",
+            "toId": "z",
+            "equipmentId": "ks2"
+          },
+          "caption": "V₂ predaje poslužitelju na razdjelnici ključ i torbicu s povezicama."
+        },
+        {
+          "command": {
+            "type": "HandOverEquipment",
+            "fromId": "v2",
+            "toId": "z",
+            "equipmentId": "torbica"
+          }
+        },
+        {
+          "command": {
+            "type": "HandOverEquipment",
+            "fromId": "v1",
+            "toId": "z",
+            "equipmentId": "ks1"
+          },
+          "caption": "V₁ predaje ključ."
+        },
+        {
+          "command": {
+            "type": "HandOverEquipment",
+            "fromId": "v2",
+            "toId": "v1",
+            "equipmentId": "c3"
+          },
+          "caption": "V₂ lijevom rukom predaje gornju spojnicu V₁."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 740,
+              "y": 345
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 730,
+              "y": 375
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "c3",
+              "portId": "donja"
+            },
+            "b": {
+              "objectId": "razdjelnica",
+              "portId": "desni"
+            },
+            "connectionId": "spoj.c3-razdjelnica",
+            "actorId": "v2"
+          },
+          "caption": "V₂ spaja donju spojnicu na desni otvor razdjelnice."
+        },
+        {
+          "command": {
+            "type": "LayHose",
+            "equipmentId": "c3",
+            "personnelId": "v1",
+            "to": {
+              "x": 864.9,
+              "y": 412.4
+            }
+          },
+          "caption": "V₁ polaže primljenu cijev u smjeru požara."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 850,
+              "y": 390
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "c1",
+              "portId": "donja"
+            },
+            "b": {
+              "objectId": "c3",
+              "portId": "gornja"
+            },
+            "connectionId": "spoj.c1-c3",
+            "actorId": "v1"
+          },
+          "caption": "Skida nosač svog koluta i spaja prvu i drugu cijev."
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 93,
+          "excerpt": "Član vodne grupe (V₂) uzima u svaku ruku po jedan kolut „C” tlačnih cijevi"
+        }
+      ]
+    },
+    {
+      "id": "drugi-mlaz-v1-mlaznica",
+      "title": "Vođa vodne grupe polaže drugu cijev i spaja mlaznicu",
+      "source": "10-vjezba-10#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
+      "stageId": "faza.drugi-mlaz",
+      "actorRoleIds": [
+        "role.vodja-vodne"
+      ],
+      "dependsOn": [
+        "drugi-mlaz-v2"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "laid",
+            "typeId": "et.tlacna-c-cijev",
+            "count": 4
+          },
+          {
+            "type": "connected",
+            "a": {
+              "objectId": "m1"
+            },
+            "b": {
+              "typeId": "et.tlacna-c-cijev"
+            }
+          },
+          {
+            "type": "connected",
+            "a": {
+              "objectId": "m2"
+            },
+            "b": {
+              "typeId": "et.tlacna-c-cijev"
+            }
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "LayHose",
+            "equipmentId": "c1",
+            "personnelId": "v1",
+            "to": {
+              "x": 960.7,
+              "y": 492.8
+            }
+          },
+          "caption": "V₁ polaže drugu „C” cijev u smjeru požara."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 1000.9,
+              "y": 482.1
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "ConnectPorts",
+            "a": {
+              "objectId": "m2",
+              "portId": "ulaz"
+            },
+            "b": {
+              "objectId": "c1",
+              "portId": "gornja"
+            },
+            "connectionId": "spoj.m2-c1",
+            "actorId": "v1"
+          },
+          "caption": "Uzima mlaznicu iz opasača i priključuje je na spojnicu cijevi."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "v1",
+            "rotation": 40
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "drugi-mlaz-v2-luk",
+      "title": "Član vodne grupe pravi luk i staje iza vođe",
+      "source": "10-vjezba-10#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
+      "stageId": "faza.drugi-mlaz",
+      "actorRoleIds": [
+        "role.clan-vodne"
+      ],
+      "dependsOn": [
+        "drugi-mlaz-v2"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "actionCompleted",
+            "actionId": "act.luk-drugi"
+          },
+          {
+            "type": "near",
+            "objectId": "v2",
+            "targetId": "v1",
+            "maxDistance": 90
+          },
+          {
+            "type": "rotation",
+            "objectId": "v2",
+            "angle": 40,
+            "tolerance": 45
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.luk-drugi",
+            "actorIds": [
+              "v2"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.luk-drugi"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 931.1,
+              "y": 520.2
+            }
+          },
+          "caption": "V₂ staje korak iza V₁."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "v2",
+            "rotation": 40
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "drugi-mlaz-vodu-daj",
+      "title": "Zapovijed „Za drugi mlaz vodu daj!”",
+      "source": "10-vjezba-10#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
+      "stageId": "faza.drugi-mlaz",
+      "actorRoleIds": [
+        "role.vodja-vodne"
+      ],
+      "dependsOn": [
+        "drugi-mlaz-v1-mlaznica",
+        "drugi-mlaz-v2-luk"
+      ],
+      "completedWhen": {
+        "type": "actionCompleted",
+        "actionId": "act.drugi-mlaz-vodu-daj"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "v1",
+            "rotation": 208
+          },
+          "caption": "V₁ se okreće prema poslužitelju na razdjelnici."
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.drugi-mlaz-vodu-daj",
+            "actorIds": [
+              "v1"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.drugi-mlaz-vodu-daj"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "drugi-mlaz-potvrda",
+      "title": "Potvrda zapovijedi za drugi mlaz",
+      "source": "10-vjezba-10#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
+      "stageId": "faza.drugi-mlaz",
+      "actorRoleIds": [
+        "role.vodja-vodne",
+        "role.zapovjednik"
+      ],
+      "dependsOn": [
+        "drugi-mlaz-vodu-daj"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "actionCompleted",
+            "actionId": "act.potvrda-z-drugi"
+          },
+          {
+            "type": "rotation",
+            "objectId": "v1",
+            "angle": 40,
+            "tolerance": 45
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.potvrda-z-drugi",
+            "actorIds": [
+              "z"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.potvrda-z-drugi"
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "v1",
+            "rotation": 40
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "vodom-stoj",
+      "title": "Zapovijed „Prvi i drugi mlaz – vodom stoj!”",
+      "source": "10-vjezba-10#pospremanje-opreme/p1",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "dependsOn": [
+        "drugi-mlaz-potvrda"
+      ],
+      "completedWhen": {
+        "type": "actionCompleted",
+        "actionId": "act.vodom-stoj-mlazovi"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.vodom-stoj-mlazovi",
+            "actorIds": [
+              "z"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.vodom-stoj-mlazovi"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "vodom-stoj-vode",
+      "title": "Vođe grupa daju znak za obustavu vode",
+      "source": "10-vjezba-10#pospremanje-opreme/p1",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.vodja-vodne"
+      ],
+      "dependsOn": [
+        "vodom-stoj"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "actionCompleted",
+            "actionId": "act.vodom-stoj-prvi"
+          },
+          {
+            "type": "actionCompleted",
+            "actionId": "act.vodom-stoj-drugi"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 142
+          },
+          "caption": "N₁ i V₁ okreću se prema razdjelnici."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "v1",
+            "rotation": 208
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.vodom-stoj-prvi",
+            "actorIds": [
+              "n1"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.vodom-stoj-prvi"
+          }
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.vodom-stoj-drugi",
+            "actorIds": [
+              "v1"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.vodom-stoj-drugi"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "zatvaranje-vode",
+      "title": "Zatvaranje ventila i obustava vode",
+      "source": "10-vjezba-10#pospremanje-opreme/p1",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.zapovjednik",
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "vodom-stoj-vode"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "actionCompleted",
+            "actionId": "act.ventili-razdjelnice"
+          },
+          {
+            "type": "actionCompleted",
+            "actionId": "act.obustava-vode"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.potvrda-z-stoj",
+            "actorIds": [
+              "z"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.potvrda-z-stoj"
+          }
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.ventili-razdjelnice",
+            "actorIds": [
+              "z"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.ventili-razdjelnice"
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "z",
+            "rotation": 193
+          },
+          "caption": "Zapovjednik se okreće prema vozilu."
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.z-vodom-stoj",
+            "actorIds": [
+              "z"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.z-vodom-stoj"
+          }
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.potvrda-strojar-stoj",
+            "actorIds": [
+              "s"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.potvrda-strojar-stoj"
+          }
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.obustava-vode",
+            "actorIds": [
+              "s"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.obustava-vode"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "posprema",
+      "title": "Zapovijed „Posprema!”",
+      "source": "10-vjezba-10#pospremanje-opreme/p1",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "dependsOn": [
+        "zatvaranje-vode"
+      ],
+      "completedWhen": {
+        "type": "actionCompleted",
+        "actionId": "act.posprema"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.posprema",
+            "actorIds": [
+              "z"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.posprema"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "posprema-strojar",
+      "title": "Strojar rastavlja vodove i posprema hidrantski nastavak, ključ i „B” cijev (kao u vježbi 8)",
+      "source": "10-vjezba-10#pospremanje-opreme/p2",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "posprema"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "portFree",
+            "port": {
+              "objectId": "nv",
+              "portId": "tlacni-izlaz"
+            }
+          },
+          {
+            "type": "portFree",
+            "port": {
+              "objectId": "nv",
+              "portId": "punjenje"
+            }
+          },
+          {
+            "type": "portFree",
+            "port": {
+              "objectId": "hidrant",
+              "portId": "prikljucak"
+            }
+          },
+          {
+            "type": "actionCompleted",
+            "actionId": "act.zatvaranje-hidranta"
+          },
+          {
+            "type": "stored",
+            "equipmentId": "nastavak",
+            "containerId": "nv"
+          },
+          {
+            "type": "stored",
+            "equipmentId": "kljuc-hidrant",
+            "containerId": "nv"
+          },
+          {
+            "type": "stored",
+            "equipmentId": "b3",
+            "containerId": "nv"
+          },
+          {
+            "type": "stored",
+            "equipmentId": "ks3",
+            "containerId": "nv"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 345,
+              "y": 255
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.b2-nv",
+            "actorId": "s"
+          },
+          "caption": "Strojar rastavlja „B” cijevni vod s pumpe…"
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 70.0,
+              "y": 190.0
+            }
+          },
+          "caption": "…odlazi do hidranta…"
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.zatvaranje-hidranta",
+            "actorIds": [
+              "s"
+            ]
+          },
+          "caption": "…zatvara vodu na hidrantu i ventil na hidrantskom nastavku…"
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.zatvaranje-hidranta"
+          }
+        },
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.b3-nastavak",
+            "actorId": "s"
+          },
+          "caption": "…i rastavlja „B” cijev od hidranta do vozila."
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "kljuc-hidrant"
+          },
+          "caption": "Posprema hidrantski ključ, hidrantski nastavak…"
+        },
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.nastavak-hidrant",
+            "actorId": "s"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "nastavak"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 285,
+              "y": 205
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.b3-nv",
+            "actorId": "s"
+          }
+        },
+        {
+          "command": {
+            "type": "RollUpHose",
+            "equipmentId": "b3",
+            "personnelId": "s"
+          },
+          "caption": "…i „B” cijev."
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "s",
+            "equipmentId": "b3"
+          }
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "s",
+            "equipmentId": "nastavak",
+            "containerId": "nv"
+          },
+          "caption": "Opremu odlaže u spremnike vozila."
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "s",
+            "equipmentId": "kljuc-hidrant",
+            "containerId": "nv"
+          }
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "s",
+            "equipmentId": "b3",
+            "containerId": "nv"
+          }
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "s",
+            "equipmentId": "ks3",
+            "containerId": "nv"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 285.0,
+              "y": 259.5
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "s",
+            "rotation": 0
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "08-Vjezba-8.md",
+          "line": 59,
+          "excerpt": "Strojar, na zapovijed **„Posprema”**, rastavlja „B” cijevni vod sa pumpe, odlazi do hidranta"
+        }
+      ]
+    },
+    {
+      "id": "posprema-mlaznice",
+      "title": "Rastavljanje mlaznica i spojeva „C” cijevi",
+      "source": "10-vjezba-10#pospremanje-opreme/p2",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.vodja-vodne",
+        "role.clan-navalne",
+        "role.clan-vodne"
+      ],
+      "dependsOn": [
+        "posprema"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "not",
+            "of": {
+              "type": "connected",
+              "a": {
+                "typeId": "et.c-mlaznica"
+              },
+              "b": {
+                "typeId": "et.tlacna-c-cijev"
+              }
+            }
+          },
+          {
+            "type": "not",
+            "of": {
+              "type": "connected",
+              "a": {
+                "typeId": "et.tlacna-c-cijev",
+                "portId": "gornja"
+              },
+              "b": {
+                "typeId": "et.tlacna-c-cijev",
+                "portId": "donja"
+              }
+            }
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.m1-c6",
+            "actorId": "n1"
+          },
+          "caption": "Vođe grupa rastavljaju mlaznice i stavljaju ih za opasače."
+        },
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.m2-c1",
+            "actorId": "v1"
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 880,
+              "y": 210
+            }
+          },
+          "caption": "Članovi grupa odlaze do spojnica između prve i druge cijevi."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 885,
+              "y": 435
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 236
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "v2",
+            "rotation": 228
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.c6-c5",
+            "actorId": "n2"
+          },
+          "caption": "Rastavljaju cijevi."
+        },
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.c1-c3",
+            "actorId": "v2"
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 119,
+          "excerpt": "Vođe grupa rastavljaju mlaznice i stavljaju ih za opasače"
+        }
+      ]
+    },
+    {
+      "id": "posprema-zapovjednik",
+      "title": "Zapovjednik otpaja tlačne cijevi i odlaže torbicu i ključeve u vozilo (kao u vježbi 9)",
+      "source": "10-vjezba-10#pospremanje-opreme/p1",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "dependsOn": [
+        "posprema"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "portFree",
+            "port": {
+              "objectId": "razdjelnica",
+              "portId": "ulaz"
+            }
+          },
+          {
+            "type": "portFree",
+            "port": {
+              "objectId": "razdjelnica",
+              "portId": "lijevi"
+            }
+          },
+          {
+            "type": "portFree",
+            "port": {
+              "objectId": "razdjelnica",
+              "portId": "desni"
+            }
+          },
+          {
+            "type": "not",
+            "of": {
+              "type": "connected",
+              "a": {
+                "typeId": "et.tlacna-b-cijev",
+                "portId": "gornja"
+              },
+              "b": {
+                "typeId": "et.tlacna-b-cijev",
+                "portId": "donja"
+              }
+            }
+          },
+          {
+            "type": "stored",
+            "equipmentId": "torbica",
+            "containerId": "nv"
+          },
+          {
+            "type": "stored",
+            "equipmentId": "ks1",
+            "containerId": "nv"
+          },
+          {
+            "type": "stored",
+            "equipmentId": "ks2",
+            "containerId": "nv"
+          },
+          {
+            "type": "not",
+            "of": {
+              "type": "carrying",
+              "personnelId": "z"
+            }
+          },
+          {
+            "type": "inZone",
+            "objectId": "z",
+            "zoneId": "zona.stroj"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.b1-razdjelnica",
+            "actorId": "z"
+          },
+          "caption": "Zapovjednik rastavlja „B” cijevni vod na razdjelnici,"
+        },
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.c5-razdjelnica",
+            "actorId": "z"
+          },
+          "caption": "a zatim prvi i drugi „C” cijevni vod."
+        },
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.c3-razdjelnica",
+            "actorId": "z"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "z",
+            "to": {
+              "x": 474.6,
+              "y": 330.0
+            }
+          },
+          "caption": "Odlazi do prve spojnice „B” cijevnog voda i okreće se nadesno."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "z",
+            "rotation": 270
+          }
+        },
+        {
+          "command": {
+            "type": "DisconnectPorts",
+            "connectionId": "spoj.b1-b2",
+            "actorId": "z"
+          },
+          "caption": "Rastavlja prvu i drugu „B” cijev."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "z",
+            "to": {
+              "x": 430,
+              "y": 250
+            }
+          },
+          "caption": "Torbicu s povezicama i ključeve odlaže u vozilo."
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "z",
+            "equipmentId": "torbica",
+            "containerId": "nv"
+          }
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "z",
+            "equipmentId": "ks1",
+            "containerId": "nv"
+          }
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "z",
+            "equipmentId": "ks2",
+            "containerId": "nv"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "z",
+            "to": {
+              "x": 260,
+              "y": 380
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "z",
+            "to": {
+              "x": 155.0,
+              "y": 250.0
+            }
+          },
+          "caption": "Odlazi na svoje mjesto u stroj."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "z",
+            "rotation": 270
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "samo što torbicu s povezicama i ključeve zapovjednik odlaže u vozilo na mjesta gdje su stajali prije izvođenja vježbe"
+        }
+      ]
+    },
+    {
+      "id": "posprema-savijanje",
+      "title": "Savijanje „C” cijevi",
+      "source": "10-vjezba-10#pospremanje-opreme/p2",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.vodja-vodne",
+        "role.clan-vodne"
+      ],
+      "dependsOn": [
+        "posprema-mlaznice",
+        "posprema-zapovjednik"
+      ],
+      "completedWhen": {
+        "type": "actionCompleted",
+        "actionId": "act.savijanje-c"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 136
+          },
+          "caption": "Vođe i članovi grupa okreću se prema razdjelnici."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 151
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "v1",
+            "rotation": 213
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "v2",
+            "rotation": 219
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.savijanje-c",
+            "actorIds": [
+              "n1",
+              "n2",
+              "v1",
+              "v2"
+            ]
+          },
+          "caption": "Savijaju cijevi (istovremeno)."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.savijanje-c"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "posprema-motanje",
+      "title": "Motanje „C” cijevi",
+      "source": "10-vjezba-10#pospremanje-opreme/p2",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.vodja-vodne",
+        "role.clan-vodne"
+      ],
+      "dependsOn": [
+        "posprema-savijanje"
+      ],
+      "completedWhen": {
+        "type": "not",
+        "of": {
+          "type": "laid",
+          "typeId": "et.tlacna-c-cijev"
+        }
+      },
+      "script": [
+        {
+          "command": {
+            "type": "RollUpHose",
+            "equipmentId": "c6",
+            "personnelId": "n1"
+          },
+          "caption": "Motaju cijevi."
+        },
+        {
+          "command": {
+            "type": "RollUpHose",
+            "equipmentId": "c5",
+            "personnelId": "n2"
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RollUpHose",
+            "equipmentId": "c1",
+            "personnelId": "v1"
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RollUpHose",
+            "equipmentId": "c3",
+            "personnelId": "v2"
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "posprema-nosaci",
+      "title": "Vezanje nosača na „C” cijevi",
+      "source": "10-vjezba-10#pospremanje-opreme/p2",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.vodja-vodne",
+        "role.clan-vodne"
+      ],
+      "dependsOn": [
+        "posprema-motanje"
+      ],
+      "completedWhen": {
+        "type": "actionCompleted",
+        "actionId": "act.vezanje-nosaca-c"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.vezanje-nosaca-c",
+            "actorIds": [
+              "n1",
+              "n2",
+              "v1",
+              "v2"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.vezanje-nosaca-c"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "uzimanje",
+      "title": "Uzimanje opreme prvog i drugog mlaza",
+      "source": "10-vjezba-10#pospremanje-opreme/p2",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.vodja-vodne",
+        "role.clan-vodne"
+      ],
+      "dependsOn": [
+        "posprema-nosaci"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "carrying",
+            "personnelId": "n1",
+            "equipmentId": "razdjelnica"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "n1",
+            "typeId": "et.tlacna-c-cijev"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "n2",
+            "typeId": "et.tlacna-c-cijev",
+            "count": 2
+          },
+          {
+            "type": "carrying",
+            "personnelId": "v1",
+            "typeId": "et.tlacna-c-cijev"
+          },
+          {
+            "type": "carrying",
+            "personnelId": "v2",
+            "typeId": "et.tlacna-c-cijev",
+            "count": 2
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 870,
+              "y": 165
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n1",
+            "equipmentId": "c6"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 720,
+              "y": 260
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n1",
+            "equipmentId": "razdjelnica"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 770,
+              "y": 325
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "c5"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "c4"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 870,
+              "y": 440
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v1",
+            "equipmentId": "c1"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 720,
+              "y": 360
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v2",
+            "equipmentId": "c3"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v2",
+            "equipmentId": "c2"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 133,
+          "excerpt": "vođa navalne grupe (N₁) uzima u desnu ruku razdjelnicu, a u lijevu jedan kolut „C” cijevi,"
+        }
+      ]
+    },
+    {
+      "id": "posprema-polozaj",
+      "title": "Oprema na tlu u koloni",
+      "source": "10-vjezba-10#pospremanje-opreme/p2",
+      "stageId": "faza.pospremanje",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.vodja-vodne",
+        "role.clan-vodne"
+      ],
+      "dependsOn": [
+        "uzimanje"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "placed",
+            "equipmentId": "razdjelnica"
+          },
+          {
+            "type": "not",
+            "of": {
+              "type": "carrying",
+              "personnelId": "n1",
+              "typeId": "et.tlacna-c-cijev"
+            }
+          },
+          {
+            "type": "not",
+            "of": {
+              "type": "carrying",
+              "personnelId": "n2",
+              "typeId": "et.tlacna-c-cijev"
+            }
+          },
+          {
+            "type": "not",
+            "of": {
+              "type": "carrying",
+              "personnelId": "v1",
+              "typeId": "et.tlacna-c-cijev"
+            }
+          },
+          {
+            "type": "not",
+            "of": {
+              "type": "carrying",
+              "personnelId": "v2",
+              "typeId": "et.tlacna-c-cijev"
+            }
+          },
+          {
+            "type": "rotation",
+            "objectId": "n1",
+            "angle": 180,
+            "tolerance": 45
+          },
+          {
+            "type": "rotation",
+            "objectId": "n2",
+            "angle": 180,
+            "tolerance": 45
+          },
+          {
+            "type": "rotation",
+            "objectId": "v1",
+            "angle": 180,
+            "tolerance": 45
+          },
+          {
+            "type": "rotation",
+            "objectId": "v2",
+            "angle": 180,
+            "tolerance": 45
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 820.0,
+              "y": 115.0
+            }
+          },
+          "caption": "Opremu stavljaju na tlo i stoje u koloni (kao u vježbama 9 i 5)."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 820.0,
+              "y": 202.0
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 820.0,
+              "y": 296.0
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 820.0,
+              "y": 383.0
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n1",
+            "equipmentId": "razdjelnica",
+            "at": {
+              "x": 820.0,
+              "y": 70.0
+            },
+            "rotation": 180
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n1",
+            "equipmentId": "c6",
+            "at": {
+              "x": 820.0,
+              "y": 148.0
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "c5",
+            "at": {
+              "x": 820.0,
+              "y": 235.0
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "n2",
+            "equipmentId": "c4",
+            "at": {
+              "x": 820.0,
+              "y": 253.0
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "v1",
+            "equipmentId": "c1",
+            "at": {
+              "x": 820.0,
+              "y": 329.0
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "v2",
+            "equipmentId": "c3",
+            "at": {
+              "x": 820.0,
+              "y": 416.0
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "PlaceEquipment",
+            "personnelId": "v2",
+            "equipmentId": "c2",
+            "at": {
+              "x": 820.0,
+              "y": 434.0
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 180
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 180
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "v1",
+            "rotation": 180
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "v2",
+            "rotation": 180
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review",
+        "notes": "Položaj kolone prema skici 41 vježbe 5 (shematski)."
+      }
+    },
+    {
+      "id": "oprema-u-vozilo",
+      "title": "Opremu uzmi! S opremom naprijed! Stoj! Opremu odloži!",
+      "source": "10-vjezba-10#pospremanje-opreme/p2",
+      "stageId": "faza.povratak",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne",
+        "role.vodja-vodne",
+        "role.clan-vodne"
+      ],
+      "dependsOn": [
+        "posprema-polozaj"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "actionCompleted",
+            "actionId": "act.opremu-odlozi"
+          },
+          {
+            "type": "stored",
+            "equipmentId": "razdjelnica",
+            "containerId": "nv"
+          },
+          {
+            "type": "stored",
+            "equipmentId": "c1",
+            "containerId": "nv"
+          },
+          {
+            "type": "stored",
+            "equipmentId": "c2",
+            "containerId": "nv"
+          },
+          {
+            "type": "stored",
+            "equipmentId": "c3",
+            "containerId": "nv"
+          },
+          {
+            "type": "stored",
+            "equipmentId": "c4",
+            "containerId": "nv"
+          },
+          {
+            "type": "stored",
+            "equipmentId": "c5",
+            "containerId": "nv"
+          },
+          {
+            "type": "stored",
+            "equipmentId": "c6",
+            "containerId": "nv"
+          },
+          {
+            "type": "stored",
+            "equipmentId": "m1",
+            "containerId": "nv"
+          },
+          {
+            "type": "stored",
+            "equipmentId": "m2",
+            "containerId": "nv"
+          },
+          {
+            "type": "stored",
+            "equipmentId": "d1",
+            "containerId": "nv"
+          },
+          {
+            "type": "stored",
+            "equipmentId": "d2",
+            "containerId": "nv"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.opremu-uzmi",
+            "actorIds": [
+              "n1"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.opremu-uzmi"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n1",
+            "equipmentId": "razdjelnica"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n1",
+            "equipmentId": "c6"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "c5"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "n2",
+            "equipmentId": "c4"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v1",
+            "equipmentId": "c1"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v2",
+            "equipmentId": "c3"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v2",
+            "equipmentId": "c2"
+          }
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.s-opremom-naprijed",
+            "actorIds": [
+              "n1"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.s-opremom-naprijed"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 485,
+              "y": 220
+            }
+          },
+          "caption": "Kreću se prema vozilu."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 485,
+              "y": 260
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 485,
+              "y": 140
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 485,
+              "y": 180
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.stoj",
+            "actorIds": [
+              "n1"
+            ]
+          },
+          "caption": "Ispred vozila N₁ zapovijeda: „Stoj!”…"
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.stoj"
+          }
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.opremu-odlozi",
+            "actorIds": [
+              "n1"
+            ]
+          },
+          "caption": "…„Opremu odloži!”."
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.opremu-odlozi"
+          }
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "n1",
+            "equipmentId": "razdjelnica",
+            "containerId": "nv"
+          },
+          "caption": "Opremu odlažu u spremnike vozila."
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "n1",
+            "equipmentId": "c6",
+            "containerId": "nv"
+          }
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "n1",
+            "equipmentId": "m1",
+            "containerId": "nv"
+          }
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "n1",
+            "equipmentId": "d1",
+            "containerId": "nv"
+          }
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "n2",
+            "equipmentId": "c5",
+            "containerId": "nv"
+          }
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "n2",
+            "equipmentId": "c4",
+            "containerId": "nv"
+          }
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "v1",
+            "equipmentId": "c1",
+            "containerId": "nv"
+          }
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "v1",
+            "equipmentId": "m2",
+            "containerId": "nv"
+          }
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "v1",
+            "equipmentId": "d2",
+            "containerId": "nv"
+          }
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "v2",
+            "equipmentId": "c3",
+            "containerId": "nv"
+          }
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "v2",
+            "equipmentId": "c2",
+            "containerId": "nv"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "09-Vjezba-9.md",
+          "line": 68,
+          "excerpt": "kada navalna i vodna grupa s opremom prvog i drugog „C” mlaza dođu ispred vozila, postupaju kao navalna grupa u [vježbi 7](07-Vjezba-7.md)"
+        }
+      ]
+    },
+    {
+      "id": "navalna-u-stroj",
+      "title": "Navalna grupa odlazi u stroj",
+      "source": "10-vjezba-10#pospremanje-opreme/p3",
+      "stageId": "faza.povratak",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.clan-navalne"
+      ],
+      "dependsOn": [
+        "oprema-u-vozilo"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "inZone",
+            "objectId": "n1",
+            "zoneId": "zona.stroj"
+          },
+          {
+            "type": "inZone",
+            "objectId": "n2",
+            "zoneId": "zona.stroj"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 300,
+              "y": 380
+            }
+          },
+          "caption": "Kada odlože opremu, odlaze u stroj."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 45.0,
+              "y": 250.0
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 300,
+              "y": 400
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n2",
+            "to": {
+              "x": 45.0,
+              "y": 325.0
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 270
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n2",
+            "rotation": 270
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "posprema-b",
+      "title": "Vodna grupa savija „B” cijevni vod (kao navalna grupa u vježbi 9)",
+      "source": "10-vjezba-10#pospremanje-opreme/p2",
+      "stageId": "faza.povratak",
+      "actorRoleIds": [
+        "role.vodja-vodne",
+        "role.clan-vodne"
+      ],
+      "dependsOn": [
+        "oprema-u-vozilo",
+        "posprema-zapovjednik",
+        "posprema-strojar"
+      ],
+      "completedWhen": {
+        "type": "actionCompleted",
+        "actionId": "act.savijanje-b"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 680.0,
+              "y": 275.0
+            }
+          },
+          "caption": "V₁ odlazi do kraja druge „B” cijevi, V₂ do kraja prve."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 474.6,
+              "y": 275.0
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.savijanje-b",
+            "actorIds": [
+              "v1",
+              "v2"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.savijanje-b"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 150,
+          "excerpt": "Vođa vodne grupe (V₁) odlazi do kraja druge „B” cijevi, a član vodne grupe (V₂) do kraja prve „B” cijevi."
+        }
+      ]
+    },
+    {
+      "id": "posprema-b-motanje",
+      "title": "Motanje „B” cijevi i odlaganje u vozilo",
+      "source": "10-vjezba-10#pospremanje-opreme/p2",
+      "stageId": "faza.povratak",
+      "actorRoleIds": [
+        "role.vodja-vodne",
+        "role.clan-vodne"
+      ],
+      "dependsOn": [
+        "posprema-b"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "not",
+            "of": {
+              "type": "laid",
+              "equipmentId": "b1"
+            }
+          },
+          {
+            "type": "not",
+            "of": {
+              "type": "laid",
+              "equipmentId": "b2"
+            }
+          },
+          {
+            "type": "stored",
+            "equipmentId": "b1",
+            "containerId": "nv"
+          },
+          {
+            "type": "stored",
+            "equipmentId": "b2",
+            "containerId": "nv"
+          },
+          {
+            "type": "inZone",
+            "objectId": "v1",
+            "zoneId": "zona.stroj"
+          },
+          {
+            "type": "inZone",
+            "objectId": "v2",
+            "zoneId": "zona.stroj"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "RollUpHose",
+            "equipmentId": "b1",
+            "personnelId": "v1"
+          },
+          "caption": "Motaju cijevi."
+        },
+        {
+          "command": {
+            "type": "RollUpHose",
+            "equipmentId": "b2",
+            "personnelId": "v2"
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 492.6,
+              "y": 282.0
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 354.0,
+              "y": 254.5
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.vezanje-nosaca-b",
+            "actorIds": [
+              "v1",
+              "v2"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.vezanje-nosaca-b"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v1",
+            "equipmentId": "b1"
+          }
+        },
+        {
+          "command": {
+            "type": "PickUpEquipment",
+            "personnelId": "v2",
+            "equipmentId": "b2"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 430,
+              "y": 250
+            }
+          },
+          "caption": "„B” cijevi odlažu u vozilo."
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "v1",
+            "equipmentId": "b1",
+            "containerId": "nv"
+          }
+        },
+        {
+          "command": {
+            "type": "StoreEquipment",
+            "personnelId": "v2",
+            "equipmentId": "b2",
+            "containerId": "nv"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": 300,
+              "y": 380
+            }
+          },
+          "caption": "Odlaze u stroj."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v1",
+            "to": {
+              "x": -10.0,
+              "y": 250.0
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": 300,
+              "y": 400
+            }
+          },
+          "withPrevious": true
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "v2",
+            "to": {
+              "x": -10.0,
+              "y": 325.0
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "v1",
+            "rotation": 270
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "v2",
+            "rotation": 270
+          },
+          "withPrevious": true
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 152,
+          "excerpt": "Kada je završeno motanje cijevi, svaki član veže nosač na cijev, uzima opremu i odnosi je na mjesto"
+        }
+      ]
+    },
+    {
+      "id": "strojar-u-stroj",
+      "title": "Strojar odlazi u stroj",
+      "source": "10-vjezba-10#pospremanje-opreme/p3",
+      "stageId": "faza.povratak",
+      "actorRoleIds": [
+        "role.strojar"
+      ],
+      "dependsOn": [
+        "posprema-strojar",
+        "posprema-b-motanje"
+      ],
+      "completedWhen": {
+        "type": "inZone",
+        "objectId": "s",
+        "zoneId": "zona.stroj"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 200,
+              "y": 380
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "s",
+            "to": {
+              "x": 100.0,
+              "y": 250.0
+            }
+          },
+          "caption": "Strojar odlazi u stroj."
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "s",
+            "rotation": 270
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "pregled-opreme",
+      "title": "Pregled opreme",
+      "source": "10-vjezba-10#pospremanje-opreme/p3",
+      "stageId": "faza.povratak",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "dependsOn": [
+        "navalna-u-stroj",
+        "posprema-b-motanje",
+        "strojar-u-stroj",
+        "posprema-zapovjednik"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "actionCompleted",
+            "actionId": "act.pregled-opreme"
+          },
+          {
+            "type": "near",
+            "objectId": "n1",
+            "targetId": "z",
+            "maxDistance": 40
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 250,
+              "y": 390
+            }
+          },
+          "caption": "N₁ izlazi iz stroja i pregledava opremu."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 400,
+              "y": 300
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.pregled-opreme",
+            "actorIds": [
+              "n1"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.pregled-opreme"
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 250,
+              "y": 390
+            }
+          },
+          "caption": "Odlazi do zapovjednika."
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 155.0,
+              "y": 300.0
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 270
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      },
+      "sources": [
+        {
+          "file": "01-Vjezba-1.md",
+          "line": 154,
+          "excerpt": "vođa navalne grupe (N₁) izlazi iz stroja i pregledava opremu"
+        }
+      ]
+    },
+    {
+      "id": "prijavak",
+      "title": "Prijavak zapovjedniku",
+      "source": "10-vjezba-10#pospremanje-opreme/p3",
+      "stageId": "faza.povratak",
+      "actorRoleIds": [
+        "role.vodja-navalne"
+      ],
+      "dependsOn": [
+        "pregled-opreme"
+      ],
+      "completedWhen": {
+        "type": "actionCompleted",
+        "actionId": "act.prijavak"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.prijavak",
+            "actorIds": [
+              "n1"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.prijavak"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "na-svoje-mjesto",
+      "title": "Zapovijed „Na svoje mjesto!”",
+      "source": "10-vjezba-10#pospremanje-opreme/p3",
+      "stageId": "faza.povratak",
+      "actorRoleIds": [
+        "role.zapovjednik"
+      ],
+      "dependsOn": [
+        "prijavak"
+      ],
+      "completedWhen": {
+        "type": "actionCompleted",
+        "actionId": "act.na-svoje-mjesto"
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.na-svoje-mjesto",
+            "actorIds": [
+              "z"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.na-svoje-mjesto"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    },
+    {
+      "id": "zavrsetak",
+      "title": "Povratak u stroj i otpust",
+      "source": "10-vjezba-10#pospremanje-opreme/p3",
+      "stageId": "faza.povratak",
+      "actorRoleIds": [
+        "role.vodja-navalne",
+        "role.zapovjednik"
+      ],
+      "dependsOn": [
+        "na-svoje-mjesto"
+      ],
+      "completedWhen": {
+        "type": "all",
+        "of": [
+          {
+            "type": "actionCompleted",
+            "actionId": "act.na-zapovijed"
+          },
+          {
+            "type": "actionCompleted",
+            "actionId": "act.odmor-ili-otpust"
+          },
+          {
+            "type": "inZone",
+            "objectId": "n1",
+            "zoneId": "zona.stroj"
+          }
+        ]
+      },
+      "script": [
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.na-zapovijed",
+            "actorIds": [
+              "n1"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.na-zapovijed"
+          }
+        },
+        {
+          "command": {
+            "type": "RotateObject",
+            "objectId": "n1",
+            "rotation": 270
+          }
+        },
+        {
+          "command": {
+            "type": "MovePersonnel",
+            "personnelId": "n1",
+            "to": {
+              "x": 45.0,
+              "y": 250.0
+            }
+          }
+        },
+        {
+          "command": {
+            "type": "BeginAction",
+            "actionId": "act.odmor-ili-otpust",
+            "actorIds": [
+              "z"
+            ]
+          }
+        },
+        {
+          "command": {
+            "type": "CompleteAction",
+            "actionId": "act.odmor-ili-otpust"
+          }
+        }
+      ],
+      "provenance": "derived",
+      "review": {
+        "status": "requires-review"
+      }
+    }
+  ]
+}

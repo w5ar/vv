@@ -237,6 +237,22 @@ give the scene a real scale.
     goes into the vehicle in front of it as in Vježba 7. The suction line is taken in after the „B” line is
     tidied (Vj7 88).
 
+## Vježba 10 — navalno vozilo, hidrantska mreža (Vj10 = `content/source/10-Vjezba-10.md`)
+
+78. **No equipment list and no formation sketch**: Vj10 16 only says the equipment is in the vehicle and that
+    the zapovjednik orders *„kao u vježbi 6”*. The simulator uses the equipment list of Vježba 1 (three „B”
+    hoses: two for the line to the distributor as on skica 60, one from the hydrant to the vehicle; marked
+    `derived`) and the formation of skica 55 (Vježba 9), moved below the hydrant, where skice 59–61 draw it.
+79. **Water before the hydrant line**: Vj10 34 has the strojar release water to the distributor first and
+    only then lay the line from the hydrant (Vj8 28–30) — i.e. the first water comes from the tank. Handling
+    the pump and switching to the hydrant supply are not described and are not shown.
+80. **Vodna grupa after the „B” line**: Vj1 has it return to where the equipment was laid out; here the
+    equipment is in the vehicle, so V₁ and V₂ wait at the vehicle (skica 59 and 60).
+81. **Pospremanje**: the vodna grupa tidies both „C” jets with the navalna grupa and then the „B” line, as the
+    navalna grupa does in Vježba 9; the navalna grupa goes to the stroj once the „C” equipment is in the
+    vehicle. The strojar disconnects the „B” line from the pump and tidies the hydrant line as in Vježba 8.
+    Skica 59 draws a longer „B” line than skica 60; the zapovjednik’s place relative to the distributor is kept.
+
 ## Demonstration sound
 
 26. **Resolved orders**: Vj1 111 quotes *„Prvi, odnosno drugi mlaz – vodom stoj!”* for both leaders;

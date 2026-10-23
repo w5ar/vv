@@ -221,3 +221,16 @@ test('Vježba 9 demonstration (fire engine, suction line, two „C” jets) reac
   await expect(page.getByTestId('progress-label')).toContainText('93 / 93');
   expect(errors).toEqual([]);
 });
+
+test('Vježba 10 demonstration (fire engine, hydrant line, two „C” jets) reaches completion', async ({ page }) => {
+  const errors: string[] = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  await page.goto('#/demonstracija/vjezba-10-navalno-vozilo-hidrant');
+  await expect(page.getByTestId('object-hidrant')).toBeVisible();
+  const range = page.getByTestId('timeline-range');
+  await range.fill((await range.getAttribute('max')) ?? '0');
+  await expect(page.getByTestId('demo-complete')).toBeVisible();
+  await expect(page.getByTestId('progress-label')).toContainText('44 / 44');
+  await expect(page.getByTestId('object-nastavak')).toHaveCount(0);
+  expect(errors).toEqual([]);
+});
