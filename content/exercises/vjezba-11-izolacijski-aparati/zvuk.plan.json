@@ -1,0 +1,443 @@
+{
+  "schemaVersion": 1,
+  "exerciseId": "vjezba-11-izolacijski-aparati",
+  "synthetic": false,
+  "clips": [
+    {
+      "id": "act.zbor",
+      "voice": "zapovijed",
+      "text": "Odjeljenje – zbor!",
+      "hash": "0f463788e4c968"
+    },
+    {
+      "id": "zbor",
+      "voice": "opis",
+      "text": "Kada je vozilo postavljeno na svoje mjesto, zapovjednik postrojava odjeljenje kao u vježbi 9.",
+      "hash": "06bdd6ce19e97d"
+    },
+    {
+      "id": "act.za-navalu",
+      "voice": "zapovijed",
+      "text": "Požar pravac…voda – hidrant, s dvije „B” cijevi do razdjelnice, navalna grupa se oprema izolacijskim aparatima, za navalu pripremi!",
+      "hash": "03a53bffd83600"
+    },
+    {
+      "id": "zapovijed-za-navalu",
+      "voice": "opis",
+      "text": "Zapovjednik istupa ispred odjeljenja kao u vježbi 1 i zapovijeda:",
+      "hash": "11e43011d7f17b"
+    },
+    {
+      "id": "vodna-oprema",
+      "voice": "opis",
+      "text": "Vodna grupa polaže „B” cijevni vod kao u vježbi 1. Kada su položili „B” cijevni vod, vraćaju se i opremaju za polaganje prvog mlaza. Za prvi mlaz uzimaju istu opremu i postupaju kao navalna grupa u vježbi 1.",
+      "hash": "083cc56b384c9e"
+    },
+    {
+      "id": "opremanje-ia",
+      "voice": "opis",
+      "text": "Na zapovijed zapovjednika: „…za navalu pripremi”, navalna grupa se uz pomoć zapovjednika oprema izolacijskim aparatima. Nakon opremanja, vođa navalne grupe s članom navalne grupe, koji se nalazi s njegove desne strane, odlazi do razdjelnice s lijeve strane „B” cijevnog voda i staje na lijevo od vodne grupe koja se već tamo nalazi.",
+      "hash": "13067af0f7a7b6"
+    },
+    {
+      "id": "act.vodu-daj-b",
+      "voice": "zapovijed",
+      "text": "Vodu daj!",
+      "hash": "1a78cdd37ac23a"
+    },
+    {
+      "id": "voda-do-razdjelnice",
+      "voice": "opis",
+      "text": "Strojar, kada je od člana vodne grupe (V2) primio zapovijed: „Vodu daj”, pušta vodu do razdjelnice i odlazi na polaganje cijevnog voda od hidranta do vozila kao u vježbi 8 (skica 63).",
+      "hash": "04da500d94a5d2"
+    },
+    {
+      "id": "zapovjednik-razdjelnica",
+      "voice": "opis",
+      "text": "Zapovjednik, nakon što pomogne navalnoj grupi u opremanju s izolacijskim aparatima, odlazi do razdjelnice kao u vježbi 1 (skica 62).",
+      "hash": "1f8a19c3730d79"
+    },
+    {
+      "id": "act.prvi-mlaz-naprijed",
+      "voice": "zapovijed",
+      "text": "Za prvi mlaz s dvije „C” cijevi, navalna grupa s izolacijskim aparatima, pravac…naprijed",
+      "hash": "1275ae9856766c"
+    },
+    {
+      "id": "prvi-mlaz",
+      "voice": "opis",
+      "text": "Kada je puštena voda do razdjelnice, zapovjednik zapovijeda:",
+      "hash": "0e18569ceb45e3"
+    },
+    {
+      "id": "prvi-mlaz-2",
+      "voice": "opis",
+      "text": "Članovi vodne grupe polažu prvi mlaz kao navalna grupa u vježbi 1.",
+      "hash": "092d14bd47001e"
+    },
+    {
+      "id": "prvi-mlaz-predaja",
+      "voice": "opis",
+      "text": "Navalna grupa, nakon izdane zapovijedi zapovjednika za polaganje prvog mlaza, odlazi zajedno s vodnom grupom. Vođa vodne grupe (V1), nakon što je spojio mlaznicu na drugu „C” cijev prvog mlaza, mlaznicu i držač cijevi predaje vođi navalne grupe (N1) koji od poslužitelja na razdjelnici (zapovjednika) traži vodu, tj. zapovijeda: „Za prvi mlaz – vodu daj”.",
+      "hash": "1fe2df132656b9"
+    },
+    {
+      "id": "act.prvi-mlaz-vodu-daj",
+      "voice": "zapovijed",
+      "text": "Za prvi mlaz – vodu daj!",
+      "hash": "04ff2bdaf377aa"
+    },
+    {
+      "id": "prvi-mlaz-ventil",
+      "voice": "opis",
+      "text": "Zapovjednik obavlja radnje kao u vježbi 1 (slika 42).",
+      "hash": "1d7bf161c5d174"
+    },
+    {
+      "id": "act.drugi-mlaz-naprijed",
+      "voice": "zapovijed",
+      "text": "Za drugi mlaz, sa dvije „C” cijevi, pravac…naprijed",
+      "hash": "1c5aad74903131"
+    },
+    {
+      "id": "drugi-mlaz-zapovijed",
+      "voice": "opis",
+      "text": "Nakon izdane zapovijedi N1: „Za prvi mlaz vodu daj”, zapovjednik zapovijeda:",
+      "hash": "1899b4cf29acc9"
+    },
+    {
+      "id": "drugi-mlaz-zapovijed-2",
+      "voice": "opis",
+      "text": "Članovi vodne grupe predaju ključeve i torbicu s povezicama za cijevi zapovjedniku koji se nalazi na razdjelnici i odlaze lijevom stranom „B” cijevnog voda po opremu za drugi mlaz. Drugi mlaz polažu kao u vježbi 1 (skica 64).",
+      "hash": "0a07f9565e06d1"
+    },
+    {
+      "id": "act.drugi-mlaz-vodu-daj",
+      "voice": "zapovijed",
+      "text": "Za drugi mlaz vodu daj!",
+      "hash": "1cf04cf004ca5b"
+    },
+    {
+      "id": "act.vodom-stoj-mlazovi",
+      "voice": "zapovijed",
+      "text": "Prvi i drugi mlaz – vodom stoj!",
+      "hash": "0755cc211bdcd8"
+    },
+    {
+      "id": "vodom-stoj",
+      "voice": "opis",
+      "text": "Zapovijedi i radnje zapovjednika iste su kao u vježbi 1, a nakon odložene opreme pomaže navalnoj grupi u skidanju izolacijskih aparata. Vođa navalne grupe (N1) na zapovijed „Posprema!”, uzima mlaznicu i držač cijevi i zajedno sa članom (N2) odlazi na skidanje izolacijskih aparata.",
+      "hash": "081558a42a2bc1"
+    },
+    {
+      "id": "act.vodom-stoj-prvi",
+      "voice": "zapovijed",
+      "text": "Prvi mlaz – vodom stoj!",
+      "hash": "05455f7ba0ee95"
+    },
+    {
+      "id": "act.vodom-stoj-drugi",
+      "voice": "zapovijed",
+      "text": "Drugi mlaz – vodom stoj!",
+      "hash": "1d5ead4a01215b"
+    },
+    {
+      "id": "act.z-vodom-stoj",
+      "voice": "zapovijed",
+      "text": "Vodom stoj!",
+      "hash": "138cf361a363ce"
+    },
+    {
+      "id": "act.posprema",
+      "voice": "zapovijed",
+      "text": "Posprema!",
+      "hash": "13469a9e41281c"
+    },
+    {
+      "id": "posprema-strojar",
+      "voice": "opis",
+      "text": "Strojar na zapovijed „Posprema” postupa kao u vježbi 8.",
+      "hash": "0fcb2d1b06f2f4"
+    },
+    {
+      "id": "navalna-u-stroj",
+      "voice": "opis",
+      "text": "Kada odlože opremu, vatrogasci odlaze u stroj i postupaju kao u vježbi 1.",
+      "hash": "0217d21ec51a1e"
+    },
+    {
+      "id": "posprema-drugi",
+      "voice": "opis",
+      "text": "Vodna grupa na zapovijed „Posprema!” posprema drugi mlaz, odlažu opremu drugog mlaza, krećući se lijevom stranom „B” cijevnog voda, vraćaju se lijevom stranom „B” cijevnog voda i pospremaju prvi mlaz, odlažu opremu prvog mlaza, krećući se desnom stranom „B” cijevnog voda i pospremaju „B” cijevni vod. Vođa vodne grupe (V1) za odnošenje i odlaganje opreme prvog i drugog mlaza zapovijeda kao vođa navalne grupe (N1) u vježbi 7.",
+      "hash": "18a7ab1988a0e2"
+    },
+    {
+      "id": "act.opremu-uzmi-drugi",
+      "voice": "zapovijed",
+      "text": "Opremu uzmi!",
+      "hash": "03cf2ae0d2e3ab"
+    },
+    {
+      "id": "act.s-opremom-naprijed-drugi",
+      "voice": "zapovijed",
+      "text": "S opremom naprijed!",
+      "hash": "123f97f88a0ac1"
+    },
+    {
+      "id": "act.stoj-drugi",
+      "voice": "zapovijed",
+      "text": "Stoj!",
+      "hash": "0c041f0f1e56a9"
+    },
+    {
+      "id": "act.opremu-odlozi-drugi",
+      "voice": "zapovijed",
+      "text": "Opremu odloži!",
+      "hash": "1401b177c2cb0a"
+    },
+    {
+      "id": "act.opremu-uzmi-prvi",
+      "voice": "zapovijed",
+      "text": "Opremu uzmi!",
+      "hash": "03cf2ae0d2e3ab"
+    },
+    {
+      "id": "act.s-opremom-naprijed-prvi",
+      "voice": "zapovijed",
+      "text": "S opremom naprijed!",
+      "hash": "123f97f88a0ac1"
+    },
+    {
+      "id": "act.stoj-prvi",
+      "voice": "zapovijed",
+      "text": "Stoj!",
+      "hash": "0c041f0f1e56a9"
+    },
+    {
+      "id": "act.opremu-odlozi-prvi",
+      "voice": "zapovijed",
+      "text": "Opremu odloži!",
+      "hash": "1401b177c2cb0a"
+    },
+    {
+      "id": "act.prijavak",
+      "voice": "zapovijed",
+      "text": "Gospodine zapovjedniče, vježba je izvršena, oprema je na svome mjestu!",
+      "hash": "00e19441164dc7"
+    },
+    {
+      "id": "act.na-svoje-mjesto",
+      "voice": "zapovijed",
+      "text": "Na svoje mjesto!",
+      "hash": "163ba54158fbfe"
+    },
+    {
+      "id": "act.na-zapovijed",
+      "voice": "zapovijed",
+      "text": "Na zapovijed!",
+      "hash": "182ecc34d3ef04"
+    },
+    {
+      "id": "act.odmor-ili-otpust",
+      "voice": "zapovijed",
+      "text": "Na mjestu odmor!",
+      "hash": "06d370de725f05"
+    }
+  ],
+  "steps": {
+    "zbor": [
+      {
+        "clipId": "zbor"
+      },
+      {
+        "clipId": "act.zbor",
+        "actionId": "act.zbor"
+      }
+    ],
+    "zapovijed-za-navalu": [
+      {
+        "clipId": "zapovijed-za-navalu"
+      },
+      {
+        "clipId": "act.za-navalu",
+        "actionId": "act.za-navalu"
+      }
+    ],
+    "vodna-oprema": [
+      {
+        "clipId": "vodna-oprema"
+      }
+    ],
+    "opremanje-ia": [
+      {
+        "clipId": "opremanje-ia"
+      }
+    ],
+    "vodna-do-kraja-b": [
+      {
+        "clipId": "act.vodu-daj-b",
+        "actionId": "act.vodu-daj-b"
+      }
+    ],
+    "voda-do-razdjelnice": [
+      {
+        "clipId": "voda-do-razdjelnice"
+      }
+    ],
+    "zapovjednik-razdjelnica": [
+      {
+        "clipId": "zapovjednik-razdjelnica"
+      }
+    ],
+    "prvi-mlaz": [
+      {
+        "clipId": "prvi-mlaz"
+      },
+      {
+        "clipId": "act.prvi-mlaz-naprijed",
+        "actionId": "act.prvi-mlaz-naprijed"
+      },
+      {
+        "clipId": "prvi-mlaz-2"
+      }
+    ],
+    "prvi-mlaz-predaja": [
+      {
+        "clipId": "prvi-mlaz-predaja"
+      }
+    ],
+    "prvi-mlaz-vodu-daj": [
+      {
+        "clipId": "act.prvi-mlaz-vodu-daj",
+        "actionId": "act.prvi-mlaz-vodu-daj"
+      }
+    ],
+    "prvi-mlaz-ventil": [
+      {
+        "clipId": "prvi-mlaz-ventil"
+      }
+    ],
+    "drugi-mlaz-zapovijed": [
+      {
+        "clipId": "drugi-mlaz-zapovijed"
+      },
+      {
+        "clipId": "act.drugi-mlaz-naprijed",
+        "actionId": "act.drugi-mlaz-naprijed"
+      },
+      {
+        "clipId": "drugi-mlaz-zapovijed-2"
+      }
+    ],
+    "drugi-mlaz-vodu-daj": [
+      {
+        "clipId": "act.drugi-mlaz-vodu-daj",
+        "actionId": "act.drugi-mlaz-vodu-daj"
+      }
+    ],
+    "vodom-stoj": [
+      {
+        "clipId": "vodom-stoj"
+      },
+      {
+        "clipId": "act.vodom-stoj-mlazovi",
+        "actionId": "act.vodom-stoj-mlazovi"
+      }
+    ],
+    "vodom-stoj-vode": [
+      {
+        "clipId": "act.vodom-stoj-prvi",
+        "actionId": "act.vodom-stoj-prvi"
+      },
+      {
+        "clipId": "act.vodom-stoj-drugi",
+        "actionId": "act.vodom-stoj-drugi"
+      }
+    ],
+    "zatvaranje-vode": [
+      {
+        "clipId": "act.z-vodom-stoj",
+        "actionId": "act.z-vodom-stoj"
+      }
+    ],
+    "posprema": [
+      {
+        "clipId": "act.posprema",
+        "actionId": "act.posprema"
+      }
+    ],
+    "posprema-strojar": [
+      {
+        "clipId": "posprema-strojar"
+      }
+    ],
+    "navalna-u-stroj": [
+      {
+        "clipId": "navalna-u-stroj"
+      }
+    ],
+    "posprema-drugi": [
+      {
+        "clipId": "posprema-drugi"
+      }
+    ],
+    "posprema-drugi-odnosenje": [
+      {
+        "clipId": "act.opremu-uzmi-drugi",
+        "actionId": "act.opremu-uzmi-drugi"
+      },
+      {
+        "clipId": "act.s-opremom-naprijed-drugi",
+        "actionId": "act.s-opremom-naprijed-drugi"
+      },
+      {
+        "clipId": "act.stoj-drugi",
+        "actionId": "act.stoj-drugi"
+      },
+      {
+        "clipId": "act.opremu-odlozi-drugi",
+        "actionId": "act.opremu-odlozi-drugi"
+      }
+    ],
+    "posprema-prvi-odnosenje": [
+      {
+        "clipId": "act.opremu-uzmi-prvi",
+        "actionId": "act.opremu-uzmi-prvi"
+      },
+      {
+        "clipId": "act.s-opremom-naprijed-prvi",
+        "actionId": "act.s-opremom-naprijed-prvi"
+      },
+      {
+        "clipId": "act.stoj-prvi",
+        "actionId": "act.stoj-prvi"
+      },
+      {
+        "clipId": "act.opremu-odlozi-prvi",
+        "actionId": "act.opremu-odlozi-prvi"
+      }
+    ],
+    "prijavak": [
+      {
+        "clipId": "act.prijavak",
+        "actionId": "act.prijavak"
+      }
+    ],
+    "na-svoje-mjesto": [
+      {
+        "clipId": "act.na-svoje-mjesto",
+        "actionId": "act.na-svoje-mjesto"
+      }
+    ],
+    "zavrsetak": [
+      {
+        "clipId": "act.na-zapovijed",
+        "actionId": "act.na-zapovijed"
+      },
+      {
+        "clipId": "act.odmor-ili-otpust",
+        "actionId": "act.odmor-ili-otpust"
+      }
+    ]
+  }
+}

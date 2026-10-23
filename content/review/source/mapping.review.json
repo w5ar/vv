@@ -14,10 +14,6 @@
       "reason": "Opći postupak postrojavanja (skice 1–8); u ovoj fazi nije zasebna vježba. Vježbe počinju od postrojenog odjeljenja prikazanog na skici 11 odnosno 16."
     },
     {
-      "file": "11-Vjezba-11.md",
-      "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
-    },
-    {
       "file": "12-Vjezba-12.md",
       "reason": "Vježba još nije unesena u simulator (u izradi); kandidati koraka čekaju povezivanje."
     },
@@ -213,6 +209,18 @@
     },
     {
       "candidateId": "10-vjezba-10#2-7-2-vjezba-10-vjezba-s-2-c-mlaza-vode-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4",
+      "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
+    },
+    {
+      "candidateId": "11-vjezba-11#2-7-3-vjezba-11-vjezba-s-2-c-mlaza-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p1",
+      "reason": "Uvod u popis sudionika; sudionici su osobe početne scene, a popis se provjerava u fazi F."
+    },
+    {
+      "candidateId": "11-vjezba-11#2-7-3-vjezba-11-vjezba-s-2-c-mlaza-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p2",
+      "reason": "Raspored mjesta u vozilu (kao u vježbi 9) i smještaj opreme; simulator počinje od postrojenog odjeljenja, a oprema je u početnoj sceni (u spremnicima vozila)."
+    },
+    {
+      "candidateId": "11-vjezba-11#2-7-3-vjezba-11-vjezba-s-2-c-mlaza-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5",
       "reason": "Uvodna rečenica odjeljaka koji slijede; radnje su u tim odjeljcima."
     }
   ]

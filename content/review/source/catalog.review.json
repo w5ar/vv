@@ -690,11 +690,11 @@
       "rotation": {
         "mode": "free"
       },
-      "annotation": true,
+      "annotation": false,
       "provenance": "source",
       "review": {
         "status": "requires-review",
-        "notes": "Crta se iza osobe (nasuprot crtice smjera), 33 jedinice od središta (alati/vatrogasni_simboli.py, osoba(..., ia=True))."
+        "notes": "Crta se iza osobe (nasuprot crtice smjera), 33 jedinice od središta (alati/vatrogasni_simboli.py, osoba(..., ia=True)). Pri usporedbi sa skicama broji se kao izolacijski aparat koji vatrogasac nosi (depiction.worn tipa et.izolacijski-aparat)."
       },
       "sources": [
         {

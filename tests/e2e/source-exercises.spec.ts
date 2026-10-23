@@ -234,3 +234,20 @@ test('Vježba 10 demonstration (fire engine, hydrant line, two „C” jets) rea
   await expect(page.getByTestId('object-nastavak')).toHaveCount(0);
   expect(errors).toEqual([]);
 });
+
+test('Vježba 11 demonstration (breathing apparatus, nozzle handed over) reaches completion', async ({ page }) => {
+  const errors: string[] = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  await page.goto('#/demonstracija/vjezba-11-izolacijski-aparati');
+  await expect(page.getByTestId('object-nv')).toBeVisible();
+  // The breathing apparatus is in the vehicle until the navalna grupa puts it on.
+  await expect(page.getByTestId('object-ia1')).toHaveCount(0);
+  const range = page.getByTestId('timeline-range');
+  await range.fill('30000');
+  await expect(page.getByTestId('object-ia1')).toBeVisible();
+  await range.fill((await range.getAttribute('max')) ?? '0');
+  await expect(page.getByTestId('demo-complete')).toBeVisible();
+  await expect(page.getByTestId('progress-label')).toContainText('50 / 50');
+  await expect(page.getByTestId('object-ia1')).toHaveCount(0);
+  expect(errors).toEqual([]);
+});

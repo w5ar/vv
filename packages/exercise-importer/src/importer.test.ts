@@ -212,6 +212,7 @@ describe('full pipeline on repository content', async () => {
   const SOURCE_EXERCISES = [
     ['vjezba-1-dva-c-mlaza', '01-Vjezba-1.md'],
     ['vjezba-10-navalno-vozilo-hidrant', '10-Vjezba-10.md'],
+    ['vjezba-11-izolacijski-aparati', '11-Vjezba-11.md'],
     ['vjezba-2-jedan-c-mlaz', '02-Vjezba-2.md'],
     ['vjezba-3-usisne-cijevi', '03-Vjezba-3.md'],
     ['vjezba-4-usisne-cijevi', '04-Vjezba-4.md'],
@@ -389,6 +390,19 @@ describe('stage F – source exercise checks', async () => {
     // The unmodified exercise matches all its sketches.
     const clean = compileExercise('v.exercise.json', structuredClone(authoring), ctx);
     expect(clean.diagnostics.filter((d) => d.code.startsWith('diagram.'))).toEqual([]);
+  });
+
+  it('counts worn breathing apparatus as the symbol the sketch draws on the carrier', async () => {
+    const v11 = JSON.parse(await readFile(path.join(repoRoot, 'content/authoring/source/vjezba-11.exercise.json'), 'utf8')) as Record<string, any>;
+    const diagramCodes = (c: typeof catalog) =>
+      compileExercise('v11.exercise.json', structuredClone(v11), { ...ctx, catalog: c }).diagnostics.filter((d) => d.code.startsWith('diagram.'));
+    expect(diagramCodes(catalog)).toEqual([]);
+    // Without the worn depiction the apparatus would be an ordinary carried item, and skice 62–64 would show symbols the exercise lacks.
+    const plain = CatalogSchema.parse({
+      ...catalog,
+      equipmentTypes: catalog.equipmentTypes.map((t) => (t.id === 'et.izolacijski-aparat' ? { ...t, depiction: undefined } : t)),
+    });
+    expect(new Set(diagramCodes(plain).map((d) => d.subjectId))).toEqual(new Set(['src.ia-ljestve']));
   });
 
   it('checks the initial scene against the participant and equipment lists', () => {

@@ -253,6 +253,24 @@ give the scene a real scale.
     vehicle. The strojar disconnects the „B” line from the pump and tidies the hydrant line as in Vježba 8.
     Skica 59 draws a longer „B” line than skica 60; the zapovjednik’s place relative to the distributor is kept.
 
+## Vježba 11 — izolacijski aparati (Vj11 = `content/source/11-Vjezba-11.md`)
+
+82. **No equipment list**: as in Vježba 10 the equipment of Vježba 1 is used, plus the two breathing apparatus
+    the text names (Vj11 26); that they are kept in the vehicle is an assumption.
+83. **Putting on and taking off the apparatus** (Vj11 26, 64) are shown as one action each („uz pomoć
+    zapovjednika”), without details; checks before use are not described and are not shown.
+84. **Handing over the nozzle**: Vj11 38 has V₁ hand the nozzle and the holder to N₁ after connecting the nozzle;
+    the navalna grupa then holds the jet where skica 63 draws it (N₂ one step behind N₁, as in Vježba 1). Where
+    the vodna grupa goes until the order for the second jet is taken from skica 63 (near the distributor, facing
+    the vehicle).
+85. **First-jet water**: N₁ asks for water (Vj11 38) and the zapovjednik acts as in Vježba 1 (Vj11 40),
+    confirming the order and opening the left valve. Slika 42 (a photograph) shows the same moment and is not compared.
+86. **Pospremanje**: N₁ takes the nozzle and the holder and goes with N₂ to the vehicle, where the zapovjednik
+    helps them take off the apparatus after putting away the bag and the keys; apparatus, nozzle and holder go
+    back into the vehicle (assumption). The vodna grupa tidies the second jet, takes its equipment to the vehicle,
+    comes back for the first jet (with the distributor and the spare hoses) and finally the „B” line; V₁ gives the
+    orders of Vježba 7 for both loads.
+
 ## Demonstration sound
 
 26. **Resolved orders**: Vj1 111 quotes *„Prvi, odnosno drugi mlaz – vodom stoj!”* for both leaders;

@@ -808,6 +808,13 @@
         ]
       },
       {
+        "symbolId": "src.ia-ljestve",
+        "term": "ia na leđima",
+        "lines": [
+          60
+        ]
+      },
+      {
         "symbolId": "src.izolacijski-aparat",
         "term": "izolacijski aparat",
         "lines": [
@@ -16630,8 +16637,10 @@
         "diagramRefs": [
           "09-Vjezba-9.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-11-izolacijski-aparati/zbor"
+        ],
+        "status": "mapped"
       },
       {
         "id": "11-vjezba-11#2-7-3-vjezba-11-vjezba-s-2-c-mlaza-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p4",
@@ -16654,8 +16663,10 @@
         "diagramRefs": [
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-11-izolacijski-aparati/zapovijed-za-navalu"
+        ],
+        "status": "mapped"
       },
       {
         "id": "11-vjezba-11#2-7-3-vjezba-11-vjezba-s-2-c-mlaza-vode-navalna-grupa-oprema-se-izolacijskim-aparatima-opskrba-vodom-iz-hidrantske-mreze-6-vatrogasaca/p5",
@@ -16694,8 +16705,15 @@
           "01-Vjezba-1.md",
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-11-izolacijski-aparati/vodna-oprema",
+          "vjezba-11-izolacijski-aparati/strojar-kod-pumpe",
+          "vjezba-11-izolacijski-aparati/polaganje-b-prva",
+          "vjezba-11-izolacijski-aparati/polaganje-b-druga",
+          "vjezba-11-izolacijski-aparati/vodna-oprema-prvi",
+          "vjezba-11-izolacijski-aparati/vodna-do-kraja-b"
+        ],
+        "status": "mapped"
       },
       {
         "id": "11-vjezba-11#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p2",
@@ -16718,8 +16736,11 @@
           "src.n1"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-11-izolacijski-aparati/opremanje-ia",
+          "vjezba-11-izolacijski-aparati/navalna-razdjelnica"
+        ],
+        "status": "mapped"
       },
       {
         "id": "11-vjezba-11#polaganje-b-cijevnog-voda-u-cijevnom-sektoru/p3",
@@ -16743,8 +16764,10 @@
         "diagramRefs": [
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-11-izolacijski-aparati/zapovjednik-razdjelnica"
+        ],
+        "status": "mapped"
       },
       {
         "id": "11-vjezba-11#polaganje-prvog-mlaza-u-navalnom-sektoru/p1",
@@ -16768,8 +16791,11 @@
         "diagramRefs": [
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-11-izolacijski-aparati/prvi-mlaz",
+          "vjezba-11-izolacijski-aparati/prvi-mlaz-v1"
+        ],
+        "status": "mapped"
       },
       {
         "id": "11-vjezba-11#polaganje-prvog-mlaza-u-navalnom-sektoru/p2",
@@ -16793,8 +16819,12 @@
           "src.v1"
         ],
         "diagramRefs": [],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-11-izolacijski-aparati/prvi-mlaz-predaja",
+          "vjezba-11-izolacijski-aparati/prvi-mlaz-vodu-daj",
+          "vjezba-11-izolacijski-aparati/vodna-natrag"
+        ],
+        "status": "mapped"
       },
       {
         "id": "11-vjezba-11#polaganje-prvog-mlaza-u-navalnom-sektoru/p3",
@@ -16818,8 +16848,10 @@
         "diagramRefs": [
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-11-izolacijski-aparati/prvi-mlaz-ventil"
+        ],
+        "status": "mapped"
       },
       {
         "id": "11-vjezba-11#polaganje-cijevnog-voda-od-hidranta-do-vozila/p1",
@@ -16844,8 +16876,12 @@
         "diagramRefs": [
           "08-Vjezba-8.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-11-izolacijski-aparati/voda-do-razdjelnice",
+          "vjezba-11-izolacijski-aparati/strojar-nastavak",
+          "vjezba-11-izolacijski-aparati/strojar-b-hidrant"
+        ],
+        "status": "mapped"
       },
       {
         "id": "11-vjezba-11#polaganje-drugog-mlaza-u-navalnom-sektoru/p1",
@@ -16870,8 +16906,17 @@
         "diagramRefs": [
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-11-izolacijski-aparati/drugi-mlaz-zapovijed",
+          "vjezba-11-izolacijski-aparati/drugi-mlaz-predaja",
+          "vjezba-11-izolacijski-aparati/drugi-mlaz-oprema",
+          "vjezba-11-izolacijski-aparati/drugi-mlaz-v2",
+          "vjezba-11-izolacijski-aparati/drugi-mlaz-v1-mlaznica",
+          "vjezba-11-izolacijski-aparati/drugi-mlaz-v2-luk",
+          "vjezba-11-izolacijski-aparati/drugi-mlaz-vodu-daj",
+          "vjezba-11-izolacijski-aparati/drugi-mlaz-potvrda"
+        ],
+        "status": "mapped"
       },
       {
         "id": "11-vjezba-11#pospremanje-opreme/p1",
@@ -16897,8 +16942,16 @@
         "diagramRefs": [
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-11-izolacijski-aparati/vodom-stoj",
+          "vjezba-11-izolacijski-aparati/vodom-stoj-vode",
+          "vjezba-11-izolacijski-aparati/zatvaranje-vode",
+          "vjezba-11-izolacijski-aparati/posprema",
+          "vjezba-11-izolacijski-aparati/posprema-n1",
+          "vjezba-11-izolacijski-aparati/posprema-zapovjednik",
+          "vjezba-11-izolacijski-aparati/skidanje-ia"
+        ],
+        "status": "mapped"
       },
       {
         "id": "11-vjezba-11#pospremanje-opreme/p2",
@@ -16924,8 +16977,17 @@
         "diagramRefs": [
           "07-Vjezba-7.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-11-izolacijski-aparati/posprema-drugi",
+          "vjezba-11-izolacijski-aparati/posprema-drugi-motanje",
+          "vjezba-11-izolacijski-aparati/posprema-drugi-odnosenje",
+          "vjezba-11-izolacijski-aparati/posprema-prvi",
+          "vjezba-11-izolacijski-aparati/posprema-prvi-motanje",
+          "vjezba-11-izolacijski-aparati/posprema-prvi-odnosenje",
+          "vjezba-11-izolacijski-aparati/posprema-b",
+          "vjezba-11-izolacijski-aparati/posprema-b-motanje"
+        ],
+        "status": "mapped"
       },
       {
         "id": "11-vjezba-11#pospremanje-opreme/p3",
@@ -16949,8 +17011,10 @@
         "diagramRefs": [
           "08-Vjezba-8.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-11-izolacijski-aparati/posprema-strojar"
+        ],
+        "status": "mapped"
       },
       {
         "id": "11-vjezba-11#pospremanje-opreme/p4",
@@ -16970,8 +17034,15 @@
         "diagramRefs": [
           "01-Vjezba-1.md"
         ],
-        "mappedTo": [],
-        "status": "ignored"
+        "mappedTo": [
+          "vjezba-11-izolacijski-aparati/navalna-u-stroj",
+          "vjezba-11-izolacijski-aparati/strojar-u-stroj",
+          "vjezba-11-izolacijski-aparati/pregled-opreme",
+          "vjezba-11-izolacijski-aparati/prijavak",
+          "vjezba-11-izolacijski-aparati/na-svoje-mjesto",
+          "vjezba-11-izolacijski-aparati/zavrsetak"
+        ],
+        "status": "mapped"
       }
     ],
     "roleMentions": [

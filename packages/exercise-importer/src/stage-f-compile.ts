@@ -491,10 +491,12 @@ function compareSchematic(
     }
     if (obj.kind === 'personnel') personnel.add(obj.symbolId);
     // A connected item is drawn as its attached symbol (a nozzle tip); a marker is not counted.
-    const attached = obj.typeId ? types.get(obj.typeId)?.depiction?.attachedSymbolId : undefined;
-    const drawnAs = attached && isConnected(obj.id) ? attached : obj.symbolId;
+    // Worn equipment (a breathing apparatus) is drawn on its carrier, so the sketch must show it.
+    const depiction = obj.typeId ? types.get(obj.typeId)?.depiction : undefined;
+    const worn = obj.carriedBy ? depiction?.worn?.symbolId : undefined;
+    const drawnAs = worn ?? (depiction?.attachedSymbolId && isConnected(obj.id) ? depiction.attachedSymbolId : obj.symbolId);
     if (symbols.get(drawnAs)?.annotation) continue;
-    const optional = obj.carriedBy || assembled(obj.id, obj.typeId) || optionalConnected(obj.id, obj.typeId);
+    const optional = (obj.carriedBy && !worn) || assembled(obj.id, obj.typeId) || optionalConnected(obj.id, obj.typeId);
     const bucket = optional ? carried : free;
     bucket.set(drawnAs, (bucket.get(drawnAs) ?? 0) + 1);
   }
