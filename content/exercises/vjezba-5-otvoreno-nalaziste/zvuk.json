@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 1,
+  "exerciseId": "vjezba-5-otvoreno-nalaziste",
+  "clips": {
+    "act.cetiri-usisne": {
+      "file": "act.cetiri-usisne.webm",
+      "durationMs": 2156,
+      "voice": "zapovijed",
+      "hash": "0671d99de23ac5",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.dizi-1": {
+      "file": "act.dizi-1.webm",
+      "durationMs": 1106,
+      "voice": "zapovijed",
+      "hash": "1f917b3323a5e2",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.dizi-2": {
+      "file": "act.dizi-2.webm",
+      "durationMs": 1356,
+      "voice": "zapovijed",
+      "hash": "1f917b3323a5e2",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.dizi-3": {
+      "file": "act.dizi-3.webm",
+      "durationMs": 1506,
+      "voice": "zapovijed",
+      "hash": "1f917b3323a5e2",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.dizi-4": {
+      "file": "act.dizi-4.webm",
+      "durationMs": 956,
+      "voice": "zapovijed",
+      "hash": "1f917b3323a5e2",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.dizi-spusti-r1": {
+      "file": "act.dizi-spusti-r1.webm",
+      "durationMs": 2006,
+      "voice": "zapovijed",
+      "hash": "1254e5ec47db2d",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.dizi-spusti-r2": {
+      "file": "act.dizi-spusti-r2.webm",
+      "durationMs": 2406,
+      "voice": "zapovijed",
+      "hash": "1254e5ec47db2d",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.dizi-spusti-r3": {
+      "file": "act.dizi-spusti-r3.webm",
+      "durationMs": 2306,
+      "voice": "zapovijed",
+      "hash": "1254e5ec47db2d",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.dizi-spusti-r4": {
+      "file": "act.dizi-spusti-r4.webm",
+      "durationMs": 2456,
+      "voice": "zapovijed",
+      "hash": "1254e5ec47db2d",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.drugi-mlaz-naprijed": {
+      "file": "act.drugi-mlaz-naprijed.webm",
+      "durationMs": 4906,
+      "voice": "zapovijed",
+      "hash": "105ba74a19bb1b",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.drugi-mlaz-vodu-daj": {
+      "file": "act.drugi-mlaz-vodu-daj.webm",
+      "durationMs": 3006,
+      "voice": "zapovijed",
+      "hash": "1cf04cf004ca5b",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.gotovo": {
+      "file": "act.gotovo.webm",
+      "durationMs": 956,
+      "voice": "zapovijed",
+      "hash": "0bb3d9f76c7717",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.iz-vode": {
+      "file": "act.iz-vode.webm",
+      "durationMs": 2056,
+      "voice": "zapovijed",
+      "hash": "11a10d57c3b649",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.na-svoje-mjesto": {
+      "file": "act.na-svoje-mjesto.webm",
+      "durationMs": 2056,
+      "voice": "zapovijed",
+      "hash": "163ba54158fbfe",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.na-zapovijed": {
+      "file": "act.na-zapovijed.webm",
+      "durationMs": 2456,
+      "voice": "zapovijed",
+      "hash": "182ecc34d3ef04",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.odmor-ili-otpust": {
+      "file": "act.odmor-ili-otpust.webm",
+      "durationMs": 2456,
+      "voice": "zapovijed",
+      "hash": "06d370de725f05",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.opremu-odlozi": {
+      "file": "act.opremu-odlozi.webm",
+      "durationMs": 2056,
+      "voice": "zapovijed",
+      "hash": "1401b177c2cb0a",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.opremu-uzmi": {
+      "file": "act.opremu-uzmi.webm",
+      "durationMs": 2856,
+      "voice": "zapovijed",
+      "hash": "03cf2ae0d2e3ab",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.posprema": {
+      "file": "act.posprema.webm",
+      "durationMs": 2706,
+      "voice": "zapovijed",
+      "hash": "13469a9e41281c",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.prijavak": {
+      "file": "act.prijavak.webm",
+      "durationMs": 6006,
+      "voice": "zapovijed",
+      "hash": "00e19441164dc7",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.prvi-mlaz-naprijed": {
+      "file": "act.prvi-mlaz-naprijed.webm",
+      "durationMs": 4456,
+      "voice": "zapovijed",
+      "hash": "02bfb140f55827",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.prvi-mlaz-vodu-daj": {
+      "file": "act.prvi-mlaz-vodu-daj.webm",
+      "durationMs": 3556,
+      "voice": "zapovijed",
+      "hash": "04ff2bdaf377aa",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.s-opremom-naprijed": {
+      "file": "act.s-opremom-naprijed.webm",
+      "durationMs": 2456,
+      "voice": "zapovijed",
+      "hash": "123f97f88a0ac1",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.spusti-1": {
+      "file": "act.spusti-1.webm",
+      "durationMs": 1856,
+      "voice": "zapovijed",
+      "hash": "1a1db46ccfb9c3",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.spusti-2": {
+      "file": "act.spusti-2.webm",
+      "durationMs": 1706,
+      "voice": "zapovijed",
+      "hash": "1a1db46ccfb9c3",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.spusti-3": {
+      "file": "act.spusti-3.webm",
+      "durationMs": 1356,
+      "voice": "zapovijed",
+      "hash": "1a1db46ccfb9c3",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.spusti-4": {
+      "file": "act.spusti-4.webm",
+      "durationMs": 1556,
+      "voice": "zapovijed",
+      "hash": "1a1db46ccfb9c3",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.stoj-celom-nazad": {
+      "file": "act.stoj-celom-nazad.webm",
+      "durationMs": 2356,
+      "voice": "zapovijed",
+      "hash": "0e1c1cfdf1037d",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.u-vodu": {
+      "file": "act.u-vodu.webm",
+      "durationMs": 2506,
+      "voice": "zapovijed",
+      "hash": "1255f9b780d4e8",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.uzetom-vezi": {
+      "file": "act.uzetom-vezi.webm",
+      "durationMs": 2556,
+      "voice": "zapovijed",
+      "hash": "10069c60053e07",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.vodom-stoj-drugi": {
+      "file": "act.vodom-stoj-drugi.webm",
+      "durationMs": 3206,
+      "voice": "zapovijed",
+      "hash": "1d5ead4a01215b",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.vodom-stoj-mlazovi": {
+      "file": "act.vodom-stoj-mlazovi.webm",
+      "durationMs": 4206,
+      "voice": "zapovijed",
+      "hash": "0755cc211bdcd8",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.vodom-stoj-prvi": {
+      "file": "act.vodom-stoj-prvi.webm",
+      "durationMs": 2506,
+      "voice": "zapovijed",
+      "hash": "05455f7ba0ee95",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.vodu-daj-b": {
+      "file": "act.vodu-daj-b.webm",
+      "durationMs": 2106,
+      "voice": "zapovijed",
+      "hash": "1a78cdd37ac23a",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.z-vodom-stoj": {
+      "file": "act.z-vodom-stoj.webm",
+      "durationMs": 1856,
+      "voice": "zapovijed",
+      "hash": "138cf361a363ce",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.za-navalu": {
+      "file": "act.za-navalu.webm",
+      "durationMs": 7856,
+      "voice": "zapovijed",
+      "hash": "1412a772082c64",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.zbor": {
+      "file": "act.zbor.webm",
+      "durationMs": 2106,
+      "voice": "zapovijed",
+      "hash": "0f463788e4c968",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "cetiri-usisne": {
+      "file": "cetiri-usisne.webm",
+      "durationMs": 5606,
+      "voice": "opis",
+      "hash": "0b01f3bb61ba0d",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "drugi-mlaz-zapovijed": {
+      "file": "drugi-mlaz-zapovijed.webm",
+      "durationMs": 2306,
+      "voice": "opis",
+      "hash": "0f4ff1539f7455",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "drugi-mlaz-zapovijed-2": {
+      "file": "drugi-mlaz-zapovijed-2.webm",
+      "durationMs": 8856,
+      "voice": "opis",
+      "hash": "080015c4ab3911",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "gotovo": {
+      "file": "gotovo.webm",
+      "durationMs": 18256,
+      "voice": "opis",
+      "hash": "0b5f6a70954d8e",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "iz-vode": {
+      "file": "iz-vode.webm",
+      "durationMs": 13006,
+      "voice": "opis",
+      "hash": "01c4c80455b2bb",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "iz-vode-2": {
+      "file": "iz-vode-2.webm",
+      "durationMs": 3556,
+      "voice": "opis",
+      "hash": "14a98f8dbaeb4f",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "navalna-b-oprema": {
+      "file": "navalna-b-oprema.webm",
+      "durationMs": 31656,
+      "voice": "opis",
+      "hash": "0a8794dfebd645",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "navalna-oprema-n1": {
+      "file": "navalna-oprema-n1.webm",
+      "durationMs": 11756,
+      "voice": "opis",
+      "hash": "115866c5902dbf",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "posprema": {
+      "file": "posprema.webm",
+      "durationMs": 2606,
+      "voice": "opis",
+      "hash": "0f4ff1539f7455",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "posprema-2": {
+      "file": "posprema-2.webm",
+      "durationMs": 8406,
+      "voice": "opis",
+      "hash": "0aae56e41a5845",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "posprema-b": {
+      "file": "posprema-b.webm",
+      "durationMs": 8256,
+      "voice": "opis",
+      "hash": "11bb8f6ca3e730",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "posprema-strojar": {
+      "file": "posprema-strojar.webm",
+      "durationMs": 19306,
+      "voice": "opis",
+      "hash": "0e6546f4befcdc",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "pregled-opreme": {
+      "file": "pregled-opreme.webm",
+      "durationMs": 6356,
+      "voice": "opis",
+      "hash": "159eba1249b117",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "strojar-oprema": {
+      "file": "strojar-oprema.webm",
+      "durationMs": 17706,
+      "voice": "opis",
+      "hash": "0932a4ebffcf8c",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "voda-do-razdjelnice": {
+      "file": "voda-do-razdjelnice.webm",
+      "durationMs": 25306,
+      "voice": "opis",
+      "hash": "0a00c86104db1a",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "vodom-stoj": {
+      "file": "vodom-stoj.webm",
+      "durationMs": 4706,
+      "voice": "opis",
+      "hash": "051f129cd5798e",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "vodom-stoj-2": {
+      "file": "vodom-stoj-2.webm",
+      "durationMs": 5756,
+      "voice": "opis",
+      "hash": "1cb639955af6e1",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "zapovijed-za-navalu": {
+      "file": "zapovijed-za-navalu.webm",
+      "durationMs": 9106,
+      "voice": "opis",
+      "hash": "1f91d607bd1c81",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "zbor": {
+      "file": "zbor.webm",
+      "durationMs": 10256,
+      "voice": "opis",
+      "hash": "1e208586734e0c",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "zbor-2": {
+      "file": "zbor-2.webm",
+      "durationMs": 7306,
+      "voice": "opis",
+      "hash": "1657954715cc4d",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    }
+  }
+}

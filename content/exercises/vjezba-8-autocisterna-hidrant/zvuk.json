@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "exerciseId": "vjezba-8-autocisterna-hidrant",
+  "clips": {
+    "act.na-svoje-mjesto": {
+      "file": "act.na-svoje-mjesto.webm",
+      "durationMs": 2356,
+      "voice": "zapovijed",
+      "hash": "163ba54158fbfe",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.na-zapovijed": {
+      "file": "act.na-zapovijed.webm",
+      "durationMs": 1006,
+      "voice": "zapovijed",
+      "hash": "182ecc34d3ef04",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.odmor-ili-otpust": {
+      "file": "act.odmor-ili-otpust.webm",
+      "durationMs": 2106,
+      "voice": "zapovijed",
+      "hash": "06d370de725f05",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.opremu-odlozi": {
+      "file": "act.opremu-odlozi.webm",
+      "durationMs": 1606,
+      "voice": "zapovijed",
+      "hash": "1401b177c2cb0a",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.opremu-uzmi": {
+      "file": "act.opremu-uzmi.webm",
+      "durationMs": 2056,
+      "voice": "zapovijed",
+      "hash": "03cf2ae0d2e3ab",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.posprema": {
+      "file": "act.posprema.webm",
+      "durationMs": 1256,
+      "voice": "zapovijed",
+      "hash": "13469a9e41281c",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.prvi-mlaz-naprijed": {
+      "file": "act.prvi-mlaz-naprijed.webm",
+      "durationMs": 5656,
+      "voice": "zapovijed",
+      "hash": "0b78a4b07b9225",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.prvi-mlaz-vodu-daj": {
+      "file": "act.prvi-mlaz-vodu-daj.webm",
+      "durationMs": 3756,
+      "voice": "zapovijed",
+      "hash": "115b18c873eb0f",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.s-opremom-naprijed": {
+      "file": "act.s-opremom-naprijed.webm",
+      "durationMs": 1956,
+      "voice": "zapovijed",
+      "hash": "123f97f88a0ac1",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.stoj": {
+      "file": "act.stoj.webm",
+      "durationMs": 1256,
+      "voice": "zapovijed",
+      "hash": "0c041f0f1e56a9",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.vodom-stoj": {
+      "file": "act.vodom-stoj.webm",
+      "durationMs": 2706,
+      "voice": "zapovijed",
+      "hash": "11c20a3d814aed",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.za-navalu": {
+      "file": "act.za-navalu.webm",
+      "durationMs": 7306,
+      "voice": "zapovijed",
+      "hash": "1020d83796adeb",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "b-vod": {
+      "file": "b-vod.webm",
+      "durationMs": 8056,
+      "voice": "opis",
+      "hash": "0bb7925d39177b",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "posprema-b": {
+      "file": "posprema-b.webm",
+      "durationMs": 6806,
+      "voice": "opis",
+      "hash": "0d13f2fc243978",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "posprema-strojar": {
+      "file": "posprema-strojar.webm",
+      "durationMs": 22406,
+      "voice": "opis",
+      "hash": "0f57e85b47bec7",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "postrojavanje": {
+      "file": "postrojavanje.webm",
+      "durationMs": 15606,
+      "voice": "opis",
+      "hash": "13dc99e0bf786d",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "prvi-mlaz": {
+      "file": "prvi-mlaz.webm",
+      "durationMs": 8406,
+      "voice": "opis",
+      "hash": "074dc67a3bd621",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "strojar-nastavak": {
+      "file": "strojar-nastavak.webm",
+      "durationMs": 44056,
+      "voice": "opis",
+      "hash": "13f18e6fa266b1",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "u-stroj": {
+      "file": "u-stroj.webm",
+      "durationMs": 6556,
+      "voice": "opis",
+      "hash": "0536b8caf0a7fe",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "vodom-stoj": {
+      "file": "vodom-stoj.webm",
+      "durationMs": 14056,
+      "voice": "opis",
+      "hash": "0a8ebd3671ee66",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    }
+  }
+}

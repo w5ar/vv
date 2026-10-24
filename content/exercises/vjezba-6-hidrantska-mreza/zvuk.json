@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "exerciseId": "vjezba-6-hidrantska-mreza",
+  "clips": {
+    "act.drugi-mlaz-naprijed": {
+      "file": "act.drugi-mlaz-naprijed.webm",
+      "durationMs": 5556,
+      "voice": "zapovijed",
+      "hash": "105ba74a19bb1b",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.drugi-mlaz-vodu-daj": {
+      "file": "act.drugi-mlaz-vodu-daj.webm",
+      "durationMs": 3006,
+      "voice": "zapovijed",
+      "hash": "1cf04cf004ca5b",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.na-svoje-mjesto": {
+      "file": "act.na-svoje-mjesto.webm",
+      "durationMs": 1956,
+      "voice": "zapovijed",
+      "hash": "163ba54158fbfe",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.na-zapovijed": {
+      "file": "act.na-zapovijed.webm",
+      "durationMs": 1356,
+      "voice": "zapovijed",
+      "hash": "182ecc34d3ef04",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.odmor-ili-otpust": {
+      "file": "act.odmor-ili-otpust.webm",
+      "durationMs": 2406,
+      "voice": "zapovijed",
+      "hash": "06d370de725f05",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.opremu-odlozi": {
+      "file": "act.opremu-odlozi.webm",
+      "durationMs": 2256,
+      "voice": "zapovijed",
+      "hash": "1401b177c2cb0a",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.opremu-uzmi": {
+      "file": "act.opremu-uzmi.webm",
+      "durationMs": 1756,
+      "voice": "zapovijed",
+      "hash": "03cf2ae0d2e3ab",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.posprema": {
+      "file": "act.posprema.webm",
+      "durationMs": 1156,
+      "voice": "zapovijed",
+      "hash": "13469a9e41281c",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.prijavak": {
+      "file": "act.prijavak.webm",
+      "durationMs": 5806,
+      "voice": "zapovijed",
+      "hash": "00e19441164dc7",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.prvi-mlaz-naprijed": {
+      "file": "act.prvi-mlaz-naprijed.webm",
+      "durationMs": 4656,
+      "voice": "zapovijed",
+      "hash": "02bfb140f55827",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.prvi-mlaz-vodu-daj": {
+      "file": "act.prvi-mlaz-vodu-daj.webm",
+      "durationMs": 4406,
+      "voice": "zapovijed",
+      "hash": "04ff2bdaf377aa",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.s-opremom-naprijed": {
+      "file": "act.s-opremom-naprijed.webm",
+      "durationMs": 2406,
+      "voice": "zapovijed",
+      "hash": "123f97f88a0ac1",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.stoj-celom-nazad": {
+      "file": "act.stoj-celom-nazad.webm",
+      "durationMs": 2456,
+      "voice": "zapovijed",
+      "hash": "0e1c1cfdf1037d",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.vodom-stoj-drugi": {
+      "file": "act.vodom-stoj-drugi.webm",
+      "durationMs": 3106,
+      "voice": "zapovijed",
+      "hash": "1d5ead4a01215b",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.vodom-stoj-mlazovi": {
+      "file": "act.vodom-stoj-mlazovi.webm",
+      "durationMs": 3156,
+      "voice": "zapovijed",
+      "hash": "0755cc211bdcd8",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.vodom-stoj-prvi": {
+      "file": "act.vodom-stoj-prvi.webm",
+      "durationMs": 3256,
+      "voice": "zapovijed",
+      "hash": "05455f7ba0ee95",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.vodu-daj-b": {
+      "file": "act.vodu-daj-b.webm",
+      "durationMs": 1956,
+      "voice": "zapovijed",
+      "hash": "1a78cdd37ac23a",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.vodu-daj-hidrant": {
+      "file": "act.vodu-daj-hidrant.webm",
+      "durationMs": 2456,
+      "voice": "zapovijed",
+      "hash": "1a78cdd37ac23a",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.z-vodom-stoj": {
+      "file": "act.z-vodom-stoj.webm",
+      "durationMs": 2406,
+      "voice": "zapovijed",
+      "hash": "138cf361a363ce",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.za-navalu": {
+      "file": "act.za-navalu.webm",
+      "durationMs": 9206,
+      "voice": "zapovijed",
+      "hash": "011d2ef8d0d185",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "act.zbor": {
+      "file": "act.zbor.webm",
+      "durationMs": 2006,
+      "voice": "zapovijed",
+      "hash": "0f463788e4c968",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "onyx"
+    },
+    "drugi-mlaz-zapovijed": {
+      "file": "drugi-mlaz-zapovijed.webm",
+      "durationMs": 6606,
+      "voice": "opis",
+      "hash": "05f7744b3323d5",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "navalna-b-oprema": {
+      "file": "navalna-b-oprema.webm",
+      "durationMs": 9306,
+      "voice": "opis",
+      "hash": "05bff83f5052ea",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "posprema-b": {
+      "file": "posprema-b.webm",
+      "durationMs": 4606,
+      "voice": "opis",
+      "hash": "19e7aa8d16dd7d",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "pregled-opreme": {
+      "file": "pregled-opreme.webm",
+      "durationMs": 7106,
+      "voice": "opis",
+      "hash": "0217d21ec51a1e",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "prvi-mlaz": {
+      "file": "prvi-mlaz.webm",
+      "durationMs": 15306,
+      "voice": "opis",
+      "hash": "14609f5f6a0d58",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "strojar-sabirnica": {
+      "file": "strojar-sabirnica.webm",
+      "durationMs": 12756,
+      "voice": "opis",
+      "hash": "0111f5f97c8cf8",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "v1-hidrant": {
+      "file": "v1-hidrant.webm",
+      "durationMs": 16706,
+      "voice": "opis",
+      "hash": "0edbd6e01fd03e",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "v1-nastavak": {
+      "file": "v1-nastavak.webm",
+      "durationMs": 23606,
+      "voice": "opis",
+      "hash": "08d479e86a33f4",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "v2-b-hidrant": {
+      "file": "v2-b-hidrant.webm",
+      "durationMs": 10456,
+      "voice": "opis",
+      "hash": "0408baf9553882",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "v2-oprema": {
+      "file": "v2-oprema.webm",
+      "durationMs": 83006,
+      "voice": "opis",
+      "hash": "0ff1c20308f3bd",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "vodom-stoj": {
+      "file": "vodom-stoj.webm",
+      "durationMs": 38956,
+      "voice": "opis",
+      "hash": "0210ecb6b3b0b0",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "zapovijed-za-navalu": {
+      "file": "zapovijed-za-navalu.webm",
+      "durationMs": 9756,
+      "voice": "opis",
+      "hash": "063a68d8f575f8",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    },
+    "zbor": {
+      "file": "zbor.webm",
+      "durationMs": 8906,
+      "voice": "opis",
+      "hash": "11a5820b005136",
+      "model": "gpt-4o-mini-tts",
+      "voiceName": "nova"
+    }
+  }
+}
