@@ -28,6 +28,14 @@ test('library lists both source exercises as awaiting expert review, next to the
   await expect(page.getByTestId('exercise-sinteticka-vjezba-01')).toContainText('SINTETIČKI');
 });
 
+test('library shows the source exercises in the order of their numbers', async ({ page }) => {
+  await page.goto('#/');
+  await expect(page.getByTestId('exercise-vjezba-15-natjecateljska')).toBeVisible();
+  const titles = await page.locator('.card h2').allInnerTexts();
+  const numbers = titles.map((t) => /^Vježba (\d+)/.exec(t)?.[1]).filter(Boolean).map(Number);
+  expect(numbers).toEqual(Array.from({ length: 15 }, (_, i) => i + 1));
+});
+
 test('source catalog renders the source symbols as vector SVG', async ({ page }) => {
   await page.goto('#/katalog/katalog-vjezbovnik');
   const grid = page.getByTestId('symbol-grid');

@@ -18,7 +18,31 @@ export function toPosix(p: string): string {
   return p.split(path.sep).join('/');
 }
 
-/** Recursively lists files (repo-relative, POSIX, sorted). Missing directories yield []. */
+/**
+ * Compares names with runs of digits as numbers („vjezba-2” before „vjezba-10”); everything else by
+ * code point, so the order does not depend on the locale.
+ */
+export function naturalCompare(a: string, b: string): number {
+  const re = /(\d+)|(\D+)/g;
+  const pa = a.match(re) ?? [];
+  const pb = b.match(re) ?? [];
+  for (let i = 0; i < Math.min(pa.length, pb.length); i++) {
+    const x = pa[i] as string;
+    const y = pb[i] as string;
+    if (x === y) continue;
+    const nx = /^\d/.test(x);
+    const ny = /^\d/.test(y);
+    if (nx && ny) {
+      const d = Number(x) - Number(y);
+      if (d !== 0) return d;
+      return x.length - y.length; // „007” after „7”
+    }
+    return x < y ? -1 : 1;
+  }
+  return pa.length - pb.length;
+}
+
+/** Recursively lists files (repo-relative, POSIX, in natural order). Missing directories yield []. */
 export async function listFiles(repoRoot: string, relDir: string): Promise<string[]> {
   const abs = path.join(repoRoot, relDir);
   if (!existsSync(abs)) return [];
@@ -33,7 +57,7 @@ export async function listFiles(repoRoot: string, relDir: string): Promise<strin
     }
   };
   await walk(abs);
-  return out.sort();
+  return out.sort(naturalCompare);
 }
 
 export async function readText(repoRoot: string, rel: string): Promise<string> {

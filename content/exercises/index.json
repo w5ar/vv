@@ -19,42 +19,6 @@
       "synthetic": false
     },
     {
-      "id": "vjezba-10-navalno-vozilo-hidrant",
-      "file": "content/exercises/vjezba-10-navalno-vozilo-hidrant.json",
-      "catalogId": "katalog-vjezbovnik",
-      "synthetic": false
-    },
-    {
-      "id": "vjezba-11-izolacijski-aparati",
-      "file": "content/exercises/vjezba-11-izolacijski-aparati.json",
-      "catalogId": "katalog-vjezbovnik",
-      "synthetic": false
-    },
-    {
-      "id": "vjezba-12-b-mlaz",
-      "file": "content/exercises/vjezba-12-b-mlaz.json",
-      "catalogId": "katalog-vjezbovnik",
-      "synthetic": false
-    },
-    {
-      "id": "vjezba-13-pjena",
-      "file": "content/exercises/vjezba-13-pjena.json",
-      "catalogId": "katalog-vjezbovnik",
-      "synthetic": false
-    },
-    {
-      "id": "vjezba-14-pjena-izolacijski-aparati",
-      "file": "content/exercises/vjezba-14-pjena-izolacijski-aparati.json",
-      "catalogId": "katalog-vjezbovnik",
-      "synthetic": false
-    },
-    {
-      "id": "vjezba-15-natjecateljska",
-      "file": "content/exercises/vjezba-15-natjecateljska.json",
-      "catalogId": "katalog-vjezbovnik",
-      "synthetic": false
-    },
-    {
       "id": "vjezba-2-jedan-c-mlaz",
       "file": "content/exercises/vjezba-2-jedan-c-mlaz.json",
       "catalogId": "katalog-vjezbovnik",
@@ -99,6 +63,42 @@
     {
       "id": "vjezba-9-navalno-vozilo",
       "file": "content/exercises/vjezba-9-navalno-vozilo.json",
+      "catalogId": "katalog-vjezbovnik",
+      "synthetic": false
+    },
+    {
+      "id": "vjezba-10-navalno-vozilo-hidrant",
+      "file": "content/exercises/vjezba-10-navalno-vozilo-hidrant.json",
+      "catalogId": "katalog-vjezbovnik",
+      "synthetic": false
+    },
+    {
+      "id": "vjezba-11-izolacijski-aparati",
+      "file": "content/exercises/vjezba-11-izolacijski-aparati.json",
+      "catalogId": "katalog-vjezbovnik",
+      "synthetic": false
+    },
+    {
+      "id": "vjezba-12-b-mlaz",
+      "file": "content/exercises/vjezba-12-b-mlaz.json",
+      "catalogId": "katalog-vjezbovnik",
+      "synthetic": false
+    },
+    {
+      "id": "vjezba-13-pjena",
+      "file": "content/exercises/vjezba-13-pjena.json",
+      "catalogId": "katalog-vjezbovnik",
+      "synthetic": false
+    },
+    {
+      "id": "vjezba-14-pjena-izolacijski-aparati",
+      "file": "content/exercises/vjezba-14-pjena-izolacijski-aparati.json",
+      "catalogId": "katalog-vjezbovnik",
+      "synthetic": false
+    },
+    {
+      "id": "vjezba-15-natjecateljska",
+      "file": "content/exercises/vjezba-15-natjecateljska.json",
       "catalogId": "katalog-vjezbovnik",
       "synthetic": false
     },

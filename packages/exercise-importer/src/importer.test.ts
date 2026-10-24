@@ -9,7 +9,7 @@ import { analyzeDiagram } from './stage-c-diagrams';
 import { analyzeProcedure, buildLexicon } from './stage-d-procedures';
 import { stripComments } from './review-files';
 import { compileExercise } from './stage-f-compile';
-import { findRepoRoot, slugify } from './util';
+import { findRepoRoot, naturalCompare, slugify } from './util';
 
 const repoRoot = findRepoRoot(path.dirname(fileURLToPath(import.meta.url)));
 
@@ -17,6 +17,21 @@ describe('slugify', () => {
   it('transliterates Croatian letters', () => {
     expect(slugify('Faza 2 – Postavljanje mlaznica')).toBe('faza-2-postavljanje-mlaznica');
     expect(slugify('Čišćenje ždrijela đ')).toBe('ciscenje-zdrijela-d');
+  });
+});
+
+describe('naturalCompare', () => {
+  it('orders runs of digits by value and everything else by code point', () => {
+    const names = ['vjezba-10.exercise.json', 'vjezba-2.exercise.json', 'vjezba-1.exercise.json', 'skice/01-skica-9.svg', 'skice/01-skica-11.svg'];
+    expect([...names].sort(naturalCompare)).toEqual([
+      'skice/01-skica-9.svg',
+      'skice/01-skica-11.svg',
+      'vjezba-1.exercise.json',
+      'vjezba-2.exercise.json',
+      'vjezba-10.exercise.json',
+    ]);
+    expect(naturalCompare('a-7', 'a-007')).toBeLessThan(0);
+    expect(naturalCompare('b', 'B')).toBeGreaterThan(0);
   });
 });
 
@@ -208,15 +223,9 @@ describe('full pipeline on repository content', async () => {
   const synthetic = report.datasets.find((d) => d.id === 'synthetic')!;
   const source = report.datasets.find((d) => d.id === 'source')!;
 
-  // Source exercises (in the order of their authoring file names) and the procedure file each one is built from.
+  // Source exercises in the order of their numbers, and the procedure file each one is built from.
   const SOURCE_EXERCISES = [
     ['vjezba-1-dva-c-mlaza', '01-Vjezba-1.md'],
-    ['vjezba-10-navalno-vozilo-hidrant', '10-Vjezba-10.md'],
-    ['vjezba-11-izolacijski-aparati', '11-Vjezba-11.md'],
-    ['vjezba-12-b-mlaz', '12-Vjezba-12.md'],
-    ['vjezba-13-pjena', '13-Vjezba-13.md'],
-    ['vjezba-14-pjena-izolacijski-aparati', '14-Vjezba-14.md'],
-    ['vjezba-15-natjecateljska', '15-Vjezba-15.md'],
     ['vjezba-2-jedan-c-mlaz', '02-Vjezba-2.md'],
     ['vjezba-3-usisne-cijevi', '03-Vjezba-3.md'],
     ['vjezba-4-usisne-cijevi', '04-Vjezba-4.md'],
@@ -225,7 +234,18 @@ describe('full pipeline on repository content', async () => {
     ['vjezba-7-autocisterna', '07-Vjezba-7.md'],
     ['vjezba-8-autocisterna-hidrant', '08-Vjezba-8.md'],
     ['vjezba-9-navalno-vozilo', '09-Vjezba-9.md'],
+    ['vjezba-10-navalno-vozilo-hidrant', '10-Vjezba-10.md'],
+    ['vjezba-11-izolacijski-aparati', '11-Vjezba-11.md'],
+    ['vjezba-12-b-mlaz', '12-Vjezba-12.md'],
+    ['vjezba-13-pjena', '13-Vjezba-13.md'],
+    ['vjezba-14-pjena-izolacijski-aparati', '14-Vjezba-14.md'],
+    ['vjezba-15-natjecateljska', '15-Vjezba-15.md'],
   ] as const;
+
+  it('lists the exercises in the order of their numbers (Vježba 2 before Vježba 10)', () => {
+    const index = JSON.parse(outputs.get('content/exercises/index.json')!) as { exercises: { id: string; synthetic: boolean }[] };
+    expect(index.exercises.filter((e) => !e.synthetic).map((e) => e.id)).toEqual(SOURCE_EXERCISES.map(([id]) => id));
+  });
 
   it('compiles the source exercises without errors and with full traceability', () => {
     expect(source.inventory.length).toBeGreaterThan(90);

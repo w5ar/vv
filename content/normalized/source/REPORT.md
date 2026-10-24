@@ -3656,12 +3656,6 @@ Naslov: Poligonske vježbe
 | Vježba | Izvor | Izlaz | Ispravno | Greške | Upozorenja | Koraci | Povezani s izvorom | Demonstracija završava |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | vjezba-1-dva-c-mlaza | content/authoring/source/vjezba-1.exercise.json | content/exercises/vjezba-1-dva-c-mlaza.json | da | 0 | 0 | 47 | 47 | da |
-| vjezba-10-navalno-vozilo-hidrant | content/authoring/source/vjezba-10.exercise.json | content/exercises/vjezba-10-navalno-vozilo-hidrant.json | da | 0 | 0 | 44 | 44 | da |
-| vjezba-11-izolacijski-aparati | content/authoring/source/vjezba-11.exercise.json | content/exercises/vjezba-11-izolacijski-aparati.json | da | 0 | 0 | 50 | 50 | da |
-| vjezba-12-b-mlaz | content/authoring/source/vjezba-12.exercise.json | content/exercises/vjezba-12-b-mlaz.json | da | 0 | 0 | 45 | 45 | da |
-| vjezba-13-pjena | content/authoring/source/vjezba-13.exercise.json | content/exercises/vjezba-13-pjena.json | da | 0 | 0 | 52 | 52 | da |
-| vjezba-14-pjena-izolacijski-aparati | content/authoring/source/vjezba-14.exercise.json | content/exercises/vjezba-14-pjena-izolacijski-aparati.json | da | 0 | 0 | 55 | 55 | da |
-| vjezba-15-natjecateljska | content/authoring/source/vjezba-15.exercise.json | content/exercises/vjezba-15-natjecateljska.json | da | 0 | 2 | 98 | 98 | da |
 | vjezba-2-jedan-c-mlaz | content/authoring/source/vjezba-2.exercise.json | content/exercises/vjezba-2-jedan-c-mlaz.json | da | 0 | 0 | 15 | 15 | da |
 | vjezba-3-usisne-cijevi | content/authoring/source/vjezba-3.exercise.json | content/exercises/vjezba-3-usisne-cijevi.json | da | 0 | 0 | 59 | 59 | da |
 | vjezba-4-usisne-cijevi | content/authoring/source/vjezba-4.exercise.json | content/exercises/vjezba-4-usisne-cijevi.json | da | 0 | 3 | 49 | 49 | da |
@@ -3670,6 +3664,12 @@ Naslov: Poligonske vježbe
 | vjezba-7-autocisterna | content/authoring/source/vjezba-7.exercise.json | content/exercises/vjezba-7-autocisterna.json | da | 0 | 0 | 67 | 67 | da |
 | vjezba-8-autocisterna-hidrant | content/authoring/source/vjezba-8.exercise.json | content/exercises/vjezba-8-autocisterna-hidrant.json | da | 0 | 0 | 17 | 17 | da |
 | vjezba-9-navalno-vozilo | content/authoring/source/vjezba-9.exercise.json | content/exercises/vjezba-9-navalno-vozilo.json | da | 0 | 1 | 93 | 93 | da |
+| vjezba-10-navalno-vozilo-hidrant | content/authoring/source/vjezba-10.exercise.json | content/exercises/vjezba-10-navalno-vozilo-hidrant.json | da | 0 | 0 | 44 | 44 | da |
+| vjezba-11-izolacijski-aparati | content/authoring/source/vjezba-11.exercise.json | content/exercises/vjezba-11-izolacijski-aparati.json | da | 0 | 0 | 50 | 50 | da |
+| vjezba-12-b-mlaz | content/authoring/source/vjezba-12.exercise.json | content/exercises/vjezba-12-b-mlaz.json | da | 0 | 0 | 45 | 45 | da |
+| vjezba-13-pjena | content/authoring/source/vjezba-13.exercise.json | content/exercises/vjezba-13-pjena.json | da | 0 | 0 | 52 | 52 | da |
+| vjezba-14-pjena-izolacijski-aparati | content/authoring/source/vjezba-14.exercise.json | content/exercises/vjezba-14-pjena-izolacijski-aparati.json | da | 0 | 0 | 55 | 55 | da |
+| vjezba-15-natjecateljska | content/authoring/source/vjezba-15.exercise.json | content/exercises/vjezba-15-natjecateljska.json | da | 0 | 2 | 98 | 98 | da |
 
 ## Dijagnostika
 
@@ -3971,190 +3971,6 @@ Naslov: Poligonske vježbe
 | info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-drugi: izgovor „Drugi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
 | info | F | audio.order-not-in-text | Korak vodom-stoj-vode: zapovijed „Prvi mlaz – vodom stoj!” (act.vodom-stoj-prvi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-1.exercise.json |
 | info | F | audio.order-not-in-text | Korak vodom-stoj-vode: zapovijed „Drugi mlaz – vodom stoj!” (act.vodom-stoj-drugi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-1.exercise.json |
-| info | F | mapping.role-mismatch | Korak vodna-oprema: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak strojar-kod-pumpe: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak polaganje-b-prva: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak polaganje-b-druga: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak navalna-oprema-n1: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak navalna-oprema-n2: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak navalna-do-kraja-b: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak vodna-povratak: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak strojar-nastavak: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak strojar-b-hidrant: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak vodom-stoj-vode: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-mlaznice: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-savijanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-motanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-nosaci: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak uzimanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-polozaj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak oprema-u-vozilo: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-b: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-b-motanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-prvi: izgovor „Prvi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
-| info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-drugi: izgovor „Drugi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
-| info | F | audio.order-not-in-text | Korak zbor: zapovijed „Odjeljenje – zbor!” (act.zbor) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | audio.order-not-in-text | Korak prvi-mlaz: zapovijed „Za prvi mlaz s dvije „C” cijevi pravac …… naprijed!” (act.prvi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | audio.order-not-in-text | Korak drugi-mlaz-zapovijed: zapovijed „Za drugi mlaz s dvije „C” cijevi pravac …. naprijed!” (act.drugi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | audio.order-not-in-text | Korak vodom-stoj: zapovijed „Prvi i drugi mlaz – vodom stoj!” (act.vodom-stoj-mlazovi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-10.exercise.json |
-| info | F | mapping.role-mismatch | Korak navalna-razdjelnica: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak prvi-mlaz-v1: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak prvi-mlaz-predaja: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak prvi-mlaz-vodu-daj: izvorni tekst spominje uloge role.zapovjednik, role.vodja-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak vodna-natrag: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak strojar-nastavak: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak strojar-b-hidrant: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak drugi-mlaz-zapovijed: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak drugi-mlaz-predaja: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak drugi-mlaz-oprema: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak drugi-mlaz-v2: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak drugi-mlaz-v1-mlaznica: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak drugi-mlaz-v2-luk: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak drugi-mlaz-vodu-daj: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak drugi-mlaz-potvrda: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak vodom-stoj: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak vodom-stoj-vode: izvorni tekst spominje uloge role.zapovjednik, role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak zatvaranje-vode: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-n1: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-zapovjednik: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-drugi: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-drugi-motanje: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-drugi-odnosenje: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-prvi: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-prvi-motanje: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-prvi-odnosenje: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-b: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-b-motanje: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-prvi: izgovor „Prvi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
-| info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-drugi: izgovor „Drugi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
-| info | F | audio.order-not-in-text | Korak zbor: zapovijed „Odjeljenje – zbor!” (act.zbor) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | audio.order-not-in-text | Korak vodom-stoj: zapovijed „Prvi i drugi mlaz – vodom stoj!” (act.vodom-stoj-mlazovi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-11.exercise.json |
-| info | F | mapping.role-mismatch | Korak navalna-oprema-n1: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
-| info | F | mapping.role-mismatch | Korak navalna-oprema-n2: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
-| info | F | mapping.role-mismatch | Korak prvi-mlaz-vodu-daj: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
-| info | F | mapping.role-mismatch | Korak vodom-stoj-vode: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-mlaznice: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-savijanje: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-motanje: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-nosaci: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
-| info | F | mapping.role-mismatch | Korak uzimanje: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-polozaj: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
-| info | F | mapping.role-mismatch | Korak oprema-u-vozilo: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-b: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-b-motanje: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
-| info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-drugi: izgovor „Drugi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
-| info | F | audio.order-not-in-text | Korak zbor: zapovijed „Odjeljenje – zbor!” (act.zbor) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-12.exercise.json |
-| info | F | audio.order-not-in-text | Korak drugi-mlaz-zapovijed: zapovijed „Za drugi mlaz s dvije „C” cijevi pravac …. naprijed!” (act.drugi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-12.exercise.json |
-| info | F | audio.order-not-in-text | Korak vodom-stoj-vode: zapovijed „Drugi mlaz – vodom stoj!” (act.vodom-stoj-drugi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-12.exercise.json |
-| info | F | mapping.role-mismatch | Korak navalna-oprema-n1: izvorni tekst spominje uloge role.zapovjednik, role.clan-navalne, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak navalna-oprema-n2: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak navalna-do-kraja-b: izvorni tekst spominje uloge role.zapovjednik, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak zapovjednik-razdjelnica: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak v1-razdjelnica: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne, role.clan-navalne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak v2-pjenilo: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne, role.clan-navalne, role.vodja-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak prvi-mlaz: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak prvi-mlaz-n1: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak pjenu-daj: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak posluzivanje: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak drugi-mlaz-oprema: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak drugi-mlaz-v2: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak drugi-mlaz-v1-mlaznica: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak drugi-mlaz-v2-luk: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak drugi-mlaz-vodu-daj: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak zatvaranje-prvog: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak zatvaranje-drugog: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-mlaznice: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-savijanje: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak uzimanje: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-polozaj: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak oprema-u-vozilo: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | audio.order-not-in-text | Korak zbor: zapovijed „Odjeljenje – zbor!” (act.zbor) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | audio.order-not-in-text | Korak drugi-mlaz-zapovijed: zapovijed „Za drugi mlaz s dvije „C” cijevi pravac …. naprijed!” (act.drugi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-13.exercise.json |
-| info | F | mapping.role-mismatch | Korak navalna-razdjelnica: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
-| info | F | mapping.role-mismatch | Korak prvi-mlaz-zapovijed: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
-| info | F | mapping.role-mismatch | Korak prvi-mlaz: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
-| info | F | mapping.role-mismatch | Korak prvi-mlaz-mm: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
-| info | F | mapping.role-mismatch | Korak prvi-mlaz-v1: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
-| info | F | mapping.role-mismatch | Korak prvi-mlaz-predaja: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
-| info | F | mapping.role-mismatch | Korak vodna-mjesta: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
-| info | F | mapping.role-mismatch | Korak pjenu-daj: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
-| info | F | mapping.role-mismatch | Korak vodom-stoj: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
-| info | F | mapping.role-mismatch | Korak pjenom-stoj: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
-| info | F | mapping.role-mismatch | Korak zatvaranje-prvog: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-n1: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
-| info | F | audio.order-not-in-text | Korak zbor: zapovijed „Odjeljenje – zbor!” (act.zbor) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-14.exercise.json |
-| info | F | audio.order-not-in-text | Korak drugi-mlaz-zapovijed: zapovijed „Za drugi mlaz s dvije „C” cijevi pravac …. naprijed!” (act.drugi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-14.exercise.json |
-| info | F | audio.order-not-in-text | Korak drugi-stoj: zapovijed „Drugi mlaz – vodom stoj!” (act.vodom-stoj-drugi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-14.exercise.json |
-| info | F | audio.order-not-in-text | Korak zatvaranje-drugog: zapovijed „Vodom stoj!” (act.z-vodom-stoj) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-14.exercise.json |
-| info | F | mapping.role-mismatch | Korak cetiri-usisne: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak cijevna-prva-cijev: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak v1-sitka: izvorni tekst spominje uloge role.strojar, role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak v2-torbice: izvorni tekst spominje uloge role.strojar, role.vodja-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak kljuc-c2: izvorni tekst spominje uloge role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak c1-ventil: izvorni tekst spominje uloge role.vodja-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak strojar-podize: izvorni tekst spominje uloge role.vodja-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak c2-ceka: izvorni tekst spominje uloge role.clan-vodne, role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak v1-vezanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak u-vodu: izvorni tekst spominje uloge role.vodja-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak prihvat-v1: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak prihvat-ostali: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak navalna-b-oprema: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak polaganje-b-prva: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak polaganje-b-druga: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak navalna-oprema-n1: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak navalna-oprema-n2: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak teklic-vodu-daj: izvorni tekst spominje uloge role.strojar, role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak strojar-tlacni: izvorni tekst spominje uloge role.teklic, role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak nakon-gotovo: izvorni tekst spominje uloge role.strojar, role.vodja-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak vodna-ceka: izvorni tekst spominje uloge role.strojar, role.vodja-cijevne, role.clan-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak prvi-mlaz-n1: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak prvi-mlaz-ventil: izvorni tekst spominje uloge role.strojar, role.teklic koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak drugi-mlaz-oprema: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak drugi-mlaz-v2: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak drugi-mlaz-v1: izvorni tekst spominje uloge role.clan-vodne, role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak drugi-mlaz-ventil: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak drugi-mlaz-v2-luk: izvorni tekst spominje uloge role.vodja-vodne, role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak vodom-stoj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak vodom-stoj-vode: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-mlaznice: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-razdjelnica: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-savijanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-motanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-nosaci: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak uzimanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak posprema-polozaj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak opremu-uzmi: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak stoj-celom-nazad: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak odlaganje-opreme: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak navalna-u-stroj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak cijevni-savijanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak cijevni-motanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak z-teklic-stroj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak v1-razvezuje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak c1-uze-sitka: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak v1-prvi-spoj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak v2-drugi-spoj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak c2-treci-spoj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak c1-sitka: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak v1-skida-uze: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak c1-skida-karabin: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak kljuc-v1: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak prijelaz-r2: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak prijelaz-r3: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak prijelaz-r4: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak vodna-natrag: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak cijevna-natrag: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak uzad-natrag: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | mapping.role-mismatch | Korak u-stroj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
-| warning | F | diagram.count-mismatch | Faza faza.usisni-b (na kraju): „Teklić” – na crtežu 0, u vježbi 1. | content/source/skice/15-skica-75.svg |
-| warning | F | diagram.count-mismatch | Faza faza.prvi-mlaz (na kraju): „Teklić” – na crtežu 0, u vježbi 1. | content/source/skice/15-skica-76.svg |
-| info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-prvi: izgovor „Prvi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
-| info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-drugi: izgovor „Drugi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
-| info | F | audio.order-not-in-text | Korak spoj-2: zapovijed „Diži – spusti” (act.dizi-spusti-2) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-15.exercise.json |
-| info | F | audio.order-not-in-text | Korak vodom-stoj: zapovijed „Prvi i drugi mlaz – vodom stoj!” (act.vodom-stoj-mlazovi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-15.exercise.json |
 | info | F | mapping.role-mismatch | Korak b-vod: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-2.exercise.json |
 | info | F | mapping.role-mismatch | Korak vodu-daj: izvorni tekst spominje uloge role.strojar, role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-2.exercise.json |
 | info | F | mapping.role-mismatch | Korak posprema-strojar: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-2.exercise.json |
@@ -4413,3 +4229,187 @@ Naslov: Poligonske vježbe
 | info | F | audio.order-not-in-text | Korak prvi-mlaz: zapovijed „Za prvi mlaz s dvije „C” cijevi pravac … naprijed!” (act.prvi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-9.exercise.json |
 | info | F | audio.order-not-in-text | Korak drugi-mlaz-zapovijed: zapovijed „Za drugi mlaz s dvije „C” cijevi pravac … naprijed!” (act.drugi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-9.exercise.json |
 | info | F | audio.order-not-in-text | Korak vodom-stoj: zapovijed „Prvi i drugi mlaz – vodom stoj!” (act.vodom-stoj-mlazovi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-9.exercise.json |
+| info | F | mapping.role-mismatch | Korak vodna-oprema: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak strojar-kod-pumpe: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak polaganje-b-prva: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak polaganje-b-druga: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak navalna-oprema-n1: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak navalna-oprema-n2: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak navalna-do-kraja-b: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak vodna-povratak: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak strojar-nastavak: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak strojar-b-hidrant: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak vodom-stoj-vode: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-mlaznice: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-savijanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-motanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-nosaci: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak uzimanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-polozaj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak oprema-u-vozilo: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-b: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-b-motanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-prvi: izgovor „Prvi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
+| info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-drugi: izgovor „Drugi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
+| info | F | audio.order-not-in-text | Korak zbor: zapovijed „Odjeljenje – zbor!” (act.zbor) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | audio.order-not-in-text | Korak prvi-mlaz: zapovijed „Za prvi mlaz s dvije „C” cijevi pravac …… naprijed!” (act.prvi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | audio.order-not-in-text | Korak drugi-mlaz-zapovijed: zapovijed „Za drugi mlaz s dvije „C” cijevi pravac …. naprijed!” (act.drugi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | audio.order-not-in-text | Korak vodom-stoj: zapovijed „Prvi i drugi mlaz – vodom stoj!” (act.vodom-stoj-mlazovi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-10.exercise.json |
+| info | F | mapping.role-mismatch | Korak navalna-razdjelnica: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak prvi-mlaz-v1: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak prvi-mlaz-predaja: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak prvi-mlaz-vodu-daj: izvorni tekst spominje uloge role.zapovjednik, role.vodja-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak vodna-natrag: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak strojar-nastavak: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak strojar-b-hidrant: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak drugi-mlaz-zapovijed: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak drugi-mlaz-predaja: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak drugi-mlaz-oprema: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak drugi-mlaz-v2: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak drugi-mlaz-v1-mlaznica: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak drugi-mlaz-v2-luk: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak drugi-mlaz-vodu-daj: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak drugi-mlaz-potvrda: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak vodom-stoj: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak vodom-stoj-vode: izvorni tekst spominje uloge role.zapovjednik, role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak zatvaranje-vode: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-n1: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-zapovjednik: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-drugi: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-drugi-motanje: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-drugi-odnosenje: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-prvi: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-prvi-motanje: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-prvi-odnosenje: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-b: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-b-motanje: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-prvi: izgovor „Prvi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
+| info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-drugi: izgovor „Drugi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
+| info | F | audio.order-not-in-text | Korak zbor: zapovijed „Odjeljenje – zbor!” (act.zbor) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | audio.order-not-in-text | Korak vodom-stoj: zapovijed „Prvi i drugi mlaz – vodom stoj!” (act.vodom-stoj-mlazovi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-11.exercise.json |
+| info | F | mapping.role-mismatch | Korak navalna-oprema-n1: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak navalna-oprema-n2: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak prvi-mlaz-vodu-daj: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak vodom-stoj-vode: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-mlaznice: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-savijanje: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-motanje: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-nosaci: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak uzimanje: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-polozaj: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak oprema-u-vozilo: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-b: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-b-motanje: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-drugi: izgovor „Drugi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
+| info | F | audio.order-not-in-text | Korak zbor: zapovijed „Odjeljenje – zbor!” (act.zbor) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | audio.order-not-in-text | Korak drugi-mlaz-zapovijed: zapovijed „Za drugi mlaz s dvije „C” cijevi pravac …. naprijed!” (act.drugi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | audio.order-not-in-text | Korak vodom-stoj-vode: zapovijed „Drugi mlaz – vodom stoj!” (act.vodom-stoj-drugi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-12.exercise.json |
+| info | F | mapping.role-mismatch | Korak navalna-oprema-n1: izvorni tekst spominje uloge role.zapovjednik, role.clan-navalne, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak navalna-oprema-n2: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak navalna-do-kraja-b: izvorni tekst spominje uloge role.zapovjednik, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak zapovjednik-razdjelnica: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne, role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak v1-razdjelnica: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne, role.clan-navalne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak v2-pjenilo: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne, role.clan-navalne, role.vodja-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak prvi-mlaz: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak prvi-mlaz-n1: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak pjenu-daj: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak posluzivanje: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak drugi-mlaz-oprema: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak drugi-mlaz-v2: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak drugi-mlaz-v1-mlaznica: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak drugi-mlaz-v2-luk: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak drugi-mlaz-vodu-daj: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak zatvaranje-prvog: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak zatvaranje-drugog: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-mlaznice: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-savijanje: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak uzimanje: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-polozaj: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak oprema-u-vozilo: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | audio.order-not-in-text | Korak zbor: zapovijed „Odjeljenje – zbor!” (act.zbor) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | audio.order-not-in-text | Korak drugi-mlaz-zapovijed: zapovijed „Za drugi mlaz s dvije „C” cijevi pravac …. naprijed!” (act.drugi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-13.exercise.json |
+| info | F | mapping.role-mismatch | Korak navalna-razdjelnica: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
+| info | F | mapping.role-mismatch | Korak prvi-mlaz-zapovijed: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
+| info | F | mapping.role-mismatch | Korak prvi-mlaz: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
+| info | F | mapping.role-mismatch | Korak prvi-mlaz-mm: izvorni tekst spominje uloge role.vodja-navalne, role.clan-navalne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
+| info | F | mapping.role-mismatch | Korak prvi-mlaz-v1: izvorni tekst spominje uloge role.zapovjednik, role.vodja-navalne, role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
+| info | F | mapping.role-mismatch | Korak prvi-mlaz-predaja: izvorni tekst spominje uloge role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
+| info | F | mapping.role-mismatch | Korak vodna-mjesta: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
+| info | F | mapping.role-mismatch | Korak pjenu-daj: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
+| info | F | mapping.role-mismatch | Korak vodom-stoj: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
+| info | F | mapping.role-mismatch | Korak pjenom-stoj: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
+| info | F | mapping.role-mismatch | Korak zatvaranje-prvog: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-n1: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-14.exercise.json |
+| info | F | audio.order-not-in-text | Korak zbor: zapovijed „Odjeljenje – zbor!” (act.zbor) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-14.exercise.json |
+| info | F | audio.order-not-in-text | Korak drugi-mlaz-zapovijed: zapovijed „Za drugi mlaz s dvije „C” cijevi pravac …. naprijed!” (act.drugi-mlaz-naprijed) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-14.exercise.json |
+| info | F | audio.order-not-in-text | Korak drugi-stoj: zapovijed „Drugi mlaz – vodom stoj!” (act.vodom-stoj-drugi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-14.exercise.json |
+| info | F | audio.order-not-in-text | Korak zatvaranje-drugog: zapovijed „Vodom stoj!” (act.z-vodom-stoj) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-14.exercise.json |
+| info | F | mapping.role-mismatch | Korak cetiri-usisne: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak cijevna-prva-cijev: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak v1-sitka: izvorni tekst spominje uloge role.strojar, role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak v2-torbice: izvorni tekst spominje uloge role.strojar, role.vodja-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak kljuc-c2: izvorni tekst spominje uloge role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak c1-ventil: izvorni tekst spominje uloge role.vodja-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak strojar-podize: izvorni tekst spominje uloge role.vodja-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak c2-ceka: izvorni tekst spominje uloge role.clan-vodne, role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak v1-vezanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak u-vodu: izvorni tekst spominje uloge role.vodja-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak prihvat-v1: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak prihvat-ostali: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak navalna-b-oprema: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak polaganje-b-prva: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak polaganje-b-druga: izvorni tekst spominje uloge role.zapovjednik koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak navalna-oprema-n1: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak navalna-oprema-n2: izvorni tekst spominje uloge role.vodja-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak teklic-vodu-daj: izvorni tekst spominje uloge role.strojar, role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak strojar-tlacni: izvorni tekst spominje uloge role.teklic, role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak nakon-gotovo: izvorni tekst spominje uloge role.strojar, role.vodja-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak vodna-ceka: izvorni tekst spominje uloge role.strojar, role.vodja-cijevne, role.clan-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak prvi-mlaz-n1: izvorni tekst spominje uloge role.clan-navalne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak prvi-mlaz-ventil: izvorni tekst spominje uloge role.strojar, role.teklic koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak drugi-mlaz-oprema: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak drugi-mlaz-v2: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak drugi-mlaz-v1: izvorni tekst spominje uloge role.clan-vodne, role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak drugi-mlaz-ventil: izvorni tekst spominje uloge role.vodja-vodne, role.clan-vodne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak drugi-mlaz-v2-luk: izvorni tekst spominje uloge role.vodja-vodne, role.vodja-cijevne koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak vodom-stoj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak vodom-stoj-vode: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-mlaznice: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-razdjelnica: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-savijanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-motanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-nosaci: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak uzimanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak posprema-polozaj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak opremu-uzmi: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak stoj-celom-nazad: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak odlaganje-opreme: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak navalna-u-stroj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak cijevni-savijanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak cijevni-motanje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak z-teklic-stroj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak v1-razvezuje: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak c1-uze-sitka: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak v1-prvi-spoj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak v2-drugi-spoj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak c2-treci-spoj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak c1-sitka: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak v1-skida-uze: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak c1-skida-karabin: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak kljuc-v1: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak prijelaz-r2: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak prijelaz-r3: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak prijelaz-r4: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak vodna-natrag: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak cijevna-natrag: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak uzad-natrag: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | mapping.role-mismatch | Korak u-stroj: izvorni tekst spominje uloge role.strojar koje nisu među izvršiteljima koraka. | content/authoring/source/vjezba-15.exercise.json |
+| warning | F | diagram.count-mismatch | Faza faza.usisni-b (na kraju): „Teklić” – na crtežu 0, u vježbi 1. | content/source/skice/15-skica-75.svg |
+| warning | F | diagram.count-mismatch | Faza faza.prvi-mlaz (na kraju): „Teklić” – na crtežu 0, u vježbi 1. | content/source/skice/15-skica-76.svg |
+| info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-prvi: izgovor „Prvi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
+| info | F | audio.speech-not-verbatim | Radnja act.vodom-stoj-drugi: izgovor „Drugi mlaz – vodom stoj!” nije doslovni navod iz izvora radnje; provjeriti. |  |
+| info | F | audio.order-not-in-text | Korak spoj-2: zapovijed „Diži – spusti” (act.dizi-spusti-2) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-15.exercise.json |
+| info | F | audio.order-not-in-text | Korak vodom-stoj: zapovijed „Prvi i drugi mlaz – vodom stoj!” (act.vodom-stoj-mlazovi) nije doslovno u tekstu koraka; izgovara se nakon pripadajućeg dijela opisa. | content/authoring/source/vjezba-15.exercise.json |
